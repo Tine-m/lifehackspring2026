@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<title>Newsletters</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../public/css/main-page/styles.css" th:href="@{css/main-page/styles.css}" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="pagewrapper">
+    <header>
+        <img class="logo" th:src="@{/images/main-page/lifehacklogo.png}" alt="logo"/>
+    </header>
+    <h1>Forår 2026</h1>
+    <form class="card-grid" method="get">
+        <div class="card" th:each="site : ${lifehackSites}">
+            <img class="card-image" th:src="@{${site.thumbnail}}"></img>
+            <div class="card-title" th:text="${site.title}"></div>
+            <button class="card-cta" type="submit" th:formaction="${site.url}" th:text="${site.cta}"></button>
+        </div>
+    </form>
+</div>
+
+<div th:if="${session.currentUser == null}">
+    <h3>Hvis du behøver at logge ind - så gør det her</h3>
+</div>
+
+<form class="generic-form" method="post" th:if="${session.currentUser == null}">
+    <input type="text" name="username" placeholder="Indtast brugernavn"/>
+    <input type="password" name="password" placeholder="Indtast password"/>
+    <button class="btn btn-ok" type="submit" formaction="/login">Login</button>
+    <div>
+        <p class="error"
+           th:unless="${#strings.isEmpty(message)}"
+           th:text="${message}"></p>
+    </div>
+</form>
+
+<div th:if="${session.currentUser != null}">
+    <p>Du er logget ind</p>
+</div>
+
+</body>
+</html>
