@@ -13,18 +13,18 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <javalin.version>6.1.3</javalin.version>
-        <javalin-rendering.version>6.1.3</javalin-rendering.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <javalin.version>6.5.0</javalin.version>
+        <javalin-rendering.version>6.5.0</javalin-rendering.version>
         <thymeleaf.version>3.1.2.RELEASE</thymeleaf.version>
         <thymeleaf-extras.version>3.0.4.RELEASE</thymeleaf-extras.version>
-        <slf4j.version>2.0.12</slf4j.version>
-        <jackson.version>2.17.0-rc1</jackson.version>
-        <hikariCP.version>5.1.0</hikariCP.version>
-        <junit.version>5.10.2</junit.version>
-        <hamcrest.version>2.2</hamcrest.version>
-        <postgresql.version>42.7.2</postgresql.version>
+        <slf4j.version>2.0.17</slf4j.version>
+        <jackson.version>2.18.3</jackson.version>
+        <hikariCP.version>6.2.1</hikariCP.version>
+        <junit.version>5.12.0</junit.version>
+        <hamcrest.version>3.0</hamcrest.version>
+        <postgresql.version>42.7.5</postgresql.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
