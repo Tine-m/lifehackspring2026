@@ -1,5 +1,7 @@
 package app.controllers.teamD;
 
+import app.controllers.MainController;
+import app.entities.LifehackSite;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
@@ -13,4 +15,5 @@ public class teamDController {
     private static void nemMadHomePage(@NotNull Context ctx) {
         ctx.render("teamD/index.html");
     }
+
 }

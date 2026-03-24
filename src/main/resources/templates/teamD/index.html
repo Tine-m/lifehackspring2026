@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="DK">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nem Mad - Find Opskrifter</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamD/main.css}">
+    <link rel="stylesheet" th:href="@{/css/teamD/indexStyles.css}">
+    <link rel="stylesheet" th:href="@{/css/teamD/leftColumnStyles.css}">
+    <link rel="stylesheet" th:href="@{/css/teamD/mainColumnStyles.css}">
+
+    <link rel="stylesheet" href="../../public/css/teamD/main.css">
+    <link rel="stylesheet" href="../../public/css/teamD/indexStyles.css">
+    <link rel="stylesheet" href="../../public/css/teamD/leftColumnStyles.css">
+    <link rel="stylesheet" href="../../public/css/teamD/mainColumnStyles.css">
 </head>
 <body>
-<h1>NÆM MAD</h1>
+<div class="main-body">
+    <div class="left-col" style="overflow: scroll; height: 100vh;">
+        <header class="header-block">
+            <div class="head-navigation">
+                <div class="head-nav-left">
+                    <a th:href="@{/}"><img th:src="@{/images/teamD/home.png}" class="navbar-icon"></a> <!-- SKAL SENDE TILBAGE TIL HOVEDMENU -->
+                </div>
+                <div class="head-nav-center">
+                    <h1 class="head-title">Spisekammer</h1>
+                    <div class="head-sub-title"> Du har x Ingredienser </div>
+                </div>
+                <div class="head-nav-right">
+                    <a><img th:src="@{/images/teamD/fridge.png}" class="navbar-icon"></a>
+                </div>
+            </div>
+            <div class="head-searchbar"></div>
+        </header>
+        <section class="content-block">
+            <div class="section-block-wrapper">
+                <div class="section-block"> <!----> </div>
+                <div class="assume-section"></div>
+                <div class="section-block"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="main-col" style="overflow: scroll; height: 100vh;">
+        <header class="header-block">
+            <div class="head-navigation">
+                <div class="head-nav-left"> <!----> </div>
+                <div class="head-nav-center">
+                    <h1 class="head-title">Nem Mad</h1>
+                    <div class="head-sub-title"> Du kan lave x opskrifter </div>
+                </div>
+                <div class="head-nav-right"> <!----> </div>
+            </div>
+            <div class="head-searchbar"></div>
+        </header>
+        <section class="content-block">
+            <div class="section-block-wrapper">
+                <div class="section-block"> <!----> </div>
+                <div class="assume-section"></div>
+                <div class="section-block"></div>
+            </div>
+            <div class="wrapper">
+                <div>Du kan lave X antal retter</div>
+
+                <div>opskrifterne</div>
+            </div>
+
+        </section>
+    </div>
+</div>
 </body>
 </html>

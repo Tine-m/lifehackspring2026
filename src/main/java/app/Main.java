@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamD.teamDController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
@@ -38,6 +39,9 @@ public class Main
 
         //Philosophers app
         QuoteController.addRoutes(app, connectionPool);
+
+        //Nem Mad app
+        teamDController.addRoutes(app, connectionPool);
 
     }
 }
