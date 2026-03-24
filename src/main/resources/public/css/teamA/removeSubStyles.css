@@ -116,7 +116,16 @@ input[type=checkbox]:checked {
     color: #8B94B5;
     width: 250px;
     justify-self: right;
+}
 
+#cancel-button:hover{
+    cursor: pointer;
+    border: 1px solid #3D7BFF;
+}
+
+#remove-sub-button:hover{
+    cursor: pointer;
+    border: 1px solid white;
 }
 
 #remove-sub-button {

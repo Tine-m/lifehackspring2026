@@ -155,6 +155,9 @@ h1 {
     align-self: center;
     margin-right: 20px;
     font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
 }
 
 #close-button:hover{

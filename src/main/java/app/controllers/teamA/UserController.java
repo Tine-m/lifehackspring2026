@@ -66,7 +66,7 @@ public class UserController {
 
     public static void logout(Context ctx) {
         ctx.req().getSession().invalidate();
-        ctx.redirect("teamA/login");
+        ctx.redirect("/teamA/login");
     }
 
 

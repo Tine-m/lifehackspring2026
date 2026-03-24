@@ -10,18 +10,16 @@
 
 <body>
 <header>
-    <div id="left" class="mode-box">
-        <a href="frontpage.html">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 9">
-                <path fill="white" d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5"/>
-                <path fill="white"
-                      d="M6 8.5a.47.47 0 0 1-.35-.15l-3.5-3.5c-.2-.2-.2-.51 0-.71L5.65.65c.2-.2.51-.2.71 0s.2.51 0 .71L3.21 4.51l3.15 3.15c.2.2.2.51 0 .71c-.1.1-.23.15-.35.15Z"/>
-            </svg>
-        </a>
-    </div>
+    <a id="left" class="mode-box" th:href="@{/teamA/frontpage}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 9">
+            <path fill="white" d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5"/>
+            <path fill="white"
+                  d="M6 8.5a.47.47 0 0 1-.35-.15l-3.5-3.5c-.2-.2-.2-.51 0-.71L5.65.65c.2-.2.51-.2.71 0s.2.51 0 .71L3.21 4.51l3.15 3.15c.2.2.2.51 0 .71c-.1.1-.23.15-.35.15Z"/>
+        </svg>
+    </a>
 
     <div id="center">
-        <a href="frontpage.html">
+        <a th:href="@{/teamA/frontpage}">
             <svg width="100%" viewBox="0 0 680 320">
                 <defs>
                     <style>
@@ -105,11 +103,11 @@
 <div class="box-grid">
     <div class="menuGrid">
         <div class="box" id="menu-box" style="grid-area: menu-box">
-            <p>Tilføj Abonnement</p>
-            <p>Fjern Abonnement</p>
-            <p>Rediger Abonnement</p>
-            <p>Profil</p>
-            <p>Log ud</p>
+            <a th:href="@{/teamA/createSubscriptions}"><p>Tilføj Abonnement</p></a>
+            <a th:href="@{/teamA/removeSubscriptions}"><p>Fjern Abonnement</p></a>
+            <a href=""><p>Rediger Abonnement</p></a>
+            <a href=""><p>Profil</p></a>
+            <a th:href="@{/teamA/logout}"><p>Log Ud</p></a>
         </div>
         <div class="box" id="profile-box" style="grid-area: profile-box">
             <p>Brugernavn</p>
@@ -124,7 +122,7 @@
     <div class="add-subscription-box">
         <div class="add-head-grid">
             <h1 id="add-title" style="grid-area: add-box">Tilføj Abonnement</h1>
-            <button id="close-button" style="grid-area: close-box">X</button>
+            <a id="close-button" style="grid-area: close-box" th:href="@{/teamA/frontpage}">X</a>
             <hr class="divider">
         </div>
 
@@ -149,10 +147,9 @@
             </select>
             </div>
 
-
         <div class="add-footer-grid" style="grid-area: add-footer">
             <hr class="divider">
-            <button type="button" th:onclick="|window.location.href='@{/teamA/frontpage}'|" id="cancel-button" style="grid-area: cancel">Annuler</button>
+            <button type="button" th:onclick="|window.location.href='@{/teamA/createSubscriptions}'|" id="cancel-button" style="grid-area: cancel">Annuler</button>
             <button type="submit" id="add-sub-button" style="grid-area: add">Tilføj Valg</button>
         </div>
         </form>

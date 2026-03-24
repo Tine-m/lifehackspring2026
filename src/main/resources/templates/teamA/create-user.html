@@ -10,13 +10,13 @@
 
 <body>
 <header>
-    <div id="left" class="mode-box">
+    <a id="left" class="mode-box" th:href="@{/}">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 9">
             <path fill="white" d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5"/>
             <path fill="white"
                   d="M6 8.5a.47.47 0 0 1-.35-.15l-3.5-3.5c-.2-.2-.2-.51 0-.71L5.65.65c.2-.2.51-.2.71 0s.2.51 0 .71L3.21 4.51l3.15 3.15c.2.2.2.51 0 .71c-.1.1-.23.15-.35.15Z"/>
         </svg>
-    </div>
+    </a>
 
     <div id="center">
         <svg width="100%" viewBox="0 0 680 320">
@@ -104,7 +104,7 @@
     
     <div id="menu-box-login">
         <hr class="divider">
-        <button class="button-box" style="grid-area: login">Log Ind</button>
+        <a class="button-box" style="grid-area: login" th:href="@{/teamA/login}">Log Ind</a>
         <button id="register" class="button-box" style="grid-area: register">Opret bruger</button>
     </div>
     <form id="register-form-create" action="/teamA/register" method="post">

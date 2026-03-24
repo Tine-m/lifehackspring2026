@@ -181,3 +181,13 @@ label[for="category"] {
     padding-left: 13px;
     font-size: clamp(14px, 8cqi, 20px);
 }
+
+#cancel-button:hover{
+    cursor: pointer;
+    border: 1px solid #3D7BFF;
+}
+
+#add-sub-button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
