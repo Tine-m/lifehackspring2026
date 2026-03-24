@@ -1,7 +1,7 @@
 package app.persistence.login;
 
 import app.entities.login.User;
-import app.exceptions.common.DatabaseException;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 
 import java.sql.Connection;
