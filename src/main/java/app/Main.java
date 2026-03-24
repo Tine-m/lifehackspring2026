@@ -30,13 +30,13 @@ public class Main
 
 
         // Routing
-        // Frontpage
+        // Frontpage - you muest register your app here
         MainController.addRoutes(app, connectionPool);
 
-        // General Login
+        // General Login - only included as example code
         UserController.addRoutes(app, connectionPool);
 
-        //Philosophers app
+        //Philosophers app - teamteachers
         QuoteController.addRoutes(app, connectionPool);
 
     }
