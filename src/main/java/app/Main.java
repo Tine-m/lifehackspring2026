@@ -30,7 +30,7 @@ public class Main
 
 
         // Routing
-        // Frontpage - you muest register your app here
+        // Frontpage - you muest register your app here.
         MainController.addRoutes(app, connectionPool);
 
         // General Login - only included as example code
