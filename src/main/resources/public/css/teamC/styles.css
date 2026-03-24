@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: navajowhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+/* --- OVERSKRIFT --- */
+h1 {
+    color: #033;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --- BOX MED TEKST --- */
+.intro-container {
+    display: inline-block; /*box rykker sig med tekst*/
+    padding: 20px 10px;
+    border: 3px solid #033; /*ramme*/
+    background-color: white; /*hvidt fyld i box for læsbarhed*/
+    box-shadow:  8px 8px 0px #033; /*skygge for at få "hævet" effekt*/
+    max-width: 600px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+
+/* --- START QUIZ-KNAP --- */
+.start-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #033; /*farve på skrift*/
+    border: 3px solid #033;
+    background-color: limegreen;
+    /*skygge som på intro-boxen*/
+    box-shadow: 5px 5px 0px #033;
+    transition: transform 0.2s;
+}
+/* --- HOVER PÅ START-KNAP --- */
+.start-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0px #033;
+}
+/* --- BOX MED TEKST PÅ QUIZ.HTML--- */
+.question-container {
+    display: inline-block; /*box rykker sig med tekst*/
+    padding: 20px 10px;
+    border: 3px solid #033; /*ramme*/
+    background-color: white; /*hvidt fyld i box for læsbarhed*/
+    box-shadow:  8px 8px 0px #033; /*skygge for at få "hævet" effekt*/
+    max-width: 600px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
