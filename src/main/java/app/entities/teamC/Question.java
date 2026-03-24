@@ -1,6 +1,6 @@
 package app.entities.teamC;
 
-public class Quiz {
+public class Question {
     private String questionText;
     private String answerCorrect;
     private String answerWrong1;
@@ -10,7 +10,7 @@ public class Quiz {
     private String soundCorrect;
     private String soundWrong;
 
-    public Quiz(String questionText, String answerCorrect, String answerWrong1, String answerWrong2, String imgCorrect, String imgWrong, String soundCorrect, String soundWrong) {
+    public Question(String questionText, String answerCorrect, String answerWrong1, String answerWrong2, String imgCorrect, String imgWrong, String soundCorrect, String soundWrong) {
         this.questionText = questionText;
         this.answerCorrect = answerCorrect;
         this.answerWrong1 = answerWrong1;
