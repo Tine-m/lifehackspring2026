@@ -1,4 +1,4 @@
-INSERT INTO quiz (question_text, answer_correct, answer_wrong1, answer_wrong2, img_correct, img_wrong, sound_correct, sound_wrong)
+INSERT INTO teamC_quiz (question_text, answer_correct, answer_wrong1, answer_wrong2, img_correct, img_wrong, sound_correct, sound_wrong)
 VALUES (
            'Det er frokost. Din lærer har åbenbart ikke tænkt sig at stoppe undervisningen foreløbig. Hvad gør du?',
            'Spiser viskelæder',

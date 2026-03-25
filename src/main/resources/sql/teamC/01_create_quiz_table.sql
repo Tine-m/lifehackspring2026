@@ -1,7 +1,7 @@
 -- Script til at oprette tabel
-DROP TABLE IF EXISTS quiz;
+DROP TABLE IF EXISTS teamC_quiz;
 
-CREATE TABLE quiz (
+CREATE TABLE teamC_quiz (
                       id SERIAL PRIMARY KEY,
                       question_text TEXT NOT NULL,
                       answer_correct VARCHAR(255) NOT NULL,
