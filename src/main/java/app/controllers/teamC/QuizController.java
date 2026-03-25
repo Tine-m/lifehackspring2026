@@ -7,6 +7,8 @@ import app.persistence.teamC.QuizMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
+import java.util.List;
+
 public class QuizController {
 
     QuizMapper quizMapper = new QuizMapper();
@@ -30,13 +32,17 @@ public class QuizController {
         ctx.render("teamC/index-quiz.html");
     }
 
-    public static void showQuestion(Context ctx) {
+    public static void showQuestion(Context ctx)
+    {
+        try{
+            Question questions = QuizMapper.getRandomQuestion(ConnectionPool.getInstance());
+            ctx.attribute("question", questions);
 
         } catch (DatabaseException e) {
             ctx.attribute("message", e.getMessage());
             ctx.render("teamC/index.html");
         }
-        return null;
+
     }
 
 

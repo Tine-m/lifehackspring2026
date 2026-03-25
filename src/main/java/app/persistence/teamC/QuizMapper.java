@@ -20,7 +20,7 @@ public class QuizMapper {
     mapperen i vores controller.
      */
 
-   public Question getRandomQuestion(ConnectionPool connectionPool) throws DatabaseException {
+   public static Question getRandomQuestion(ConnectionPool connectionPool) throws DatabaseException {
         //check før liste er blandet
         try (Connection connection = connectionPool.getConnection()) {
             System.out.println(getAllQuestions(connectionPool));
