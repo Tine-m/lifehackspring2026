@@ -29,13 +29,13 @@ public class Main
 
 
         // Routing
-        // Frontpage - you must register your app here.
+        // Frontpage - you must register your app here
         MainController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
         app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
-        //Philosophers app - teamteachers
+        //Philosophers app - team teachers
         QuoteController.addRoutes(javApp, connectionPool);
 
         //SubStats app - Team - A
