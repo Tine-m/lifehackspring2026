@@ -28,36 +28,27 @@ public class Main
             config.staticFiles.add("/templates");
         }).start(7070);
 
+        // Routing
+        // Frontpage - you must register your app here.
+        MainController.addRoutes(javApp, connectionPool);
 
+        // General Login - only included as example code
+        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
-//        // Routing
-//        // Frontpage - you must register your app here.
-//        MainController.addRoutes(javApp, connectionPool);
-//        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
-//        QuoteController.addRoutes(javApp, connectionPool);
-//
-//        // General Login - only included as example code
-//        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
-//
-//        //Philosophers app - teamteachers
-//        QuoteController.addRoutes(javApp, connectionPool);
+        // Philosophers app - teamteachers
+        QuoteController.addRoutes(javApp, connectionPool);
 
-        //SubStats app - Team - A
-        //  DIN QUIZ
-        // STARTSIDE
-        javApp.get("/", ctx -> ctx.render("index.html"));
+        // SubStats app - Team A
+        app.controllers.teamR.UserController.addRoutes(javApp, connectionPool);
+        app.controllers.teamR.SubscriptionController.addRoutes(javApp, connectionPool);
 
-// QUIZ
+        // DIN QUIZ - skal være sidst pga wildcard route!
+        // javApp.get("/", ctx -> ctx.render("index.html"));
         javApp.get("/{set}/{number}", ctx ->
                 QuizController.showQuestion(ctx, connectionPool)
         );
-
-// CHECK ANSWER
         javApp.post("/quiz/check", ctx ->
                 QuizController.checkAnswer(ctx, connectionPool)
         );
-//        app.controllers.teamR.UserController.addRoutes(javApp, connectionPool);
-//        app.controllers.teamR.SubscriptionController.addRoutes(javApp, connectionPool);
-
     }
 }

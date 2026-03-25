@@ -19,7 +19,7 @@ public class UserController {
         app.get("/teamR/frontpage", ctx -> ctx.render("teamA/frontpage.html"));
         app.get("/teamR/logout", ctx -> logout(ctx));
 
-        app.get("/teamR",ctx -> ctx.render("teamR/start.html"));
+        app.get("/teamR",ctx -> ctx.render("teamR/teamR.html"));
 
     }
 
