@@ -1,15 +1,14 @@
 const hacks = {
-    soft: [{ val: 'red-wine', label: 'Red wine / fruit stains'}, { val: 'grease', label: 'Oil or grease'}],
-    hard: [{ val: 'degreasing', label: 'Degreasing surfaces'}, { val: 'limescale', label: 'Limescale removal'}, { val: 'rust', label: 'Rust stains'}],
-    jewellery: [{ val: 'silver', label: 'Tarnished silver'}, { val: 'gold', label: 'Gold cleaning'}, { val: 'gems', label: 'Gemstone cleaning' }],
-    mirror: [{ val: 'streak', label: 'Streak-free glass'}, { val: 'hard-water', label: 'Hard water marks' }, { val: 'streak', label: 'Soap scum'}],
-    decal: [{ val: 'kettle', label: 'Kettle descaling'}, {val: 'shower', label: 'Shower head descaling'}],
-    };
+    soft:      [{ val: 'red-wine', label: 'Red wine / fruit stains' }, { val: 'grease', label: 'Oil or grease' }],
+    hard:      [{ val: 'degreasing', label: 'Degreasing surfaces' }, { val: 'limescale', label: 'Limescale removal' }],
+    jewellery: [{ val: 'silver or gold', label: 'Tarnished silver or gold' }],
+    mirror:    [{ val: 'streak', label: 'Streak-free glass' }],
+};
 
 function updateHackSelect() {
     const cat = document.getElementById('cat-select').value;
     const sel = document.getElementById('hack-select');
-    sel.innerHTML= '<option value="">Select hack...</option>';
+    sel.innerHTML = '<option value="">Select hack...</option>';
     if (cat && hacks[cat]) {
         hacks[cat].forEach(h => {
             const opt = document.createElement('option');
