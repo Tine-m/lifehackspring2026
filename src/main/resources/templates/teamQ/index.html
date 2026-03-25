@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 0 UI</title>
+    <link rel="stylesheet" href="/css/teamQ/styles.css">
+</head>
+<body>
+
+<!-- Top UI -->
+<div class="container">
+    <a href="#popup" class="button">+</a>
+    <div class="center-box">Day 0</div>
+    <form method="post" action="/nextDay">
+        <div class="button">▶</div>
+    </form>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Vælg en plante</h2>
+
+            <div class="plant-grid">
+                <div class="plant-option" th:each="i : ${#numbers.sequence(1,8)}">
+                    <img src="/images/teamQ/rose.jpg" alt="">
+                    <p th:text="'Plante ' + ${i}"></p>
+                </div>
+            </div>
+
+            <a href="#" class="close-btn">Luk</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sun -->
+<div class="sun"></div>
+
+<!-- Græs område -->
+<div class="grass">
+    <div class="plant-spot"
+         th:each="i, stat : ${#numbers.sequence(0,7)}"
+         th:data-spot-id="${stat.index}"
+         th:classappend="${userPlants != null and userPlants[stat.index] != null} ? 'plant-' + ${userPlants[stat.index].plant_id} : ''">
+
+        <img th:if="${userPlants != null and userPlants[stat.index] != null}"
+             th:src="@{/images/plants/{img}(img=${userPlants[stat.index].plant_name}.png)}"
+             th:alt="${userPlants[stat.index].plant_name}"/>
+    </div>
+</div>
+
+
+
+</body>
+</html>

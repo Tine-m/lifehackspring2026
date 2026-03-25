@@ -1,0 +1,164 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8fbcd4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Top UI */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    position: relative;
+    z-index: 2;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    background-color: #6fb487;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none; /* vigtigt for <a> */
+    color: black;
+}
+
+.center-box {
+    background-color: #6fb487;
+    padding: 20px 60px;
+    border-radius: 15px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* 🌞 Sun */
+.sun {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, #ffd76a 40%, #ffb347 70%);
+    border-radius: 50%;
+    top: 28%;
+    z-index: 0;
+    box-shadow: 0 0 100px rgba(255, 200, 100, 0.6);
+}
+
+/* 🌱 Grass */
+.grass {
+    margin-top: auto;
+    background-color: #6fb487;
+    height: 50vh;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 40px;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* 🪴 Plant spots */
+.plant-spot {
+    width: 100px;
+    height: 100px;
+    background-color: #855243;
+    border-radius: 90px;
+    margin: auto;
+
+    box-shadow:
+            inset 0 0 8px rgba(0,0,0,0.2),
+            inset 2px 2px 3px rgba(0,0,0,0.15),
+            inset -2px -1px 2px rgba(0,0,0,0.1),
+            inset 1px -2px 4px rgba(0,0,0,0.12);
+}
+
+/* 🌿 POPUP (FIXED VERSION) */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0,0,0,0.5);
+
+    display: none;
+    z-index: 999;
+}
+
+/* Aktiv popup */
+#popup:target {
+    display: block;
+}
+
+/* Popup indhold */
+.popup-content {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Grid */
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* Plant option */
+.plant-option {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.plant-option:hover {
+    transform: scale(1.1);
+}
+
+.plant-option img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.plant-option p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* Luk knap */
+.close-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #6fb487;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
