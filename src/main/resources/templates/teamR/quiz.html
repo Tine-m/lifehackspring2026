@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8" />
+    <title>Hvem vil være millionær</title>
+    <link rel="stylesheet" href="/public/css/teamR/styles.css" />
+</head>
+<body>
+<div class="container">
+    <h1>Hvem vil være millionær</h1>
+    <div id="question-container">
+        <p id="question"></p>
+        <div id="options">
+            <button class="option" data-option="A"></button>
+            <button class="option" data-option="B"></button>
+            <button class="option" data-option="C"></button>
+            <button class="option" data-option="D"></button>
+        </div>
+    </div>
+    <div id="status"></div>
+</div>
+
+<script>
+    let currentQuestion = 1;
+    let score = 0;
+
+    // Hent sværhedsgrad valgt på startside
+    const gameSet = localStorage.getItem('quizLevel') || 'easy';
+
+    const questionEl = document.getElementById('question');
+    const optionsEl = document.querySelectorAll('.option');
+    const statusEl = document.getElementById('status');
+
+    async function loadQuestion() {
+        try {
+            const res = await fetch(`http://localhost:7070/question/${gameSet}/${currentQuestion}`);
+            if (!res.ok) throw new Error('Spørgsmål ikke fundet');
+            const data = await res.json();
+
+            questionEl.textContent = data.question;
+            optionsEl.forEach(btn => {
+                const key = btn.dataset.option;
+                btn.textContent = data[`option_${key.toLowerCase()}`];
+                btn.style.display = 'block';
+                btn.onclick = () => checkAnswer(key, data.correct);
+            });
+
+            statusEl.textContent = `Spørgsmål ${currentQuestion}/10 - Sværhedsgrad ${data.difficulty}`;
+        } catch (err) {
+            questionEl.textContent = 'Quiz færdig!';
+            optionsEl.forEach(btn => (btn.style.display = 'none'));
+            statusEl.textContent = `Du scorede ${score} rigtige!`;
+        }
+    }
+
+    function checkAnswer(selected, correct) {
+        if (selected === correct) {
+            score++;
+            currentQuestion++;
+            loadQuestion();
+        } else {
+            questionEl.textContent = `Forkert! Det rigtige svar var ${correct}`;
+            optionsEl.forEach(btn => (btn.style.display = 'none'));
+            statusEl.textContent = `Du scorede ${score} rigtige`;
+        }
+    }
+
+    loadQuestion();
+</script>
+</body>
+</html>
