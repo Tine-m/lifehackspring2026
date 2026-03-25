@@ -34,14 +34,18 @@ public class teamDController {
                 .add(ingredient);
         }
 
-        Map<String, String> categoryImages = Map.of(
-            "Grøntsager", "vegetable.png",
-            "Kød", "meat.png",
-            "Mejeri", "dairy.png",
-            "Krydderier", "spice.png",
-            "Tørvarer", "colonial.png",
-            "Andet", "other.png"
-        );
+            Map<String, String> categoryImages = Map.of(
+                "Grøntsager", "vegetable.png",
+                "Frugter", "fruit.png",
+                "Kød & Fisk", "meat.png",
+                "Mejeri", "dairy.png",
+                "Krydderier", "spice.png",
+                "Tørvarer", "colonial.png",
+                "Drikkevarer", "drink.png",
+                "Færdigvarer", "fastfood.png",
+                "Søde Sager", "dessert.png",
+                "Andet", "other.png"
+            );
 
         ctx.attribute("categoryImages", categoryImages);
         ctx.attribute("groupedIngredients", groupedIngredients);
