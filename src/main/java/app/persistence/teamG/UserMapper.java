@@ -1,5 +1,6 @@
 package app.persistence.teamG;
 
+import app.entities.teamG.User;
 import app.exceptions.common.DatabaseException;
 import app.persistence.ConnectionPool;
 
