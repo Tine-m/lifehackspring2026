@@ -21,9 +21,11 @@ public class MainController {
         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
 
         //teamA, SubStats
-       // lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.jpg"));
+        //lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamR/login", "images/teamA/substats.jpg"));
 
-        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz","Open me!", "/teamR", "images/main-page/getRich.jpg"));
+        //TeamR
+        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/teamR", "images/main-page/GetRich.jpg"));
+
 
 
 
