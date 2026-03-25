@@ -114,14 +114,15 @@
 
     <div class="statsGrid">
         <div class="box" id="box-1" style="grid-area: box-1">Pie chart
-        <canvas id="pieChart"></canvas>
-        </div>
+        <canvas id="pieChart"></canvas></div>
         <div class="box" id="box-2" style="grid-area: box-2">Månedlig Total</div>
         <div id="box-2-stat" style="grid-area: box-2" th:text="${totalMonthlyCost}"></div>
         <div class="box" id="box-3" style="grid-area: box-3">Placeholder</div>
         <div class="box" id="box-4" style="grid-area: box-4">Daglig Total</div>
         <div id="box-4-stat" style="grid-area: box-4" th:text="${totalDailyCost}"></div>
-        <div class="box" id="box-5" style="grid-area: box-5">Pris pr. Brug</div>
+        <div class="box" id="box-5" style="grid-area: box-5">Pris pr. Brug
+            <canvas id="barChart"></canvas>
+            <canvas id="barChart2"></canvas></div>
         <div class="box" id="box-6" style="grid-area: box-6">Billigste abb. pr. brug</div>
         <div id="box-6-stat" style="grid-area: box-6" th:text="${cheapestSub}"></div>
         <div class="box" id="box-7" style="grid-area: box-7">Dyreste abb. pr. brug</div>
@@ -133,7 +134,9 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="/js/teamA/frontpage.js"></script>
+<script src="/js/teamA/pieChart.js"></script>
+<script src="/js/teamA/barChart.js"></script>
+
 </body>
 
 </html>

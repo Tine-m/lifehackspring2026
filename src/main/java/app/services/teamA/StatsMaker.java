@@ -57,6 +57,14 @@ public class StatsMaker {
         return subscriptionsPerUsageMap;
     }
 
+    public static List<Double> allSubscriptionsCosts(ArrayList<Subscription> subscriptions){
+        List<Double> allSupscriptions = new ArrayList<>();
+        for (Subscription subscription : subscriptions) {
+            allSupscriptions.add(subscription.getSubCost());
+        }
+        return allSupscriptions;
+    }
+
     public static HashMap<String, Double> allSubscriptionCategoriesByPercent(ArrayList<Subscription> subscriptions) {
         double totalCost = 0;
         for (Subscription subscription : subscriptions) {

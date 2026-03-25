@@ -9,6 +9,8 @@ import app.services.teamA.StatsMaker;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -18,7 +20,10 @@ public class SubscriptionController {
         app.post("/teamA/createSubscriptions", ctx -> addSubscription(ctx, connectionPool));
         app.get("/teamA/createSubscriptions", ctx -> ctx.render("teamA/add-subscription.html"));
         app.get("/teamA/removeSubscriptions", ctx -> listAllSubscriptions(ctx, connectionPool));
-        app.get("/teamA/categoryData", ctx-> allSubscriptionCategoriesByPercent(ctx,connectionPool));
+        app.get("/teamA/categoryData", ctx -> allSubscriptionCategoriesByPercent(ctx, connectionPool));
+        app.get("/teamA/subscriptionCost", ctx -> allSubscriptionsCost(ctx, connectionPool));
+        app.get("/teamA/subscriptionUsage", ctx -> allSubscriptionsUsage(ctx, connectionPool));
+
     }
 
 
@@ -77,7 +82,8 @@ public class SubscriptionController {
         dailySubscriptionTotal(ctx, connectionPool);
         mostExpensiveSubscriptionPerUsage(ctx, connectionPool);
         cheapestSubscriptionPerUsage(ctx, connectionPool);
-        allSubscriptionCategoriesByPercent(ctx, connectionPool);
+        allSubscriptionsUsage(ctx, connectionPool);
+        allSubscriptionsCost(ctx, connectionPool);
     }
 
 
@@ -88,13 +94,13 @@ public class SubscriptionController {
         ctx.attribute("totalMonthlyCost", totalMonthlyCostString);
     }
 
-    public static void dailySubscriptionTotal(Context ctx, ConnectionPool connectionPool) throws DatabaseException{
+    public static void dailySubscriptionTotal(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         User currentUser = ctx.sessionAttribute("currentUser");
         double totalDailyCost = StatsMaker.dailySubscriptionTotal(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
         String totalDailyCostString = String.format("%.2f", totalDailyCost) + " DKK";
         ctx.attribute("totalDailyCost", totalDailyCostString);
     }
-    
+
     public static void mostExpensiveSubscriptionPerUsage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         User currentUser = ctx.sessionAttribute("currentUser");
         String mostExpensiveSub = StatsMaker.mostExpensiveSubscriptionPerUsage(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
@@ -107,10 +113,32 @@ public class SubscriptionController {
         ctx.attribute("cheapestSub", cheapestSub);
     }
 
-
     public static void allSubscriptionCategoriesByPercent(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         User currentUser = ctx.sessionAttribute("currentUser");
         Map<String, Double> data = StatsMaker.allSubscriptionCategoriesByPercent(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
         ctx.json(data);
     }
+
+    public static void allSubscriptionsUsage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        Map<String, Double> data = StatsMaker.allSubscriptionsPricePerUsage(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+        ctx.json(data);
+
+    }
+
+    public static void allSubscriptionsCost(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        int userId = currentUser.getId();
+
+        List<Subscription> subs = SubscriptionMapper.getAllSubscriptionInfo(userId, connectionPool);
+        List<Double> costs = StatsMaker.allSubscriptionsCosts(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(),connectionPool));
+
+        Map<String, Double> data = new HashMap<>();
+
+        for (int i = 0; i < subs.size(); i++) {
+            data.put(subs.get(i).getSubName(), costs.get(i));
+        }
+        ctx.json(data);
+    }
+
 }

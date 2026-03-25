@@ -3,7 +3,6 @@ fetch('/teamA/categoryData')
     .then(data => {
         const labels = Object.keys(data);
         const values = Object.values(data);
-
         new Chart(document.getElementById('pieChart'), {
             type: 'doughnut',
             data: {
@@ -30,7 +29,7 @@ fetch('/teamA/categoryData')
                                 size: 15
                             },
                             pointStyle: 'circle',
-                            padding: 18,
+                            padding: 17,
                             textAlign: 'left'
                         }
                         }

@@ -99,7 +99,14 @@
     margin-left: 20px !important;
 }
 
-
+#barChart {
+    position: absolute;
+    display: inline-block;
+}
+#barChart2{
+    position: absolute;
+    display: inline-block;
+}
 
 
 
