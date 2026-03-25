@@ -15,6 +15,10 @@
      " box-8 box-8 box-8 box-9 box-9 box-9 box-9";
 }
 
+#box-1{
+    display: inline-block;
+}
+
 #box-2 {
     background: #3D7BFF;
     border: none;
@@ -72,7 +76,7 @@
 #box-6 {
     background: #3D7BFF;
     border: none;
-    color: #00D4AA;;
+    color: #00D4AA;
 }
 
 #box-6:hover{
@@ -87,6 +91,12 @@
 
 #box-7:hover{
     border: 3px solid #3D7BFF;
+}
+
+#pieChart {
+    width: 85% !important;
+    height: 85% !important;
+    margin-left: 20px !important;
 }
 
 

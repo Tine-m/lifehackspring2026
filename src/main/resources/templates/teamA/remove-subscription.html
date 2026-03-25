@@ -10,7 +10,7 @@
 
 <body>
 <header>
-    <a id="left" class="mode-box" th:href="@{/teamA/frontpage}">
+    <a id="left" class="mode-box" th:href="@{/js/teamA/frontpage}">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 9">
             <path fill="white" d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5"/>
             <path fill="white"
@@ -19,7 +19,7 @@
     </a>
 
     <div id="center">
-        <a th:href="@{/teamA/frontpage}">
+        <a th:href="@{/js/teamA/frontpage}">
             <svg width="100%" viewBox="0 0 680 320">
                 <defs>
                     <style>
@@ -122,7 +122,7 @@
     <div class="remove-subscription-box">
         <div class="remove-head-grid">
             <h1 id="remove-title" style="grid-area: remove-box">Fjern Abonnement</h1>
-            <a id="close-button" style="grid-area: close-box" th:href="@{/teamA/frontpage}">X</a>
+            <a id="close-button" style="grid-area: close-box" th:href="@{//teamA/frontpage}">X</a>
             <hr class="divider">
 
             <form th:action="@{/teamA/deleteSubscriptions}" method="post">

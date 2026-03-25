@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
     <link rel="stylesheet" href="/public/css/teamA/frontpageStyles.css" th:href="@{/css/teamA/frontpageStyles.css}"/>
 </head>
-
 <body>
 <header>
 
@@ -114,7 +113,9 @@
     </div>
 
     <div class="statsGrid">
-        <div class="box" id="box-1" style="grid-area: box-1">Pie chart</div>
+        <div class="box" id="box-1" style="grid-area: box-1">Pie chart
+        <canvas id="pieChart"></canvas>
+        </div>
         <div class="box" id="box-2" style="grid-area: box-2">Månedlig Total</div>
         <div id="box-2-stat" style="grid-area: box-2" th:text="${totalMonthlyCost}"></div>
         <div class="box" id="box-3" style="grid-area: box-3">Placeholder</div>
@@ -130,6 +131,9 @@
     </div>
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/js/teamA/frontpage.js"></script>
 </body>
 
 </html>

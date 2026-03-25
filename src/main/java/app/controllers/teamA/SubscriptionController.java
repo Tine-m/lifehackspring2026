@@ -10,6 +10,7 @@ import io.javalin.Javalin;
 import io.javalin.http.Context;
 
 import java.util.List;
+import java.util.Map;
 
 public class SubscriptionController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
@@ -17,6 +18,7 @@ public class SubscriptionController {
         app.post("/teamA/createSubscriptions", ctx -> addSubscription(ctx, connectionPool));
         app.get("/teamA/createSubscriptions", ctx -> ctx.render("teamA/add-subscription.html"));
         app.get("/teamA/removeSubscriptions", ctx -> listAllSubscriptions(ctx, connectionPool));
+        app.get("/teamA/categoryData", ctx-> allSubscriptionCategoriesByPercent(ctx,connectionPool));
     }
 
 
@@ -75,6 +77,7 @@ public class SubscriptionController {
         dailySubscriptionTotal(ctx, connectionPool);
         mostExpensiveSubscriptionPerUsage(ctx, connectionPool);
         cheapestSubscriptionPerUsage(ctx, connectionPool);
+        allSubscriptionCategoriesByPercent(ctx, connectionPool);
     }
 
 
@@ -104,4 +107,10 @@ public class SubscriptionController {
         ctx.attribute("cheapestSub", cheapestSub);
     }
 
+
+    public static void allSubscriptionCategoriesByPercent(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        Map<String, Double> data = StatsMaker.allSubscriptionCategoriesByPercent(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+        ctx.json(data);
+    }
 }
