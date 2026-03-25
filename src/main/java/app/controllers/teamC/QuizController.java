@@ -35,8 +35,8 @@ public class QuizController {
     public static void showQuestion(Context ctx)
     {
         try{
-            Question questions = QuizMapper.getRandomQuestion(ConnectionPool.getInstance());
-            ctx.attribute("question", questions);
+            Question question = QuizMapper.getRandomQuestion(ConnectionPool.getInstance());
+            ctx.attribute("question", question);
 
         } catch (DatabaseException e) {
             ctx.attribute("message", e.getMessage());
