@@ -23,7 +23,7 @@ public class IngredientController {
                 ctx.json(ingredients); // or ctx.render(...) if using Thymeleaf???
 
             } catch (DatabaseException e) {
-                ctx.status(500).result("Database error: " + e.getMessage());
+                ctx.status(500).result("Database fejl: " + e.getMessage());
             }
         });
     }
