@@ -4,14 +4,14 @@ import java.util.List;
 
 public class Hacks {
 
-    private int id;
+    private int hack_id;
     private String videoLink;
     private List<String> category;
     private String title;
     private String description;
 
     public Hacks(int id, String videoLink, List<String> category, String title, String description) {
-        this.id = id;
+        this.hack_id = id;
         this.videoLink = videoLink;
         this.category = category;
         this.title = title;
@@ -19,7 +19,7 @@ public class Hacks {
     }
 
     public int getId() {
-        return id;
+        return hack_id;
     }
 
     public String getVideoLink() {

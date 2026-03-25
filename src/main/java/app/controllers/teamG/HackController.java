@@ -10,5 +10,7 @@ public class HackController {
         app.get("/lifehackseption", ctx -> ctx.render("teamG/index.html"));
         app.get("/catagory", ctx -> ctx.render("teamG/showCategoryLifehack.html"));
     }
+
+
 }
 
