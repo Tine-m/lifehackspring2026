@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Movie</title>
+    <link rel="stylesheet" href="../../public/css/teamO/styles.css" th:href="@{/css/teamO/styles.css}">
 </head>
 <body>
 
-<h1>Random Movie</h1>
+<h1>Random Movies</h1>
 
-<div th:if="${movie != null}">
-    <p>Title: <span th:text="${movie.title}"></span></p>
-    <p>Year: <span th:text="${movie.year}"></span></p>
+<img id="moviePoster" th:if="${movie != null}"
+     th:src="@{'/images/teamO/' + ${movie.film_id} + '.jpg'}">
+
+<div id="movieBox" th:if="${movie != null}">
+    <p id="movieTitle"><span th:text="${movie.title}"></span></p>
+    <p id="movieReleaseYear"><span th:text="${movie.year}"></span></p>
 </div>
 
 <p th:if="${error != null}" th:text="${error}"></p>
-
-<a th:href="@{/randommovies}">Back</a>
 
 </body>
 </html>

@@ -3,9 +3,10 @@ body{
 }
 
 h1{
-    color: white;
+    color: orange;
     text-align: center;
     font-size: 50px;
+    font-family: "Segoe UI Historic";
     margin-top: 100px;
 }
 
@@ -40,4 +41,31 @@ h1{
 
 #exitButton{
     text-decoration: none;
+}
+
+#movieBox {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#movieTitle{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: Georgia;
+}
+
+#movieReleaseYear{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: Georgia;
+}
+
+#moviePoster{
+    display: block;
+    margin: auto;
+    width: 15%;
 }
