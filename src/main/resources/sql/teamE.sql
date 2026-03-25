@@ -10,6 +10,11 @@ CREATE TABLE IF NOT EXISTS public.teamE_ingredient (
              ingredient_name VARCHAR(100) NOT NULL
     );
 
+CREATE TABLE IF NOT EXISTS public.teamE_categories (
+             category_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+             category_name VARCHAR(100) NOT NULL
+    );
+
 CREATE TABLE IF NOT EXISTS public.teamE_recipe_ingredient (
              recipe_id INTEGER,
              ingredient_id INTEGER,
@@ -29,4 +34,14 @@ CREATE TABLE IF NOT EXISTS public.teamE_users_recipe (
 
     FOREIGN KEY (user_id) REFERENCES public.teamE_users(user_id) ON DELETE CASCADE,
     FOREIGN KEY (recipe_id) REFERENCES public.teamE_recipe(recipe_id) ON DELETE CASCADE
+    );
+
+CREATE TABLE IF NOT EXISTS public.teamE_recipe_categories (
+            recipe_id INTEGER,
+            category_id,
+
+            PRIMARY KEY (recipe_id, category_id),
+
+    FOREIGN KEY (recipe_id) REFERENCES public.teamE_recipe(recipe_id) ON DELETE CASCADE,
+    FOREIGN KEY (category_id) REFERENCES public.teamE_categories(category_id) ON DELETE CASCADE
     );
