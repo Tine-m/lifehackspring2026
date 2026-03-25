@@ -10,6 +10,7 @@ h1{
 }
 
 #findMovie{
+    border-radius: 15px;
     display: flex;
     background-color: red;
     margin: auto;
@@ -25,8 +26,9 @@ h1{
 }
 
 #exit{
+    border-radius: 15px;
     display: flex;
-    background-color: blue;
+    background-color: #2a2a2a;
     margin: auto;
     cursor: pointer;
     margin-top: 800px;

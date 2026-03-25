@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Random Movie</title>
-    <link rel="stylesheet" href="/public/css/teamO/styles.css">
+    <link rel="stylesheet" th:href="@{/css/teamO/styles.css}">
 </head>
 <body>
 
 <h1>Random Movies</h1>
 
-<form id="findMovieButton" action="movie.html">
+<form id="findMovieButton" th:action="@{/teamO/randommovie}" method="get">
     <input id="findMovie" type="submit" value="Random Film" />
-</form>
-
-<form id="exitButton" action="/templates/index.html">
-    <input id="exit" type="submit" value="Tilbage" />
 </form>
 
 </body>

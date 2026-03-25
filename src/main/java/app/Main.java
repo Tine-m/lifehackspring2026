@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamO.MovieController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
@@ -32,6 +33,9 @@ public class Main
         // Routing
         // Frontpage - you muest register your app here.
         MainController.addRoutes(app, connectionPool);
+
+        // Team O
+        MovieController.addRoutes(app, connectionPool);
 
         // General Login - only included as example code
         UserController.addRoutes(app, connectionPool);
