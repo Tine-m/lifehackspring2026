@@ -20,16 +20,22 @@ public class QuizMapper {
     mapperen i vores controller.
      */
 
-    public void getRandomQuestion(List<Question> questions) {
+   public Question getRandomQuestion(ConnectionPool connectionPool) throws DatabaseException {
         //check før liste er blandet
-        System.out.println(questions);
-        Collections.shuffle(questions);
-        //til check at listen er blandet
-        System.out.println(questions);
+        try (Connection connection = connectionPool.getConnection()) {
+            System.out.println(getAllQuestions(connectionPool));
+            List<Question> questions = getAllQuestions(connectionPool);
+            return questions.get(0);
+            // List<Question> randomQuestions = questions. // new ArrayList<>(Collections.shuffle(getAllQuestions(connectionPool)));
+            // til check at listen er blandet
+            // System.out.println(getAllQuestions(connectionPool));
         /*
         Hvor skal denne metode ligge? Det er ikke database
         Bruger getAllQuestions()
          */
+        } catch (SQLException e) {
+            throw new DatabaseException("Kunne ikke hente quiz " + e.getMessage());
+        }
     }
 
     //Skal vi have statisk eller ej? Måske ikke
