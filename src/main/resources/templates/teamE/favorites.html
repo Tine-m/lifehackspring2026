@@ -36,9 +36,33 @@
         <div class="sidebar-item" onclick="filterFavs('soft', this)">
             Soft surfaces <span class="sidebar-count" id="count-soft">2</span>
         </div>
-        <div class="sidebar-item"></div>
+        <div class="sidebar-item" onclick="filterFavs('hard', this)">
+            Hard surfaces <span class="sidebar-count" id="count-hard">3</span>
+        </div>
+        <div class="sidebar-item" onclick="filterFavs('jewellery', this)">
+            Jewellery <span class="sidebar-count" id="count-jewellery">0</span>
+        </div>
+        <div class="sidebar-item" onclick="filterFavs('mirror', this)">
+            Mirror &amp; glass <span class="sidebar-count" id="count-mirror">1</span>
+        </div>
     </aside>
+
+
+<main class="fav-list">
+    <div class="fav-list-header">
+        <h2 class="fav-list-title" id="list-title">All saved hacks (8)</h2>
+        <div class="sort-row">
+            Sort by
+            <select onchange="sortFavs(this.value)">
+                <option value="date">Date saved</option>
+                <option value="cat">Category</option>
+            </select>
+        </div>
+    </div>
+    <div id="fav-items"></div>
+    </main>
 </div>
 
+<script src="js/favorites.js"></script>
 </body>
 </html>
