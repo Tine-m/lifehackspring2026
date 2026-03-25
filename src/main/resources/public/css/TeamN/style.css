@@ -1,0 +1,29 @@
+.headers {
+    grid-template-areas:
+    "header1"
+    "header2"
+    "header3";
+    grid-auto-columns: 1fr auto 1fr;
+}
+.qoute {
+    grid-template-areas:
+    "img"
+    "text";
+    grid-auto-columns: auto 1fr;
+}
+.funny {
+    grid-template-areas:
+    "img"
+    "text"
+    "button";
+    grid-auto-columns: auto 1fr 1fr;
+}
+
+.boxWithTimer{
+text-align: center;
+}
+
+.time h2{
+    front-size: 5rem;
+    front-weight: 100;
+}

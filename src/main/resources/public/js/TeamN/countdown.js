@@ -15,7 +15,7 @@ const examination = new Date("2026-06-11T00:00:00").getTime();
 function timer (){
     const currentDate = new Date().getTime();
     const distance = examination - currentDate;
-    
+
     //Got help from a video.
     //totalTime(milliseconds) / HoursInADay / minutesInAHour / secondsInAMinute / millisecondsInASecond
     const days    = Math.floor(distance / millisecondsInASecound / secoundsInAMinuite / minutesInAHour / hoursInADay);

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Eksamens nedtælling</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/TeamN/style.css">
+
+</head>
+<body>
+
+<div class="headers">
+<h1>Tid til eksamensugen!</h1>
+    <div class="boxWithTimer">
+        <div class="time">
+            <h2 id ="dage">00</h2>
+            <p>Dage</p>
+        </div>
+        <div class="time">
+            <h2 id ="timer">00</h2>
+            <p>Timer</p>
+        </div>
+        <div class="minutter">
+            <h2 id ="minutter">00</h2>
+            <p>Minutter</p>
+        </div>
+        <div class="time">
+            <h2 id ="sekunder">00</h2>
+            <p>Sekunder</p>
+        </div>
+    </div>
+<h1>Her et motiverende quote!</h1>
+</div>
+<div class="qoute">
+    <img th:src="">
+    <p th:text="qMSG"></p>
+</div>
+<div class="funny">
+    <div>
+        <img th:src="">
+        <p th:text="funnyMSG"></p>
+    </div>
+    <form method="post" action="/generateLaugh">
+        <button name="generateLaugh">Klik her for et godt grin!</button>
+    </form>
+</div>
+<script src="../../public/js/TeamN/countdown.js"></script>
+</body>
+</html>
