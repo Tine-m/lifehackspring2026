@@ -24,8 +24,7 @@ public class MainController {
         //lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamR/login", "images/teamA/substats.jpg"));
 
         //TeamR
-        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/quiz", "images/main-page/GetRich.jpg"));
-
+        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/teamR", "images/main-page/GetRich.jpg"));
 
 
 
