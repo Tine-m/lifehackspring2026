@@ -4,10 +4,7 @@ import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
-import app.entities.teamK.Word;
-import app.entities.teamK.WordList;
 import app.persistence.ConnectionPool;
-import app.persistence.teamK.WordMapper;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
 
