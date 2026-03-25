@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KitchenChem - Clean smarter, not harder</title>
+    <link rel="stylesheet" href="public/css/teamE/styles.css"/>
+</head>
+<body>
+<nav>
+    <div class="nav-logo">Kitchen<span>Chem</span></div>
+    <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="hacks.html">Hacks</a>
+        <a href="favorites.html">My favorites</a>
+    </div>
+    <div>
+        <a href="#" class="nav-icon" title="Profile">&#9711;</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <p class="hero-eyebrow">Science-backed household tips</p>
+    <h1 class="hero-title">
+        Clean smarter,<br>
+        not <span class="accent">harder</span>
+    </h1>
+    <p class="hero-sub">
+        Find the right chemical reaction for every stubborn stain, tarnished gem, <br>
+        or cloudy glass.
+    </p>
+
+    <p class="finder-label">Find a hack</p>
+    <div class="finder-row">
+        <select id="cat-select" onchange="updateHackSelect()">
+            <option value="">Select category...</option>
+            <option value="soft">Soft surfaces</option>
+            <option value="hard">Hard surfaces</option>
+            <option value="jewellery">Jewellery</option>
+            <option value="mirror">Mirror &amp; glass</option>
+            <option value="decal">Decalcification</option>
+        </select>
+        <select id="hack-select" onchange="goToHack()">
+            <option value="">Select hack...</option>
+        </select>
+    </div>
+</section>
+
+<section class="browse">
+    <p class="browse-label">Browse by category</p>
+    <div class="category-grid">
+        <div class="category-card" onclick="location.href='hacks.html?cat=soft'">
+            <span class="category-card-icon">&#x1F9FA;</span>
+            <p class="category-card-title">Soft surfaces</p>
+            <p class="category-card-desc">Fabric, upholstery, carpets &amp; clothing stains</p>
+            <div class="category-card-footer">
+                <span>3 hacks</span>
+                <span class="arrow">&#8594;</span>
+            </div>
+        </div>
+        <div class="category-card" onclick="location.href='hacks.html?cat=hard">
+            <span class="category-card-icon">&#x1FAA8;</span>
+            <p class="category-card-title">Hard surfaces</p>
+            <p class="category-card-desc">Tiles, countertops, sinks &amp; sealed surfaces</p>
+            <div class="category-card-footer">
+                <span>3 hacks</span>
+                <span class="arrow">&#8594;</span>
+            </div>
+        </div>
+        <div class="category-card" onclick="location.href='hacks.html?cat=jewellery'">
+            <span class="category-card-icon">&#x1F48E;</span>
+            <p class="category-card-title">Jewellery</p>
+            <p class="category-card-desc">Silver, gold &amp; gemstone cleaning</p>
+            <div class="category-card-footer">
+                <span>1 hack</span>
+                <span class="arrow">&#8594;</span>
+            </div>
+        </div>
+        <div class="category-card" onclick="location.href='hacks.html?cat=mirror'">
+            <span class="category-card-icon">&#x1FAE7;</span>
+            <p class="category-card-title">Mirror &amp; glass</p>
+            <p class="category-card-desc">Streak-free solutions for any glass surface</p>
+            <div class="category-card-footer">
+                <span>2 hacks</span>
+                <span class="arrow">&#8594;</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="did-you-know">
+    <div class="dyk-avatar">
+        <img src="src/main/resources/public/images/teamE/crimp_dyk.png" alt="Mascot logo for did-you-know section">
+    </div>
+    <p class="dyk-text">
+        <strong>Did you know?</strong> Most household stains respond to either acids (such as vinegar or lemon juice),
+        or a base (like baking soda or dish soap). Matching the right pH to your stain is the secret
+        to kitchen chemistry.
+    </p>
+</div>
+<header>
+    <h3>KitchenChem</h3>
+</header>
+
+</body>
+</html>
