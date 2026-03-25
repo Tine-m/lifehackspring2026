@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gæt 10 sekunder</title>
+    <link rel="stylesheet" href="src/main/resources/public/css/teamS/teamSstyle.css">
+</head>
+<body>
+
+<div class="title">
+    <h1>Gæt 10 sekunder</h1>
+    <p>Klik for at starte timeren og klik igen, når du tror der er gået 10 sekunder.</p>
+    <p>Dette hjælper med din "INTERNAL" klokke for at give dig bedre tidsfornemmelse!</p>
+</div>
+
+<div class="timerButton">
+
+    <button id="myBtn" onclick="startTimer()">
+        Start timer
+    </button>
+    <p id="startTimer">Tryk her</p>
+    <script>
+        let running = false;
+        let startTime;
+
+        function startTimer() {
+            running = !running;
+            let btn = document.getElementById("myBtn");
+
+            if (running) {
+                btn.textContent = "Stop timer";
+                startTime = Date.now()
+                console.log(startTime);
+                //start
+                fetch('/timer', {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({running: running})
+                })
+            } else {
+                // STOP
+                let endTime = Date.now()
+                console.log(endTime);
+                let result = (endTime - startTime)/1000;
+
+                document.getElementById("startTimer").innerHTML = ("Der gik " + result.toFixed(3) + " Sekunder");
+                btn.textContent = "Start timer";
+                fetch('/timer', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({running: running})
+                });
+            }
+
+        }
+    </script>
+
+
+</div>
+
+</body>
+</html>

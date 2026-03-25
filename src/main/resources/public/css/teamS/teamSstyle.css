@@ -1,0 +1,17 @@
+.title {
+    background-color: cornflowerblue;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.timerButton {
+    font-size:60px;
+    background-color: #e09e38;
+    border-radius:30px
+}
+
+body {
+    background-color: red;
+}
