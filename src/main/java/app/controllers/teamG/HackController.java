@@ -8,6 +8,7 @@ import org.jetbrains.annotations.NotNull;
 public class HackController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/lifehackseption", ctx -> ctx.render("teamG/index.html"));
+        app.get("/catagory", ctx -> ctx.render("teamG/showCategoryLifehack.html"));
     }
 }
 

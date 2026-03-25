@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="/css/teamG/styles.css">
+    <link rel="stylesheet" th:href="@{/css/teamG/styles.css}">
 </head>
 <body>
 <form class="card-grid" method="get">
     <div class="card" th:each="site : ${lifehackSites}">
         <img class="hack-description" th:src="@{${site.thumbnail}}"></img>
         <div class="hack-title" th:text="${site.title}"></div>
+        <label for="catogory">Vælg katagori:</label>
+
+        <select id="catogory">
+            <option value="prank">Prank</option>
+            <option value="school">School</option>
+            <option value="everyday">Everday</option>
+            <option value="food">food</option>
+        </select>
+
         <button> se Video</button>
-        <button> tilbage </button>
+        <a href="teamG/index.html">
+            <button> Tilbage </button>
+        </a>
+
     </div>
 </form>
 </div>
