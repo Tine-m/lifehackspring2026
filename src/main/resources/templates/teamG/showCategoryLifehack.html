@@ -2,11 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>kategori side</title>
 </head>
 <body>
-<button> se Video</button>
-<button> tilbage </button>
 
+<form method="category" action="">
+    <label for="category">Vælg en kategori</label>
+    <select for="category" id="category">
+        <option id="school">school</option>
+        <option id="food">food</option>
+        <option id="prank">prank</option>
+        <option id="everyday">everyday</option>
+    </select>
+    <button onclick="videosByCategory">Søg kategori</button>
+</form>
+
+<script>
+    function videosByCategory() {
+        const kategori = document.getElementById("kategori").value;
+        window.location.href = "showCategory.html?kategori=" + kategori;
+    }
+</script>
 </body>
 </html>
