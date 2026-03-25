@@ -20,14 +20,17 @@ public class QuizController {
      * objektorienteret tankegang. Derfor er metoderne ikke statiske, og vi skal så huske
      * at oprette en instans af controlleren i Main.*/
 
-    public void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/startquiz", ctx -> showQuestion(ctx));
-        app.get("/endquiz", ctx -> endQuiz(ctx));
+    public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
+        app.get("/teamC", ctx -> index(ctx));
+        app.get("startquiz", ctx -> showQuestion(ctx));
+        app.get("endquiz", ctx -> endQuiz(ctx));
     }
 
-    public Question showQuestion(Context ctx) {
-        try {
-            Question question = quizMapper.getRandomQuestion(connectionPool);
+    private static void index(Context ctx){
+        ctx.render("teamC/index-quiz.html");
+    }
+
+    public static void showQuestion(Context ctx) {
 
         } catch (DatabaseException e) {
             ctx.attribute("message", e.getMessage());
@@ -37,7 +40,7 @@ public class QuizController {
     }
 
 
-    public void endQuiz(Context ctx) {
+    public static void endQuiz(Context ctx) {
 
     }
 }
