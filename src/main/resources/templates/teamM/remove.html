@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trackly</title>
+    <link rel="stylesheet" href="/css/teamM/styles.css" th:href="@{/css/teamM/styles.css}"/>
+</head>
+<body>
+
+<div class="page">
+    <div class="logo-section">
+        <img src="/images/teamM/image.png" class="logo">
+    </div>
+
+    <div class="tagline">
+        <h2>Remove subscription</h2>
+    </div>
+
+    <div class="main-box">
+        <form action="/teamM/remove" method="post">
+            <label for="subscriptionName">Select subscription:</label>
+            <select id="subscriptionName" name="subscriptionName">
+                <option th:each="subscription : ${subscriptions}"
+                        th:value="${subscription.name}"
+                        th:text="${subscription.name}">
+                    Subscription name
+                </option>
+            </select>
+
+            <input type="submit" value="Confirm" class="btn remove-btn">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
