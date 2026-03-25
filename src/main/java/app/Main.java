@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamC.QuizController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
@@ -39,5 +40,6 @@ public class Main
         //Philosophers app
         QuoteController.addRoutes(app, connectionPool);
 
+        QuizController.addRoutes(app, connectionPool);
     }
 }
