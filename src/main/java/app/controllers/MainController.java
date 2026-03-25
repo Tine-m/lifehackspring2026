@@ -19,9 +19,18 @@ public class MainController {
         List<LifehackSite> lifehackSites = new ArrayList<>();
 
         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
+
+        //teamQ, PlantGuide
         lifehackSites.add(new LifehackSite("PlantGuide", "Plant løs!", "/plantGuide", "images/teamQ/plantIcon.jpg"));
+
+        //teamA, SubStats
+        lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.jpg"));
+
+
+
+
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
-
     }
 }
