@@ -45,7 +45,7 @@ public class Main
         //SubStats app - Team - A
         //  DIN QUIZ
         // STARTSIDE
-        javApp.get("/", ctx -> ctx.render("teamR/start.html"));
+        javApp.get("/", ctx -> ctx.render("index.html"));
 
 // QUIZ
         javApp.get("/{set}/{number}", ctx ->

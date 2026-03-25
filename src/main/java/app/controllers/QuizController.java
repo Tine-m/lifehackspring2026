@@ -18,7 +18,7 @@ public class QuizController {
         ctx.attribute("questionNumber", questionNumber);
         ctx.attribute("set", set);
 
-        ctx.render("teamR/index.html");
+        ctx.render("teamR/quiz.html");
     }
 
     public static void checkAnswer(Context ctx, ConnectionPool connectionPool) {
