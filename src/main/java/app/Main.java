@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.QuizController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -28,19 +29,35 @@ public class Main
         }).start(7070);
 
 
-        // Routing
-        // Frontpage - you must register your app here.
-        MainController.addRoutes(javApp, connectionPool);
 
-        // General Login - only included as example code
-        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
-
-        //Philosophers app - teamteachers
-        QuoteController.addRoutes(javApp, connectionPool);
+//        // Routing
+//        // Frontpage - you must register your app here.
+//        MainController.addRoutes(javApp, connectionPool);
+//        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
+//        QuoteController.addRoutes(javApp, connectionPool);
+//
+//        // General Login - only included as example code
+//        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
+//
+//        //Philosophers app - teamteachers
+//        QuoteController.addRoutes(javApp, connectionPool);
 
         //SubStats app - Team - A
-        app.controllers.teamR.UserController.addRoutes(javApp, connectionPool);
-        app.controllers.teamR.SubscriptionController.addRoutes(javApp, connectionPool);
+        //  DIN QUIZ
+        // STARTSIDE
+        javApp.get("/", ctx -> ctx.render("teamR/start.html"));
+
+// QUIZ
+        javApp.get("/{set}/{number}", ctx ->
+                QuizController.showQuestion(ctx, connectionPool)
+        );
+
+// CHECK ANSWER
+        javApp.post("/quiz/check", ctx ->
+                QuizController.checkAnswer(ctx, connectionPool)
+        );
+//        app.controllers.teamR.UserController.addRoutes(javApp, connectionPool);
+//        app.controllers.teamR.SubscriptionController.addRoutes(javApp, connectionPool);
 
     }
 }

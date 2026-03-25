@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hvem vil være millionær</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0f2b;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1c1f4a;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .quiz-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1c1f4a;
+            border-radius: 10px;
+        }
+
+        .question {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .answers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .answers button {
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            background-color: #2a2f6b;
+            color: white;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .answers button:hover {
+            background-color: #3d44a3;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hvem vil være millionær 💰</h1>
+</header>
+
+<div class="quiz-container">
+
+    <form action="/quiz/check" method="post">
+
+        <!-- Spørgsmål fra database -->
+        <div class="question" th:text="${question.question}">
+            Spørgsmålet kommer her
+        </div>
+
+        <!-- Svar fra database -->
+        <div class="answers">
+            <button type="submit" name="answer" value="A"
+                    th:text="'A: ' + ${question.optionA}"></button>
+
+            <button type="submit" name="answer" value="B"
+                    th:text="'B: ' + ${question.optionB}"></button>
+
+            <button type="submit" name="answer" value="C"
+                    th:text="'C: ' + ${question.optionC}"></button>
+
+            <button type="submit" name="answer" value="D"
+                    th:text="'D: ' + ${question.optionD}"></button>
+        </div>
+
+        <!-- Hidden values -->
+        <input type="hidden" name="questionNumber" th:value="${questionNumber}">
+        <input type="hidden" name="set" th:value="${set}">
+
+    </form>
+
+</div>
+
+</body>
+</html>
