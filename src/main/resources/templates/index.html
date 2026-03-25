@@ -18,6 +18,12 @@
             <div class="card-title" th:text="${site.title}"></div>
             <button class="card-cta" type="submit" th:formaction="${site.url}" th:text="${site.cta}"></button>
         </div>
+
+        <div class="card">
+            <img class="card-image" src="/images/main-page/GetRich.jpg" alt="Mit billede">
+            <div class="card-title">Be A millionare - Quiz </div>
+            <button class="card-cta" type="submit" formaction="/teamA/frontpage">Open me!</button>
+        </div>
     </form>
 </div>
 
@@ -29,6 +35,7 @@
     <input type="text" name="username" placeholder="Indtast brugernavn"/>
     <input type="password" name="password" placeholder="Indtast password"/>
     <button class="btn btn-ok" type="submit" formaction="/login">Login</button>
+
     <div>
         <p class="error"
            th:unless="${#strings.isEmpty(message)}"
