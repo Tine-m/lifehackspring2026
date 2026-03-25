@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="/public/css/teamO/styles.css">
 </head>
 <body>
 
 <h1>Random Movies</h1>
 
-<a href="movie.html">
-    <button>Find en film til mig</button>
-</a>
+<form id="findMovieButton" action="movie.html">
+    <input id="findMovie" type="submit" value="Random Film" />
+</form>
+
+<form id="exitButton" action="/templates/index.html">
+    <input id="exit" type="submit" value="Tilbage" />
+</form>
 
 </body>
 </html>
