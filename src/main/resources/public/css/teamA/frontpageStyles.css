@@ -10,9 +10,9 @@
      " box-1 box-1 box-2 box-2 box-3 box-3 box-3"
      " box-1 box-1 box-4 box-4 box-3 box-3 box-3"
      " box-5 box-5 box-5 box-5 box-5 box-6 box-6"
-     " box-5 box-5 box-5 box-5 box-5 box-6 box-6"
-     " box-7 box-7 box-7 box-8 box-8 box-8 box-8"
-     " box-7 box-7 box-7 box-8 box-8 box-8 box-8";
+     " box-5 box-5 box-5 box-5 box-5 box-7 box-7"
+     " box-8 box-8 box-8 box-9 box-9 box-9 box-9"
+     " box-8 box-8 box-8 box-9 box-9 box-9 box-9";
 }
 
 #box-2 {
@@ -35,7 +35,59 @@
     border: 3px solid #3D7BFF;
 }
 
+#box-2-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: white;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
 
+#box-4-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: white;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+
+
+#box-6-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: white;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#box-7-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: white;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#box-6 {
+    background: #3D7BFF;
+    border: none;
+    color: #00D4AA;;
+}
+
+#box-6:hover{
+    border: 3px solid #00D4AA;
+}
+
+#box-7 {
+    background: #00D4AA;
+    border: none;
+    color: #3D7BFF;;
+}
+
+#box-7:hover{
+    border: 3px solid #3D7BFF;
+}
 
 
 

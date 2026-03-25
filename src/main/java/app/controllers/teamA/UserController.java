@@ -16,9 +16,16 @@ public class UserController {
         app.post("/teamA/register", ctx -> createUser(ctx, connectionPool));
         app.get("/teamA/login", ctx -> ctx.render("teamA/login.html"));
         app.post("/teamA/login", ctx -> login(ctx, connectionPool));
-        app.get("/teamA/frontpage", ctx -> ctx.render("teamA/frontpage.html"));
+        app.get("/teamA/frontpage", ctx -> frontpage(ctx, connectionPool));
         app.get("/teamA/logout", ctx -> logout(ctx));
     }
+
+
+    public static void frontpage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        SubscriptionController.getAllStats(ctx, connectionPool);
+        ctx.render("teamA/frontpage.html");
+    }
+
 
     private static void createUser(Context ctx, ConnectionPool connectionPool) {
         String username = ctx.formParam("username");
@@ -29,6 +36,7 @@ public class UserController {
         if (messages.isEmpty()){
             try {
                 UserMapper.createuser(username, password, connectionPool);
+                login(ctx,connectionPool);
                 ctx.redirect("/teamA/frontpage");
             } catch (DatabaseException e) {
                 ctx.attribute("msg", e.getMessage());

@@ -3,9 +3,13 @@ package app;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamteachers.QuoteController;
+import app.entities.teamA.Subscription;
 import app.persistence.ConnectionPool;
+import app.services.teamA.StatsMaker;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
+
+import java.util.ArrayList;
 
 
 public class Main
@@ -18,8 +22,7 @@ public class Main
 
     private static final ConnectionPool connectionPool = ConnectionPool.getInstance(USER, PASSWORD, URL, DB);
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Initializing Javalin and Jetty webserver
         Javalin javApp = Javalin.create(config -> {
             config.staticFiles.add("/public");

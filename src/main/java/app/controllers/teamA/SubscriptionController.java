@@ -5,6 +5,7 @@ import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 import app.persistence.teamA.SubscriptionMapper;
+import app.services.teamA.StatsMaker;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
@@ -16,8 +17,8 @@ public class SubscriptionController {
         app.post("/teamA/createSubscriptions", ctx -> addSubscription(ctx, connectionPool));
         app.get("/teamA/createSubscriptions", ctx -> ctx.render("teamA/add-subscription.html"));
         app.get("/teamA/removeSubscriptions", ctx -> listAllSubscriptions(ctx, connectionPool));
-
     }
+
 
     public static void listAllSubscriptions(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         User user = ctx.sessionAttribute("currentUser");
@@ -67,4 +68,40 @@ public class SubscriptionController {
         ctx.attribute("allSubscriptions", subscriptions);
         ctx.redirect("/teamA/removeSubscriptions");
     }
+
+
+    public static void getAllStats(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        monthlySubscriptionTotal(ctx, connectionPool);
+        dailySubscriptionTotal(ctx, connectionPool);
+        mostExpensiveSubscriptionPerUsage(ctx, connectionPool);
+        cheapestSubscriptionPerUsage(ctx, connectionPool);
+    }
+
+
+    public static void monthlySubscriptionTotal(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        double totalMonthlyCost = StatsMaker.monthlySubscriptionTotal(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+        String totalMonthlyCostString = String.format("%.2f", totalMonthlyCost) + " DKK";
+        ctx.attribute("totalMonthlyCost", totalMonthlyCostString);
+    }
+
+    public static void dailySubscriptionTotal(Context ctx, ConnectionPool connectionPool) throws DatabaseException{
+        User currentUser = ctx.sessionAttribute("currentUser");
+        double totalDailyCost = StatsMaker.dailySubscriptionTotal(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+        String totalDailyCostString = String.format("%.2f", totalDailyCost) + " DKK";
+        ctx.attribute("totalDailyCost", totalDailyCostString);
+    }
+    
+    public static void mostExpensiveSubscriptionPerUsage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        String mostExpensiveSub = StatsMaker.mostExpensiveSubscriptionPerUsage(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+        ctx.attribute("mostExpensiveSub", mostExpensiveSub);
+    }
+
+    public static void cheapestSubscriptionPerUsage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        String cheapestSub = StatsMaker.cheapestSubscriptionPerUsage(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+        ctx.attribute("cheapestSub", cheapestSub);
+    }
+
 }
