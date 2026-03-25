@@ -13,7 +13,7 @@ public class UserController
     {
         app.post("login", ctx -> login(ctx, connectionPool));
         app.get("logout", ctx -> logout(ctx));
-        app.get("/teamR",ctx -> ctx.render("teamR/start.html"));
+
        }
 
 

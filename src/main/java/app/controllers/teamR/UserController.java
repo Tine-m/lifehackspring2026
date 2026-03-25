@@ -19,8 +19,8 @@ public class UserController {
         app.get("/teamR/frontpage", ctx -> ctx.render("teamA/frontpage.html"));
         app.get("/teamR/logout", ctx -> logout(ctx));
 
-        app.get("/teamR", ctx -> ctx.render("teamR/teamR.html"));
-        app.get("/quiz", ctx -> ctx.render("teamR/quiz.html"));
+        app.get("/teamR",ctx -> ctx.render("teamR/start.html"));
+
     }
 
     private static void createUser(Context ctx, ConnectionPool connectionPool) {
