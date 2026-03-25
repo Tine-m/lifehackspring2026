@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
     <title>Quiz</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" th:href="@{/css/teamC/styles.css}" />
+    <link rel="stylesheet" th:href="@{/css/teamC/styles.css}"/>
 </head>
 
 <body>
 <h1>SPØRGSMÅL:</h1>
 
 <div class="question-container">
-    <div class="question-box">
+    <!--<div class="question-box">-->
 
-        <p th:text="${question.questionText}">spørgsmål</p>
+    <h2 th:text="${question.questionText}">SPØRGSMÅL</h2>
+
+    <!-- her kalder vi den java-metode der shuffler svarrækkefølge -->
+    <div class="question-container">
+        <div class="answer-options">
+            <button th:each="choice : ${shuffledAnswers}"
+                    type="button"
+                    class="answer-btn start-btn"
+                    th:data-is-correct="${choice.isCorrect}"
+                    th:data-img="${choice.img}"
+                    th:data-sound="${choice.sound}"
+                    th:text="${choice.text}">Svar
+            </button>
+
+        </div>
+        <div class="clicktostart-container">
+            <button type="button" id="checkBtn" class="start-btn">Check dit svar</button>
+            <br> <br>
+
+        </div>
+    </div>
+
+<div id="quizModal" class="modal">
+    <div class="modal-content">
+        <h2 id="modalTitle"></h2>
+        <img id="modalImg" src="">
+        <br>
+        <button type="button" onclick="location.reload()" class="start-btn">Næste spørgsmål</button>
+        <!-- <a href="endquiz.html" th:href="@{/endquiz}" class="start-btn">Afslut quizzen</a> -->
     </div>
 </div>
 
-<div class="clicktostart-container">
-    <button type="button" id="checkBtn" class="start-btn">Check dit svar</button>
-    <br><br>
-    <a href="endquiz.html" th:href="@{/endquiz}" class="start-btn">Afslut quizzen</a>
+
 </div>
 
 </body>

@@ -56,3 +56,10 @@ h1 {
     margin-bottom: 60px;
     border-radius: 15px;
 }
+/* --- CHECK MIT SVAR-KNAP ---*/
+.selected {
+    background-color: #FFFFFF !important; /* Hvid - #FFFFFF */
+    color: #003333 !important;           /* Mørk petrolgrøn - #033 */
+    transform: scale(1.05);               /* Gør knappen lidt større */
+    border: 3px solid #FFD700 !important; /* Guld kant - #FFD700 */
+}
