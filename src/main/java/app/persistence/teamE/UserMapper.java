@@ -33,12 +33,12 @@ public class UserMapper
                 return new User(id, username, dbPassword);
             } else
             {
-                throw new DatabaseException("Failed to log in, try again.");
+                throw new DatabaseException("Kunne ikke logge ind, prøv igen.");
             }
         }
         catch (SQLException e)
         {
-            throw new DatabaseException("Database error", e.getMessage());
+            throw new DatabaseException("Database fejl", e.getMessage());
         }
     }
 
@@ -53,14 +53,14 @@ public class UserMapper
 
             int rowsAffected = ps.executeUpdate();
             if (rowsAffected != 1) {
-                throw new DatabaseException("Failed to create new user.");
+                throw new DatabaseException("Kunne ikke oprette ny bruger.");
             }
         }
         catch (SQLException e) {
-            String msg = "An error occurred try again.";
+            String msg = "Der skete en fejl.";
             if (e.getMessage().startsWith("ERROR: duplicate key value "))
             {
-                msg = "Username already in use, pick another.";
+                msg = "Brugernavn allerede i brug, vælg et andet.";
             }
             throw new DatabaseException(msg, e.getMessage());
         }
