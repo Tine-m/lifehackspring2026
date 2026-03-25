@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="src/main/resources/public/css/teamG/styles.css" th:href="@{css/main-page/styles.css}" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="wrapper">
+    <h1 class="header">Hack of Life</h1>
+
+    <div class="container">
+        <br> <br> <br> <br>
+        <a th:unless="${session.currentUser}" href="/login">Login</a>
+        <a th:if="${session.currentUser}" href="/logout">Logout</a>
+        <br> <br> <br> <br>
+        <button>Opret bruger</button>
+    </div>
+</div>
+
+</body>
+</html>
