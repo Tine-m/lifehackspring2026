@@ -20,8 +20,25 @@ public class QuizMapper {
     mapperen i vores controller.
      */
 
+    // Hvor skal denne metode ligge? Det er ikke database. Burde ligge i en service-klasse
+    public List<Question> shuffleQuestions(ConnectionPool connectionPool) throws DatabaseException {
+        List<Question> shuffledQuestions;
+        try {
+            shuffledQuestions = new ArrayList<>(getAllQuestions(connectionPool));
+        } catch (DatabaseException e) {
+            throw new DatabaseException("Kunne ikke hente quiz " + e.getMessage());
+        }
+        return shuffledQuestions;
+    }
+
+   // Hvor skal denne metode ligge? Det er ikke database. Burde ligge i en service-klasse
    public static Question getRandomQuestion(ConnectionPool connectionPool) throws DatabaseException {
-        //check før liste er blandet
+
+       //Et loop, der returnere et spørgsmål fra den blandede liste.
+       //For-each eller while der stadig er et spørgsmål på listen.
+
+
+       //check før liste er blandet
         try (Connection connection = connectionPool.getConnection()) {
             System.out.println(getAllQuestions(connectionPool));
             List<Question> questions = getAllQuestions(connectionPool);
@@ -29,12 +46,8 @@ public class QuizMapper {
             // List<Question> randomQuestions = questions. // new ArrayList<>(Collections.shuffle(getAllQuestions(connectionPool)));
             // til check at listen er blandet
             // System.out.println(getAllQuestions(connectionPool));
-        /*
-        Hvor skal denne metode ligge? Det er ikke database
-        Bruger getAllQuestions()
-         */
         } catch (SQLException e) {
-            throw new DatabaseException("Kunne ikke hente quiz " + e.getMessage());
+            throw new DatabaseException("Kunne ikke hente spørgsmål " + e.getMessage());
         }
     }
 
