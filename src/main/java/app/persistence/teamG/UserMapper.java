@@ -50,5 +50,23 @@ public class UserMapper {
             throw new DatabaseException(e.getMessage() + "Det indtastede brugernavn eksistere allerede. Prøv en anden brugernavn");
         }
     }
+    public static void getSavedLifeHacks(int userId, ConnectionPool connectionPool) throws DatabaseException {
+        String sql = "SELECT hack.title" +
+                "FROM hack" +
+                "INNER JOIN saved ON hack.hack_id=saved.hack_id WHERE user_id = (?);";
+
+        try (Connection connection = connectionPool.getConnection()) {
+            try (PreparedStatement ps = connection.prepareStatement(sql)) {
+                ps.setInt(1, userId);
+                int rowsAffected = ps.executeUpdate();
+                if (rowsAffected != 1) {
+                    throw new DatabaseException("Fejl ved oprettelse af bruger");
+                }
+            }
+
+        } catch (SQLException e) {
+            throw new DatabaseException(e.getMessage() + "Det indtastede brugernavn eksistere allerede. Prøv en anden brugernavn");
+        }
+    }
 
 }
