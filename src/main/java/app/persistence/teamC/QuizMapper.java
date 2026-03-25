@@ -45,26 +45,26 @@ public class QuizMapper {
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
-            ps.setString(1, "questionText");
+          /*  ps.setString(1, "questionText");
             ps.setString(2, "answerCorrect");
             ps.setString(3, "answerWrong1");
             ps.setString(4, "answerWrong2");
             ps.setString(5, "imgCorrect");
             ps.setString(6, "imgWrong");
             ps.setString(7, "soundCorrect");
-            ps.setString(8, "soundWrong");
+            ps.setString(8, "soundWrong"); */
 
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 int id = rs.getInt("id");
-                String questionText = rs.getString("questionText");
-                String answerCorrect = rs.getString("answerCorrect");
-                String answerWrong1 = rs.getString("answerWrong1");
-                String answerWrong2 = rs.getString("answerWrong2");
-                String imgCorrect = rs.getString("imgCorrect");
-                String imgWrong = rs.getString("imgWrong");
-                String soundCorrect = rs.getString("soundCorrect");
-                String soundWrong = rs.getString("soundWrong");
+                String questionText = rs.getString("question_text");
+                String answerCorrect = rs.getString("answer_correct");
+                String answerWrong1 = rs.getString("answer_wrong1");
+                String answerWrong2 = rs.getString("answer_wrong2");
+                String imgCorrect = rs.getString("img_correct");
+                String imgWrong = rs.getString("img_wrong");
+                String soundCorrect = rs.getString("sound_correct");
+                String soundWrong = rs.getString("sound_wrong");
                 questions.add(new Question(questionText, answerCorrect, answerWrong1, answerWrong2, imgCorrect,
                         imgWrong, soundCorrect, soundWrong));
             }

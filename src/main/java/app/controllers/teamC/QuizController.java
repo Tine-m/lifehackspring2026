@@ -24,7 +24,7 @@ public class QuizController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamC", ctx -> index(ctx));
-        app.get("startquiz", ctx -> showQuestion(ctx));
+        app.get("cirkusquiz", ctx -> showQuestion(ctx));
         app.get("endquiz", ctx -> endQuiz(ctx));
     }
 
@@ -40,7 +40,7 @@ public class QuizController {
 
         } catch (DatabaseException e) {
             ctx.attribute("message", e.getMessage());
-            ctx.render("teamC/index.html");
+            ctx.render("teamC/index-quiz.html");
         }
 
     }
