@@ -19,8 +19,8 @@ h1 {
 .intro-container {
     display: inline-block; /*box rykker sig med tekst*/
     padding: 20px 10px;
-    border: 3px solid #033; /*ramme*/
-    background-color: white; /*hvidt fyld i box for læsbarhed*/
+    border: 3px solid #033;
+    background-color: white;
     box-shadow:  8px 8px 0px #033; /*skygge for at få "hævet" effekt*/
     max-width: 600px;
     margin-bottom: 60px;
@@ -49,8 +49,8 @@ h1 {
 .question-container {
     display: inline-block; /*box rykker sig med tekst*/
     padding: 20px 10px;
-    border: 3px solid #033; /*ramme*/
-    background-color: white; /*hvidt fyld i box for læsbarhed*/
+    border: 3px solid #033;
+    background-color: white;
     box-shadow:  8px 8px 0px #033; /*skygge for at få "hævet" effekt*/
     max-width: 600px;
     margin-bottom: 60px;

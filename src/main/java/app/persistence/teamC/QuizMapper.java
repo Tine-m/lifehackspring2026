@@ -10,6 +10,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class QuizMapper {
@@ -19,20 +20,16 @@ public class QuizMapper {
     mapperen i vores controller.
      */
 
-    public void getRandomQuestion() {
-        //TODO random eller collection.suffle
-
-        /* Bland spørgsmål ud fra map-arrayliste eller tag et vilkårligt spørgsmål hver gang
-        Hvad der er nemmest
-        Samme spørgsmål må ikke komme mere end en gang per loop
-        Start forfra og bland på en ny måde.
-        Er det et while-loop?
+    public void getRandomQuestion(List<Question> questions) {
+        //check før liste er blandet
+        System.out.println(questions);
+        Collections.shuffle(questions);
+        //til check at listen er blandet
+        System.out.println(questions);
+        /*
         Hvor skal denne metode ligge? Det er ikke database
         Bruger getAllQuestions()
-
          */
-
-
     }
 
     //Skal vi have statisk eller ej? Måske ikke
