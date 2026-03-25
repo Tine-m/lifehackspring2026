@@ -1,11 +1,11 @@
 package app.entities.teamA;
 
 public class Subscription {
-    int subId;
-    String subName;
-    double subCost;
-    int subUsage;
-    String subCategory;
+   private int subId;
+   private String subName;
+   private double subCost;
+   private int subUsage;
+   private String subCategory;
 
     public Subscription(int subId, String subName, double subCost, int subUsage, String subCategory) {
         this.subId = subId;
