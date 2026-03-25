@@ -1,8 +1,6 @@
 .main-body {
     display: flex;
     height: 100vh;
-
-    scrollbar-color: var(--icon-color) inset 0 0 6px rgba(0, 0, 0, .5);
 }
 
 
