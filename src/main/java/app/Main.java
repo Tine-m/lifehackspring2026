@@ -39,8 +39,8 @@ public class Main
         QuoteController.addRoutes(javApp, connectionPool);
 
         //SubStats app - Team - A
-        app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
-        app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+        app.controllers.teamR.UserController.addRoutes(javApp, connectionPool);
+        app.controllers.teamR.SubscriptionController.addRoutes(javApp, connectionPool);
 
     }
 }

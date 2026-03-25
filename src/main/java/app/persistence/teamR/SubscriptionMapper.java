@@ -1,6 +1,6 @@
-package app.persistence.teamA;
+package app.persistence.teamR;
 
-import app.entities.teamA.Subscription;
+import app.entities.teamR.Subscription;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 
