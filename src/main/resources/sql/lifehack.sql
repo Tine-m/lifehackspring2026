@@ -14,7 +14,7 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 
-CREATE SCHEMA public;
+
 ALTER SCHEMA public OWNER TO pg_database_owner;
 COMMENT ON SCHEMA public IS 'standard public schema';
 
