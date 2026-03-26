@@ -1,7 +1,7 @@
 package app.controllers.login;
 
 import app.entities.login.User;
-import app.exceptions.common.DatabaseException;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 import app.persistence.login.UserMapper;
 import io.javalin.Javalin;
