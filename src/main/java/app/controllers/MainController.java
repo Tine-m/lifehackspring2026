@@ -28,5 +28,8 @@ public class MainController {
 
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
+
+        //Team E, KitchenChem
+        lifehackSites.add(new LifehackSite("KitchenChem", "Nyttige rengøringshacks!", "teamE/index", "images/teamE/spraybottle.png"));
     }
 }
