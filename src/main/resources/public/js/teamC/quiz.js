@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
         title.style.color = isCorrect ? "#32CD32" : "#B22222"; // Grøn eller Rød
 
         // Vi bruger jeres faste filnavne her
-        img.src = isCorrect ? "/media/correct.jpg" : "/media/wrong.jpg";
-        const soundPath = isCorrect ? "/media/correct.mp3" : "/media/wrong.mp3";
+        img.src = isCorrect ? "images/teamC/media/correct.jpg" : "images/teamC/media/wrong.jpg";
+        const soundPath = isCorrect ? "images/teamC/media/correct.mp3" : "images/teamC/media/wrong.mp3";
 
         // 4. Afspil lyd (med fix for den fejl du så tidligere)
         const audio = new Audio(soundPath);
