@@ -26,7 +26,7 @@ public class MainController {
         //TeamR
         lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/start", "images/main-page/GetRich.jpg"));
 
-        /
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
 
