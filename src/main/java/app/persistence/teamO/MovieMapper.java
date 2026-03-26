@@ -1,7 +1,7 @@
 package app.persistence.teamO;
 
 import app.entities.teamO.Movie;
-import app.exceptions.common.DatabaseException;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 
 import java.sql.*;

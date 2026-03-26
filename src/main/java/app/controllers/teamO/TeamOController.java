@@ -1,7 +1,7 @@
 package app.controllers.teamO;
 
 import app.entities.teamO.Movie;
-import app.exceptions.common.DatabaseException;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 import app.persistence.teamO.MovieMapper;
 import io.javalin.Javalin;
@@ -14,7 +14,7 @@ import java.util.Random;
 public class TeamOController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/randommovies", ctx -> index(ctx));
+        app.get("/teamO/index", ctx -> ctx.render("teamO/index.html"));
         app.get("/teamO/randommovie", ctx -> showRandomMovie(ctx, connectionPool));
     }
 

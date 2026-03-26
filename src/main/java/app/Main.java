@@ -34,7 +34,7 @@ public class Main
         MainController.addRoutes(javApp, connectionPool);
 
         // Team O
-        TeamOController.addRoutes(app, connectionPool);
+        TeamOController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
         app.controllers.login.UserController.addRoutes(javApp, connectionPool);
