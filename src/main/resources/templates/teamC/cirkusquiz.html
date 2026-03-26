@@ -13,8 +13,15 @@
 
 <div class="question-container">
     <div class="question-box">
-
         <p th:text="${question.questionText}">spørgsmål</p>
+
+        <input type="radio" id="answer1" name="answer" value="correct">
+        <label for="answer1" th:text="${question.answerCorrect}"></label><br>
+        <input type="radio" id="answer2" name="answer" value="wrong1">
+        <label for="answer2" th:text="${question.answerWrong1}"></label><br>
+        <input type="radio" id="answer3" name="answer" value="wrong2">
+        <label for="answer3" th:text="${question.answerWrong2}"></label><br>
+        <br/>
     </div>
 </div>
 
