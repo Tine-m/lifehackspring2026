@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<h1>Kategori ${#kategori}</h1>
+<h1 th:text="'Kategori' + ${kategori}"></h1>
 <ul>
-    #for(hack: Hacks)
-    <li>${hack.name}</li>
-    #end
+    <li th:each="hack : ${Hacks}" th:text="${hack.description}"></li>
+
+</ul>
+<ul>
+    <li th:each="hack : ${Hacks}" th:text="${hack.title}"></li>
+
 </ul>
 </body>
 </html>

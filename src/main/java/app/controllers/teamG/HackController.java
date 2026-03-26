@@ -17,7 +17,8 @@ public class HackController {
         app.get("/lifehackseption", ctx -> ctx.render("teamG/index.html"));
         app.get("/categories", ctx -> getHackByCategory(ctx, connectionPool));
         app.get("/chooseCategory", ctx -> ctx.render("teamG/showCategoryLifeHack"));
-        app.get("/showLifeHacksInCategory", ctx -> ctx.render("teamG/showCategory"));
+        app.get("/showCategory", ctx -> ctx.render("teamG/showCategory"));
+        app.post("showCategory", ctx -> getHackByCategory(ctx, connectionPool));
     }
 
     public static void getHackByCategory(Context ctx, ConnectionPool connectionPool) {
@@ -27,7 +28,7 @@ public class HackController {
        ctx.attribute("kategori", category);
        ctx.attribute("Hacks", hacksList);
 
-       ctx.render("showCategory.html");
+       ctx.render("teamG/showCategory");
 
 
 
