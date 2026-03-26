@@ -3,6 +3,7 @@ package app;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamE.IngredientController;
+import app.controllers.teamE.RecipeController;
 import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
@@ -49,6 +50,7 @@ public class Main
 
         //KitchenChem app - Team E
         IngredientController.addRoutes(javApp, connectionPool);
+        RecipeController.addRoutes(javApp, connectionPool);
 
 
     }
