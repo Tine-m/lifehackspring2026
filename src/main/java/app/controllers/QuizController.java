@@ -31,6 +31,16 @@ public class QuizController {
 
         boolean correct = answer.equals(question.getCorrect());
 
+
+        int nextQuestion = questionNumber + 1;
+        Question next = QuestionDAO.getQuestion(connectionPool, nextQuestion, set);
+
+        if (next == null) {
+            ctx.redirect("/");
+            return;
+
+        }
+
         ctx.attribute("correct", correct);
         ctx.attribute("nextQuestion", questionNumber + 1);
         ctx.attribute("set", set);

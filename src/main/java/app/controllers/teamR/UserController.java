@@ -21,6 +21,7 @@ public class UserController {
 
         app.get("/start",ctx -> ctx.render("teamR/start.html"));
 
+
     }
 
     private static void createUser(Context ctx, ConnectionPool connectionPool) {
