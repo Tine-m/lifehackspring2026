@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_Coffee_Brand_Merrild</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/index}">
+                <img src="/public/images/teamI/coffiime_logo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/login}"> Login </a></li>
+            <li><a th:href="@{/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+
+<nav class="navCenter">
+
+    <h1>
+        Bean
+    </h1>
+
+    <div class="bodyTextCenter">
+        Bean er et dansk kaffemærke, der er især kendt i Danmark for sin formalede kaffe
+        <br>og hele kaffebønner der relativt høj kvalitet. Bean fokusere på en rund og balanceret smag og tilbyder
+        forskellige varianter fra mild til kraftig kaffe.
+        <br> så det passer til danske kaffevaner.
+        <br>
+
+
+    </div>
+</nav>
+
+
+</body>
+
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+
+</html>

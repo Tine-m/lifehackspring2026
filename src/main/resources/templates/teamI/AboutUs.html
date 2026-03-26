@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_About_us</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/index}">
+                <img src="/public/images/teamI/coffiime_logo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/login}"> Login </a></li>
+            <li><a th:href="@{/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+<nav class ="navCenter">
+
+    <h1>
+        About us
+    </h1>
+
+    <div class="bodyTextCenter">
+
+        CoffiiMe blev etableret med ønsket om, at dele den gode smagsoplevelse af en vel-brygget kop kaffe.
+        <br>Vores vision var at det skulle være let at kunne lave sin yndlings kaffer eller finde inspiration til at lave sine egne nye versioner.
+        <br>Det var vigtig for os at brugeren kunne vælge hvilken bønne gemme deres favoritter så det kunne lette deres hverdag.
+        <br>Derudover giver vores hjemmeside let adgang til at kunne døbe de specialdesignede kaffer et unikt navn.
+        <br>Hvem vil ikke gerne kunne imponere, så slipper du for selv at huske, hvordan svigermor bedst kunne lide sin kaffe. ;)
+
+    </div>
+</nav>
+
+</body>
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a href="/aboutUs"> About us </a></li>
+                <li><a href="/contactUs"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+
+</html>

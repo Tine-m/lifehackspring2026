@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_Coffee_Type_Cortado</title>
+
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/index}">
+                <img src="/public/images/teamI/coffiime_logo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/login}"> Login </a></li>
+            <li><a th:href="@{/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+<nav class="navCentrum">
+    <strong class="h1">Cortado</strong>
+    <div class="content">
+        <p class="bodyText">
+            <img src="/public/images/teamI/coffeeImage/cortado.png" class="bigFoto" alt="billed af cortado" align="right"/>
+            En cortado er en kompakt og balanceret kaffedrik, der består af lige dele espresso og varm mælk,
+            hvilket giver en intens, men samtidig afrundet smagsoplevelse. Aromaen er tydeligt præget af espressoens
+            ristede karakter,
+            men blødgøres af mælkens varme og let sødlige duft, som tilsammen skaber en mere afdæmpet,
+            men stadig fyldig aroma med noter af chokolade og nødder. Smagen er kraftigere end i en café latte,
+            men mindre skarp end en ren espresso, da mælken reducerer bitterheden uden at overdøve kaffens dybde.
+            Den har en cremet, men ikke for luftig tekstur, fordi der kun er meget lidt skum, hvilket giver en tæt og
+            harmonisk mundfornemmelse.
+            Samlet set er en cortado en velafbalanceret kaffeoplevelse,
+            hvor espresso og mælk mødes i en mere ligeværdig og intens, men stadig blød helhed.
+        </p>
+
+
+        <div class="formRecipes">
+            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
+            <p class="bodyText">Kaffebønne: 9 g</p>
+            <p class="bodyText">Vand: 0,3 dl</p>
+            <p class="bodyText">Mælk: 0,4 dl</p>
+
+        </div>
+    </div>
+</nav>
+
+
+</body>
+
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</html>

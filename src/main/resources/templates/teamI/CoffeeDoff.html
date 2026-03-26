@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_Coffee_Brand_NesCafe</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/index}">
+                <img src="/public/images/teamI/coffiime_logo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/login}"> Login </a></li>
+            <li><a th:href="@{/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+
+<nav class ="navCenter">
+
+    <h1>
+        CoffeeDoff
+    </h1>
+
+    <div class="bodyTextCenter">
+        CoffeeDoff er et kaffemærke, der forbindes med luksus og en mere eksklusiv kaffeoplevelse.
+        <br> Coffedoff kaffe er især kendt for sin instant kaffe i premium-segment,
+        <br> fx serier som Doff CoffAroma og Doff Fine Aroma.
+        <br> Mærket henvender sig til folk, der vil have en hurtig kop kaffe, ligesom mærket Kaf
+        <br> men med en mere sofistikeret og luksuspræget smagsprofil.
+
+    </div>
+</nav>
+
+
+</body>
+
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+
+</html>

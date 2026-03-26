@@ -1,0 +1,427 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* _______________ logo__________________  */
+
+.logoplace {
+    padding-left: 30px;
+
+}
+
+.logoSize {
+    width: 35%;
+    heigth: auto;
+}
+
+/* ________________ text __________________  */
+
+.h1{
+    font-family: "Baskerville Old Face";
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.account {
+
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 20px;
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0 20px;
+    color: black;
+}
+
+.account a {
+    text-decoration: none;
+    color: black;
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.account li.right {
+    margin-left: auto;
+}
+
+.account a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+
+.bodyText {
+    text-decoration: none;
+    color: black;
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 22px;
+    flex: 2;
+    max-width: 1050px;
+    text-align: left;
+}
+.bodyTextCenter{
+        text-decoration: none;
+        color: black;
+        font-family: "Baskerville Old Face";
+        font-weight: 500;
+        font-size: 22px;
+        flex: 2;
+        max-width: 1500px;
+        text-align: center;
+}
+
+
+/* ________________ padding __________________  */
+
+
+.navheader {
+    padding: 50px 95px;
+}
+
+.nav1 {
+    padding: 0 95px;
+}
+
+.nav2 {
+    padding: 50px 1500px;
+}
+
+.navBody {
+
+    padding: 80px 100px;
+}
+
+.navCenter {
+    padding-top: 30px;
+    text-align: center;
+
+    margin: 0 auto;
+
+}
+
+.navCentrum {
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* beside is other*/
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+/* ________________ Menu __________________  */
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    max-width: 750px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    gap: 40px;
+}
+
+.left{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.right {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px 0;
+    white-space: nowrap;
+}
+
+.menu a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+/* ________________ btn __________________  */
+
+
+.btn {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.book-btn:hover {
+    background-color: mediumseagreen;
+    padding: 10px 18px;
+}
+
+
+/* ________________ form __________________  */
+
+
+/* ________________ background __________________  */
+body {
+    background-color: #F8F6E6; /* eller hvilken farve du vil */
+}
+
+
+/* ________________ Footer __________________  */
+.footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    background-color: black;
+    z-index: 1000;
+    padding: 20px 0;
+}
+
+.footer-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer a {
+    transform: translateY(1px);
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 25px;
+
+    line-height: 40px;
+    padding: 0;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-divider {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+/*-----Log in box and create acc box ------ */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 96%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6b4f4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #543c3c;
+
+}
+
+/*-----------Img---------------*/
+
+.foto {
+    display: flex;
+    gap: 200px;
+}
+
+.foto a:hover {
+    opacity: 0.7;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.item {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bigFoto {
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.bigFoto img {
+    max-height: 100%;
+    width: auto;
+}
+
+
+/*///////////////////////////////////////////////////////*/
+
+.placing{
+    padding-top: 100px;
+    padding-left: 130px;
+}
+
+.colorPanel{
+    padding: 150px;
+    background-color: blue;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+.brandFoto {
+    height: 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.brandFoto a:hover {
+    opacity: 0.7;
+}
+
+
+.brandItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandItem img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.brandItem {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-----------Recipes tebel---------------*/
+
+.formRecipes {
+    background-color: #F2D8AA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+
+/*-----------Menu string---------------*/
+
+.menuLine {
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.menuLine::before,
+.menuLine::after {
+    content: "";
+    flex: 1;
+    height: 3px;
+    background: #333;
+}
+
+.diamond {
+    width: 14px;
+    height: 14px;
+    background: #333;
+    transform: rotate(45deg);
+    margin: 0 12px;
+}
