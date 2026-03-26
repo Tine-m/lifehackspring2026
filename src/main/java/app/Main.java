@@ -2,7 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
-import app.controllers.teamO.MovieController;
+import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
@@ -35,7 +35,7 @@ public class Main
         MainController.addRoutes(app, connectionPool);
 
         // Team O
-        MovieController.addRoutes(app, connectionPool);
+        TeamOController.addRoutes(app, connectionPool);
 
         // General Login - only included as example code
         UserController.addRoutes(app, connectionPool);

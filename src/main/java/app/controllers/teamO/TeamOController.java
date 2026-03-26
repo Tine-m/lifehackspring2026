@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 import java.util.Random;
 
-public class MovieController {
+public class TeamOController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/randommovies", ctx -> index(ctx));
