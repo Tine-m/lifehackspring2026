@@ -24,6 +24,7 @@
         let startTime;
 
         function startTimer() {
+            //START
             running = !running;
             let btn = document.getElementById("myBtn");
 
@@ -31,11 +32,7 @@
                 btn.textContent = "Stop timer";
                 startTime = Date.now()
                 console.log(startTime);
-                //start
-                fetch('/timer', {
-                    method: 'POST', headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({running: running})
-                })
+
             } else {
                 // STOP
                 let endTime = Date.now()
@@ -47,7 +44,7 @@
                 fetch('/timer', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({running: running})
+                    body: JSON.stringify({result})
                 });
             }
 
