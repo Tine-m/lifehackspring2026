@@ -1,5 +1,6 @@
 package app.persistence.teamA;
 
+import app.entities.teamA.Subscription;
 import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
@@ -8,6 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class UserMapper
 {
@@ -61,6 +63,24 @@ public class UserMapper
                 msg = "Brugernavnet findes allerede. Vælg et andet";
             }
             throw new DatabaseException(msg, e.getMessage());
+        }
+    }
+
+    public static ArrayList<Integer> getAllUserIds(ConnectionPool connectionPool)throws DatabaseException {
+        String sql = "SELECT teamA_user_id FROM teamA_users";
+        try (
+                Connection connection = connectionPool.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ) {
+            ArrayList<Integer> userIds = new ArrayList<>();
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                int userID = rs.getInt("user_id");
+                userIds.add(userID);
+            }
+            return userIds;
+        } catch (SQLException e) {
+            throw new DatabaseException("No subscriptions found attached to you", e.getMessage());
         }
     }
 }

@@ -57,7 +57,7 @@ public class StatsMaker {
         return subscriptionsPerUsageMap;
     }
 
-    public static List<Double> allSubscriptionsCosts(ArrayList<Subscription> subscriptions){
+    public static List<Double> allSubscriptionsCosts(ArrayList<Subscription> subscriptions) {
         List<Double> allSupscriptions = new ArrayList<>();
         for (Subscription subscription : subscriptions) {
             allSupscriptions.add(subscription.getSubCost());
@@ -81,6 +81,38 @@ public class StatsMaker {
         return (HashMap<String, Double>) byCategory;
     }
 
+    public static void allUsersSubscriptionCount(ArrayList<Subscription> subscriptions) {
+        HashMap<Integer, Integer> subscriptionList = new HashMap<>();
+
+        List<Subscription> sortedSubscriptions = subscriptions.stream().sorted(Comparator.comparing(Subscription::getUserId)).toList();
+
+        int userId = sortedSubscriptions.getFirst().getUserId();
+        int tempUserId = 0;
+        int subscriptionCount = 0;
+
+        for (Subscription subscription : sortedSubscriptions) {
+            tempUserId = subscription.getUserId();
+            if (userId != tempUserId) {
+                subscriptionList.put(userId, subscriptionCount);
+                userId = subscription.getUserId();
+                subscriptionCount = 0;
+            }
+            subscriptionCount++;
+        }
+        subscriptionList.put(userId, subscriptionCount);
+    }
+
+
+    public static void allUsersSubs(ArrayList<Subscription> subscriptions, ArrayList<Integer> userIds) {
+        HashMap<Integer, Integer> subscriptionCountMap = new HashMap<>();
+
+        for (Subscription subscription : subscriptions) {
+           int userId = subscription.getUserId();
+           
+        }
+        System.out.println(subscriptionCountMap);
+
+    }
 
 }
 

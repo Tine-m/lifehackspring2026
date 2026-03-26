@@ -12,14 +12,14 @@ Promise.all([
                 {
                     label: 'Pr. dag',
                     data: Object.values(usageData),
-                    backgroundColor: '#36a2eb',
+                    backgroundColor: 'rgb(72,184,184)',
                     barThickness: 20,
                     borderRadius: 4,
                 },
                 {
                     label: 'Total Pris',
                     data: Object.values(costData),
-                    backgroundColor: '#ffce56',
+                    backgroundColor: 'rgb(244,96,127)',
                     barThickness: 20,
                     borderRadius: 4,
                 }

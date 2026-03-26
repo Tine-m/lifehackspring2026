@@ -4,7 +4,9 @@ import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamteachers.QuoteController;
 import app.entities.teamA.Subscription;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
+import app.persistence.teamA.SubscriptionMapper;
 import app.services.teamA.StatsMaker;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
@@ -44,6 +46,5 @@ public class Main
         //SubStats app - Team - A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
-
     }
 }

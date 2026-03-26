@@ -73,4 +73,27 @@ public class SubscriptionMapper {
             throw new DatabaseException("Error deleting subscription", e.getMessage());
         }
     }
+
+    public static ArrayList<Subscription> getAllSubscriptions(ConnectionPool connectionPool)throws DatabaseException{
+        String sql = "SELECT * FROM teamA_subscriptions";
+        try (
+                Connection connection = connectionPool.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ) {
+            ArrayList<Subscription> subscriptions = new ArrayList<>();
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                int subId = rs.getInt("subscription_id");
+                String subName = rs.getString("subscription_name");
+                double subCost = rs.getDouble("subscription_cost");
+                int subUsage = rs.getInt("usage_amount");
+                String subCategory = rs.getString("category");
+                int userID = rs.getInt("user_id");
+                subscriptions.add(new Subscription(subId, subName, subCost, subUsage, subCategory, userID));
+            }
+            return subscriptions;
+        } catch (SQLException e) {
+            throw new DatabaseException("No subscriptions found attached to you", e.getMessage());
+        }
+    }
 }
