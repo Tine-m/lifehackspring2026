@@ -25,7 +25,7 @@ public class FunQuoteController {
             FunQuote funQuote = FunQuoteMapper.getFunQuoteById(number, connectionPool);
             ctx.attribute("funSetup", funQuote.getSetup());
             ctx.attribute("funPunchLine", funQuote.getPunchLine());
-            ctx.render("TeamN/index.html");
+            ctx.render("teamN/index.html");
         } catch (DatabaseException e) {
 
         }

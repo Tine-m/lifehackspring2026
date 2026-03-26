@@ -14,7 +14,7 @@ public class QuoteController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamN/index", ctx -> pickRandomQuote(ctx, connectionPool));
-        //app.get("/randomquote", ctx -> ctx.render("../../../../TeamN/index.html"));
+        //app.get("/randomquote", ctx -> ctx.render("../../../../teamN/index.html"));
     }
 
     public static void pickRandomQuote(Context ctx, ConnectionPool connectionPool) {
@@ -25,7 +25,7 @@ public class QuoteController {
             Quote selectedQuote = QuoteMapper.getQuoteById(selectedQuoteId, connectionPool);
             ctx.attribute("selectedquote", selectedQuote);
             //ctx.redirect("teamN/index");
-            ctx.render("/TeamN/index.html");
+            ctx.render("teamN/index.html");
         } catch (DatabaseException e) {
             System.out.println(e.getMessage());
         }
