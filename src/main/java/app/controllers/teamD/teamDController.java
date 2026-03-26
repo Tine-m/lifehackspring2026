@@ -32,7 +32,65 @@ public class teamDController {
 
         ctx.attribute("categoryImages", categoryImages);
         ctx.attribute("groupedIngredients", groupedIngredients);
+        ctx.attribute("recipes", recipesList);
         ctx.render("teamD/index.html");
+    }
+
+    private static Map<String, String> getCategoryImages() {
+        return Map.of(
+                "Grøntsager", "vegetable.png",
+                "Frugter", "fruit.png",
+                "Kød & Fisk", "meat.png",
+                "Mejeri", "dairy.png",
+                "Krydderier", "spice.png",
+                "Tørvarer", "colonial.png",
+                "Drikkevarer", "drink.png",
+                "Færdigvarer", "fastfood.png",
+                "Søde Sager", "dessert.png",
+                "Andet", "other.png"
+        );
+    }
+
+    private static Map<String, List<Ingredient>> getIngredients(ConnectionPool connectionPool) {
+        List<Ingredient> ingredients = IngredientMapper.getIngredients(connectionPool)
+                .stream()
+                .sorted(Comparator.comparing(Ingredient::getName, String.CASE_INSENSITIVE_ORDER))
+                .toList();
+
+        List<String> categoryOrder = List.of(
+                "Grøntsager",
+                "Frugter",
+                "Kød & Fisk",
+                "Mejeri",
+                "Krydderier",
+                "Tørvarer",
+                "Drikkevarer",
+                "Færdigvarer",
+                "Søde Sager",
+                "Andet"
+        );
+        Map<String, List<Ingredient>> groupedIngredients = new LinkedHashMap<>();
+
+        for (String category : categoryOrder) {
+            groupedIngredients.put(category, new ArrayList<>());
+        }
+        for (Ingredient ingredient : ingredients) {
+            groupedIngredients
+                    .computeIfAbsent(ingredient.getCategory(), key -> new ArrayList<>())
+                    .add(ingredient);
+        }
+
+        return groupedIngredients;
+    }
+
+    private static List<Recipe> getRecipes(ConnectionPool connectionPool) {
+        List<Recipe> recipesNoIngredients = RecipeMapper.getAllRecipes(connectionPool);
+        List<Recipe> recipesWithIngredients = RecipeMapper.getAllRecipesWithIngredients(connectionPool);
+
+        List<Recipe> recipesLimit = recipesNoIngredients.stream()
+                .limit(1000)
+                .toList();
+        return recipesLimit;
     }
 
 }
