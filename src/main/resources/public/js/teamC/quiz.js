@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     checkBtn.addEventListener('click', () => {
         // 1. Find den radio-knap, som brugeren har valgt
-        const selected = document.querySelector('input[name="answer"]:checked');
+        const selected = document.querySelector('input[name="userAnswer"]:checked');
 
         // Hvis ingen er valgt, giv en hurtig besked
         if (!selected) {

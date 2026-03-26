@@ -13,14 +13,21 @@
 
 <div class="question-container">
     <div class="question-box">
-        <p th:text="${question.questionText}">spørgsmål</p>
+        <p th:text="${question.questionText}">Spørgsmål</p>
 
-        <input type="radio" id="answer1" name="answer" value="correct">
-        <label for="answer1" th:text="${question.answerCorrect}"></label><br>
-        <input type="radio" id="answer2" name="answer" value="wrong1">
-        <label for="answer2" th:text="${question.answerWrong1}"></label><br>
-        <input type="radio" id="answer3" name="answer" value="wrong2">
-        <label for="answer3" th:text="${question.answerWrong2}"></label><br>
+        <form id="quizForm">
+        <div th:each="answer, iterStat : ${answers}">
+            <input type="radio"
+                   th:id="${'answer' + iterStat.count}"
+                   name="userAnswer"
+                   th:value="${answer}"
+                   required>
+
+            <label th:for="${'answer' + iterStat.count}"
+                   th:text="${answer}">Svarmulighed</label>
+            <br>
+        </div>
+        </form>
         <br/>
     </div>
 </div>

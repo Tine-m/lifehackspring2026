@@ -7,6 +7,7 @@ import app.persistence.teamC.QuizMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -38,7 +39,9 @@ public class QuizController {
 
             //Tag det første spørgsmål fra listen.
             Question question = questions.get(0);
+            List<String> shuffledAnswers = getShuffledAnswers(question);
             ctx.attribute("question", question); //Lægger et enkelt Question-objekt ned i en pakke, som Thymeleaf kan åbne i html.
+            ctx.attribute("answers", shuffledAnswers);
             ctx.render("teamC/cirkusquiz.html");
 
         } catch (DatabaseException e) {
@@ -54,6 +57,16 @@ public class QuizController {
             ctx.sessionAttribute("questions", questions);
         }
         ctx.redirect("/cirkusquiz");
+    }
+    //Blander svarmuligheder
+    private static List<String> getShuffledAnswers (Question question) {
+        List <String> answers = new ArrayList<>();
+        answers.add(question.getAnswerCorrect());
+        answers.add(question.getAnswerWrong1());
+        answers.add(question.getAnswerWrong2());
+
+        Collections.shuffle(answers);
+        return answers;
     }
 
     private static void endQuiz(Context ctx) {
