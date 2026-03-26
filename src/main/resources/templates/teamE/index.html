@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KitchenChem - Clean smarter, not harder</title>
 
-    <link rel="stylesheet" href="/css/teamE/styles.css"/>
+    <link rel="stylesheet" th:href="@{/css/teamE/styles.css}"/>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
     <p class="browse-label">Browse by category</p>
 
     <div class="category-grid">
-        <div class="category-card" onclick="location.href='../../public/js/teamE/hacks?cat=soft'">
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=soft'">
             <span class="category-card-icon">&#x1F9FA;</span>
             <p class="category-card-title">Soft surfaces</p>
             <p class="category-card-desc">Fabric, upholstery, carpets &amp; clothing stains</p>
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <div class="category-card" onclick="location.href='../../public/js/teamE/hacks?cat=hard'">
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=hard'">
             <span class="category-card-icon">&#x1FAA8;</span>
             <p class="category-card-title">Hard surfaces</p>
             <p class="category-card-desc">Tiles, countertops, sinks &amp; sealed surfaces</p>
@@ -73,7 +73,7 @@
             </div>
         </div>
 
-        <div class="category-card" onclick="location.href='../../public/js/teamE/hacks?cat=jewellery'">
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=jewellery'">
             <span class="category-card-icon">&#x1F48E;</span>
             <p class="category-card-title">Jewellery</p>
             <p class="category-card-desc">Silver, gold &amp; gemstone cleaning</p>
@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        <div class="category-card" onclick="location.href='../../public/js/teamE/hacks?cat=mirror'">
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=mirror'">
             <span class="category-card-icon">&#x1FAE7;</span>
             <p class="category-card-title">Mirror &amp; glass</p>
             <p class="category-card-desc">Streak-free solutions for any glass surface</p>
