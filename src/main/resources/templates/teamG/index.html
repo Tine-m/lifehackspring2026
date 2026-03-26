@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="src/main/resources/public/css/teamG/styles.css" th:href="@{css/main-page/styles.css}" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{/css/teamG/styles.css}">
 </head>
 
 <body>
@@ -12,15 +12,9 @@
     <h1 class="header">Hack of Life</h1>
 
     <div class="container">
-        <a href="/chooseCategory">
-            <button>katagori</button>
-        </a>
-
-        <button>favoritter</button>
-        <button>Random</button>
-
+        <a href="/chooseCategory" class="btn">Kategori</a>
+        <a href="https://youtu.be/RSYTnxPLQlU?t=9" class="btn">Random</a>
     </div>
 </div>
-
 </body>
 </html>

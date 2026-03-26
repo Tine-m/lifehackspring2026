@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-
+<link rel="stylesheet" th:href="@{/css/teamG/styles.css}">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<h1 th:text="'Kategori' + ${kategori}"></h1>
-<ul>
-    <li th:each="hack : ${Hacks}" th:text="${hack.description}"></li>
+<h1 th:text="'Kategori: ' + ${kategori}"></h1>
 
+<ul class="hack-list">
+    <li th:each="hack : ${Hacks}" class="hack-item">
+        <div class="hack-text">
+            <strong th:text="${hack.title}"></strong>
+            <p th:text="${hack.description}"></p>
+        </div>
+        <a th:href="${hack.videolink}" target="_blank" class="btn">
+            Watch Video
+        </a>
+    </li>
 </ul>
-<ul>
-    <li th:each="hack : ${Hacks}" th:text="${hack.title}"></li>
 
-</ul>
 </body>
 </html>

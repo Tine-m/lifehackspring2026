@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>kategori side</title>
+    <link rel="stylesheet" th:href="@{/css/teamG/styles.css}">
 </head>
 <body>
 
-<form method="post" action="/showCategory">
-    <label for="kategori">Vælg en kategori</label>
+<div class="container">
+    <form method="post" action="/showCategory" class="form-box">
+        <h2>Vælg kategori</h2>
 
-    <select name="kategori" id="kategori">
-        <option id="school">school</option>
-        <option id="food">food</option>
-        <option id="prank">prank</option>
-        <option id="everyday">everyday</option>
-    </select>
-    <button type="submit">Søg</button>
-</form>
+        <label for="kategori">Kategori</label>
+
+        <select name="kategori" id="kategori">
+            <option value="school">School</option>
+            <option value="food">Food</option>
+            <option value="prank">Prank</option>
+            <option value="everyday">Everyday</option>
+        </select>
+
+        <button type="submit">Søg</button>
+    </form>
+</div>
 
 <script>
     function videosByCategory() {
