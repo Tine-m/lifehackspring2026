@@ -66,4 +66,8 @@ public class Recipe {
     public String getInstructions() {
         return instructions;
     }
+
+    public List<String> getIngredients() {
+        return ingredients;
+    }
 }
