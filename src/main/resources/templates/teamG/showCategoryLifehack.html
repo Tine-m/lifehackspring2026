@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>kategori side</title>
 </head>
 <body>
 
-<form method="category" action="/showLifeHacksInCategory">
-    <label for="category">Vælg en kategori</label>
-    <select for="category" id="category">
+<form method="post" action="/showCategory">
+    <label for="kategori">Vælg en kategori</label>
+
+    <select name="kategori" id="kategori">
         <option id="school">school</option>
         <option id="food">food</option>
         <option id="prank">prank</option>
