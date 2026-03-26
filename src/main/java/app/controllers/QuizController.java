@@ -12,6 +12,9 @@ public class QuizController {
         String set = ctx.pathParam("set");
         int questionNumber = Integer.parseInt(ctx.pathParam("number"));
 
+        if (questionNumber == 1) {
+            ctx.sessionAttribute("score", 0);
+        }
         Question question = QuestionDAO.getQuestion(connectionPool, questionNumber, set);
 
         ctx.attribute("question", question);
@@ -31,16 +34,30 @@ public class QuizController {
 
         boolean correct = answer.equals(question.getCorrect());
 
+        Integer score = ctx.sessionAttribute("score");
+
+        if (score == null) {
+            score = 0;
+        }
+
+        if (correct) {
+            score++;
+        }
+
+        ctx.sessionAttribute("score", score);
+
 
         int nextQuestion = questionNumber + 1;
         Question next = QuestionDAO.getQuestion(connectionPool, nextQuestion, set);
 
         if (next == null) {
-            ctx.redirect("/");
+            ctx.attribute("score", score);
+            ctx.attribute("maxScore", 10);
+            ctx.render("teamR/score.html");
             return;
-
         }
 
+        ctx.attribute("score", score);
         ctx.attribute("correct", correct);
         ctx.attribute("nextQuestion", questionNumber + 1);
         ctx.attribute("set", set);
