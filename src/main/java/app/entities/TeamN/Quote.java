@@ -45,4 +45,8 @@ public class Quote {
     public void setYear(int year) {
         this.year = year;
     }
+
+    public String toString() {
+        return quote + "\n- " + name + ", " + year;
+    }
 }

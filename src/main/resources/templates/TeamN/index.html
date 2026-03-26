@@ -10,7 +10,7 @@
 <body>
 
 <div class="headers">
-<h1>Tid til eksamensugen!</h1>
+<h1>Nedstælling til eksamensugen!</h1>
     <div class="boxWithTimer">
         <div class="time">
             <h2 id ="dage">00</h2>
@@ -31,17 +31,21 @@
     </div>
 <h1>Her et motiverende quote!</h1>
 </div>
+
 <div class="qoute">
     <img th:src="">
-    <p th:text="qMSG"></p>
+    <p th:text="@{selectedquote}"></p>
 </div>
+
 <div class="funny">
     <div>
         <img th:src="">
-        <p th:text="funnyMSG"></p>
+        <p th:text="@{funSetup}"></p>
+        <p th:text="@{funPunchLine}"></p>
     </div>
+
     <form method="post" action="/generateLaugh">
-        <button name="generateLaugh">Klik her for et godt grin!</button>
+        <button name= "generateLaugh" id = "laughGenerate">Klik her for et godt grin!</button>
     </form>
 </div>
 <script src="../../public/js/TeamN/countdown.js"></script>

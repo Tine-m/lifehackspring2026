@@ -1,6 +1,7 @@
 package app.persistence.TeamN;
 
 import app.entities.TeamN.Quote;
+import app.exceptions.common.DatabaseException;
 import app.persistence.ConnectionPool;
 
 import java.sql.Connection;
@@ -12,7 +13,7 @@ import java.util.List;
 
 public class QuoteMapper {
 
-    public static List<Quote> getAllQuotes(ConnectionPool connectionPool) throws app.exceptions.DatabaseException {
+    public static List<Quote> getAllQuotes(ConnectionPool connectionPool) throws DatabaseException {
 
         List<Quote> quoteList = new ArrayList<>();
 
@@ -30,12 +31,12 @@ public class QuoteMapper {
                 quoteList.add(new Quote(id, name, quote, year));
             }
         } catch (SQLException e) {
-            throw new app.exceptions.DatabaseException("DB fejl", e.getMessage());
+            throw new DatabaseException("DB fejl", e.getMessage());
         }
         return quoteList;
     }
 
-    public static Quote getQuoteById(int id, ConnectionPool connectionPool) throws app.exceptions.DatabaseException {
+    public static Quote getQuoteById(int id, ConnectionPool connectionPool) throws DatabaseException {
 
         Quote q = null;
 
@@ -54,10 +55,10 @@ public class QuoteMapper {
                 int year = rs.getInt("year");
                 q = new Quote(id, name, quote, year);
             } else {
-                throw new app.exceptions.DatabaseException("Intet citat med dette ID fundet");
+                throw new DatabaseException("Intet citat med dette ID fundet");
             }
         } catch (SQLException e) {
-            throw new app.exceptions.DatabaseException("DB fejl", e.getMessage());
+            throw new DatabaseException("DB fejl", e.getMessage());
         }
         return q;
     }

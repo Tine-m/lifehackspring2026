@@ -2,14 +2,22 @@ package app.entities.TeamN;
 
 public class FunQuote {
     private int id;
-    private String text;
-    private String imagePath;
+    private String setup;
+    private String punchLine;
 
-    public FunQuote(int id, String text, String imagePath) {
+    public FunQuote(int id, String setup, String punchLine) {
         this.id = id;
-        this.text = text;
-        this.imagePath = imagePath;
+        this.setup = setup;
+        this.punchLine = punchLine;
 
+    }
+
+    public String getSetup(){
+        return setup;
+    }
+
+    public String getPunchLine(){
+        return punchLine;
     }
 
 }

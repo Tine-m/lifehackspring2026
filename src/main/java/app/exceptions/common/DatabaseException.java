@@ -1,4 +1,4 @@
-package app.exceptions;
+package app.exceptions.common;
 
 public class DatabaseException extends Exception
 {
