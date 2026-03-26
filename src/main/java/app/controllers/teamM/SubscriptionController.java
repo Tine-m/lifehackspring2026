@@ -1,14 +1,14 @@
 package app.controllers.teamM;
 
-import app.entities.teamM.TracklySubscription;
+import app.entities.teamM.Subscription;
 import app.persistence.ConnectionPool;
 import app.services.teamM.TracklySubscriptionService;
 import io.javalin.Javalin;
 
-public class TracklySubscriptionController {
+public class SubscriptionController {
     private TracklySubscriptionService subscriptionService;
 
-    public TracklySubscriptionController(ConnectionPool connectionPool) {
+    public SubscriptionController(ConnectionPool connectionPool) {
         this.subscriptionService = new TracklySubscriptionService(connectionPool);
     }
 
@@ -24,7 +24,7 @@ public class TracklySubscriptionController {
 
             double price = Double.parseDouble(priceAsString);
 
-            TracklySubscription subscription = new TracklySubscription(name, price, dueDate);
+            Subscription subscription = new Subscription(name, price, dueDate);
             subscriptionService.addSubscription(subscription);
 
             ctx.redirect("/teamM/view");

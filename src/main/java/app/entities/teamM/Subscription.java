@@ -1,11 +1,11 @@
 package app.entities.teamM;
 
-public class TracklySubscription {
+public class Subscription {
     private String name;
     private double price;
     private String dueDate;
 
-    public TracklySubscription(String name, double price, String dueDate) {
+    public Subscription(String name, double price, String dueDate) {
         this.name = name;
         this.price = price;
         this.dueDate = dueDate;

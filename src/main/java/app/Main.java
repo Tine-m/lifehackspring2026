@@ -2,7 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
-import app.controllers.teamM.TracklySubscriptionController;
+import app.controllers.teamM.SubscriptionController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -44,7 +44,7 @@ public class Main
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
         //Trackly app - TeamM
-        TracklySubscriptionController controller = new TracklySubscriptionController(connectionPool);
+        SubscriptionController controller = new SubscriptionController(connectionPool);
         controller.addRoutes(javApp);
     }
 }

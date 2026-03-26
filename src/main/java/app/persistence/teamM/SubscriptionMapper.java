@@ -1,6 +1,6 @@
 package app.persistence.teamM;
 
-import app.entities.teamM.TracklySubscription;
+import app.entities.teamM.Subscription;
 import app.persistence.ConnectionPool;
 
 import java.sql.Connection;
@@ -10,14 +10,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class TracklySubscriptionMapper {
+public class SubscriptionMapper {
     private ConnectionPool connectionPool;
 
-    public TracklySubscriptionMapper(ConnectionPool connectionPool) {
+    public SubscriptionMapper(ConnectionPool connectionPool) {
         this.connectionPool = connectionPool;
     }
 
-    public void addSubscription(TracklySubscription subscription) {
+    public void addSubscription(Subscription subscription) {
         String sql = "insert into subscriptions (name, price, due_date) values (?, ?, ?)";
 
         try (
@@ -34,8 +34,8 @@ public class TracklySubscriptionMapper {
         }
     }
 
-    public ArrayList<TracklySubscription> getAllSubscriptions() {
-        ArrayList<TracklySubscription> subscriptions = new ArrayList<>();
+    public ArrayList<Subscription> getAllSubscriptions() {
+        ArrayList<Subscription> subscriptions = new ArrayList<>();
         String sql = "select name, price, due_date from subscriptions";
 
         try (
@@ -47,7 +47,7 @@ public class TracklySubscriptionMapper {
                 double price = resultSet.getDouble("price");
                 String dueDate = resultSet.getDate("due_date").toString();
 
-                subscriptions.add(new TracklySubscription(name, price, dueDate));
+                subscriptions.add(new Subscription(name, price, dueDate));
             }
         }
         catch (SQLException e) {

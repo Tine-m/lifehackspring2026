@@ -71,7 +71,7 @@ body {
     box-sizing: border-box;
 }
 
-/* index sise (første side) */
+/* index site*/
 
 .btn {
     width: 180px;
@@ -98,7 +98,7 @@ body {
 }
 
 
-/* add side (side 2) */
+/* add site */
 
 
 .main-box form {
@@ -145,7 +145,7 @@ body {
 }
 
 
-/* remove side (3 side) */
+/* remove site */
 
 .remove-box {
     text-align: center;
@@ -184,7 +184,7 @@ body {
 
 
 
-/* view side (4 side) */
+/* view site */
 
 .view-container {
     width: 95%;
