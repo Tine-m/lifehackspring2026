@@ -1,13 +1,13 @@
-DROP TABLE IF EXISTS public.teamO_films CASCADE;
-DROP SEQUENCE IF EXISTS public.teamO_films_film_id_seq CASCADE;
+DROP TABLE IF EXISTS public.teamo_films CASCADE;
+DROP SEQUENCE IF EXISTS public.teamo_films_film_id_seq CASCADE;
 
-CREATE TABLE public.teamO_films (
+CREATE TABLE public.teamo_films (
     film_id integer NOT NULL,
     title character varying(100) NOT NULL,
     year integer
 );
 
-CREATE SEQUENCE public.teamO_films_film_id_seq
+CREATE SEQUENCE public.teamo_films_film_id_seq
     AS integer
     START WITH 1
     INCREMENT BY 1
@@ -15,16 +15,16 @@ CREATE SEQUENCE public.teamO_films_film_id_seq
     NO MAXVALUE
     CACHE 1;
 
-ALTER SEQUENCE public.teamO_films_film_id_seq
-    OWNED BY public.teamO_films.film_id;
+ALTER SEQUENCE public.teamo_films_film_id_seq
+    OWNED BY public.teamo_films.film_id;
+
+ALTER TABLE ONLY public.teamo_films
+    ALTER COLUMN film_id SET DEFAULT nextval('public.teamo_films_film_id_seq'::regclass);
 
 ALTER TABLE ONLY public.teamO_films
-    ALTER COLUMN film_id SET DEFAULT nextval('public.teamO_films_film_id_seq'::regclass);
+    ADD CONSTRAINT teamo_films_pkey PRIMARY KEY (film_id);
 
-ALTER TABLE ONLY public.teamO_films
-    ADD CONSTRAINT teamO_films_pkey PRIMARY KEY (film_id);
-
-INSERT INTO public.teamO_films (film_id, title, year) VALUES
+INSERT INTO public.teamo_films (film_id, title, year) VALUES
     (1, 'The Matrix', 1999),
     (2, 'Inception', 2010),
     (3, 'The Shawshank Redemption', 1994),
@@ -36,4 +36,4 @@ INSERT INTO public.teamO_films (film_id, title, year) VALUES
     (9, 'The Lord of the Rings: The Fellowship of the Ring', 2001),
     (10, 'Gladiator', 2000);
 
-SELECT pg_catalog.setval('public.teamO_films_film_id_seq', 10, true);
+SELECT pg_catalog.setval('public.teamo_films_film_id_seq', 10, true);
