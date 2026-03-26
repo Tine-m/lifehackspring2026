@@ -13,20 +13,22 @@ public class IngredientController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
 
-        app.get("/recipe/{id}/ingredients", ctx -> getIngredients(ctx, connectionPool));
+
+        app.get("/api/recipe/{id}/ingredients",
+                ctx -> getIngredients(ctx, connectionPool));
     }
 
-        public static void getIngredients(Context ctx, ConnectionPool connectionpool){
-            int recipeId = Integer.parseInt(ctx.pathParam("id"));
+    public static void getIngredients(Context ctx, ConnectionPool connectionPool) {
+        int recipeId = Integer.parseInt(ctx.pathParam("id"));
 
-            try {
-                List<Ingredient> ingredients =
-                        IngredientMapper.getIngredientsByRecipe(recipeId, connectionpool);
+        try {
+            List<Ingredient> ingredients =
+                    IngredientMapper.getIngredientsByRecipe(recipeId, connectionPool);
 
-                ctx.json(ingredients); // or ctx.render(...) if using Thymeleaf???
-                ctx.render("teamE/hacks.html");
-            } catch (DatabaseException e) {
-                ctx.status(500).result("Database fejl: " + e.getMessage());
-            }
+            ctx.json(ingredients);
+
+        } catch (DatabaseException e) {
+            ctx.status(500).result("Database error: " + e.getMessage());
         }
     }
+}
