@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial scale=1.0"/>
     <title>KitchenChem - Hacks</title>
-    <link rel="stylesheet" href="../../public/css/teamE/styles.css"/>
+
+    <link rel="stylesheet" th:href="@{/css/teamE/styles.css}"/>
 </head>
 <body>
 
 <nav>
     <div class="nav-logo">Kitchen<span>Chem</span></div>
     <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="hacks.html" class="active">Hacks</a>
-        <a href="favorites.html">My favorites</a>
+        <a href="/teamE/index">Home</a>
+        <a href="/teamE/hacks" class="active">Hacks</a>
+        <a href="/teamE/favorites">My favorites</a>
     </div>
     <div class="nav-right">
         <a href="#" class="nav-icon" title="Profile">&#9711;</a>
@@ -36,7 +37,7 @@
 </div>
 
 <div class="breadcrumb" id="breadcrumb">
-    <a href="hacks.html">Hacks</a>
+    <a href="/teamE/hacks">Hacks</a>
 </div>
 
 <div class="content">
@@ -47,6 +48,7 @@
     </div>
 </div>
 
-<script src="js/hacks.js"></script>
+<script th:src="@{/js/teamE/hacks.js}"></script>
+
 </body>
 </html>
