@@ -24,13 +24,25 @@
         <div id="display-screen" class="card-field">display</div>
         <div id="keyboard" class="card-field">keyboard</div>
 
-        <div id="pop-up" class="pop-up hidden">
-            <div id="pop-up-box" class="pop-up-box">
-                <p id="box-title" class="box-title">Korrekt!</p>
-                <p id="game-word" class="game-word">Ordet var: <strong id="game-word-value"></strong></p>
-                <button id="btn-continue" class="btn-start">Fortsæt</button>
+        <div id="pop-up-win" class="pop-up hidden">
+            <div class="pop-up-box">
+                <p class="box-title">Korrekt!</p>
+                <p class="game-word">Ordet var: <strong></strong></p>
+                <p>Vil du fortsætte?</p>
+                <button id="btn-continue-win" class="btn-start">Fortsæt</button>
             </div>
         </div>
+
+        <div id="pop-up-lose" class="pop-up hidden">
+            <div class="pop-up-box">
+                <p class="box-title">Forkert!</p>
+                <p class="game-word">Ordet var: <strong></strong></p>
+                <p>Vil du fortsætte?</p>
+                <button id="btn-continue-lose" class="btn-start">Fortsæt</button>
+            </div>
+        </div>
+
+
     </div>
 </div>
 
