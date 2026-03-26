@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CODLE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/teamK/styles.css}" href="../../public/css/teamK/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="screen-game" class="screen active">
+
+    <div class="game-header">
+        <div class="logo-game">CODLE</div><div>0 / 98 færdige</div>
+    </div>
+
+    <div class="game-card">
+        <div id="category" class="card-field"><p>category</p></div>
+        <div id="letters" class="card-field">letters</div>
+        <div id="hint" class="card-field">hint</div>
+        <div id="display-screen" class="card-field">display</div>
+        <div id="keyboard" class="card-field">keyboard</div>
+
+        <div id="pop-up" class="pop-up hidden">
+            <div id="pop-up-box" class="pop-up-box">
+                <p id="box-title" class="box-title">Korrekt!</p>
+                <p id="game-word" class="game-word">Ordet var: <strong id="game-word-value"></strong></p>
+                <button id="btn-continue" class="btn-start">Fortsæt</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

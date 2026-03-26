@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{/css/teamK/styles.css}" href="../../public/css/teamK/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,66 +26,25 @@
                 for at hjælpe dig med at gætte ordet.
             </p>
 
-            <div class="color-tiles">
-                <div class="tile-boks">
-                    <div class="tile correct"></div>
-                    <span>Rigtigt bogstav, rigtig position</span>
-                </div>
-                <div class="tile-boks">
-                    <div class="tile present"></div>
-                    <span>Rigtigt bogstav, forkert position</span>
-                </div>
-                <div class="tile-boks">
-                    <div class="tile absent"></div>
-                    <span>Bogstavet er ikke i ordet</span>
-                </div>
+
+            <div class="rules-grid">
+                <div id="green-point"></div>
+                <div id="green-text">Rigtigt bogstav og position</div>
+                <div id="yellow-point"></div>
+                <div id="yellow-text">Rigtigt bogstav, forkert position</div>
+                <div id="grey-point"></div>
+                <div id="grey-text">Bogstavet findes ikke i ordet</div>
             </div>
 
         </div>
-            <button id="btn-start" class="btn-start">START SPIL</button>
 
-        </div>
+        <button id="btn-start" class="btn-start">START SPIL</button>
+
     </div>
+</div>
 
 
-    <div id="screen-game" class="screen">
 
-        <div class="game-header">
-            <span class="logo-small">CODLE</span>
-            <span id="progress-label" class="progress-label">0 / 0 færdige</span>
-        </div>
-
-        <div class="game-card">
-            <div id="category-text" class="category-text">OOO</div>
-
-            <p id="hint-text" class="hint-text">hint vises her</p>
-
-            <p id="word-letters" class="word-letters">0 bogstaver i ordet</p>
-
-            <div id="word-grid" class="word-grid"></div>
-
-            <div id="keyboard" class="keyboard"></div>
-
-            <div id="pop-up" class="pop-up hidden">
-                <div id="pop-up-box" class="pop-up-box">
-                    <p id="box-title" class="box-title">Korrekt!</p>
-                    <p id="game-word" class="game-word">Ordet var: <strong id="game-word-value"></strong></p>
-                    <div id="btn-continue" class="btn-continue">Fortsæt</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="screen-complete" class="screen">
-        <div class="complete-container">
-            <h2 class="complete-title">KLARET!</h2>
-            <p class="complete-body">
-                Du har været igennem alle <strong id="complete-total"></strong> ord. <br />
-                Nu er du klar til din eksamen!
-            </p>
-            <button id="btn-restart" class="btn-start">SPIL IGEN!</button>
-        </div>
-    </div>
 
 </body>
 

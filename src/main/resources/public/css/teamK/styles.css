@@ -9,7 +9,7 @@
 body {
     background: #1D1E25;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,28 +30,156 @@ body {
     align-items: center;
 }
 
+.game-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-card {
+    height: 80vh;
+    width: 80vw;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "category letters"
+        "hint hint"
+        "display-screen display-screen"
+        "keyboard keyboard";
+
+}
+
+.card-field {
+    border: #FFB143 1px solid;
+    text-align: center;
+    min-height: fit-content;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#category {
+    grid-area: category;
+    max-width: 45vw;
+}
+
+#letters {
+    grid-area: letters;
+}
+
+#hint {
+    grid-area: hint;
+}
+
+#display-screen {
+    grid-area: display-screen;
+    height: 30vh;
+}
+
+#keyboard {
+    grid-area: keyboard;
+    height: 40vh;
+}
+
+.hidden {
+    display: none;
+}
+
 .home-container {
     width: 100%;
     text-align: center;
     padding: 32px 24px;
+}
 
-    .logo {
-        font-family: 'Jacques Francois', serif;
-        font-size: clamp(150px, 14vw, 96px);
-        color: #FFB143;
-        letter-spacing: 6px;
-    }
+.logo {
+    font-family: 'Jacques Francois', serif;
+    font-size: clamp(150px, 14vw, 96px);
+    color: #FFB143;
+    letter-spacing: 6px;
+}
 
-    .logo-sub {
-        color: #888;
-        font-size: 25px;
-        font-style: italic;
-        letter-spacing: 1px;
-        margin-bottom: 32px;
-    }
+.logo-game {
+    font-family: 'Jacques Francois', serif;
+    font-size: clamp(40px, 7vw, 48px);
+    color: #FFB143;
+    letter-spacing: 6px;
+}
 
-    .rules {
-        padding: 24px 28px;
+.logo-sub {
+    color: #888;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+}
 
-    }
+.rules {
+    padding: 24px 28px;
+}
+
+.tile-correct {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: white;
+    background: white;
+    align-self: center;
+}
+
+.btn-start {
+    background: #FFB143;
+    font-size: large;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btn-restart {
+    margin-top: 1em;
+}
+
+.btn-start:hover {
+    background: #ac7430;
+    cursor: pointer;
+}
+
+.rules-grid {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    grid-template-areas:
+            "green-point green-text"
+            "yellow-point yellow-text"
+            "grey-point grey-text";
+    text-align: justify;
+}
+
+#green-point {
+    width: 20px;
+    border-radius: 3px;
+    background: #648B56;
+}
+
+#yellow-point {
+    width: 20px;
+    border-radius: 3px;
+    background: #B69F3A;
+}
+
+#grey-point {
+    width: 20px;
+    border-radius: 3px;
+    background: #818283;
+}
+
+#screen-complete {
+    text-align: center;
+}
+
+.complete-title {
+    font-size: 60px;
+    color: #FFB143;
 }
