@@ -84,7 +84,13 @@
             <div class="head-searchbar"></div>
         </header>
         <section class="content-block">
-            <div class="section-head">Du kan lave <span id="reccipe-count">0</span> Opskrifter</div>
+            <div class="section-block-wrapper">
+                <div class="section-block">
+                    <!---->
+                </div>
+            <div class="section-head">
+                <h3>Du kan lave <span id="reccipe-count">0</span> Opskrifter</h3>
+            </div>
 
             <div class="section-block-grid">
                 <div th:each="entry : ${recipes}">
@@ -110,7 +116,7 @@
 
                 <div>opskrifterne</div>
             </div>
-
+            </div>
         </section>
     </div>
 </div>

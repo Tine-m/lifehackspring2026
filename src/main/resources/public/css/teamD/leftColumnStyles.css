@@ -48,9 +48,10 @@
 .ingredients-category-name {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
     padding-left: 2vw;
+    color: var(--text-dark-gray);
 }
 
 .section-divider {
