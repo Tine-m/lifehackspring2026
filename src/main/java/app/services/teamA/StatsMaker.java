@@ -1,5 +1,4 @@
 package app.services.teamA;
-
 import app.entities.teamA.Subscription;
 import java.util.*;
 import java.util.stream.Collectors;

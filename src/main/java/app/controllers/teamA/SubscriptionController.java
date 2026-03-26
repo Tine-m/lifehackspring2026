@@ -1,5 +1,4 @@
 package app.controllers.teamA;
-
 import app.entities.teamA.Subscription;
 import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
@@ -8,7 +7,6 @@ import app.persistence.teamA.SubscriptionMapper;
 import app.services.teamA.StatsMaker;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

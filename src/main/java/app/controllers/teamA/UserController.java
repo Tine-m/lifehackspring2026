@@ -1,5 +1,4 @@
 package app.controllers.teamA;
-
 import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
@@ -7,7 +6,6 @@ import app.persistence.teamA.UserMapper;
 import app.services.teamA.UserChecker;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
-
 import java.util.List;
 
 public class UserController {
@@ -53,9 +51,7 @@ public class UserController {
             ctx.attribute("errorMessage", message);
             ctx.render("teamA/create-user.html");
             System.out.println("2. catch");
-            return;
         }
-        //ctx.redirect("/login");
     }
 
     public static void login(Context ctx, ConnectionPool connectionPool) {
@@ -64,7 +60,6 @@ public class UserController {
         try {
             User user = UserMapper.login(username, password, connectionPool);
             ctx.sessionAttribute("currentUser", user);
-            // test data - simulerer kald til DB via mapper
             ctx.redirect("/teamA/frontpage");
         } catch (DatabaseException e) {
             ctx.attribute("msg", e.getMessage());

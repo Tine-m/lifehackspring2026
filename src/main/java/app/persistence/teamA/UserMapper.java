@@ -1,10 +1,7 @@
 package app.persistence.teamA;
-
-import app.entities.teamA.Subscription;
 import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
