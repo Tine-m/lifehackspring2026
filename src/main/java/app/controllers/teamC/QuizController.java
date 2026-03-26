@@ -15,6 +15,7 @@ public class QuizController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamC", ctx -> index(ctx));
         app.get("cirkusquiz", ctx -> showQuestion(ctx, connectionPool));
+        app.get("/nextquestion", ctx -> nextQuestion(ctx));
         app.get("endquiz", ctx -> endQuiz(ctx));
         app.get("backtomainpage", ctx -> backToMainPage(ctx));
     }
@@ -23,7 +24,7 @@ public class QuizController {
         ctx.render("teamC/index-quiz.html");
     }
 
-    public static void showQuestion(Context ctx, ConnectionPool connectionPool) {
+    private static void showQuestion(Context ctx, ConnectionPool connectionPool) {
         try {
             //Hent spørgsmål via mapperen
             List<Question> questions = ctx.sessionAttribute("questions"); //Opretter en ny (tom) variabel og gemmer den i sessionen.
@@ -46,11 +47,20 @@ public class QuizController {
         }
     }
 
-    public static void endQuiz(Context ctx) {
+    private static void nextQuestion(Context ctx) {
+        List<Question> questions = ctx.sessionAttribute("questions");
+        if (questions != null && !questions.isEmpty()) {
+            questions.remove(0);
+            ctx.sessionAttribute("questions", questions);
+        }
+        ctx.redirect("/cirkusquiz");
+    }
+
+    private static void endQuiz(Context ctx) {
         ctx.render("teamC/endquiz.html");
     }
 
-    public static void backToMainPage(Context ctx) {
+    private static void backToMainPage(Context ctx) {
         ctx.render("teamC/index-quiz.html");
     }
 }
