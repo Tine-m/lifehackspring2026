@@ -1,7 +1,7 @@
 package app.persistence.teamG;
 
 import app.entities.teamG.User;
-import app.exceptions.common.DatabaseException;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 
 import java.sql.Connection;
@@ -12,7 +12,7 @@ import java.sql.SQLException;
 
 public class UserMapper {
 
-    public static User login(String username, String password, ConnectionPool connectionPool) throws app.exceptions.common.DatabaseException {
+    public static User login(String username, String password, ConnectionPool connectionPool) throws app.exceptions.DatabaseException {
         String sql = "select * from users where username=? and password=?";
 
         try (Connection connection = connectionPool.getConnection()) {
