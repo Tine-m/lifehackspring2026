@@ -27,20 +27,17 @@ public class QuizController {
 
     private static void showQuestion(Context ctx, ConnectionPool connectionPool) {
         try {
-            //Hent spørgsmål via mapperen
-            List<Question> questions = ctx.sessionAttribute("questions"); //Opretter en ny (tom) variabel og gemmer den i sessionen.
+            List<Question> questions = ctx.sessionAttribute("questions");
 
-            //Første gang er listen tom. Derfor griber vi nu listen fra getAllQuestions() og blander den herfter og gemmer den i sessionen.
-            if (questions == null || questions.isEmpty()) { //hvis listen ikke findes, eller den er tom.
+            if (questions == null || questions.isEmpty()) {
                 questions = QuizMapper.getAllQuestions(connectionPool);
                 Collections.shuffle(questions);
                 ctx.sessionAttribute("questions", questions);
             }
 
-            //Tag det første spørgsmål fra listen.
             Question question = questions.get(0);
             List<String> shuffledAnswers = getShuffledAnswers(question);
-            ctx.attribute("question", question); //Lægger et enkelt Question-objekt ned i en pakke, som Thymeleaf kan åbne i html.
+            ctx.attribute("question", question);
             ctx.attribute("answers", shuffledAnswers);
             ctx.render("teamC/cirkusquiz.html");
 
@@ -58,7 +55,7 @@ public class QuizController {
         }
         ctx.redirect("/cirkusquiz");
     }
-    //Blander svarmuligheder
+
     private static List<String> getShuffledAnswers (Question question) {
         List <String> answers = new ArrayList<>();
         answers.add(question.getAnswerCorrect());

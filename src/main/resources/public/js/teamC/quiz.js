@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // 2. Tjek om værdien er "correct" (som I har skrevet i jeres HTML value="")
+        // 2. Tjek om værdien er "correct"
         const correctAnswer = document.getElementById('correctAnswer').value;
         const isCorrect = (selected.value === correctAnswer);
 
@@ -22,13 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const img = document.getElementById('modalImg');
 
         title.innerText = isCorrect ? "RIGTIGT! 😀" : "FORKERT! 💀";
-        title.style.color = isCorrect ? "#32CD32" : "#B22222"; // Grøn eller Rød
+        title.style.color = isCorrect ? "#32CD32" : "#B22222";
 
-        // Vi bruger jeres faste filnavne her
         img.src = isCorrect ? "images/teamC/media/correct.jpg" : "images/teamC/media/wrong.jpg";
         const soundPath = isCorrect ? "images/teamC/media/correct.mp3" : "images/teamC/media/wrong.mp3";
 
-        // 4. Afspil lyd (med fix for den fejl du så tidligere)
         const audio = new Audio(soundPath);
         audio.play().catch(error => console.log("Lyd-fejl (kan ignoreres):", error));
 
