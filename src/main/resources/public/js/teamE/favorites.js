@@ -50,7 +50,7 @@ function renderFavs() {
     document.getElementById('list-title').textContent = titleMap[activeFilter];
 
     if (filtered.length === 0) {
-        container.innerHTML = `<div class="empty-fav"><p>No saved hacks in this category yet.<br><a href="hacks.html">Browse hacks</a> to add some.</p></div>`;
+        container.innerHTML = `<div class="empty-fav"><p>No saved hacks in this category yet.<br><a href="/teamE/hacks">Browse hacks</a> to add some.</p></div>`;
         return;
     }
 
@@ -62,7 +62,7 @@ function renderFavs() {
         <p class="fav-desc">${fav.desc}</p>
       </div>
       <div class="fav-actions">
-        <a href="hacks.html?cat=${fav.cat}&hack=${fav.hackKey}" class="btn-view">View hack &rarr;</a>
+        <a href="/teamE/hacks?cat=${fav.cat}&hack=${fav.hackKey}" class="btn-view">View hack &rarr;</a>
         <button class="btn-remove" onclick="removeFav(${fav.id})">Remove &nbsp;&#x1F5D1;</button>
       </div>
     </div>
