@@ -77,18 +77,34 @@
                 <div class="head-nav-left"> <!----> </div>
                 <div class="head-nav-center">
                     <h1 class="head-title">Nem Mad</h1>
-                    <div class="head-sub-title"> Du kan lave x opskrifter </div>
+                    <div class="head-sub-title"> Du kan lave <span id="recipe-count">0</span> opskrifter </div>
                 </div>
                 <div class="head-nav-right"> <!----> </div>
             </div>
             <div class="head-searchbar"></div>
         </header>
         <section class="content-block">
-            <div class="section-block-wrapper">
-                <div class="section-block"> <!----> </div>
-                <div class="assume-section"></div>
-                <div class="section-block"></div>
+            <div class="section-head">Du kan lave <span id="reccipe-count">0</span> Opskrifter</div>
+
+            <div class="section-block-grid">
+                <div th:each="entry : ${recipes}">
+
+                    <div class="product-list-item">
+                        <div class="product-item-image">
+                            <img class="product-item-img" th:src="${entry.imageUrl}">
+                        </div>
+                        <div class="product-item-text">
+                            <div class="product-item-text-head">
+                                <h4 class="product-item-title" th:text="${entry.title}">Recipe Title</h4>
+                            </div>
+                            <div class="product-item-sub-text" th:href="${entry.url}"> <a th:href="${entry.url}">valdemarsro.dk</a></div>
+                            <div class="product-item-sub-text">retten tager <span th:text="${entry.totalTime}">0</span>min at lave</div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
             <div class="wrapper">
                 <div>Du kan lave X antal retter</div>
 
