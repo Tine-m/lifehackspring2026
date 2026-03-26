@@ -1,6 +1,6 @@
 package app.controllers.teamE;
 
-import app.entities.teamA.User;
+import app.entities.teamE.User;
 import app.entities.teamE.Recipe;
 import app.persistence.ConnectionPool;
 import app.persistence.teamE.RecipeMapper;
@@ -54,7 +54,7 @@ public class RecipeController {
         try {
             int recipeId = Integer.parseInt(ctx.formParam("recipeId"));
 
-            RecipeMapper.saveRecipe(user.getId(), recipeId, connectionPool);
+            RecipeMapper.saveRecipe(user.getUserId(), recipeId, connectionPool);
 
             ctx.status(200);
 
@@ -75,7 +75,7 @@ public class RecipeController {
         try {
             int recipeId = Integer.parseInt(ctx.formParam("recipeId"));
 
-            RecipeMapper.removeSavedRecipe(user.getId(), recipeId, connectionPool);
+            RecipeMapper.removeSavedRecipe(user.getUserId(), recipeId, connectionPool);
 
             ctx.status(200);
 
