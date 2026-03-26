@@ -22,9 +22,6 @@ public class FunQuoteController {
             List<FunQuote> allFunQuotes = FunQuoteMapper.getAllFunQuotes(connectionPool);
             Random randomInt = new Random();
             int number = randomInt.nextInt(allFunQuotes.size());
-            System.out.println(number);
-            System.out.println(allFunQuotes.size());
-
             FunQuote funQuote = allFunQuotes.get(number);
             if (funQuote != null) {
                 ctx.sessionAttribute("funSetup", funQuote.getSetup());
