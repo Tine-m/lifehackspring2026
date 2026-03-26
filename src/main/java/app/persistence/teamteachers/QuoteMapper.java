@@ -16,7 +16,7 @@ public class QuoteMapper {
 
 
     public static Quote getPhilosophicalAnswer(String input, ConnectionPool connectionPool) {
-        // hardcoded as demo code. Should hit the database
+        // hardcoded demo data. Should hit the database for real datas
         return new Quote("Kierkegaard", "Af alle latterlige ting forekommer det mig at være det allerlatterligste at have travlt", "kierkegaard.png");
     }
 }
