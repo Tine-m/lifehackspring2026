@@ -15,10 +15,13 @@ public class IngredientMapper {
         List<Ingredient> foundIngredients = new ArrayList<>();
         ArrayList<String> existingCategories = new ArrayList<>(List.of(
             "Grøntsager",
-            "Kød",
+            "Frugter",
+            "Kød & Fisk",
             "Mejeri",
             "Krydderier",
-            "Tørvarer"
+            "Tørvarer",
+            "Drikkevarer",
+            "Færdigvarer"
         ));
 
         String sql = "SELECT * FROM teamd_ingredients";

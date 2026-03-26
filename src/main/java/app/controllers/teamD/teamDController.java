@@ -17,7 +17,7 @@ public class teamDController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamD", ctx -> nemMadHomePage(ctx, connectionPool));
         try {
-            CsvImporter.importCsv("src/main/resources/data/teamD/recipes_clean2.csv", "src/main/resources/data/teamD/ingredients_categorized.csv", connectionPool);
+            CsvImporter.importCsv("src/main/resources/data/teamD/recipes_clean2.csv", "src/main/resources/data/teamD/ingredients_categorized_updated.csv", connectionPool);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

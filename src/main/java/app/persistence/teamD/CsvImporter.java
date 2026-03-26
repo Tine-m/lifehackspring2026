@@ -10,27 +10,56 @@ import java.util.Map;
 
 public class CsvImporter {
 
-    public static void importCsv(String recipesPath, String categoriesPath,
-                                 ConnectionPool connectionPool) throws Exception {
+    public static void importCsv(String recipesPath, String ingredientsPath, ConnectionPool connectionPool) throws Exception {
 
+        try (Connection conn = connectionPool.getConnection()) {
+            conn.setAutoCommit(false);
 
-        Map<String, String> categoryMap = new HashMap<>();
-        try (CSVReader catReader = new CSVReader(new FileReader(categoriesPath))) {
-            catReader.readNext();
-            String[] row;
-            while ((row = catReader.readNext()) != null) {
-                if (row.length >= 2) {
-                    categoryMap.put(row[0].trim().toLowerCase(), row[1].trim());
-                }
+            importIngredients(conn, ingredientsPath);
+            importRecipes(conn, recipesPath);
+
+            conn.commit();
+        }
+    }
+
+    private static Map<String, Integer> loadCanonicalIngredients(Connection conn) throws SQLException {
+
+        Map<String, Integer> map = new HashMap<>();
+
+        String sql = "SELECT ingredient_id, ingredient_name FROM teamd_ingredients";
+
+        try (PreparedStatement ps = conn.prepareStatement(sql);
+             ResultSet rs = ps.executeQuery()) {
+
+            while (rs.next()) {
+                map.put(rs.getString("ingredient_name"), rs.getInt("ingredient_id"));
             }
         }
 
-        try (
-            Connection conn = connectionPool.getConnection();
-            CSVReader reader = new CSVReader(new FileReader(recipesPath))
-        ) {
-            reader.readNext();
+        return map;
+    }
 
+    public static void importIngredients(Connection conn, String ingredientsPath) throws Exception {
+        try (CSVReader reader = new CSVReader(new FileReader(ingredientsPath))) {
+            reader.readNext(); // Skip header
+            String[] row;
+
+            while ((row = reader.readNext()) != null) {
+                if (row.length < 3) continue;
+
+                int ingredientId = Integer.parseInt(row[0].trim());
+                String ingredientName = row[1].trim().toLowerCase();
+                String ingredientCategory = row[2].trim();
+
+                insertIngredient(conn, ingredientId, ingredientName, ingredientCategory);
+            }
+        }
+    }
+
+    public static void importRecipes(Connection conn, String reicpePath) throws Exception {
+        Map<String, Integer> canonicalMap = loadCanonicalIngredients(conn);
+        try (CSVReader reader = new CSVReader(new FileReader(reicpePath))) {
+            reader.readNext(); // Skip header
             String[] row;
 
             while ((row = reader.readNext()) != null) {
@@ -44,27 +73,44 @@ public class CsvImporter {
                 String ingredients = row[6].trim();
                 String instructions = row[7].trim();
 
-                if (title.isEmpty() || url.isEmpty()) {
-                    continue;
-                }
+                if (title.isEmpty() || url.isEmpty()) continue;
 
-                int recipeId = insertRecipe(conn, title, url, imageUrl,
-                    totalTime, yields, instructions);
-                if (recipeId == -1) {
-                    continue; // allerede i DB
-                }
+                int recipeId = insertRecipe(conn, title, url, imageUrl, totalTime, yields, instructions);
+
+                if (recipeId == -1) continue;
 
                 if (!ingredients.isEmpty()) {
                     for (String raw : ingredients.split(" \\| ")) {
-                        String name = raw.trim().toLowerCase();
-                        if (name.isEmpty()) continue;
+                        String rawName = raw.trim().toLowerCase();
+                        if (rawName.isEmpty()) continue;
 
-                        String category = categoryMap.getOrDefault(name, "Andet");
-                        insertIngredient(conn, name, category);
-                        insertRecipeIngredient(conn, recipeId, name);
+                        Integer ingredientId = findIngredientIdSmart(rawName, canonicalMap);
+
+                        if (ingredientId == null) {
+                            System.out.println("Missing canonical ingredient: " + rawName);
+                            continue;
+                        }
+
+                        insertIngredientAlias(conn, ingredientId, rawName);
+                        insertRecipeIngredient(conn, recipeId, ingredientId);
                     }
                 }
             }
+        }
+    }
+
+    private static void insertIngredient(Connection conn, int ingredientId, String ingredientName, String ingredientCategory)
+        throws SQLException {
+        String sql = """
+                INSERT INTO teamd_ingredients (ingredient_id, ingredient_name, ingredient_category)
+                VALUES (?, ?, ?)
+                ON CONFLICT (ingredient_id) DO NOTHING
+            """;
+        try (PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setInt(1, ingredientId);
+            ps.setString(2, ingredientName);
+            ps.setString(3, ingredientCategory);
+            ps.executeUpdate();
         }
     }
 
@@ -88,30 +134,55 @@ public class CsvImporter {
         }
     }
 
-    private static void insertIngredient(Connection conn, String name, String category)
-        throws SQLException {
+    private static void insertRecipeIngredient(Connection conn, int recipeId, int ingredientId) throws SQLException {
         String sql = """
-                INSERT INTO teamd_ingredients (ingredient_name, ingredient_category)
+                INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_id)
                 VALUES (?, ?)
-                ON CONFLICT (ingredient_name) DO NOTHING
+                ON CONFLICT DO NOTHING
             """;
+
         try (PreparedStatement ps = conn.prepareStatement(sql)) {
-            ps.setString(1, name);
-            ps.setString(2, category);
+            ps.setInt(1, recipeId);
+            ps.setInt(2, ingredientId);
             ps.executeUpdate();
         }
     }
 
-    private static void insertRecipeIngredient(Connection conn, int recipeId, String ingredientName) throws SQLException {
+    private static void insertIngredientAlias(Connection conn, int ingredientId, String rawIngredientName) throws SQLException {
         String sql = """
-                INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name)
+                INSERT INTO teamd_ingredient_aliases (raw_ingredient_name, ingredient_id)
                 VALUES (?, ?)
                 ON CONFLICT DO NOTHING
             """;
         try (PreparedStatement ps = conn.prepareStatement(sql)) {
-            ps.setInt(1, recipeId);
-            ps.setString(2, ingredientName);
+            ps.setString(1, rawIngredientName);
+            ps.setInt(2, ingredientId);
             ps.executeUpdate();
         }
+    }
+
+    private static Integer findIngredientIdSmart(String rawName,
+                                                 Map<String, Integer> canonicalMap) {
+
+        // 1️⃣ Direkte match
+        if (canonicalMap.containsKey(rawName)) {
+            return canonicalMap.get(rawName);
+        }
+
+        // 2️⃣ Contains match
+        for (String canonical : canonicalMap.keySet()) {
+
+            if (rawName.contains(canonical) || canonical.contains(rawName)) {
+                return canonicalMap.get(canonical);
+            }
+
+            // plural/singular fix
+            if (rawName.endsWith("er") &&
+                canonical.equals(rawName.substring(0, rawName.length() - 2))) {
+                return canonicalMap.get(canonical);
+            }
+        }
+
+        return null;
     }
 }

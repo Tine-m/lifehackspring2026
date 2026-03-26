@@ -1,0 +1,232 @@
+ingredient_id,ingredient_name,ingredient_category
+1,agurk,Grøntsager
+2,aubergine,Grøntsager
+3,avocado,Grøntsager
+4,broccoli,Grøntsager
+5,blomkål,Grøntsager
+6,gulerødder,Grøntsager
+7,kartofler,Grøntsager
+8,løg,Grøntsager
+9,hvidløg,Grøntsager
+10,porre,Grøntsager
+11,spinat,Grøntsager
+12,salat,Grøntsager
+13,tomater,Grøntsager
+14,tomater (dåse),Tørvarer
+15,peberfrugt,Grøntsager
+16,chili,Grøntsager
+17,æble,Frugter
+18,banan,Frugter
+19,appelsin,Frugter
+20,citron,Frugter
+21,lime,Frugter
+22,jordbær,Frugter
+23,hindbær,Frugter
+24,blåbær,Frugter
+25,pære,Frugter
+26,mango,Frugter
+27,ananas,Frugter
+28,oksekød,Kød & Fisk
+29,svinekød,Kød & Fisk
+30,kylling,Kød & Fisk
+31,laks,Kød & Fisk
+32,torsk,Kød & Fisk
+33,rejer,Kød & Fisk
+34,bacon,Kød & Fisk
+35,mælk,Mejeri
+36,smør,Mejeri
+37,ost,Mejeri
+38,yoghurt,Mejeri
+39,fløde,Mejeri
+40,æg,Mejeri
+41,salt,Krydderier
+42,peber,Krydderier
+43,kanel,Krydderier
+44,paprika,Krydderier
+45,karry,Krydderier
+46,oregano,Krydderier
+47,timian,Krydderier
+48,ris,Tørvarer
+49,pasta,Tørvarer
+50,mel,Tørvarer
+51,havregryn,Tørvarer
+52,linser,Tørvarer
+53,bønner,Tørvarer
+54,olivenolie,Drikkevarer
+55,juice,Drikkevarer
+56,kaffe,Drikkevarer
+57,te,Drikkevarer
+58,vin,Drikkevarer
+59,øl,Drikkevarer
+60,pesto,Færdigvarer
+61,hummus,Færdigvarer
+62,ketchup,Færdigvarer
+63,mayonnaise,Færdigvarer
+64,sauce,Færdigvarer
+65,chokolade,Søde Sager
+66,slik,Søde Sager
+67,marmelade,Søde Sager
+68,honning,Søde Sager
+69,sirup,Søde Sager
+70,tahin,Andet
+71,tofu,Andet
+72,sukker,Søde Sager
+73,vaniljesukker,Søde Sager
+74,artiskokker,Grøntsager
+75,bladselleri,Grøntsager
+76,butternut squash,Grøntsager
+77,fennikel,Grøntsager
+78,grønkål,Grøntsager
+79,grønne asparges,Grøntsager
+80,grønne bønner,Grøntsager
+81,hokkaido græskar,Grøntsager
+82,hvidkål,Grøntsager
+83,jordskokker,Grøntsager
+84,karse,Grøntsager
+85,knoldselleri,Grøntsager
+86,pak choi,Grøntsager
+87,pastinakker,Grøntsager
+88,radiser,Grøntsager
+89,ramsløg,Grøntsager
+90,rosenkål,Grøntsager
+91,rødbeder,Grøntsager
+92,rødkål,Grøntsager
+93,spidskål,Grøntsager
+94,squash,Grøntsager
+95,sukkerærter,Grøntsager
+96,sød kartoffel,Grøntsager
+97,ærter,Grøntsager
+98,majs,Grøntsager
+99,forårsrulleplader,Grøntsager
+100,abrikoser,Frugter
+101,blommer,Frugter
+102,brombær,Frugter
+103,cantaloupe melon,Frugter
+104,dadel,Frugter
+105,fersken,Frugter
+106,figner,Frugter
+107,galia melon,Frugter
+108,granatæble,Frugter
+109,havtorn,Frugter
+110,hyldebær,Frugter
+111,kirsebær,Frugter
+112,kiwi,Frugter
+113,klementin,Frugter
+114,nektarin,Frugter
+115,papaya,Frugter
+116,passionsfrugt,Frugter
+117,rabarber,Frugter
+118,ribs,Frugter
+119,rød grapefrugt,Frugter
+120,solbær,Frugter
+121,tranebær,Frugter
+122,kvæder,Frugter
+123,stikkelsbær,Frugter
+124,and,Kød & Fisk
+125,lam,Kød & Fisk
+126,kalvekød,Kød & Fisk
+127,basilikum,Krydderier
+128,dild,Krydderier
+129,estragon,Krydderier
+130,gurkemeje,Krydderier
+131,ingefær,Krydderier
+132,kardemomme,Krydderier
+133,koriander,Krydderier
+134,kørvel,Krydderier
+135,laurbærblade,Krydderier
+136,muskatnød,Krydderier
+137,mynte,Krydderier
+138,nellike,Krydderier
+139,nigella,Krydderier
+140,rosmarin,Krydderier
+141,safran,Krydderier
+142,salvie,Krydderier
+143,sesamfrø,Krydderier
+144,sennepsfrø,Krydderier
+145,spidskommen,Krydderier
+146,stjerneanis,Krydderier
+147,sumak,Krydderier
+148,allehånde,Krydderier
+149,enebær,Krydderier
+150,fennikelfrø,Krydderier
+151,korianderfrø,Krydderier
+152,thaibasilikum,Krydderier
+153,citrongræs,Krydderier
+154,boghvede,Tørvarer
+155,bulgur,Tørvarer
+156,bygkerner,Tørvarer
+157,couscous,Tørvarer
+158,hvedekerner,Tørvarer
+159,quinoa,Tørvarer
+160,speltkerner,Tørvarer
+161,ølandshvede,Tørvarer
+162,bagepulver,Tørvarer
+163,natron,Tørvarer
+164,gær,Tørvarer
+165,surdej,Tørvarer
+166,rasp,Tørvarer
+167,majsstivelse,Tørvarer
+168,riseddike,Tørvarer
+169,lagereddike,Tørvarer
+170,hvidvinseddike,Tørvarer
+171,perlebyg,Tørvarer
+172,hirsefrø,Tørvarer
+173,kokosflager,Tørvarer
+174,rosiner,Tørvarer
+175,svesker,Tørvarer
+176,cashewnødder,Nødder & Frø
+177,chiafrø,Nødder & Frø
+178,græskarkerner,Nødder & Frø
+179,hampefrø,Nødder & Frø
+180,hasselnødder,Nødder & Frø
+181,hørfrø,Nødder & Frø
+182,jordnødder,Nødder & Frø
+183,macadamia nødder,Nødder & Frø
+184,mandler,Nødder & Frø
+185,peanuts,Nødder & Frø
+186,pekannødder,Nødder & Frø
+187,pinjekerner,Nødder & Frø
+188,pistaciekerner,Nødder & Frø
+189,solsikkekerner,Nødder & Frø
+190,valnødder,Nødder & Frø
+191,brød,Brød & Bagværk
+192,rugbrød,Brød & Bagværk
+193,surdejsbrød,Brød & Bagværk
+194,bagels,Brød & Bagværk
+195,burgerboller,Brød & Bagværk
+196,fladbrød,Brød & Bagværk
+197,hotdogbrød,Brød & Bagværk
+198,naan,Brød & Bagværk
+199,pitabrød,Brød & Bagværk
+200,toastbrød,Brød & Bagværk
+201,tortillas,Brød & Bagværk
+202,nachos,Brød & Bagværk
+203,champignon,Grøntsager
+204,kantareller,Grøntsager
+205,portobellosvampe,Grøntsager
+206,shiitake svampe,Grøntsager
+207,trøffel,Grøntsager
+208,svampe,Grøntsager
+209,gin,Drikkevarer
+210,vodka,Drikkevarer
+211,whiskey,Drikkevarer
+212,rom,Drikkevarer
+213,tequila,Drikkevarer
+214,cognac,Drikkevarer
+215,likør,Drikkevarer
+216,tonic,Drikkevarer
+217,gingerbeer,Drikkevarer
+218,snaps,Drikkevarer
+219,gelatine,Andet
+220,noritang,Andet
+221,matcha,Andet
+222,soja,Andet
+223,miso,Andet
+224,lakrids,Andet
+225,oliven,Andet
+226,vaniljeis,Søde Sager
+227,kiks,Søde Sager
+228,persille,Krydderier
+229,blå birkes,Krydderier
+230,acai pulver,Andet
+231,øko bergamotte,Frugter
