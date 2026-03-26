@@ -27,7 +27,7 @@ public class SubscriptionController {
             Subscription subscription = new Subscription(name, price, dueDate);
             subscriptionService.addSubscription(subscription);
 
-            ctx.redirect("/teamM/view");
+            ctx.redirect("/teamM");
         });
 
         app.get("/teamM/remove", ctx -> {
@@ -38,7 +38,7 @@ public class SubscriptionController {
         app.post("/teamM/remove", ctx -> {
             String name = ctx.formParam("subscriptionName");
             subscriptionService.deleteSubscriptionByName(name);
-            ctx.redirect("/teamM/view");
+            ctx.redirect("/teamM");
         });
 
         app.get("/teamM/view", ctx -> {
