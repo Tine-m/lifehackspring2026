@@ -43,6 +43,6 @@ public class Main
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
-        QuizController.addRoutes(app, connectionPool);
+        QuizController.addRoutes(javApp, connectionPool);
     }
 }
