@@ -15,6 +15,7 @@
     <div class="question-box">
         <p th:text="${question.questionText}">Spørgsmål</p>
 
+        <input type="hidden" id="correctAnswer" th:value="${question.answerCorrect}">
         <form id="quizForm">
         <div th:each="answer, iterStat : ${answers}">
             <input type="radio"

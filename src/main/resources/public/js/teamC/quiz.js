@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // 2. Tjek om værdien er "correct" (som I har skrevet i jeres HTML value="")
-        const isCorrect = (selected.value === 'correct');
+        const correctAnswer = document.getElementById('correctAnswer').value;
+        const isCorrect = (selected.value === correctAnswer);
+
 
         // 3. Sæt indholdet i modalen baseret på svaret
         const title = document.getElementById('modalTitle');
