@@ -2,8 +2,8 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
-import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
@@ -22,7 +22,7 @@ public class Main
     public static void main(String[] args)
     {
         // Initializing Javalin and Jetty webserver
-        Javalin app = Javalin.create(config -> {
+        Javalin javApp = Javalin.create(config -> {
             config.staticFiles.add("/public");
             config.fileRenderer(new JavalinThymeleaf(ThymeleafConfig.templateEngine()));
             config.staticFiles.add("/templates");
@@ -30,14 +30,21 @@ public class Main
 
 
         // Routing
-        // Frontpage - you muest register your app here.
-        MainController.addRoutes(app, connectionPool);
+        // Frontpage - you must register your app here
+        MainController.addRoutes(javApp, connectionPool);
+
+        // Team O
+        TeamOController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
-        UserController.addRoutes(app, connectionPool);
+        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
-        //Philosophers app - teamteachers
-        QuoteController.addRoutes(app, connectionPool);
+        //Philosophers app - team teachers
+        QuoteController.addRoutes(javApp, connectionPool);
+
+        //SubStats app - Team - A
+        app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
+        app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
     }
 }
