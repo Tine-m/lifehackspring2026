@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -31,6 +32,9 @@ public class Main
         // Routing
         // Frontpage - you must register your app here
         MainController.addRoutes(javApp, connectionPool);
+
+        // Team O
+        TeamOController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
         app.controllers.login.UserController.addRoutes(javApp, connectionPool);
