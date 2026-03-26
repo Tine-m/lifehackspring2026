@@ -1,17 +1,17 @@
 package app.controllers.teamD;
 
 import app.entities.teamD.Ingredient;
+import app.entities.teamD.Recipe;
 import app.persistence.ConnectionPool;
 import app.persistence.teamD.CsvImporter;
 import app.persistence.teamD.IngredientMapper;
+import app.persistence.teamD.RecipeMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class teamDController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
@@ -24,28 +24,11 @@ public class teamDController {
     }
 
     private static void nemMadHomePage(@NotNull Context ctx, ConnectionPool connectionPool) {
-        List<Ingredient> ingredients = IngredientMapper.getIngredients(connectionPool);
+        Map<String, String> categoryImages = getCategoryImages();
 
-        Map<String, List<Ingredient>> groupedIngredients = new HashMap<>();
+        Map<String, List<Ingredient>> groupedIngredients = getIngredients(connectionPool);
 
-        for (Ingredient ingredient : ingredients) {
-            groupedIngredients
-                .computeIfAbsent(ingredient.getCategory(), key -> new ArrayList<>())
-                .add(ingredient);
-        }
-
-            Map<String, String> categoryImages = Map.of(
-                "Grøntsager", "vegetable.png",
-                "Frugter", "fruit.png",
-                "Kød & Fisk", "meat.png",
-                "Mejeri", "dairy.png",
-                "Krydderier", "spice.png",
-                "Tørvarer", "colonial.png",
-                "Drikkevarer", "drink.png",
-                "Færdigvarer", "fastfood.png",
-                "Søde Sager", "dessert.png",
-                "Andet", "other.png"
-            );
+        List<Recipe> recipesList = getRecipes(connectionPool);
 
         ctx.attribute("categoryImages", categoryImages);
         ctx.attribute("groupedIngredients", groupedIngredients);
