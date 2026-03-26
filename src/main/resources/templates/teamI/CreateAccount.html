@@ -15,29 +15,29 @@
 <header>
     <div class="header">
         <div class="logoplace">
-            <a th:href="@{/index}">
-                <img src="/public/images/teamI/coffiime_logo.png" class="logoSize">
+            <a th:href="@{/teamI/index}">
+                <img src="/images/teamI/coffiime_logo.png" class="logoSize">
             </a>
         </div>
 
 
         <ul class="account">
-            <li><a th:href="@{/login}"> Login </a></li>
-            <li><a th:href="@{/createAccount}"> Create Account </a></li>
+            <li><a th:href="@{/teamI/login}"> Login </a></li>
+            <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
     </div>
 
 
     <ul class="menu">
         <div class="left">
-            <li><a th:href="@{/coffeeType}"> Coffee Type </a></li>
-            <li><a th:href="@{/coffeeBrands}"> Coffee Brands </a></li>
+            <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
         </div>
 
 
         <div class="right">
-            <li><a th:href="@{/colorPanel}"> Color Panel </a></li>
-            <li><a th:href="@{/creatingPanel}"> Creating Panel </a></li>
+            <li><a th:href="@{/teamI/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/teamI/creatingPanel}"> Creating Panel </a></li>
         </div>
     </ul>
 
@@ -55,7 +55,7 @@
         <h2>Create Your CoffiiMe Account ☕</h2>
 
 
-        <form th:action="@{/createAccount}" method="post">
+        <form th:action="@{/teamI/createAccount}" method="post">
 
             <div class="input-group">
                 <label for="firstname">First Name</label>
@@ -87,11 +87,10 @@
 
 <footer>
     <div class="footer-content">
-
         <nav class="navbar">
             <ul class="footer">
-                <li><a href="/aboutUs"> About us </a></li>
-                <li><a href="/contactUs"> Contact us </a></li>
+                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
             </ul>
         </nav>
     </div>

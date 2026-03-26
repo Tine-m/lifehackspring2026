@@ -308,6 +308,9 @@ button:hover {
     display: flex;
     gap: 200px;
 }
+.foto a{
+    color: black;
+}
 
 .foto a:hover {
     opacity: 0.7;

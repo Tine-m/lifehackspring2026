@@ -13,7 +13,7 @@ public class CoffeController {
         //app.get("/color", ctx -> ctx.json(new Integer[]{255,200,5}));
 
 
-        app.post("/slider", ctx -> createCoffee(ctx, connectionPool));
+        app.post("/teamI/slider", ctx -> createCoffee(ctx, connectionPool));
     }
 
 
