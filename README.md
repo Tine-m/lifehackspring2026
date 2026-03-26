@@ -1,15 +1,19 @@
-# Group Name:
-Team O
+# Lifehack Spring 2026
 
+![Lifehack](src/main/resources/public/images/main-page/lifehacklogo.png)
 
-## Members:
-Rasull Khan Hossein
+## Install instructions
 
-Nali Ahmadi
+1. Clone this repo
+2. Create a `lifehack` database in Postgres
+3. Open IntelliJ and import all dependencies
+4. Copy sql from `/resources/sql/lifehack.sql` to Postgres and execute
+5. Build and run app and view on port 7070
 
+## How the groups work
 
-## Apps function:
-This app lets the user press a button to have a random movie chosen for him. 
-
-It will include a name, release year and a poster of the movie.
+- [ ] Find a lifehack project you wish to build
+- [ ] Read about the project structure and coding standards in [codestandard document](codestandard.md).
+- [ ] Each team creates a new branch named after team name. E.g. `teama-dev`.
+- [ ] Internally in the teams you may have feature branches from your dev-branch. You can make PRs on these to your dev-branch
 
