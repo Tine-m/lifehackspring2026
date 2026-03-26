@@ -17,7 +17,7 @@ public class HackController {
         app.get("/lifehackseption", ctx -> ctx.render("teamG/index.html"));
         app.get("/categories", ctx -> getHackByCategory(ctx, connectionPool));
         app.get("/chooseCategory", ctx -> ctx.render("teamG/showCategoryLifeHack"));
-
+        app.get("/showLifeHacksInCategory", ctx -> ctx.render("teamG/showCategory"));
     }
 
     public static void getHackByCategory(Context ctx, ConnectionPool connectionPool) {
