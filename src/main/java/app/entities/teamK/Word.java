@@ -9,6 +9,7 @@ public class Word {
     private String hint;
     private String category;
     private int wordLength;
+    private String[] wordArray;
 
     public Word(int id, String word, String hint, String category, int wordLength) {
         this.id = id;
@@ -16,6 +17,7 @@ public class Word {
         this.hint = hint;
         this.category = category;
         this.wordLength = wordLength;
+        this.wordArray = word.split("");
     }
 
     public int getId() {
@@ -56,6 +58,10 @@ public class Word {
 
     public void setWordLength(int wordLength) {
         this.wordLength = wordLength;
+    }
+
+    public String[] getWordArray() {
+        return wordArray;
     }
 
     @Override
