@@ -75,7 +75,7 @@ public class SubscriptionMapper {
     }
 
     public static ArrayList<Subscription> getAllSubscriptions(ConnectionPool connectionPool)throws DatabaseException{
-        String sql = "SELECT * FROM teamA_subscriptions";
+        String sql = "SELECT * FROM teamA_subscriptions JOIN teamA_users USING (user_id)";
         try (
                 Connection connection = connectionPool.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -89,7 +89,8 @@ public class SubscriptionMapper {
                 int subUsage = rs.getInt("usage_amount");
                 String subCategory = rs.getString("category");
                 int userID = rs.getInt("user_id");
-                subscriptions.add(new Subscription(subId, subName, subCost, subUsage, subCategory, userID));
+                String username = rs.getString("username");
+                subscriptions.add(new Subscription(subId, subName, subCost, subUsage, subCategory, userID, username));
             }
             return subscriptions;
         } catch (SQLException e) {

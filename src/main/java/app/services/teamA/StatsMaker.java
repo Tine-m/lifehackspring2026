@@ -1,9 +1,7 @@
 package app.services.teamA;
 
 import app.entities.teamA.Subscription;
-
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StatsMaker {
@@ -81,37 +79,58 @@ public class StatsMaker {
         return (HashMap<String, Double>) byCategory;
     }
 
-    public static void allUsersSubscriptionCount(ArrayList<Subscription> subscriptions) {
-        HashMap<Integer, Integer> subscriptionList = new HashMap<>();
+    public static HashMap<String, Integer> allUsersSubscriptionCount(ArrayList<Subscription> subscriptions) {
+        HashMap<String, Integer> subscriptionList = new HashMap<>();
 
         List<Subscription> sortedSubscriptions = subscriptions.stream().sorted(Comparator.comparing(Subscription::getUserId)).toList();
 
         int userId = sortedSubscriptions.getFirst().getUserId();
         int tempUserId = 0;
         int subscriptionCount = 0;
+        String userName = sortedSubscriptions.getFirst().getUserName();
 
         for (Subscription subscription : sortedSubscriptions) {
             tempUserId = subscription.getUserId();
+
             if (userId != tempUserId) {
-                subscriptionList.put(userId, subscriptionCount);
+                subscriptionList.put(userName, subscriptionCount);
                 userId = subscription.getUserId();
                 subscriptionCount = 0;
             }
+            userName = subscription.getUserName();
             subscriptionCount++;
         }
-        subscriptionList.put(userId, subscriptionCount);
+        subscriptionList.put(userName, subscriptionCount);
+        return subscriptionList;
     }
 
 
-    public static void allUsersSubs(ArrayList<Subscription> subscriptions, ArrayList<Integer> userIds) {
-        HashMap<Integer, Integer> subscriptionCountMap = new HashMap<>();
+    public static Map<String, Long> threeMostCommonSubscriptions(ArrayList<Subscription> subscriptions) {
 
-        for (Subscription subscription : subscriptions) {
-           int userId = subscription.getUserId();
-           
-        }
-        System.out.println(subscriptionCountMap);
+        List<Subscription> sortedSubs = subscriptions.stream()
+                .sorted(Comparator.comparing(Subscription::getSubName, String.CASE_INSENSITIVE_ORDER))
+                .toList();
 
+        Map<String, Long> sortedSubs2 = sortedSubs.stream().collect(Collectors.groupingBy(Subscription::getSubName, Collectors.counting()));
+
+
+        Map<String, Long> top3 = new LinkedHashMap<>();
+        sortedSubs2.entrySet().stream()
+                .sorted((a, b) -> Long.compare(b.getValue(), a.getValue()))
+                .limit(3)
+                .forEach(entry -> top3.put(entry.getKey(), entry.getValue()));
+
+
+        return top3;
+
+    }
+
+    public static Map<String, Double> totalPricePerCategory(ArrayList<Subscription> subscriptions){
+
+        Map<String, Double> newMap = subscriptions.stream()
+                .collect(Collectors.groupingBy(Subscription::getSubCategory, Collectors.summingDouble(Subscription::getSubCost)));
+
+        return newMap;
     }
 
 }

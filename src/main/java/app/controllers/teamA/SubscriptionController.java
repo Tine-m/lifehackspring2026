@@ -23,7 +23,8 @@ public class SubscriptionController {
         app.get("/teamA/categoryData", ctx -> allSubscriptionCategoriesByPercent(ctx, connectionPool));
         app.get("/teamA/subscriptionCost", ctx -> allSubscriptionsCost(ctx, connectionPool));
         app.get("/teamA/subscriptionUsage", ctx -> allSubscriptionsUsage(ctx, connectionPool));
-
+        app.get("/teamA/allUsersSubscriptionsCount", ctx -> allUsersSubscriptionsCount(ctx, connectionPool));
+        app.get("/teamA/totalPricePerCategory", ctx -> totalPricePerCategory(ctx, connectionPool));
     }
 
 
@@ -84,6 +85,7 @@ public class SubscriptionController {
         cheapestSubscriptionPerUsage(ctx, connectionPool);
         allSubscriptionsUsage(ctx, connectionPool);
         allSubscriptionsCost(ctx, connectionPool);
+        topThreeSubscriptions(ctx, connectionPool);
     }
 
 
@@ -131,7 +133,7 @@ public class SubscriptionController {
         int userId = currentUser.getId();
 
         List<Subscription> subs = SubscriptionMapper.getAllSubscriptionInfo(userId, connectionPool);
-        List<Double> costs = StatsMaker.allSubscriptionsCosts(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(),connectionPool));
+        List<Double> costs = StatsMaker.allSubscriptionsCosts(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
 
         Map<String, Double> data = new HashMap<>();
 
@@ -141,4 +143,29 @@ public class SubscriptionController {
         ctx.json(data);
     }
 
+    public static void allUsersSubscriptionsCount(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        Map<String, Integer> data = StatsMaker.allUsersSubscriptionCount(SubscriptionMapper.getAllSubscriptions(connectionPool));
+
+        ctx.json(data);
+    }
+
+    public static void topThreeSubscriptions(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        Map<String, Long> topThree = StatsMaker.threeMostCommonSubscriptions(SubscriptionMapper.getAllSubscriptions(connectionPool));
+        List<String> threeNames = new ArrayList<>(topThree.keySet());
+
+        String first = threeNames.getFirst();
+        String second = threeNames.get(1);
+        String third = threeNames.getLast();
+
+        ctx.attribute("first", first);
+        ctx.attribute("second", second);
+        ctx.attribute("third", third);
+    }
+
+    public static void totalPricePerCategory(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        User currentUser = ctx.sessionAttribute("currentUser");
+        Map<String, Double> data = StatsMaker.totalPricePerCategory(SubscriptionMapper.getAllSubscriptionInfo(currentUser.getId(), connectionPool));
+
+        ctx.json(data);
+    }
 }

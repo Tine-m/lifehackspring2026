@@ -19,7 +19,7 @@ Promise.all([
                 {
                     label: 'Total Pris',
                     data: Object.values(costData),
-                    backgroundColor: 'rgb(244,96,127)',
+                    backgroundColor: 'rgb(61,123,255)',
                     barThickness: 20,
                     borderRadius: 4,
                 }

@@ -46,5 +46,7 @@ public class Main
         //SubStats app - Team - A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+
+
     }
 }
