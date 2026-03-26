@@ -32,9 +32,10 @@ export class GameMapper {
             wordLength: `${game.wordLength} bogstaver,`,
 
             grid: this.mapGrid(game),
-
+            keyboard: this.createKeyboard(game),
 
         };
     };
+
 
 }
