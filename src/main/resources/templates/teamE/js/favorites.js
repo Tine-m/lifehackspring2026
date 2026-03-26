@@ -1,10 +1,10 @@
 let favorites = [
-    { id: 1, cat: 'soft',      catLabel: 'Soft surfaces',    title: 'Remove a red wine or fruit stain', desc: 'Salt, white vinegar and dish soap',       hackKey: 'red-wine',   date: '26-03-2026' },
-    { id: 2, cat: 'soft',      catLabel: 'Soft surfaces',    title: 'Remove oil or grease',             desc: 'Baby powder, cornstarch or chalk powder', hackKey: 'grease',     date: '26-03-2026' },
-    { id: 3, cat: 'hard',      catLabel: 'Hard surfaces',    title: 'Degreasing surfaces',              desc: 'White vinegar and baking soda',           hackKey: 'degreasing', date: '26-03-2026' },
+    { id: 1, cat: 'soft',      catLabel: 'Soft surfaces',    title: 'Remove a red wine or fruit stain', desc: 'Salt, white vinegar and dish soap',       hackKey: 'red-wine',   date: '26-06-2026' },
+    { id: 2, cat: 'soft',      catLabel: 'Soft surfaces',    title: 'Remove oil or grease',             desc: 'Baby powder, cornstarch or chalk powder', hackKey: 'grease',     date: '26-05-2026' },
+    { id: 3, cat: 'hard',      catLabel: 'Hard surfaces',    title: 'Degreasing surfaces',              desc: 'White vinegar and baking soda',           hackKey: 'degreasing', date: '26-04-2026' },
     { id: 4, cat: 'hard',      catLabel: 'Hard surfaces',    title: 'Limescale removal',                desc: 'White vinegar or citric acid',            hackKey: 'limescale',  date: '26-03-2026' },
-    { id: 5, cat: 'mirror',    catLabel: 'Mirror & glass',   title: 'Streak-free glass',                desc: 'White vinegar and microfibre cloth',      hackKey: 'streak',     date: '26-03-2026' },
-    { id: 6, cat: 'jewellery', catLabel: 'Jewellery',        title: 'Clean tarnished silver & gold',    desc: 'Aluminium foil, baking soda, salt and boiling water.',      hackKey: 'silver-or-gold',     date: '26-03-2026' }
+    { id: 5, cat: 'mirror',    catLabel: 'Mirror & glass',   title: 'Streak-free glass',                desc: 'White vinegar and microfibre cloth',      hackKey: 'streak',     date: '26-02-2026' },
+    { id: 6, cat: 'jewellery', catLabel: 'Jewellery',        title: 'Clean tarnished silver & gold',    desc: 'Aluminium foil, baking soda, salt and boiling water.',      hackKey: 'silver-or-gold',     date: '26-08-2026' }
 ];
 
 let activeFilter = 'all';
