@@ -8,11 +8,12 @@
 
 body {
     background: #1D1E25;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Jacques Francois', serif;
+    font-family: 'Inter', serif;
     padding: 16px;
     color: #eee;
 }
@@ -20,11 +21,37 @@ body {
 .screen {
     display: none;
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
 }
 
 .screen.active {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home-container {
+    width: 100%;
+    text-align: center;
+    padding: 32px 24px;
+
+    .logo {
+        font-family: 'Jacques Francois', serif;
+        font-size: clamp(150px, 14vw, 96px);
+        color: #FFB143;
+        letter-spacing: 6px;
+    }
+
+    .logo-sub {
+        color: #888;
+        font-size: 25px;
+        font-style: italic;
+        letter-spacing: 1px;
+        margin-bottom: 32px;
+    }
+
+    .rules {
+        padding: 24px 28px;
+
+    }
 }
