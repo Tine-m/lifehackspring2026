@@ -17,13 +17,14 @@ public class FunQuoteMapper {
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);
             ){
-            ResultSet rs = ps.executeQuery();
-            while(rs.next()){
-                int id = rs.getInt("funquote_id");
-                String setup = rs.getString("funquote_setup");
-                String punchLine = rs.getString("funquote_punchline");
-                FunQuote funQuote = new FunQuote(id,setup,punchLine);
-                allFunQuotes.add(funQuote);
+            try(ResultSet rs = ps.executeQuery()) {
+                while (rs.next()) {
+                    int id = rs.getInt("funquote_id");
+                    String setup = rs.getString("funquote_setup");
+                    String punchLine = rs.getString("funquote_punchline");
+                    FunQuote funQuote = new FunQuote(id, setup, punchLine);
+                    allFunQuotes.add(funQuote);
+                }
             }
         } catch (SQLException e) {
             String msg = "Der er sket en fejl. Prøv igen";

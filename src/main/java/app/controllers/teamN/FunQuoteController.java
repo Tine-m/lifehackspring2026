@@ -22,10 +22,15 @@ public class FunQuoteController {
             List<FunQuote> allFunQuotes = FunQuoteMapper.getAllFunQuotes(connectionPool);
             Random randomInt = new Random();
             int number = randomInt.nextInt(allFunQuotes.size());
-            FunQuote funQuote = FunQuoteMapper.getFunQuoteById(number, connectionPool);
-            ctx.attribute("funSetup", funQuote.getSetup());
-            ctx.attribute("funPunchLine", funQuote.getPunchLine());
-            ctx.render("teamN/index.html");
+            System.out.println(number);
+            System.out.println(allFunQuotes.size());
+
+            FunQuote funQuote = allFunQuotes.get(number);
+            if (funQuote != null) {
+                ctx.sessionAttribute("funSetup", funQuote.getSetup());
+                ctx.sessionAttribute("funPunchLine", funQuote.getPunchLine());
+            }
+            ctx.redirect("teamN/index");
         } catch (DatabaseException e) {
 
         }

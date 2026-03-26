@@ -37,4 +37,4 @@ function timer (){
 }
 
 //Updates the timer every second
-setInterval(timer, millisecondsInASecound)
+setInterval(timer, millisecondsInASecound/10)

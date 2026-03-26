@@ -4,7 +4,7 @@
     <title>Eksamens nedtælling</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../public/css/teamN/style.css">
+    <link rel="stylesheet" th:href="@{/css/teamN/style.css}">
 
 </head>
 <body>
@@ -29,25 +29,25 @@
             <p>Sekunder</p>
         </div>
     </div>
-<h1>Her et motiverende quote!</h1>
+<h1>Her er et motiverende quote!</h1>
 </div>
 
 <div class="qoute">
-    <img th:src="">
-    <p th:text="@{selectedquote}"></p>
+    <img src="">
+    <p th:text="${selectedquote}"></p>
 </div>
 
 <div class="funny">
     <div>
-        <img th:src="">
-        <p th:text="@{funSetup}"></p>
-        <p th:text="@{funPunchLine}"></p>
+        <img src="">
+        <p th:text="${funSetup}"></p>
+        <p th:text="${funPunchLine}"></p>
     </div>
 
     <form method="post" action="/generateLaugh">
         <button name= "generateLaugh" id = "laughGenerate">Klik her for et godt grin!</button>
     </form>
 </div>
-<script src="../../public/js/teamN/countdown.js"></script>
+<script th:src="@{/js/teamN/countdown.js}"></script>
 </body>
 </html>

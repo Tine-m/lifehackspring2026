@@ -47,15 +47,16 @@ public class QuoteMapper {
              PreparedStatement ps = connection.prepareStatement(sql)) {
 
             ps.setInt(1, id);
-            ResultSet rs = ps.executeQuery();
-            if(rs.next()) {
-                id = rs.getInt("id");
-                String name = rs.getString("name");
-                String quote = rs.getString("quote");
-                int year = rs.getInt("year");
-                q = new Quote(id, name, quote, year);
-            } else {
-                throw new DatabaseException("Intet citat med dette ID fundet");
+            try(ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    id = rs.getInt("id");
+                    String name = rs.getString("name");
+                    String quote = rs.getString("quote");
+                    int year = rs.getInt("year");
+                    q = new Quote(id, name, quote, year);
+                } else {
+                    throw new DatabaseException("Intet citat med dette ID fundet");
+                }
             }
         } catch (SQLException e) {
             throw new DatabaseException("DB fejl", e.getMessage());

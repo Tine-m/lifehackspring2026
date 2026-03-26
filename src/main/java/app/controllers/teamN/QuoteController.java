@@ -13,8 +13,7 @@ import java.util.Random;
 public class QuoteController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/teamN/index", ctx -> pickRandomQuote(ctx, connectionPool));
-        //app.get("/randomquote", ctx -> ctx.render("../../../../teamN/index.html"));
+        app.get("teamN/index", ctx -> pickRandomQuote(ctx, connectionPool));
     }
 
     public static void pickRandomQuote(Context ctx, ConnectionPool connectionPool) {
@@ -22,9 +21,13 @@ public class QuoteController {
             List<Quote> allQuotes = QuoteMapper.getAllQuotes(connectionPool);
             Random r = new Random();
             int selectedQuoteId = r.nextInt(allQuotes.size());
-            Quote selectedQuote = QuoteMapper.getQuoteById(selectedQuoteId, connectionPool);
+            Quote selectedQuote = allQuotes.get(selectedQuoteId);
             ctx.attribute("selectedquote", selectedQuote);
-            //ctx.redirect("teamN/index");
+
+            //session thing
+            ctx.attribute("funSetup", ctx.sessionAttribute("funSetup"));
+            ctx.attribute("funPunchLine", ctx.sessionAttribute("funPunchLine"));
+
             ctx.render("teamN/index.html");
         } catch (DatabaseException e) {
             System.out.println(e.getMessage());
