@@ -17,7 +17,7 @@ public class MainController {
 
     private static void index(@NotNull Context ctx) {
         List<LifehackSite> lifehackSites = new ArrayList<>();
-
+        //teamteachers
         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
 
         //teamQ, PlantGuide
