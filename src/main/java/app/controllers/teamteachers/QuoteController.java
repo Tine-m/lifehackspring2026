@@ -9,8 +9,8 @@ import org.jetbrains.annotations.NotNull;
 public class QuoteController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/philosophers", ctx -> ctx.render("teamteachers/index.html"));
-        app.post("/philosophers", ctx -> ask(ctx, connectionPool));
+        app.get("/teamteachers/philosophers", ctx -> ctx.render("teamteachers/index.html"));
+        app.post("/teamteachers/philosophers", ctx -> ask(ctx, connectionPool));
         // app.get("/ask", ctx -> ctx.render("answer.html"));
     }
 
