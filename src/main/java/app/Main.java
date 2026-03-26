@@ -46,5 +46,9 @@ public class Main
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
+        //countdown - Team - N
+        app.controllers.teamN.QuoteController.addRoutes(javApp, connectionPool);
+        app.controllers.teamN.FunQuoteController.addRoutes(javApp, connectionPool);
+
     }
 }

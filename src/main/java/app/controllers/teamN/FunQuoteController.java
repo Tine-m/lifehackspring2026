@@ -1,9 +1,9 @@
-package app.controllers.TeamN;
+package app.controllers.teamN;
 
-import app.entities.TeamN.FunQuote;
-import app.exceptions.common.DatabaseException;
+import app.entities.teamN.FunQuote;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-import app.persistence.TeamN.FunQuoteMapper;
+import app.persistence.teamN.FunQuoteMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
@@ -25,7 +25,7 @@ public class FunQuoteController {
             FunQuote funQuote = FunQuoteMapper.getFunQuoteById(number, connectionPool);
             ctx.attribute("funSetup", funQuote.getSetup());
             ctx.attribute("funPunchLine", funQuote.getPunchLine());
-            ctx.render("../../../../resources/templates/TeamN/index.html");
+            ctx.render("TeamN/index.html");
         } catch (DatabaseException e) {
 
         }

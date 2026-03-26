@@ -1,7 +1,7 @@
-package app.persistence.TeamN;
+package app.persistence.teamN;
 
-import app.entities.TeamN.Quote;
-import app.exceptions.common.DatabaseException;
+import app.entities.teamN.Quote;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 
 import java.sql.Connection;

@@ -1,4 +1,4 @@
-package app.entities.TeamN;
+package app.entities.teamN;
 
 public class FunQuote {
     private int id;

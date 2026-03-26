@@ -1,9 +1,9 @@
-package app.controllers.TeamN;
+package app.controllers.teamN;
 
-import app.entities.TeamN.Quote;
-import app.exceptions.common.DatabaseException;
+import app.entities.teamN.Quote;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-import app.persistence.TeamN.QuoteMapper;
+import app.persistence.teamN.QuoteMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
@@ -13,7 +13,8 @@ import java.util.Random;
 public class QuoteController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/randomquote", ctx -> pickRandomQuote(ctx, connectionPool));
+        app.get("/teamN/index", ctx -> pickRandomQuote(ctx, connectionPool));
+        //app.get("/randomquote", ctx -> ctx.render("../../../../TeamN/index.html"));
     }
 
     public static void pickRandomQuote(Context ctx, ConnectionPool connectionPool) {
@@ -23,7 +24,8 @@ public class QuoteController {
             int selectedQuoteId = r.nextInt(allQuotes.size());
             Quote selectedQuote = QuoteMapper.getQuoteById(selectedQuoteId, connectionPool);
             ctx.attribute("selectedquote", selectedQuote);
-            ctx.render("../../../../resources/templates/TeamN/index.html");
+            //ctx.redirect("teamN/index");
+            ctx.render("/TeamN/index.html");
         } catch (DatabaseException e) {
             System.out.println(e.getMessage());
         }
