@@ -17,9 +17,10 @@
         <h2>Remove subscription</h2>
     </div>
 
-    <div class="main-box">
+    <div class="main-box remove-box">
         <form action="/teamM/remove" method="post">
             <label for="subscriptionName">Select subscription:</label>
+
             <select id="subscriptionName" name="subscriptionName">
                 <option th:each="subscription : ${subscriptions}"
                         th:value="${subscription.name}"

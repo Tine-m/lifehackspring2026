@@ -28,8 +28,7 @@ public class SubscriptionMapper {
             preparedStatement.setDate(3, Date.valueOf(subscription.getDueDate()));
             preparedStatement.executeUpdate();
         }
-        catch (SQLException e)
-        {
+        catch (SQLException e) {
             throw new RuntimeException("Could not add subscription", e);
         }
     }

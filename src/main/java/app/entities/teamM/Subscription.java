@@ -18,7 +18,7 @@ public class Subscription {
     public double getPrice() {
         return price;
     }
-//
+
     public String getDueDate() {
         return dueDate;
     }

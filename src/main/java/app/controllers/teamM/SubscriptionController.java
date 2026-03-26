@@ -42,7 +42,20 @@ public class SubscriptionController {
         });
 
         app.get("/teamM/view", ctx -> {
-            ctx.attribute("subscriptions", subscriptionService.getAllSubscriptions());
+
+            var subscriptions = subscriptionService.getAllSubscriptions();
+
+            double totalMonthly = 0;
+            for (Subscription sub : subscriptions) {
+                totalMonthly += sub.getPrice();
+            }
+
+            double totalYearly = totalMonthly * 12;
+
+            ctx.attribute("subscriptions", subscriptions);
+            ctx.attribute("totalMonthly", totalMonthly);
+            ctx.attribute("totalYearly", totalYearly);
+
             ctx.render("teamM/view.html");
         });
     }

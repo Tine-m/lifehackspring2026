@@ -31,7 +31,7 @@ body {
     padding-bottom: 30px;
 }
 
-/* head */
+
 
 .tagline {
     width: 600px;
@@ -52,7 +52,7 @@ body {
     color: black;
 }
 
-/* main box */
+
 
 .main-box {
     width: 320px;
@@ -69,7 +69,7 @@ body {
     box-sizing: border-box;
 }
 
-/* index sise (første side) */
+
 
 .btn {
     width: 180px;
@@ -95,7 +95,6 @@ body {
     margin-top: 40px;
 }
 
-/* add side (side 2) */
 
 .main-box form {
     width: 100%;
@@ -138,7 +137,7 @@ body {
     cursor: pointer;
 }
 
-/* remove side (3 side) */
+
 
 .remove-box {
     text-align: center;
@@ -185,7 +184,7 @@ body {
     margin-top: 15px;
 }
 
-/* view side (4 side) */
+
 
 .view-container {
     width: 95%;
