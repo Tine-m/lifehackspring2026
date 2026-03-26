@@ -30,27 +30,4 @@ public class MovieMapper {
         }
         return movies;
     }
-
-    public static Movie getMovieById(int movieId, ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "SELECT film_id, title, year FROM teamO_films WHERE film_id = ?";
-
-        try (Connection conn = connectionPool.getConnection();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
-
-            ps.setInt(1, movieId);
-            ResultSet rs = ps.executeQuery();
-
-            if (rs.next()) {
-                return new Movie(
-                        rs.getInt("film_id"),
-                        rs.getString("title"),
-                        rs.getInt("year")
-                );
-            } else {
-                throw new DatabaseException("Film ikke fundet");
-            }
-        } catch (SQLException e) {
-            throw new DatabaseException("Fejl ved hentning af film", e.getMessage());
-        }
-    }
 }
