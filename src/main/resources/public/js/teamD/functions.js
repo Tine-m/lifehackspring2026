@@ -24,19 +24,30 @@ function filter() {
         return;
     }
 
-    const filtered = allRecipes.filter(recipe =>
-        recipe.ingredients.some(i => selectedIngredients.has(i))
-    );
+    const matching = allRecipes
+        .filter(recipe => {
+        const match = recipe.ingredients.filter(i =>
+            selectedIngredients.has(i.toLowerCase())).length;
 
-    renderRecipes(filtered);
+        const missing = recipe.ingredients.length - match;
+
+        return match > 0 && missing <= 2
+    }).sort((a, b) => {
+        const aMatch = a.ingredients.filter(i => selectedIngredients.has(i.toLowerCase())).length
+        const bMatch = b.ingredients.filter(i => selectedIngredients.has(i.toLowerCase())).length
+        return bMatch - aMatch
+        })
+
+    renderRecipes(matching);
 
 }
 
 function renderRecipes(recipes) {
     const container = document.querySelector('.section-block-grid');
-    document.getElementById('recipe-count').textContent = recipes.length;
-    document.getElementById('reccipe-count').textContent = recipes.length;
-
+    if (selectedIngredients.size > 0) {
+        document.getElementById('recipe-count').textContent = recipes.length;
+        document.getElementById('reccipe-count').textContent = recipes.length;
+    }
     container.innerHTML = recipes.map(recipe => `
         <div class="product-list-item">
             <div class="product-item-image">
