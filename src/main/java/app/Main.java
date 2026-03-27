@@ -5,6 +5,7 @@ import app.controllers.MainController;
 import app.controllers.teamM.SubscriptionController;
 import app.controllers.login.UserController;
 import app.controllers.teamG.HackController;
+import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
@@ -52,6 +53,9 @@ public class Main
         //Trackly app - TeamM
         SubscriptionController controller = new SubscriptionController(connectionPool);
         controller.addRoutes(javApp);
+        // Team C
+        QuizController.addRoutes(javApp, connectionPool);
+
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
 
