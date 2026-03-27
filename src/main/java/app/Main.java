@@ -2,6 +2,8 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.login.UserController;
+import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
@@ -49,5 +51,8 @@ public class Main
 
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
+        // teamG:
+        HackController.addRoutes(javApp, connectionPool);
+
     }
 }
