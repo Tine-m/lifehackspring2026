@@ -5,6 +5,8 @@ import app.persistence.ConnectionPool;
 import app.services.teamM.TracklySubscriptionService;
 import io.javalin.Javalin;
 
+import java.util.ArrayList;
+
 public class SubscriptionController {
     private TracklySubscriptionService subscriptionService;
 
@@ -18,13 +20,13 @@ public class SubscriptionController {
         app.get("/teamM/add", ctx -> ctx.render("teamM/add.html"));
 
         app.post("/teamM/add", ctx -> {
-            String name = ctx.formParam("name");
-            String priceAsString = ctx.formParam("price");
-            String dueDate = ctx.formParam("Ddate");
+            String subscriptionName = ctx.formParam("name");
+            String subscriptionPriceInput = ctx.formParam("price");
+            String subscriptionDueDate = ctx.formParam("dueDate");
 
-            double price = Double.parseDouble(priceAsString);
+            double subscriptionPrice = Double.parseDouble(subscriptionPriceInput);
 
-            Subscription subscription = new Subscription(name, price, dueDate);
+            Subscription subscription = new Subscription(subscriptionName, subscriptionPrice, subscriptionDueDate);
             subscriptionService.addSubscription(subscription);
 
             ctx.redirect("/teamM");
@@ -36,21 +38,17 @@ public class SubscriptionController {
         });
 
         app.post("/teamM/remove", ctx -> {
-            String name = ctx.formParam("subscriptionName");
-            subscriptionService.deleteSubscriptionByName(name);
+            String subscriptionName = ctx.formParam("subscriptionName");
+            subscriptionService.deleteSubscriptionByName(subscriptionName);
             ctx.redirect("/teamM");
         });
 
         app.get("/teamM/view", ctx -> {
 
-            var subscriptions = subscriptionService.getAllSubscriptions();
+            ArrayList<Subscription> subscriptions = subscriptionService.getAllSubscriptions();
 
-            double totalMonthly = 0;
-            for (Subscription sub : subscriptions) {
-                totalMonthly += sub.getPrice();
-            }
-
-            double totalYearly = totalMonthly * 12;
+            double totalMonthly = subscriptionService.calculateTotalMonthly(subscriptions);
+            double totalYearly = subscriptionService.calculateTotalYearly(totalMonthly);
 
             ctx.attribute("subscriptions", subscriptions);
             ctx.attribute("totalMonthly", totalMonthly);

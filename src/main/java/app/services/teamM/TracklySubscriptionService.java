@@ -24,4 +24,19 @@ public class TracklySubscriptionService {
     public void deleteSubscriptionByName(String name) {
         subscriptionMapper.deleteSubscriptionByName(name);
     }
+
+    public double calculateTotalMonthly(ArrayList<Subscription> subscriptions) {
+        double totalMonthly = 0;
+
+        for (Subscription subscription : subscriptions) {
+            totalMonthly += subscription.getPrice();
+        }
+
+        return totalMonthly;
+    }
+
+    public double calculateTotalYearly(double totalMonthly) {
+        return totalMonthly * 12;
+    }
+
 }

@@ -18,7 +18,7 @@ public class SubscriptionMapper {
     }
 
     public void addSubscription(Subscription subscription) {
-        String sql = "insert into subscriptions (name, price, due_date) values (?, ?, ?)";
+        String sql = "insert into teamm_subscriptions (name, price, due_date) values (?, ?, ?)";
 
         try (
                 Connection connection = connectionPool.getConnection();
@@ -35,7 +35,7 @@ public class SubscriptionMapper {
 
     public ArrayList<Subscription> getAllSubscriptions() {
         ArrayList<Subscription> subscriptions = new ArrayList<>();
-        String sql = "select name, price, due_date from subscriptions";
+        String sql = "select name, price, due_date from teamm_subscriptions";
 
         try (
                 Connection connection = connectionPool.getConnection();
@@ -57,7 +57,7 @@ public class SubscriptionMapper {
     }
 
     public void deleteSubscriptionByName(String name) {
-        String sql = "delete from subscriptions where name = ?";
+        String sql = "delete from teamm_subscriptions where name = ?";
 
         try (
                 Connection connection = connectionPool.getConnection();
