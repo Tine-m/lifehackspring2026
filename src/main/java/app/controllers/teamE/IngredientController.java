@@ -5,6 +5,7 @@ import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 import app.persistence.teamE.IngredientMapper;
 import io.javalin.Javalin;
+import io.javalin.http.Context;
 
 import java.util.List;
 
@@ -12,19 +13,22 @@ public class IngredientController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
 
-        app.get("/recipe/{id}/ingredients", ctx -> {
 
-            int recipeId = Integer.parseInt(ctx.pathParam("id"));
+        app.get("/api/recipe/{id}/ingredients",
+                ctx -> getIngredients(ctx, connectionPool));
+    }
 
-            try {
-                List<Ingredient> ingredients =
-                        IngredientMapper.getIngredientsByRecipe(recipeId, connectionPool);
+    public static void getIngredients(Context ctx, ConnectionPool connectionPool) {
+        int recipeId = Integer.parseInt(ctx.pathParam("id"));
 
-                ctx.json(ingredients); // or ctx.render(...) if using Thymeleaf???
+        try {
+            List<Ingredient> ingredients =
+                    IngredientMapper.getIngredientsByRecipe(recipeId, connectionPool);
 
-            } catch (DatabaseException e) {
-                ctx.status(500).result("Database fejl: " + e.getMessage());
-            }
-        });
+            ctx.json(ingredients);
+
+        } catch (DatabaseException e) {
+            ctx.status(500).result("Database error: " + e.getMessage());
+        }
     }
 }

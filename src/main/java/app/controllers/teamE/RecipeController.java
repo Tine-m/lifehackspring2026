@@ -1,75 +1,86 @@
 package app.controllers.teamE;
 
+import app.entities.teamE.User;
+import app.entities.teamE.Recipe;
 import app.persistence.ConnectionPool;
 import app.persistence.teamE.RecipeMapper;
-import app.exceptions.DatabaseException;
 import io.javalin.Javalin;
+import io.javalin.http.Context;
 
 import java.util.List;
-import app.entities.teamE.Recipe;
 
 public class RecipeController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
 
-        //Get recipes by category
-        app.get("/categories/{categoryId}/recipes", ctx -> {
-            try {
-                int categoryId = Integer.parseInt(ctx.pathParam("categoryId"));
+        app.get("/teamE/index", ctx -> ctx.render("teamE/index.html"));
 
-                List<Recipe> recipes =
-                        RecipeMapper.getRecipesByCategory(categoryId, connectionPool);
+        app.get("/teamE/hacks", ctx -> ctx.render("teamE/hacks.html"));
 
-                ctx.json(recipes);
+        app.get("/teamE/favorites", ctx -> ctx.render("teamE/favorites.html"));
 
-            } catch (DatabaseException e) {
-                ctx.status(500).result(e.getMessage());
-            }
-        });
+        app.get("/api/recipes/{categoryId}", ctx -> getRecipesByCategory(ctx, connectionPool));
 
-        //Get saved recipes for a user
-        app.get("/users/{userId}/recipes", ctx -> {
-            try {
-                int userId = Integer.parseInt(ctx.pathParam("userId"));
+        app.post("/teamE/saveRecipe",
+                ctx -> saveRecipe(ctx, connectionPool));
 
-                List<Recipe> recipes =
-                        RecipeMapper.getSavedRecipes(userId, connectionPool);
+        app.post("/teamE/removeRecipe",
+                ctx -> removeRecipe(ctx, connectionPool));
+    }
 
-                ctx.json(recipes);
+    public static void getRecipesByCategory(Context ctx, ConnectionPool connectionPool) {
+        try {
+            int categoryId = Integer.parseInt(ctx.pathParam("categoryId"));
 
-            } catch (DatabaseException e) {
-                ctx.status(500).result(e.getMessage());
-            }
-        });
+            List<Recipe> recipes =
+                    RecipeMapper.getRecipesByCategory(categoryId, connectionPool);
 
-        //Save a recipe for a user
-        app.post("/users/{userId}/recipes/{recipeId}", ctx -> {
-            try {
-                int userId = Integer.parseInt(ctx.pathParam("userId"));
-                int recipeId = Integer.parseInt(ctx.pathParam("recipeId"));
+            ctx.json(recipes);
 
-                RecipeMapper.saveRecipe(userId, recipeId, connectionPool);
+        } catch (Exception e) {
+            ctx.status(500).result(e.getMessage());
+        }
+    }
 
-                ctx.status(201).result("Recipe saved");
+    public static void saveRecipe(Context ctx, ConnectionPool connectionPool) {
 
-            } catch (DatabaseException e) {
-                ctx.status(400).result(e.getMessage());
-            }
-        });
+        User user = ctx.sessionAttribute("currentUser");
 
-        //Remove saved recipe
-        app.delete("/users/{userId}/recipes/{recipeId}", ctx -> {
-            try {
-                int userId = Integer.parseInt(ctx.pathParam("userId"));
-                int recipeId = Integer.parseInt(ctx.pathParam("recipeId"));
+        if (user == null) {
+            ctx.status(401).result("Not logged in");
+            return;
+        }
 
-                RecipeMapper.removeSavedRecipe(userId, recipeId, connectionPool);
+        try {
+            int recipeId = Integer.parseInt(ctx.formParam("recipeId"));
 
-                ctx.status(200).result("Recipe removed");
+            RecipeMapper.saveRecipe(user.getUserId(), recipeId, connectionPool);
 
-            } catch (DatabaseException e) {
-                ctx.status(500).result(e.getMessage());
-            }
-        });
+            ctx.status(200);
+
+        } catch (Exception e) {
+            ctx.status(500).result(e.getMessage());
+        }
+    }
+
+    public static void removeRecipe(Context ctx, ConnectionPool connectionPool) {
+
+        User user = ctx.sessionAttribute("currentUser");
+
+        if (user == null) {
+            ctx.status(401).result("Not logged in");
+            return;
+        }
+
+        try {
+            int recipeId = Integer.parseInt(ctx.formParam("recipeId"));
+
+            RecipeMapper.removeSavedRecipe(user.getUserId(), recipeId, connectionPool);
+
+            ctx.status(200);
+
+        } catch (Exception e) {
+            ctx.status(500).result(e.getMessage());
+        }
     }
 }

@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KitchenChem - Clean smarter, not harder</title>
-    <link rel="stylesheet" href="../../public/css/teamE/styles.css"/>
+
+    <link rel="stylesheet" th:href="@{/css/teamE/styles.css}"/>
 </head>
+
 <body>
+
 <nav>
     <div class="nav-logo">Kitchen<span>Chem</span></div>
     <div class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="hacks.html">Hacks</a>
-        <a href="favorites.html">My favorites</a>
+        <a href="/teamE/index" class="active">Home</a>
+        <a href="/teamE/hacks">Hacks</a>
+        <a href="/teamE/favorites">My favorites</a>
     </div>
     <div>
         <a href="#" class="nav-icon" title="Profile">&#9711;</a>
@@ -25,7 +29,7 @@
         not <span class="accent">harder</span>
     </h1>
     <p class="hero-sub">
-        Find the right chemical reaction for every stubborn stain, tarnished gem, <br>
+        Find the right chemical reaction for every stubborn stain, tarnished gem,
         or cloudy glass.
     </p>
 
@@ -38,6 +42,7 @@
             <option value="jewellery">Jewellery</option>
             <option value="mirror">Mirror &amp; glass</option>
         </select>
+
         <select id="hack-select" onchange="goToHack()">
             <option value="">Select hack...</option>
         </select>
@@ -46,8 +51,9 @@
 
 <section class="browse">
     <p class="browse-label">Browse by category</p>
+
     <div class="category-grid">
-        <div class="category-card" onclick="location.href='hacks.html?cat=soft'">
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=soft'">
             <span class="category-card-icon">&#x1F9FA;</span>
             <p class="category-card-title">Soft surfaces</p>
             <p class="category-card-desc">Fabric, upholstery, carpets &amp; clothing stains</p>
@@ -56,7 +62,8 @@
                 <span class="arrow">&#8594;</span>
             </div>
         </div>
-        <div class="category-card" onclick="location.href='hacks.html?cat=hard'">
+
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=hard'">
             <span class="category-card-icon">&#x1FAA8;</span>
             <p class="category-card-title">Hard surfaces</p>
             <p class="category-card-desc">Tiles, countertops, sinks &amp; sealed surfaces</p>
@@ -65,7 +72,8 @@
                 <span class="arrow">&#8594;</span>
             </div>
         </div>
-        <div class="category-card" onclick="location.href='hacks.html?cat=jewellery'">
+
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=jewellery'">
             <span class="category-card-icon">&#x1F48E;</span>
             <p class="category-card-title">Jewellery</p>
             <p class="category-card-desc">Silver, gold &amp; gemstone cleaning</p>
@@ -74,7 +82,8 @@
                 <span class="arrow">&#8594;</span>
             </div>
         </div>
-        <div class="category-card" onclick="location.href='hacks.html?cat=mirror'">
+
+        <div class="category-card" onclick="location.href='/teamE/hacks?cat=mirror'">
             <span class="category-card-icon">&#x1FAE7;</span>
             <p class="category-card-title">Mirror &amp; glass</p>
             <p class="category-card-desc">Streak-free solutions for any glass surface</p>
@@ -88,15 +97,16 @@
 
 <div class="did-you-know">
     <div class="dyk-avatar">
-        <img src="../../public/images/teamE/crimp_dyk.png" alt="Mascot logo for did-you-know section">
+        <img src="/images/teamE/crimp_dyk.png" alt="Mascot logo">
     </div>
+
     <p class="dyk-text">
-        <strong>Did you know?</strong> Most household stains respond to either acids (such as vinegar or lemon juice),
-        or a base (like baking soda or dish soap). Matching the right pH to your stain is the secret
-        to kitchen chemistry.
+        <strong>Did you know?</strong>
+        Most household stains respond to either acids (such as vinegar or lemon juice),
+        or a base (like baking soda or dish soap).
     </p>
 </div>
 
-<script src="js/index.js"></script>
+<script src="/js/teamE/index.js"></script>
 </body>
 </html>

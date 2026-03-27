@@ -4,16 +4,16 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial scale=1.0"/>
     <title>Kitchen - My favorites</title>
-    <link rel="stylesheet" href="../../public/css/teamE/styles.css"/>
+    <link rel="stylesheet" th:href="@{/css/teamE/styles.css}"/>
 </head>
 <body>
 
 <nav>
     <div class="nav-logo">Kitchen<span>Chem</span></div>
     <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="hacks.html">Hacks</a>
-        <a href="favorites.html" class="active">My favorites</a>
+        <a href="/teamE/index">Home</a>
+        <a href="/teamE/hacks">Hacks</a>
+        <a href="/teamE/favorites" class="active">My favorites</a>
     </div>
     <div class="nav-right">
         <a href="#" class="nav-icon" title="Profile">&#9711;</a>
@@ -21,7 +21,7 @@
     </div>
 </nav>
 
-<div class="page header">
+<div class="page-header">
     <h1 class="page-title">My favorites</h1>
     <p class="page-sub">Your saved hacks, organized by category.</p>
 </div>
@@ -63,6 +63,6 @@
     </main>
 </div>
 
-<script src="js/favorites.js"></script>
+<script src="/js/teamE/favorites.js"></script>
 </body>
 </html>

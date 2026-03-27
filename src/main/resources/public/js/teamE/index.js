@@ -23,6 +23,6 @@ function goToHack() {
     const cat = document.getElementById('cat-select').value;
     const hack = document.getElementById('hack-select').value;
     if (cat && hack) {
-        window.location.href = `hacks.html?cat=${cat}&hack=${hack}`;
+        window.location.href = `/teamE/hacks?cat=${cat}&hack=${hack}`;
     }
 }
