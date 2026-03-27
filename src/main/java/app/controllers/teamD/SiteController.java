@@ -11,9 +11,8 @@ import io.javalin.http.Context;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class teamDController {
+public class SiteController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamD", ctx -> nemMadHomePage(ctx, connectionPool));
         try {

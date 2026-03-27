@@ -2,7 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
-import app.controllers.teamD.teamDController;
+import app.controllers.teamD.SiteController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
@@ -41,7 +41,7 @@ public class Main
         QuoteController.addRoutes(app, connectionPool);
 
         //Nem Mad app
-        teamDController.addRoutes(app, connectionPool);
+        SiteController.addRoutes(app, connectionPool);
 
     }
 }
