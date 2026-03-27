@@ -105,15 +105,19 @@ function filter() {
         })
 
     renderRecipes(matching);
-
 }
 
 function renderRecipes(recipes) {
     const container = document.querySelector('.section-block-grid');
+
     if (selectedIngredients.size > 0) {
         document.getElementById('recipe-count').textContent = recipes.length;
         document.getElementById('reccipe-count').textContent = recipes.length;
+    } else {
+        document.getElementById('recipe-count').textContent = 0;
+        document.getElementById('reccipe-count').textContent = 0;
     }
+
     container.innerHTML = recipes.map(recipe => `
         <div class="product-list-item">
             <div class="product-item-image">
