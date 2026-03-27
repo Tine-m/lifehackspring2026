@@ -17,8 +17,8 @@ public class RecipeMapper {
 
         String sql = """
             SELECT r.recipe_id, r.recipe_name, r.method, r.why_it_works
-            FROM teamE_recipe r
-            JOIN teamE_recipe_categories rc ON r.recipe_id = rc.recipe_id
+            FROM teame_recipe r
+            JOIN teame_recipe_categories rc ON r.recipe_id = rc.recipe_id
             WHERE rc.category_id = ?
         """;
 
@@ -43,7 +43,7 @@ public class RecipeMapper {
     public static void saveRecipe(int userId, int recipeId, ConnectionPool connectionPool)
             throws DatabaseException {
 
-        String sql = "INSERT INTO teamE_users_recipe (user_id, recipe_id) VALUES (?, ?)";
+        String sql = "INSERT INTO teame_users_recipe (user_id, recipe_id) VALUES (?, ?)";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
@@ -68,8 +68,8 @@ public class RecipeMapper {
 
         String sql = """
             SELECT r.recipe_id, r.recipe_name, r.method, r.why_it_works
-            FROM teamE_recipe r
-            JOIN teamE_users_recipe ur ON r.recipe_id = ur.recipe_id
+            FROM teame_recipe r
+            JOIN teame_users_recipe ur ON r.recipe_id = ur.recipe_id
             WHERE ur.user_id = ?
         """;
 
@@ -94,7 +94,7 @@ public class RecipeMapper {
     public static void removeSavedRecipe(int userId, int recipeId, ConnectionPool connectionPool)
             throws DatabaseException {
 
-        String sql = "DELETE FROM teamE_users_recipe WHERE user_id=? AND recipe_id=?";
+        String sql = "DELETE FROM teame_users_recipe WHERE user_id=? AND recipe_id=?";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {

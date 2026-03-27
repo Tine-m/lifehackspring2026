@@ -14,7 +14,7 @@ public class UserMapper
 
     public static User login(String userName, String password, ConnectionPool connectionPool) throws DatabaseException
     {
-        String sql = "select user_id, username, password from teamE_users where username=? and password=?";
+        String sql = "select user_id, username, password from teame_users where username=? and password=?";
 
         try (
                 Connection connection = connectionPool.getConnection();
@@ -44,7 +44,7 @@ public class UserMapper
 
     public static void createUser(String userName, String password, ConnectionPool connectionPool) throws DatabaseException
     {
-        String sql = "insert into teamE_users (username, password) values (?,?)";
+        String sql = "insert into teame_users (username, password) values (?,?)";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
