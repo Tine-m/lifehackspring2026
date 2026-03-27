@@ -1,11 +1,11 @@
-package app.controllers;
+package app.controllers.teamR;
 
-import app.entities.Question;
+import app.entities.teamR.Question;
 import app.persistence.ConnectionPool;
-import app.persistence.QuestionDAO;
+import app.persistence.teamR.QuestionMapper;
 import io.javalin.http.Context;
 
-public class QuizController {
+public class QuizControllerteamR {
 
     public static void showQuestion(Context ctx, ConnectionPool connectionPool) {
 
@@ -15,7 +15,7 @@ public class QuizController {
         if (questionNumber == 1) {
             ctx.sessionAttribute("score", 0);
         }
-        Question question = QuestionDAO.getQuestion(connectionPool, questionNumber, set);
+        Question question = QuestionMapper.getQuestion(connectionPool, questionNumber, set);
 
         ctx.attribute("question", question);
         ctx.attribute("questionNumber", questionNumber);
@@ -30,7 +30,7 @@ public class QuizController {
         String set = ctx.formParam("set");
         String answer = ctx.formParam("answer");
 
-        Question question = QuestionDAO.getQuestion(connectionPool, questionNumber, set);
+        Question question = QuestionMapper.getQuestion(connectionPool, questionNumber, set);
 
         boolean correct = answer.equals(question.getCorrect());
 
@@ -48,7 +48,7 @@ public class QuizController {
 
 
         int nextQuestion = questionNumber + 1;
-        Question next = QuestionDAO.getQuestion(connectionPool, nextQuestion, set);
+        Question next = QuestionMapper.getQuestion(connectionPool, nextQuestion, set);
 
         if (next == null) {
             ctx.attribute("score", score);

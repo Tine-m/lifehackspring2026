@@ -1,13 +1,14 @@
-package app.persistence;
+package app.persistence.teamR;
 
-import app.entities.Question;
+import app.entities.teamR.Question;
+import app.persistence.ConnectionPool;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class QuestionDAO {
+public class QuestionMapper {
 
     public static Question getQuestion(ConnectionPool connectionPool, int questionNumber, String setName) {
 

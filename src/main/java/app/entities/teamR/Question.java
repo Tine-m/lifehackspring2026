@@ -1,4 +1,4 @@
-package app.entities;
+package app.entities.teamR;
 
 public class Question {
     private int id;

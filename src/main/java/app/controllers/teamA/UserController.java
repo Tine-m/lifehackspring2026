@@ -1,9 +1,9 @@
-package app.controllers.teamR;
+package app.controllers.teamA;
 
-import app.entities.teamR.User;
+import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-import app.persistence.teamR.UserMapper;
+import app.persistence.teamA.UserMapper;
 import app.services.teamR.UserChecker;
 import io.javalin.Javalin;
 import io.javalin.http.Context;

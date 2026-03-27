@@ -1,4 +1,4 @@
-package app.entities.teamR;
+package app.entities.teamA;
 
 public class Subscription {
    private int subId;

@@ -1,10 +1,10 @@
-package app.controllers.teamR;
+package app.controllers.teamA;
 
-import app.entities.teamR.Subscription;
-import app.entities.teamR.User;
+import app.entities.teamA.Subscription;
+import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-import app.persistence.teamR.SubscriptionMapper;
+import app.persistence.teamA.SubscriptionMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
