@@ -7,6 +7,7 @@
     <title>Nem Mad - Find Opskrifter</title>
     <link type="image/png" sizes="96x96" rel="icon" th:href="@{/images/teamD/nemmadFavicon.png}">
 
+    <script th:inline="javascript">const allRecipes = [[${recipes}]];</script>
     <script th:src="@{/js/teamD/functions.js}" defer></script>
 
     <link rel="stylesheet" th:href="@{/css/teamD/main.css}">
@@ -93,28 +94,7 @@
             </div>
 
             <div class="section-block-grid">
-                <div th:each="entry : ${recipes}">
 
-                    <div class="product-list-item">
-                        <div class="product-item-image">
-                            <img class="product-item-img" th:src="${entry.imageUrl}">
-                        </div>
-                        <div class="product-item-text">
-                            <div class="product-item-text-head">
-                                <h4 class="product-item-title" th:text="${entry.title}">Recipe Title</h4>
-                            </div>
-                            <div class="product-item-sub-text" th:href="${entry.url}"> <a th:href="${entry.url}">valdemarsro.dk</a></div>
-                            <div class="product-item-sub-text">retten tager <span th:text="${entry.totalTime}">0</span>min at lave</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <div>Du kan lave X antal retter</div>
-
-                <div>opskrifterne</div>
             </div>
             </div>
         </section>
