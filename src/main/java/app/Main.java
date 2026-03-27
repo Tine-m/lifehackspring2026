@@ -3,6 +3,8 @@ package app;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.login.UserController;
+import app.controllers.teamE.IngredientController;
+import app.controllers.teamE.RecipeController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
@@ -51,6 +53,10 @@ public class Main
 
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
+
+        //KitchenChem app - Team E
+        IngredientController.addRoutes(javApp, connectionPool);
+        RecipeController.addRoutes(javApp, connectionPool);
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
