@@ -20,8 +20,8 @@ public class MainController {
         //teamteachers
         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
 
-        //teamQ, PlantGuide
-        lifehackSites.add(new LifehackSite("PlantGuide", "Plant løs!", "/plantGuide", "images/teamQ/plantIcon.jpg"));
+        //teamQ, WeeklyDatingQueries
+        lifehackSites.add(new LifehackSite("Weekly Dating Queries", "See the latest", "/teamQ/home", "images/teamQ/front.png"));
 
         //teamA, SubStats
         lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.jpg"));

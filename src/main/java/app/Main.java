@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamQ.DatingQueryController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -41,6 +42,9 @@ public class Main
         //SubStats app - Team - A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+
+        //WeeklyDatingQueries - Team - Q
+        DatingQueryController.addRoutes(javApp, connectionPool);
 
     }
 }

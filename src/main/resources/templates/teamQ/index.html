@@ -16,37 +16,73 @@
     </form>
     <div id="popup" class="popup">
         <div class="popup-content">
-            <h2>Vælg en plante</h2>
-
-            <div class="plant-grid">
-                <div class="plant-option" th:each="i : ${#numbers.sequence(1,8)}">
-                    <img src="/images/teamQ/rose.jpg" alt="">
-                    <p th:text="'Plante ' + ${i}"></p>
-                </div>
-            </div>
-
-            <a href="#" class="close-btn">Luk</a>
+            <h2>What's this?</h2>
+            <p>Hello there. This is primarily a site that lists a few signs that your boyfriend COULD be into men. Which
+                is all good, but would be nice to know, right?</p>
+            <a href="#" class="close-btn">Close</a>
         </div>
     </div>
 </div>
-
+<!-- Background + slideshow -->
 <!-- Sun -->
 <div class="sun"></div>
-
 <!-- Græs område -->
-<div class="grass">
-    <div class="plant-spot"
-         th:each="i, stat : ${#numbers.sequence(0,7)}"
-         th:data-spot-id="${stat.index}"
-         th:classappend="${userPlants != null and userPlants[stat.index] != null} ? 'plant-' + ${userPlants[stat.index].plant_id} : ''">
+<div class="grass inset-frame">
+    <div class="slideshow-title">
+        <p style="font-weight: bold">8 Signs your boyfriend might be into men! 😸🙀</p>
+    </div>
+    <div class="soil"></div>
+    <div class="deep_soil"></div>
+    <div class="underground"></div>
+    <div class="slideshow-container">
+        <!-- Caption container -->
+        <div class="slideshow-container inset-frame">
 
-        <img th:if="${userPlants != null and userPlants[stat.index] != null}"
-             th:src="@{/images/plants/{img}(img=${userPlants[stat.index].plant_name}.png)}"
-             th:alt="${userPlants[stat.index].plant_name}"/>
+            <img class="slide active" src="/images/teamQ/signs/ChecksOutDudes.png" alt="Slide 1">
+            <img class="slide" src="/images/teamQ/signs/Detatched.png" alt="Slide 2">
+            <img class="slide" src="/images/teamQ/signs/DoesntCheckOutWomen.png" alt="Slide 3">
+            <img class="slide" src="/images/teamQ/signs/TooCloseToFriends.png" alt="Slide 4">
+            <img class="slide" src="/images/teamQ/signs/NoSexInterest.png" alt="Slide 5">
+            <img class="slide" src="/images/teamQ/signs/WatchesGayPorn.png" alt="Slide 6">
+            <img class="slide" src="/images/teamQ/signs/ReguarlyUsesGRINDR.png" alt="Slide 7">
+            <img class="slide" src="/images/teamQ/signs/HasSexWithDudes.png" alt="Slide 8">
+
+            <!-- Caption -->
+            <div class="slide-caption" id="slide-caption"></div>
+
+            <button class="nav prev" onclick="changeSlide(-1)">❮</button>
+            <button class="nav next" onclick="changeSlide(1)">❯</button>
+        </div>
+        <script>
+            let currentSlide = 0;
+            const slides = document.querySelectorAll(".slide");
+            const captions = [
+                "1. Checks Out Dudes",
+                "2. Detached",
+                "3. Doesn't Check Out Women",
+                "4. Too Close to Friends",
+                "5. No Sexual Interest",
+                "6. Watches Gay Content",
+                "7. Regularly Uses GRINDR",
+                "8. Has Sex With Dudes"
+            ];
+            const captionElement = document.getElementById("slide-caption");
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => slide.classList.toggle("active", i === index));
+                captionElement.textContent = captions[index];
+            }
+
+            function changeSlide(direction) {
+                currentSlide += direction;
+                if (currentSlide >= slides.length) currentSlide = 0;
+                if (currentSlide < 0) currentSlide = slides.length - 1;
+                showSlide(currentSlide);
+            }
+
+            showSlide(currentSlide);
+        </script>
     </div>
 </div>
-
-
-
 </body>
 </html>
