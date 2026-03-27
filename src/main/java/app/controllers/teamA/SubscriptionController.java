@@ -17,7 +17,7 @@ public class SubscriptionController {
         app.post("/teamA/deleteSubscriptions", ctx -> deleteSubscription(ctx, connectionPool));
         app.post("/teamA/createSubscriptions", ctx -> addSubscription(ctx, connectionPool));
         app.get("/teamA/createSubscriptions", ctx -> renderAddSubscription(ctx));
-        app.get("/teamA/removeSubscriptions", ctx -> listAllSubscriptions(ctx, connectionPool));
+        app.get("/teamA/removeSubscriptions", ctx -> listAllSubscriptionsInRemove(ctx, connectionPool));
         app.get("/teamA/categoryData", ctx -> allSubscriptionCategoriesByPercent(ctx, connectionPool));
         app.get("/teamA/subscriptionCost", ctx -> allSubscriptionsCost(ctx, connectionPool));
         app.get("/teamA/subscriptionUsage", ctx -> allSubscriptionsUsage(ctx, connectionPool));
@@ -26,7 +26,7 @@ public class SubscriptionController {
     }
 
 
-    public static void listAllSubscriptions(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+    public static void listAllSubscriptionsInRemove(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         User user = ctx.sessionAttribute("currentUser");
         assert user != null;
         List<Subscription> allSubscriptions = SubscriptionMapper.getAllSubscriptionInfo(user.getId(), connectionPool);
