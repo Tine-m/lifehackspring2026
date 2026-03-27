@@ -160,13 +160,15 @@ public class SubscriptionController {
         Map<String, Long> topThree = StatsMaker.threeMostCommonSubscriptions(SubscriptionMapper.getAllSubscriptions(connectionPool));
         List<String> threeNames = new ArrayList<>(topThree.keySet());
 
-        String first = threeNames.getFirst();
-        String second = threeNames.get(1);
-        String third = threeNames.getLast();
+        if (threeNames.size()>=3) {
+            String first = threeNames.getFirst();
+            String second = threeNames.get(1);
+            String third = threeNames.getLast();
 
-        ctx.attribute("first", first);
-        ctx.attribute("second", second);
-        ctx.attribute("third", third);
+            ctx.attribute("first", first);
+            ctx.attribute("second", second);
+            ctx.attribute("third", third);
+        }
     }
 
     public static void totalPricePerCategory(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
