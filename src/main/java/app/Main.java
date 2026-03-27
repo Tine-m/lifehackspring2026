@@ -51,5 +51,10 @@ public class Main
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
 
+
+        // teamI:
+        app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);
+        app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
+
     }
 }
