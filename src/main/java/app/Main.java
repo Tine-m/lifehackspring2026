@@ -51,6 +51,7 @@ public class Main
 
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
+
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
 
