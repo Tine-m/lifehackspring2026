@@ -9,10 +9,13 @@
 
 <body>
 <header>
-    <div th:replace="~{teamA/fragments :: backbutton('/')}"></div>
+    <div th:replace="~{teamA/fragments :: backbutton('/teamA/frontpage')}"></div>
     <div th:replace="~{teamA/fragments :: logo}"></div>
     <div th:replace="~{teamA/fragments :: dayAndNight}"></div>
 </header>
+<div class="box-grid">
+    <div th:replace="~{teamA/fragments :: sidebar}"></div>
+</div>
 
 </body>
 

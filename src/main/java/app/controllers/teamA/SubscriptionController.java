@@ -16,7 +16,7 @@ public class SubscriptionController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.post("/teamA/deleteSubscriptions", ctx -> deleteSubscription(ctx, connectionPool));
         app.post("/teamA/createSubscriptions", ctx -> addSubscription(ctx, connectionPool));
-        app.get("/teamA/createSubscriptions", ctx -> ctx.render("teamA/add-subscription.html"));
+        app.get("/teamA/createSubscriptions", ctx -> renderAddSubscription(ctx));
         app.get("/teamA/removeSubscriptions", ctx -> listAllSubscriptions(ctx, connectionPool));
         app.get("/teamA/categoryData", ctx -> allSubscriptionCategoriesByPercent(ctx, connectionPool));
         app.get("/teamA/subscriptionCost", ctx -> allSubscriptionsCost(ctx, connectionPool));
@@ -30,8 +30,14 @@ public class SubscriptionController {
         User user = ctx.sessionAttribute("currentUser");
         assert user != null;
         List<Subscription> allSubscriptions = SubscriptionMapper.getAllSubscriptionInfo(user.getId(), connectionPool);
+        UserController.showUsername(ctx);
         ctx.attribute("allSubscriptions", allSubscriptions);
         ctx.render("teamA/remove-subscription.html");
+    }
+
+    public static void renderAddSubscription(Context ctx){
+        UserController.showUsername(ctx);
+        ctx.render("teamA/add-subscription.html");
     }
 
     public static void addSubscription(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
@@ -44,6 +50,7 @@ public class SubscriptionController {
 
         try {
             if (subName.isEmpty() || subCostString.isEmpty() || subUsageString.isEmpty() || subCategory.isEmpty()) {
+                UserController.showUsername(ctx);
                 ctx.render("teamA/add-subscription.html");
                 return;
             }
@@ -71,6 +78,7 @@ public class SubscriptionController {
         }
 
         List<Subscription> subscriptions = SubscriptionMapper.getAllSubscriptionInfo(user.getId(), connectionPool);
+        UserController.showUsername(ctx);
         ctx.attribute("allSubscriptions", subscriptions);
         ctx.redirect("/teamA/removeSubscriptions");
     }
@@ -84,6 +92,7 @@ public class SubscriptionController {
         allSubscriptionsUsage(ctx, connectionPool);
         allSubscriptionsCost(ctx, connectionPool);
         topThreeSubscriptions(ctx, connectionPool);
+        UserController.showUsername(ctx);
     }
 
 

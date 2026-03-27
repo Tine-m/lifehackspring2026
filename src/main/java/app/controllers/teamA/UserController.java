@@ -20,8 +20,14 @@ public class UserController {
 
 
     public static void frontpage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        showUsername(ctx);
         SubscriptionController.getAllStats(ctx, connectionPool);
         ctx.render("teamA/frontpage.html");
+    }
+
+    public static void showUsername(Context ctx){
+        User currentUser = ctx.sessionAttribute("currentUser");
+        ctx.attribute("profileName", currentUser.getUsername());
     }
 
 
