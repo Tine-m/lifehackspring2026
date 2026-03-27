@@ -13,7 +13,7 @@ public class UserMapper
 
     public static User login(String userName, String password, app.persistence.ConnectionPool connectionPool) throws DatabaseException
     {
-        String sql = "select * from teamA_users where username=? and password=?";
+        String sql = "select * from teama_users where username=? and password=?";
 
         try (
                 Connection connection = connectionPool.getConnection();
@@ -41,7 +41,7 @@ public class UserMapper
 
     public static void createuser(String userName, String password, ConnectionPool connectionPool) throws DatabaseException
     {
-        String sql = "insert into teamA_users (username, password) values (?,?)";
+        String sql = "insert into teama_users (username, password) values (?,?)";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
@@ -64,7 +64,7 @@ public class UserMapper
     }
 
     public static ArrayList<Integer> getAllUserIds(ConnectionPool connectionPool)throws DatabaseException {
-        String sql = "SELECT teamA_user_id FROM teamA_users";
+        String sql = "SELECT teama_user_id FROM teama_users";
         try (
                 Connection connection = connectionPool.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);
