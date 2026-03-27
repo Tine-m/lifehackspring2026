@@ -2,65 +2,43 @@ package app.controllers.teamK;
 
 import app.entities.teamK.Word;
 import app.entities.teamK.WordList;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import io.javalin.http.Context;
+import app.persistence.ConnectionPool;
+import io.javalin.Javalin;
 
-import java.util.List;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class WordController {
 
-    private final WordList wordList;
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    public static void addRoutes(Javalin app, ConnectionPool cp){
 
-    public WordController (WordList wordList){
-        this.wordList = wordList;
+        WordList wordList = new WordList(cp);
+
+        app.get("/word", ctx ->{
+            Word word = wordList.getRandomWordFromList();
+            ctx.json(word);
+        });
+
+        app.delete("/word/delete", ctx -> {
+            Word word = ctx.bodyAsClass(Word.class);
+            wordList.removeWordFromList(word);
+            ctx.status(204);
+        });
+
+        app.get("/codle", ctx -> {
+            String html = Files.readString(Path.of("src/main/resources/templates/teamK/index.html"));
+            ctx.html(html);
+        });
+
+        app.get("codle/play", ctx -> {
+            String html = Files.readString(Path.of("src/main/resources/templates/teamK/screen-game.html"));
+            ctx.html(html);
+        });
+
+        app.get("codle/completed", ctx -> {
+            String html = Files.readString(Path.of("src/main/resources/templates/teamK/screen-complete.html"));
+            ctx.html(html);
+        });
+
     }
-
-    public void getAllWords(Context context){
-
-        wordList.generateFullList();
-        List<Word> words = wordList.getWordList();
-
-        try {
-            context.contentType("application/json");
-            context.result(objectMapper.writeValueAsString(words));
-        } catch (Exception e) {
-            context.status(500).result("{\"error\":\"kunne ikke hente ord\"}");
-        }
-    }
-
-    public void getWordsByCategory(Context context){
-        String category = context.queryParam("category");
-
-        wordList.generateFullList();
-        List<Word> words = wordList.getWordList()
-                .stream()
-                .filter(w -> w.getCategory().equalsIgnoreCase(category))
-                .toList();
-
-        try {
-            context.contentType("application/json");
-            context.result(objectMapper.writeValueAsString(words));
-        } catch (Exception e) {
-            context.status(500).result("{\"error\":\"kunne ikke filtrere ord\"}");
-        }
-    }
-
-    public void getCategory (Context context){
-        wordList.generateFullList();
-        List<String> categories = wordList.getWordList()
-                .stream()
-                .map(Word::getCategory)
-                .distinct()
-                .sorted()
-                .toList();
-
-        try {
-            context.contentType("application/json");
-            context.result(objectMapper.writeValueAsString(categories));
-        } catch (Exception e) {
-            context.status(500).result("{\"error\":\"kunne ikke hente kategorier\"}");
-        }
-    }
-
 }

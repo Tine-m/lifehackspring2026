@@ -2,10 +2,9 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
-import app.controllers.teamK.WordControllerV2;
+import app.controllers.teamK.WordController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
-import app.entities.teamK.Word;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
@@ -42,7 +41,7 @@ public class Main
         QuoteController.addRoutes(app, connectionPool);
 
         // Codle app
-        WordControllerV2.addRoutes(app,connectionPool);
+        WordController.addRoutes(app,connectionPool);
 
     }
 }
