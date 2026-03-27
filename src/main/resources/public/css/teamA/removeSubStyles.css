@@ -12,7 +12,7 @@
     padding: 10px;
     align-content: space-between;
     width: 60vw;
-    height: 77.5vh;
+    height: 78.23vh;
 }
 
 
@@ -63,10 +63,7 @@ input[type=checkbox]:checked {
     background: #00D4AA;
     border: 5px solid #2E344D;
 }
-
-
-
-
+    
 
 .remove-label {
     display: grid;
@@ -74,7 +71,7 @@ input[type=checkbox]:checked {
     border: 0.5px solid #2E344D;
     border-radius: 10px;
     height: 60px;
-    width: 100%;
+    width: 91%;
     align-content: center;
     font-family: "Roboto Condensed", Arial, sans-serif;
     container-type: inline-size;
@@ -145,5 +142,20 @@ input[type=checkbox]:checked {
     flex: 1;
     overflow-y: auto;
     min-height: 0;
-    height: 40vh;
+    height: 52vh;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-track{
+    background: #3D3E55;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #8B94B5;
+    border-radius: 5px;
 }

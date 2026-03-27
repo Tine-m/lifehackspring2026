@@ -7,9 +7,10 @@
     font-size: clamp(14px, 8cqi, 20px);
     color: #8B94B5;
     display: grid;
+    align-self: start;
     padding: 10px;
     width: 60vw;
-    height: 97vh;
+    height: 97.3%;
 }
 
 #add-title {
