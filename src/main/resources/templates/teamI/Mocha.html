@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/teamI/index}">
+                <img src="/images/teamI/coffiimeLogo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/teamI/login}"> Login </a></li>
+            <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/teamI/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/teamI/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+<nav class="navCentrum">
+    <strong class="h1">Mocha</strong>
+    <div class="content">
+        <p class="bodyText">
+            <img src="/images/teamI/coffeeImage/mocha.png" class="bigFoto" alt="billed af Mocha" align="right"/>
+        En mocha er en lækker og dekadent kaffedrik, der kombinerer espresso med varm mælk og chokolade,
+        ofte toppet med skum eller flødeskum. Aromaen er rig og indbydende, hvor espressoens ristede noter smelter sammen med chokoladens sødme,
+        hvilket skaber en dyb, næsten dessertagtig duft med hints af kakao og karamel. Smagen er fyldig og sød,
+        men stadig med kaffens karakteristiske bitterhed som kontrast til chokoladens runde, bløde noter. Teksturen er cremet og silkeblød,
+        og drikken giver en varm, trøstende mundfornemmelse, hvor kaffe og chokolade smelter harmonisk sammen. Samlet set er en mocha en rig,
+        velafbalanceret og komfortabel kaffeoplevelse, perfekt til dem, der ønsker både koffein og sødme i én kop.
+        </p>
+
+
+        <div class="formRecipes">
+            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
+            <p class="bodyText">Kaffebønne: 18 g</p>
+            <p class="bodyText">Vand: 0,6 dl</p>
+            <p class="bodyText">Mælk: 2 dl</p>
+        </div>
+    </div>
+</nav>
+
+
+</body>
+
+
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</html>

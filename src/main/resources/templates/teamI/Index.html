@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_home</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/teamI/index}">
+                <img src="/images/teamI/coffiimeLogo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/teamI/login}"> Login </a></li>
+            <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/teamI/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/teamI/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+<nav class="navCenter">
+    <i class="h1">Your way to good Coffee</i>
+</nav>
+
+
+</body>
+
+
+<footer>
+    <div class="footer-content">
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+
+</html>

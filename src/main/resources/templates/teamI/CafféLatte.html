@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_Coffee_Type_CaféLatte</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/teamI/index}">
+                <img src="/images/teamI/coffiimeLogo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/teamI/login}"> Login </a></li>
+            <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/teamI/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/teamI/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+<nav class="navCentrum">
+    <strong class="h1">Caffé Latte</strong>
+    <div class="content">
+        <p class="bodyText">
+            <img src="/images/teamI/coffeeImage/fotoCafeLatte.png" class="bigFoto" alt="billed af cafelatte" align="right"/>
+        En café latte er en mild og cremet kaffedrik, der består af en espresso blandet med en større mængde varm mælk og kun et tyndt lag mælkeskum på toppen.
+        Aromaen er blød og rund med en afdæmpet kaffeduft, hvor de ristede noter fra espressoen smelter sammen med mælkens let sødlige og varme karakter,
+        ofte med diskrete nuancer af karamel eller chokolade. Smagen er meget mild og balanceret, hvor espressoens bitterhed træder i baggrunden og i stedet fremhæves
+        af mælkens naturlige sødme og fylde. Den cremede tekstur gør oplevelsen blød og behagelig, næsten fløjlsagtig, og giver en let og tilgængelig kaffe,
+        som er mindre intens end både espresso og cappuccino.
+        Samlet set er en café latte en rolig og afrundet kaffeoplevelse, der egner sig godt til dem, der foretrækker en blødere og mere mælket kaffestil.
+        </p>
+
+
+        <div class="formRecipes">
+            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
+            <p class="bodyText">Kaffebønne: 18 g</p>
+            <p class="bodyText">Vand: 0,6 dl</p>
+            <p class="bodyText">Mælk: 2,4 dl</p>
+
+        </div>
+    </div>
+</nav>
+
+
+
+
+</body>
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+
+</html>

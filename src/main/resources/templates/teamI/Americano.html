@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiiMe_Coffee_Type_Americano</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="logoplace">
+            <a th:href="@{/teamI/index}">
+                <img src="/images/teamI/coffiimeLogo.png" class="logoSize">
+            </a>
+        </div>
+
+
+        <ul class="account">
+            <li><a th:href="@{/teamI/login}"> Login </a></li>
+            <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
+        </ul>
+    </div>
+
+
+    <ul class="menu">
+        <div class="left">
+            <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
+        </div>
+
+
+        <div class="right">
+            <li><a th:href="@{/teamI/colorPanel}"> Color Panel </a></li>
+            <li><a th:href="@{/teamI/creatingPanel}"> Creating Panel </a></li>
+        </div>
+    </ul>
+
+
+    <nav class="navCenter">
+        <div class="menuLine">
+            <span class="diamond"></span>
+        </div>
+    </nav>
+
+</header>
+
+<nav class="navCentrum">
+    <strong class="h1">Americano</strong>
+    <div class="content">
+        <p class="bodyText">
+            <img src="/images/teamI/coffeeImage/fotoAmericano.png" class="bigFoto" alt="billed af americano" align="right"/>
+            <br> En americano er en klassisk kaffedrik, der laves ved at fortynde en espresso med varmt vand,
+            hvilket giver en kop kaffe, der minder om filterkaffe i styrke, men stadig bevarer espressoens karakter.
+            <br>Aromaen er typisk let og elegant frem for intens, med ristede og ofte nøddeagtige nuancer  som kan ledsages af subtile noter af             chokolade, karamel eller frugt, afhængigt af kaffebønnerne.
+             <br>Når vandet tilsættes, åbner det duften og gør den mere luftig og nuanceret. Smagen er blød og balanceret, mildere end en ren espresso,
+            men stadig med en tydelig kaffedybde. Der er som regel en let bitterhed, som afrundes af vandet, samt en behagelig syrlighed,
+           <br> især hvis der bruges lysristede bønner. Samlet set giver en americano en mere drikkelig og afrundet kaffeoplevelse,
+            hvor man stadig får espressoens kompleksitet, men i en mindre intens og mere tilgængelig form.
+        </p>
+
+
+        <div class="formRecipes">
+            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
+            <p class="bodyText">Kaffebønne: 18 g</p>
+            <p class="bodyText">Vand: 1,5 dl</p>
+            <p class="bodyText">Mælk: 0 dl</p>
+
+        </div>
+    </div>
+</nav>
+
+
+
+</body>
+
+
+
+<footer>
+    <div class="footer-content">
+
+        <nav class="navbar">
+            <ul class="footer">
+                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</html>
