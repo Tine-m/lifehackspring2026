@@ -14,5 +14,6 @@
 
 - [ ] Find a lifehack project you wish to build
 - [ ] Read about the project structure and coding standards in [codestandard document](codestandard.md).
-- [ ] Each team creates a new branch named after team name. E.g. `teamA-dev`.
+- [ ] Each team creates a new branch named after team name. E.g. `teama-dev`.
 - [ ] Internally in the teams you may have feature branches from your dev-branch. You can make PRs on these to your dev-branch
+

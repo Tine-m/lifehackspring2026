@@ -1,7 +1,7 @@
 package app.controllers.login;
 
 import app.entities.login.User;
-import app.exceptions.common.DatabaseException;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 import app.persistence.login.UserMapper;
 import io.javalin.Javalin;
@@ -42,7 +42,7 @@ public class UserController
         {
             // Hvis nej, send tilbage til login side med fejl besked
             ctx.attribute("message", e.getMessage() );
-            ctx.render("index.html");
+            ctx.render("index-cirkusquiz.html");
         }
 
     }
