@@ -72,13 +72,14 @@ public class SubscriptionController {
     public static void deleteSubscription(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         List<String> subIds = ctx.formParams("subId");
         User user = ctx.sessionAttribute("currentUser");
-        for (String id : subIds) {
-            int subId = Integer.parseInt(id);
-            SubscriptionMapper.deleteSubscription(user.getId(), subId, connectionPool);
-        }
 
-        List<Subscription> subscriptions = SubscriptionMapper.getAllSubscriptionInfo(user.getId(), connectionPool);
-        UserController.showUsername(ctx);
+        if (user != null) {
+            for (String id : subIds) {
+                int subId = Integer.parseInt(id);
+                SubscriptionMapper.deleteSubscription(user.getId(), subId, connectionPool);
+            }
+            UserController.showUsername(ctx);
+        }
         ctx.redirect("/teamA/removeSubscriptions");
     }
 
