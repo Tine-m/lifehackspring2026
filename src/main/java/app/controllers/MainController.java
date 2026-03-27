@@ -18,6 +18,8 @@ public class MainController {
     private static void index(@NotNull Context ctx) {
         List<LifehackSite> lifehackSites = new ArrayList<>();
         //teamteachers
+         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/teamteachers/philosophers", "images/teamteachers/socrates.jpg"));
+        lifehackSites.add(new LifehackSite("Cirkusquizzen", "Tag en quiz", "/teamC", "images/teamC/media/cirkus.jpg"));
         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
 
         //teamA, SubStats
@@ -25,6 +27,9 @@ public class MainController {
 
         //TeamR
         lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/start", "images/main-page/GetRich.jpg"));
+
+        // Team G
+        lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?","/lifehackseption", "images/teamG/lifehackseption.png"));
 
 
         ctx.attribute("lifehackSites", lifehackSites);

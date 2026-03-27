@@ -1,0 +1,76 @@
+package app.controllers.teamC;
+
+import app.entities.teamC.Question;
+import app.exceptions.DatabaseException;
+import app.persistence.ConnectionPool;
+import app.persistence.teamC.QuizMapper;
+import io.javalin.Javalin;
+import io.javalin.http.Context;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class QuizController {
+
+    public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
+        app.get("/teamC", ctx -> index(ctx));
+        app.get("cirkusquiz", ctx -> showQuestion(ctx, connectionPool));
+        app.get("/nextquestion", ctx -> nextQuestion(ctx));
+        app.get("endquiz", ctx -> endQuiz(ctx));
+        app.get("backtomainpage", ctx -> backToMainPage(ctx));
+    }
+
+    private static void index(Context ctx){
+        ctx.render("teamC/index-quiz.html");
+    }
+
+    private static void showQuestion(Context ctx, ConnectionPool connectionPool) {
+        try {
+            List<Question> questions = ctx.sessionAttribute("questions");
+
+            if (questions == null || questions.isEmpty()) {
+                questions = QuizMapper.getAllQuestions(connectionPool);
+                Collections.shuffle(questions);
+                ctx.sessionAttribute("questions", questions);
+            }
+
+            Question question = questions.get(0);
+            List<String> shuffledAnswers = getShuffledAnswers(question);
+            ctx.attribute("question", question);
+            ctx.attribute("answers", shuffledAnswers);
+            ctx.render("teamC/cirkusquiz.html");
+
+        } catch (DatabaseException e) {
+            ctx.attribute("message", e.getMessage());
+            ctx.render("teamC/index-quiz.html");
+        }
+    }
+
+    private static void nextQuestion(Context ctx) {
+        List<Question> questions = ctx.sessionAttribute("questions");
+        if (questions != null && !questions.isEmpty()) {
+            questions.remove(0);
+            ctx.sessionAttribute("questions", questions);
+        }
+        ctx.redirect("/cirkusquiz");
+    }
+
+    private static List<String> getShuffledAnswers (Question question) {
+        List <String> answers = new ArrayList<>();
+        answers.add(question.getAnswerCorrect());
+        answers.add(question.getAnswerWrong1());
+        answers.add(question.getAnswerWrong2());
+
+        Collections.shuffle(answers);
+        return answers;
+    }
+
+    private static void endQuiz(Context ctx) {
+        ctx.render("teamC/endquiz.html");
+    }
+
+    private static void backToMainPage(Context ctx) {
+        ctx.render("teamC/index-quiz.html");
+    }
+}
