@@ -86,7 +86,7 @@ public class SiteController {
         List<Recipe> recipesNoIngredients = RecipeMapper.getAllRecipes(connectionPool);
         List<Recipe> recipesWithIngredients = RecipeMapper.getAllRecipesWithIngredients(connectionPool);
 
-        List<Recipe> recipesLimit = recipesNoIngredients.stream()
+        List<Recipe> recipesLimit = recipesWithIngredients.stream()
                 .limit(1000)
                 .toList();
         return recipesLimit;
