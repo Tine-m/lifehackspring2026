@@ -31,5 +31,9 @@ public class MainController {
 
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
+
+        lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?","/lifehackseption", "images/teamG/lifehackseption.png"));
+        ctx.attribute("lifehackSites", lifehackSites);
+        ctx.render("index.html");
     }
 }
