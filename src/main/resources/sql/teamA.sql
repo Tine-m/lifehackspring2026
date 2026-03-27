@@ -26,16 +26,7 @@ alter table teama_subscriptions
     owner to postgres;
 
 create table users
-(
-    user_id  serial
-        primary key,
-    username varchar(50)              not null
-        constraint unique_username
-            unique,
-    password varchar(50)              not null,
-    role     varchar(20) default USER not null
-);
 
-alter table users
-    owner to postgres;
+
+
 
