@@ -29,7 +29,7 @@ public class MainController {
         // Team G
         lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?","/lifehackseption", "images/teamG/lifehackseption.png"));
 
-        lifehackSites.add(new LifehackSite("Nem Mad", "Find Opkrifter", "/teamD", "images/teamD/cookbook.png"));
+        lifehackSites.add(new LifehackSite("Nem Mad", "Find Opskrifter", "/teamD", "images/teamD/cookbook.png"));
 
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
