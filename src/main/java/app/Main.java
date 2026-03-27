@@ -12,8 +12,6 @@ import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
-
-
 public class Main
 {
 
@@ -24,8 +22,7 @@ public class Main
 
     private static final ConnectionPool connectionPool = ConnectionPool.getInstance(USER, PASSWORD, URL, DB);
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Initializing Javalin and Jetty webserver
         Javalin javApp = Javalin.create(config -> {
             config.staticFiles.add("/public");
