@@ -18,6 +18,7 @@ public class StatsMaker {
         for (Subscription subscription : subscriptions) {
             sum += subscription.getSubCost();
         }
+        // 30.5 is our average days in a month
         return sum / 30.5;
     }
 
