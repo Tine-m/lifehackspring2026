@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Din score</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0f2b;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-color: #1c1f4a;
+            padding: 20px;
+        }
+
+
+        .container {
+            margin-top: 150px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 25px;
+            background-color: #2a2f6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background-color: #3d44a3;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <a style="margin-right: 1050px;"
+       th:href="@{/}">← Tilbage</a>
+</header>
+
+<div class="container">
+    <h1>🎉 Quiz færdig!</h1>
+
+    <h2>Din score:</h2>
+    <h1 th:text="${score} + ' / ' + ${maxScore}"></h1>
+
+    <a th:href="@{/start}">Prøv igen</a>
+</div>
+
+</body>
+</html>

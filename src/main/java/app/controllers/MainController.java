@@ -20,16 +20,22 @@ public class MainController {
         //teamteachers
          lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/teamteachers/philosophers", "images/teamteachers/socrates.jpg"));
         lifehackSites.add(new LifehackSite("Cirkusquizzen", "Tag en quiz", "/teamC", "images/teamC/media/cirkus.jpg"));
+        lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
+
         //teamA, SubStats
         lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.jpg"));
 
-        //Team O, RandomMovies
-        lifehackSites.add(new LifehackSite("RandomMovies", "Find en tilfældig film", "teamO/index", "images/teamO/movie.png"));
+        //TeamR
+        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/start", "images/main-page/GetRich.jpg"));
 
         // Team G
         lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?","/lifehackseption", "images/teamG/lifehackseption.png"));
 
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
+
+
+
     }
 }

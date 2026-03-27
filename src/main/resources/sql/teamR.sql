@@ -1,0 +1,33 @@
+CREATE TABLE questions (
+                           id SERIAL PRIMARY KEY,
+                           question TEXT NOT NULL,
+                           option_a TEXT NOT NULL,
+                           option_b TEXT NOT NULL,
+                           option_c TEXT NOT NULL,
+                           option_d TEXT NOT NULL,
+                           correct CHAR(1) NOT NULL,
+                           difficulty INTEGER,
+                           question_number INTEGER,
+                           set_name TEXT
+);
+INSERT INTO questions (id, question, option_a, option_b, option_c, option_d, correct, difficulty, question_number, set_name) VALUES
+                                                                                                                                 (1, 'Hvilket kontinent ligger Danmark i?', 'Europa', 'Asien', 'Afrika', 'Sydamerika', 'A', 1, 1, 'easy'),
+                                                                                                                                 (2, 'Hvor mange ben har en edderkop?', '6', '8', '10', '12', 'B', 1, 2, 'easy'),
+                                                                                                                                 (3, 'Hvad er hovedstaden i Tyskland?', 'Berlin', 'Hamburg', 'München', 'Frankfurt', 'A', 2, 3, 'easy'),
+                                                                                                                                 (4, 'Hvilket dyr er det største landdyr?', 'Elefant', 'Giraf', 'Hest', 'Flodhest', 'A', 2, 4, 'easy'),
+                                                                                                                                 (5, 'Hvad er det største hav i verden?', 'Atlanterhavet', 'Stillehavet', 'Indiske Ocean', 'Arktiske Ocean', 'B', 3, 5, 'easy'),
+                                                                                                                                 (6, 'Hvilket sprog taler man i Brasilien?', 'Spansk', 'Portugisisk', 'Fransk', 'Engelsk', 'B', 3, 6, 'easy'),
+                                                                                                                                 (7, 'Hvad er 9 x 8?', '70', '72', '74', '76', 'B', 4, 7, 'easy'),
+                                                                                                                                 (8, 'Hvem opfandt telefonen?', 'Thomas Edison', 'Alexander Graham Bell', 'Nikola Tesla', 'Isaac Newton', 'B', 4, 8, 'easy'),
+                                                                                                                                 (9, 'Hvilken planet kaldes den røde planet?', 'Jupiter', 'Mars', 'Venus', 'Saturn', 'B', 5, 9, 'easy'),
+                                                                                                                                 (10, 'Hvad hedder verdens højeste bjerg?', 'K2', 'Mount Everest', 'Kilimanjaro', 'Mont Blanc', 'B', 5, 10, 'easy'),
+                                                                                                                                 (11, 'Hvilket land har byen Barcelona?', 'Italien', 'Spanien', 'Portugal', 'Frankrig', 'B', 1, 1, 'advanced'),
+                                                                                                                                 (12, 'Hvad måles i hertz (Hz)?', 'Lydstyrke', 'Frekvens', 'Energi', 'Temperatur', 'B', 1, 2, 'advanced'),
+                                                                                                                                 (13, 'Hvem skrev "Brave New World"?', 'George Orwell', 'Aldous Huxley', 'Ray Bradbury', 'Jules Verne', 'B', 2, 3, 'advanced'),
+                                                                                                                                 (14, 'Hvad er den kemiske formel for kuldioxid?', 'CO2', 'CO', 'C2O', 'O2C', 'A', 2, 4, 'advanced'),
+                                                                                                                                 (15, 'Hvilket land har flest indbyggere i verden?', 'Indien', 'USA', 'Kina', 'Indonesien', 'A', 3, 5, 'advanced'),
+                                                                                                                                 (16, 'Hvad hedder den længste flod i Europa?', 'Donau', 'Volga', 'Rhinen', 'Seinen', 'B', 3, 6, 'advanced'),
+                                                                                                                                 (17, 'Hvilket år blev FN grundlagt?', '1943', '1945', '1947', '1950', 'B', 4, 7, 'advanced'),
+                                                                                                                                 (18, 'Hvad er den mindste enhed i levende organismer?', 'Atom', 'Celle', 'Molekyle', 'Protein', 'B', 4, 8, 'advanced'),
+                                                                                                                                 (19, 'Hvilket grundstof har atomnummer 26?', 'Kobber', 'Jern', 'Zink', 'Nikkel', 'B', 5, 9, 'advanced'),
+                                                                                                                                 (20, 'Hvilken fysiker udviklede kvantemekanik sammen med Schrödinger?', 'Einstein', 'Bohr', 'Heisenberg', 'Feynman', 'C', 5, 10, 'advanced');

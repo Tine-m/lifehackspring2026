@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SubStats - Remove subscription</title>
-    <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
-    <link rel="stylesheet" href="/public/css/teamA/removeSubStyles.css" th:href="@{/css/teamA/removeSubStyles.css}"/>
+    <title>Sub Stats - Frontpage</title>
+    <link rel="stylesheet" href="/css/teamR/generalStyles.css" th:href="@{/css/teamR/generalStyles.css}"/>
+    <link rel="stylesheet" href="/css/teamR/frontpageStyles.css" th:href="@{/css/teamR/frontpageStyles.css}"/>
 </head>
 
 <body>
 <header>
     <div id="left" class="mode-box">
-        <a href="frontpage.html">
+        <a href="login.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16 9">
                 <path fill="white" d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5"/>
                 <path fill="white"
@@ -105,11 +105,11 @@
 <div class="box-grid">
     <div class="menuGrid">
         <div class="box" id="menu-box" style="grid-area: menu-box">
-            <p>Tilføj Abonnement</p>
-            <p>Fjern Abonnement</p>
-            <p>Rediger Abonnement</p>
-            <p>Profil</p>
-            <p>Log ud</p>
+            <a th:href="@{/teamA/createSubscriptions}"><p>Tilføj Abonnement</p></a>
+            <a th:href="@{/teamA/removeSubscriptions}"><p>Fjern Abonnement</p></a>
+            <a href=""><p>Rediger Abonnement</p></a>
+            <a href=""><p>Profil</p></a>
+            <a th:href="@{/teamA/logout}"><p>Log Ud</p></a>
         </div>
         <div class="box" id="profile-box" style="grid-area: profile-box">
             <p>Brugernavn</p>
@@ -121,33 +121,17 @@
         </div>
     </div>
 
-    <div class="remove-subscription-box">
-        <div class="remove-head-grid">
-            <h1 id="remove-title" style="grid-area: remove-box">Fjern Abonnement</h1>
-            <button id="close-button" style="grid-area: close-box">X</button>
-            <hr class="divider">
-
-            <form th:action="@{/teamA/deleteSubscriptions}" method="post">
-                <div class="remove-label-grid">
-                    <th:block th:each="subscription : ${allSubscriptions}">
-                        <div class="remove-row">
-                            <input type="checkbox" class="remove-checkbox" th:name="subId"
-                                   th:value="${subscription.subId}"/>
-                            <label class="remove-label" th:text="${subscription.subName}"></label>
-                        </div>
-                        <hr class="line-break"/>
-                    </th:block>
-                </div>
-                <div class="remove-footer-grid">
-                    <hr class="divider">
-                    <button id="cancel-button" type="button">Annuller</button>
-                    <button id="remove-sub-button" type="submit">Fjern Valgte</button>
-                </div>
-            </form>
-        </div>
+    <div class="statsGrid">
+        <div class="box" id="box-1" style="grid-area: box-1">Pie chart</div>
+        <div class="box" id="box-2" style="grid-area: box-2">Månedlig Total</div>
+        <div class="box" id="box-3" style="grid-area: box-3">Placeholder</div>
+        <div class="box" id="box-4" style="grid-area: box-4">Daglig Total</div>
+        <div class="box" id="box-5" style="grid-area: box-5">Pris pr. Brug</div>
+        <div class="box" id="box-6" style="grid-area: box-6">Placeholder</div>
+        <div class="box" id="box-7" style="grid-area: box-7">Placeholder</div>
+        <div class="box" id="box-8" style="grid-area: box-8">Placeholder</div>
     </div>
 </div>
-
 
 </body>
 

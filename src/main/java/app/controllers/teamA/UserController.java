@@ -4,7 +4,7 @@ import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 import app.persistence.teamA.UserMapper;
-import app.services.teamA.UserChecker;
+import app.services.teamR.UserChecker;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
@@ -12,12 +12,16 @@ import java.util.List;
 
 public class UserController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/teamA/register", ctx -> ctx.render("teamA/create-user.html"));
-        app.post("/teamA/register", ctx -> createUser(ctx, connectionPool));
-        app.get("/teamA/login", ctx -> ctx.render("teamA/login.html"));
-        app.post("/teamA/login", ctx -> login(ctx, connectionPool));
-        app.get("/teamA/frontpage", ctx -> ctx.render("teamA/frontpage.html"));
-        app.get("/teamA/logout", ctx -> logout(ctx));
+        app.get("/teamR/register", ctx -> ctx.render("teamA/create-user.html"));
+        app.post("/teamR/register", ctx -> createUser(ctx, connectionPool));
+        app.get("/teamR/login", ctx -> ctx.render("teamA/login.html"));
+        app.post("/teamR/login", ctx -> login(ctx, connectionPool));
+        app.get("/teamR/frontpage", ctx -> ctx.render("teamA/frontpage.html"));
+        app.get("/teamR/logout", ctx -> logout(ctx));
+
+        app.get("/start",ctx -> ctx.render("teamR/start.html"));
+
+
     }
 
     private static void createUser(Context ctx, ConnectionPool connectionPool) {
@@ -29,7 +33,7 @@ public class UserController {
         if (messages.isEmpty()){
             try {
                 UserMapper.createuser(username, password, connectionPool);
-                ctx.redirect("/teamA/frontpage");
+                ctx.redirect("/teamR/frontpage");
             } catch (DatabaseException e) {
                 ctx.attribute("msg", e.getMessage());
                 ctx.render("/teamA/create-user.html");
@@ -43,7 +47,7 @@ public class UserController {
                 }
             }
             ctx.attribute("errorMessage", message);
-            ctx.render("teamA/create-user.html");
+            ctx.render("teamR/create-user.html");
             System.out.println("2. catch");
             return;
         }
@@ -57,16 +61,16 @@ public class UserController {
             User user = UserMapper.login(username, password, connectionPool);
             ctx.sessionAttribute("currentUser", user);
             // test data - simulerer kald til DB via mapper
-            ctx.redirect("/teamA/frontpage");
+            ctx.redirect("/teamR/frontpage");
         } catch (DatabaseException e) {
             ctx.attribute("msg", e.getMessage());
-            ctx.render("teamA/login.html");
+            ctx.render("teamR/login.html");
         }
     }
 
     public static void logout(Context ctx) {
         ctx.req().getSession().invalidate();
-        ctx.redirect("teamA/login");
+        ctx.redirect("teamR/login");
     }
 
 

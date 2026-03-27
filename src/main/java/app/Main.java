@@ -2,10 +2,9 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
-import app.controllers.login.UserController;
 import app.controllers.teamG.HackController;
+import app.controllers.teamR.QuizControllerteamR;
 import app.controllers.teamC.QuizController;
-import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -36,19 +35,26 @@ public class Main
         // Frontpage - you must register your app here
         MainController.addRoutes(javApp, connectionPool);
 
-        // Team O
-        TeamOController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
         app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
+        // Philosophers app - teamteachers
         //Philosophers app - team teachers
         QuoteController.addRoutes(javApp, connectionPool);
 
-        //SubStats app - Team - A
+        // SubStats app - Team A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
+        // DIN QUIZ - skal være sidst pga wildcard route!
+        // javApp.get("/", ctx -> ctx.render("index.html"));
+        javApp.get("/{set}/{number}", ctx ->
+                QuizControllerteamR.showQuestion(ctx, connectionPool)
+        );
+        javApp.post("/quiz/check", ctx ->
+                QuizControllerteamR.checkAnswer(ctx, connectionPool)
+        );
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
 

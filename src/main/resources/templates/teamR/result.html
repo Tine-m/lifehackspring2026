@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultat</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0f2b;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        .correct {
+            color: #00ff88;
+        }
+
+        .wrong {
+            color: #ff4d4d;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 25px;
+            background-color: #2a2f6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background-color: #3d44a3;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div th:if="${correct}">
+        <h2 class="correct">✅ Korrekt!</h2>
+    </div>
+
+    <div th:if="${!correct}">
+        <h2 class="wrong">❌ Forkert!</h2>
+    </div>
+
+    <a th:href="@{'/' + ${set} + '/' + ${nextQuestion}}">
+        Næste spørgsmål →
+    </a>
+
+</div>
+
+</body>
+</html>

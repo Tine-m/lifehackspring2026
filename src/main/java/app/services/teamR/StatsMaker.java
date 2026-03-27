@@ -1,4 +1,4 @@
-package app.services.teamA;
+package app.services.teamR;
 
 public class StatsMaker {
 
