@@ -15,7 +15,7 @@ public class QuizMapper {
 
     public static List<Question> getAllQuestions(ConnectionPool connectionPool) throws DatabaseException {
         List<Question> questions = new ArrayList<>();
-        String sql = "SELECT * FROM teamC_quiz";
+        String sql = "SELECT * FROM teamc_quiz";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
