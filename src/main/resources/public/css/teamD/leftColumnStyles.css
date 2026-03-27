@@ -11,6 +11,61 @@
     width: 25px;
 }
 
+/* Searchbar */
+
+.head-searchbar {
+    display: flex;
+    flex-wrap: nowrap;
+    position: static;
+    justify-content: space-between;
+    font-size: 1rem;
+    height: 48px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+    line-height: 24px;
+    margin-bottom: 10px;
+    background-color: var(--white);
+    cursor: text;
+
+}
+
+.head-searchbar-input {
+    flex: 1;
+    margin-right: 4px;
+}
+
+.search-input {
+    outline: 0;
+    border: 0;
+    height: 24px;
+    width: 100%;
+     color: var(--text-light-gray);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.search-input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search-input::-webkit-search-decoration {
+    display: none;
+}
+
+.search-icon {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.searchbar-icon {
+    width: 24px;
+    height: 24px;
+    opacity: 60%;
+    align-self: end;
+}
+
 /*  Category List */
 
 .ingredients-category-item {

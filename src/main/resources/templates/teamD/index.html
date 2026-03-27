@@ -26,7 +26,7 @@
         <header class="header-block">
             <div class="head-navigation">
                 <div class="head-nav-left">
-                    <a th:href="@{/}"><img th:src="@{/images/teamD/home.png}" class="navbar-icon"></a> <!-- SKAL SENDE TILBAGE TIL HOVEDMENU -->
+                    <a th:href="@{/}"><img th:src="@{/images/teamD/home.png}" class="navbar-icon"></a>
                 </div>
                 <div class="head-nav-center">
                     <h1 class="head-title">Spisekammer</h1>
@@ -36,7 +36,19 @@
                     <a><img th:src="@{/images/teamD/fridge.png}" class="navbar-icon"></a>
                 </div>
             </div>
-            <div class="head-searchbar"></div>
+
+            <form class="head-searchbar" id="searchForm">
+
+                <div class="head-searchbar-input">
+                    <input id="search" type="search" placeholder="Søg efter ingredienser" class="search-input" autocomplete="off">
+                </div>
+
+                <i class="search-icon">
+                    <img th:src="@{/images/teamD/search.png}" class="searchbar-icon">
+                </i>
+
+            </form>
+
         </header>
         <section class="content-block">
             <div class="section-block-wrapper">
@@ -70,6 +82,8 @@
         </section>
     </div>
 
+
+
     <!-- Main Column-->
     <div class="main-col" style="overflow: scroll; height: 100vh;">
         <header class="header-block">
@@ -81,7 +95,6 @@
                 </div>
                 <div class="head-nav-right"> <!----> </div>
             </div>
-            <div class="head-searchbar"></div>
         </header>
         <section class="content-block">
             <div class="section-block-wrapper">
