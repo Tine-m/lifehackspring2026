@@ -71,7 +71,6 @@ public class SubscriptionController {
         }
 
         List<Subscription> subscriptions = SubscriptionMapper.getAllSubscriptionInfo(user.getId(), connectionPool);
-        ctx.attribute("allSubscriptions", subscriptions);
         ctx.redirect("/teamA/removeSubscriptions");
     }
 
