@@ -22,6 +22,12 @@ public class MainController {
 
         //teamA, SubStats
         lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.jpg"));
+        lifehackSites.add(new LifehackSite(
+                "Team B",
+                "Motivational Quotes",
+                "/teamB",
+                "images/teamB/img.png"
+        ));
 
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");

@@ -34,6 +34,6 @@ public class QuoteMapper {
 
         return quotes.get(randomIndex);
 
-        //test
+
     }
 }

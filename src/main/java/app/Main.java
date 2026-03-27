@@ -3,6 +3,7 @@ package app;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.login.UserController;
+import app.controllers.teamB.TeamBQuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
@@ -17,7 +18,7 @@ public class Main
     private static final String USER = "postgres";
     private static final String PASSWORD = "postgres";
     private static final String URL = "jdbc:postgresql://localhost:5432/%s?currentSchema=public";
-    private static final String DB = "Lifehack";
+    private static final String DB = "lifehack";
 
     private static final ConnectionPool connectionPool = ConnectionPool.getInstance(USER, PASSWORD, URL, DB);
 
@@ -35,7 +36,7 @@ public class Main
         MainController.addRoutes(app, connectionPool);
 
         // Team O
-        TeamOController.addRoutes(javApp, connectionPool);
+        TeamOController.addRoutes(app, connectionPool);
 
         // General Login - only included as example code
         UserController.addRoutes(app, connectionPool);
@@ -44,10 +45,13 @@ public class Main
         QuoteController.addRoutes(app, connectionPool);
 
         // Team C
-        QuizController.addRoutes(javApp, connectionPool);
+        QuizController.addRoutes(app, connectionPool);
 
         // teamG:
-        HackController.addRoutes(javApp, connectionPool);
+        HackController.addRoutes(app, connectionPool);
+
+        // teamB:
+        TeamBQuoteController.addRoutes(app, connectionPool);
 
     }
 }
