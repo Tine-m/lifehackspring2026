@@ -29,7 +29,7 @@ public class UserController {
 
 
 
-        // coffee types picture link
+        // coffee types pictures. Links the user to another site that displays the coffeetypes.
         app.get("/teamI/americano", ctx -> ctx.render("/teamI/Americano.html"));
         app.get("/teamI/cafeLatte", ctx -> ctx.render("/teamI/CafféLatte.html"));
         app.get("/teamI/cappuccino", ctx -> ctx.render("/teamI/Cappuccino.html"));

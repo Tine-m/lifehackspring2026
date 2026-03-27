@@ -19,8 +19,8 @@ public class UserMapper {
     public boolean login(String email, String password) {
         String sql = """
                 SELECT u.user_id, u.firstname, u.lastname, u.email, a.password
-                FROM users u
-                JOIN account a ON u.user_id = a.user_id
+                FROM teami_users u
+                JOIN teami_account a ON u.user_id = a.user_id
                 WHERE u.email = ? AND a.password = ?
                 """;
 
@@ -40,8 +40,8 @@ public class UserMapper {
     }
 
     public boolean createUser(String firstname, String lastname, String email, String password) throws DatabaseException {
-        String createUser = "INSERT INTO users (firstname, lastname, email) VALUES (?, ?, ?)";
-  String createAccount = "INSERT INTO account (user_id, password) VALUES (?, ?)";
+        String createUser = "INSERT INTO teami_users (firstname, lastname, email) VALUES (?, ?, ?)";
+  String createAccount = "INSERT INTO teami_account (user_id, password) VALUES (?, ?)";
       
         try (Connection connection = connectionPool.getConnection()) {
             connection.setAutoCommit(false);

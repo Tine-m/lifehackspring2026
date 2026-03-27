@@ -1,11 +1,14 @@
-CREATE TABLE IF NOT EXISTS public.account
+BEGIN;
+
+
+CREATE TABLE IF NOT EXISTS public.teami_account
 (
     user_id integer NOT NULL,
     password character varying COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT account_pkey PRIMARY KEY (user_id)
     );
 
-CREATE TABLE IF NOT EXISTS public.coffeetypes
+CREATE TABLE IF NOT EXISTS public.teami_coffeetypes
 (
     coffeetype character varying(30) COLLATE pg_catalog."default" NOT NULL,
     milk_ml integer,
@@ -14,7 +17,7 @@ CREATE TABLE IF NOT EXISTS public.coffeetypes
     CONSTRAINT coffeetypes_pkey PRIMARY KEY (coffeetype)
     );
 
-CREATE TABLE IF NOT EXISTS public.favorits
+CREATE TABLE IF NOT EXISTS public.teami_favorits
 (
     user_id integer NOT NULL,
     "coffeeName" character varying COLLATE pg_catalog."default" NOT NULL,
@@ -25,9 +28,9 @@ CREATE TABLE IF NOT EXISTS public.favorits
     CONSTRAINT favorits_pkey PRIMARY KEY (user_id)
     );
 
-CREATE TABLE IF NOT EXISTS public.users
+CREATE TABLE IF NOT EXISTS public.teami_users
 (
-    user_id serial NOT NULL,
+    user_id integer NOT NULL DEFAULT nextval('users_user_id_seq'::regclass),
     firstname character varying COLLATE pg_catalog."default" NOT NULL,
     lastname character varying COLLATE pg_catalog."default" NOT NULL,
     email character varying COLLATE pg_catalog."default" NOT NULL,
@@ -35,21 +38,21 @@ CREATE TABLE IF NOT EXISTS public.users
     CONSTRAINT users_email_key UNIQUE (email)
     );
 
-ALTER TABLE IF EXISTS public.account
+ALTER TABLE IF EXISTS public.teami_account
     ADD CONSTRAINT fk_account_user FOREIGN KEY (user_id)
-    REFERENCES public.users (user_id) MATCH SIMPLE
+    REFERENCES public.teami_users (user_id) MATCH SIMPLE
     ON UPDATE NO ACTION
        ON DELETE NO ACTION;
 CREATE INDEX IF NOT EXISTS account_pkey
-    ON public.account(user_id);
+    ON public.teami_account(user_id);
 
 
-ALTER TABLE IF EXISTS public.favorits
+ALTER TABLE IF EXISTS public.teami_favorits
     ADD CONSTRAINT fk_favorits_user FOREIGN KEY (user_id)
-    REFERENCES public.account (user_id) MATCH SIMPLE
+    REFERENCES public.teami_account (user_id) MATCH SIMPLE
     ON UPDATE NO ACTION
        ON DELETE NO ACTION;
 CREATE INDEX IF NOT EXISTS favorits_pkey
-    ON public.favorits(user_id);
+    ON public.teami_favorits(user_id);
 
 END;
