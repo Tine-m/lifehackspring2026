@@ -2,6 +2,7 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamM.SubscriptionController;
 import app.controllers.login.UserController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
@@ -49,6 +50,9 @@ public class Main
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
+        //Trackly app - TeamM
+        SubscriptionController controller = new SubscriptionController(connectionPool);
+        controller.addRoutes(javApp);
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
 
