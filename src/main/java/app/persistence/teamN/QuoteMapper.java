@@ -17,7 +17,7 @@ public class QuoteMapper {
 
         List<Quote> quoteList = new ArrayList<>();
 
-        String sql = "select * from public.teamN_quotes";
+        String sql = "select * from public.teamn_quotes";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
@@ -40,7 +40,7 @@ public class QuoteMapper {
 
         Quote q = null;
 
-        String sql = "select * from public.teamN_quotes" +
+        String sql = "select * from public.teamn_quotes" +
                 "where id = ?";
 
         try (Connection connection = connectionPool.getConnection();

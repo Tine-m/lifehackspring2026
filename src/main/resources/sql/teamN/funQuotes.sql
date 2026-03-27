@@ -1,11 +1,11 @@
-CREATE TABLE IF NOT EXISTS public.teamN_funQuotes
+CREATE TABLE IF NOT EXISTS public.teamn_funquotes
 (
-    funQuote_id        SERIAL PRIMARY KEY,
-    funQuote_setup     TEXT NOT NULL,
-    funQuote_punchLine TEXT NOT NULL
+    funquote_id        SERIAL PRIMARY KEY,
+    funquote_setup     TEXT NOT NULL,
+    funquote_punchLine TEXT NOT NULL
 );
 
-INSERT INTO funQuotes (funQuote_setup, funQuote_punchLine)
+INSERT INTO teamn_funquotes (funquote_setup, funquote_punchLine)
 VALUES ('Hvem er historiens mindst sultne statsminister?', 'Mætte Frederiksen.'),
        ('Hvad kalder man en ko uden ben?', 'Ground beef.'),
        ('Hvad sagde manden da han gik ind i bussen?', 'Av!'),

@@ -5,14 +5,14 @@
 -- Sources verified via Quote Investigator, primary texts, and documented speeches
 -- Year column: documented year where known, estimated year marked with comment
 
-CREATE TABLE IF NOT EXISTS public.teamN_quotes (
+CREATE TABLE IF NOT EXISTS public.teamn_quotes (
                                       id   INT PRIMARY KEY,
                                       name VARCHAR(100) NOT NULL,
     quote TEXT NOT NULL,
     year INT
     );
 
-INSERT INTO quotes (id, name, quote, year) VALUES
+INSERT INTO teamn_quotes (id, name, quote, year) VALUES
 -- MARCUS AURELIUS — Meditations (~170–180 CE)
 (1,  'Marcus Aurelius', 'The impediment to action advances action. What stands in the way becomes the way.', 175),
 (2,  'Marcus Aurelius', 'Waste no more time arguing about what a good man should be. Be one.', 175),
