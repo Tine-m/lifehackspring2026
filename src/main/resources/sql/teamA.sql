@@ -1,25 +1,41 @@
-CREATE TABLE IF NOT EXISTS public.teama_subscriptions
+create table teama_users
 (
-    subscription_id bigserial NOT NULL,
-    subscription_name character varying COLLATE pg_catalog."default" NOT NULL,
-    subscription_cost double precision NOT NULL,
-    usage_amount integer NOT NULL,
-    user_id bigserial NOT NULL,
-    category character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT teamA_subscriptions_pkey PRIMARY KEY (subscription_id)
-    );
+    user_id  bigserial
+        primary key,
+    username varchar not null,
+    password varchar not null
+);
 
-CREATE TABLE IF NOT EXISTS public.teamA_users
+alter table teama_users
+    owner to postgres;
+
+create table teama_subscriptions
 (
-    user_id bigserial NOT NULL,
-    username character varying COLLATE pg_catalog."default" NOT NULL,
-    password character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT teamA_users_pkey PRIMARY KEY (user_id)
-    );
+    subscription_id   bigserial
+        primary key,
+    subscription_name varchar          not null,
+    subscription_cost double precision not null,
+    usage_amount      integer          not null,
+    user_id           bigserial
+        constraint subscriptions_user_id_fkey
+            references teama_users,
+    category          varchar          not null
+);
 
-ALTER TABLE IF EXISTS public.teamA_subscriptions
-    ADD CONSTRAINT subscriptions_user_id_fkey FOREIGN KEY (user_id)
-    REFERENCES public.teamA_users (user_id) MATCH SIMPLE
-    ON UPDATE NO ACTION
-       ON DELETE NO ACTION
-    NOT VALID;
+alter table teama_subscriptions
+    owner to postgres;
+
+create table users
+(
+    user_id  serial
+        primary key,
+    username varchar(50)              not null
+        constraint unique_username
+            unique,
+    password varchar(50)              not null,
+    role     varchar(20) default USER not null
+);
+
+alter table users
+    owner to postgres;
+
