@@ -46,9 +46,5 @@ public class Main
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
-        //Team I CoffiiMe
-        app.controllers.teamI.UserController.addRoutes(javApp, connectionPool);
-        app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
-
     }
 }
