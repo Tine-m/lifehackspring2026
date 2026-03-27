@@ -64,7 +64,7 @@ public class UserMapper
     }
 
     public static ArrayList<Integer> getAllUserIds(ConnectionPool connectionPool)throws DatabaseException {
-        String sql = "SELECT teama_user_id FROM teama_users";
+        String sql = "select teama_user_id from teama_users";
         try (
                 Connection connection = connectionPool.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);

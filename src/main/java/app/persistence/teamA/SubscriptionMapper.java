@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class SubscriptionMapper {
 
     public static ArrayList<Subscription> getAllSubscriptionInfo(int userId, app.persistence.ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "SELECT * FROM teama_subscriptions WHERE user_id=?";
+        String sql = "select * from teama_subscriptions where user_id=?";
         try (
                 Connection connection = connectionPool.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -35,7 +35,7 @@ public class SubscriptionMapper {
     }
 
     public static void createSubscription(String subName, double subCost, int subUsage, String subCategory, int userId, app.persistence.ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "INSERT INTO teama_subscriptions (subscription_name, subscription_cost, usage_amount, category, user_id) values (?,?,?,?,?)";
+        String sql = "insert into teama_subscriptions (subscription_name, subscription_cost, usage_amount, category, user_id) values (?,?,?,?,?)";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);) {
@@ -56,7 +56,7 @@ public class SubscriptionMapper {
 
 
     public static void deleteSubscription(int userId, int subId, ConnectionPool connectionPool) throws DatabaseException{
-        String sql = "DELETE FROM teama_subscriptions WHERE user_id = ? AND subscription_id = ?";
+        String sql = "delete from teama_subscriptions where user_id = ? and subscription_id = ?";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);) {
@@ -73,7 +73,7 @@ public class SubscriptionMapper {
     }
 
     public static ArrayList<Subscription> getAllSubscriptions(ConnectionPool connectionPool)throws DatabaseException{
-        String sql = "SELECT * FROM teama_subscriptions JOIN teama_users USING (user_id)";
+        String sql = "select * from teama_subscriptions join teama_users using (user_id)";
         try (
                 Connection connection = connectionPool.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);
