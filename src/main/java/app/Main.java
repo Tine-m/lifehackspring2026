@@ -3,6 +3,10 @@ package app;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamQ.DatingQueryController;
+import app.controllers.login.UserController;
+import app.controllers.teamG.HackController;
+import app.controllers.teamC.QuizController;
+import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -33,6 +37,9 @@ public class Main
         // Frontpage - you must register your app here
         MainController.addRoutes(javApp, connectionPool);
 
+        // Team O
+        TeamOController.addRoutes(javApp, connectionPool);
+
         // General Login - only included as example code
         app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
@@ -45,6 +52,12 @@ public class Main
 
         //WeeklyDatingQueries - Team - Q
         DatingQueryController.addRoutes(javApp, connectionPool);
+
+        // Team C
+        QuizController.addRoutes(javApp, connectionPool);
+
+        // teamG:
+        HackController.addRoutes(javApp, connectionPool);
 
     }
 }

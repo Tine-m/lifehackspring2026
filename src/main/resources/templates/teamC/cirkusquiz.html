@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/teamC/styles.css}" />
+</head>
+
+<body>
+<h1>SPØRGSMÅL:</h1>
+
+<div class="question-container">
+    <div class="question-box">
+        <p th:text="${question.questionText}">Spørgsmål</p>
+
+        <input type="hidden" id="correctAnswer" th:value="${question.answerCorrect}">
+        <form id="quizForm">
+        <div th:each="answer, iterStat : ${answers}">
+            <input type="radio"
+                   th:id="${'answer' + iterStat.count}"
+                   name="userAnswer"
+                   th:value="${answer}"
+                   required>
+
+            <label th:for="${'answer' + iterStat.count}"
+                   th:text="${answer}">Svarmulighed</label>
+            <br>
+        </div>
+        </form>
+        <br/>
+    </div>
+</div>
+
+<div class="clicktostart-container">
+    <button type="button" id="checkBtn" class="start-btn">Check dit svar</button>
+    <br><br>
+    <a href="endquiz.html" th:href="@{/endquiz}" class="start-btn">Afslut quizzen</a>
+</div>
+
+<div id="quizModal" class="modal">
+    <div class="modal-content">
+        <h2 id="modalTitle"></h2>
+        <img id="modalImg" src="">
+        <button type="button" onclick="location.href='/nextquestion'" class="start-btn">Næste spørgsmål</button>
+    </div>
+</div>
+
+<script src="/js/teamC/quiz.js"></script>
+</body>
+</html>

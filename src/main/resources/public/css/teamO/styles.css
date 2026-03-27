@@ -1,0 +1,71 @@
+body{
+    background-color: #222222;
+}
+
+h1{
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Segoe UI Historic";
+    margin-top: 100px;
+}
+
+#findMovie{
+    border-radius: 15px;
+    display: flex;
+    background-color: red;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 100px;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+#findMovieButton{
+    text-decoration: none;
+}
+
+#exit{
+    border-radius: 15px;
+    display: flex;
+    background-color: #2a2a2a;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 800px;
+    margin-right: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#exitButton{
+    text-decoration: none;
+}
+
+#movieBox {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#movieTitle{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: Georgia;
+}
+
+#movieReleaseYear{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: Georgia;
+}
+
+#moviePoster{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
