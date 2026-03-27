@@ -25,6 +25,8 @@ public class QuoteController {
             ctx.attribute("selectedquote", selectedQuote);
 
             //session thing
+            //Vi bruger session her, fordi da vi redirecter til samme .get route som denne
+            //funktion vil den resette alle data fra FunQuoteController
             ctx.attribute("funSetup", ctx.sessionAttribute("funSetup"));
             ctx.attribute("funPunchLine", ctx.sessionAttribute("funPunchLine"));
 

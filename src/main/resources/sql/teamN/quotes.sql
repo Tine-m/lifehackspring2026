@@ -5,7 +5,7 @@
 -- Sources verified via Quote Investigator, primary texts, and documented speeches
 -- Year column: documented year where known, estimated year marked with comment
 
-CREATE TABLE IF NOT EXISTS quotes (
+CREATE TABLE IF NOT EXISTS public.teamN_quotes (
                                       id   INT PRIMARY KEY,
                                       name VARCHAR(100) NOT NULL,
     quote TEXT NOT NULL,

@@ -13,7 +13,7 @@ public class FunQuoteMapper {
 
     public static List<FunQuote> getAllFunQuotes(ConnectionPool connectionPool) throws DatabaseException {
         List<FunQuote> allFunQuotes = new ArrayList<>();
-        String sql = "SELECT * from funquotes";
+        String sql = "SELECT * from public.teamN_funQuotes";
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);
             ){
@@ -37,7 +37,7 @@ public class FunQuoteMapper {
 
         FunQuote funQuote = null;
 
-        String sql = "SELECT * from funQuotes WHERE funquote_id=?";
+        String sql = "SELECT * from public.teamN_funQuotes WHERE funquote_id=?";
         try {
             Connection connection = connectionPool.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(sql);

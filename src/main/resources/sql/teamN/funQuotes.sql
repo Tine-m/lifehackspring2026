@@ -1,4 +1,4 @@
-CREATE TABLE funQuotes
+CREATE TABLE IF NOT EXISTS public.teamN_funQuotes
 (
     funQuote_id        SERIAL PRIMARY KEY,
     funQuote_setup     TEXT NOT NULL,
