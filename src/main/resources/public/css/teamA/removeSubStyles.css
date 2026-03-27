@@ -7,15 +7,13 @@
     font-size: clamp(14px, 8cqi, 20px);
     color: #8B94B5;
     display: grid;
-    justify-self: center;
+    align-self: start;
     padding: 10px;
     align-content: space-between;
     width: 60vw;
 }
 
-#remove-title {
-    color: white;
-}
+
 
 .remove-head-grid {
     margin-top: 30px;
@@ -79,7 +77,6 @@ input[type=checkbox]:checked {
     font-family: "Roboto Condensed", Arial, sans-serif;
     container-type: inline-size;
     font-size: clamp(24px, 8cqi, 28px);
-    color: white;
     padding-left: 15px;
 
 }

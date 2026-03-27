@@ -136,20 +136,9 @@
 .input-box:hover {
     border: solid 0.5px #3D7BFF;
 }
-.input-box {
-    background: #252B42;
-    border: 0.5px solid #787CD0;
-    border-radius: 15px;
 
-    font-family: "Roboto Condensed", Arial, sans-serif;
-    container-type: inline-size;
-    font-size: clamp(14px, 8cqi, 20px);
-    color: #8B94B5;
-    height: 60px;
-    margin-bottom: 10px;
-    padding-left: 18px;
 
-}
+
 
 .text{
     margin-left: 13px;
