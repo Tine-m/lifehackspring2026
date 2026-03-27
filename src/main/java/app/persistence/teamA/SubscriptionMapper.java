@@ -1,9 +1,7 @@
 package app.persistence.teamA;
-
 import app.entities.teamA.Subscription;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -13,7 +11,7 @@ import java.util.ArrayList;
 public class SubscriptionMapper {
 
     public static ArrayList<Subscription> getAllSubscriptionInfo(int userId, app.persistence.ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "SELECT * FROM teamA_subscriptions WHERE user_id=?";
+        String sql = "select * from teama_subscriptions where user_id=?";
         try (
                 Connection connection = connectionPool.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -37,7 +35,7 @@ public class SubscriptionMapper {
     }
 
     public static void createSubscription(String subName, double subCost, int subUsage, String subCategory, int userId, app.persistence.ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "INSERT INTO teamA_subscriptions (subscription_name, subscription_cost, usage_amount, category, user_id) values (?,?,?,?,?)";
+        String sql = "insert into teama_subscriptions (subscription_name, subscription_cost, usage_amount, category, user_id) values (?,?,?,?,?)";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);) {
@@ -58,7 +56,7 @@ public class SubscriptionMapper {
 
 
     public static void deleteSubscription(int userId, int subId, ConnectionPool connectionPool) throws DatabaseException{
-        String sql = "DELETE FROM teamA_subscriptions WHERE user_id = ? AND subscription_id = ?";
+        String sql = "delete from teama_subscriptions where user_id = ? and subscription_id = ?";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);) {
@@ -71,6 +69,30 @@ public class SubscriptionMapper {
             }
         } catch (SQLException e) {
             throw new DatabaseException("Error deleting subscription", e.getMessage());
+        }
+    }
+
+    public static ArrayList<Subscription> getAllSubscriptions(ConnectionPool connectionPool)throws DatabaseException{
+        String sql = "select * from teama_subscriptions join teama_users using (user_id)";
+        try (
+                Connection connection = connectionPool.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ) {
+            ArrayList<Subscription> subscriptions = new ArrayList<>();
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                int subId = rs.getInt("subscription_id");
+                String subName = rs.getString("subscription_name");
+                double subCost = rs.getDouble("subscription_cost");
+                int subUsage = rs.getInt("usage_amount");
+                String subCategory = rs.getString("category");
+                int userID = rs.getInt("user_id");
+                String username = rs.getString("username");
+                subscriptions.add(new Subscription(subId, subName, subCost, subUsage, subCategory, userID, username));
+            }
+            return subscriptions;
+        } catch (SQLException e) {
+            throw new DatabaseException("No subscriptions found attached to you", e.getMessage());
         }
     }
 }

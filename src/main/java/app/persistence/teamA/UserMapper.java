@@ -1,20 +1,19 @@
 package app.persistence.teamA;
-
 import app.entities.teamA.User;
 import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class UserMapper
 {
 
     public static User login(String userName, String password, app.persistence.ConnectionPool connectionPool) throws DatabaseException
     {
-        String sql = "select * from teamA_users where username=? and password=?";
+        String sql = "select * from teama_users where username=? and password=?";
 
         try (
                 Connection connection = connectionPool.getConnection();
@@ -42,7 +41,7 @@ public class UserMapper
 
     public static void createuser(String userName, String password, ConnectionPool connectionPool) throws DatabaseException
     {
-        String sql = "insert into teamA_users (username, password) values (?,?)";
+        String sql = "insert into teama_users (username, password) values (?,?)";
 
         try (Connection connection = connectionPool.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
@@ -61,6 +60,24 @@ public class UserMapper
                 msg = "Brugernavnet findes allerede. Vælg et andet";
             }
             throw new DatabaseException(msg, e.getMessage());
+        }
+    }
+
+    public static ArrayList<Integer> getAllUserIds(ConnectionPool connectionPool)throws DatabaseException {
+        String sql = "select teama_user_id from teama_users";
+        try (
+                Connection connection = connectionPool.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ) {
+            ArrayList<Integer> userIds = new ArrayList<>();
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                int userID = rs.getInt("user_id");
+                userIds.add(userID);
+            }
+            return userIds;
+        } catch (SQLException e) {
+            throw new DatabaseException("No subscriptions found attached to you", e.getMessage());
         }
     }
 }
