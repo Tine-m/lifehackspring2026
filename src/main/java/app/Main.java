@@ -2,13 +2,15 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.login.UserController;
+import app.controllers.teamG.HackController;
+import app.controllers.teamC.QuizController;
+import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
-
-
 public class Main
 {
 
@@ -19,8 +21,7 @@ public class Main
 
     private static final ConnectionPool connectionPool = ConnectionPool.getInstance(USER, PASSWORD, URL, DB);
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Initializing Javalin and Jetty webserver
         Javalin app = Javalin.create(config -> {
             config.staticFiles.add("/public");
@@ -33,11 +34,20 @@ public class Main
         // Frontpage - you muest register your app here.
         MainController.addRoutes(app, connectionPool);
 
+        // Team O
+        TeamOController.addRoutes(javApp, connectionPool);
+
         // General Login - only included as example code
         UserController.addRoutes(app, connectionPool);
 
         //Philosophers app - teamteachers
         QuoteController.addRoutes(app, connectionPool);
+
+        // Team C
+        QuizController.addRoutes(javApp, connectionPool);
+
+        // teamG:
+        HackController.addRoutes(javApp, connectionPool);
 
     }
 }

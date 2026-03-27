@@ -17,22 +17,13 @@ public class MainController {
 
     private static void index(@NotNull Context ctx) {
         List<LifehackSite> lifehackSites = new ArrayList<>();
+        //teamteachers
+        lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "teamteachers/philosophers", "images/teamteachers/socrates.jpg"));
 
-        lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/philosophers", "images/teamteachers/socrates.jpg"));
-
-        // TEAM B PAGE
-        lifehackSites.add(new LifehackSite(
-                "Hopecore Generator",
-                "Få motivation!!!!!!!!",
-                "/teamB",
-                "images/teamB/img.png"
-        ));
-
-
+        //teamA, SubStats
+        lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.jpg"));
 
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
-
-
     }
 }

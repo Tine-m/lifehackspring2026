@@ -9,13 +9,9 @@ import org.jetbrains.annotations.NotNull;
 public class QuoteController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/teamteachers/philosophers", ctx -> philosophersHome(ctx));
+        app.get("/teamteachers/philosophers", ctx -> ctx.render("teamteachers/frontpage.html"));
         app.post("/teamteachers/philosophers", ctx -> ask(ctx, connectionPool));
         // app.get("/ask", ctx -> ctx.render("answer.html"));
-    }
-
-    private static void philosophersHome(@NotNull Context ctx) {
-        ctx.render("teamteachers/frontpage.html");
     }
 
     private static void ask(@NotNull Context ctx, ConnectionPool connectionPool) {
