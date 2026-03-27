@@ -4,6 +4,7 @@ import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.login.UserController;
 import app.controllers.teamG.HackController;
+import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
@@ -47,6 +48,9 @@ public class Main
         //SubStats app - Team - A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+
+        // Team C
+        QuizController.addRoutes(javApp, connectionPool);
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);

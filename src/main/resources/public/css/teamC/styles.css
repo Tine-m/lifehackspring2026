@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: navajowhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+/* --- OVERSKRIFT --- */
+h1 {
+    color: #033;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --- BOX MED TEKST --- */
+.intro-container {
+    display: inline-block;
+    padding: 20px 10px;
+    border: 3px solid #033;
+    background-color: white;
+    box-shadow:  8px 8px 0px #033;
+    max-width: 600px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+
+/* --- START QUIZ-KNAP --- */
+.start-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #033;
+    border: 3px solid #033;
+    background-color: limegreen;
+    box-shadow: 5px 5px 0px #033;
+    transition: transform 0.2s;
+}
+/* --- HOVER PÅ START-KNAP --- */
+.start-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0px #033;
+}
+/* --- BOX MED TEKST PÅ QUIZ.HTML--- */
+.question-container {
+    display: inline-block;
+    padding: 20px 10px;
+    border: 3px solid #033;
+    background-color: white;
+    box-shadow:  8px 8px 0px #033;
+    max-width: 600px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+/* Gør modalen usynlig og læg den som et lag over alt andet */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 30px;
+    border: 3px solid #033;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 0px #033;
+}
+
+.modal-content img {
+    max-width: 200px;
+    border-radius: 10px;
+}
