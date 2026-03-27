@@ -83,13 +83,8 @@ public class SiteController {
     }
 
     private static List<Recipe> getRecipes(ConnectionPool connectionPool) {
-        List<Recipe> recipesNoIngredients = RecipeMapper.getAllRecipes(connectionPool);
         List<Recipe> recipesWithIngredients = RecipeMapper.getAllRecipesWithIngredients(connectionPool);
-
-        List<Recipe> recipesLimit = recipesWithIngredients.stream()
-                .limit(1000)
-                .toList();
-        return recipesLimit;
+        return recipesWithIngredients;
     }
 
 }
