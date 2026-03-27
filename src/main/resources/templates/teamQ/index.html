@@ -9,11 +9,39 @@
 
 <!-- Top UI -->
 <div class="container">
-    <a href="#popup" class="button">+</a>
-    <div class="center-box">Day 0</div>
-    <form method="post" action="/nextDay">
-        <div class="button">▶</div>
-    </form>
+    <!-- Friday Container -->
+    <a href="#popup" class="button inset-frame">?</a>
+    <a href="https://isitfriday.org/" class="center-box inset-frame">
+        Is it Friday?!
+    </a>
+    <!-- Music Button -->
+    <audio id="music" loop>
+        <source src="/images/teamQ/audio/music.wav" type="audio/wav">
+    </audio>
+    <button class="button inset-frame" onclick="toggleMute()" id="muteBtn">🔊</button>
+    <script>
+        const audio = document.getElementById("music");
+        const btn = document.getElementById("muteBtn");
+        let isPlaying = false;
+
+        function toggleMute() {
+            if (!isPlaying || audio.duration - audio.currentTime < 0.10) {
+                audio.currentTime = 0;
+                audio.play(); // starter musikken første gang
+                isPlaying = true;
+                audio.muted = !audio.muted;
+            }
+
+            audio.muted = !audio.muted;
+
+            if (audio.muted) {
+                btn.textContent = "🔇";
+            } else {
+                btn.textContent = "🔊";
+            }
+        }
+    </script>
+    <!-- Popup ? -->
     <div id="popup" class="popup">
         <div class="popup-content">
             <h2>What's this?</h2>
@@ -22,6 +50,24 @@
             <a href="#" class="close-btn">Close</a>
         </div>
     </div>
+    <!-- Like button -->
+    <form id="likeForm" style="display:inline;">
+        <button type="button" id="likeButton" class="button inset-frame like-btn">
+            👍
+            <span id="likeCounter" th:text="${likeCounter}">0</span>
+            <img src="/images/teamQ/signs/butterfly.gif" class="butterfly" alt="Butterfly">
+        </button>
+    </form>
+    <script>
+        document.getElementById('likeButton').addEventListener('click', function () {
+            fetch('/like/1', {method: 'POST'})
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('likeCounter').textContent = data;
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
 </div>
 <!-- Background + slideshow -->
 <!-- Sun -->
