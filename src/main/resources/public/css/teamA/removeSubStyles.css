@@ -141,6 +141,7 @@ input[type=checkbox]:checked {
 .remove-subscription-scroller {
     flex: 1;
     overflow-y: auto;
+    overflow-x: hidden;
     min-height: 0;
     height: 52vh;
 }
