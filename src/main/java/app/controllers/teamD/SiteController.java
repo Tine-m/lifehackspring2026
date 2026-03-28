@@ -15,6 +15,7 @@ import java.util.*;
 public class SiteController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamD", ctx -> nemMadHomePage(ctx, connectionPool));
+        // Is meant to run each time to check if there is data in the DB, if there is no data, insert
         try {
             CsvImporter.importCsv("src/main/resources/data/teamD/recipes.csv", "src/main/resources/data/teamD/ingredients_categories.csv", connectionPool);
         } catch (Exception e) {
