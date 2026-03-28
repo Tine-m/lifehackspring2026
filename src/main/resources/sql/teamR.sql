@@ -1,4 +1,4 @@
-CREATE TABLE questions (
+CREATE TABLE teamr_questions (
                            id SERIAL PRIMARY KEY,
                            question TEXT NOT NULL,
                            option_a TEXT NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE questions (
                            question_number INTEGER,
                            set_name TEXT
 );
-INSERT INTO questions (id, question, option_a, option_b, option_c, option_d, correct, difficulty, question_number, set_name) VALUES
+INSERT INTO teamr_questions (id, question, option_a, option_b, option_c, option_d, correct, difficulty, question_number, set_name) VALUES
                                                                                                                                  (1, 'Hvilket kontinent ligger Danmark i?', 'Europa', 'Asien', 'Afrika', 'Sydamerika', 'A', 1, 1, 'easy'),
                                                                                                                                  (2, 'Hvor mange ben har en edderkop?', '6', '8', '10', '12', 'B', 1, 2, 'easy'),
                                                                                                                                  (3, 'Hvad er hovedstaden i Tyskland?', 'Berlin', 'Hamburg', 'München', 'Frankfurt', 'A', 2, 3, 'easy'),

@@ -3,10 +3,19 @@ package app.controllers.teamR;
 import app.entities.teamR.Question;
 import app.persistence.ConnectionPool;
 import app.persistence.teamR.QuestionMapper;
+import io.javalin.Javalin;
 import io.javalin.http.Context;
+
 
 public class QuizControllerteamR {
 
+
+    public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
+        app.get("/teamR", ctx -> ctx.render("teamR/start.html"));
+        app.get("/teamR/questions", ctx -> showQuestion(ctx, connectionPool));
+        app.get("/teamR/answer", ctx -> checkAnswer(ctx,  connectionPool));
+
+    }
     public static void showQuestion(Context ctx, ConnectionPool connectionPool) {
 
         String set = ctx.pathParam("set");

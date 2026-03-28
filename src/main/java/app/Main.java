@@ -49,12 +49,14 @@ public class Main
 
         // DIN QUIZ - skal være sidst pga wildcard route!
         // javApp.get("/", ctx -> ctx.render("index.html"));
-        javApp.get("/{set}/{number}", ctx ->
+      /*  javApp.get("/{set}/{number}", ctx ->
                 QuizControllerteamR.showQuestion(ctx, connectionPool)
         );
         javApp.post("/quiz/check", ctx ->
                 QuizControllerteamR.checkAnswer(ctx, connectionPool)
-        );
+        );*/
+        // Team R
+        QuizControllerteamR.addRoutes(javApp, connectionPool);
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
 

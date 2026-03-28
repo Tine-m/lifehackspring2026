@@ -12,7 +12,7 @@ public class QuestionMapper {
 
     public static Question getQuestion(ConnectionPool connectionPool, int questionNumber, String setName) {
 
-        String sql = "SELECT * FROM questions WHERE question_number = ? AND set_name = ?";
+        String sql = "SELECT * FROM teamr_questions WHERE question_number = ? AND set_name = ?";
 
         try (Connection conn = connectionPool.getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)) {
