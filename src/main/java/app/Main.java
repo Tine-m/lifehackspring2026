@@ -32,6 +32,7 @@ public class Main
 
         // Routing
         // Frontpage
+
         MainController.addRoutes(app, connectionPool);
 
         // General Login

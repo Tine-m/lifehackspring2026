@@ -155,9 +155,11 @@ body {
 
 .btn-start {
     background: #FFB143;
+    width: 150px;
     font-size: large;
     color: black;
     border: none;
+    margin: 5px;
     padding: 10px;
     border-radius: 10px;
 }
