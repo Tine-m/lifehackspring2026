@@ -16,7 +16,7 @@ public class HackController {
     public static void addRoutes(@NotNull Javalin app, ConnectionPool connectionPool){
         app.get("/lifehackseption", ctx -> ctx.render("teamG/index.html"));
         app.get("/categories", ctx -> getHackByCategory(ctx, connectionPool));
-        app.get("/chooseCategory", ctx -> ctx.render("teamG/showCategoryLifeHack"));
+        app.get("/chooseCategory", ctx -> ctx.render("teamG/showCategoryLifehack"));
         app.get("/showCategory", ctx -> ctx.render("teamG/showCategory"));
         app.post("showCategory", ctx -> getHackByCategory(ctx, connectionPool));
     }
