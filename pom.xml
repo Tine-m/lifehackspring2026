@@ -124,7 +124,7 @@
                     </execution>
                 </executions>
             </plugin>
-
+<!-- test -->
             <!-- Maven Surefire Plugin for running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
