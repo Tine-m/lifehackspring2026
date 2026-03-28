@@ -32,7 +32,7 @@ fetch('/teamA/categoryData')
                             padding: 17,
                             textAlign: 'left'
                         }
-                        }
+                    }
                 },
             }
         });
