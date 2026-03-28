@@ -1,5 +1,6 @@
 package app;
 
+import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamD.SiteController;
@@ -12,6 +13,7 @@ import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
+
 public class Main
 {
 
@@ -26,6 +28,7 @@ public class Main
         // Initializing Javalin and Jetty webserver
         Javalin javApp = Javalin.create(config -> {
             config.staticFiles.add("/public");
+            config.jetty.modifyServletContextHandler(handler -> handler.setSessionHandler(SessionConfig.sessionConfig()));
             config.fileRenderer(new JavalinThymeleaf(ThymeleafConfig.templateEngine()));
             config.staticFiles.add("/templates");
         }).start(7070);
