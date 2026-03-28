@@ -18,7 +18,6 @@ fetch('/teamA/categoryData')
                 }]
             },
             options: {
-
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
