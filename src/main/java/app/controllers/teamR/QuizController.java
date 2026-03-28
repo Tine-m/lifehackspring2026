@@ -7,14 +7,18 @@ import io.javalin.Javalin;
 import io.javalin.http.Context;
 
 
-public class QuizControllerteamR {
+public class QuizController {
 
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
-        app.get("/teamR", ctx -> ctx.render("teamR/start.html"));
-        app.get("/teamR/questions", ctx -> showQuestion(ctx, connectionPool));
-        app.get("/teamR/answer", ctx -> checkAnswer(ctx,  connectionPool));
+        app.get("/teamR", ctx -> index(ctx));
+        app.get("/{set}/{number}", ctx -> showQuestion(ctx, connectionPool));
+        app.post("/quiz/check", ctx -> checkAnswer(ctx,  connectionPool));
+        app.get("/public", ctx -> {ctx.render("index.html");});
 
+    }
+    private static void index(Context ctx){
+        ctx.render("teamR/start.html");
     }
     public static void showQuestion(Context ctx, ConnectionPool connectionPool) {
 

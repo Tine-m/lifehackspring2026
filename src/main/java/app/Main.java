@@ -3,8 +3,6 @@ package app;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamG.HackController;
-import app.controllers.teamR.QuizControllerteamR;
-import app.controllers.teamC.QuizController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -48,17 +46,12 @@ public class Main
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
         // DIN QUIZ - skal være sidst pga wildcard route!
-        // javApp.get("/", ctx -> ctx.render("index.html"));
-      /*  javApp.get("/{set}/{number}", ctx ->
-                QuizControllerteamR.showQuestion(ctx, connectionPool)
-        );
-        javApp.post("/quiz/check", ctx ->
-                QuizControllerteamR.checkAnswer(ctx, connectionPool)
-        );*/
+
+
         // Team R
-        QuizControllerteamR.addRoutes(javApp, connectionPool);
+        app.controllers.teamR.QuizController.addRoutes(javApp, connectionPool);
         // Team C
-        QuizController.addRoutes(javApp, connectionPool);
+        app.controllers.teamC.QuizController.addRoutes(javApp, connectionPool);
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
