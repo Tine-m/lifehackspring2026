@@ -26,6 +26,12 @@ public class MainController {
         //Team O, RandomMovies
         lifehackSites.add(new LifehackSite("RandomMovies", "Find en tilfældig film", "teamO/index", "images/teamO/movie.png"));
 
+        //Team N, countdown
+        lifehackSites.add(new LifehackSite("Countdown", "Countdown til eksamen", "teamN/index", "images/teamN/cockclock.jpg"));
+
+        ctx.attribute("lifehackSites", lifehackSites);
+        ctx.render("index.html");
+
         // Team G
         lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?","/lifehackseption", "images/teamG/lifehackseption.png"));
 
