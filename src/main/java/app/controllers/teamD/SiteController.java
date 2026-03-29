@@ -3,7 +3,6 @@ package app.controllers.teamD;
 import app.entities.teamD.Ingredient;
 import app.entities.teamD.Recipe;
 import app.persistence.ConnectionPool;
-import app.persistence.teamD.CsvImporter;
 import app.persistence.teamD.IngredientMapper;
 import app.persistence.teamD.RecipeMapper;
 import io.javalin.Javalin;
@@ -15,12 +14,6 @@ import java.util.*;
 public class SiteController {
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
         app.get("/teamD", ctx -> nemMadHomePage(ctx, connectionPool));
-        // Is meant to run each time to check if there is data in the DB, if there is no data, insert
-        try {
-            CsvImporter.importCsv("src/main/resources/data/teamD/recipes.csv", "src/main/resources/data/teamD/ingredients_categories.csv", connectionPool);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
     }
 
     private static void nemMadHomePage(@NotNull Context ctx, ConnectionPool connectionPool) {
