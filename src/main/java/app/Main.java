@@ -3,10 +3,11 @@ package app;
 import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamD.SiteController;
+import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
-import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
@@ -53,6 +54,9 @@ public class Main
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
+
+        //Nem Mad app
+        SiteController.addRoutes(javApp, connectionPool);
 
     }
 }
