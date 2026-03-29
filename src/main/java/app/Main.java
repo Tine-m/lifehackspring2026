@@ -1,17 +1,18 @@
 package app;
 
+import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamQ.DatingQueryController;
 import app.controllers.login.UserController;
+import app.controllers.teamD.SiteController;
+import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
-import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
-
 
 public class Main
 {
@@ -23,11 +24,11 @@ public class Main
 
     private static final ConnectionPool connectionPool = ConnectionPool.getInstance(USER, PASSWORD, URL, DB);
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Initializing Javalin and Jetty webserver
         Javalin javApp = Javalin.create(config -> {
             config.staticFiles.add("/public");
+            config.jetty.modifyServletContextHandler(handler -> handler.setSessionHandler(SessionConfig.sessionConfig()));
             config.fileRenderer(new JavalinThymeleaf(ThymeleafConfig.templateEngine()));
             config.staticFiles.add("/templates");
         }).start(7070);
@@ -58,6 +59,9 @@ public class Main
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
+
+        //Nem Mad app
+        SiteController.addRoutes(javApp, connectionPool);
 
     }
 }

@@ -10,34 +10,189 @@
      " box-1 box-1 box-2 box-2 box-3 box-3 box-3"
      " box-1 box-1 box-4 box-4 box-3 box-3 box-3"
      " box-5 box-5 box-5 box-5 box-5 box-6 box-6"
-     " box-5 box-5 box-5 box-5 box-5 box-6 box-6"
-     " box-7 box-7 box-7 box-8 box-8 box-8 box-8"
-     " box-7 box-7 box-7 box-8 box-8 box-8 box-8";
+     " box-5 box-5 box-5 box-5 box-5 box-7 box-7"
+     " box-8 box-8 box-8 box-9 box-9 box-9 box-9"
+     " box-8 box-8 box-8 box-9 box-9 box-9 box-9";
+}
+
+
+
+#box-1{
+    display: inline-block;
 }
 
 #box-2 {
     background: #3D7BFF;
-    border: none;
-    color: #00D4AA;;
+    color: #00D4AA;
 }
 
 #box-2:hover{
     border: 3px solid #00D4AA;
 }
 
+#box-3{
+    display: inline-block;
+}
+
 #box-4 {
     background: #00D4AA;
-    border: none;
-    color: #3D7BFF;;
+    color: #3D7BFF;
 }
 
 #box-4:hover{
     border: 3px solid #3D7BFF;
 }
 
+#box-2-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: #00D4AA;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#box-4-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: #3D7BFF;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
 
 
 
+#box-6-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: #00D4AA;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#box-7-stat {
+    justify-self: center;
+    align-self: center;
+    font-size: xx-large;
+    color: #3D7BFF;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#box-6 {
+    background: #3D7BFF;
+    border: none;
+    color: #00D4AA;
+}
+
+#box-6:hover{
+    border: 3px solid #00D4AA;
+}
+
+#box-7 {
+    background: #00D4AA;
+    border: none;
+    color: #3D7BFF;;
+}
+
+#box-7:hover{
+    border: 3px solid #3D7BFF;
+}
+
+#box-8{
+    display: inline-block;
+}
+
+#box-9{
+    display: inline-block;
+}
+
+#pieChart {
+    width: 85% !important;
+    height: 85% !important;
+    margin-left: 20px !important;
+}
+
+#barChart {
+    position: absolute;
+    display: inline-block;
+}
+#barChart2{
+    position: absolute;
+    display: inline-block;
+}
+
+#polarChart {
+    width: 85% !important;
+    height: 85% !important;
+    margin-left: 20px !important;
+}
+
+#lineChart {
+    width: 95% !important;
+    height: 90% !important;
+    margin-left: 23px !important;
+}
 
 
+#first{
+    font-size: 22px;
+text-align: center;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+
+#second{
+    font-size: 22px;
+text-align: left;
+margin-left: 30px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+
+#third{
+    font-size: 22px;
+    text-align: right;
+    margin-right: 30px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+.podium {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    height: 150px;
+}
+
+.podium-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.podium-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    color: white;
+    font-size: 22px;
+    border-radius: 6px 6px 0 0;
+}
+
+.first-place .podium-block {
+    height: 120px;
+    background-color: rgb(61,123,255);
+}
+
+.second-place .podium-block {
+    height: 80px;
+    background-color: rgba(72,184,184);
+}
+
+.third-place .podium-block {
+    height: 60px;
+    background-color: rgb(44, 110, 110);
+}
 

@@ -15,7 +15,7 @@ public class HackMapper {
 
     public static List<Hacks> getHacksByCategory(String kategori, ConnectionPool connectionPool) {
         List<Hacks>hackList = new ArrayList<>();
-        String sql = "select * from hack where kategori =?";
+        String sql = "select * from teamg_hacks where kategori =?";
 
         try(Connection connection = connectionPool.getConnection()) {
             try(PreparedStatement ps = connection.prepareStatement(sql)) {
