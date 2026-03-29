@@ -749,84 +749,7 @@ INSERT INTO teamd_ingredients (ingredient_name, ingredient_category) VALUES
   ('øl', 'Drikkevarer'),
   ('ølandshvede', 'Tørvarer'),
   ('ørredrogn', 'Kød & Fisk'),
-  ('østersauce', 'Krydderier'),
-  ('Brunet smør', 'Andet'),
-  ('Derudover', 'Andet'),
-  ('Isterninger', 'Andet'),
-  ('Kartofler', 'Andet'),
-  ('Kold risengrød', 'Andet'),
-  ('Kransekageringe', 'Andet'),
-  ('Kryddersmør', 'Andet'),
-  ('Kyllingeskroget', 'Andet'),
-  ('Limesirup', 'Andet'),
-  ('Myntedip', 'Andet'),
-  ('Nougatbunden', 'Andet'),
-  ('Pandesmuldr og fedt fra fx frikadeller', 'Andet'),
-  ('Pandesmuldr og stegefedt fra frikadellerne', 'Andet'),
-  ('Rosmarinkartofler', 'Andet'),
-  ('Sukkersirup', 'Andet'),
-  ('Til pensling', 'Andet'),
-  ('Til pynt af glas', 'Andet'),
-  ('Til servering', 'Andet'),
-  ('Tilbehør til servering', 'Andet'),
-  ('Topping', 'Andet'),
-  ('af den færdige og afkølede risotto', 'Andet'),
-  ('blandede kagerester', 'Andet'),
-  ('bomuldssnor', 'Andet'),
-  ('brev geleringsmiddel', 'Andet'),
-  ('brev kamillete', 'Andet'),
-  ('den tomme vaniljestang fra flødeostcremen', 'Andet'),
-  ('dryp balsamico glace', 'Andet'),
-  ('dryp honning', 'Andet'),
-  ('dryp olivenolie', 'Andet'),
-  ('dryp sriracha chilisauce', 'Andet'),
-  ('dryp tabasco', 'Andet'),
-  ('dryp worcestershire sauce', 'Andet'),
-  ('drys chili', 'Andet'),
-  ('drys flormelis', 'Andet'),
-  ('drys frisk dild', 'Andet'),
-  ('drys frisk mynte', 'Andet'),
-  ('drys frisk timian', 'Andet'),
-  ('drys hampefrø', 'Andet'),
-  ('drys kørvel', 'Andet'),
-  ('drys morgenfrueblade', 'Andet'),
-  ('drys muskatnød', 'Andet'),
-  ('drys mørk chokolade', 'Andet'),
-  ('drys rålakridspulver', 'Andet'),
-  ('drys sesamfrø', 'Andet'),
-  ('drys stødt kardemomme', 'Andet'),
-  ('drys valnødder', 'Andet'),
-  ('drys vaniljepulver', 'Andet'),
-  ('dråbe farvepasta', 'Andet'),
-  ('dråbe rød frugtfarve', 'Andet'),
-  ('dråber angustura', 'Andet'),
-  ('dråber kulør', 'Andet'),
-  ('dråber rød frugtfarve', 'Andet'),
-  ('dråber teriyaki', 'Andet'),
-  ('dråber æterisk olie', 'Andet'),
-  ('en masse dejligt pynt og slik efter eget valg', 'Andet'),
-  ('engangshandsker', 'Andet'),
-  ('evt. en dråbe gul frugtfarve', 'Andet'),
-  ('farvepasta', 'Andet'),
-  ('fiskeben', 'Andet'),
-  ('flaske', 'Andet'),
-  ('forårsrulleplader', 'Andet'),
-  ('geleringsmiddel', 'Andet'),
-  ('grillspyd af træ', 'Andet'),
-  ('grilspyd af træ', 'Andet'),
-  ('instant kaffe', 'Andet'),
-  ('kageplast', 'Andet'),
-  ('kagerester', 'Andet'),
-  ('konfektforme', 'Andet'),
-  ('lage fra de råsyltede rabarber', 'Andet'),
-  ('lage fra de syltede cornichoner', 'Andet'),
-  ('mandelolie eller babyolie', 'Andet'),
-  ('parmesanskorpe - se under ''Tip til opskriften''', 'Andet'),
-  ('stegesky fra kyllingen', 'Andet'),
-  ('stegesky/fond fra flæskestegen', 'Andet'),
-  ('stærk kaffe', 'Andet'),
-  ('tom vaniljestang - brug den fra risfyldet', 'Andet'),
-  ('træspyd', 'Andet');
+  ('østersauce', 'Krydderier');
 
 -- ------------------------------------------------------------
 -- teamd_recipes
@@ -841,21 +764,21 @@ Dyp brødskiverne i blandingen på begge sider, ikke for længe, men nok til de 
 Varm en pande op til middelvarme og smelt smørret på panden. Steg brødene på begge sider i 3-4 minutter til de har fået en flot gylden stegeskorpe.
 Servering
 Rør græsk yoghurt med ahornsirup og server french toast på tallerkener med en skefuld græsk yoghurt rørt med ahornsirup, en skefuld blåbærkompot og lidt friske blåbær.'),
-  (1964, 'Langtidsbagte tomater - ovntørrede', 'https://www.valdemarsro.dk/tomater-med-en-smag-af-sol/', 'https://www.valdemarsro.dk/wp-content/2011/07/langtidsbagte-tomater-i-ovnen.jpg', '300', '10 servings', 'Drys tomaterne med salt og læg dem på en bradepande med bagepapir, så den overskårne side vender opad. Pensl med olivenolie og kom kviste af rosmarin over. Bag tomaterne i ovnen ved 100 grader i 4­-5 timer.
-Kom de bagte tomater i et skoldet glas og hæld oliven­olie over, til det dækker.
-Alternativt kan du sætte tomaterne i en forvarmet ovn ved 225 grader og slukke ovnen, så snart toma­terne er sat ind. Tomaterne skal stå i den lukkede ovn natten over eller fra morgen til aften, hvorefter de er klar til brug. Med denne fremgangsmåde kan toma­terne tilberedes natten over, eller mens du ikke er hjemme. Hvis du ikke synes, at de har fået helt nok, så giv dem en ekstra time i ovnen ved 100 grader.'),
+  (1964, 'Langtidsbagte tomater - ovntørrede', 'https://www.valdemarsro.dk/tomater-med-en-smag-af-sol/', 'https://www.valdemarsro.dk/wp-content/2011/07/langtidsbagte-tomater-i-ovnen.jpg', '300', '10 servings', 'Drys tomaterne med salt og læg dem på en bradepande med bagepapir, så den overskårne side vender opad. Pensl med olivenolie og kom kviste af rosmarin over. Bag tomaterne i ovnen ved 100 grader i 4-5 timer.
+Kom de bagte tomater i et skoldet glas og hæld olivenolie over, til det dækker.
+Alternativt kan du sætte tomaterne i en forvarmet ovn ved 225 grader og slukke ovnen, så snart tomaterne er sat ind. Tomaterne skal stå i den lukkede ovn natten over eller fra morgen til aften, hvorefter de er klar til brug. Med denne fremgangsmåde kan tomaterne tilberedes natten over, eller mens du ikke er hjemme. Hvis du ikke synes, at de har fået helt nok, så giv dem en ekstra time i ovnen ved 100 grader.'),
   (2073, 'Regnbueis - trefarvet is', 'https://www.valdemarsro.dk/regnbueis/', 'https://www.valdemarsro.dk/wp-content/2015/08/regnbueis-1.jpg', '1440', '12 servings', 'Chokoladeis
 Flæk vaniljestangen og skrab kornene ud. Kom den tomme vaniljestang, mælk og piskefløde i en gryde og varm op til 90 grader.
 Kom æggeblommer, vaniljekorn og sukker i en ren skål og pisk til en luftig og lys æggesnaps.
-Fjern vaniljestangen fra gryden, og pisk langsomt vaniljefløden i æggeblandingen. Pisk kontant til det er blandet godt sammen. Kom blandingen tilbage i gryden og varm langsomt op under konstant omrøring til vaniljecremen når præcis 80 grader – mål med et sukkertermometer.
+Fjern vaniljestangen fra gryden, og pisk langsomt vaniljefløden i æggeblandingen. Pisk kontant til det er blandet godt sammen. Kom blandingen tilbage i gryden og varm langsomt op under konstant omrøring til vaniljecremen når præcis 80 grader - mål med et sukkertermometer.
 Hæld den varme vaniljecreme over den finthakket chokolade i en skål og giv det en hurtig tur med stavblenderen, så cremen er helt jævn og ensartet. Kom chokoladeiscremen i en beholder med låg og sæt i køleskabet i minimum 1 time eller til næste dag.
 Hæld chokoladecremen på ismaskinen og kør til isen har konsistens som en lækker tyk softice. Kom isen i en springform på 22 cm i diameter, beklædt med bagepapir i bunden. Glat overfladen pænt ud og sæt springformen i fryseren i minimum 2 timer.
 Vaniljeis
 Flæk vaniljestangen på langs og skrab kornene ud. Kom den tomme vaniljestang i en gryde, sammen med mælk og fløde og kog op til 90 grader. Mål med et sukkertermometer.
 Kom æggeblommer, vaniljekorn og sukker i en skål og pisk med en håndmikser til det er en lys og luftig æggesnaps
 Fjern vaniljestangen fra gryden, og pisk langsomt vaniljefløden i æggeblandingen. Pisk kontant til det er blandet godt sammen
-Kom blandingen tilbage i gryden og varm langsomt op under konstant omrøring til vaniljecremen er præcis 80 grader – mål med et sukkertermometer. Kom vaniljecremen i en beholder med låg og sæt i køleskabet i minimum 1 time eller til næste dag.
-Hæld iscremen på ismaskinen og kør til isen har konsistens som en lækker tyk softice.  Fordel vaniljeisen over chokoladeisen, som gerne skulle have sat sig efter to timer i fryseren. Glat overfladen pænt ud og sæt springformen i fryseren i minimum 2 timer.
+Kom blandingen tilbage i gryden og varm langsomt op under konstant omrøring til vaniljecremen er præcis 80 grader - mål med et sukkertermometer. Kom vaniljecremen i en beholder med låg og sæt i køleskabet i minimum 1 time eller til næste dag.
+Hæld iscremen på ismaskinen og kør til isen har konsistens som en lækker tyk softice.  Fordel vaniljeisen over chokoladeisen, som gerne skulle have sat sig efter to timer i fryseren. Glat overfladen pænt ud og sæt springformen i fryseren i minimum 2 timer.
 Jordbæris
 Flæk vaniljestangen på langs og skrab alle vaniljekornene ud på et skærebræt.
 Kom den tomme vaniljestang, jordbær og halvdelen af sukkeret i en gryde og kog op. Rør rundt og lad det simre i nogle minutter, til sukkeret er smeltet.
@@ -863,9 +786,9 @@ Blend jordbærblandingen til en puré med en stavblender og mos puréen gennem e
 Kom vaniljekorn, sukker og æggeblommer i en skål pisk det til en luftig æggesnaps med en håndmikser.
 Rør den afkølede jordbærmos sammen med fløde og mælk og vend det i æggemassen. Sæt blandingen på køl og lad det køle helt af i minimum en time eller til næste dag.
 Hæld jordbærcremen på ismaskinen og kør til isen har konsistens som en lækker tyk softice. Fordel jordbærisen i springformen og glat overfladen pænt ud og sæt springformen i fryseren i minimum 2 timer.'),
-  (2077, 'Vildtfuglefoder hjemmelavet', 'https://www.valdemarsro.dk/vildt-fuglefoder-diy/', 'https://www.valdemarsro.dk/wp-content/2015/11/vildtfuglefoder-hjemmelavet.jpg', '60', '1 serving', 'Jeg blander lidt løseligt det hele og skriver derfor ikke mål på, for det kommer sig virkelig ikke så nøje. Er der noget man ikke lige har i køkkenskufferne, så kan det sagtens undlades.
+  (2077, 'Vildtfuglefoder hjemmelavet', 'https://www.valdemarsro.dk/vildt-fuglefoder-diy/', 'https://www.valdemarsro.dk/wp-content/2015/11/vildtfuglefoder-hjemmelavet.jpg', '60', '1 serving', 'Jeg blander lidt løseligt det hele og skriver derfor ikke mål på, for det kommer sig virkelig ikke så nøje. Er der noget man ikke lige har i køkkenskufferne, så kan det sagtens undlades.
 Alle de tørre dele sammen og så kommer jeg kokosolie i til det lige netop hænger sammen. Kokosolien smelter hurtigt, når man arbejder lidt med den, og den holder godt på kerner og gryn når den er ude i kulden.
-Rul små kugler, som kan opbevares på køl eller frys, lav små søde forme ala  hjemmelavede fuglekugler eller kom blandingen i et tomt toiletrullerør, som er klippet over og foret med plast (så passer de lige perfekt ned i en fuglefoderautomat til haven)'),
+Rul små kugler, som kan opbevares på køl eller frys, lav små søde forme ala  hjemmelavede fuglekugler eller kom blandingen i et tomt toiletrullerør, som er klippet over og foret med plast (så passer de lige perfekt ned i en fuglefoderautomat til haven)'),
   (2159, 'Æblesnegle med lakrids', 'https://www.valdemarsro.dk/lakrids-og-aeblesnegle/', 'https://www.valdemarsro.dk/wp-content/2012/02/aeblesnegle.jpg', '240', '12 servings', 'Dejen
 Rør gær ud i mælken og tilsæt æg, kardemomme, sukker og salt, samt halvdelen af hvedemelet. Rør dejen godt sammen. Tilsæt smør i små tern samt resten af hvedemelet til dejen og rør dejen i 10 minutter på en røremaskine til den er blød og smidig.
 Lad dejen hæve i en skål med et rent viskestykke over i 2 timer.
@@ -898,9 +821,9 @@ Bag i en forvarmet ovn i cirka 10-15 minutter ved 175 grader varmluft. Hold øje
 Smør afkølet rabarbermarmelade på halvdelen af dejstrimlerne og læg den anden halvdel med mandelflager oven på. Skær rabarbersnitter ud i den størrelse du ønsker.'),
   (2191, 'Grønt tilbehør og grønt fyld', 'https://www.valdemarsro.dk/groent-tilbehoer/', 'https://www.valdemarsro.dk/wp-content/2007/09/groent-tilbehoer.jpg', '5', '4 servings', 'Det grønne tilbehør til lækre retter, skal blot skylles, snittes og gøres klar til servering.'),
   (2194, 'Gnavegrønt', 'https://www.valdemarsro.dk/gnavegroent/', 'https://www.valdemarsro.dk/wp-content/2007/09/gnavegroent.jpg', '5', '4 servings', 'Skyl eller skræl grøntsagerne, og skær dem i passende stykker.
-Opskriften er til en familie på fire – taget i betragtning at det nok er børnene der spiser mest gnavegrønt og de voksne spiser salat eller lign til maden.
+Opskriften er til en familie på fire - taget i betragtning at det nok er børnene der spiser mest gnavegrønt og de voksne spiser salat eller lign til maden.
 Serveres med eller uden dip. Dip kan fx være hummus, cremefraiche rørt med pesto eller purløg, guacamole eller lign. Lav gerne til flere dage og opbevar i beholdere på køl.'),
-  (2196, 'Ris', 'https://www.valdemarsro.dk/ris/', 'https://www.valdemarsro.dk/wp-content/2019/11/ris-kogetid.jpg', '25', '4 servings', 'Kom risene i en gryde med letsaltet vand og kog efter anvisning på emballagen – ofte 12 minutters kogetid under låg ved lav varme, sluk for varmen og lad risene stå i gryden med låg i 10 minutter inden servering.'),
+  (2196, 'Ris', 'https://www.valdemarsro.dk/ris/', 'https://www.valdemarsro.dk/wp-content/2019/11/ris-kogetid.jpg', '25', '4 servings', 'Kom risene i en gryde med letsaltet vand og kog efter anvisning på emballagen - ofte 12 minutters kogetid under låg ved lav varme, sluk for varmen og lad risene stå i gryden med låg i 10 minutter inden servering.'),
   (2198, 'Pasta med kantareller og fløde', 'https://www.valdemarsro.dk/frisk-pasta-med-kantareller-og-flode-hurtig-pastaret/', 'https://www.valdemarsro.dk/wp-content/2011/08/pasta_kantareller.jpg', '20', '4 servings', 'Kog pastaen i en gryde med letsaltet vand, efter anvisning på pakken.
 Rist svampene ved høj varme i lidt smør. Tag svampene af panden og tilsæt fløde og chorizo, lad det koge op.
 Bland pasta med svampe, flødesaucen og tomater på panden og anret derefter på tallerkener med friskkværnet peber, salt og timian'),
@@ -927,21 +850,21 @@ Skrab vaniljen ud af vaniljestangen og bland vaniljen med sukker, så de fine va
 Kom sukker, vanilje, blommer, kanelstang og stjerneanis i en gryde og kog blandingen op. Skru ned for varmen til det blot simre og lad det stå og simre i et godt stykke tid, gerne 30-45 minutter til sukkeret karamelliseres og blommesaften tykner.
 Hold øje med det, det må ikke koge tørt og brænde på, så tilsættes en smule ekstra vand. Kom den færdige blommemarmelade på et rent skoldet glas og opbevar i køleskabet.'),
   (2221, 'Blåbærsyltetøj', 'https://www.valdemarsro.dk/blaabaersyltetoej/', 'https://www.valdemarsro.dk/wp-content/2014/03/blaabaersyltetoej.jpg', '40', '1 serving', 'Kom blåbær, vaniljesukker og vand i en gryde og kog op.
-Lad det simre i 30 minutter og tilsæt legeringsmiddel. Rør godt igennem og tilsæt derefter sukker. Kog det igennem i et minuts tid og  hæld derefter blåbærsyltetøjet på et rengjort og skoldet glas.'),
+Lad det simre i 30 minutter og tilsæt legeringsmiddel. Rør godt igennem og tilsæt derefter sukker. Kog det igennem i et minuts tid og  hæld derefter blåbærsyltetøjet på et rengjort og skoldet glas.'),
   (2224, 'Ymerdrys', 'https://www.valdemarsro.dk/ymerdrys/', 'https://www.valdemarsro.dk/wp-content/2013/10/ymerdrys-1.jpg', '30', '8 servings', 'Kom rugbrød og farin i en foodprocessor og kør til det er smuldret og finthakket.
-Fordel på en bageplade med bagepapir. Rist det i ovnen i 10 minutter ved 175 grader varmluft. Vurder derefter, om det skal have længere tid og hvis det skal, så sæt ovnen på tørrefunktion ved 100 grader eller skrue ned til 100 grader og bag til det er sprødt og lækkert – hold øje med at det ikke brænder på!
+Fordel på en bageplade med bagepapir. Rist det i ovnen i 10 minutter ved 175 grader varmluft. Vurder derefter, om det skal have længere tid og hvis det skal, så sæt ovnen på tørrefunktion ved 100 grader eller skrue ned til 100 grader og bag til det er sprødt og lækkert - hold øje med at det ikke brænder på!
 Lad det køle af på bradepanden, inden det hældes i et glas.'),
   (2227, 'Hindbærmarmelade', 'https://www.valdemarsro.dk/hjemmelavet-hindbaer-marmelade/', 'https://www.valdemarsro.dk/wp-content/2013/04/hindbaersnitter.jpg', '20', '1 serving', 'Kom alle ingredienserne i en gryde og kog det op, rør rundt løbende og lad det simre til hindbærmarmeladen har den rette konsistens.
 Lad det køle af.'),
   (2230, 'Kirsebærsmåkager', 'https://www.valdemarsro.dk/kirsebaersmaakager/', 'https://www.valdemarsro.dk/wp-content/2017/12/kirsebaersmaakager.jpg', '20', '20 servings', 'Kom smør, sukker og sirup i en lille gryde og varm op under omrøring, til massen er ensartet. Tag gryden af varmen.
 I en ren skål blandes mel, bagepulver, kardemomme, mandelmel, salt og vanilje. Rør ægget, samt mel og krydderiblandingen i gryden og rør det hele godt sammen.
 Tril dejen til små kugler, som sættes på en bageplade. Tryk en halv amarena kirsebær ned i hver kugle. Bag dem i en forvarmet ovn ved 175 grader varmluft i 12-14 minutter. Lad dem køle af på bagepladen.'),
-  (2233, 'Grønskål - grøn smoothie i skål', 'https://www.valdemarsro.dk/groenskaal-til-morgenmad/', 'https://www.valdemarsro.dk/wp-content/2016/03/groenskaal-1.jpg', '10', '2 servings', 'Kom først de bløde ingredienser i blenderen: Banan, skrællet kiwi, ananas og krydderier. Samt ingefær, appelsinsaft og mandler.
+  (2233, 'Grønskål - grøn smoothie i skål', 'https://www.valdemarsro.dk/groenskaal-til-morgenmad/', 'https://www.valdemarsro.dk/wp-content/2016/03/groenskaal-1.jpg', '10', '2 servings', 'Kom først de bløde ingredienser i blenderen: Banan, skrællet kiwi, ananas og krydderier. Samt ingefær, appelsinsaft og mandler.
 Top derefter med de frosne grønne sager: spinat og broccoli.
 Kom vand i til det dækker lidt mere end 1/3 af alt det gode, der nu er kommer i blenderen.
-Blend til det er lækker cremet – tjek om der skal mere vand i, i så fald blend en smule mere vand i, til konsistensen er som tyk cremet koldskål eller bare så den er lækker at spise med en ske.
+Blend til det er lækker cremet - tjek om der skal mere vand i, i så fald blend en smule mere vand i, til konsistensen er som tyk cremet koldskål eller bare så den er lækker at spise med en ske.
 Kom i dybe skåle, drys med favorit toppings og server.
-Er der lidt til overs, så kom det i et glas med låg og nyd senere på dagen, som et nemt og grønt mellemmåltid.
+Er der lidt til overs, så kom det i et glas med låg og nyd senere på dagen, som et nemt og grønt mellemmåltid.
 Topping
 Rist havregryn på en pande til det dufter lidt, men uden at tage farve. Vend honning, kakaonibs og frysetørrede bær i og server til grønskålen.'),
   (2237, 'Bergamotte Marmelade', 'https://www.valdemarsro.dk/bergamotte-marmelade/', 'https://www.valdemarsro.dk/wp-content/2016/02/bergamottemarmelade.jpg', '60', '2 servings', 'Skyl bergamottefrugterne grundigt og riv skallen fint i en gryde. Skræl bergamottefrugterne og kasser den hvide hinde under skallen. Skær frugtkødet i små tern og kasser alle kerner.
@@ -958,7 +881,7 @@ Top med danskvand og pynt med en stængel frisk rosmarin.'),
 Kom sukker og piskefløde i en stor gryde og kog det op. Lad det koge under jævnlig omrøring, til karamellen er 110 grader. Lad det køle af i gryden og rør et nip salt i.
 Saltkaramel is
 Flæk vaniljestangen på langs og skrab kornene ud. Fordel vaniljekornene i sukkeret og kom vanilje, sukker og æggeblommer i en skål. Pisk en luftigt og hvid æggesnaps med en håndmikser på højeste hastighed. Kom den tomme vaniljestang i en gryde sammen med mælk og piskefløde og kog op til 90 grader. Fjern vaniljestangen fra mælken og fløden og hæld langsomt vaniljefløden i æggesnapsen i en tynd stråle, mens der konstant piskes.
-Kom blandingen tilbage i gryden sammen med 2 spsk. saltkaramel og varm langsomt op under omrøring til temperaturen er præcis 80 grader – mål med et sukkertermometer. Kom iscremen i en beholder med låg og stil i køleskabet i minimum 1 time eller til næste dag.
+Kom blandingen tilbage i gryden sammen med 2 spsk. saltkaramel og varm langsomt op under omrøring til temperaturen er præcis 80 grader - mål med et sukkertermometer. Kom iscremen i en beholder med låg og stil i køleskabet i minimum 1 time eller til næste dag.
 Hæld cremen på ismaskine og lad den køre til isen har konsistens som en fast softice. Kom i en isbeholder og fordel striber af saltkaramel og vend karamellen i isen. Der må gerne være hel stykker af karamel, så det skal ikke røres ud.
 Sæt isen i fryseren i minimum 2 timer, inden servering.'),
   (2247, 'Skaldyrsrisotto', 'https://www.valdemarsro.dk/skaldyrsrisotto/', 'https://www.valdemarsro.dk/wp-content/2015/07/skaldyrsrisotto-1.jpg', '60', '4 servings', 'Risotto
@@ -968,10 +891,10 @@ Rør jævnligt i risottoen og når risene har suget al væsken tilsættes mere f
 Smag til med salt og peber.
 Skaldyr
 Pil hummerhaler og rejer, lad evt et par enkelte være med skal til pynt ved servering.
-Rens muslingerne, skrub skallerne med en blød børste under rindende vand. De må ikke ligges i blød. Bank muslingerne let mod køkkenbordet og giv dem et lille tryk – alle muslinger skal være friske og det ses ved at de lukker sig ved slag og tryk.
+Rens muslingerne, skrub skallerne med en blød børste under rindende vand. De må ikke ligges i blød. Bank muslingerne let mod køkkenbordet og giv dem et lille tryk - alle muslinger skal være friske og det ses ved at de lukker sig ved slag og tryk.
 Lad muslingerne dryppe af på et tørt klæde.
 Varm en gryde op med smør og sauter skalotteløg, hvidløg og fennikel i et minuts tid.
-Skrue op på højeste varme, kom hvidvin i og derefter muslinger – læg låg på. Skrue lidt ned, men det skal fortsat simre.
+Skrue op på højeste varme, kom hvidvin i og derefter muslinger - læg låg på. Skrue lidt ned, men det skal fortsat simre.
 Lad muslingerne dampe og simre i 5-7 minutter eller til de har åbnet sig.
 Vend hurtigt rejer og hummerhaler i, bare lige en hurtig omrøring over varmen.
 Vend skaldyr med risotto, server i dybe tallerkener og anret med dild og lidt fintrevet citronskal.'),
@@ -997,7 +920,7 @@ Serveres straks'),
   (2285, 'Avocado Smoothie', 'https://www.valdemarsro.dk/avocado-smoothie/', 'https://www.valdemarsro.dk/wp-content/2016/10/avocadosmoothie.jpg', '5', '2 servings', 'Det hele blendes godt sammen til en lækker, velsmagende, cremet avocado smoothie.
 Nydes gerne med det samme, eller kan opbevares nogle timer på køl i en lufttæt beholder, kom i så fald gerne saften fra en halv citron med i blenderen.'),
   (2290, 'Æbler med lakrids', 'https://www.valdemarsro.dk/en-sund-snack-aebler-med-lakrids/', 'https://www.valdemarsro.dk/wp-content/2012/02/aebler-lakrids.jpg', '5', '1 serving', 'Skær æblerne i både og drys dem med lakrids.'),
-  (2292, 'Hindbærsmoothie med ingefær', 'https://www.valdemarsro.dk/hindbaersmoothie-ingefaer/', 'https://www.valdemarsro.dk/wp-content/2013/03/smoothie-valdemarsro.jpg', '5', '2 servings', 'Blend det hele sammen og drik med det samme ♥'),
+  (2292, 'Hindbærsmoothie med ingefær', 'https://www.valdemarsro.dk/hindbaersmoothie-ingefaer/', 'https://www.valdemarsro.dk/wp-content/2013/03/smoothie-valdemarsro.jpg', '5', '2 servings', 'Blend det hele sammen og drik med det samme '),
   (2295, 'Chokoladepopcorn', 'https://www.valdemarsro.dk/choko-popcorn/', 'https://www.valdemarsro.dk/wp-content/2012/11/choko-popcorn.jpg', '10', '2 servings', 'Varm olien i en gryde. Kom popcornkernerne i og pop dem. Ryst gryden et par gange. Når de ikke popper længere, tages gryden af varmen.
 Kom smør og salt i, ryst gryden grundigt med låg på.
 Kom revet chokolade i og ryst igen.
@@ -1007,10 +930,10 @@ Rør stuetempereret smør med creme fraiche, smag til med salt, peber og måske 
 Stil smøret på køl til artiskokkerne er klar.
 Artiskokker
 Sæt en stor gryde med vand, citron skåret i skiver og salt i kog. Skær stokken af artiskokkerne og kom derefter artiskokkerne i det kogende vand.
-Kog i 20 minutter og tag derefter artiskokkerne op og lad dem dryppe lidt af.
+Kog i 20 minutter og tag derefter artiskokkerne op og lad dem dryppe lidt af.
 Servering
 Server de hele artiskokker ved bordet, hvor det nederste af de skønne blade spises og dyppes i den rørte smør.
-Til slut er der i artiskokkens midte en masse ‘hår’ som skal fjernes forsigtigt med en ske. Nedenunder dem er artiskokhjertet, som smager helt fortryllende skønt.'),
+Til slut er der i artiskokkens midte en masse ''hår'' som skal fjernes forsigtigt med en ske. Nedenunder dem er artiskokhjertet, som smager helt fortryllende skønt.'),
   (2301, 'Asparges med ramsløg og rørt stenbiderrogn', 'https://www.valdemarsro.dk/asparges-ramsloeg-stenbiderrogn/', 'https://www.valdemarsro.dk/wp-content/2018/05/ramsloeg-asparges-forret.jpg', '25', '4 servings', 'Ramsløgsolie
 Kom ramsløg og olie i en blender eller minihakker og blend det til en grøn ramsløgsolie.
 Asparges
@@ -1022,8 +945,8 @@ Er det ikke længere sæson for stenbiderrogn, så server blot med cremefraiche 
 Anretning
 Skær asparges i to lige store stykker og anret skiftevis hvid og grøn, som på billedet. Top med en spsk. rørt cremefraiche eller rørt stenbiderrogn, dryp med ramsløgsolie og drys med lidt flagesalt og friskkværnet peber.'),
   (2304, 'Hvidløgsolie', 'https://www.valdemarsro.dk/hvidloegsolie/', 'https://www.valdemarsro.dk/wp-content/2018/04/hvidloegsolie-opskrift.jpg', '75', '1 serving', 'Forvarm ovnen til 125 grader varmluft.
-Kom olie, peberkorn, timiankviste og rosmarin i et lille ovnfastfad. Skær hvidløgene over på midten (se billede) og placer dem i fadet, med den overskårede halvdel vendt ned. Dæk fadet til med et større fad eller folie. Bages til hvidløggene er helt møre – det tager ca. en time.
-Sæt fadet i køleskabet til det er kølet helt af. Sigt olien når den er afkølet og opbevar derefter hvidløgsolie på glas eller flaske, hvor det kan holde sig 1-2 uger i køleskabet.
+Kom olie, peberkorn, timiankviste og rosmarin i et lille ovnfastfad. Skær hvidløgene over på midten (se billede) og placer dem i fadet, med den overskårede halvdel vendt ned. Dæk fadet til med et større fad eller folie. Bages til hvidløggene er helt møre - det tager ca. en time.
+Sæt fadet i køleskabet til det er kølet helt af. Sigt olien når den er afkølet og opbevar derefter hvidløgsolie på glas eller flaske, hvor det kan holde sig 1-2 uger i køleskabet.
 De bagte fede hvidløg kan smuttes over en salat, blandes med en mayonnaise eller spises som tilbehør til alverdens dejlige retter lige fra lammekød til bagte rodfrugter.
 Opskriften giver 3 dl hvidløgsolie'),
   (2307, 'Matcha Trøfler', 'https://www.valdemarsro.dk/matcha-troefler/', 'https://www.valdemarsro.dk/wp-content/2017/11/matchatroefler.jpg', '720', '20 servings', 'Varm fløden op til lige før kogepunktet. Kom den varme fløde over i en skål med chokolade. Rør grundigt til al chokoladen er smeltet og massen er helt jævn.
@@ -1031,7 +954,7 @@ Kom i en lille beholder med bagepapir i bunden og sæt i køleskabet natten over
 Dagen efter kan trøffelmassen trilles til kugler, som drysses med lidt matcha te.'),
   (2311, 'Kerneboller', 'https://www.valdemarsro.dk/kerneboller/', 'https://www.valdemarsro.dk/wp-content/2017/11/kerneboller.jpg', '210', '12 servings', 'Kom hvedekerner og solsikke i en skål. Hæld kogende vand i, så det dækker og lad det trække i mindst en time (eller sæt det på køl og lad det trække flere timer). Hæld evt overskydende vand fra.
 Rør gær og evt surdej ud i blandingen og tilsæt kærnemælk, æg, salt, fuldkornsmel og halvdelen af hvedemelet. Rør dejen godt igennem og tilsæt derefter mere hvedemel lidt efter lidt til dejen er smidig og ikke klistrer.
-Lad dejen hæve på køkkenbordet i 1 ½ time (eller lad den koldhæve i køleskabet natten over)
+Lad dejen hæve på køkkenbordet i 1 1/2 time (eller lad den koldhæve i køleskabet natten over)
 Form 12 boller, vend dem i lidt solsikkekerner og sæt bollerne på en bageplade med bagepapir. Lad dem hæve i 45 minutter, pensl med sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft (eller 200 grader alm ovn) i ca. 14-18 minutter.
 Lad kernebollerne køle lidt af på en rist.'),
   (2314, 'Strata med chorizo - brunch til mange', 'https://www.valdemarsro.dk/strata-brunch/', 'https://www.valdemarsro.dk/wp-content/2017/10/strata-opskrift.jpg', '120', '10 servings', 'Pisk æg, mælk, paprika, salt og peber i en skål med et piskeris.
@@ -1040,35 +963,35 @@ Hæld æggeblandingen over og rør godt rundt til det er mikset godt.
 Sæt låg på og lad det trække i køleskabet, gerne natten over eller mindst i en time.
 Kom blandingen i en smurt springform, sæt en ovnfast tallerken over og bag i en forvarmet ovn ved 175 grader varmluft i ca. 25-30 minutter.
 Serveres med et gavmildt drys timian eller finthakket persille'),
-  (2318, 'Hjemmelavet kakaopulver', 'https://www.valdemarsro.dk/kakaopulver-til-varm-kakaomaelk/', 'https://www.valdemarsro.dk/wp-content/2017/09/kakaopulver-hjemmelavet.jpg', '5', '1 serving', 'Knus sukkeret i en morter eller en foodprocessor – så det bliver lidt finere end normalt.
+  (2318, 'Hjemmelavet kakaopulver', 'https://www.valdemarsro.dk/kakaopulver-til-varm-kakaomaelk/', 'https://www.valdemarsro.dk/wp-content/2017/09/kakaopulver-hjemmelavet.jpg', '5', '1 serving', 'Knus sukkeret i en morter eller en foodprocessor - så det bliver lidt finere end normalt.
 Bland alle ingredienserne sammen og opbevar det i et lufttæt glas.
 En spsk kakaopulver passer til et krus varm mælk.'),
   (2324, 'Caipirinha cocktail', 'https://www.valdemarsro.dk/caipirinha/', 'https://www.valdemarsro.dk/wp-content/2017/08/Caipirinha-1.jpg', '5', '1 serving', 'Sukkersirup
 Kom sukker og vand i en gryde, kog op til sukkeret er opløst. Afkøl og kom i et glas. Kan holde sig længe i barskabet eller på køl og kan bruge til mange forskellige drinks.
 Caipirinha
-Kom limebåde og sukker i et glas. Brug en muddler til at støde det godt sammen, så limebådene afgiver godt med juice. Top med cachaca*, sukkersirup og fyld glasset med knuste isterninger.
+Kom limebåde og sukker i et glas. Brug en muddler til at støde det godt sammen, så limebådene afgiver godt med juice. Top med cachaca*, sukkersirup og fyld glasset med knuste isterninger.
 Et voilà, en skøn læskende sommerdrink er klar til servering.'),
   (2327, 'Summer Breeze', 'https://www.valdemarsro.dk/summer-breeze-cocktail/', 'https://www.valdemarsro.dk/wp-content/2017/07/summer-breeze.jpg', '5', '1 serving', 'Kom myntebladene og gin i et glas og brug en muddler til at støde mynten, så den afgiver smag og saft. Alternativt, så stød mynten groft i en morter eller hak den groft på et skærebræt
-Kom ananasjuice og grapefrugtjuice i glasset, rør grundigt og kom derefter masser isterninger i og tilsidst en smule danskvand.
+Kom ananasjuice og grapefrugtjuice i glasset, rør grundigt og kom derefter masser isterninger i og tilsidst en smule danskvand.
 Nydes iskold'),
   (2331, 'Pizzasnurre', 'https://www.valdemarsro.dk/pizzasnurre/', 'https://www.valdemarsro.dk/wp-content/2017/03/pizzasnurre.jpg', '180', '14 servings', 'Dejen
-Lun mælken til den er omkring 35 grader varm. Rør gær ud i en skål med mælk og tilsæt olie, honning, salt og æg. Rør det godt rundt og tilsæt derefter først grahamsmel og dernæst hvedemel lidt efter lidt.
-Ælt dejen godt sammen til den er smidig og lækker.
+Lun mælken til den er omkring 35 grader varm. Rør gær ud i en skål med mælk og tilsæt olie, honning, salt og æg. Rør det godt rundt og tilsæt derefter først grahamsmel og dernæst hvedemel lidt efter lidt.
+Ælt dejen godt sammen til den er smidig og lækker.
 Lad dejen hæve i en tildækket skål på køkkenbordet i ca 2 timer.
 Tomatsauce
-Sauter rødløg i en gryde med olivenolie ved mellem varme til løgene er bløde, men ikke har taget farve. Tilsæt hvidløg, hakkede tomater, soltørrede tomater, chorizo i små tern, salt og peber, samt oregano. Sæt låg på og lad det simre ved svag varme mens dejen hæver. Hold øje med, at det ikke koger helt tørt – men det må gerne simre lidt ind til en tyk cremet sauce.
+Sauter rødløg i en gryde med olivenolie ved mellem varme til løgene er bløde, men ikke har taget farve. Tilsæt hvidløg, hakkede tomater, soltørrede tomater, chorizo i små tern, salt og peber, samt oregano. Sæt låg på og lad det simre ved svag varme mens dejen hæver. Hold øje med, at det ikke koger helt tørt - men det må gerne simre lidt ind til en tyk cremet sauce.
 Saml Pizzasnurre
-Rul dejen ud til en stor firkant i cirka 1 cm tykkelse. Smør med tomatsauce, drys med frisk mozzarella i tern og fold den ene halvdel over den anden. Skær dejen i strimler, som foldes sammen til en knude.
-Lad pizzasnurrene hæve i 30-40 minutter på to bageplader med bagepapir.
+Rul dejen ud til en stor firkant i cirka 1 cm tykkelse. Smør med tomatsauce, drys med frisk mozzarella i tern og fold den ene halvdel over den anden. Skær dejen i strimler, som foldes sammen til en knude.
+Lad pizzasnurrene hæve i 30-40 minutter på to bageplader med bagepapir.
 Pensl med et sammenpisket æg og bag dem i en forvarmet ovn ved 175 grader varmluft i 15-16 minutter.'),
   (2334, 'Ananas mojito med ingefær og mynte', 'https://www.valdemarsro.dk/ananas-mojito/', 'https://www.valdemarsro.dk/wp-content/2017/04/ananasmojito-1.jpg', '5', '2 servings', 'Hvis ananasjuicen laves af en hel ananas, så kom en skrællet ananas, en stor humpel ingefær og en håndfuld mynte i juiceren.
-Hvis man bruger en købt ananasjuice, så blendes den med ingefær – eller ingefær rives og blandes i.
+Hvis man bruger en købt ananasjuice, så blendes den med ingefær - eller ingefær rives og blandes i.
 Ryst ananasjuice med ingefær, rom og isterninger i en shaker.
 Stød mynten i glassene, så den gode friske smag bliver frigivet.
 Hæld rom-ingefær-ananasjuice over, top med lidt danskvand og nyd den iskolde søde og friske drink'),
   (2337, 'Boghvedegrød med pærer og valnødder', 'https://www.valdemarsro.dk/boghvedegroed-paerer-valnoedder/', 'https://www.valdemarsro.dk/wp-content/2016/10/boghvedegroed-opskrift.jpg', '10', '1 serving', 'Kom vand og boghvedegryn i en gryde og kog op under omrøring.
 Tilsæt mælk, salt, kardemomme, vanilje og kanel og rør rundt til konsistensen er perfekt.
-Er den for tyk – kom lidt mere mælk i.
+Er den for tyk - kom lidt mere mælk i.
 Serveres varm i en skål med smørklat og ahornsirup rundt langs kanten. Top med pærer og valnødder.'),
   (2342, 'Acai bowl', 'https://www.valdemarsro.dk/acai-bowl/', 'https://www.valdemarsro.dk/wp-content/2016/07/acai-bowl.jpg', '10', '1 serving', 'Kom alle ingredienserne i en blender og blend til smoothien er silkeblød og cremet.
 Kom acai bowl i en skål og pynt med topping.
@@ -1082,8 +1005,8 @@ Sluk for varmen og lad det køle af.
 Sigt myntebladene fra og opbevar myntesiruppen i et glas i køleskabet.
 Der er mere end der skal bruges til 2 glas iskaffe, men siruppen er også vidunderlig til frugt, ymer eller skyr og i iste og kan holde sig 2-3 uger i køleskab.
 Iskaffe med myntesirup og mandler
-Kom en spsk myntesirup i hvert glas og fyld glasset halvt op med isterninger – gerne kaffeisterninger.
-Fordel mandelmælk i de to glas og kom derefter friskbrygget eller afkølet kaffe i glasset.
+Kom en spsk myntesirup i hvert glas og fyld glasset halvt op med isterninger - gerne kaffeisterninger.
+Fordel mandelmælk i de to glas og kom derefter friskbrygget eller afkølet kaffe i glasset.
 Pynt med mynte og så er de klar til servering.'),
   (2351, 'Chokoladebrud med pistacie', 'https://www.valdemarsro.dk/chokoladebrud-pistaciekerner/', 'https://www.valdemarsro.dk/wp-content/2017/03/chokoladebrud.jpg', '10', '1 serving', 'Temperer chokoladen ved at smelte den ene halvdel over et vandbad. Tag af varmen og rør den anden halvdel chokolade i.
 Fordel på et stykke bagepapir og drys med topping.
@@ -1096,12 +1019,12 @@ Lad dejen hæve i skålen, dækket med et rent klæde, på køkkenbordet i en ti
 Fyld
 Kom de kogte møre gulerødder og de andre ingredienser til fyldet i en blender og blend til en ensartet masse.
 Saml dejen med fyld til gulerodssnurrer
-Rul dejen ud i en firkant, ca ½ cm i tykkelse, og smør fyldet på dejen. Læg den ene halvdel over den anden og skær stimler af ca. 5 cm, som deles i to og snoes, hvorefter de samlet til en lille snurrer.
+Rul dejen ud i en firkant, ca 1/2 cm i tykkelse, og smør fyldet på dejen. Læg den ene halvdel over den anden og skær stimler af ca. 5 cm, som deles i to og snoes, hvorefter de samlet til en lille snurrer.
 Lad dem efterhæve på en bageplade med bagepapir i ca 15 minutter, mens ovnen varmes op til 175 grader varmluft. Pensl med et sammenpisket æg og bag i ca. 16-20 minutter.
 Lad dem afkøle på en rist.
 Tip: de er gode til madpakken og kan fint fryses ned.'),
   (2359, 'Krydrede ristede græskarkerner', 'https://www.valdemarsro.dk/krydrede-graeskarkerner/', 'https://www.valdemarsro.dk/wp-content/2017/01/krydrede-graeskarkerner.jpg', '10', '1 serving', 'Rist græskarkerner, spidskommen og koriander på en tør pande i 2-3 minutter ved middelhøj varme.
-Tilsæt soya og honning – rør rundt og smag til med en smule citronsaft
+Tilsæt soya og honning - rør rundt og smag til med en smule citronsaft
 Lad græskarkernerne køle af på et stykke bagepapir.
 Opskriften giver 100 g'),
   (2362, 'Hindbær og Cashew smoothie', 'https://www.valdemarsro.dk/hindbaer-og-cashew-smoothie/', 'https://www.valdemarsro.dk/wp-content/2016/10/hindbaer-cashew.jpg', '5', '2 servings', 'Blend det hele godt sammen og nyd med det samme'),
@@ -1116,13 +1039,13 @@ Kom æg på midten af hver pizza og sæt dem i ovnen igen. Bag videre til bunden
 Så er de lækre små jordskokkepizzaer klar til at tage ud af ovnen og til at blive drysset med timianblade, salt, peber og få et dryp olivenolie inden servering.'),
   (2369, 'Kaffesirup', 'https://www.valdemarsro.dk/kaffesirup/', 'https://www.valdemarsro.dk/wp-content/2016/01/kryddersirup.jpg', '40', '1 serving', 'Kom alle ingredienserne i en gryde.
 Kog det op og lad det simre til det er svundet ind til ca det halve.
-Hæld på en ren skoldet flaske – krydderierne kan enten blive i siruppen for at trække mere smag eller de kan sies fra.
+Hæld på en ren skoldet flaske - krydderierne kan enten blive i siruppen for at trække mere smag eller de kan sies fra.
 Kan opbevares på køkkenbordet og bruges i løbet af en måned eller to.
 Tip
 Fordelen ved glykosesirup, eller blandingen af to forskellige sukkertyper er at siruppen ikke krystalisere så nemt, som hvis man blot bruger ren sukker.'),
-  (2373, '3 x Popcorn opskrifter med lækre krydderier', 'https://www.valdemarsro.dk/popcorn/', 'https://www.valdemarsro.dk/wp-content/2016/01/popcorn.jpg', '15', '4 servings', 'Det samme gælder for alle tre opskrifter, så følg blot vejledningen til den enkelte smagsvariant her – eller pop en masse popcorn og lav tre skåle popcorn med hver sin lækre smag!
+  (2373, '3 x Popcorn opskrifter med lækre krydderier', 'https://www.valdemarsro.dk/popcorn/', 'https://www.valdemarsro.dk/wp-content/2016/01/popcorn.jpg', '15', '4 servings', 'Det samme gælder for alle tre opskrifter, så følg blot vejledningen til den enkelte smagsvariant her - eller pop en masse popcorn og lav tre skåle popcorn med hver sin lækre smag!
 Kom majskerner i en gryde sammen med solsikkeolie eller kokosolie. Sæt låg på og sæt temperaturen på 2-3 højeste niveau.
-Så snart popcornene begynder at poppe skrues ned på anden laveste temperatur. Ryst gryden med mellemrum og når der er et 3-4 sekunder mellem poppene, så er de færdig og gryden tages af varmen. Kom smør i gryden og ryst gryden  grundigt med låg over og et par grydelapper.
+Så snart popcornene begynder at poppe skrues ned på anden laveste temperatur. Ryst gryden med mellemrum og når der er et 3-4 sekunder mellem poppene, så er de færdig og gryden tages af varmen. Kom smør i gryden og ryst gryden  grundigt med låg over og et par grydelapper.
 Kom popcornene i hver sin skål og vend dem med de lækre krydderier og salt.
 Serveres gerne lune og frisktpoppede.'),
   (2376, 'Quinoagrød med kokos og banan', 'https://www.valdemarsro.dk/quinoagroed-med-kokos-og-banan/', 'https://www.valdemarsro.dk/wp-content/2015/11/quinoa-morgenmad.jpg', '25', '1 serving', 'Forberedelser
@@ -1138,30 +1061,30 @@ Smag til med mælk og varm det kort op igen inden det serveres.
 Server med kanelsukker, smørklat og bananer i skiver.'),
   (2385, 'Kanelbrød - pull apart bread', 'https://www.valdemarsro.dk/kanelbroed-pull-apart-bread/', 'https://www.valdemarsro.dk/wp-content/2015/11/pull-apart-bread.jpg', '90', '1 serving', 'Mælk og smør lunes i en gryde. Den skal bare være lidt varm nok til at smørret smelter, tag gryden af varmen og lad det køle lidt af til det er lillefingervarmt.
 Rør gær i og rør godt rundt. Skrab vaniljen ud af vaniljestangen og rør vaniljekornene sammen med sukker. Kom det i mælk og smør blandingen.
-Rør halvdelen af mel sammen med kanel og salt og rør det i blandingen sammen med æg.
+Rør halvdelen af mel sammen med kanel og salt og rør det i blandingen sammen med æg.
 Tilsæt derefter lidt efter lidt mere mel, til dejen er lækker, smidig og blød.
 Lad dejen hæve på køkkenbordet i en halv times tid.
 Mens dejen hæver, røres remoncen sammen i en skål.
 Rul nu dejen ud i en stor firkant og smør den med remonce. Skær derefter lange strimler der passer i størrelsen til bredden minus 1-2 cm på din brødform.
-Læg alle strimlerne oven på hinanden og skær stykker der passer med at hver ‘pakke’ dej kan stilles på højkant efter hinanden i en smurt brødform. (se evt denne vejledning som er samme type brød)
+Læg alle strimlerne oven på hinanden og skær stykker der passer med at hver ''pakke'' dej kan stilles på højkant efter hinanden i en smurt brødform. (se evt denne vejledning som er samme type brød)
 Jeg brugte små mini forme, men det er helt samme proces med størrelsen og formen.
 Lad kanelbrødet hæve i formen i ca 30-40 minutter, hvorefter det bages i en 175 grader varm ovn ved varmluft i ca 20 minutter.
 Eller 4 små forme'),
   (2388, 'Pina Colada Smoothie', 'https://www.valdemarsro.dk/pina-colada-smoothie/', 'https://www.valdemarsro.dk/wp-content/2016/03/pina-colada-smoothie.jpg', '5', '2 servings', 'Det hele i en blender og blend godt igennem til smoothien bliver tyk og cremet.
 Server i to glas og nyd med det samme'),
-  (2391, 'Energikugler', 'https://www.valdemarsro.dk/energihapsere/', 'https://www.valdemarsro.dk/wp-content/2016/03/energikugler.jpg', '10', '20 servings', 'Hak dadlerne groft på et skærebræt. Og bland dem i en skål med kakao og krydderier – de bliver lettere at køre igennem minihakkeren på denne måde.
+  (2391, 'Energikugler', 'https://www.valdemarsro.dk/energihapsere/', 'https://www.valdemarsro.dk/wp-content/2016/03/energikugler.jpg', '10', '20 servings', 'Hak dadlerne groft på et skærebræt. Og bland dem i en skål med kakao og krydderier - de bliver lettere at køre igennem minihakkeren på denne måde.
 Blend mandlerne i minihakkeren og kom derefter dadler, krydderier og alt det andet i, med undtagelse af chiafrø og hampefrø, som jeg først kommer i til allersidst.
-Kør evt dadlerne lidt af gangen i små portioner. Rør det hele godt sammen med smør, hampefrø og chiafrø – og tril derefter kugler i små mundrette bider. Sæt dem på køl, så de er kolde og ikke alt for bløde, når de skal spises.'),
+Kør evt dadlerne lidt af gangen i små portioner. Rør det hele godt sammen med smør, hampefrø og chiafrø - og tril derefter kugler i små mundrette bider. Sæt dem på køl, så de er kolde og ikke alt for bløde, når de skal spises.'),
   (2395, 'Juice med kiwi', 'https://www.valdemarsro.dk/groen-juice-kiwi/', 'https://www.valdemarsro.dk/wp-content/2015/09/groentsagsjuice.jpg', '5', '1 serving', 'Kom det hele i en juicer og nyd med isterninger.
-Kan også sagtens blendes, så bliver det blot en mere fiberrig fyldig drik – i så fald vil jeg anbefale at komme en lille moden banan i, så drikken bliver mere cremet og smoothie lækker.'),
-  (2398, 'Romtoddy', 'https://www.valdemarsro.dk/romtoddy/', 'https://www.valdemarsro.dk/wp-content/2016/02/rom-toddy.jpg', '10', '2 servings', 'Rør rom, honning og citronsaft sammen – eller blot rom og honning, hvis der bruges citron eller appelsinskiver.
+Kan også sagtens blendes, så bliver det blot en mere fiberrig fyldig drik - i så fald vil jeg anbefale at komme en lille moden banan i, så drikken bliver mere cremet og smoothie lækker.'),
+  (2398, 'Romtoddy', 'https://www.valdemarsro.dk/romtoddy/', 'https://www.valdemarsro.dk/wp-content/2016/02/rom-toddy.jpg', '10', '2 servings', 'Rør rom, honning og citronsaft sammen - eller blot rom og honning, hvis der bruges citron eller appelsinskiver.
 Kom kanel, stjerneanis og /eller ingefær i to glas, sammen med rom, honning og citrus.
-Hæld varm frisklavet te over og nyd med det samme – gerne under en varm dyne eller et tæppe. 
+Hæld varm frisklavet te over og nyd med det samme - gerne under en varm dyne eller et tæppe. 
 Tip til skøn variant
 I stedet for te, prøv også med varm hyldeblomstsaft'),
   (2402, 'Orange grøntsagsjuice', 'https://www.valdemarsro.dk/orange-groentsagsjuice/', 'https://www.valdemarsro.dk/wp-content/2015/09/juice1.jpg', '10', '2 servings', 'Rengør grøntsagerne, og skær dem i passende stykker til juiceren.
 Kør dem gennem juiceren og nyd juicen frisktlavet med isterninger.'),
-  (2406, 'Gylden mælk med gurkemeje', 'https://www.valdemarsro.dk/gylden-gurkemeje-drik/', 'https://www.valdemarsro.dk/wp-content/2015/06/gurkemeje-drik.jpg', '10', '2 servings', 'Sæt gerne mandlerne i blød natten over, eller gå direkte til næste step, som er at komme alle ingredienserne i en blenderskål og blende det godt og grundigt til en smooth drik, som smages til med honning.'),
+  (2406, 'Gylden mælk med gurkemeje', 'https://www.valdemarsro.dk/gylden-gurkemeje-drik/', 'https://www.valdemarsro.dk/wp-content/2015/06/gurkemeje-drik.jpg', '10', '2 servings', 'Sæt gerne mandlerne i blød natten over, eller gå direkte til næste step, som er at komme alle ingredienserne i en blenderskål og blende det godt og grundigt til en smooth drik, som smages til med honning.'),
   (2409, 'Vietnamesisk papaya salat', 'https://www.valdemarsro.dk/papaysalat-vietnamesisk/', 'https://www.valdemarsro.dk/wp-content/2015/06/papayasalat.jpg', '10', '8 servings', 'Rør dressingen sammen og smag den til med mere chili eller hvidløg.
 Vend dressingen godt med papayastrimler, gulerodsstrimler og krydderurter.
 Drys til sidst peanuts over inden servering'),
@@ -1201,7 +1124,7 @@ Blend det hele grundigt til smoothien er lækker cremet.
 Kom mælk i så det bliver lige den konsistens der ønskes. Mindre mælk, så bliver den helt softice lækker og skal spises med en ske.'),
   (2439, 'Æg en cocotte med kartofler og asparges', 'https://www.valdemarsro.dk/asparges-og-kartofler-en-cocotte/', 'https://www.valdemarsro.dk/wp-content/2014/05/asparges-og-kartofler-en-cocotte.jpg', '15', '1 serving', 'Knæk enderne af asparges og del dem i tre lige store stykker.
 Skræl eller pil kartoflerne og kog dem næsten færdigt.
-Smør formen og fordel kartofler og asparges deri. Slå æggene ud i formen. Rør fløde og sennep sammen, tilsæt en smule salt og peber og hæld det i formen
+Smør formen og fordel kartofler og asparges deri. Slå æggene ud i formen. Rør fløde og sennep sammen, tilsæt en smule salt og peber og hæld det i formen
 Bag i ovnen ved 175 grader i 10-12 minutter. Eller til æggehviden er stivnet. Spises som den er, eller serveres med salat og godt brød.'),
   (2442, 'Saltede lakridsmandler', 'https://www.valdemarsro.dk/saltede-lakridsmandler/', 'https://www.valdemarsro.dk/wp-content/2014/04/saltede-lakridsmandler.jpg', '30', '1 serving', 'Skyl mandlerne grundigt under rindende vand.
 Vend dem med kogende vand, salt og lakridspulver. Lad det stå i en halv times tid og sigt derefter vandet fra.
@@ -1221,11 +1144,11 @@ Kør det hele gennem en juicer og nyd gulerodsjuicen friskpresset.'),
   (2456, 'Granatæblesirup', 'https://www.valdemarsro.dk/granataeblesirup/', 'https://www.valdemarsro.dk/wp-content/2014/05/granataeblesirup.jpg', '30', '1 serving', 'Bank granatæblerne mod bordpladen, så kernerne løsnes.
 Skær granatæblerne over og tag kerner og saft ud i en gryde. Fjern de hvide hinder.
 Kom et par stjerneanis ved og 1 dl sukker, samt honning eller glykosesirup.
-Kog op og lad det koge i 15-25 minutter – tjek konsistensen et par gange, når det er klart så sies siruppen i et rent glas eller en flaske.'),
+Kog op og lad det koge i 15-25 minutter - tjek konsistensen et par gange, når det er klart så sies siruppen i et rent glas eller en flaske.'),
   (2458, 'Banan Mynte Shake', 'https://www.valdemarsro.dk/yndlings-mynte-shake/', 'https://www.valdemarsro.dk/wp-content/2013/11/bananmynteshake_.jpg', '5', '1 serving', 'Hak myntebladene helt fint og blend dem derefter sammen med banan, vanilje og en lille sjat mælk.
 Når mynten er perfekt blendet, tilsættes resten af mælken og den blendes cremet'),
   (2460, 'Æblesirup', 'https://www.valdemarsro.dk/aeblesirup/', 'https://www.valdemarsro.dk/wp-content/2013/10/aeblesirup-opskrift.jpg', '30', '1 serving', 'Skrab kornene ud af vaniljestangen, og bland vaniljen med sukker.
-Kog det hele sammen i en gryde til konsistensen er lækker sirupsagtig – tag testprøver med en teske. Det må endelig ikke være for tykt, for så stivner det til bolcher, når det bliver koldt. Skulle det ske, så kom lidt mere æblemost i.
+Kog det hele sammen i en gryde til konsistensen er lækker sirupsagtig - tag testprøver med en teske. Det må endelig ikke være for tykt, for så stivner det til bolcher, når det bliver koldt. Skulle det ske, så kom lidt mere æblemost i.
 Opbevar på en flaske eller glas på køl, hvor det kan holde sig i 1-2 måneder.
 Tip
 Æblesirup kan også tilberedes ved blot at koge 7 dl friskpresset æblemost ind til det halve.
@@ -1241,7 +1164,7 @@ Dæk skålen med et låg eller et rent viskestykke. Lad det stå på køkkenbord
 Form bollerne i den ønskede størrelse og lad dem hæve på en bageplade med bagepapir i 30 minutter.
 Bag bollerne i en forvarmet ovn ved 220 grader varmluft i 15-16 minutter.'),
   (2469, 'Blomkålspizza med pizzabund lavet af blomkål', 'https://www.valdemarsro.dk/hjemmelavet-pizza-lavet-pa-blomkalsbund/', 'https://www.valdemarsro.dk/wp-content/2012/09/pizza-med-blomkaalbund.jpg', '45', '4 servings', 'Det hele blandes godt sammen i en skål og spredes tyndt ud på en bageplade beklædt med bagepapir. Brug hænderne til at glatte blomkålsbunden godt ud i et tyndt lag
-Denne portion passer til 1 ½ bageplade ”pizza”.
+Denne portion passer til 1 1/2 bageplade "pizza".
 Bundene forbages 20 minutter i en forvarmet ovn ved 220 grader varmluft til de lige netop er sprøde.
 Imens koges tomatsaucen ind sammen med oregano i en gryde til konsistensen er cremet og ikke vandet.
 De færdigbagte pizzabunde anrettes den med fyld; et tyndt lag tomatsauce, derefter ost og toppings, undtagen den friske persille.
@@ -1254,13 +1177,13 @@ Stik kiksene ud med et glas, din yndlingsudstikker eller skær dem i firkanter.
 Sæt kiksene på en bageplade og prik dem med en gaffel.
 Bages i en forvarmet ovn ved 175 grader varmluft i ca 15 minutter.'),
   (2476, 'Pocherede æg med spinat', 'https://www.valdemarsro.dk/pocherede-aeg-med-spinat/', 'https://www.valdemarsro.dk/wp-content/porcherede-egg.jpg', '15', '1 serving', 'Ægget slåes ud i en skål. Skru ned for varmen på vandet, så det lige knap koger, pisk vandet rundt i cirkler, og hæld det ægget i skålen forsigtigt i vandet.
-Æggehviden vil nu samle sig om blommen og man kan hjælpe det lidt forsigtigt med en ske. Du kan se når det er færdigt, for æggehviden bliver helt hvid inden for ret kort tid – og det skal smile indeni, omkring 3 minutter plejer jeg at give dem.
+Æggehviden vil nu samle sig om blommen og man kan hjælpe det lidt forsigtigt med en ske. Du kan se når det er færdigt, for æggehviden bliver helt hvid inden for ret kort tid - og det skal smile indeni, omkring 3 minutter plejer jeg at give dem.
 Tilbehør forslag.
 spinatblade, ristet rugbrød, asparges, salater, solmodne tomater, alt efter årstiden og lyst'),
   (2478, 'Æble mynte juice', 'https://www.valdemarsro.dk/aeble-mynte-juice/', 'https://www.valdemarsro.dk/wp-content/Aeble-mynte-juice.jpg', '10', '1 serving', 'Æbler, citron, mynte og ingefær kommes i en juicer.
 Har man ikke en juicer, så brug en god købt æblejuice/most og blend ingefær, citronsaft og mynte i juicen.'),
   (2482, 'Kardemommekiks', 'https://www.valdemarsro.dk/kardemommekiks/', 'https://www.valdemarsro.dk/wp-content/kiks_julie.jpg', '80', '15 servings', 'Hæld 1 dl kogende vand over havregryn i en lille skål.
-Smør og sukker blandes godt sammen og derefter blandes det med mel, salt, kardemomme, og bagepulver.
+Smør og sukker blandes godt sammen og derefter blandes det med mel, salt, kardemomme, og bagepulver.
 Ælt sammen med de iblødsatte havregryn og ælt dejen hurtigt til den lige netop hænger sammen.
 Kom dejen i en skål med låg på, og sæt skålen i køleskabet i mindst en time.
 Tag dejen ud af posen og tril dejen ud på en bordplade, drysset med mel.
@@ -1282,7 +1205,7 @@ Lad det simre i et par timer, hvorefter det sies igen.
 Den sigtede fond hældes i beholdere og kan fryses, bruges til suppe, saucer og hvor man ellers vil anvende kyllinge fond og boullion.
 Opskriften er til ca 6 personer'),
   (2503, 'Granatæble granita', 'https://www.valdemarsro.dk/appelsin-og-granataeble-granita/', 'https://www.valdemarsro.dk/wp-content/granataeble-granita.jpg', '360', '8 servings', 'Hæld vand og sukker i en gryde og lad det koge ind til ca 500 ml.
-Pres appelsinerne til saft. Skær granatæblerne over og tag alle kernerne tages ud. Brug en skål eller et skærebræt med riller, da al saften skal bruges. Granatæblekernerne kommes i en morter og moses, så saften løber – de kan også blendes og sies eller kommes i en juicer.
+Pres appelsinerne til saft. Skær granatæblerne over og tag alle kernerne tages ud. Brug en skål eller et skærebræt med riller, da al saften skal bruges. Granatæblekernerne kommes i en morter og moses, så saften løber - de kan også blendes og sies eller kommes i en juicer.
 Granatæble og appelsinsaft sigtes i en flad skål, som kan tåle frost Når sukkerlagen er kogt ind til 500 ml tilsættes den saften, rør rundt og sæt i fryseren. Forvent at det tager ca 5-6 timer og rør i det løbende, bare 2-3 gange, da det fryser først i siderne af skålen.
 Serveres i små glas eller fine skåle og nyd straks, da det tør lynhurtigt op.'),
   (2506, 'Mexi agurkesalat', 'https://www.valdemarsro.dk/agurkesalat-lidt-utraditionel-og-perfekt-til-tortillas/', 'https://www.valdemarsro.dk/wp-content/agurkesalat.jpg', '5', '1 serving', 'Vend alle ingredienserne sammen i en skål og smag til'),
@@ -1305,7 +1228,7 @@ Form runde kugler og sæt dem på en bageplade med bagepapir. Giv dejkuglerne et
 Bag dem i en forvarmet ovn ved 175 grader varmluft i cirka 13-15 minutter. Lad dem køle lidt af på bagepladen, inden de sættes på en bagerist.'),
   (2519, 'Frozen Yoghurt', 'https://www.valdemarsro.dk/frozen-yoghurt-med-honning/', 'https://www.valdemarsro.dk/wp-content/2015/07/frozen-yoghurt.jpg', '120', '6 servings', 'Pisk alle ingredienserne sammen i en skål og kom det i en ismaskine og lad det køre i 25 minutter eller til det er luftigt og lækkert.
 Kom den færdige yoghurtis i en beholder og sæt i fryseren i en time.
-Kom isen i en sprøjtepose med stor stjernetyl og fyld isen i små bægere og top med alverdens dejlige bær, nødder, kerner – eller med slik og chokolade.'),
+Kom isen i en sprøjtepose med stor stjernetyl og fyld isen i små bægere og top med alverdens dejlige bær, nødder, kerner - eller med slik og chokolade.'),
   (2522, 'Pink champagnesorbet', 'https://www.valdemarsro.dk/pink-champagnesorbet/', 'https://www.valdemarsro.dk/wp-content/2016/01/pink-champagne-sorbet.jpg', '180', '10 servings', 'Kom vand og sukker i en gryde, kog det op og lad det koge til sukkeret er opløst.
 Tag gryden af varmen, hæld den mousserende vin i og rør rundt. Tilsæt grapefrugt og kom en anelse frugtfarve i. Endelig ikke for meget, blot så det bliver en svag pink farve. Sigt blandingen og stil på i køleskabet i minimum 3 timer.
 Kør det på en ismaskine til det bliver en flot pink champagnesorbet.
@@ -1330,24 +1253,24 @@ Fordel dejen i muffinsforme og bag i en forvarmet ovn ved 175 grader varmluft i 
 Lad kagerne køle lidt af på en rist.'),
   (2561, 'Monkeybread - kanelkage', 'https://www.valdemarsro.dk/monkeybread-kanelbroed/', 'https://www.valdemarsro.dk/wp-content/2017/01/monkeybread.jpg', '120', '1 serving', 'Smelt smøret i en gryde ved lav varme.
 Rør gæren ud i mælken i en skål og hæld det smeltede smør i, sammen med 2 æg. Rør det godt sammen.
-Bland det grove mel med sukker, kanel, kardemomme, vanilje og salt og rør det i skålen med smør/mælk blandingen. Tilsæt hvedemel lidt af gangen, til dejen kan æltes – ælt dejen på køkkenbordet til den er smidig og blød.
-Lad dejen hæve på køkkenbordet i en skål med et rent klæde over i 45 minutter.
+Bland det grove mel med sukker, kanel, kardemomme, vanilje og salt og rør det i skålen med smør/mælk blandingen. Tilsæt hvedemel lidt af gangen, til dejen kan æltes - ælt dejen på køkkenbordet til den er smidig og blød.
+Lad dejen hæve på køkkenbordet i en skål med et rent klæde over i 45 minutter.
 Når dejen er hævet, gøres remonce klar. Smelt smør, farin og kanel i en gryde ved lav varme.
-Del dejen op i en masse små stykker som trilles til kugler a ca 1 1/2 cm i diameteren. Vend alle kuglerne et par stykker af gangen i den flydende sukkerblanding og læg dem derefter lag på lag i en form, beklædt med bagepapir. Min form er en rund springform på 18 cm i diameteren – men man kan også fint bruge en rugbrødsform eller lign.
-Når alle kuglerne er sat i formen, hældes resten af sukkerblandingen over og  efterhæver i et kvarter, før den bages i ovnen ved 175 grader varmluft i 45 minutter.
+Del dejen op i en masse små stykker som trilles til kugler a ca 1 1/2 cm i diameteren. Vend alle kuglerne et par stykker af gangen i den flydende sukkerblanding og læg dem derefter lag på lag i en form, beklædt med bagepapir. Min form er en rund springform på 18 cm i diameteren - men man kan også fint bruge en rugbrødsform eller lign.
+Når alle kuglerne er sat i formen, hældes resten af sukkerblandingen over og  efterhæver i et kvarter, før den bages i ovnen ved 175 grader varmluft i 45 minutter.
 Tip
-kagen kan evt pyntes med hvid glasur – men vi spiste den blot som den er her.
+kagen kan evt pyntes med hvid glasur - men vi spiste den blot som den er her.
 Opskriften er til ca 8 personer'),
   (2564, 'Hjemmelavet twix', 'https://www.valdemarsro.dk/hjemmelavet-twix/', 'https://www.valdemarsro.dk/wp-content/2015/06/hjemmelavet-twix.jpg', '45', '8 servings', 'Kiks
 Bland mel, salt og sukker sammen og smuldr smør i. Smuldr det hele godt sammen og saml hurtigt dejen med først halvdelen af det sammenpiskede æg og saml dejen til den er fast og glat. Tilsæt evt en smule mere æg efter behov. Rul kiksedejen ud mellem to stykker bagepapir og skær lange strimler i twix størrelse.
-Bag i en forvarmet ovn ved 200 grader varmluft i 10-15 minutter – til kiksene er gyldne i kanterne. Lad dem køle af på bagepladen.
+Bag i en forvarmet ovn ved 200 grader varmluft i 10-15 minutter - til kiksene er gyldne i kanterne. Lad dem køle af på bagepladen.
 Karamel
-Kom sukker, glukosesirup og fløde i en gryde og kog det op. Lad det simre i omkring 20-30 minutter – eller indtil karamellen er tyktflydende efter kort tid, når der tages en prøve op på en kold tallerken. Man skal lige prøve sig frem, men tænk på at karamellen skal kunne sidde fast på toppen af kiksen uden at glide af og samtidig gerne skal kunne sprøjtes ud af en sprøjtetylle.
+Kom sukker, glukosesirup og fløde i en gryde og kog det op. Lad det simre i omkring 20-30 minutter - eller indtil karamellen er tyktflydende efter kort tid, når der tages en prøve op på en kold tallerken. Man skal lige prøve sig frem, men tænk på at karamellen skal kunne sidde fast på toppen af kiksen uden at glide af og samtidig gerne skal kunne sprøjtes ud af en sprøjtetylle.
 Chokolade + saml chokoladebaren
-Hak chokoladen fint og temperer den over et vandbad, ved først at smelte 2/3 del chokolade under omrøring. Tag chokoladen af varmen fra vandbadet og rør så den resterende 1/3 chokolade i.
+Hak chokoladen fint og temperer den over et vandbad, ved først at smelte 2/3 del chokolade under omrøring. Tag chokoladen af varmen fra vandbadet og rør så den resterende 1/3 chokolade i.
 Pensl hver kiksebund med chokolade og lad dem tørre inden de vendes om.
 Kom karamellen i en sprøjtepose og lav tykke gavmilde striber karamel udover hver kiks. Kom derefter chokoladen i en sprøjtepose (det synes jeg var nemmest og gav det pæneste resultat) og fordel chokoladen over kiks og karamel.
-Lad chokoladen størkne og nyd ♥'),
+Lad chokoladen størkne og nyd '),
   (2570, 'Chokoladepinde', 'https://www.valdemarsro.dk/chokoladepinde/', 'https://www.valdemarsro.dk/wp-content/2013/03/chokoladepinde-skumfiduser.jpg', '10', '4 servings', 'Smelt den ene halvdel hvid chokolde i et vandbad under omrøring, tag skålen med chokoladen af og rør den anden halvdel hvide chokolade i til det er helt ensartet.
 Kom den hvide chokolade i 4 shotsglas og derefter tre små skumfiduser i hver glas.
 Stil glassene i køleskabet.
@@ -1363,16 +1286,16 @@ Læg dem til tørre på et stykke bagepapir'),
   (2581, '3 x fyldte chokolader', 'https://www.valdemarsro.dk/fyldte-chokolader/', 'https://www.valdemarsro.dk/wp-content/2017/10/fyldt-chokolade-opskrift.jpg', '120', '60 servings', 'Tempere den mørke chokolade til chokoladeskallerne
 Hak chokoladen helt fint.
 Smelt 2/3 af chokolade under omrøring i et vandbad til den er 50 grader (max 55 grader), mål undervejs. Tag af varmen og rør resten af chokoladen i. Temperaturen skal nu falde til 28 grader. Stil evt skålen på køl i nogle minutter, rør grundigt og fortsæt til temperaturen er 28 grader.
-Sæt derefter skålen i vandbadet i 10 sekunder, rør rundt og mål temperaturen igen – fortsæt med dette til temperaturen er steget til 31-32 grader, hvorefter chokoladen er klar til at blive hældt på formene.
+Sæt derefter skålen i vandbadet i 10 sekunder, rør rundt og mål temperaturen igen - fortsæt med dette til temperaturen er steget til 31-32 grader, hvorefter chokoladen er klar til at blive hældt på formene.
 Hæld den temperede chokolade i alle hullerne af chokoladeformen, vend formen rundt og lad chokoladen løbe tilbage i skålen. Skrab overfladen af formen ren med en spartel. Nu er de små chokoladeskåle i formen klar til at blive fyldt, så snart chokoladen er størknet.
-Hvid chokoladetrøffel med hindbær – 20 stk
+Hvid chokoladetrøffel med hindbær - 20 stk
 Smelt chokolade og fløde over vandbad, tag af varmen og rør frysetørret hindbær i. Lad det køle af til under 32 grader, inden det fyldes i chokoladeskallerne.
-Nougatknas – 20 stk.
+Nougatknas - 20 stk.
 Smelt sukker og vand på en pande, til det bliver en gylden karamel. Tilsæt hasselnødder, og tag panden af varmen. Hæld de karamelliserede hasselnødder ud på et stykke bagepapir, og lad dem køle af. Hak dem fint. Smelt nougat over vandbad. Bland nougaten med de finthakkede hasselnødder.
-Baileys og mælkechokolade – 20 stk.
+Baileys og mælkechokolade - 20 stk.
 Smelt chokoladen og fløde over vandbad, tag af varmen, lad det køle lidt af og rør Baileys i.
 Fyld chokoladeskallerne med fyld
-Fordel fyldet i formen og glat overfladen ud. Fyldet skal gerne være cirka 1 milimeter under overfladen af formen, så der er plads til at ‘lukke’ med chokolade.
+Fordel fyldet i formen og glat overfladen ud. Fyldet skal gerne være cirka 1 milimeter under overfladen af formen, så der er plads til at ''lukke'' med chokolade.
 Fordel tempereret chokolade over fyldet og lad det sætte sig. Stil evt i køleskab i 10 minutter.
 Bank chokoladerne ud af formen.'),
   (2585, 'Rødbedekage', 'https://www.valdemarsro.dk/roedbedekage/', 'https://www.valdemarsro.dk/wp-content/2015/08/roedbedekage-app.jpg', '60', '8 servings', 'Smelt smør i en gryde ved lav varme, tag gryden af varmen og rør chokoladen i.
@@ -1382,7 +1305,7 @@ Kom kagedejen i en smurt springform på 22 cm, beklædt med bagepapir i bunden o
 Lad kagen køle lidt af i formen og tag den derefter ud og lad den køle af på en rist.
 Frosting
 Pisk flormelis, lidt farvepasta (rødbedesaft eller frugtfarve, juster mængden til farven er fin), vanilje og smør med en håndmikser, til det er luftigt. Rør flødeost i og smør det på den afkølede kage.'),
-  (2588, 'Rødbedemuffins', 'https://www.valdemarsro.dk/roedbedemuffins/', 'https://www.valdemarsro.dk/wp-content/2018/08/roedbedemuffins.jpg', '45', '12 servings', 'Smelt smørret i en gryde ved lav varme, tag gryden af varmen og rør  chokoladen i.
+  (2588, 'Rødbedemuffins', 'https://www.valdemarsro.dk/roedbedemuffins/', 'https://www.valdemarsro.dk/wp-content/2018/08/roedbedemuffins.jpg', '45', '12 servings', 'Smelt smørret i en gryde ved lav varme, tag gryden af varmen og rør  chokoladen i.
 Pisk æg og sukker sammen, til det er luftigt. Hæld langsomt smør og chokoladeblandingen i under omrøring.
 Bland hvedemel, kakao, vaniljepulver, bagepulver og salt godt sammen og rør det i dejen, sammen med revet rødbede.
 Fordel kagedejen i muffinsforme og bag i en forvarmet ovn ved 175 grader varmluft i cirka 18 minutter.
@@ -1414,7 +1337,7 @@ Sæt dejen i køleskabet overdækket med et rent klæde i 12-18 timer.
 Tag dejen ud og tryk den lidt ud til cirka 1 cm i højden på køkkenbordet, drysset med groft mel. Udstik muffins med en udstikker på cirka 8 cm i diameter.
 Bag bollerne på en tør pande ved middel varme i cirka 10-12 minutter på hver side. Hvis du er tvivl om de har fået nok, så kan de bages færdigt i ovnen ved 175 grader i 5 minutter.
 Hollandaise
-Smelt smør i en gryde over lav varme og hæld det derefter i et lille glas, lad vallen (bundfaldet) blive i gryden og kasser det.
+Smelt smør i en gryde over lav varme og hæld det derefter i et lille glas, lad vallen (bundfaldet) blive i gryden og kasser det.
 I en ren gryde kommes æggeblomme, lidt citronsaft, dijon og det piskes godt med et piskeris over den laveste varme, til det tykner en smule.
 Gryden må endelig ikke stå på varmen, uden der piskes!
 Hæld nu en smule smør i og pisk det godt ind, hvorefter resten af smørret langsomt piskes godt ind i saucen.
@@ -1425,8 +1348,8 @@ Kom eddike i vandet, skrue ned for varmen så vandet blot simre i kanten.
 Lav en lille hvirvel i vandet med en ske og dump det ene æg derned, saml det hurtigt med en hulske og lad det småkoge i 3-4 minutter, hvorefter det tages op og trimmes så det ser pænt ud.
 Server det pocheret æg på en halv english muffin, toppet med bacon eller skinke, kom hollandaise over og drys med purløg.'),
   (2610, 'Polenta fritter', 'https://www.valdemarsro.dk/laekre-sproede-polenta-fritter/', 'https://www.valdemarsro.dk/wp-content/2015/11/polentafritter.jpg', '300', '4 servings', 'Polenta fritter
-Kog vandet op, skrue ned for varmen og kom polenta i under omrøring. Rør grundigt, så det ikke klumper og lad det simre under låg i 30-45 minutter med jævne omrøringer – kom evt lidt mere vand i hvis det bliver for fast.
-Smør et fad med en smule olivenolie og kom polenta i. Tryk den godt flad og ensartet – og kom et stykke bagepapir over. Stil på køl i mindst et par timer og gerne til om aftenen næste dag …
+Kog vandet op, skrue ned for varmen og kom polenta i under omrøring. Rør grundigt, så det ikke klumper og lad det simre under låg i 30-45 minutter med jævne omrøringer - kom evt lidt mere vand i hvis det bliver for fast.
+Smør et fad med en smule olivenolie og kom polenta i. Tryk den godt flad og ensartet - og kom et stykke bagepapir over. Stil på køl i mindst et par timer og gerne til om aftenen næste dag ...
 Tag polentaen ud af formen og skær tynde pommesfrites stave. Det er nemt, for polentaen er fast og nærmest lidt gummiagtig at arbejde med.
 Vend dem godt med olie, salt og peber og bag polenta fritterne i ovnen ved 225 grader varmluft i 30 minutter, til de er sprøde. Vend dem cirka halvvejs i bagningen.
 Inden servering drysses de med fintrevet og friskrevet parmasanost og finthakket rosmarin, smages til med salt og så er der sprøde polenta fritter klar til servering med den krydrede dip.
@@ -1437,10 +1360,10 @@ Rør gær ud i en skål med stuetempereret mælk til gæren er opløst. Rør sme
 Sæt dejen i køleskabet overdækket med et rent klæde i 12-18 timer.
 Tag dejen ud og tryk den lidt ud til cirka 1 cm i højden på køkkenbordet, drysset med groft mel. Udstik muffins med en udstikker på cirka 8 cm i diameter. Bag bollerne på en tør pande ved middel varme i cirka 10-12 minutter på hver side. Hvis du er tvivl om de har fået nok, så kan de bages færdigt i ovnen ved 175 grader i 5 minutter.
 Hollandaise
-Smelt smør i en gryde over lav varme og hæld det derefter i et lille glas, lad vallen (bundfaldet) blive i gryden og kasser det.
+Smelt smør i en gryde over lav varme og hæld det derefter i et lille glas, lad vallen (bundfaldet) blive i gryden og kasser det.
 Gør gryden ren og kom æggeblomme, citronsaft, dijon i gryden og pisk det godt med et piskeris over den laveste varme, til det tykner en smule. Gryden må endelig ikke stå på varmen, uden der piskes! Hæld en smule smør i og pisk det godt ind, hvorefter resten af smørret langsomt piskes godt ind i saucen lidt efter lidt. Smag til med salt og peber og tag gryden af varmen.
 Pocheret æg
-Sæt en gryde med vand i kog, og slå æggene ud i hver sit glas. Kom lidt eddike i vandet, skrue ned for varmen, så vandet ikke koger for hårdt.  Lav en lille hvirvel i vandet med en ske og dump det ene æg derned, saml det hurtigt med en hulske og lad det småkoge i 4 minutter, hvorefter det tages op og trimmes, så det ser pænt ud. Fortsæt med de andre æg et ad gangen i det samme kogevand.
+Sæt en gryde med vand i kog, og slå æggene ud i hver sit glas. Kom lidt eddike i vandet, skrue ned for varmen, så vandet ikke koger for hårdt.  Lav en lille hvirvel i vandet med en ske og dump det ene æg derned, saml det hurtigt med en hulske og lad det småkoge i 4 minutter, hvorefter det tages op og trimmes, så det ser pænt ud. Fortsæt med de andre æg et ad gangen i det samme kogevand.
 Spinat
 Vend hurtigt spinat i smør på en varm pande, til det falder en anelse sammen og smag til med salt og peber.
 Anretning
@@ -1455,7 +1378,7 @@ Smelt smør på en pande og sauter hvidløg ved middelvarme til det dufter himme
 Rør det igennem til pastaen er perfekt tilberedt, sluk for varmen og vend halvdelen af trøflerne i, anret på tallerkener og drys med parmesan og resten af trøflerne.'),
   (2623, 'English Garden cocktail', 'https://www.valdemarsro.dk/english-garden-cocktail/', 'https://www.valdemarsro.dk/wp-content/2021/06/english-gardener-cocktail.jpg', '5', '1 serving', 'Kom gin, hyldeblomstssaft, æblejuice og limesaft i en shaker med isterninger og ryst drinken godt sammen.
 Server English Garden Cocktail i et glas med en bred strimmel agurk, en kvist mynte og masser af knust is.'),
-  (2629, 'Æg og Spinat med Sennepscreme', 'https://www.valdemarsro.dk/aeg-og-spinat-med-sennepscreme-perfekt-til-morgenmad-og-brunch/', 'https://www.valdemarsro.dk/wp-content/2012/01/aeg-spinat-sennepscreme-.jpg', '20', '2 servings', 'Beklæd to små  ovnfaste ramakiner med seranoskinke. Kom spinat ovenpå.
+  (2629, 'Æg og Spinat med Sennepscreme', 'https://www.valdemarsro.dk/aeg-og-spinat-med-sennepscreme-perfekt-til-morgenmad-og-brunch/', 'https://www.valdemarsro.dk/wp-content/2012/01/aeg-spinat-sennepscreme-.jpg', '20', '2 servings', 'Beklæd to små  ovnfaste ramakiner med seranoskinke. Kom spinat ovenpå.
 Bland sennep, de to oste, salt, peber og evt en spsk creme fraiche sammen og kom oven på spinaten.
 Slå de to æg ud i en skål for sig og hæld dem forsigtigt oven på, uden at blommen går i stykker.
 Bag i ovnen ved 175 grader varmluft i omkring 15-20 minutter.'),
@@ -1483,7 +1406,7 @@ De vil være lidt bløde der hvor osten er, men de er færdige, når de er smukt
 Kom en god håndfuld isterninger i og mælk til glasset er fyldt.'),
   (3489, 'Vandmelonsmoothie', 'https://www.valdemarsro.dk/vandmelonsmoothie/', 'https://www.valdemarsro.dk/wp-content/2011/06/vandmelonsmoothie-.jpg', '5', '4 servings', 'Alle ingredienserne blendes godt og nydes frisk.'),
   (3516, 'Julekarameller', 'https://www.valdemarsro.dk/julekarameller/', 'https://www.valdemarsro.dk/wp-content/2011/12/julekarameller.jpg', '60', '25 servings', 'Kom piskefløde, kanel, kardemomme og nelliker i en gryde og lun fløden op under omrøring til omkring 60 grader. Det skal ikke koge. Lad fløden trække smag fra krydderierne i 10 minutter og hæld derefter fløden gennem en finmasket sigte i en ren stor gryde.
-Kom sukker og glukosesirup i fløden og kog det op. Lad det koge i 35-45 minutter. Mens karamellen koger vil det bruse meget op, så sørg for at der er god plads i gryden. Rør indimellem i gryden, men ikke for ofte. Når karamelmassen slipper bunden og har en tyk og sej  konsistens, samt en temperatur på 120 grader er den færdig.
+Kom sukker og glukosesirup i fløden og kog det op. Lad det koge i 35-45 minutter. Mens karamellen koger vil det bruse meget op, så sørg for at der er god plads i gryden. Rør indimellem i gryden, men ikke for ofte. Når karamelmassen slipper bunden og har en tyk og sej  konsistens, samt en temperatur på 120 grader er den færdig.
 Hæld karamelmassen i en beholder på cirka 16×16 cm, foret med bagepapir.
 Lad karamellen stå på køkkenbordet og køle af i mindst 3 timer og skær karamellerne ud i den størrelse du ønsker.'),
   (3542, 'Græsk yoghurt med knas og æbler', 'https://www.valdemarsro.dk/brunch-og-draenet-yoghurt-med-knas-og-aebler/', 'https://www.valdemarsro.dk/wp-content/musli-med-aebler-og-knas.jpg', '15', '6 servings', 'Rist havregryn, solsikkekerner, mandler og sesamfrø på en pande ved middelvarme under omrøring.
@@ -1493,7 +1416,7 @@ Anret lag på lag i glas med ristet müsli, yoghurt, æbletern og evt en smule a
   (3547, 'Banan Lakrids Smoothie', 'https://www.valdemarsro.dk/banan-lakrids-smoothie/', 'https://www.valdemarsro.dk/wp-content/2011/11/banan-lakrids-smoothie.jpg', '5', '2 servings', 'Kom alle ingredienser i en blender og blend til de er helt luftigt, ensartet og cremet.
 Hæld op i glas og nyd straks.'),
   (3573, 'Lakridspopcorn', 'https://www.valdemarsro.dk/lakrids-popcorn/', 'https://www.valdemarsro.dk/wp-content/lakrids-popcorn.jpg', '10', '4 servings', 'Smelt den ene spsk smør, samt olivenolie i en gryde, kom popcorn i og sæt låg på. Ryst et par gange.
-Når alle popcornene er poppet – pas på de ikke brænder på – så tilsættes den anden spsk smør, salt og lakridspulver.
+Når alle popcornene er poppet - pas på de ikke brænder på - så tilsættes den anden spsk smør, salt og lakridspulver.
 Sæt låg på igen, hold godt fat i låg og gryde, så det sidder tæt. Brug fx grydelapper eller et viskestykke. Ryst rigtig godt og grundigt.
 Server og nydes straks.'),
   (3587, 'Verdens bedste hjemmebagte boller', 'https://www.valdemarsro.dk/verdens-nemmeste-og-bedste-hjemmebagte-boller/', 'https://www.valdemarsro.dk/wp-content/hjemmebagte-boller1.jpg', '600', '10 servings', 'Rør vand og gær sammen. Tilsæt hvedemel, sammen med salt og derefter resten af mel, kerner eller hvad du har lyst til. Rør rundt så det er blandet godt sammen, det skal ikke æltes eller røres i timevis.
@@ -1537,7 +1460,7 @@ De smager bedst, når de har været i køleskabet i en times tid.'),
 Æblegrøden moses igennem en sigte, så stjerneanis sorteres fra. Der skal arbejdes lidt her, men det er det værd!
 Kom den sigtede æblemos i en ren gryde sammen med sukker, vanilje, og kanelstang og kog det ved middelsvag varme under låg i en stor gryde eller sauterpande.
 Det skal simre lidt, men ikke koge.
-Rør jævnligt i det, det må ikke koge fast. Det tager tid før æblemosen karameliseres og bliver mørk og tyk. Regn med 1 1/2 – 2 timer til en portion som denne og tag gerne låget af, hvis der er for meget væde i.
+Rør jævnligt i det, det må ikke koge fast. Det tager tid før æblemosen karameliseres og bliver mørk og tyk. Regn med 1 1/2 - 2 timer til en portion som denne og tag gerne låget af, hvis der er for meget væde i.
 Kom den færdige æblesmør i et skoldet glas, evt skyllet med en smule cognac, hvor det kan holde sig i nogle måneder.
 Opskriften giver ca 3 dl'),
   (3837, 'Morgenmad med skyr og granatæble', 'https://www.valdemarsro.dk/morgenmad-med-skyr-og-granataeble-eller-en-sund-dessert/', 'https://www.valdemarsro.dk/wp-content/morgenmad-skyr.jpg', '10', '4 servings', 'Rist hakkede mandler, havregryn og honning på en pande ved middelhøj varme til det får lidt farve.
@@ -1559,13 +1482,13 @@ Tag kagerne ud af ovnen og lad dem køle kort af, hvorefter de skæres diagonalt
 Kom kagerne tilbage på bagepapiret og bag igen omkring 10 minutter.
 Lad dem køle af på en bagerist.'),
   (4196, 'Tomatpesto', 'https://www.valdemarsro.dk/tomatpesto/', 'https://www.valdemarsro.dk/wp-content/2013/09/hjemmelavet_tomatpesto.jpg', '10', '1 serving', 'Blend tomater, parmesan, olie, hvidløg og pinjekerner/nødder, til konsistensen er pesto perfekt.
-Rør krydderurter i og smag til med salt og peber, samt lidt mere olie'),
-  (4222, 'Æblegele', 'https://www.valdemarsro.dk/aeblegele/', 'https://www.valdemarsro.dk/wp-content/2013/10/aeblegele-1.jpg', '60', '1 serving', 'Skyl æblerne grundigt og fjern blomsten og stilk – men ikke kernehus.
-Skær æblet i grove tern, inkl kernehuset. Kom æbler og vand i en gryde og kog op, lad det simrekoge under låg i ½ time og si derefter gennem en fin eller et rent bomuldsklæde.
+Rør krydderurter i og smag til med salt og peber, samt lidt mere olie'),
+  (4222, 'Æblegele', 'https://www.valdemarsro.dk/aeblegele/', 'https://www.valdemarsro.dk/wp-content/2013/10/aeblegele-1.jpg', '60', '1 serving', 'Skyl æblerne grundigt og fjern blomsten og stilk - men ikke kernehus.
+Skær æblet i grove tern, inkl kernehuset. Kom æbler og vand i en gryde og kog op, lad det simrekoge under låg i 1/2 time og si derefter gennem en fin eller et rent bomuldsklæde.
 Hæld saften tilbage i en ren gryde.
 Skrab vaniljekornene ud af vaniljestangen og skil vaniljekornene fra hinanden i sukkeret. Kom vanilje, sukker og den hele vaniljestang i æblesaften. Kog op og lad det simrekoge under låg i 10 minutter.
 Tag en prøve med en teske for at se om det stivner lidt, når det køles af. Når det gør det, fiskes vaniljestangen op og æblegeleen er klar til at blive hældt på glas. Hvis der er kommet skum på toppen, skal det skummes af med en ske.
-Hæld geleen på skoldede rene glas – gerne skyllet i cognac, lad geleen køle af og sæt derefter låg på.
+Hæld geleen på skoldede rene glas - gerne skyllet i cognac, lad geleen køle af og sæt derefter låg på.
 Opskriften giver ca 5 dl gele'),
   (4255, 'Mini donuts med safranglasur', 'https://www.valdemarsro.dk/mini-donuts-med-safran/', 'https://www.valdemarsro.dk/wp-content/2013/12/mini-donuts-med-safran.jpg', '120', '24 servings', 'Smelt smør ved lav varme og det sammen med mælk og stødt safran.
 Rør gær ud i blandingen og tilsæt sukker, marcipan og salt.
@@ -1573,7 +1496,7 @@ Rør det godt sammen og tilsæt derefter hvedemel lidt efter lidt under æltning
 Kom dejen i en ren skål med et klæde over og lad den hæve en halv times tid.
 Hvis man har mini donutsforme, så deles dejen i 24 stykker, i en alm donuts form deles i 12 og har man ingen donutsform. Så trilles dejen og formes i runde cirkler ala donuts.
 Lad dem hæve i en lille times tid.
-Bages i en forvarmet ovn ved 175 grader varmluft i  10-15 minutter – afhængigt af størrelsen.
+Bages i en forvarmet ovn ved 175 grader varmluft i  10-15 minutter - afhængigt af størrelsen.
 Lad dem køle let af og pynt derefter med safranglasur.'),
   (4282, 'Sund Chokolade Smoothie', 'https://www.valdemarsro.dk/sund-chokolade-smoothie/', 'https://www.valdemarsro.dk/wp-content/2014/01/sund-chokoladesmoothie.jpg', '5', '2 servings', 'Blend det hele grundigt og kom vand eller mælk i til konsistensen er perfekt'),
   (4345, 'Blåbærsirup', 'https://www.valdemarsro.dk/uimodstaaelig-blaabaersirup/', 'https://www.valdemarsro.dk/wp-content/2014/02/blaabaersirup.jpg', '45', '1 serving', 'Skrab kornene ud af vaniljestangen og fordel dem i lidt af sukkeret.
@@ -1594,7 +1517,7 @@ Drys osten på og derefter svampene. Drys med flagesalt, timian og friskkværnet
 Fold omeletten og server med et drys frisk timian.'),
   (4552, 'Ananas lavendel juice', 'https://www.valdemarsro.dk/ananas-lavendel-juice/', 'https://www.valdemarsro.dk/wp-content/2014/08/ananasjuice-lavendel.jpg', '10', '4 servings', 'Kør både ananas og lavendelblomster gennem en slowjuicer.
 Nyd med isterninger'),
-  (4559, 'Kirsebærsaft med lime', 'https://www.valdemarsro.dk/kirsebaersaft/', 'https://www.valdemarsro.dk/wp-content/2014/07/kirsebaer-og-limesaft.jpg', '10', '1 serving', 'Skær limefrugterne i kvarte og kom dem i en blender/blenderskål – med skal – sammen med kirsebær og 1/2 dl sukker.
+  (4559, 'Kirsebærsaft med lime', 'https://www.valdemarsro.dk/kirsebaersaft/', 'https://www.valdemarsro.dk/wp-content/2014/07/kirsebaer-og-limesaft.jpg', '10', '1 serving', 'Skær limefrugterne i kvarte og kom dem i en blender/blenderskål - med skal - sammen med kirsebær og 1/2 dl sukker.
 Blend til det er en ensartet masse.
 Hæld i en sigte og smag til med mere sukker, bland op med vand til smagen er fin og server med masser isterninger.'),
   (4568, 'Chokolade pandekager', 'https://www.valdemarsro.dk/choko-pandekager-til-morgenmad/', 'https://www.valdemarsro.dk/wp-content/2014/07/chokopandekager_morgenmad.jpg', '10', '2 servings', 'Mos bananen og tilsæt æg, kakao (eller chokolade), salt, kanel og boghvedemel.
@@ -1606,7 +1529,7 @@ Smager også dejligt med skyr eller yoghurt til evt med en portion scrambled egg
   (4705, 'Chai Sirup', 'https://www.valdemarsro.dk/chai-sirup/', 'https://www.valdemarsro.dk/wp-content/2014/10/chaisirup_opskrift.jpg', '30', '1 serving', 'Rist kardemomme, nelliker, stjerneanis, peber og kanel nogle minutter i en tør gryde under omrøring, til duften breder sig i køkkenet. Lad det køle lidt af og kom vand, sukker, ingefær og vanilje i gryden til krydderierne.
 Kog op igen og lad det simre i 30 minutter.
 Sluk for varmen og lad det trække smag i 2 timer eller til næste dag.
-Sigt krydderierne fra og  koge vandet fra krydderier op igen.
+Sigt krydderierne fra og  koge vandet fra krydderier op igen.
 Kom farin, glukosesirup og sort te i det varme krydrede sukkervand og lad det trække i 6 minutter.
 Kom i en finmasket sigte, så tebladene sigtes fra og hæld siruppen på glas.'),
   (4723, 'Bagte pærer med valnødder', 'https://www.valdemarsro.dk/bagte-paerer-med-valnoedder-og-honning/', 'https://www.valdemarsro.dk/wp-content/2014/10/bagte-paere.jpg', '25', '4 servings', 'Halver pærerne og fjern kærnehus, samt blomst.
@@ -1622,8 +1545,8 @@ Pensl med sammenpisket æg og bag æblebollerne i en forvarmet ovn ved 200 grade
 Når der er et par sekunder mellem poppene, så er de klar og gryden tages af.
 Rør salt, løgpulver, mælkepulver sammen og smag til med citronsyre*. Vend popcornene godt i blandingen og nyd dem mens de er lune.
 *kan købes i fx matas'),
-  (4953, 'Granatæble smoothie', 'https://www.valdemarsro.dk/granataeble-smoothie/', 'https://www.valdemarsro.dk/wp-content/2015/01/morgenmad-til-frokost.jpg', '5', '1 serving', 'Kom det hele i et blenderglas og blend det godt sammen – server straks.'),
-  (5089, 'Grøn mangosalat med rejer', 'https://www.valdemarsro.dk/groen-mango-salat-med-rejer/', 'https://www.valdemarsro.dk/wp-content/2015/05/gron-mangosalat.jpg', '15', '4 servings', 'Bland først dressingen,  og lad den trække smag, mens salaten gøres klar.
+  (4953, 'Granatæble smoothie', 'https://www.valdemarsro.dk/granataeble-smoothie/', 'https://www.valdemarsro.dk/wp-content/2015/01/morgenmad-til-frokost.jpg', '5', '1 serving', 'Kom det hele i et blenderglas og blend det godt sammen - server straks.'),
+  (5089, 'Grøn mangosalat med rejer', 'https://www.valdemarsro.dk/groen-mango-salat-med-rejer/', 'https://www.valdemarsro.dk/wp-content/2015/05/gron-mangosalat.jpg', '15', '4 servings', 'Bland først dressingen,  og lad den trække smag, mens salaten gøres klar.
 Skræl mangoen med en kartoffelskræller og skær derefter mangoen i tynde fine strimler. Her bruges en umoden mango, så den er nemmere at arbejde med og skære i meget tynde strimler, end hvis den havde været moden.
 Bland med fint hakket mynte, løg og rejer.
 Smag dressingen til og vend den med salaten.'),
@@ -1637,7 +1560,7 @@ Tag dejen ud og tryk den lidt ud til cirka 1 cm i højden på køkkenbordet, dry
 Bag bollerne på en tør pande ved middel varme i cirka 10-12 minutter på hver side. Hvis du er tvivl om de har fået nok, så kan de bages færdigt i ovnen ved 175 grader i 5 minutter.
 Til servering
 Steg bacon sprødt på en pande.
-Kom æg i en fast muffin form og bag dem i ovnen til hviden er fast – eller lav et spejlæg på en lille pande.
+Kom æg i en fast muffin form og bag dem i ovnen til hviden er fast - eller lav et spejlæg på en lille pande.
 Læg osten på ægget til sidst, så det smelter.
 Saml den lune og nybagte engelske muffin med sprød bacon, æg og ost. Nyd den mens den er frisk og stadig lun.'),
   (5589, 'Sommersalat med ribs og stikkelsbær', 'https://www.valdemarsro.dk/sommersalat-med-stikkelsbaer-og-ribs/', 'https://www.valdemarsro.dk/wp-content/2015/08/sommersalat-stikkelsbaer-ribs-1.jpg', '10', '4 servings', 'Gnid skålen indvendigt med en overskåret fed hvidløg.
@@ -1650,16 +1573,16 @@ Kom i en skål og top med skøn toppings.'),
 Pisk æggehviderne helt stive.
 Hæld langsomt den varme sukkerlage i de stiftpiskede æggehvider under konstant piskning. Pisk til massen er lun og luftig og skrab derefter ud på et stykke bagepapir drysset med flormelis. Drys overefladen med flormelis og brug en bagespartel til at glatte nougaten ud. Lad den køle af til næste dag og stik den ud med en rund udstikker form.
 Tryk peanuts ned i massen, så de hænger let fast og overtræk derefter med tempereret mørk chokolade.'),
-  (5667, 'Gul karrypasta', 'https://www.valdemarsro.dk/hjemmelavet-gul-karry-pasta-til-asiatiske-retter/', 'https://www.valdemarsro.dk/wp-content/2015/06/gul-curry-pasta-opskrift.jpg', '30', '1 serving', 'Start med at forberede alle råvarerne, så de ligger klar på et skærebræt.
-NYD duften imens – den er helt enestående og sanselig!
-Rist krydderierne; spidskommen, kanel, koriander, nelliker, kardemomme og peberkorn på en tør pande ved middelhøj varme under omrøring. Når krydderierne begynder at sprede deres fantastiske duft i hele køkkenet, så er de klar. Kom krydderierne i en morter og stød dem indtil de er stødt helt fint.
-Herfra kan man enten vælge at komme alle ingredienserne i en større morter og hygge sig i en halv til en hel time med at støde sin helt egen curry – det er velduftende (og lidt hårdt for armene)
-– eller man komme hele herligheden i en blender/processor og så køre det godt igennem til det er den lækreste pasta.
+  (5667, 'Gul karrypasta', 'https://www.valdemarsro.dk/hjemmelavet-gul-karry-pasta-til-asiatiske-retter/', 'https://www.valdemarsro.dk/wp-content/2015/06/gul-curry-pasta-opskrift.jpg', '30', '1 serving', 'Start med at forberede alle råvarerne, så de ligger klar på et skærebræt.
+NYD duften imens - den er helt enestående og sanselig!
+Rist krydderierne; spidskommen, kanel, koriander, nelliker, kardemomme og peberkorn på en tør pande ved middelhøj varme under omrøring. Når krydderierne begynder at sprede deres fantastiske duft i hele køkkenet, så er de klar. Kom krydderierne i en morter og stød dem indtil de er stødt helt fint.
+Herfra kan man enten vælge at komme alle ingredienserne i en større morter og hygge sig i en halv til en hel time med at støde sin helt egen curry - det er velduftende (og lidt hårdt for armene)
+- eller man komme hele herligheden i en blender/processor og så køre det godt igennem til det er den lækreste pasta.
 Jeg kombinere det. Bruger morteren til at starte med og derefter kommer det i min bamix processor. Det er hurtigt, nemt og resultatet bliver glimrende.
 Et glas gul karrypasta kan holde sig i omkring 2 uger på køl, ellers kan det fryses ned i mindre portioner, så det er lige til at tage op til en omgang lækker thai ret.
 En opskrift giver et glas gul karrypasta, som rækker til 3-4 forskellige opskrifter med gul karrypasta, som en del af ingredienslisten.'),
   (5694, 'Abrikos og kokos konfektkugler', 'https://www.valdemarsro.dk/abrikos-og-kokos-konfektkugler/', 'https://www.valdemarsro.dk/wp-content/2015/10/abrikos-kokos-kugler.jpg', '10', '20 servings', 'Hak de tørrede abrikoser på et skærebræt
-Kom dem i en minihakker sammen med kokosmel, kokosolie, macadamianødder og evt et lille nip salt.
+Kom dem i en minihakker sammen med kokosmel, kokosolie, macadamianødder og evt et lille nip salt.
 Hak grundigt til massen er ensartet.
 Form 15-20 små abrikos og dadelkugler.'),
   (5787, 'Fennikelsalat med blåbær og pære', 'https://www.valdemarsro.dk/fennikelsalat-med-blaabaer-og-paere/', 'https://www.valdemarsro.dk/wp-content/2015/09/fennikelsalat.jpg', '10', '1 serving', 'Skyl og hak fennikel så fint som muligt.
@@ -1672,12 +1595,12 @@ Bag i en forvarmet ovn ved 175 grader varmluft i 10-12 minutter.'),
   (5926, 'Peberfrugt pesto med hasselnødder', 'https://www.valdemarsro.dk/peberfrugt-pesto-med-hasselnoedder/', 'https://www.valdemarsro.dk/wp-content/2016/01/pesto-peberfrugt-opskrift.jpg', '40', '1 serving', 'Rist hasselnødder i ovnen ved 175 grader varmluft i ca 10 minutter til skallerne er crispy og mørke.
 Hasselnødderne tages ud af ovnen og skallerne gnides af mellem håndfladerne. Sæt hasselnøddekernerne til side.
 Halver peberfrugterne, fjern stilk og kerner og skyl dem grundigt, hvorefter de lægges på en bageplade med bagepapir og skindsiden op. Læg hvidløgsfedene ved siden af peberfrugterne på bagepladen.
-Sæt peberfrugt og hvidløg i den varme ovn og bag i ca 20 minutter til skindet er blevet mørkt. Hold øje med dem – de bliver lige pludselig mørke!
+Sæt peberfrugt og hvidløg i den varme ovn og bag i ca 20 minutter til skindet er blevet mørkt. Hold øje med dem - de bliver lige pludselig mørke!
 Tag peberfrugter og hvidløg ud af ovnen og lad dem køle af til de ikke er brandvarme. Kom dem derefter i en frostpose og luk den til. Kondensen og varmen hjælper til med at skindet bliver super nemt at fjerne fra peberfrugtens kød.
-Træk skindet af peberfrugterne og kom dem i en foodprocessor, minihakker eller brug en stavblender. Tilsæt også hvidløgsfed, salt, peber, hasselnøddekerner, citronsaft og skal, en smule parmesan og blend det hele til en til det bliver en lækker cremet pesto. Smag til med røget paprika, chippotle, salt og olivenolie.'),
+Træk skindet af peberfrugterne og kom dem i en foodprocessor, minihakker eller brug en stavblender. Tilsæt også hvidløgsfed, salt, peber, hasselnøddekerner, citronsaft og skal, en smule parmesan og blend det hele til en til det bliver en lækker cremet pesto. Smag til med røget paprika, chippotle, salt og olivenolie.'),
   (5937, 'Chokoladebrud med saltkaramel og peanuts', 'https://www.valdemarsro.dk/chokoladebrud-med-saltkaramel/', 'https://www.valdemarsro.dk/wp-content/2016/01/karamelbrud-peanuts.jpg', '60', '1 serving', 'Karamel
 Kom alle ingredienserne til karamel i en gryde og kog op. Lad det gerne koge under omrøring i ca 40 minutter til karamellen er sej og lækker og har en temperatur på omkring 110 grader. Lad den køle lidt af i gryden
-Smelt chokoladen
+Smelt chokoladen
 Hak chokoladen og kom 2/3 af chokoladen i et vandbad.
 Smelt under omrøring til chokoladen er helt smeltet og er 50 grader. Tag af varmen og rør resten af chokoladen i, mens temepraturen sænkes til 28 grader. Lun derefter hurtigt op til 31-33 grader.
 Kom chokoladen ud på et stykke bagepapir og fordel peanuts godt i chokolade. Tryk dem gerne en smule ned i chokoladen.
@@ -1697,52 +1620,52 @@ Læg flæskeskiverne på et stykke fedtsugende papir. Hæld fedtet fra bradepand
 Kom æblerne i en sigte og lad dem dryppe godt af.
 Server på et fad sammen med det stegte flæsk.
 Drys med persille og spis med rugbrød til.'),
-  (6105, 'Wraps med æggesalat', 'https://www.valdemarsro.dk/wraps-med-aeggesalat/', 'https://www.valdemarsro.dk/wp-content/2016/01/aeggesalat-wraps.jpg', '10', '2 servings', 'Hak æggene og bacon groft og bland dem med purløg, dild, karse, creme fraiche og mayo – og smag til med en smule dijon, salt og peber.
-Smør på tortillawraps og kom i madpakken med en masse grøntsagsstave til – gulerødder, broccolibuketter, agurk og tomat er blandt favoritterne her.'),
+  (6105, 'Wraps med æggesalat', 'https://www.valdemarsro.dk/wraps-med-aeggesalat/', 'https://www.valdemarsro.dk/wp-content/2016/01/aeggesalat-wraps.jpg', '10', '2 servings', 'Hak æggene og bacon groft og bland dem med purløg, dild, karse, creme fraiche og mayo - og smag til med en smule dijon, salt og peber.
+Smør på tortillawraps og kom i madpakken med en masse grøntsagsstave til - gulerødder, broccolibuketter, agurk og tomat er blandt favoritterne her.'),
   (6121, 'Havregrynsboller med æble', 'https://www.valdemarsro.dk/havregrynsboller/', 'https://www.valdemarsro.dk/wp-content/2016/04/havreboller.jpg', '120', '12 servings', 'Rør gær ud i en skål med vand og tilsæt yoghurt, kanel, æble, dadler, salt og havregryn. Rør det godt sammen med hvedemel. Rør dejen sammen på røremaskine eller med en ske. Lad dejen hæve tildækket i 1 time på køkkenbordet og sæt derefter dejen i køleskabet til næste dag.
 Kom dejen på et meldrysset bord, skær dejen ud til boller og sæt dem på en bageplade med bagepapir. Pensl med sammenpisket æg og bag æblebollerne i en forvarmet ovn ved 200 grader varmluft i 18-20 minutter, til de er gyldne. Lad dem køle lidt af på en rist inden servering.'),
-  (6133, 'Ostebrød', 'https://www.valdemarsro.dk/ostebroed/', 'https://www.valdemarsro.dk/wp-content/2016/02/ostebroed.jpg', '120', '6 servings', 'Smelt smør i en gryde, tag gryden af varmen og rør først mælk og derefter gær i.
-Æg, salt og halvdelen af melet røres i dejen.  Tilsæt derefter lidt efter lidt mere mel, til dejen er lækker, smidig og blød.
-Lad dejen hæve på køkkenbordet i 30-45 minutter.
+  (6133, 'Ostebrød', 'https://www.valdemarsro.dk/ostebroed/', 'https://www.valdemarsro.dk/wp-content/2016/02/ostebroed.jpg', '120', '6 servings', 'Smelt smør i en gryde, tag gryden af varmen og rør først mælk og derefter gær i.
+Æg, salt og halvdelen af melet røres i dejen.  Tilsæt derefter lidt efter lidt mere mel, til dejen er lækker, smidig og blød.
+Lad dejen hæve på køkkenbordet i 30-45 minutter.
 Bland ost, hvidløg, salt, peber og finthakket persille.
-Rul dejen ud til en stor firkant og fordel osten derpå. Skær derefter lange strimler der passer i størrelsen til bredden minus 1-2 cm på din brødform.
-Læg alle strimlerne oven på hinanden og skær stykker der passer med at hver ‘pakke’ dej kan stilles på højkant efter hinanden i en smurt brødform.
-Lad ostebrødet hæve i formen i ca 45 minutter, hvorefter det pensles med æg og bages i en 175 grader varm ovn ved varmluft i ca 18-20 minutter.
+Rul dejen ud til en stor firkant og fordel osten derpå. Skær derefter lange strimler der passer i størrelsen til bredden minus 1-2 cm på din brødform.
+Læg alle strimlerne oven på hinanden og skær stykker der passer med at hver ''pakke'' dej kan stilles på højkant efter hinanden i en smurt brødform.
+Lad ostebrødet hæve i formen i ca 45 minutter, hvorefter det pensles med æg og bages i en 175 grader varm ovn ved varmluft i ca 18-20 minutter.
 Tip
-Spises helst ostebrødet nybagt, mens osten stadig er smeltet …'),
-  (6223, 'Quinoa morgengrød med hindbær og mynte', 'https://www.valdemarsro.dk/quinoa-groed/', 'https://www.valdemarsro.dk/wp-content/2016/06/quinoa-opskrift.jpg', '20', '1 serving', 'Skyl quinoagrynene i en skål  eller sigte under rindende vand, hæld vandet fra og kom quinoa og vand i en gryde. Kog op og lad det småkoge under låg i 15 minutter. Lad det køle lidt af – evt lad det køle over natten i køleskabet.
+Spises helst ostebrødet nybagt, mens osten stadig er smeltet ...'),
+  (6223, 'Quinoa morgengrød med hindbær og mynte', 'https://www.valdemarsro.dk/quinoa-groed/', 'https://www.valdemarsro.dk/wp-content/2016/06/quinoa-opskrift.jpg', '20', '1 serving', 'Skyl quinoagrynene i en skål  eller sigte under rindende vand, hæld vandet fra og kom quinoa og vand i en gryde. Kog op og lad det småkoge under låg i 15 minutter. Lad det køle lidt af - evt lad det køle over natten i køleskabet.
 Rør chiafrø, kokossukker, hakkede dadler, vanilje, salt og mandelmælk (eller kokosmælk) i de kogte quinoagryn.
 Anret med hindbær, mynte, kakaonibs og et lille drys finthakket hvid chokolade.'),
-  (6237, 'Duftpinde DIY til hjemmet', 'https://www.valdemarsro.dk/duftpinde-hjemmelavet/', 'https://www.valdemarsro.dk/wp-content/2016/06/duftpinde-diy-hjemmelavet.jpg', '15', '1 serving', 'Gør en flaske godt ren og kom mandelolie eller babyolie i flasken. Tilsæt omkring 50 dråber æteriske olier. Sæt pindene i – rør godt rundt og lad det stå.
+  (6237, 'Duftpinde DIY til hjemmet', 'https://www.valdemarsro.dk/duftpinde-hjemmelavet/', 'https://www.valdemarsro.dk/wp-content/2016/06/duftpinde-diy-hjemmelavet.jpg', '15', '1 serving', 'Gør en flaske godt ren og kom mandelolie eller babyolie i flasken. Tilsæt omkring 50 dråber æteriske olier. Sæt pindene i - rør godt rundt og lad det stå.
 Dagen efter vendes pindene om, og derefter står det ellers bare og spreder en helt diskret duft. Ønskes mere duft kan der tilsættes mere æterisk olie eller pindene kan vendes en omgang indimellem.
-Mine favoritdufte lige nu: 
+Mine favoritdufte lige nu: 
 Lavendel til soveværelset
 Appelsin og Rosmarin til køkkenet
 Citrongræs eller citron til badeværelset
-Til jul vil kanelolie og appelsin i øvrigt være en himmelsk kombination. Der er så mange dejlige duft, så det er blot at prøve sig lidt frem.
+Til jul vil kanelolie og appelsin i øvrigt være en himmelsk kombination. Der er så mange dejlige duft, så det er blot at prøve sig lidt frem.
 Duftpinde med vand og æteriske olier
-Man kan også tilsætte æteriske olier til en blanding af 1 dl vand blandet med 1 spsk klar snaps – det virker også rigtig fint. Alternativt til snaps kan man også bruge husholdningssprit eller vodka. Synes ikke det bliver helt så pænt som med olie, da vand og æteriske olie skiller, men duften er glimrende og hvis man bruger en farvet flaske er det jo et super bud på hjemmelavet duftpinde.'),
+Man kan også tilsætte æteriske olier til en blanding af 1 dl vand blandet med 1 spsk klar snaps - det virker også rigtig fint. Alternativt til snaps kan man også bruge husholdningssprit eller vodka. Synes ikke det bliver helt så pænt som med olie, da vand og æteriske olie skiller, men duften er glimrende og hvis man bruger en farvet flaske er det jo et super bud på hjemmelavet duftpinde.'),
   (6269, 'Friterede hyldeblomster', 'https://www.valdemarsro.dk/friterede-hyldeblomster/', 'https://www.valdemarsro.dk/wp-content/2016/06/friterede-hyldeblomster.jpg', '30', '4 servings', 'Kom mælk, æg, mel, vanilje og øl og pisk det godt sammen.
-Varm en gryde med olie til friture. Tjek at olien er varm ved at dyppe spidsen af en tandstik i olien – når det syder rundt om den, er olien perfekt i temperatur.
+Varm en gryde med olie til friture. Tjek at olien er varm ved at dyppe spidsen af en tandstik i olien - når det syder rundt om den, er olien perfekt i temperatur.
 Tilbered nu en hyldeblomstskærm ad gangen.
-Dyp en hyldeblomstskærm i dejen, lad den dryppe af og dyp den derefter i den varme olie.
+Dyp en hyldeblomstskærm i dejen, lad den dryppe af og dyp den derefter i den varme olie.
 Steg til dejen får farve og ser sprød ud.
 Lad den friterede hyldeblomst dryppe af på et stykke køkkenrulle inden servering.'),
-  (6294, 'Rabarber Mojito', 'https://www.valdemarsro.dk/rabarber-mojito/', 'https://www.valdemarsro.dk/wp-content/2016/06/rabarbermojitos_opskrift.jpg', '5', '4 servings', 'Fordel rabarbersaft i fire glas, rør rom i og fyld glassene med isterninger og mynteblade.
+  (6294, 'Rabarber Mojito', 'https://www.valdemarsro.dk/rabarber-mojito/', 'https://www.valdemarsro.dk/wp-content/2016/06/rabarbermojitos_opskrift.jpg', '5', '4 servings', 'Fordel rabarbersaft i fire glas, rør rom i og fyld glassene med isterninger og mynteblade.
 Top evt med lidt danskvand og pynt med en rabarberstængel
-– og så er den rabarber mojito klar til at blive nydt på en varm sommerdag
-♡
+- og så er den rabarber mojito klar til at blive nydt på en varm sommerdag
+
 Alkoholfri rababer mojitos
-Gør præcis det samme – bare undlad rom, naturligvis – og fyld lidt mere danskvand på.'),
+Gør præcis det samme - bare undlad rom, naturligvis - og fyld lidt mere danskvand på.'),
   (6358, 'Hverdagsmuffins', 'https://www.valdemarsro.dk/hverdagsmuffins-uden-sukker/', 'https://www.valdemarsro.dk/wp-content/2016/08/hverdagsmuffins-opskrift.jpg', '20', '6 servings', 'Mos bananerne i en skål og pisk dem sammen med æg, krydderier og alle de andre skønne ingredienser.
-Fordel i 6 muffinsforme – de bliver pænest, hvis papirsformerne placeres i en fast muffinform.
+Fordel i 6 muffinsforme - de bliver pænest, hvis papirsformerne placeres i en fast muffinform.
 Bag i ovnen ved 175 grader varmluft i ca 15 minutter.
 Tip
 Prøv at erstatte boghvedemel med havregryn og gør dem endnu mere mættende ved at tilføje et ekstra æg og en hel dl havregryn.'),
   (6368, 'Espresso Chokoladekage', 'https://www.valdemarsro.dk/espresso-chokoladekage/', 'https://www.valdemarsro.dk/wp-content/2016/08/espressochokoladekage-e1629354496426.jpg', '1440', '6 servings', 'Smelt smør langsomt i en gryde ved lav varme. Tag gryden af varmen og rør espresso samt den finthakkede chokolade. Rør rundt til chokoladen er helt smeltet.
-Pisk æg og  sukker sammen med en håndmikser til en luftig masse. Sigt til sidst hvedemel og salt i blandingen.
+Pisk æg og  sukker sammen med en håndmikser til en luftig masse. Sigt til sidst hvedemel og salt i blandingen.
 Rør langsomt chokolademassen i æggemassen, og rør det godt igennem til en helt ensartet dej. Fordel kagedejen i små tærteforme eller ramekiner på 10 cm i diameter, smurt med smør.
-Bag i en forvarmet ovn ved 175 grader varmluft i cirka 10 minutter – hold godt øje med kagerne. De skal føles lidt ubagt og kagerne sætter sig i køleskabet til næste dag.'),
+Bag i en forvarmet ovn ved 175 grader varmluft i cirka 10 minutter - hold godt øje med kagerne. De skal føles lidt ubagt og kagerne sætter sig i køleskabet til næste dag.'),
   (6375, 'Wraps med tun', 'https://www.valdemarsro.dk/wraps-med-tun/', 'https://www.valdemarsro.dk/wp-content/2016/09/tunwraps-madpakke.jpg', '10', '2 servings', 'Dræn vandet fra dåsen med tun og kom tun, mayo og kapers i en skål. Bland godt sammen og smag til med salt, peber og purløg.
 Kom lidt mere mayonnaise i, hvis du synes den skal være mere cremet og den kan piskes sammen med en håndmikser, for en endnu finere konsistens.
 Smør på tortillawraps og rul dem tæt sammen. Skær i halve og kom i madpakken.'),
@@ -1784,10 +1707,10 @@ Kog op under omrøring og rør det godt igennem til en ensartet grillmarinade.
 Lad det simre i cirka 15 minutter, og smag derefter til.
 Opskriften giver ca 4 dl'),
   (7041, 'Kokos Chiagrød', 'https://www.valdemarsro.dk/kokos-chiagroed/', 'https://www.valdemarsro.dk/wp-content/2018/05/kokos-chiagrød-1.jpg', '1440', '1 serving', 'Rør kokosmælk med krydderier og chiafrø.
-Overskydende kokoscreme kan gemmes i et glas med låg i køleskabet – hvor den kan bruges til fx smoothies og til at røre chiagrøden op med om morgenen.
+Overskydende kokoscreme kan gemmes i et glas med låg i køleskabet - hvor den kan bruges til fx smoothies og til at røre chiagrøden op med om morgenen.
 Lad kokos chiagrøden stå på køkkenbordet i 10 minutter, hvorefter det røres sammen igen og derefter stilles på køl natten over.
 Morgenen efter røres grøden godt sammen med skye eller græsk yoghurt. Smag til og drys med granola, bær og lækre toppings.'),
-  (7063, 'Grød med boghvede og karamelliserede bananer', 'https://www.valdemarsro.dk/boghvedegroed-med-karameliseret-banan/', 'https://www.valdemarsro.dk/wp-content/2018/02/groed-banan.jpg', '20', '2 servings', 'Skyl boghvedekorn under rindende vand. Kom dem derefter i en skål med 4 dl. vand og lad det stå natten over. Hvis der ikke er tid/mulighed for iblødsætning – så koges de blot op med det samme (og skal koge ca. 15 minutter længere).
+  (7063, 'Grød med boghvede og karamelliserede bananer', 'https://www.valdemarsro.dk/boghvedegroed-med-karameliseret-banan/', 'https://www.valdemarsro.dk/wp-content/2018/02/groed-banan.jpg', '20', '2 servings', 'Skyl boghvedekorn under rindende vand. Kom dem derefter i en skål med 4 dl. vand og lad det stå natten over. Hvis der ikke er tid/mulighed for iblødsætning - så koges de blot op med det samme (og skal koge ca. 15 minutter længere).
 Om morgenen
 Kog grøden op, sammen med en dl vand, mælk, salt og krydderier.
 Imens smeltes kokosolie og ahornsirup på en pande, lad det karamellisere en anelse. Bananskiverne flækkes på langs og steges på panden. Vend evt, nødderne lynthurtigt på panden efter bananerne er taget af.
@@ -1798,11 +1721,11 @@ Pil selv rejer
 Server i en skål, med en ekstra skål til rejerneskrald og små skylleskåle med citron
 Serveres med godt brød og citron i både.'),
   (7192, 'Julepoptarts', 'https://www.valdemarsro.dk/julepoptarts/', 'https://www.valdemarsro.dk/wp-content/2017/02/jule-poptarts.jpg', '45', '12 servings', 'Chokoladeganache til fyld
-Varm fløden op til kogepunktet og tag fløden af varmen lige inden den koger. Rør chokoladen i og derefter grundigt i chokoladecremen til det er  ensartet i konsistensen. Kom på glas og sæt i køleskabet i minimum 30 minutter.
+Varm fløden op til kogepunktet og tag fløden af varmen lige inden den koger. Rør chokoladen i og derefter grundigt i chokoladecremen til det er  ensartet i konsistensen. Kom på glas og sæt i køleskabet i minimum 30 minutter.
 Julepoptarts
-Rør mel, grahamsmel, bagepulver, sukker, salt og vaniljepulver sammen i en skål og smuldr smør i. Smuldr det godt sammen, til det er ensartet. Rør æg og derefter mælk i.
+Rør mel, grahamsmel, bagepulver, sukker, salt og vaniljepulver sammen i en skål og smuldr smør i. Smuldr det godt sammen, til det er ensartet. Rør æg og derefter mælk i.
 Saml dejen og rul den ud på et grundigt meldrysset bord til en stor firkant med en højde på ca. 2 mm. Skær firkanter a cirka 6×10 cm og fyld halvdelen af firkanterne med chokoladeganache, skumfiduser og knuste bolchestokke.
-Pensl dejfirkanterne uden fyld og læg dem oven på dejen med fyldet – med den penslede side ned imod fyldet. De to samlede deje klemmes sammen med en gaffel hele vejen rundt i kanterne.
+Pensl dejfirkanterne uden fyld og læg dem oven på dejen med fyldet - med den penslede side ned imod fyldet. De to samlede deje klemmes sammen med en gaffel hele vejen rundt i kanterne.
 Pensl med sammenpisket æg, og bag i en forvarmet ovn ved 175 grader varmluft i 15 minutter eller til de er gyldne. Lad dem køle af på en rist.
 Efter de er kølet lidt af kan de pyntes med tyk hvid glasur og knuste pebermyntestokke.'),
   (7204, 'Granatæble cocktail', 'https://www.valdemarsro.dk/granataeblecocktail/', 'https://www.valdemarsro.dk/wp-content/2018/11/granataeble-jul-cocktail.jpg', '10', '2 servings', 'Blend granatæblekernerne og sigt saften fra til cocktails eller kom kernerne i en juicer.
@@ -1831,7 +1754,7 @@ Sæt drikken i køleskab til den er kølet af og server med masser af isterninge
   (7278, 'Påskeæg med nougat og marcipan', 'https://www.valdemarsro.dk/paaskeaeg/', 'https://www.valdemarsro.dk/wp-content/2020/02/paaskeaeg.jpg', '180', '8 servings', 'Rist hasselnødderne på en pande til hinderne omkring løsner sig. Kom hasselnøddekernerne i et rent klæde og gnid hinderne af.
 Hak hasselnødderne til det er lige mellem fint og groft hakket. Kom hasselnødder og sukker tilbage på panden ved middelvarme. Lad sukkeret smelte, rør godt rundt og sluk for varmen.
 Rør nougat i og kom derefter på et stykke bagepapir. Lad det køle af og del i 8 lige store portioner.
-Del marcipanmassen i 8 lige store stykker og rul dem ud med en kagerulle til 8 runde cirkler. Fold hvert stykke marcipan om nougat og hasselnøddekrokant, så fyldet bliver helt skjult.Tril først til helt runde  kugler og form derefter til fine påskeæg. Lad dem tørre på bagepapir i en time på køkkenbordet inden de overtrækkes med chokolade.
+Del marcipanmassen i 8 lige store stykker og rul dem ud med en kagerulle til 8 runde cirkler. Fold hvert stykke marcipan om nougat og hasselnøddekrokant, så fyldet bliver helt skjult.Tril først til helt runde  kugler og form derefter til fine påskeæg. Lad dem tørre på bagepapir i en time på køkkenbordet inden de overtrækkes med chokolade.
 Chokoladeovertræk
 Smelt knap halvdelen af chokoladen over et vandbad under omrøring, brug et katetermometer og tag af varmen, så snart temperaturen er 55 grader. Tag skålen af vandbadet og rør den resterende chokolade i. Rør godt til al chokoladen er smeltet og chokoladen har en temperatur på 31 grader.
 Dyp påskeæggene i chokoladen og lad dem tørre på et stykke bagepapir til chokoladen er størknet. Pensl evt. med spiseligt glimmer eller drys med kakaonibs.'),
@@ -1843,15 +1766,15 @@ Undlad blot rom'),
 Smag til med mere salt, peber eller lime alt efter smag og behag.'),
   (7292, 'Kærnemælksboller', 'https://www.valdemarsro.dk/kaernemaelksboller/', 'https://www.valdemarsro.dk/wp-content/2020/08/kaernemaelksboller.jpg', '720', '9 servings', 'Kom kærnemælk og vand i en skål, og rør gær ud i væden.
 Rør sukker, salt, havregryn og ølandshvede i blandingen og rør derefter hvedemel i. Brug gerne en røremaskine og lad den røre i cirka 10 minutter ved middelhastighed.
-Har du ikke en røremaskine, så rør dejen godt igennem og stil den på køl. Efter en times tid i køleskab vil dejen have “sat sig” og for store lækre lufthuller og en god hæveevne kan du tage dejen ud af køleskabet og strække og folde den over flere gange.
-Uanset om du røre på maskine eller ej, så stil dejen i en ren skål, dækket med låg og sæt den på køl natten over – eller i 10-14 timer.
+Har du ikke en røremaskine, så rør dejen godt igennem og stil den på køl. Efter en times tid i køleskab vil dejen have "sat sig" og for store lækre lufthuller og en god hæveevne kan du tage dejen ud af køleskabet og strække og folde den over flere gange.
+Uanset om du røre på maskine eller ej, så stil dejen i en ren skål, dækket med låg og sæt den på køl natten over - eller i 10-14 timer.
 Efter koldhævning
 Drys 1 spsk mel ud på bordpladen og hæld dejen ud på det meldryssede bord. Brug en bagespartel til nænsomt at folde dejen flere gange over hinanden til den er spænstig og fast. Skær 9 gode boller ud og sæt dem på en bageplade med bagepapir.
-Tænd for ovnen på 225 grader varmluft – meget gerne varmluft + damp hvis du har det. Sæt bollerne i ovnen når den er varm og bag i 15-20 minutter.
+Tænd for ovnen på 225 grader varmluft - meget gerne varmluft + damp hvis du har det. Sæt bollerne i ovnen når den er varm og bag i 15-20 minutter.
 Lad bollerne køle lidt af på en rist inden servering.'),
   (7295, 'Havregrød med æg', 'https://www.valdemarsro.dk/havregroed-med-aeg/', 'https://www.valdemarsro.dk/wp-content/2020/08/havregroed-aeg.jpg', '10', '1 serving', 'Kom havregryn, vand og kardemomme i en gryde og kog langsomt op under omrøring.
 Tilsæt mælk efterhånden, som grøden tyknes. Slå ægget ud i en skål. Sluk varmen og rør et helt æg og salt i. Rør til grøden er helt ensartet i konsistensen.
-Server med topping – se også tips.
+Server med topping - se også tips.
 Her er grøden servet med æbler i tern, en lille smørklat, lidt kanelsukker og et drys mandler'),
   (7302, 'Havregrød', 'https://www.valdemarsro.dk/havregroed/', 'https://www.valdemarsro.dk/wp-content/2012/03/havregroed.jpg', '10', '4 servings', 'Kom havregryn, vand, vaniljepulver og kardemomme i en gryde og kog op ved middel varme under omrøring.
 Tilsæt mælk efterhånden, som grøden tyknes og til konsistensen er perfekt.
@@ -1877,9 +1800,9 @@ Rør mel, kanel, kakao, appelsinskal, bagepulver, brun farin godt sammen i en sk
 Saml dejen med den anden halvdel af ægget fra den lyse dej. Brug lidt koldt vand eller appelsinsaft, hvis nødvendigt for at samle dejen.
 Lad dejen hvile i køleskabet i minimum 1 time eller til næste dag.
 Form småkagerne
-Rul begge deje ud i en aflang firkant på køkkenbordet i lidt mel og pensl det ene af dejstykkerne med sammenpisket æg. Placer den anden ovenpå og rul de to deje sammen på den korte led til en rulle.
-Sæt dejen på køl i 1 time og skær derefter tynde små- kager på knap 1⁄2 cm og sæt dem på en bageplade med bagepapir. Bag småkagerne i en forvarmet ovn ved 175 grader varmluft i ca. 15 minutter.
-Tag småkagerne ud af ovnen og lad dem køle af på en bagerist.'),
+Rul begge deje ud i en aflang firkant pa køkkenbordet i lidt mel og pensl det ene af dejstykkerne med sammenpisket æg. Placer den anden ovenpa og rul de to deje sammen pa den korte led til en rulle.
+Sæt dejen pa køl i 1 time og skær derefter tynde sma- kager pa knap 1/2 cm og sæt dem pa en bageplade med bagepapir. Bag smakagerne i en forvarmet ovn ved 175 grader varmluft i ca. 15 minutter.
+Tag smakagerne ud af ovnen og lad dem køle af pa en bagerist.'),
   (7315, 'Appelsin biscotti med hvid chokolade', 'https://www.valdemarsro.dk/appelsin-og-hvid-chokolade-biscotti/', 'https://www.valdemarsro.dk/wp-content/2015/11/appelsinbiscotti-1.jpg', '45', '25 servings', 'Kom mandlerne i en skål og hæld kogende vand over. Lad det trække i 10 minutter, hæld vandet fra og hæld igen kogende vand over og lad dem stå i 2 minutter. Hæld vandet fra og smut mandlerne.
 Halver vaniljestangen og flæk den ene halvdel på langs og skrab kornene ud. Bland hvedemel, sukker, vanilje, bagepulver, de hele mandler, hvid chokolade, appelsinskal og salt sammen i en skål. Saml dejen med sammenpisket æg.
 Form to aflange stænger, på 30 cm i længden og ca. 3-4 cm i tykkelsen, på en bageplade med bagepapir. Dejen er våd og klistret, så skyl til sidst hænderne under koldt vand, så går det nemt.
@@ -1927,7 +1850,7 @@ Sæt chokoladeformen med de små skaller i køleskabet i 10 minutter til chokola
 Saml de lækre toffifee
 Tag formen med chokolade ud af køleskabet. Kom en lille smule nougat i hver og derefter en hasselnød. Lav en ring af karamel rundt om hasselnødden. Kom den tempererede chokolade i en sprøjtepose og lav en lille chokoladeknap i midten af hvert toffifee.
 Bank chokoladerne ud af formen, når de har sat sig.'),
-  (7343, 'Chokolade på pebermyntestokke', 'https://www.valdemarsro.dk/chokolade-pa-pepermyntestokke/', 'https://www.valdemarsro.dk/wp-content/2013/12/chokoladepinde-1.jpg', '60', '4 servings', 'Temperer chokoladen  og kom den i et lille snapseglas og stik pebermyntestokken i.
+  (7343, 'Chokolade på pebermyntestokke', 'https://www.valdemarsro.dk/chokolade-pa-pepermyntestokke/', 'https://www.valdemarsro.dk/wp-content/2013/12/chokoladepinde-1.jpg', '60', '4 servings', 'Temperer chokoladen  og kom den i et lille snapseglas og stik pebermyntestokken i.
 Sæt på køl i en time til chokoladen størkner helt.
 Dyp ydersiden af glasset i lidt varmt vand, til chokoladestokken kan trækkes ud. Nu er de klar til at røre rundt i et glas varm mælk.'),
   (7346, 'Kirsebærcocktail', 'https://www.valdemarsro.dk/kirsebaercocktail/', 'https://www.valdemarsro.dk/wp-content/2020/08/jul-cocktail-kirsebaer.jpg', '5', '1 serving', 'Kom kirsebærvin eller kirsebærlikør, cointreau og ingefær i en shaker med isterninger og ryst det godt sammen til drikken er iskold. Hæld på glas gennem en sigte og top med mousserende vin.
@@ -1935,16 +1858,16 @@ Kom to kirsebær på et lille spyd og pynt med kirsebær og rosmarinkvist.
 Alkoholfri version
 Udskift kirsebærvin med kirsebærsaft, og udskift contreau med friskpresset appelsinsaft. Suppler med lidt revet appelsinskal fra en økologisk appelsin og top med danskvand.'),
   (7349, 'Julepizza med and og kål', 'https://www.valdemarsro.dk/julepizza/', 'https://www.valdemarsro.dk/wp-content/2019/12/julepizza.jpg', '120', '2 servings', 'Pizzadej
-Opløs gæren i en skål med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time.
-Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne. Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
+Opløs gæren i en skal med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time.
+Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne. Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
 Lad dejen hæve i ca. 60 minutter på køkkenbordet eller i til koldhævning i køleskabet natten over.
 Pizzasauce ( til mange pizzaer)
 Blend alle ingredienserne til en ensartet sauce. Brug 2 spsk. pr pizza og frys resten af pizzasaucen ned i portioner eller kog den til en pastasauce.
 Pizzatopping og bagning
 Varm ovnen op på den højeste temperatur og sæt en bageplade, bagestål eller pizzasten på den øverste rille i ovnen under opvarmning.
-Dræn mozzarellaen, dup den med køkkenrulle og skær den i skiver. Drys lidt mel på køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne på bordet.
+Dræn mozzarellaen, dup den med køkkenrulle og skær den i skiver. Drys lidt mel pa køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne pa bordet.
 Fordel lidt pizzasauce og pesto over. Fordel derefter andekød, frisk mozzarella, rødkål og æbler på hver pizza.
-Slå ovnen over på grill og bag pizzaerne i ovnen i 4-5 minutter – hold øje med dem. Drys med lidt frisk timian og et lille dryp olivenolie inden servering.'),
+Slå ovnen over på grill og bag pizzaerne i ovnen i 4-5 minutter - hold øje med dem. Drys med lidt frisk timian og et lille dryp olivenolie inden servering.'),
   (7352, 'Ølkage', 'https://www.valdemarsro.dk/oelkage/', 'https://www.valdemarsro.dk/wp-content/2014/11/oelkage-2.jpg', '60', '8 servings', 'Bland de tørre ingredienser sammen og rør derefter øl i. Rør, til dejen er jævn, og hæld den i en smurt sandkageform eller brødform på ca. 10 x 25 cm.
 Bag ølkagen i en forvarmet ovn ved 175 grader varmluft i 50-60 minutter. Tjek, om den er gennembagt, inden du tager den ud af ovnen.
 Tag kagen ud af formen og lad den køle lidt af på en bagerist. Nyd gerne den lune kage skåret i skiver og smurt med iskoldt smør. Eller rist skiverne på en brødrister, når kagen er blevet kold.'),
@@ -1954,7 +1877,7 @@ Mos de varme nykogte kartofler let med smør og pisk derefter kartoffelmosen ved
 Smag til med salt og peber, samt friskrevet muskatnød.'),
   (7358, 'Luksus Stjerneskud', 'https://www.valdemarsro.dk/luksus-stjerneskud/', 'https://www.valdemarsro.dk/wp-content/2015/06/stjerneskud-1.jpg', '45', '4 servings', 'Rør dressingen
 Rør creme fraiche, mayo og tomatpure sammen og smag til med salt, peber, citronsaft og en smule paprika. Hvis du har røget paprika, så prøv at komme en smule i, det giver en lækker smag men kan undværes.
-Dampet rødspættefilet
+Dampet rødspættefilet
 Krydr halvdelen af rødspættefiletterne med salt og peber. Rul dem sammen, og anret i et smurt ovnfast fad. Hæld hvidvin over og sæt dem i ovnen med en ovnfast tallerken over. Bag i en forvarmet ovn ved 175 grader varmluft i ca 10-15 minutter.
 Stegt rødspættefilet
 Dup filetterne tørre med køkkenrulle og drys dem med lidt mel. Vend filetterne i sammenpisket æg og derefter i en dyb tallerken med rasp, salt og peber. Steg fiskefiletterne på en pande i smør og olie.
@@ -1983,7 +1906,7 @@ Lad kagen køle en anelse af og server den lun med en klat vaniljeis ovenpå. Gi
 Bland mel, sukker, vaniljesukker, bagepulver og salt godt sammen. Rør mandler, pinjekerner og chokolade i melblandingen. Kom derefter kaffe og halvdelen af de sammenpiskede æg i og saml dejen. Tilsæt resten af æggemassen, til dejen er klistret, men stadig kan samles og formes.
 Form dejen i to aflange stænger på en bageplade med bagepapir og bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 20 minutter.
 Tag pladen ud af ovnen og lad kagestængerne køle af i et kvarters tid.
-Skær stængerne i skiver på skrå i ca. 1 cm’s tykkelse og læg dem tilbage på bagepladen. Bag kagerne i 10-12 minutter, til de er sprøde og gyldne. Tag dem ud af ovnen og lad dem køle af på en bagerist.'),
+Skær stængerne i skiver på skrå i ca. 1 cm''s tykkelse og læg dem tilbage på bagepladen. Bag kagerne i 10-12 minutter, til de er sprøde og gyldne. Tag dem ud af ovnen og lad dem køle af på en bagerist.'),
   (7373, 'Flapjack med chokolade', 'https://www.valdemarsro.dk/flapjack/', 'https://www.valdemarsro.dk/wp-content/2017/09/flapjack-1.jpg', '45', '12 servings', 'Vend havregryn, chokolade, pistacie, valnødder, brun farin og salt sammen.
 Smelt smør ved lav varme i en gryde. Tag gryden af varmen og rør ahornsirup og havregrynsblandingen i.
 Fordel dejen i en lille form på ca. 20×20 cm beklædt med bagepapir. Glat massen ud og tryk den lidt sammen i fadet.
@@ -2002,7 +1925,7 @@ Pisk en tyk hvid glasur sammen med en håndmikser. Pisk kun lidt vand i ad gange
 Pynt hindbærsnitterne med glasur og frysetørrede hindbær.'),
   (7382, 'Havregrynskager', 'https://www.valdemarsro.dk/havregrynskager/', 'https://www.valdemarsro.dk/wp-content/2015/01/havregrynskager-app.jpg', '60', '4 servings', 'Smelt smør i en gryde ved lav varme og tag gryden af varmen, så snart smørret er smeltet.
 Rør havregryn, mel, og bagepulver godt sammen i en skål.
-Flæk vaniljestangen, skrab kornene ud og fordel dem i sukkeret. Rør sukker,  vanilje og æg i gryden med den lune smør og rør det sammen. Rør derefter havregrynsblandingen i.
+Flæk vaniljestangen, skrab kornene ud og fordel dem i sukkeret. Rør sukker,  vanilje og æg i gryden med den lune smør og rør det sammen. Rør derefter havregrynsblandingen i.
 Form runde kugler med en spiseske og læg dem på to bageplader med bagepapir, så der er 4 kager på hver plade. Sørg for lidt god afstand mellem kuglerne, da dejen flyder ud under bagningen. Giv kuglerne et lille tryk og bag dem i en forvarmet ovn ved 175 grader varmluft i 9-12 minutter, til de er gyldne i kanten.
 Lad havregrynskagerne køle af på bagepladen.
 Smørcreme
@@ -2015,7 +1938,7 @@ Sæt dejen i en ren skål med låg eller film på og stil den på køl natten ov
 Remonce
 Rør smør, sukker, marcipan og kardemomme sammen i en skål til en ensartet remonce.
 Form og bag kærnemælkshorn
-Del dejen i to og rul dem ud i en rund cirkel. Skær ud i et lagkagediagram med ’lagkagestykker’ på 6 trekanter.
+Del dejen i to og rul dem ud i en rund cirkel. Skær ud i et lagkagediagram med ''lagkagestykker'' på 6 trekanter.
 Kom en skefuld remonce samt en æblebåd i hver og rul dem sammen til horn. Sæt på en bageplade med bagepapir og lad dem efterhæve i en time, dækket med et rent klæde.
 Pensl med et sammenpisket æg, og drys med finthakket mandler samt perlesukker. Bag i en forvarmet ovn ved 175 grader varmluft i cirka 15 minutter.'),
   (7388, 'Æblesnurrer med kanel', 'https://www.valdemarsro.dk/aeblesnurrer-med-kanel/', 'https://www.valdemarsro.dk/wp-content/2017/11/aeblesnurrer-1.jpg', '180', '12 servings', 'Æblekanelfyld
@@ -2073,7 +1996,7 @@ Læg et stykke bagepapir i en form på 10 x 25 cm og smør et tyndt lag chokolad
 Afslut med et lag chokolade og drys til sidst med hakkede hasselnødder, pistaciekerner og kakaonibs.
 Stil kagen i køleskabet i min. 3 timer inden servering.'),
   (7416, 'Kransekagetårn', 'https://www.valdemarsro.dk/kransekagetaarn/', 'https://www.valdemarsro.dk/wp-content/2015/12/kransekagetaarn-1.jpg', '180', '12 servings', 'Rør flormelis sammen med æggehvide. Ælt marcipanen sammen med halvdelen af æggehvide/flormelisblanding og tilsæt mere lidt efter lidt til det er en helt ensartet masse og til konsistensen er perfekt. Alt afhængig af marcipantype er det muligvis ikke al sukker/æggehvideblanding der skal bruges.
-Drys lidt flormelis på bordet og rul marcipanmassen i lange og præcis lige tykke pølser – samme tykkelse som et alm stearinlys.
+Drys lidt flormelis på bordet og rul marcipanmassen i lange og præcis lige tykke pølser - samme tykkelse som et alm stearinlys.
 Skær ud i stykker til kransekageringene. Brug et centimetermål, så det bliver helt fint. Skær stykkerne i størrelsen: 8 cm, 12 cm, 16 cm, 20 cm, 24 cm, 28 cm, 32 cm og 36 cm + enten en lille kugle til toppen eller en lille kransekagetop, som sprøjtes ud med en stor stjernetyl.
 Saml stykkerne til runde ringe og prøv blot at sætte enderne helt sæt sammen. Lad kransene lufttørre på en bageplade med bagepapir i 30-60 minutter.
 Vask hænderne i koldt vand, og ryst hænderne, så de blot er ganske let fugtige. Form nu ringene helt pænt og giv dem et lille klem på siderne så de får en smule skrå trekantede sider.
@@ -2081,27 +2004,27 @@ Bages ved 200 grader varmluft i 10-12 minutter til de er gyldne på toppen. Lad 
 Pynt med tyk hvid glasur og et lille drys spiseligt guldstøv.
 Tip til glasuren
 Kom flormelis og æggehvide i en skål og pisk en tyk, blank og sej glasur med en håndmikser.
-Kom glasuren i en sprøjtepose og klip et meget, meget lille hul. Tjek at glasuren kan trykkes ud og falde flot i en lang stribe. Kom så glasuren over kransekagecirklerne, én af gangen, i zigzag mønster og ved at lade glasuren ‘falde’ ned på kransekagen ca en cm fra kagen, så bliver den flot lagt.'),
+Kom glasuren i en sprøjtepose og klip et meget, meget lille hul. Tjek at glasuren kan trykkes ud og falde flot i en lang stribe. Kom så glasuren over kransekagecirklerne, én af gangen, i zigzag mønster og ved at lade glasuren ''falde'' ned på kransekagen ca en cm fra kagen, så bliver den flot lagt.'),
   (7420, 'Vegetar Pad Thai med grøntsager', 'https://www.valdemarsro.dk/vegetar-pad-thai/', 'https://www.valdemarsro.dk/wp-content/2019/05/vegetar-pad-thai.jpg', '30', '4 servings', 'Rør ingredienserne eddike, soja, sukker til pad thai-saucen sammen, og tilsæt tamarind lidt efter lidt, smag til undervejs med tamarind efter smag, til du synes smagen er skøn. Rør til en ensartet konsistens og stil den til side.
 Kog nudler efter anvisning på pakken og skyl dem straks med iskoldt vand, så de ikke klistrer sammen. Lad dem dryppe af i en sigte.
-Varm olie op i en wok eller en stor pande og tilsæt løg, hvidløg, ingefær, chiliflager og steg det hurtigt. Vend derefter squash, broccoli og spidskål i retten. Kom nud­lerne i wokken og steg dem hurtigt, mens de vendes flere gange undervejs.
-Slå æggene ud i wokken og vend retten sammen flere gange, mens æggene sætter sig. Tilsæt derefter pad thai­saucen, samt bønnespirer og forårsløg. Vend det godt sammen.
-Server i dybe tallerkener med frisk koriander, finthakke­de peanuts, lime i både og finthakket rød chili.'),
+Varm olie op i en wok eller en stor pande og tilsæt løg, hvidløg, ingefær, chiliflager og steg det hurtigt. Vend derefter squash, broccoli og spidskål i retten. Kom nudlerne i wokken og steg dem hurtigt, mens de vendes flere gange undervejs.
+Slå æggene ud i wokken og vend retten sammen flere gange, mens æggene sætter sig. Tilsæt derefter pad thaisaucen, samt bønnespirer og forårsløg. Vend det godt sammen.
+Server i dybe tallerkener med frisk koriander, finthakkede peanuts, lime i både og finthakket rød chili.'),
   (7423, 'Stegt spidskål', 'https://www.valdemarsro.dk/stegt-spidskaal/', 'https://www.valdemarsro.dk/wp-content/2019/03/stegt-spidskaal-opskrift.jpg', '25', '4 servings', 'Smelt smør på panden. Halver citronen og læg den med den overskåret side ned på panden. Kom de kvarte spidskål på panden og steg dem ved middelhøj varme i ca. 15 minutter, til de er møre og har fået farve. Vend dem gerne nogle gange undervejs.
 Når den lækre stegt spidskål er mør og lækker, så har de grillede citron blevet helt karamelliseret på overfladen. Anret spidskålen på et fad, dryp med citronsaft fra den karamelliserede citron, groft hakkede hassselnødder (kan dog undlades), et drys flagesalt og kværn frisk sort peber over.'),
   (7426, 'Bagt hokkaido græskar, gratineret og fyldt', 'https://www.valdemarsro.dk/fyldt-bagt-hokkaido-graeskar/', 'https://www.valdemarsro.dk/wp-content/2018/10/fyldt-graeskar.jpg', '60', '2 servings', 'Skrub hokkaidogræskarret godt, skær toppen af og skrab kerner og indmad ud med en ske. Skær evt. et lille stykke af bunden på græskarret, så det kan stå på bagepladen uden at tippe.
-Rist hasselnødderne på en varm tør pande under om­ røring, til hinderne begynder at løsne sig. Tag nødderne af panden og gnid hinderne af i et rent klæde. Hak de ristede hasselnødder fint.
-Varm olie op på en pande og sauter løg, hvidløg, cham­pignoner og hasselnødder ved middelvarme, til løgene bliver bløde. Rør pesto og persille i blandingen, smag til med muskatnød, salt og peber og kom blandin­gen i græskarret sammen med frisk mozzarella i tern.
+Rist hasselnødderne på en varm tør pande under om røring, til hinderne begynder at løsne sig. Tag nødderne af panden og gnid hinderne af i et rent klæde. Hak de ristede hasselnødder fint.
+Varm olie op på en pande og sauter løg, hvidløg, champignoner og hasselnødder ved middelvarme, til løgene bliver bløde. Rør pesto og persille i blandingen, smag til med muskatnød, salt og peber og kom blandingen i græskarret sammen med frisk mozzarella i tern.
 Bag græskarret i en forvarmet ovn ved 175 grader varmluft i ca. 45-60 minutter, til det er mørt.
 Drys græskarret med finthakket persille og server det på et fad med en kniv til at skære det ud ved bordet.'),
   (7429, 'Spidskålssalat med granatæble og sprød chorizo', 'https://www.valdemarsro.dk/spidskaalssalat/', 'https://www.valdemarsro.dk/wp-content/2018/02/spidskaal-chorizo.jpg', '15', '4 servings', 'Rør dressingen sammen eller ryst den sammen i et glas med låg.
-Skær spidskål, løg og fennikel i helt tynde strimler. Salaten kan serveres rå eller den kan sauteres i 1-2 minutter i en smule olie på en varm pande. Det skal ikke tage farve, men blot lige ‘falde en smule sammen’
+Skær spidskål, løg og fennikel i helt tynde strimler. Salaten kan serveres rå eller den kan sauteres i 1-2 minutter i en smule olie på en varm pande. Det skal ikke tage farve, men blot lige ''falde en smule sammen''
 Vend grøntsagerne godt sammen med dressingen.
 Steg chorizo sprødt på en varm pande med lidt olivenolie og anret det på salaten med granatæble og karse.
 Smag til med flagesalt og friskkværnet peber.'),
   (7433, 'Sprøde løgringe med chili-cheddar cheesedip', 'https://www.valdemarsro.dk/sproede-loegringe/', 'https://www.valdemarsro.dk/wp-content/2016/06/friterede-logringe.jpg', '30', '4 servings', 'Løgringe
 Mel, bagepulver, salt og peber blandes godt sammen. Pisk derefter øl i blandingen til dejen er lind og flydende.
-Varm en gryde med olie op. Test temperaturen ved at stikke spidsen af en tandstik af træ i olien – den er perfekt når det syder og bobler let omkring træspidsen.
+Varm en gryde med olie op. Test temperaturen ved at stikke spidsen af en tandstik af træ i olien - den er perfekt når det syder og bobler let omkring træspidsen.
 Skil alle løgskiverne fra hinanden, så du får en masse løgringe.
 Kom en håndfuld løgringe i øldejen og tag derefter en løgring op af gangen som sænkes i olien.
 Friter 10-12 løgringe ad gangen.
@@ -2111,7 +2034,7 @@ Chili Cheddar dip
 Smelt smør i en lille gryde og rør mel, samt røget paprika i det smeltede smør, til det danner en lille melbolle.
 Pisk mælk i lidt ad gangen, under opvarmning til saucen er helt uden melklumper. Lad det simrekoge under omrøring i et par minutter til saucen har en god konsistens og melsmagen er væk.
 Tilsæt cheddar ost og rør til osten er smeltet.
-Smag til med salt, peber og jalapenos – serveres gerne lun.'),
+Smag til med salt, peber og jalapenos - serveres gerne lun.'),
   (7438, 'Bagt avocado med æg', 'https://www.valdemarsro.dk/bagt-avocado-med-aeg/', 'https://www.valdemarsro.dk/wp-content/2014/08/avocado-i-ovn.jpg', '20', '2 servings', 'Halver avocadoen, fjern stenen og udhul hullet en anelse mere, så der er plads til et helt æg i hvert hul.
 Bag i ovnen ved 180 grader varmluft i omkring 15 minutter.
 Drys med salt og peber, samt evt frisk timian.'),
@@ -2121,18 +2044,18 @@ Bland avocado- og nektarintern med tunen og smag til med salt og peber, samt et 
 Sigt mel og salt i en skål, lav en fordybning i melet og kom æg og olie heri. Rør rundt i æggene med en gaffel og tilføj melet lidt efter lidt, til det hele er samlet til en smidig dej. Ælt dejen grundigt og sæt den på køl i en halv time.
 Drys lidt mel på bordet og rul dejen tyndt ud med en kagerulle. Brug et glas eller en udstikker til at stikke dejen ud i cirkler.
 Svampefyld
-Rist hasselnødderne på en varm pande under omrø­ring, til hinderne revner og løsner sig. Gnid hinderne af i et viskestykke og hak hasselnødderne fint.
+Rist hasselnødderne på en varm pande under omrøring, til hinderne revner og løsner sig. Gnid hinderne af i et viskestykke og hak hasselnødderne fint.
 Tør panden af og sauter løg, hvidløg og svampe i smør, til løgene er bløde. Rør finthakkede hasselnødder i og smag til med salt og peber.
-Tag 1⁄2 dl fyld fra til saucen og kom ricotta i resten. Kom 1 tsk fyld på halvdelen af cirklerne af raviolidejen og læg derefter den anden halvdel af cirklerne over. Pensl kanten med sammenpisket æg og luk dem hele vejen rundt ved at trykke dem sammen med en gaffel.
+Tag 1/2 dl fyld fra til saucen og kom ricotta i resten. Kom 1 tsk fyld på halvdelen af cirklerne af raviolidejen og læg derefter den anden halvdel af cirklerne over. Pensl kanten med sammenpisket æg og luk dem hele vejen rundt ved at trykke dem sammen med en gaffel.
 Rosmarin-smørsauce
 Smelt smør langsomt i en pande og kom knust hvidløg, rosmarin og grøntsagsbouillon i smørret. Lad det stå og trække smag ved helt lav varme i cirka 15 minutter.
-Tilsæt det resterende svampefyld fra raviolien og kog det hur­tigt igennem. Smag til med salt og peber.
+Tilsæt det resterende svampefyld fra raviolien og kog det hurtigt igennem. Smag til med salt og peber.
 Kog raviolien og anret
-Kom pastaen i en stor gryde med spilkogende vand med lidt salt og olie. Kog cirka 3­-4 minutter, til raviolien flyder op til overfladen.
+Kom pastaen i en stor gryde med spilkogende vand med lidt salt og olie. Kog cirka 3-4 minutter, til raviolien flyder op til overfladen.
 Anret raviolien i dybe tallerkener med sauce, basilikum, friskrevet parmesan samt lidt friskkværnet peber.'),
-  (7450, 'Citrussalat', 'https://www.valdemarsro.dk/citrus-dessert-eller-snack/', 'https://www.valdemarsro.dk/wp-content/2013/01/citrussalat.jpg', '10', '4 servings', 'Skær skrællen af alle citrusfrugterne og skær dem i file­ter ved at skære skrællen og de hvide hinder af omkring hver båd af citrusfrugterne.
+  (7450, 'Citrussalat', 'https://www.valdemarsro.dk/citrus-dessert-eller-snack/', 'https://www.valdemarsro.dk/wp-content/2013/01/citrussalat.jpg', '10', '4 servings', 'Skær skrællen af alle citrusfrugterne og skær dem i fileter ved at skære skrællen og de hvide hinder af omkring hver båd af citrusfrugterne.
 Vend rødkålen med dressingen.
-Anret citrusfrugterne smukt på en bund af fintsnittet rødkål på et fad og drys hakkede nødder og myntebla­de over.
+Anret citrusfrugterne smukt på en bund af fintsnittet rødkål på et fad og drys hakkede nødder og mynteblade over.
 Appelsindressing
 Rør dressingen sammen og smag den til.'),
   (7453, 'Dukkah', 'https://www.valdemarsro.dk/dukkah/', 'https://www.valdemarsro.dk/wp-content/2018/06/dukkah.jpg', '10', '1 serving', 'Rist alle ingredienserne på en tør pande under omrøring, til det dufter skønt, og nødderne tager en smule farve.
@@ -2145,7 +2068,7 @@ Opskriften giver ca 2 dl'),
 Læg derefter de helt tyndtskåret skiver rugbrød på en bageplade med bagepapir.
 Dryp eller pensl med olie, drys salt på og bag i ovnen ved 175 grader varmluft i 10-15 minutter.'),
   (7463, 'Ristede kikærter', 'https://www.valdemarsro.dk/ristede-kikaerter/', 'https://www.valdemarsro.dk/wp-content/2018/08/ristede-kikaerter.jpg', '25', '4 servings', 'Skyl kikærterne og tør den i et rent klæde. Vend kikærterne godt i olie og derefter krydderier.
-Fordel på en bageplade med bagepapir og bag i 175 grader varmluft i 20-25 min til de er lækre og sprøde – vend dem evt. en gang eller to undervejs.'),
+Fordel på en bageplade med bagepapir og bag i 175 grader varmluft i 20-25 min til de er lækre og sprøde - vend dem evt. en gang eller to undervejs.'),
   (7466, 'Linsehummus', 'https://www.valdemarsro.dk/linsehummus/', 'https://www.valdemarsro.dk/wp-content/2018/06/linsehummus-opskrift.jpg', '25', '4 servings', 'Skyl linserne og kog dem i 15 minutter, kom hvidløgsfed i gryden og lad dem koge med i de sidste 5 minutter.
 Dryp linserne godt af i en sigte.
 Blend linser, hvidløg, tahin, spidskommen og koriander til en cremet hummus.
@@ -2156,11 +2079,11 @@ Serveres til fx grillede grøntsager, men er også fantastisk til ovnbagte rodfr
 Smag den lækre persillepesto til med salt, peber og olivenolie efter behov.
 Opskriften giver ca 1 dl pesto'),
   (7476, 'Koldhævede flutes', 'https://www.valdemarsro.dk/koldhaevede-flutes/', 'https://www.valdemarsro.dk/wp-content/2014/08/koldhaevede-flutes.jpg', '660', '4 servings', 'Smuldr gæren ud i en skål med vand og rør, til den er opløst. Tilsæt alle de øvrige ingredienser.
-Lad dejen køre på en røremaskine i 10 minutter, til den er sej og smidig. Hvis du ælter den i hånden, så lad den gerne hvile lidt indimellem og ælt den over et par gange ved at folde dejen 4-5 gange med en halv times mellem i 2-3 timer.  Det gør det nemme­re at få en smidig og sej, men stadig blød dej, hvor glutenproteinerne i dejen får lov at arbejde og give gode lufthuller i det færdige resultat.
-Kom dejen i en skål, læg et rent klæde over og stil den i køleskab i ca. 10-­12 timer.
+Lad dejen køre på en røremaskine i 10 minutter, til den er sej og smidig. Hvis du ælter den i hånden, så lad den gerne hvile lidt indimellem og ælt den over et par gange ved at folde dejen 4-5 gange med en halv times mellem i 2-3 timer.  Det gør det nemmere at få en smidig og sej, men stadig blød dej, hvor glutenproteinerne i dejen får lov at arbejde og give gode lufthuller i det færdige resultat.
+Kom dejen i en skål, læg et rent klæde over og stil den i køleskab i ca. 10-12 timer.
 Tag dejen ud af køleskabet og lad den stå i en times tid, til den får stuetemperatur. Tænd ovnen på 250 grader varmluft.
-Hæld dejen ud på et meldrysset bord og brug en bage­spatel til forsigtigt at folde dejen og stramme den op, så dejen bliver fast og spænstig til et aflangt brød. Undgå at ælte den. Brug bagespatlen eller en skarp kniv til at skære dejen i aflange flutes. Sæt brødene på to bageplader med ba­gepapir og lad dem hæve yderligere i 10 minutter, mens ovnen bliver varm.
-Bag brødene ved 250 grader varmluft i 5 minutter og skru derefter ned til 200 grader varmluft og bag videre i ca. 10-­12 minutter, til brødene er sprøde og gennem­bagte. Lad dem køle af på en rist.'),
+Hæld dejen ud på et meldrysset bord og brug en bagespatel til forsigtigt at folde dejen og stramme den op, så dejen bliver fast og spænstig til et aflangt brød. Undgå at ælte den. Brug bagespatlen eller en skarp kniv til at skære dejen i aflange flutes. Sæt brødene på to bageplader med bagepapir og lad dem hæve yderligere i 10 minutter, mens ovnen bliver varm.
+Bag brødene ved 250 grader varmluft i 5 minutter og skru derefter ned til 200 grader varmluft og bag videre i ca. 10-12 minutter, til brødene er sprøde og gennembagte. Lad dem køle af på en rist.'),
   (7479, 'Ostesnurrer', 'https://www.valdemarsro.dk/ostesnurrer/', 'https://www.valdemarsro.dk/wp-content/2018/08/ostesnurrer_opskrift.jpg', '240', '12 servings', 'Smuldr gæren ud i en skål med mælk og rør, til den er opløst. Rør derefter yoghurt, olie, honning, salt, æg og grahamsmel i blandingen og rør det godt sammen til en lind grøddej. Rør derefter hvedemel i lidt efter lidt og ælt til sidst dejen, til den er smidig og blød.
 Kom dejen i en skål med et rent klæde over og sæt den til hævning på køkkenbordet i 2 timer.
 Rul dejen ud på en meldrysset bordplade til en stor firkant.
@@ -2196,21 +2119,21 @@ Ved bordet kommer man friske bønnespirer, krydderurteblade og chili på suppen 
   (7499, 'Chili cheese tops', 'https://www.valdemarsro.dk/chili-cheese-tops/', 'https://www.valdemarsro.dk/wp-content/2014/08/chili-tops.jpg', '15', '8 servings', 'Bland osten med jalapenos og røget paprika. Form runde kugler af osten og vend ostekuglerne først i hvedemel, derefter i æggehvide og til sidst i rasp, som er rørt med salt og peber.
 Dybsteg kuglerne i varm olie i et par minutter, til de er gyldne og sprøde. Lad dem dryppe godt af på et stykke køkkenrulle og nyd dem, mens de er varme og frisklavede.'),
   (7503, 'Okonomiyaki med spidskål', 'https://www.valdemarsro.dk/okonomiyaki/', 'https://www.valdemarsro.dk/wp-content/2017/01/okonomiayki.jpg', '30', '4 servings', 'Rør mel og grøntsagsbouillon sammen til en tyk dej og lad den hvile i en skål i 10 minutter.
-Sauter imens løg og hvidløg gyldne og bløde på en pan­de med lidt olie. Smag til med salt og sort peber. Rør løg, æg og spidskål i skålen med dej.
+Sauter imens løg og hvidløg gyldne og bløde på en pande med lidt olie. Smag til med salt og sort peber. Rør løg, æg og spidskål i skålen med dej.
 Varm panden godt op med lidt olie. Kom skefulde af dej på panden til små pandekager og steg dem, til de er gyldne og sprøde på hver side.
 Servering
-Læg okonomiyaki på tallerkener, fordel striber af chili­ sauce og mayonnaise over og drys med klippet karse, chiliflager og forårsløg.'),
+Læg okonomiyaki på tallerkener, fordel striber af chili sauce og mayonnaise over og drys med klippet karse, chiliflager og forårsløg.'),
   (7506, 'Kyllingesuppe af hjemmelavet fond', 'https://www.valdemarsro.dk/kyllingesuppe-med-groenkaal-og-groent/', 'https://www.valdemarsro.dk/wp-content/2014/01/kyllingesuppe-hjemmelavet.jpg', '360', '4 servings', 'Kom alle råvarerne til fonden i en gryde, og tænd for varmen lidt under middelvarm, sæt låg på og lad det langsomt koge op. Når det småkoger, skrues ned til lav varmen, så det blot simre svagt.
 Nu skal det have lov at stå i mindst 2-3 timer, og længere op til 6-8 timer.
 Når fonden er fyldt med smag, så hældes det gennem en sigte i en skål og stilles på køl.
 Dagen efter er det nemt at skrabe overskydende fedt af toppen og den gelé-agtige fond er klar til at blive varmet til en god fyldig suppe, hvor der blot skal tilsættes lidt grøntsager, lidt kylling, nudler eller hvad man nu er til.
 Den vil også være helt og aldeles fremragende som en klassisk kyllingesuppe med kødboller og små gulerodstern'),
-  (7512, 'Chai latte', 'https://www.valdemarsro.dk/chai-latte/', 'https://www.valdemarsro.dk/wp-content/2011/09/chai-latte-1.jpg', '10', '1 serving', 'Knus kardemommekapslerne og skrab de sorte kardemommefrø ud. Rist kardemommefrø, de hele nelliker og peberkorn på en varm tør pande i 2-3 minutter, ryst panden hyppigt, så det ikke brænder på – det skal dufte lækkert og krydret. Kom krydderierne i en morter og stød dem fint.
+  (7512, 'Chai latte', 'https://www.valdemarsro.dk/chai-latte/', 'https://www.valdemarsro.dk/wp-content/2011/09/chai-latte-1.jpg', '10', '1 serving', 'Knus kardemommekapslerne og skrab de sorte kardemommefrø ud. Rist kardemommefrø, de hele nelliker og peberkorn på en varm tør pande i 2-3 minutter, ryst panden hyppigt, så det ikke brænder på - det skal dufte lækkert og krydret. Kom krydderierne i en morter og stød dem fint.
 Kom de stødte krydderier, kanelstang, ingefær, sukker og vand i en lille kasserolle og kog op til kogepunktet. Tag gryden af varmen og kom stort te i gryden Rør det igennem og lad det trække i 3 minutter.
-Sigt chai teen i en kop og tilsæt varm – gerne skummet – mælk. Drys en knivspids kanelsukker på toppen inden servering.'),
+Sigt chai teen i en kop og tilsæt varm - gerne skummet - mælk. Drys en knivspids kanelsukker på toppen inden servering.'),
   (7515, 'Karamel af kondenseret mælk', 'https://www.valdemarsro.dk/cremet-karamel-af-kondenseret-maelk/', 'https://www.valdemarsro.dk/wp-content/2012/03/karamel-kondenseret-maelk-.jpg', '180', '1 serving', 'Du skal bruge en dåse sød kondenseret mælk. Kom dåsen i en gryde, hæld vand på, så det dækker dåsen og sæt gryden på komfuret.
 Skru op for varmen, indtil det koger. Læg låg på og skru ned, så det blot simrer.
-Hold øje med, at dåsen hele tiden er dækket med vand – vigtigt! Lad det simre i 3 timer. Tag dåsen op og lad den køle af i mindst en time.
+Hold øje med, at dåsen hele tiden er dækket med vand - vigtigt! Lad det simre i 3 timer. Tag dåsen op og lad den køle af i mindst en time.
 Nu bliver det magisk.
 Når du åbner dåsen hvor der før var kondenseret mælk, finder du nu den lækreste og cremede karamel.'),
   (7518, 'Æblekompot', 'https://www.valdemarsro.dk/aeblekompot/', 'https://www.valdemarsro.dk/wp-content/2012/10/aeblekompot.jpg', '40', '4 servings', 'Fjern kærnehuset fra æblerne og skær æblerne i tern med skræl a 1,5 cm.
@@ -2218,15 +2141,15 @@ Kom æbletern, sukker, vaniljestang, kanelstang og vand i en gryde og kog op und
 Skru ned til middelvarme, når det er gennemvarmt og rør med jævne mellemrum. Æblerne afgiver en del saft, og det skal gerne koge ind, så det bliver lidt tyktflydende.
 Opbevar æblekompotten i glas på køl.'),
   (7521, 'Pizza med æble, blå ost og serrano', 'https://www.valdemarsro.dk/pizza-aeble/', 'https://www.valdemarsro.dk/wp-content/2018/03/pizza-aeble-serrano.jpg', '120', '2 servings', 'Pizzadej
-Opløs gæren i en skål med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
-Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen. Lad dejen hæve i ca. 45-60 minutter eller i til koldhævning i køleskabet natten over.
+Opløs gæren i en skal med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
+Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen. Lad dejen hæve i ca. 45-60 minutter eller i til koldhævning i køleskabet natten over.
 Pizzasauce
 Blend alle ingredienserne til en ensartet sauce.
 Brug ca .1-2 spsk. pr pizza (Pizzasaucen kan fint fryses ned i mindre portioner)
 Topping og bagning
 Bag parmaskinken i ovnen på en bageplade med bagepapir i 7-10 minutter ved 200 grader til den er sprød. Sæt derefter ovnen til at varme op på den højeste temperatur og sæt en bageplade, bagestål eller pizzasten på den øverste rille i ovnen.
-Mozzarellaen drænes, duppes med køkkenrulle og skæres i mindre stykker. Drys lidt mel på køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne på bordet. Fordel lidt pizzasauce over begge. Kom derefter et tyndt lag parmaskinke, mozzarella, gorgonzola og æble på hver pizza.
-Slå ovnen over på grill og bag pizzaerne i ovnen i 4-5 minutter – hold øje med dem. Drys med rucola inden servering.'),
+Mozzarellaen drænes, duppes med køkkenrulle og skæres i mindre stykker. Drys lidt mel pa køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne pa bordet. Fordel lidt pizzasauce over begge. Kom derefter et tyndt lag parmaskinke, mozzarella, gorgonzola og æble på hver pizza.
+Slå ovnen over på grill og bag pizzaerne i ovnen i 4-5 minutter - hold øje med dem. Drys med rucola inden servering.'),
   (7524, 'Quesadillas', 'https://www.valdemarsro.dk/quesadillas/', 'https://www.valdemarsro.dk/wp-content/2013/09/quesadillas-vegetar.jpg', '20', '4 servings', 'Fordel spinat, majskerner og cheddar på en tortillawrap. Drys med lidt salt og peber og fold den sammen på midten.
 Steg på en varm tør pande i 3-4 minutter på begge sider.
 Skær dem ud og server rygende varme.'),
@@ -2241,16 +2164,16 @@ Opskriften giver ca 3 dl'),
   (7541, 'Hvidkålssalat', 'https://www.valdemarsro.dk/hvidkaalssalat/', 'https://www.valdemarsro.dk/wp-content/2014/08/hvidkaalsalat-opskrift.jpg', '10', '4 servings', 'Vend den snittede hvidkål grundigt i vinaigrettedressingen.
 Varm smør på en pande, rist mandlerne heri og kom til sidst teriyakisauce eller soja på panden, som lige får lov at bruse af og fordele sig på mandlerne.
 Server hvidkålssalaten med blåbær, grofthakkede ristede mandler og et drys bredbladet persille.'),
-  (7544, 'Vinaigrette', 'https://www.valdemarsro.dk/vinaigrette/', 'https://www.valdemarsro.dk/wp-content/2017/03/salat-vinaigrette.jpg', '5', '4 servings', 'Kom det hele i en skål og rør det sammen til vinaigretten er ensartet i konsistensen.
+  (7544, 'Vinaigrette', 'https://www.valdemarsro.dk/vinaigrette/', 'https://www.valdemarsro.dk/wp-content/2017/03/salat-vinaigrette.jpg', '5', '4 servings', 'Kom det hele i en skål og rør det sammen til vinaigretten er ensartet i konsistensen.
 Alternativt kan det rystes sammen i et glas med låg.
 Vinaigrette kan opbevares i køleskabet en lille uges tid.'),
   (7546, 'Flødekartofler', 'https://www.valdemarsro.dk/floedekartofler/', 'https://www.valdemarsro.dk/wp-content/2015/06/floedekartofler.jpg', '80', '4 servings', 'Skræl kartoflerne og skær dem i tynde skiver, hvorefter de anrettes sammen med løg på det smurte ovnfaste fad.
-Pisk ægget godt sammen og rør  sammen med piskefløden til det er helt ensartet i konsistensen. Kom presset hvidløg og krydderierne i og rør det sammen. fordel blandingen over kartoflerne.
+Pisk ægget godt sammen og rør  sammen med piskefløden til det er helt ensartet i konsistensen. Kom presset hvidløg og krydderierne i og rør det sammen. fordel blandingen over kartoflerne.
 Stil fadet i en forvarmet ovn ved 190 grader varmluft og bag dem i 60-70 minutter eller til kartoflerne er møre.
-Kom evt et låg eller en ovnfast tallerken vendt på hovedet hen over det ovnfaste fad – det hindre at overfladen bliver for mørk. Men beregn i så fald gerne 10 minutters længere bagetid.'),
+Kom evt et låg eller en ovnfast tallerken vendt på hovedet hen over det ovnfaste fad - det hindre at overfladen bliver for mørk. Men beregn i så fald gerne 10 minutters længere bagetid.'),
   (7549, 'Råstegte kartofler', 'https://www.valdemarsro.dk/raastegte-kartofler/', 'https://www.valdemarsro.dk/wp-content/2018/01/raastegte-kartofler.jpg', '40', '4 servings', 'Skær kartoflerne i grove tern og vend dem godt i olie, salt, peber og timian.
 Fordel dem på en bageplade med bagepapir og bag dem i en forvarmet ovn ved 180 grader varmluft i ca 30-40 minutter. Vend dem et par gange undervejs.
-3-5 minutter før de er helt færdige drysses de med parmesan eller vesterhavsost – bages færdig og er derefter klar til servering.
+3-5 minutter før de er helt færdige drysses de med parmesan eller vesterhavsost - bages færdig og er derefter klar til servering.
 Tip til servering
 Giv dem gerne et lille ekstra drys ost inden servering + fordel lidt friske krydderurter over, hvis I har.'),
   (7552, 'Tomatsauce', 'https://www.valdemarsro.dk/min-bedste-tomatsauce-opskrift/', 'https://www.valdemarsro.dk/wp-content/2014/09/tomatsauce.jpg', '30', '1 serving', 'Kom løg og hvidløg i gryden med smør og sauter til løgene er bløde. Tilsæt alle de andre ingredienser og lad det simre i 5-10 minutter. Blend den med en stavblender, hvis du synes.
@@ -2322,7 +2245,7 @@ Kør hvedemel, kakao, flormelis, salt og smør i en foodprocessor, til det er en
 Kom derefter dejen i en smurt tærteform på 24 cm i diameter og tryk den til i kanten og skær den til. Prik huller i bunden og læg bagepapir over. Kom et stykke bagepapir over tærtedejen og fyld den med bagekugler, tørrede bønner eller lign. Blindbag dejen i en forvarmet ovn ved 175 grader varmluft i 15 minutter.
 Tag tærtebunden ud, fjern bagepapir og bønner og bag den videre i 5 minutter. Lad tærtebunden køle lidt af.
 Saltkaramel
-Lav saltkaramellen, mens tærten bager. Kog piskefløde, sukker, brun farin og glukosesirup op i en stor gryde, til temperaturen er 112 grader. Rør i gryden af og til. Drys salt i, rør rundt og afkøl til stuetemperatur. Hæld karamellen i tærtebunden i et lag på ca. ½ cm i højden og sæt tærten på køl i 1 time.
+Lav saltkaramellen, mens tærten bager. Kog piskefløde, sukker, brun farin og glukosesirup op i en stor gryde, til temperaturen er 112 grader. Rør i gryden af og til. Drys salt i, rør rundt og afkøl til stuetemperatur. Hæld karamellen i tærtebunden i et lag på ca. 1/2 cm i højden og sæt tærten på køl i 1 time.
 Chokoladeganache
 Kog fløde op og hæld den over chokoladen i en skål. Rør, til chokoladen er smeltet, og cremen er ensartet. Køl af til stuetemperatur og hæld massen over bagsiden af en spiseske og ned på karamellen i tærten. Drys med lidt flagesalt. Sæt tærten i køleskabet i minimum 5 timer, til chokoladen har sat sig.'),
   (7607, 'Pæretærte', 'https://www.valdemarsro.dk/paeretaerte/', 'https://www.valdemarsro.dk/wp-content/2018/09/paeretaerte-1.jpg', '60', '6 servings', 'Mørdej
@@ -2339,7 +2262,7 @@ Pisk æggeblommer, sukker og vaniljesukker til en tyk og luftig æggesnaps. Blan
 Rør først 2 skefulde luftige æggehvider i dejen. Fold derefter nænsomt resten af de stiftpiskede hvider i skålen uden at slå luften ud. Fordel dejen i en smurt springform på 22 cm i diameter med bagepapir i bunden og stryg den jævnt ud med en palet.
 Bag kagen i en forvarmet ovn ved 170 grader varmluft i 35-40 minutter. Afkøl kagen helt i springformen, inden kanten skæres løs og tryk den ud af formen.
 Konditorcreme
-Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer  og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
+Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer  og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
 Hæld vaniljecremen i en skål og stil i køleskabet til cremen er helt kold.
 Pisk fløden til en luftig flødeskum og vend den i vaniljecremen til en luftig og lækker konditorcreme
 Saml lagkagen
@@ -2390,7 +2313,7 @@ Fjern derefter det skum, der har lagt sig øverst i cremen og rør den godt igen
 Sæt ramekinerne i en bradepande med lidt afstand imellem. Sæt dem i en forvarmet ovn ved 120 grader almindelig over- og undervarme. Hæld forsigtigt kogende vand i bradepanden op til midten af ramekinerne og bag dem i 45-60 minutter, til cremen har sat sig og giver efter ved et let tryk. Cremen skal være blød og let skælvende i midten. Sæt ramekinerne i køleskabet i min. 3 timer eller gerne til næste dag.
 Tag ramekinerne ud af køleskabet og drys et tyndt lag sukker over dem. Brænd hurtigt med en Crème brûlée brænder, til sukkeret karamelliserer, og server straks'),
   (7634, 'Bagt æble med kanel og marcipan', 'https://www.valdemarsro.dk/bagt-aeble/', 'https://www.valdemarsro.dk/wp-content/2016/09/bagte-aebler-3.jpg', '30', '4 servings', 'Rør marcipan, smør, sukker og kanel sammen og rør de hakkede nødder i.
-Udhul æblerne og fjern kernehuset – men lad bunden og blomsten sidde på æblet.
+Udhul æblerne og fjern kernehuset - men lad bunden og blomsten sidde på æblet.
 Fordel fyldet i æblerne og bag dem i en forvarmet ovn i 15 minutter ved 175 grader varmluft.
 Server æblerne lune med en kugle vaniljeis til.'),
   (7637, 'Jordbær med fløde og myntesukker', 'https://www.valdemarsro.dk/jordbaer-med-floede-og-myntesukker/', 'https://www.valdemarsro.dk/wp-content/2014/07/jordbaer-floede-opskrift.jpg', '60', '4 servings', 'Myntesukker
@@ -2414,20 +2337,20 @@ Kom sukker, vanilje, æg, mælk, øl og salt i en skål. Pisk det sammen og sigt
 Varm en pande godt op og smelt lidt smør på panden. Steg tynde pandekager på begge sider, til de er lysebrune. Sæt dem til side på en tallerken, mens appelsinsaucen tilberedes.
 Appelsinsauce
 Smelt sukker på en pande ved middel varme. Kom smør, mandler og appelsinskal i sukkeret og rør det sammen med en paletkniv.
-Vigtigt: Sørg for, at emhætten er slukket, og pas godt på ved næste step! 
+Vigtigt: Sørg for, at emhætten er slukket, og pas godt på ved næste step! 
 Hæld Grand Marnier på panden, sæt ild til og vær meget forsigtig, for det kan give høje flammer, mens alkoholen brændes af.
 Hæld appelsinsaften og appelsinfileter på panden, når der ikke er flere flammer på panden, og sluk for varmen. Fold de tynde pandekager til trekanter. Vend dem i appelsinsaucen på panden og anret dem på tallerkener med en kugle vaniljeis. Fordel resten af appelsinsaucen og appelsinfileterne på tallerkenerne.'),
   (7649, 'Hasselnøddekurv', 'https://www.valdemarsro.dk/hasselnoeddekurv/', 'https://www.valdemarsro.dk/wp-content/2018/12/hasselnoeddekurv-1.jpg', '45', '4 servings', 'Blend hasselnøddekernerne til fint nøddemel i en foodprocessor. Tilsæt smør, sukker og glukosesirup og kør, til det er ensartet.
 Form kugler og tryk dem lidt flade til en cirkel på en bageplade med bagepapir. Lav endelig god afstand imellem dem, da de flyder meget ud. Der kan være 4 dejcirkler på en bageplade, så hvis du laver dobbelt portion eller mere, skal du bruge flere bageplader.
 Bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 10 minutter, til de er flot gyldne. Hold godt øje med dem, for bagetiden kan variere fra ovn til ovn.
-Tag dem ud af ovnen, lad dem køle af i et lille minuts tid – endelig ikke længere – og vend dem over en lille skål eller et glas vendt på hovedet, så de får form som en lille kurv. Form dem evt. lidt og lad dem køle helt af på glasset.
+Tag dem ud af ovnen, lad dem køle af i et lille minuts tid - endelig ikke længere - og vend dem over en lille skål eller et glas vendt på hovedet, så de får form som en lille kurv. Form dem evt. lidt og lad dem køle helt af på glasset.
 Server nøddekurvene med is, flødeskum, hakket chokolade, nødder, bær og mynte.'),
   (7652, 'Hasselnøddeis', 'https://www.valdemarsro.dk/hasselnoeddeis/', 'https://www.valdemarsro.dk/wp-content/2017/07/hasselnoeddeis-app.jpg', '300', '4 servings', 'Rist hasselnøddekernerne i ovnen i 10 minutter ved 175 grader varmluft til hinderne revner. Kom nødderne i et rent klæde og brug klædet til at gnide skallerne af. Blend de lune hasselnøddekerner til fint hasselnøddemel i en foodprocessor.
 Varm langsomt hasselnøddemel, mælk og salt op i en gryde under omrøring til 90 grader. Tag gryden af varmen og blend med en stavblender. Hæld blandingen gennem en sigte ned i en skål og sæt hasselnøddemælken til side.
-Pisk æggeblommer og sukker sammen til en luftig æggesnaps. Kom piskefløde, mælkechokolade og hasselnøddemælk i en gryde og varm op til lige under kogepunktet. Pisk langsomt den varme mælkeblanding i skålen med æggesnaps og hæld til sidst iscremen tilbage i gryden. Varm den op under omrøring, til temperaturen er præcis 80 grader – mål med et sukkertermometer.
+Pisk æggeblommer og sukker sammen til en luftig æggesnaps. Kom piskefløde, mælkechokolade og hasselnøddemælk i en gryde og varm op til lige under kogepunktet. Pisk langsomt den varme mælkeblanding i skålen med æggesnaps og hæld til sidst iscremen tilbage i gryden. Varm den op under omrøring, til temperaturen er præcis 80 grader - mål med et sukkertermometer.
 Sæt hasselnøddeiscremen i køleskabet i 1 time eller til næste dag og kør den derefter på en ismaskine, til konsistensen er luftig og cremet. Sæt isen i fryseren i 2 timer inden servering.'),
   (7655, 'Chokolade is', 'https://www.valdemarsro.dk/hjemmelavet-chokoladeis/', 'https://www.valdemarsro.dk/wp-content/2015/08/chokoladeis.jpg', '300', '4 servings', 'Skær vaniljestangen igennem på langs og skrab kornene ud. Kom den tomme vaniljestang, mælk og piskefløde i en gryde og varm op til 90 grader. Kom æggeblommer, vaniljekorn og sukker i en skål og pisk til en luftig og lys æggesnaps.
-Fjern vaniljestangen fra gryden og pisk langsomt vaniljefløden i æggeblandingen. Pisk konstant, til det er blandet godt sammen. Hæld blandingen tilbage i gryden og varm langsomt op under konstant omrøring, til temperaturen er præcis 80 grader – mål med et sukkertermometer.
+Fjern vaniljestangen fra gryden og pisk langsomt vaniljefløden i æggeblandingen. Pisk konstant, til det er blandet godt sammen. Hæld blandingen tilbage i gryden og varm langsomt op under konstant omrøring, til temperaturen er præcis 80 grader - mål med et sukkertermometer.
 Hæld den varme vaniljecreme over den finthakkede chokolade i en skål og giv det en hurtig tur med stavblenderen, til cremen er helt jævn og ensartet. Hæld iscremen i en skål og sæt den på køl i 1 time eller til næste dag.
 Rør isen på en ismaskine og sæt den derefter i fryseren i en bøtte med låg i min. 2 timer inden servering.'),
   (7658, 'Iskager', 'https://www.valdemarsro.dk/iskager/', 'https://www.valdemarsro.dk/wp-content/2014/08/iskager.jpg', '240', '6 servings', 'Cookies
@@ -2472,16 +2395,16 @@ Derefter
 Kom dejen ud på et meldrysset bord og fold den nænsomt 1-2 gange. Skær boller ud med en fast spartel. Vær nænsom, så luften ikke presset ud af dejen. Sæt bollerne på en bageplade med bagepapir og lad dem bollerne efterhæve i 45 minutter.
 Bag bollerne i en forvarmet ovn ved 175 grader varmluft i 10 minutter. Skrue derefter ovnen op til 225 grader og bag videre i cirka 6-8 minutter eller til bollerne er lækre og sprøde i skorpen.'),
   (7683, 'Saltmandler med rosmarin', 'https://www.valdemarsro.dk/saltmandler-med-rosmarin/', 'https://www.valdemarsro.dk/wp-content/2016/06/saltmandler.jpg', '20', '1 serving', 'Skyl mandlerne grundigt. Opløs salt i vandet og vend mandlerne deri.
-Fordel mandler og vand ud på en bage­ plade med bagepapir og bag dem i ovnen ved 150 grader varmluft i 15 minutter, til vandet er fordampet, og mandlerne er sprøde. Lad dem køle af på bagepladen.
+Fordel mandler og vand ud på en bage plade med bagepapir og bag dem i ovnen ved 150 grader varmluft i 15 minutter, til vandet er fordampet, og mandlerne er sprøde. Lad dem køle af på bagepladen.
 Drys finthakket rosmarin over mandlerne og server når de er afkølet.
 Opskriften giver ca 2 dl'),
-  (7686, 'Stegte rodfrugter med pære og mynte', 'https://www.valdemarsro.dk/rodfrugter/', 'https://www.valdemarsro.dk/wp-content/2015/10/bedste-rodfrugt-opskrift.jpg', '20', '1 serving', 'Steg bacon skiverne sprøde og sæt dem til siden, kom olie på panden, sæt temperaturen til  middelvarme og kom så først kartoflerne på panden og steg dem i 10 minutter. Vend jævnligt.
+  (7686, 'Stegte rodfrugter med pære og mynte', 'https://www.valdemarsro.dk/rodfrugter/', 'https://www.valdemarsro.dk/wp-content/2015/10/bedste-rodfrugt-opskrift.jpg', '20', '1 serving', 'Steg bacon skiverne sprøde og sæt dem til siden, kom olie på panden, sæt temperaturen til  middelvarme og kom så først kartoflerne på panden og steg dem i 10 minutter. Vend jævnligt.
 Når kartoflerne er halvvejs færdige, tilsættes resten af rodfrugterne på panden og det steges videre sammen til kartoflerne er helt møre inden i og lidt sprøde uden på. Vend jævnligt med en paletkniv eller ved at ryste panden.
 Anret på tallerkener med mynte og pære i tern, og knust sprød bacon.
-Spis som den er, server et spejlæg til eller brug retten som tilbehør til et godt stykke kylling, oksekød eller svinekød.'),
-  (7690, 'Saltkaramel sauce', 'https://www.valdemarsro.dk/saltkaramel/', 'https://www.valdemarsro.dk/wp-content/2015/10/saltkaramelsauce-1.jpg', '30', '1 serving', 'Smelt sukkeret i en tykbundet gryde under middellav varme – rør gerne i det med jævne mellemrum og hav lidt tålmodighed, det kan godt tage lidt tid.
+Spis som den er, server et spejlæg til eller brug retten som tilbehør til et godt stykke kylling, oksekød eller svinekød.'),
+  (7690, 'Saltkaramel sauce', 'https://www.valdemarsro.dk/saltkaramel/', 'https://www.valdemarsro.dk/wp-content/2015/10/saltkaramelsauce-1.jpg', '30', '1 serving', 'Smelt sukkeret i en tykbundet gryde under middellav varme - rør gerne i det med jævne mellemrum og hav lidt tålmodighed, det kan godt tage lidt tid.
 Så snart alt sukkeret er smeltet, røres fløden i langsomt i, mens karamellen koges op.
-Når karamellen er kogt lidt ind, så tag en lille prøve med en teske og kom den i køleskabet i et par minutter. Er den for tynd så kog den lidt mere – skulle karamellem derimod blive for tyk, så rør lidt mere fløde i.
+Når karamellen er kogt lidt ind, så tag en lille prøve med en teske og kom den i køleskabet i et par minutter. Er den for tynd så kog den lidt mere - skulle karamellem derimod blive for tyk, så rør lidt mere fløde i.
 Til sidst røres en smule god havsalt eller saltflager i.'),
   (7694, 'Havregrødschips', 'https://www.valdemarsro.dk/havregrodschips-sprode-og-sunde/', 'https://www.valdemarsro.dk/wp-content/2014/06/havregrodschips.jpg', '45', '1 serving', 'Tænd ovnen på 150 grader varmluft.
 Hak mandler og hørfrø i en minihakker og rør det i havregrøden sammen med resten af ingredienserne. Spred blandingen ud på en bageplade med bagepapir i et meget tyndt lag.
@@ -2494,7 +2417,7 @@ Husk: spis ikke skallen, kun de grønne bønner inden i
 Opskriften er til 2-3 personer'),
   (7702, 'Müsli ristet med honning i ovnen - granola', 'https://www.valdemarsro.dk/hjemmelavet-musli-ristet-i-ovnen/', 'https://www.valdemarsro.dk/wp-content/Hjemmelavet-Musli.jpg', '20', '1 serving', 'Hasselnødder, dadler og mandler hakkes groft og det hele blandet sammen med krydderier, frø, kerner og flager på en bageplade med bagepapir.
 Fordel dadelstykkerne godt i de tørre ingredienser og hæld honning over.
-Bages i ovnen ved 150 grader varmluft og rører en gang eller to i løbet af de næste 15-20 minutter, til det er ristet og gyldent.
+Bages i ovnen ved 150 grader varmluft og rører en gang eller to i løbet af de næste 15-20 minutter, til det er ristet og gyldent.
 Lad køle af og hæld derefter på glas.
 Opskriften er til ca 6 portioner'),
   (7707, 'Croque Monsieur eller Madame', 'https://www.valdemarsro.dk/croque-monsieur-og-croque-madame/', 'https://www.valdemarsro.dk/wp-content/2011/08/croque-monsieur-crocue-madame.jpg', '25', '4 servings', 'Smelt smør i en gryde og pisk mel i til en melbolle, derefter piskes mælken i lidt efter lidt til saucen er fin og uden klumper. Tilsæt halvdelen af osten og rør til osten er smeltet. Smag til med dijonsennep, salt, peber og muskatnød.
@@ -2509,7 +2432,7 @@ Rør kartoffelmel ud i lidt koldt vand og tilsæt det i en tynd stråle i den va
 Hæld den varme blommegrød i en skål, drys med sukker og stil grøden i køleskab i min. 3 timer, eller til den skal serveres.
 Pisk fløden med vaniljesukker til en luftig flødeskum og server den kolde blommegrøde i dybe tallerkener med vaniljeflødeskum.'),
   (7716, 'Chokolade chiagrød med banan og nødder', 'https://www.valdemarsro.dk/chokolade-chiagroed/', 'https://www.valdemarsro.dk/wp-content/2016/10/kakao-chiagroed.jpg', '600', '1 serving', 'Rør chiafrø, mælk, havregryn, kakao og hakket chokolade sammen i en lille skål og stil på køl med låg på, natten over.
-Om morgenen røres chokolade chiagrøden med ahornsirup og ymer eller lign – og toppes med banan, nødder, kakaonibs.
+Om morgenen røres chokolade chiagrøden med ahornsirup og ymer eller lign - og toppes med banan, nødder, kakaonibs.
 Topping
 kakaonibs, 1/2 banan, pekannødder, evt pistaciekerner'),
   (7720, 'Bircher Müsli med pærer', 'https://www.valdemarsro.dk/bircher-musli/', 'https://www.valdemarsro.dk/wp-content/2016/10/bircher_musli.jpg', '600', '2 servings', 'Om aftenen
@@ -2525,9 +2448,9 @@ Blodappelsin Mojito
 Kom blodappelsinsaft, rom, isterninger og sirup i en shaker og ryst det godt sammen.
 Hæld gennem en sigte i glas med finthakket mynte og et par kvarte skiver blodappelsin. Top med danskvand og kom knuste isterninger ved hvis du synes.'),
   (7728, 'Hyldeblomst, ingefær og gin cocktail', 'https://www.valdemarsro.dk/hyldeblomst-ingefaer-og-gin-cocktail/', 'https://www.valdemarsro.dk/wp-content/2018/06/hyldeblomst-drinks.jpg', '5', '1 serving', 'Kom gin, hyldeblomstsaft, friskrevet ingefær og isterninger i en shaker og ryst det godt sammen.
-Kom i et glas med isterninger, top med danskvand og nyd ♡'),
+Kom i et glas med isterninger, top med danskvand og nyd '),
   (7731, 'Cookies med chokolade og nødder', 'https://www.valdemarsro.dk/cookies/', 'https://www.valdemarsro.dk/wp-content/2007/12/cookies-1.jpg', '45', '16 servings', 'Pisk smør, sukker og farin, til det er luftigt, og pisk derefter ægget i. Bland hvedemel, bagepulver, vaniljesukker og salt sammen, sigt det i dejen og rør det godt sammen.
-Rist hasselnødderne på en tør varm pande, til hinderne begynder at sprække. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af. Hak derefter hasselnødderne groft Hak de ristede hasselnødder og vend dem godt rundt i dejen sammen med chokoladen.
+Rist hasselnødderne pa en tør varm pande, til hinderne begynder at sprække. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af. Hak derefter hasselnødderne groft Hak de ristede hasselnødder og vend dem godt rundt i dejen sammen med chokoladen.
 Form runde kugler på størrelse med en lille golfbold og sæt dem med god afstand mellem hinanden på to bageplader med bagepapir. Giv kagerne et lille tryk, så de flader en smule ud.
 Bag dem i en forvarmet ovn ved 175 grader varmluft i 13-15 minutter, til de er gyldne, men stadig lidt bløde i midten.
 Lad dem køle lidt af på bagepladen, inden de sættes på en bagerist.'),
@@ -2546,24 +2469,24 @@ Lad derefter det nybagte rugbrød køle af på en rist.
 Tip
 Hvis der undlades surdej, så kom i stedet 1/2 dl ekstra vand + 10 g ekstra gær i dejen.'),
   (7741, 'Gazpacho - Kold tomatsuppe', 'https://www.valdemarsro.dk/gazpacho-kold-tomatsuppe/', 'https://www.valdemarsro.dk/wp-content/2013/07/gazpacho-opskrift-1.jpg', '120', '4 servings', 'Kom tomat, agurk og peberfrugt, hvidløg og brød i en blender og blend, til suppen er flydende. Smag til med limesaft, chiliflager, olivenolie, salt og peber.
-Sæt derefter suppen på køl i cirka 3 timer eller i fryseren i cirka 30-­40 minutter, til suppen er helt afkølet.
+Sæt derefter suppen på køl i cirka 3 timer eller i fryseren i cirka 30-40 minutter, til suppen er helt afkølet.
 Server med grissini, agurketern og dild.'),
   (7744, 'Grillede Padron med flagesalt', 'https://www.valdemarsro.dk/grillede-padron/', 'https://www.valdemarsro.dk/wp-content/2020/05/padrons-grillet-kopi.jpg', '10', '4 servings', 'Vend padron peberne i olie og lynrist dem på grillen over direkte varme eller på en varm pande i lidt olie. Vend dem hyppigt.
 Tag af panden, drys med salt og server med det samme.'),
-  (7747, 'Pina Colada', 'https://www.valdemarsro.dk/pina-colada/', 'https://www.valdemarsro.dk/wp-content/2020/01/pina-colada.jpg', '5', '1 serving', 'Kom alle ingredienserne inkl 2 isterninger i en blender og kør til isterningerne er knust og  den lækre Piña Colada er iskold, skummende og cremet.
+  (7747, 'Pina Colada', 'https://www.valdemarsro.dk/pina-colada/', 'https://www.valdemarsro.dk/wp-content/2020/01/pina-colada.jpg', '5', '1 serving', 'Kom alle ingredienserne inkl 2 isterninger i en blender og kør til isterningerne er knust og  den lækre Piña Colada er iskold, skummende og cremet.
 Hæld i hurricaneglas med ekstra isterninger, pynt med ananasskive og server straks.'),
-  (7750, 'Hjemmelavet Guldkaramel', 'https://www.valdemarsro.dk/guldkarameller/', 'https://www.valdemarsro.dk/wp-content/2013/12/guldkarameller_opskrift.jpg', '180', '50 servings', 'Kom piskefløde, sukker og glukosesirup i en stor gryde og kog det op. Lad det koge i 35-45 minutter. Mens karamellen koger, vil den bruse meget op, så sørg for at der er god plads i gryden. Rør indimellem i gryden, men ikke for ofte. Når karamelmassen slipper bunden og har en tyk og sej  konsistens, samt en temperatur på 120 grader er den færdig.
+  (7750, 'Hjemmelavet Guldkaramel', 'https://www.valdemarsro.dk/guldkarameller/', 'https://www.valdemarsro.dk/wp-content/2013/12/guldkarameller_opskrift.jpg', '180', '50 servings', 'Kom piskefløde, sukker og glukosesirup i en stor gryde og kog det op. Lad det koge i 35-45 minutter. Mens karamellen koger, vil den bruse meget op, så sørg for at der er god plads i gryden. Rør indimellem i gryden, men ikke for ofte. Når karamelmassen slipper bunden og har en tyk og sej  konsistens, samt en temperatur på 120 grader er den færdig.
 Hæld karamelmassen i en beholder foret med bagepapir. Størrelsen på formen er ikke vigtig, da karamellen skal trilles til kugler og ikke skæres ud. Lad karamellen køle af i en time på køkkenbordet.
 Skær karameller i mundrette stykker og tril dem til runde kugler. Sæt dem på køl til de er helt afkølede. Overtræk karamelkuglerne med tempereret chokolade og stil dem på et stykke bagepapir til chokoladen er størknet.'),
   (7753, 'Skildpadder', 'https://www.valdemarsro.dk/hjemmelavede-skildpadder/', 'https://www.valdemarsro.dk/wp-content/2016/03/skildpadder-opskrift.jpg', '120', '30 servings', 'Rør den kondenserede mælk med rom, smag til.
 Hak chokoladen fin og smelt 2/3 af chokoladen over et vandbad, tag chokoladen af varmen og rør den sidste 1/3 chokolade i.
-Rør til chokoladen er helt smeltet, hvorefter den kommes i en form, så chokoladen dækker alle kanterne i formen – vend chokoladen ud igen og sæt formen med chokoladeskaller på køl i 15 minutter.
+Rør til chokoladen er helt smeltet, hvorefter den kommes i en form, så chokoladen dækker alle kanterne i formen - vend chokoladen ud igen og sæt formen med chokoladeskaller på køl i 15 minutter.
 Kom derefter karamelcreme i, til 2 mm fra kanten, og luk chokoladebunden med et lag smeltet chokolade.
-Lad dem køle af i formen og sætte sig i nogle timer, hvorefter de slåes ud og nydes ♡'),
+Lad dem køle af i formen og sætte sig i nogle timer, hvorefter de slåes ud og nydes '),
   (7758, 'Mojito', 'https://www.valdemarsro.dk/mojito/', 'https://www.valdemarsro.dk/wp-content/2017/08/mojito.jpg', '5', '1 serving', 'Kom mynte, halvdelen af limebådene og sukker i et glas og brug en muddler til at støde det godt sammen, så mynten afgiver en masse saft og smag og sukkeret næsten bliver opløst.
-Hæld rom i glasset, rør godt rundt og fyld derefter glasset med knuste isterninger. Top med danskvand og pynt med sugerør, limebåde og mynteblade på toppen inden servering'),
+Hæld rom i glasset, rør godt rundt og fyld derefter glasset med knuste isterninger. Top med danskvand og pynt med sugerør, limebåde og mynteblade på toppen inden servering'),
   (7761, 'Varme hveder', 'https://www.valdemarsro.dk/varme-hveder/', 'https://www.valdemarsro.dk/wp-content/2014/05/varme-hveder-1.jpg', '300', '12 servings', 'Rør gær ud i en skål med stuetempereret mælk og rør derefter æg og sukker i mælken.
-Bland mel, salt, kardemomme godt sammen i en ren skål og smuldr smør i, til en ensartet fintsmuldret blanding. Ælt nu de to blandinger sammen – gerne på en røremaskine, til dejen bliver smidig, blød og lækker.
+Bland mel, salt, kardemomme godt sammen i en ren skål og smuldr smør i, til en ensartet fintsmuldret blanding. Ælt nu de to blandinger sammen - gerne på en røremaskine, til dejen bliver smidig, blød og lækker.
 Kom dejen i en skål og stil den til at hæve i 2 timer på køkkenbordet, dækket med et rent klæde.
 Tag dejen ud på et meldrysset bord, del og form runde boller. Sæt dem tæt, med cirka en cm afstand mellem dem, på en lille bradepande med bagepapir. Kom et rent viskestykke over og lad dem efterhæve i 2 timer på et lunt køkkenbord.
 Pensl bollerne med sammenpisket æg og bag dem i en forvarmet ovn ved 175 grader varmluft i 16-18 minutter, til de er gyldne og gennembagte.
@@ -2594,21 +2517,21 @@ Rør creme fraiche, mayonnaise, purløg, friskrevet parmesan og finthakket bacon
   (7786, 'Samosa', 'https://www.valdemarsro.dk/samosa/', 'https://www.valdemarsro.dk/wp-content/2020/01/samosa.jpg', '45', '4 servings', 'Kog blomkålsbuketterne i en gryde med kogende vand i 2 minutter og hæld vandet fra.
 Varm olie op i en pande og sauter løg og hvidløg, tilsæt krydderier og fintrevet ingefær og rør godt igennem. Tilsæt derefter kartofler, den tilberedte blomkål, ærter, mynte og smag til med salt og peber.
 Skær filodejen ud i rektangler på ca. 12 × 20 cm og pensl filodejen med olie på begge sider. Læg 2 spsk fyld i et hjørne og fold hjørnerne sammen omkring fyldet, så det danner en trekant. Fold igen et par gange, til der ikke er mere dej, og hver samosa har et par lag filodej.
-Varm ovnen op til 200 grader varmluft. Pensl samosa­erne med olie og bag dem i den varme ovn i ca. 15 minutter, til de er sprøde og gyldne.
+Varm ovnen op til 200 grader varmluft. Pensl samosaerne med olie og bag dem i den varme ovn i ca. 15 minutter, til de er sprøde og gyldne.
 Dressing
 Kom alle ingredienserne i en blender og kør til det er en ensartet dip. Smag til med mere salt, peber eller lime alt efter smag og behag.'),
-  (7789, 'Kartoffelbåde i ovnen', 'https://www.valdemarsro.dk/kartoffelbaade-i-ovn/', 'https://www.valdemarsro.dk/wp-content/2007/09/kartoffelbaade.jpg', '45', '4 servings', 'Skrub kartoflerne og skær dem i både. Kom dem i en skål hvor de er dækket med koldt vand og lad dem stå i 10 minutter, det trækker stivelsen ud og gør dem ekstra lækre – men kan springes over hvis der er lidt tid.
+  (7789, 'Kartoffelbåde i ovnen', 'https://www.valdemarsro.dk/kartoffelbaade-i-ovn/', 'https://www.valdemarsro.dk/wp-content/2007/09/kartoffelbaade.jpg', '45', '4 servings', 'Skrub kartoflerne og skær dem i både. Kom dem i en skål hvor de er dækket med koldt vand og lad dem stå i 10 minutter, det trækker stivelsen ud og gør dem ekstra lækre - men kan springes over hvis der er lidt tid.
 Dup kartoflerne, så de er helt tørre. Vend dem med olivenolie og salt og fordel dem på en bradepande med bagepapir.
 Bag kartoflerne i en forvarmet ovn ved 200 grader varmluft i ca. 30 minutter. Vend dem et par gange undervejs.'),
   (7792, 'Skumfiduser', 'https://www.valdemarsro.dk/skumfiduser/', 'https://www.valdemarsro.dk/wp-content/2017/11/skumfiduser.jpg', '180', '50 servings', 'Kom arkene med husblas i en skål med vand et efter et og lad dem stå i blød.
 Flæk vaniljestangen, skrab kornene ud og bland dem med sukkeret. Kom sukker, vand og vanilje i en gryde og lad det koge op til 118 grader.
 Tag gryden af varmen. Vrid husblassen godt for vand og kom husblas i den varme sukkermasse. Rør det godt rundt og lad det derefter køle af i ca. 10 minutter. Hæld sukkermassen i en skål og pisk sukkermassen på en røremaskine eller med en elpisker. Det skal piskes længe til det er helt tykt, sejt og stift, det tager 10-15 minutter.
-Kom smag og farve i – alt efter ønske – et par minutter, inden det er helt færdigpisket.
+Kom smag og farve i - alt efter ønske - et par minutter, inden det er helt færdigpisket.
 Sigt godt med flormelis på et stykke bagepapir i et tæt lag. Fordel skumfidusmassen på bagepapiret. Det er noget klistret stads, brug et par skeer til det. Drys godt med flormelis over og glat det lidt ud, uden at trykke det flat. Dæk over, uden at trykke skumfidusmassen flad.
 Lad skumfidusmassen køle af i et par timer eller til dagen efter. Klip skumfiduserne ud med en saks og vend dem alle i en smule flormelis.'),
   (7795, 'Efterårssalat med brombær og figner', 'https://www.valdemarsro.dk/efteraarssalat-brombaer-figner/', 'https://www.valdemarsro.dk/wp-content/2021/03/salat-figner-brombaer.jpg', '15', '4 servings', 'Kom grønkål i en skål med olivenolie, citronsaft og fintrevet citronskal. Massér grønkålen i et par minutter, til den bliver mør og lækker.
 Rist valnødderne under omrøring i et minut på en tør pande. Tilsæt ahornsirup, sluk for varmen og rør godt rundt, til valnødderne er dækkede.
-Anret grønkål, spidskål, brombær, figner og valnødder på et stort serveringsfad og smag til med salt og frisk­ kværnet peber.'),
+Anret grønkål, spidskål, brombær, figner og valnødder på et stort serveringsfad og smag til med salt og frisk kværnet peber.'),
   (7798, 'Rabarberkompot', 'https://www.valdemarsro.dk/rabarberkompot/', 'https://www.valdemarsro.dk/wp-content/2012/05/rabarberkompot.jpg', '30', '8 servings', 'Kom alle ingredienserne i en gryde og rør det godt sammen. Lad det stå og trække saft i en halv time uden varme.
 Tænd for varmen og varm op til kogepunktet under omrøring.
 Lad det simre i 5-10 minutter. Hold øje med det og tag af varmen, så snart rabarberen er blød. Det skal endelig ikke være overkogt.
@@ -2634,7 +2557,7 @@ Rør flødeost og birkes i og smag til. Fyld frostingen i en sprøjtepose med st
   (7826, 'Lagkage med banan og chokolade', 'https://www.valdemarsro.dk/lagkage-med-banan-og-chokolade/', 'https://www.valdemarsro.dk/wp-content/2021/02/bananlagkage.jpg', '180', '8 servings', 'Lagkagebunde
 Kom hasselnødderne i en forvarmet ovn ved 150 grader varmluft og bag i 15 minutter til hinderne bliver sprøde og sprækker. Kom hasselnødderne i et rent klæde og gnid hinderne af. Kom hasselnødderne i en foodprocessor og kør til det er fintmalet.
 Del æggene i hvider og blommer i to skåle. Pisk æggehvider, til de er luftige, stive og danner toppe. Skær vaniljestangen igennem på langs, skrab forsigtigt kornene ud med en kniv og bland dem i sukkeret. Pisk vanilje, sukker og æggeblommer til en luftig æggesnaps. Tilsæt hasselnøddemel og smør og pisk det hurtigt sammen.
-Bland mel, salt og bagepulver, sigt det i dejen og vend den hurtigt sammen. Rør forsigtigt et par skefulde piskede æggehvider i dejen og fold derefter meget nænsomt resten af de luftige æggehvider i. Fordel dejen i en smurt springform på ca. 20 cm i diameter og glat den ud med en dejskraber. Bag kagen i en forvarmet ovn ved 165 grader varmluft i 45-50 minutter. Afkøl kagen helt i springformen. Tag kagen ud og skær den i 3 lagkagebunde.
+Bland mel, salt og bagepulver, sigt det i dejen og vend den hurtigt sammen. Rør forsigtigt et par skefulde piskede æggehvider i dejen og fold derefter meget nænsomt resten af de luftige æggehvider i. Fordel dejen i en smurt springform på ca. 20 cm i diameter og glat den ud med en dejskraber. Bag kagen i en forvarmet ovn ved 165 grader varmluft i 45-50 minutter. Afkøl kagen helt i springformen. Tag kagen ud og skær den i 3 lagkagebunde.
 Konditorcreme
 Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme. Hæld vaniljecremen i en skål, læg husholdningsfilm over overfladen og stil i køleskabet til cremen er helt kold.
 Pisk fløden til en luftig flødeskum og vend den i vaniljecremen til en luftig og lækker konditorcreme
@@ -2654,18 +2577,18 @@ Smag og vurder om det evt skal have en smule mere olivenolie.
 Opskriften giver 1 dl pesto'),
   (7841, 'Mandelmælk', 'https://www.valdemarsro.dk/hjemmelavet-mandelmaelk/', 'https://www.valdemarsro.dk/wp-content/2016/01/mandelmaelk.jpg', '10', '1 serving', '30 mandler sættes i blød i et glas og dækkes med 2 dl koldt vand i mindst en dag i køleskabet (de kan sagtens holde sig meget længere på køl, hvis man bare skifter vandet dagligt).
 Hæld vandet fra og skyl mandlerne grundigt, inden de bruges.
-Til mandelmælk blender jeg først mandlerne med 1 dl rent vand. Når massen er godt grynet, så kommer jeg 9 dl vand mere i.
+Til mandelmælk blender jeg først mandlerne med 1 dl rent vand. Når massen er godt grynet, så kommer jeg 9 dl vand mere i.
 Blend igen og sigt mandelmælken gennem et rent klæde.
 Mandelmælk har en dejlig mild smag og jeg bruger det oftest til smoothie eller grød. Smag evt mandelmælken til med en smule vanilje.
 Det overskydende mandelsmulder smager fantastisk, blandet i grød eller i dejen til hjemmebagt brød.'),
-  (7844, 'Bellini', 'https://www.valdemarsro.dk/bellini/', 'https://www.valdemarsro.dk/wp-content/2020/08/bellini.jpg', '60', '6 servings', 'Skold fersknerne ved at lægge dem i en skål med kogende vand i et minut. Træk skindet af de skoldende ferskener og skær frugtkødet skiver. Blend ferskenkødet til det er helt fint og mos pureen gennem en fintmasket sigte. Sæt i køleskabet i minimum en time – eller i fryseren i 30 minutter – så pureen kan blive helt kold.
+  (7844, 'Bellini', 'https://www.valdemarsro.dk/bellini/', 'https://www.valdemarsro.dk/wp-content/2020/08/bellini.jpg', '60', '6 servings', 'Skold fersknerne ved at lægge dem i en skål med kogende vand i et minut. Træk skindet af de skoldende ferskener og skær frugtkødet skiver. Blend ferskenkødet til det er helt fint og mos pureen gennem en fintmasket sigte. Sæt i køleskabet i minimum en time - eller i fryseren i 30 minutter - så pureen kan blive helt kold.
 Fyld et par skefulde ferskenpure i hvert champagneglas og top derefter med iskold prosecco.
 Server straks'),
   (7847, 'Grydebrød', 'https://www.valdemarsro.dk/grydebroed/', 'https://www.valdemarsro.dk/wp-content/2012/01/grydebroed-opskrift.jpg', '840', '1 serving', 'Opløs gæren i en skål med vand.
 Tilsæt honning, salt og de to varianter af ølandshvede og rør det godt igennem. Tilsæt hvedemel og rør igen.
-Dæk skålen til og lad dejen hæve i 10-­12 timer på køkkenbordet.
-Skrab dejen ud på et meldrysset bord og fold den næn­somt ind over hinanden 5-­8 gange. Drys godt med mel over dejen og læg den i en meldrysset skål eller hævekurv og lad den hæve i 2 timer.
-Når dejen har hævet i 1,5 time, sættes en støbejerns­ gryde med låg på ca. 4,2 liter i en kold ovn. Tænd ovnen på 250 grader varmluft eller almindelig ovn og tag gry­den ud af ovnen, når temperaturen er på 250 grader. Tag låget af gryden og hæld med det samme dejen i gryden. Læg låg på og sæt gryden tilbage i ovnen.
+Dæk skålen til og lad dejen hæve i 10-12 timer på køkkenbordet.
+Skrab dejen ud på et meldrysset bord og fold den nænsomt ind over hinanden 5-8 gange. Drys godt med mel over dejen og læg den i en meldrysset skål eller hævekurv og lad den hæve i 2 timer.
+Når dejen har hævet i 1,5 time, sættes en støbejerns gryde med låg på ca. 4,2 liter i en kold ovn. Tænd ovnen på 250 grader varmluft eller almindelig ovn og tag gryden ud af ovnen, når temperaturen er på 250 grader. Tag låget af gryden og hæld med det samme dejen i gryden. Læg låg på og sæt gryden tilbage i ovnen.
 Bag brødet i 30 minutter ved 250 grader, tag derefter låget af og bag videre ved 230 grader varmluft i 15 minutter.
 Tag gryden ud af ovnen og vend brødet ud på en rist.
 Sørg for at bruge grydelapper, da gryden og låget bliver rygende varme!'),
@@ -2673,7 +2596,7 @@ Sørg for at bruge grydelapper, da gryden og låget bliver rygende varme!'),
 Juster med vand og mælk til den rette konsistens og lad køle af.
 Rør havregrøden med olie, sød paprika og røget paprika samt lidt knust flagesalt.
 Med en spartel smøres grøden ud på bagepapir i et tyndt lag.
-Drys lidt flagesalt på og bag i ovnen ved 150 grader varmluft i 45 – 60 minutter.
+Drys lidt flagesalt på og bag i ovnen ved 150 grader varmluft i 45 - 60 minutter.
 Dilddip
 Rør creme fraiche sammen med krydderurter og alt det andet gode. Smag til med salt og peber, samt lidt citronsaft.'),
   (7855, 'Hasselnøddesmør', 'https://www.valdemarsro.dk/hasselnoddesmor/', 'https://www.valdemarsro.dk/wp-content/2013/10/hasselnoeddesmoer-hjemmelavet.jpg', '30', '1 serving', 'Rist hasselnøddekernerne på en bageplade i ovnen ved 175 grader omkring 15 minutter.
@@ -2681,7 +2604,7 @@ Tag hasselnødderne ud af ovnen, kom dem i en rent klæde og brug det til at gni
 Kom de ristede lune hasselnøddekerner i en foodprocessor og kør til hasselnøddesmørret bliver cremet og lækkert.
 Det kan godt tage 10 minutter og det er indimellem nødvendigt lige at skrabe kanterne og røre massen sammen i hakkeren.'),
   (7857, 'Bananchips', 'https://www.valdemarsro.dk/de-laekreste-hjemmelavede-bananchips/', 'https://www.valdemarsro.dk/wp-content/2014/02/hjemmelavede-bananchips.jpg', '180', '1 serving', 'Skær bananen i ultra tynde skiver, skær den gerne lidt på skrå.
-Sæt bananskiverne på en bageplade med bagepapir og sæt bagepladen i ovnen, ved 100 grader varmluft i 45 minutter – 1 time. eller til de er sprøde.'),
+Sæt bananskiverne på en bageplade med bagepapir og sæt bagepladen i ovnen, ved 100 grader varmluft i 45 minutter - 1 time. eller til de er sprøde.'),
   (7860, 'Limoncello cocktail - med gin og mynte', 'https://www.valdemarsro.dk/limoncello-cocktail-gin-mynte/', 'https://www.valdemarsro.dk/wp-content/2017/06/limoncello-gin-mynte.jpg', '5', '2 servings', 'Shake isterninger, limoncello og gin godt sammen og fordel i to glas med citronskiver i.
 Top med danskvand og pynt med mynteblade.'),
   (7863, 'Espresso Martini cocktail med saltkaramel', 'https://www.valdemarsro.dk/espresso-martini/', 'https://www.valdemarsro.dk/wp-content/2015/06/caramel-espresso.jpg', '45', '2 servings', 'Saltkaramel
@@ -2690,7 +2613,7 @@ Tag gryden af varmen og lad karamellen stå et øjeblik.
 Rør den igennem og dyp så glassene i, og drej rundt så hele glassets øverste kant dækkes af et lille lag karamel og pynt med lidt saltflager.
 Espresso Martini
 Hæld espresso, vodka og Kahlua i en shaker eller et glas med låg.
-Kom isterninger i og ryst grundigt, hæld drikken – uden isterninger! – i martini glas og server med det samme.'),
+Kom isterninger i og ryst grundigt, hæld drikken - uden isterninger! - i martini glas og server med det samme.'),
   (7866, 'Lemondrop cocktail', 'https://www.valdemarsro.dk/lemondrop-cocktail/', 'https://www.valdemarsro.dk/wp-content/2016/12/lemondrop-cocktail-app.jpg', '5', '2 servings', 'Vend glassets kant i sirup og derefter i sukker, så glasset bliver fint pyntet.
 Kom vodka, cointreau, sukkersirup og friskpresset citronsaft i en shaker med isterninger.
 Ryst cocktailen godt igennem og hæld derefter gennem en sigte i glassene.
@@ -2725,11 +2648,11 @@ Kom i et glas med isterningerne, og pynt med en anelse lakrids.'),
 Tilsæt fløden, rør dressingen sammen til den tykner lidt og smag til med salt og peber. Smagen skal være sød og syrlig på samme tid.
 Vend først dressingen i salaten lige inden servering.'),
   (7884, 'Mint julep', 'https://www.valdemarsro.dk/mint-julep-cocktail/', 'https://www.valdemarsro.dk/wp-content/2018/01/mint-julep.jpg', '5', '1 serving', 'Kom simpel sirup, bourbon whisky og mynte i en shaker og ryst det godt sammen. Kom i glas og fyld med knust is.'),
-  (7887, 'Påskecocktail', 'https://www.valdemarsro.dk/paaskecocktail/', 'https://www.valdemarsro.dk/wp-content/2019/04/paaskecocktail.jpg', '5', '1 serving', 'Kom gin, gulerodsjuice, limesaft og vaniljesukker i en shaker med  isterninger.
+  (7887, 'Påskecocktail', 'https://www.valdemarsro.dk/paaskecocktail/', 'https://www.valdemarsro.dk/wp-content/2019/04/paaskecocktail.jpg', '5', '1 serving', 'Kom gin, gulerodsjuice, limesaft og vaniljesukker i en shaker med  isterninger.
 Ryst cocktailen godt sammen.
 Hæld drinken i glas, top med danskvand og server med en skive lime'),
   (7890, 'Dark n'' Stormy', 'https://www.valdemarsro.dk/dark-n-stormy/', 'https://www.valdemarsro.dk/wp-content/2017/07/dark-n-stormy-1.jpg', '5', '1 serving', 'Kom isterninger, gingerbeer og limesaft i et glas.
-Hæld forsigtigt rom over bagsiden af en ske og ned i glasset, så rommen lægger sig øverst i glasset – som et mørkt stormvejr på vej over havet – så er den klar til servering.'),
+Hæld forsigtigt rom over bagsiden af en ske og ned i glasset, så rommen lægger sig øverst i glasset - som et mørkt stormvejr på vej over havet - så er den klar til servering.'),
   (7893, 'Citrongræs Margarita', 'https://www.valdemarsro.dk/lemongraes-margarita/', 'https://www.valdemarsro.dk/wp-content/2016/04/citrongraes_ingefaer_cocktail.jpg', '20', '1 serving', 'Citrongræs sirup med ingefær
 Kom fintrevet citrongræs, ingefær, glukosesirup, sukker og vand i en gryde og kog op til sukkeret er opløst. Lad det køle af i gryden, rør limesaft i og sigt siruppem i en fintmasket sigte.
 Citrongræs margarita
@@ -2743,19 +2666,19 @@ Kom brun farin og smør i en gryde og smelt ved lav varme under omrøring. Rør 
 Dejen
 Kom mælk i en skål og rør gæren i.
 Tilsæt smør, æg, salt, sukker, kardemomme og mel, og rør dejen sammen, til den er smidig, lækker og blød.
-Kom dejen i et ovnfast fad (30×20 cm) med bagepapir. Dejen vil være meget blød og klistret.  Rør den afkølede remonce godt sammen og stik fingrene ned i reemoncen og prik derefter en masse huller i dejen. Fordel remonce i hullerne og fordel derefter al remonce over dejen og prik igen en masse huller,  som  remoncen kan løbe ned i. Læg et rent klæde over  og  stil på  køl til næste dag eller i 10 timer.
+Kom dejen i et ovnfast fad (30×20 cm) med bagepapir. Dejen vil være meget blød og klistret.  Rør den afkølede remonce godt sammen og stik fingrene ned i reemoncen og prik derefter en masse huller i dejen. Fordel remonce i hullerne og fordel derefter al remonce over dejen og prik igen en masse huller,  som  remoncen kan løbe ned i. Læg et rent klæde over  og  stil på  køl til næste dag eller i 10 timer.
 Om morgenen
-Tag brunsvigeren ud af køleskabet og  lad den efterhæve på køkkenbordet i 30 minutter. Bag brunsvigeren i en forvarmet ovn ved 175 grader varmluft i 25 minutter.'),
-  (7903, 'Goma Dressing', 'https://www.valdemarsro.dk/goma-dressing/', 'https://www.valdemarsro.dk/wp-content/2017/08/goma-dressing.jpg', '15', '4 servings', 'Rist sesamfrøene på en varm pande  under omrøring i 7-10 minutter til de dufter varmt og lækkert af sesam.
+Tag brunsvigeren ud af køleskabet og  lad den efterhæve på køkkenbordet i 30 minutter. Bag brunsvigeren i en forvarmet ovn ved 175 grader varmluft i 25 minutter.'),
+  (7903, 'Goma Dressing', 'https://www.valdemarsro.dk/goma-dressing/', 'https://www.valdemarsro.dk/wp-content/2017/08/goma-dressing.jpg', '15', '4 servings', 'Rist sesamfrøene på en varm pande  under omrøring i 7-10 minutter til de dufter varmt og lækkert af sesam.
 Blend sesamfrøene med soya, hvidløg*, chili, sukker, citronsaft og halvdelen af olien. Blend til det er helt cremet og ensartet. Kom derefter resten af olien i og en spsk. vand i af gangen til konsistensen er perfekt. Det skal være så den hænger fint ved grøntsagsstænger, man dypper i den lækre dressing.
-Smag endelig godt til – alt efter om den mangler salt, sødt, surt, stærkt.'),
+Smag endelig godt til - alt efter om den mangler salt, sødt, surt, stærkt.'),
   (7906, 'Creme anglaise', 'https://www.valdemarsro.dk/creme-anglaise/', 'https://www.valdemarsro.dk/wp-content/2023/11/sauce-anglaise.jpg', '30', '8 servings', 'Flæk vaniljestangen og skrab kornene ud på et skærebræt.
 Kom den tomme vaniljestang i en gryde med mælk og piskefløde og kog det langsomt op til 90 grader.
 Fordel vaniljekornene i sukkeret og kom vanilje, sukker og æggeblomme i en skål og pisk det sammen til det er ensartet. Det skal ikke være en luftig æggesnaps.
-Pisk 1 dl af den varme mælk- og fløde blanding i skålen med sukker- æggeblomme og kom derefter det hele tilbage i gryden. Rør det godt sammen og varm op under konstant omrøring til vaniljesaucen legere ved 85 grader – mål med et sukkertermometer.
+Pisk 1 dl af den varme mælk- og fløde blanding i skålen med sukker- æggeblomme og kom derefter det hele tilbage i gryden. Rør det godt sammen og varm op under konstant omrøring til vaniljesaucen legere ved 85 grader - mål med et sukkertermometer.
 Tag gryden af varmen og hæld vaniljesaucen gennem en sigte.'),
   (7909, 'Vaniljecreme', 'https://www.valdemarsro.dk/vaniljecreme/', 'https://www.valdemarsro.dk/wp-content/2023/11/vaniljecreme.jpg', '360', '1 serving', 'Flæk vaniljestangen og skrab vaniljekornene ud.
-Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde.
+Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde.
 Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
 Hæld vaniljecremen i en skål, læg husholdningsfilm over overfladen og stil i køleskabet til cremen er helt kold.'),
   (7912, 'Bananpandekager', 'https://www.valdemarsro.dk/bananpandekager/', 'https://www.valdemarsro.dk/wp-content/2012/05/bananpandekager.jpg', '30', '4 servings', 'Mos bananerne til bananmos med en gaffel og pisk bananmosen sammen med æg. Vend havregryn, fuldkornshvedemel, bagepulver, krydderier og salt sammen i en skål og vend det i bananmosen med æg.
@@ -2766,17 +2689,17 @@ Server på tallerkener eller et fad med græsk yoghurt, friske bær og mynte.'),
 Rist pinjekernerne på en tør pande til de er lidt gyldne og sæt dem derefter til side på en tallerken. Kom kikærter og gnocchi på panden, tilsæt olie og smør efter behov og steg under omrøring, ved middelhøj varme, til både gnocchi og kikærter er gyldne med stegeskorpe. Drys med lidt flagesalt og friskkværnet peber.
 Vend rucola med et par skefulde dressing og vend det i en skål sammen med tomater, majs, kikærter, gnocchi og avocado. Drys med pinjekerner og basilikum inden servering.'),
   (7919, 'Hvidløgsflutes', 'https://www.valdemarsro.dk/hvidloegsflutes/', 'https://www.valdemarsro.dk/wp-content/2017/01/hvidloegsflutes_.jpg', '240', '2 servings', 'Hvidløgssmør
-Rør smør sammen med hvidløg og persille. Form en af­ lang rulle, kom bagepapir omkring og sæt i køleskabet.
+Rør smør sammen med hvidløg og persille. Form en af lang rulle, kom bagepapir omkring og sæt i køleskabet.
 Dej til flutes
 Smuldr gæren ud i en skål med vand og rør, til gæren er opløst. Tilsæt honning, salt og fuldkornsmel og rør det godt sammen. Rør derefter hvedemel i lidt efter lidt.
 Ælt til sidst dejen, til den er blød, smidig og føles elastisk.
 Lad dejen hæve på køkkenbordet i en ren skål med et klæde over i 3 timer.
 Hvidløgsflutes
-Del dejen i to og fold dem over hinanden nogle gange, mens de formes til aflange flutes. Sæt flutes på en bage­ plade med bagepapir og lad dem hæve i 30 minutter. Pensl begge flutes med sammenpisket æg og bag dem
-i en forvarmet ovn ved 220 grader varmluft i cirka ­20 minutter.
+Del dejen i to og fold dem over hinanden nogle gange, mens de formes til aflange flutes. Sæt flutes på en bage plade med bagepapir og lad dem hæve i 30 minutter. Pensl begge flutes med sammenpisket æg og bag dem
+i en forvarmet ovn ved 220 grader varmluft i cirka 20 minutter.
 Lad begge hvidløgsflutene køle af på en bagerist.
-Skær dybe riller 3⁄4 ned i begge flutene. Skær skiver af hvidløgssmør, der passer til antallet af riller i brødet, og kom en skive hvidløgssmør ned i hver rille.
-Sæt brødet i ovnen ved 180 grader varmluft i 10 minut­ter, eller til smørret er smeltet.'),
+Skær dybe riller 3/4 ned i begge flutene. Skær skiver af hvidløgssmør, der passer til antallet af riller i brødet, og kom en skive hvidløgssmør ned i hver rille.
+Sæt brødet i ovnen ved 180 grader varmluft i 10 minutter, eller til smørret er smeltet.'),
   (7923, 'Pasta med squash og hvidløg', 'https://www.valdemarsro.dk/pasta-med-squash/', 'https://www.valdemarsro.dk/wp-content/2018/09/pasta-squash-hvidloeg.jpg', '15', '4 servings', 'Kog pastaen al dente, mens resten af retten tilberedes.
 Sauter squash på panden i olivenolie ved middelvarme til de lækre squashtern begynder at tage lidt farve. Tilsæt løg og hvidløg og sauter videre til løgene er bløde.
 Tilsæt piskefløde og lad det bruse op under omrøring. Smag godt til med salt og peber.
@@ -2797,7 +2720,7 @@ Kom dejen i skål, smurt med olivenolie. Dæk skålen med et låg eller rent kl�
 Næste dag
 Sæt bagestålet i ovnen på en rist, og varm ovnen op til 275 grader varmluft en time før bagning.
 Tag dejen ud af køleskabet og del dejen i to. Rul hvert stykke dej nænsomt ud til en lidt trekantformet oval der er smallere i den ene ende, uden at trykke luften for meget ud af dejen.
-Placer hver oval på hvert sit stykke bagepapir. Skær et snit ned igennem midten af ovalen og derefter 3-4 snit ud fra hver af siderne. Snittet skal være inde for brødets kanter – se foto – så det danner et fint bladmønster. Træk let i brødet, så snittene bliver til huller i dejen.
+Placer hver oval på hvert sit stykke bagepapir. Skær et snit ned igennem midten af ovalen og derefter 3-4 snit ud fra hver af siderne. Snittet skal være inde for brødets kanter - se foto - så det danner et fint bladmønster. Træk let i brødet, så snittene bliver til huller i dejen.
 Lad brødene efterhæve i 30 minutter på bagepladen. Pensl brødet med olivenolie og drys med krydderurter og flagesalt. Skrue ovnens temperatur ned til 225 grader og brug en bagespartel eller pizzaspade til at komme brødet i ovnen. Bag et brød ad gangen i 10-12 minutter til det er smukt gyldent og sprødt. Hold godt øje med det, for bagetiden kan variere fra ovn til ovn.'),
   (7932, 'Chokoladeroulade med Baileys', 'https://www.valdemarsro.dk/chokoladeroulade-med-baileys/', 'https://www.valdemarsro.dk/wp-content/2021/11/baileys-roulade.jpg', '600', '8 servings', 'Chokoladecreme med Baileys
 Læg husblas i blød i koldt vand i 10 minutter.
@@ -2818,12 +2741,12 @@ Hæld vandet fra og pisk de møre kartofler med smør, tilsat i små tern. Pisk 
 Smag til med salt, peber og muskatnød.
 Ristede kikærter
 Skyl kikærterne og tør den i et rent klæde. Vend kikærterne godt i olie og derefter krydderier.
-Fordel på en bageplade med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 20-25 min til de er lækre og sprøde – vend dem evt. en gang eller to undervejs.
+Fordel på en bageplade med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 20-25 min til de er lækre og sprøde - vend dem evt. en gang eller to undervejs.
 Topping til brændende kærlighed
 Sauter løg og gulerødder i smør ved lav-middelvarme i cirka 15-20 minutter, til løgene er bløde, søde og begynder at blive lidt karamelliserede. Tilsæt soja, piskefløde, røget paprika og lidt sriracha efter smag. Kog det op til det simrer i et par minutter og smag til med friskkværnet peber.
 Server kartoffelmosen på tallerkener toppet med løg, sprøde kikærter, syltede rødbeder og friske krydderurter.'),
   (7938, 'Beef Ramen', 'https://www.valdemarsro.dk/beef-ramen/', 'https://www.valdemarsro.dk/wp-content/2017/06/beef-ramen.jpg', '30', '4 servings', 'Rist sesamfrø på en tør pande og sæt dem til side til senere.
-Steg bøfferne i olie på en brandvarm pande i et minut på hver side. Skrue ned for varmen, kom smør på og krydre dem med salt og peber. Steg dem yderligere 1 minut på hver side – til de er mediumstegt og rosa inden i.
+Steg bøfferne i olie på en brandvarm pande i et minut på hver side. Skrue ned for varmen, kom smør på og krydre dem med salt og peber. Steg dem yderligere 1 minut på hver side - til de er mediumstegt og rosa inden i.
 Tag bøfferne af varmen og lad dem hvile på en tallerken. Rist hurtigt champignon ved høj varme på samme pande som bøfferne blev stegt på. Tilføj yderligere smør og olie, hvis nødvendigt.
 Kog nudlerne i letsaltet vand, gerne et minuts tid kortere end angivet på emballagen. Hæld vandet fra og hæld koldt vand over, så de ikke klistrer sammen.
 Kog æggene smilende i kogende vand i 7 minutter. Pil æggene.
@@ -2834,7 +2757,7 @@ Lad dejen hæve tildækket i 1 time på køkkenbordet og sæt derefter dejen i k
 Kom dejen på et meldrysset bord, skær dejen ud til rødbedeboller, drys med solsikkekerner og sæt dem på en bageplade med bagepapir. Bag bollerne i en forvarmet ovn ved 220 grader varmluft i 20 minutter, til de er gyldne.
 Lad bollerne køle af på en rist inden servering.'),
   (7944, 'Påskekage - gulerodslagkage med citronfromage', 'https://www.valdemarsro.dk/paaskekage/', 'https://www.valdemarsro.dk/wp-content/2018/03/paaskekage.jpg', '420', '8 servings', 'Gulerodslagkage
-Pisk smør og sukker sammen, og pisk derefter æg i et ad gangen til alle æggene er brugt.  Rør mandelmel i dejen.
+Pisk smør og sukker sammen, og pisk derefter æg i et ad gangen til alle æggene er brugt.  Rør mandelmel i dejen.
 Bland mandelmel, hvedemel, bagepulver og salt sammen i en ren skål og sigt det i dejen. Vend tilsidst gulerødderne i.
 Kom dejen i en smurt springform, på cirka 20 cm i diameter og bag lagkagebundene i en forvarmet ovn ved 175 grader varmluft i 45 minutter til den er gennembagt. Lad kagen køle helt af i formen.
 Citronfromage
@@ -2843,10 +2766,10 @@ Kram vandet fra husblassen og smelt husblassen i en lille kasserolle ved lav var
 Pisk æggehviderne helt stive i en ren skål til de danner toppe. Stil skålen til side mens resten gøres klar.
 Pisk æggeblommer, sukker og fintrevet citronskal i en anden ren skål til helt lys, luftig æggesnaps uden sukkerkorn.
 Rør først 2 spsk æggesnaps i gryden med husblas- og citronblandingen. Rør det godt sammen til det er helt ensartet og pisk derefter denne blanding i æggemassen.
-Pisk flødeskum luftigt i en ren skål og vend den i æggemassen med en dejskraber – pas på ikke at slå for meget luft ud af flødeskummet. Vend derefter først 1/4 af de luftige æggerhvider i citronfromagen og vend derefter forsigtigt resten i.
+Pisk flødeskum luftigt i en ren skål og vend den i æggemassen med en dejskraber - pas på ikke at slå for meget luft ud af flødeskummet. Vend derefter først 1/4 af de luftige æggerhvider i citronfromagen og vend derefter forsigtigt resten i.
 Saml påskekagen
 Skær gulerodskagen op i to lagkagebunde.
-Fordel kageplast i den rengjort springform (der blev brugt til at bage kagen i) og kom først en gulerodslagkagebund i, halvdelen af citronfromagen, en lagkagebund lægges forsigtigt oven på, den sidste halvdel af citronfromage fordeles oven på. Stil på køl i minimum 4 timer – eller til dage efter.
+Fordel kageplast i den rengjort springform (der blev brugt til at bage kagen i) og kom først en gulerodslagkagebund i, halvdelen af citronfromagen, en lagkagebund lægges forsigtigt oven på, den sidste halvdel af citronfromage fordeles oven på. Stil på køl i minimum 4 timer - eller til dage efter.
 Pynt kagen
 Åben springformen og fjern derefter forsigtigt kageplasten fra kagen, som placeres på et fad. Pisk flødeskum og smør kagens sider op med flødeskum.
 Pynt med rosmaringrene formet til en lille påskerede, påskeæg og glimmer.'),
@@ -2856,7 +2779,7 @@ Kom lidt piskefløde på panden og lad det bruse af. Sluk for varmen og smag til
 Avocadomos
 Mos avocado med en gaffel og smag til med citronsaft, paprika, salt og friskkværnet peber.
 Pocheret æg
-Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og skrue lidt ned for varmen. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og skrue op for varmen igen. Kog ægget i cirka 2 minutter, tag det forsigtigt op med en hulske og anret det på tallerkenen – fortsæt på samme måde med de andre æg.
+Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og skrue lidt ned for varmen. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og skrue op for varmen igen. Kog ægget i cirka 2 minutter, tag det forsigtigt op med en hulske og anret det på tallerkenen - fortsæt på samme måde med de andre æg.
 Servering
 Top hver skive ristet brød med avocado, champignon, porcheret æg og drys med persille og lidt salt og peber.'),
   (7952, 'Agurk og ingefær gin fizz', 'https://www.valdemarsro.dk/agurk-ingefaer-cocktail-gin/', 'https://www.valdemarsro.dk/wp-content/2017/07/agurk-cocktail-gin.jpg', '60', '2 servings', 'Ingefær simpel sirup
@@ -2881,7 +2804,7 @@ Smelt nougat og chokolade i en lille kasserolle ved lav varme og rør det godt s
 Lad det størkne i 30 minutter på køkkenbordet.
 Bank chokoladeformene ud. Lun chokoladekanten og luk påskeæggene sammen to og to til lukkede chokoladeæg.'),
   (7965, 'Bradepandepizza med kødsauce', 'https://www.valdemarsro.dk/bradepandepizza-med-koedsauce/', 'https://www.valdemarsro.dk/wp-content/2021/01/bradepandepizza-bolognese_.jpg', '180', '4 servings', 'Dej til bradepandepizza
-Kom vand i en skål og rør gær ud i vandet. Kom olie og fuldkornsmel i skålen og rør det godt sammen til en lind dej. Rør hvedemel i lidt efter lidt  – gerne på en røremaskine i 10 minutter. Rør tilsidst salt i dejen.
+Kom vand i en skål og rør gær ud i vandet. Kom olie og fuldkornsmel i skålen og rør det godt sammen til en lind dej. Rør hvedemel i lidt efter lidt  - gerne på en røremaskine i 10 minutter. Rør tilsidst salt i dejen.
 Kom dejen i en ren skål og lad dejen hæve overdækket i 1 time på køkkenbordet. Lav imens kødsaucen.
 Kødsauce
 Kom løg, hvidløg og chorizo i en gryde og sautere under omrøring, til løgene er bløde.
@@ -2903,7 +2826,7 @@ Server med limebåde, så man selv kan dryppe over og smage til.'),
 Rør flødeost, mozzarella og parmesan i retten, sammen med frisk spinat og smag godt til med muskatnød, paprika, salt og peber. Rør det godt igennem til pastaen er perfekt mør og mozzarellaosten er cremet.'),
   (7974, 'Nye porrer med hvide asparges', 'https://www.valdemarsro.dk/nye-porrer-med-hvide-asparges/', 'https://www.valdemarsro.dk/wp-content/2021/03/porre-hvide-asparges.jpg', '20', '4 servings', 'Skræl de hvide asparges og knæk den trævlede ende af. Skær den grønne del og enderne af porrerne og halver dem.
 Varm en gryde med letsaltet vand op til kogepunktet, kom asparges og porrer i og kog i 2 minutter. Hæld vandet fra og anret dem på et fad.
-Smelt smør i gryden, hæld det i en skål og rør det smel­tede smør sammen med honning og dijonsennep. Smag til med citronsaft og ­skal. Vend de lune porrer og asparges med dressingen og drys med friskrevet parmesan og dild samt salt og friskkværnet peber.'),
+Smelt smør i gryden, hæld det i en skål og rør det smeltede smør sammen med honning og dijonsennep. Smag til med citronsaft og skal. Vend de lune porrer og asparges med dressingen og drys med friskrevet parmesan og dild samt salt og friskkværnet peber.'),
   (7977, 'Koldhævet Foccacia med fennikel og sort peber', 'https://www.valdemarsro.dk/koldhaevet-foccacia-med-fennikel/', 'https://www.valdemarsro.dk/wp-content/2023/11/foccacia_fennikel-peber.jpg', '1200', '1 serving', 'Opløs gæren i en røreskål med stuetempereret vand og tilsæt fuldkorns ølandshvede og sigtet hvedemel, rør kort dejen sammen, til det er ensartet. Lad dejen hvile tildækket til autolyse i 45 minutter.
 Kom salt i og rør dejen ved lav-medium hastighed i cirka 5 minutter til dejen er blank og glat. Kom dejen i skål, smurt med olivenolie. Dæk skålen med et låg eller rent klæde og stil til hævning i 2 timer på køkkenbordet. Sæt derefter dejen i køleskabet natten over eller minimum 8-12 timer.
 Tag dejen ud af køleskabet 3 timer før bagning. Lad den hvile i skålen i 1 time, og hæld derefter dejen ud i en lille bradepande eller et ovnfast fad på ca 23 x 30 cm, beklædt med bagepapir.
@@ -2923,7 +2846,7 @@ Kom dejen i en smurt form på 10 x 25 cm. Bag citronkagen i en forvarmet ovn ved
 Rør en tyk glasur af flormelis og citronsaft. Fordel glasuren over kagen, når den er kølet af, og drys til sidst med friskrevet citronskal og blå birkes.'),
   (7986, 'Broccolisalat', 'https://www.valdemarsro.dk/broccolisalat/', 'https://www.valdemarsro.dk/wp-content/2014/01/broccolisalat-2.jpg', '10', '4 servings', 'Skær bacon i skiver og steg det på panden til det er sprødt. Lad det dryppe af på et stykke køkkenrulle og hak det derefter groft.
 Rør dressingen sammen af cremefraiche, mayonnaise, sukker, salt og peber. Smag til.
-Vend alle råvarerne til salaten og dressingen sammen i en stor skål  og tag evt lidt broccoli, bacon og granatæblekerner fra til topping'),
+Vend alle råvarerne til salaten og dressingen sammen i en stor skål  og tag evt lidt broccoli, bacon og granatæblekerner fra til topping'),
   (7989, 'Knuste kartofler med stenbiderrogn', 'https://www.valdemarsro.dk/knuste-kartofler-og-stenbiderrogn/', 'https://www.valdemarsro.dk/wp-content/2012/04/knuste-kartofler-stenbiderrogn.jpg', '30', '4 servings', 'Kog kartoflerne i letsaltet vand, til de er møre.
 Hæld vandet fra og kom kartoflerne på en stor tallerken. Knus dem med en grydeske og vend de knuste kartofler med smør, salt og peber.
 Fordel de lune kartofler på 4 tallerkener med grøn salat, rødløg i tern og anret med teskefulde af stenbiderrogn og rørt cremefraice.
@@ -2968,7 +2891,7 @@ Rognen kan serveres som den er. Du kan også skære den i skiver, vend skiverne 
 Server på rugbrød med remoulade, citronbåde, et drys dild, salt og peber.'),
   (8019, 'Pasta aglio e olio', 'https://www.valdemarsro.dk/pasta-aglio-e-olio/', 'https://www.valdemarsro.dk/wp-content/2020/08/pasta-aglio-olio.jpg', '15', '4 servings', 'Kog pastaen al dente i en stor gryde med rigeligt letsaltet vand.
 Kom imens hvidløg og finthakket chili i en sauterpande med olie og tænd for lav varme, fx på 3 ud af 9. Rør i olien, mens pastaen koger. Olien skal ikke blive varm eller sautere hvidløget, den skal blot lige blive tilpas varm til at trække smag fra chili og hvidløg.
-Hæld vandet fra pastaen gennem en sigte, når den er perfekt og stadig har bid. Kom den varme pasta på panden  med olie, hvidløg og chili og vend det godt rundt så den krydrede olie fordeler sig overalt på pastaen. Server på tallerkener med et godt drys parmesan, lidt persille og friskkværnet sort peber.'),
+Hæld vandet fra pastaen gennem en sigte, når den er perfekt og stadig har bid. Kom den varme pasta på panden  med olie, hvidløg og chili og vend det godt rundt så den krydrede olie fordeler sig overalt på pastaen. Server på tallerkener med et godt drys parmesan, lidt persille og friskkværnet sort peber.'),
   (8022, 'Mazarinkage med chokoladefrosting', 'https://www.valdemarsro.dk/mazarinkage/', 'https://www.valdemarsro.dk/wp-content/2020/08/mazarinkage-opskrift.jpg', '60', '8 servings', 'Mazarinkage
 Pisk marcipan og sukker godt sammen. Kom derefter smør i skåret tern i og pisk, til det er ensartet og luftigt. Pisk et æg i ad gangen og vend til sidst hvedemel i dejen.
 Kom dejen i en smurt springform på 20 cm i diameter, beklædt med bagepapir i bunden.
@@ -2986,17 +2909,17 @@ Lad brødet hæve i 1 time på køkkenbordet.
 Pensl forsigtigt brødet med mælk og bag det i en forvarmet ovn ved 175 grader varmluft (eller ved 175 varmluft+damp) i 30-35 minutter.'),
   (8029, 'Salat med vandmelon, halloumi og sorte ris', 'https://www.valdemarsro.dk/salat-med-vandmelon/', 'https://www.valdemarsro.dk/wp-content/2020/05/salat-vandmelon-ris.jpg', '40', '4 servings', 'Kog risene efter anvisning på emballagen og lad dem derefter køle af.
 Rist græskarkernerne på en varm pande i en smule olie, til de begynder at poppe. Tag dem af varmen, drys med salt og sæt til side på en tallerken. Steg halloumi på begge sider på den samme pande, til skiverne er gyldenbrune og sprøde i kanten.
-Vend de afkølede ris med hyldeblomstvinaigrette og finthakket mynte. Anret salaten på et fad med spinat­ blade, ris, vandmelon og drys græskarkernerne over.
+Vend de afkølede ris med hyldeblomstvinaigrette og finthakket mynte. Anret salaten på et fad med spinat blade, ris, vandmelon og drys græskarkernerne over.
 Hyldeblomst vinaigrette
-Kom alle ingredienserne i en skål og rør det godt sam­men, til vinaigretten er ensartet i konsistensen.'),
+Kom alle ingredienserne i en skål og rør det godt sammen, til vinaigretten er ensartet i konsistensen.'),
   (8032, 'Barbequesauce', 'https://www.valdemarsro.dk/barbecuesauce/', 'https://www.valdemarsro.dk/wp-content/2020/06/barbecuesauce.jpg', '30', '1 serving', 'Kom alle ingredienserne til barbecuesauce sammen i en gryde.
 Kog op under omrøring og rør det godt igennem til en ensartet grillmarinade.
 Lad det simre i 20 minutter under låg og smag derefter til. Blend saucen til ønsket konsistens, den kan både være helt fin og ensartet som en sauce eller med lidt mere struktur og bid, alt efter smag og behag.
- 
+ 
 Opskriften giver ca 4 dl'),
   (8035, 'Grillede bananer med mørk rom', 'https://www.valdemarsro.dk/grillede-bananer-med-moerk-rom/', 'https://www.valdemarsro.dk/wp-content/2015/08/grillede-bananer_opskrift.jpg', '20', '4 servings', 'Læg de hele bananer med skræl på grillen. Lad dem grille ved middelvarme, til bananskrællen er helt mørkebrun.
 Smelt imens chokoladen over et vandbad og lad den køle lidt af.
-Tag bananerne af grillen og skær et snit på langs, åbn og dryp mørk rom i bananerne – kun til de voksne!
+Tag bananerne af grillen og skær et snit på langs, åbn og dryp mørk rom i bananerne - kun til de voksne!
 Server på tallerkener med mørk chokolade over, grillede skumfiduser, en kugle vaniljeis og jordbær.'),
   (8038, 'Jordbærroulade', 'https://www.valdemarsro.dk/jordbaerroulade/', 'https://www.valdemarsro.dk/wp-content/2020/02/jordbaerroulade.jpg', '180', '8 servings', 'Rouladebund
 Del æggene i blommer og hvider. Skær vaniljestangen igennem, skrab kornene ud og bland dem med sukkeret. Pisk æggeblommer, vanilje og sukker til en luftig æggesnaps. Kom mandelmel og smør i og pisk igen. Bland hvedemel, bagepulver og salt, sigt det i skålen og rør det godt sammen.
@@ -3004,7 +2927,7 @@ Pisk æggehviderne luftige og stive. Vend et par spiseskefulde i dejen og kom de
 Fordel dejen i et rektangel på ca. 25 x 30 cm i en bradepande med bagepapir. Glat dejen jævnt ud med en dejskraber. Bag kagebunden i en forvarmet ovn ved 175 grader varmluft i 12-15 minutter. Lad den køle af i bradepanden.
 Fyld til jordbærroulade
 Skær vaniljestangen igennem, skrab kornene ud og bland dem med sukkeret. Kom dem i en skål sammen med piskefløde og pisk til en luftig flødeskum.
-Vend chokoladen i og fordel fyldet på rouladebunden – gem lidt til at smøre kagen op med. Fordel jordbær i skiver på bunden og rul rouladen sammen. Læg den på et fad med lukningen nedad og pynt med resten af flødeskummen, jordbær og frisk mynte.
+Vend chokoladen i og fordel fyldet på rouladebunden - gem lidt til at smøre kagen op med. Fordel jordbær i skiver på bunden og rul rouladen sammen. Læg den på et fad med lukningen nedad og pynt med resten af flødeskummen, jordbær og frisk mynte.
 Lad gerne kagen stå på køl i 1 time eller mere inden servering.'),
   (8041, 'Chokoladelagkage', 'https://www.valdemarsro.dk/chokolade-lagkage/', 'https://www.valdemarsro.dk/wp-content/2014/05/chokoladelagkage-1.jpg', '360', '10 servings', 'Chokoladelagkagebunde
 Smelt smør i en gryde ved lav varme, tag gryden af varmen og rør chokoladen i.
@@ -3023,10 +2946,10 @@ Fyld flødeskum i en sprøjtepose med stjernetylle, sprøjt flødeskumstoppe på
 Tilsæt ris og gulerødder og rør godt rundt, mens risen varmes godt igennem. Kom edamamebønner, peberfrugt og forårsløg i, varm godt igennem under omrøring og smag til med sukker, soja og fishsauce. Vend til sidst æggene i retten.
 Anret på tallerkener med koriander, cashewnødder, limebåde og chili, efter smag.'),
   (8050, 'Cosmopolitan', 'https://www.valdemarsro.dk/cosmopolitan/', 'https://www.valdemarsro.dk/wp-content/2019/09/cosmopolitan.jpg', '5', '1 serving', 'Hæld alle ingredienserne i en shaker, inkl isterningerne og ryst den skønne cosmopolitan godt sammen.
-Hæld den iskolde cocktail i afkølede martiniglas – uden isterningerne – og server'),
-  (8053, 'Jordbær Caprese med rucola', 'https://www.valdemarsro.dk/jordbaer-caprese-med-rucola/', 'https://www.valdemarsro.dk/wp-content/2019/05/jordbaer-caprese-opskrift.jpg', '30', '4 servings', 'Fordel rucola på et fad og anret med jordbær og mozza­rella. Fordel et par striber balsamicoglace over salaten og drys til sidst med lidt salt og friskkværnet peber.
+Hæld den iskolde cocktail i afkølede martiniglas - uden isterningerne - og server'),
+  (8053, 'Jordbær Caprese med rucola', 'https://www.valdemarsro.dk/jordbaer-caprese-med-rucola/', 'https://www.valdemarsro.dk/wp-content/2019/05/jordbaer-caprese-opskrift.jpg', '30', '4 servings', 'Fordel rucola på et fad og anret med jordbær og mozzarella. Fordel et par striber balsamicoglace over salaten og drys til sidst med lidt salt og friskkværnet peber.
 Balsamicoglace
-Kom balsamico i en lille kasserolle og kog op. Lad det simrekoge uden låg i ca. 20­-25 minutter og hold godt øje med, at det ikke koger tørt. Det skal koge ind, til der er ca. 3 spsk glace i gryden.'),
+Kom balsamico i en lille kasserolle og kog op. Lad det simrekoge uden låg i ca. 20-25 minutter og hold godt øje med, at det ikke koger tørt. Det skal koge ind, til der er ca. 3 spsk glace i gryden.'),
   (8056, 'Hvid brownie med rabarber - blondies', 'https://www.valdemarsro.dk/blondies-med-rabarber/', 'https://www.valdemarsro.dk/wp-content/2019/04/blondies-rabarber.jpg', '1440', '12 servings', 'Smelt smør i en lille gryde ved lav varme. Tag gryden af varmen og rør halvdelen af den hvide chokolade i.
 Pisk æg og sukker, til det er luftigt og skummende, og vend det i den smeltede smør- og chokoladeblanding.
 Bland hvedemel, bagepulver og salt godt sammen i en skål og vend rabarberstykkerne og den resterende grofthakkede chokolade i melblandingen. Vend blandingen i dejen og rør den godt sammen.
@@ -3044,10 +2967,10 @@ Rør kakaonibs i og tril snickerskugler til mundrette kugler
 Chokoladeovertræk
 Temperer chokoladen ved at smelte den ene halvdel i et vandbad, tag af varmen og rør den anden halvdel af chokoladen i.
 Dyp kuglerne i chokoladen, drys med peanuts og kakaonibs og lad dem størkne på bagepapir.'),
-  (8068, 'Melonsalat', 'https://www.valdemarsro.dk/melonsalat-opskrift/', 'https://www.valdemarsro.dk/wp-content/2018/09/melonsalat.jpg', '15', '4 servings', 'Skær melonerne ud til fine runde kugler med et melon­ jern eller alternativt skær melonerne i tern.
-Fordel striber af balsamicoglace og olivenolie på et stort fad og vend rucolaen et par gange på fadet, så der kom­mer lidt strejf af balsamico og olie på salatbladene.
+  (8068, 'Melonsalat', 'https://www.valdemarsro.dk/melonsalat-opskrift/', 'https://www.valdemarsro.dk/wp-content/2018/09/melonsalat.jpg', '15', '4 servings', 'Skær melonerne ud til fine runde kugler med et melon jern eller alternativt skær melonerne i tern.
+Fordel striber af balsamicoglace og olivenolie på et stort fad og vend rucolaen et par gange på fadet, så der kommer lidt strejf af balsamico og olie på salatbladene.
 Fordel blåbær og mozzarella på rucolaen og fordel derefter melonstykkerne henover salaten.
-Rist pinjekernerne på en varm tør pande, et par minut­ter under omrøring, til de er gyldne og drys dem over salaten. Afslut med et lille drys salt og friskkværnet peber inden servering.'),
+Rist pinjekernerne på en varm tør pande, et par minutter under omrøring, til de er gyldne og drys dem over salaten. Afslut med et lille drys salt og friskkværnet peber inden servering.'),
   (8071, 'Blåbærtærte med frangipane', 'https://www.valdemarsro.dk/blaabaertaerte/', 'https://www.valdemarsro.dk/wp-content/2018/06/blaabaertaerte.jpg', '90', '6 servings', 'Mørdej
 Kør hvedemel, flormelis, salt og smør lynhurtigt i en foodprocessor, til det er ensartet. Saml dejen i en skål med sammenpisket æg og evt. lidt koldt vand hvis nødvendigt. Rul dejen ud mellem to stykker bagepapir og sæt den på køl i 30 minutter.
 Smør en tærteform på 24 cm i diameter og læg tærtedejen i formen. Tryk den flot til i kanten og skær kanten til, så der er en pæn afslutning på kagen.
@@ -3059,7 +2982,7 @@ Server tærten med en god klat cremefraiche, vaniljeis eller flødeskum.'),
   (8074, 'Pavlova', 'https://www.valdemarsro.dk/pavlova/', 'https://www.valdemarsro.dk/wp-content/2017/09/pavlova-1.jpg', '360', '6 servings', 'Pisk æggehviderne, til de er luftige, stive og danner toppe. Tilsæt 1 spsk sukker ad gangen under konstant piskning, til alt sukkeret er tilsat. Det tager ca. 5 minutter.
 Sigt majsmel i marengsen og kom også æblecidereddike og vaniljesukker i. Pisk i yderligere 10 minutter, til marengsmassen er sej, blank og skinnende.
 Tegn med blyant en rund cirkel med en diameter på ca. 22 cm og vend bagepapiret om. Sigt lidt flormelis i cirklen og fordel marengsmassen med en dejskraber i et lag på ca. 2 cm, som dækker hele cirklens bund. Form toppe af marengs rundt langs kanten, til marengsbunden er som en dyb tallerken med en tyk bund.
-Bag i en forvarmet ovn ved 115 grader varmluft i 1½ time. Sluk for varmen og lad bunden køle af i den lukkede ovn, til ovnen er helt kold. Det tager ca. 2 timer, men den kan fint stå i den lukkede ovn i op til 1 døgn.
+Bag i en forvarmet ovn ved 115 grader varmluft i 11/2 time. Sluk for varmen og lad bunden køle af i den lukkede ovn, til ovnen er helt kold. Det tager ca. 2 timer, men den kan fint stå i den lukkede ovn i op til 1 døgn.
 Sæt forsigtigt den afkølede marengsbund på et fad.
 Pisk fløden til en lækker flødeskum med flormelis og vaniljesukker. Fordel flødeskum i marengsskålen og top med masser friske bær eller frugt alt efter sæson. Server straks den lækre pavlova.'),
   (8077, 'Jambalaya', 'https://www.valdemarsro.dk/jambalaya/', 'https://www.valdemarsro.dk/wp-content/2017/09/jambalaya-1.jpg', '40', '4 servings', 'Varm en gryde op med olie, kom kyllingekødet i sammen med chorizo og lad det brune på alle sider.
@@ -3070,10 +2993,10 @@ Kom til sidst rejer, limesaft og -skal i retten og smag til med salt, peber og l
 Server med tabascosauce til selv at dryppe over retten, lidt finthakket persille, forårsløg samt limebåde.'),
   (8080, 'Rejesalat med avocado og dild', 'https://www.valdemarsro.dk/rejesalat/', 'https://www.valdemarsro.dk/wp-content/2017/06/rejesalat_opskrift.jpg', '30', '4 servings', 'Knæk de trævlede ender af aspargesene. Varm en pande op med smør og lynsteg aspargesene i et minuts tid. Tag dem derefter af varmen.
 Anret spinat og feldsalat på et stort fad med kartofler, asparges, avocado og rødløg.
-Fordel rejesalaten på den grønne salat med en ske og drys til sidst resten af rejer­ne over salaten sammen med dild, salt og friskkværnet peber.
+Fordel rejesalaten på den grønne salat med en ske og drys til sidst resten af rejerne over salaten sammen med dild, salt og friskkværnet peber.
 Dilddressing
-Rør ingredienserne til dressingen sammen og vend 2⁄3 af rejerne i dressingen.'),
-  (8083, 'Grillet asparges og rabarber med bacon', 'https://www.valdemarsro.dk/grillede-asparges-rabarber-bacon/', 'https://www.valdemarsro.dk/wp-content/2017/05/asparges-rabarber_bacon.jpg', '10', '12 servings', 'Skær rabarber og asparges i mindre stykker og vikl  stykke bacon rundt om 3 asparges ad gangen og ligeledes rundt om 3 stykker rabarber ad gangen.
+Rør ingredienserne til dressingen sammen og vend 2/3 af rejerne i dressingen.'),
+  (8083, 'Grillet asparges og rabarber med bacon', 'https://www.valdemarsro.dk/grillede-asparges-rabarber-bacon/', 'https://www.valdemarsro.dk/wp-content/2017/05/asparges-rabarber_bacon.jpg', '10', '12 servings', 'Skær rabarber og asparges i mindre stykker og vikl  stykke bacon rundt om 3 asparges ad gangen og ligeledes rundt om 3 stykker rabarber ad gangen.
 Grill til baconen er sprød.'),
   (8086, 'Banan Granola', 'https://www.valdemarsro.dk/banan-granola/', 'https://www.valdemarsro.dk/wp-content/2017/01/banangranola-1.jpg', '45', '12 servings', 'Mos bananer og smør sammen med en gaffel til det er en helt glat og ensartet bananmos.
 Rør bananmosen sammen med de andre ingredienser i og fordel det på en bageplade med bagepapir.
@@ -3104,15 +3027,15 @@ Anret på tallerkener med limeskiver, et drys af friske forårsløg, korianderbl
 Kog piskefløde, sukker og glukosesirup op i en stor gryde. Lad det simre i 35-45 minutter. Rør indimellem i gryden, men ikke for ofte. Når karamellen har en temperatur på 115 grader, er den færdig. Tilsæt salt.
 Cookie Bars
 Pisk smør, farin og vaniljesukker sammen, til det er luftigt. Pisk derefter æggene i et ad gangen.
-Bland hvedemel, kakao, bagepulver og salt godt sammen og sigt det i dejen. Rør dejen godt sammen og vend derefter 2⁄3 af den mørke chokolade i.
+Bland hvedemel, kakao, bagepulver og salt godt sammen og sigt det i dejen. Rør dejen godt sammen og vend derefter 2/3 af den mørke chokolade i.
 Fordel dejen i en smurt form på 22 x 28 cm og fordel resten af den mørke chokolade, den hvide chokolade og pekannødderne samt saltkaramellen i striber oven på dejen.
 Bag kagen i en forvarmet ovn ved 175 grader varmluft i ca. 20 minutter. Tag kagen ud af ovnen og lad den køle lidt af i formen, til den lige sætter sig. Skær den derefter ud i passende stykker med en skarp kniv, mens den endnu er lun.'),
-  (8104, 'Pasta med laks, edamamebønner og pikant flødeost', 'https://www.valdemarsro.dk/pasta-med-laks/', 'https://www.valdemarsro.dk/wp-content/2016/03/pasta-laks-edamameboenner-1.jpg', '10', '4 servings', 'Kog pastaen efter anvisning på emballagen. Når pastaen er cirka 1 minut fra at være tilberedt perfekt med en anelse bid, så kom de frosne edamamebønner i gryden. Hæld både pasta og edamamebønner i en sigte og  lad vandet dryppe fra.
+  (8104, 'Pasta med laks, edamamebønner og pikant flødeost', 'https://www.valdemarsro.dk/pasta-med-laks/', 'https://www.valdemarsro.dk/wp-content/2016/03/pasta-laks-edamameboenner-1.jpg', '10', '4 servings', 'Kog pastaen efter anvisning på emballagen. Når pastaen er cirka 1 minut fra at være tilberedt perfekt med en anelse bid, så kom de frosne edamamebønner i gryden. Hæld både pasta og edamamebønner i en sigte og  lad vandet dryppe fra.
 Kom pastaen i en skål og vend den med pikant flødeost og røget laks. Vend et par håndfulde dild og bredbladet persille i retten og smag til med citronskal, citronsaft, salt og peber.'),
   (8107, 'Sneglekage', 'https://www.valdemarsro.dk/sneglekage/', 'https://www.valdemarsro.dk/wp-content/2016/02/sneglekage-1.jpg', '120', '1 serving', 'Mælk og smør lunes i en gryde under omrøring til smørret smelter.
 Tag af varmen og vent et par minutter til temperaturen lige falder en anelse, og blandingen er omkring 38 grader.
 Smuldr gær i og derefter æg.
-I en ren skål blandes grahamsmel med vanilje, sukker, kanel og kardemomme godt sammen. Rør det i gryden og tilsæt derefter hvedemel lidt efter lidt. ælt godt sammen til dejen er smidig og blød.
+I en ren skål blandes grahamsmel med vanilje, sukker, kanel og kardemomme godt sammen. Rør det i gryden og tilsæt derefter hvedemel lidt efter lidt. ælt godt sammen til dejen er smidig og blød.
 Lad den hæve i en skål med et rent klæde over i 30-40 minutter.
 Rør remoncen godt sammen.
 Rul dejen ud til en lille firkant og smør godt med remonce på.
@@ -3128,14 +3051,14 @@ Top med flødeskum og riv mørk chokolade over fløden.
 Server med både sugerør og en lang ske.'),
   (8113, 'Havregryns Cookies', 'https://www.valdemarsro.dk/havregryns-cookies/', 'https://www.valdemarsro.dk/wp-content/2015/10/havregrynscookies.jpg', '45', '12 servings', 'Pisk smør, sukker og muscovadosukker sammen, til det er luftigt, og pisk derefter ægget i.
 Rør alle de tørre ingredienser sammen, bland de hakkede dadler i og brug melblandingen til at skille alle daddelstykkerne fra hinanden, så de ikke klistrer sammen og klumper. Rør skålens indhold sammen med smørblandingen til en dej. Vend til sidst hakket chokolade i.
-Form en aflang stang på ca. 12 cm og skær 12 skiver a 1 cm. Sæt skiverne på en bageplade med bagepapir.
+Form en aflang stang på ca. 12 cm og skær 12 skiver a 1 cm. Sæt skiverne på en bageplade med bagepapir.
 Bag dem i en forvarmet ovn ved 175 grader varmluft i 13-15 minutter, til de er gyldne, men stadig lidt bløde i midten.
 Lad dem køle lidt af på bagepladen, inden de sættes på en bagerist.'),
   (8116, 'Træstammer', 'https://www.valdemarsro.dk/traestammer/', 'https://www.valdemarsro.dk/wp-content/2015/09/traestammer-1.jpg', '45', '15 servings', 'Kør kageresterne til helt fint smulder i en foodprocessor. Smelt chokoladen under omrøring over et vandbad ved lav varme.
 Kom den smeltede chokolade, marcipan, rom og marmelade i foodprocessoren og kør, til det er en samlet trøffelmasse. Smag trøffelmassen godt til med mere marmelade, chokolade, rom eller marcipan alt efter smag og behag.
 Ælt trøffelmassen med lidt mandelmel, hvis den er for blød, eller sæt den på køl, da den vil sætte sig, når chokoladen størkner. Rul trøffelmassen ud i passende aflange stykker.
-Drys lidt flormelis på køkkenbordet og rul marcipanen tyndt ud. Fold marcipan om trøffelrullerne og skær dem pænt til. Dyp enderne af træstammerne i tempereret chokolade og derefter i finthakkede nødder eller frysetørret hindbær.'),
-  (8119, 'Pastapenne med tomatsauce og laks', 'https://www.valdemarsro.dk/pastapenne-med-tomatfloedesauce-og-roeget-laks/', 'https://www.valdemarsro.dk/wp-content/2015/09/pasta-tomatsaucelaks-app.jpg', '25', '4 servings', 'Steg løg og hvidløg i olien i en gryde ved middelvarme til de er bløde og gennemsigtige.
+Drys lidt flormelis på køkkenbordet og rul marcipanen tyndt ud. Fold marcipan om trøffelrullerne og skær dem pænt til. Dyp enderne af træstammerne i tempereret chokolade og derefter i finthakkede nødder eller frysetørret hindbær.'),
+  (8119, 'Pastapenne med tomatsauce og laks', 'https://www.valdemarsro.dk/pastapenne-med-tomatfloedesauce-og-roeget-laks/', 'https://www.valdemarsro.dk/wp-content/2015/09/pasta-tomatsaucelaks-app.jpg', '25', '4 servings', 'Steg løg og hvidløg i olien i en gryde ved middelvarme til de er bløde og gennemsigtige.
 Blend de hakkede tomater kort med fx en stavblender og kom i gryden sammen med fløde.
 Lad det simre uden låg i 15-20 minutter.
 Kog imens pastapenne efter anvisning på emballagen.
@@ -3183,7 +3106,7 @@ Pisk langsomt lidt af det klarede smør i, adgangen. Tag gryden af varmen, når 
 Pisk fløden til en luftig flødeskum, og vend den i saucen. Smag til med salt og en smule peber.
 Anret på en tallerken med salat, rejer, asparges, sauce og krydderurter.'),
   (8146, 'Saltede citronmandler', 'https://www.valdemarsro.dk/saltede-citronmandler/', 'https://www.valdemarsro.dk/wp-content/2014/04/citronmandler-1.jpg', '120', '4 servings', 'Kom mandlerne i en skål og overhæld dem med kogende vand. Lad dem trække i 10 minutter, hvorefter mandlerne smuttes.
-Rør citronsaft, olie, revet skal af citron samt salt godt sammen.
+Rør citronsaft, olie, revet skal af citron samt salt godt sammen.
 Kom mandlerne i et rent glas og overhæld dem med den saltede citronolieblanding.
 Lad det trække i køleskabet mellem 1 time og op til et døgn.
 Derefter
@@ -3199,7 +3122,7 @@ Fordel dejen i muffinforme og stik derefter pæreskiverne godt ned i dejen.
 Drys med perlesukker og bag kagerne i en forvarmet ovn ved 175 grader varmluft i 18-20 minutter, til de er gennembagte i midten.
 Lad dem køle lidt af i formen på en rist.'),
   (8155, 'Pasta med svampe', 'https://www.valdemarsro.dk/pasta-med-svampe/', 'https://www.valdemarsro.dk/wp-content/2013/09/pasta-med-svampe-1.jpg', '25', '4 servings', 'Sauter rødløg med olivenolie eller smør på en pande, til løgene er bløde.
-Skrue helt op for varmen og rist svampene på panden under omrøring og høj varme.  Skrue igen ned for varmen og tilsæt piskefløde, salt og peber.
+Skrue helt op for varmen og rist svampene på panden under omrøring og høj varme.  Skrue igen ned for varmen og tilsæt piskefløde, salt og peber.
 Kog pasta efter anvisning på pakken.
 Rør pasta og svampeblanding sammen og drys med rigelige mængder persille og parmesan.'),
   (8158, 'Marcipan Muffins', 'https://www.valdemarsro.dk/cupcakes-med-marcipan/', 'https://www.valdemarsro.dk/wp-content/2013/08/marcipanmuffins.jpg', '45', '12 servings', 'Kom marcipan, smør, sukker og vaniljesukker i en skål og pisk, til det er helt ensartet og luftigt. Pisk et æg i ad gangen, til dejen er ensartet.
@@ -3235,7 +3158,7 @@ Server retten med grofthakket spinat, et drys hakkede cashewnødder, cremefraich
   (8174, 'Cranberry Margarita', 'https://www.valdemarsro.dk/cranberry-margaritas/', 'https://www.valdemarsro.dk/wp-content/2011/05/tranebaer_margarita.jpg', '5', '1 serving', 'Dyp kanten af glasset i sirup og derefter i salt.
 Kom alle ingredienserne i en shaker og ryst cocktailen godt sammen med isterninger.
 Sigt drinken i glasset med saltkant og server straks.'),
-  (8177, 'Øllebrød', 'https://www.valdemarsro.dk/oellebroed/', 'https://www.valdemarsro.dk/wp-content/2012/05/oellebroed-1.jpg', '30', '4 servings', 'Læg smuldret rugbrød, hvidtøl, kanel, brun farin og salt  i blød i en gryde i ca. 15 minutter eller natten over.
+  (8177, 'Øllebrød', 'https://www.valdemarsro.dk/oellebroed/', 'https://www.valdemarsro.dk/wp-content/2012/05/oellebroed-1.jpg', '30', '4 servings', 'Læg smuldret rugbrød, hvidtøl, kanel, brun farin og salt  i blød i en gryde i ca. 15 minutter eller natten over.
 Tænd for gryden ved middelvarme og rør rundt, mens grøden varmes op.
 Pisk imens en luftig flødeskum. Hak mandlerne groft og rist dem i honning på en pande til de karameliseres let. Tag dem af varmen.
 Skru op for øllebrød i gryden og rør til konsistensen er perfekt. Server i skåle, top med flødeskum, friske bær og honningristede mandler.'),
@@ -3243,10 +3166,10 @@ Skru op for øllebrød i gryden og rør til konsistensen er perfekt. Server i sk
 Dryp honning over og lad det stå i en times tid på køl.
 Drys med finthakket mynte, sorte sesamfrø og friskkværnet peber inden servering.'),
   (8183, 'Bounty', 'https://www.valdemarsro.dk/hjemmelavet-bounty/', 'https://www.valdemarsro.dk/wp-content/2012/03/bounty-hjemmelavet.jpg', '180', '5 servings', 'Bland kokosmel og kondenseret mælk.
-Form små kokosbrød eller runde kugler. Kokosmassen  er let klistret, men bountystykkerne skal være faste og nemme at forme. Hvis nødvendigt kan du komme mere kondenseret mælk eller kokosmel, til konsistensen er perfekt.
+Form små kokosbrød eller runde kugler. Kokosmassen  er let klistret, men bountystykkerne skal være faste og nemme at forme. Hvis nødvendigt kan du komme mere kondenseret mælk eller kokosmel, til konsistensen er perfekt.
 Lad kokosbrødene hvile i køleskabet i 2 timer.
 Overtræk med tempereret mørk chokolade.'),
-  (8187, 'Risotto med svampe', 'https://www.valdemarsro.dk/risotto-med-svampe/', 'https://www.valdemarsro.dk/wp-content/2011/09/risotto-app.jpg', '40', '4 servings', 'Sauter løg og hvidløg i en gryde med olie, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld 1 dl grøntsagsbouillon i gryden og rør, til risene har ab­sorberet væden. Tilsæt mere grøntsagsbouillon lidt ad gangen, til al væden er brugt, og risene er møre.
+  (8187, 'Risotto med svampe', 'https://www.valdemarsro.dk/risotto-med-svampe/', 'https://www.valdemarsro.dk/wp-content/2011/09/risotto-app.jpg', '40', '4 servings', 'Sauter løg og hvidløg i en gryde med olie, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld 1 dl grøntsagsbouillon i gryden og rør, til risene har absorberet væden. Tilsæt mere grøntsagsbouillon lidt ad gangen, til al væden er brugt, og risene er møre.
 Rist champignonerne på en meget varm pande med smør i 2 minutter og rør dem derefter i gryden med risotto sammen med friskrevet parmesan. Smag til med salt og friskkværnet peber.
 Server med revet parmesan og persille.'),
   (8190, 'Bananmuffins med chokolade og nødder', 'https://www.valdemarsro.dk/bananmuffins/', 'https://www.valdemarsro.dk/wp-content/2011/10/bananmuffins.jpg', '45', '12 servings', 'Kom hasselnødderne i en forvarmet ovn ved 150 grader varmluft og bag i 15 minutter til hinderne bliver sprøde og sprækker. Kom hasselnødderne i et rent klæde og gnid hinderne af. Hak nødderne groft.
@@ -3280,7 +3203,7 @@ Bag i en forvarmet ovn ved 175 grader varmluft i cirka 30 minutter, til knækbr�
 Knæk eller skær dem efter hvor de er skåret og lad dem køle af på en rist.'),
   (8209, 'Blåbærsmoothie', 'https://www.valdemarsro.dk/blabaersmoothie/', 'https://www.valdemarsro.dk/wp-content/2007/12/blaabaersmoothie.jpg', '5', '2 servings', 'Kom det hele i en blender og blend til det er helt cremet og lækkert.'),
   (8212, 'Ingefær kylling med appelsin', 'https://www.valdemarsro.dk/ingefaer-kylling-med-appelsin/', 'https://www.valdemarsro.dk/wp-content/2022/12/ingefaerkylling-appelsin.jpg', '45', '4 servings', 'Marinade
-Rør marinaden sammen og vend kyllingen i marinaden. Lad den stå i minimum 15 minutter – og gerne længere, fx fra morgenstunden til om aftenen.
+Rør marinaden sammen og vend kyllingen i marinaden. Lad den stå i minimum 15 minutter - og gerne længere, fx fra morgenstunden til om aftenen.
 Sesamris
 Kog risene i letsaltet vand efter anvisning på emballagen. Vend de frisktkogte varme ris med ristede sesamfrø og friskkværnet sort peber og dryp lidt sesamolie over. Hold risene lune i gryden under et låg.
 Ingefærkylling med appelsin
@@ -3293,15 +3216,15 @@ Smuldr brødskiven og bland den med mælk. Lad det trække et par minutter og r�
 Panering
 Sigt hvedemel over på begge sider af karbonaderne.
 Vend dem enkeltvis først i en skål med sammenpisket æg og dernæst i en skål med rasp blandet med salt og friskkværnet peber.
-Opvarm en pande med smør og olie. Steg karbonaderne ved middelhøj  varme 2 minutter på hver side, til de har lidt stegeskorpe. Sæt derefter temperaturen på lidt lavere middelvarme i 5 minutter på hver side og derefter på lav varme (1 ud af 9), mens saucen tilberedes.
+Opvarm en pande med smør og olie. Steg karbonaderne ved middelhøj  varme 2 minutter på hver side, til de har lidt stegeskorpe. Sæt derefter temperaturen på lidt lavere middelvarme i 5 minutter på hver side og derefter på lav varme (1 ud af 9), mens saucen tilberedes.
 Sauce med stuvede ærter og gulerødder
-Kog kartoflerne i letsaltet vand til de er møre – gem kartoffelvandet til saucen –  når kartoflerne er kogt møre. Læg låget på, så kartoflerne holdes varme.
+Kog kartoflerne i letsaltet vand til de er møre - gem kartoffelvandet til saucen -  når kartoflerne er kogt møre. Læg låget på, så kartoflerne holdes varme.
 Kog gulerødder i tern i en lille kasserolle med låg, til de er lige knap møre. Gem vandet fra gulerødderne til saucen.
 Smelt smør i en gryde og pisk hvedemel i til en smørbolle. Pisk mælk i lidt efter lidt og jævn derefter med kogevandet fra kartoflerne og gulerødderne til saucen er jævn. Kog den op og kog den igennem et par minutter under konstant omrøring. Smag godt til med salt og peber og rør til sidst gulerødder og ærter i saucen.
 Servering
 Server karbonaderne med kogte kartofler, sauce med stuvede ærter og gulerødder. Drys med frisk finthakket persille.'),
   (8218, 'Madvafler ala okonomiyaki med sprød bacon', 'https://www.valdemarsro.dk/madvafler-ala-okonomiyaki/', 'https://www.valdemarsro.dk/wp-content/2023/01/spidskaalvafler-okonomiaky.jpg', '45', '4 servings', 'Rør mel og grøntsagsbouillon sammen i en skål til en tyk dej. Lad den hvile på køkkenbordet i 10 minutter.
-Sauter imens løg og hvidløg på en pan­de med lidt olie, til de er bløde. Rør løgene, æg og finthakket spidskål i skålen med dej, sammen med salt og friskkværnet peber.
+Sauter imens løg og hvidløg på en pande med lidt olie, til de er bløde. Rør løgene, æg og finthakket spidskål i skålen med dej, sammen med salt og friskkværnet peber.
 Steg okonomiaky-vaflerne i et vaffeljern smurt med olie, til de er gyldne og gennemstegte.
 Okonomiyakidressing
 Rør dressingen sammen og smag den til.
@@ -3312,13 +3235,13 @@ Skær kartoflerne i 1 cm tykke skiver, vend dem i olie og salt og kom dem på en
 Bag dem i en forvarmet ovn ved 200 grader varmluft i 30 minutter.
 Wienerschnitzel
 Bank kødet fladere med en kagerulle eller kødhammer. De skal gerne være omkring 1/2 cm tykke. Vend dem på begge sider først i en skål med hvedemel blandet med salt og peber. Derefter i en skål med sammenpisket æg og tilsidst i en skål med rasp, salt og peber.
-TIP – Wienerschnitzlerne skal steges en ad gangen i friskt smør og olie på en ren pande hver gang. Det giver det bedste resultat og sikre en flot stegning på alle snitzler. Panden skal derfor tørres ren med et stykke køkkenrulle mellem hver schnitzel. 
+TIP - Wienerschnitzlerne skal steges en ad gangen i friskt smør og olie på en ren pande hver gang. Det giver det bedste resultat og sikre en flot stegning på alle snitzler. Panden skal derfor tørres ren med et stykke køkkenrulle mellem hver schnitzel. 
 Varm en stor pande op med olie, kom en klat smør på og lad det bruse af. Steg en schnitzel i 1-2 minutter på hver side. Lad den hvile på en bagerist sat over et stykke bagepapir. Tør panden af og steg næste schnitzle i frisk smør og olie. Fortsæt til alle wienerschnitzlerne er stegt.
 Varm de 4 brunede wienerschnitzler nederst i ovnen de sidste 5 min. af kartoflernes bagetid.
 Ærter
 Lad smør bruse af på en ren pande og lynrist ærterne i ét minut ved høj varme, under omrøring. Drys med salt og friskkværnet peber og server til wienerschnitzlerne mens ærterne er rygende varme.
 Servering
-Server wienerschnitzel med en citronskive, toppet med sild, kapers og peberrod,  samt kartoffelskiver og smørristede varme ærter.'),
+Server wienerschnitzel med en citronskive, toppet med sild, kapers og peberrod,  samt kartoffelskiver og smørristede varme ærter.'),
   (8224, 'Laks med spinat og grønt i fad', 'https://www.valdemarsro.dk/laks-med-spinat/', 'https://www.valdemarsro.dk/wp-content/2023/02/laks-spinat-fad.jpg', '40', '4 servings', 'Sauter løg i i olivenolie på en stor pande, til løgene er bløde. Kom flødeost og grøntsagsboullion på panden og rør sammen til det er helt ensartet, smag til med salt og peber.
 Kom spinat, spidskål på panden og vend det godt sammen til spinat og spidskål falder let sammen. Kom blandingen i et smurt ovnfast fad, sammen med squash og vend det alle grøntsagerne godt sammen. Bag i en forvarmet ovn ved 200 grader varmluft i cirka 10 minutter.
 Sæt laksefiletterne på grøntsagerne og bag videre i cirka 14-16 minutter laksen er perfekt mør.
@@ -3336,7 +3259,7 @@ Rul dejen ud til en tykkelse af 2-3 mm og skær dem så de passer med små tært
 Fyld tærterne med det blandede ris- og cremefyld, drys lidt sukker over og bag ristærterne i ovnen ved 175 grader varmluft i ca. 20 minutter.
 Tag dem ud af formen, lad dem køle af og drys til sidst med flormelis inden servering.'),
   (8231, 'Vegetar pirogger', 'https://www.valdemarsro.dk/vegetar-pirogger/', 'https://www.valdemarsro.dk/wp-content/2021/08/vegetar-pirogger.jpg', '180', '14 servings', 'Fyld
-Sauter løg med olie i en sauterpande nogle minutter ved middelvarme og under omrøring, til de er bløde.
+Sauter løg med olie i en sauterpande nogle minutter ved middelvarme og under omrøring, til de er bløde.
 Tilsæt svampe, bladselleri, gulerødder og squash og finthakket hvidløg, tomatpure samt spidskommen og paprika. Lad det simre ved middel varme i 30 minutter uden låg. Rør indimellem og skrue op hvis der er overskydende væde i dejen.
 Smag til med salt og peber . Hvis der er meget væde i fyldet, så kom fyldet i en sigte lagt over en ren skål. Væden der sigtes fra kan bruges til grøntsagsboullion. Sæt fyldet i køleskabet, så det kan køle helt af, mens dejen laves og inden piroggerne samles.
 Dej
@@ -3352,17 +3275,17 @@ Pensl med sammenpisket æg, drys med flagesalt og timian og bag i ovnen ved 175 
 Lun mælken en smule til blot omkring 37 grader og rør gæren ud i mælken. Rør honning i og derefter salt, smør og tilsidst hvedemel lidt af gangen, indtil dejen kan æltes til en blød og smidig dej. Lad den hæve i en ren skål under et klæde på køkkenbordet i 45-60 minutter.
 Fyld
 Kom olie og løg i en sauterpande eller gryde og sauter løgene i nogle minutter ved middelvarme og under omrøring til løgene er bløde.
-Skrue op for varmen til max, tilsæt oksekødet og brun det. Når oksekødet er brunet, tilsættes revet gulerod, squash og finthakket hvidløg, tomatpure samt spidskommen og paprika. Sæt låg på og lad det simre ved lav-middel varme i 30 minutter.
-Smag til med salt, peber og Worcestershire sauce. Hvis der er meget væde i fyldet, så tag nu låget af, skrue en smule op for varmen og lad det simre uden låg nogle minutter til væden er fordampet.
+Skrue op for varmen til max, tilsæt oksekødet og brun det. Når oksekødet er brunet, tilsættes revet gulerod, squash og finthakket hvidløg, tomatpure samt spidskommen og paprika. Sæt låg på og lad det simre ved lav-middel varme i 30 minutter.
+Smag til med salt, peber og Worcestershire sauce. Hvis der er meget væde i fyldet, så tag nu låget af, skrue en smule op for varmen og lad det simre uden låg nogle minutter til væden er fordampet.
 Saml pirogger
 Del dejen i 14 lige store stykker, som først rulles til runde boller og dernæst rulles flade til en rund cirkel med en kagerulle.
 Kom en klat fyld på midten, luk cirklen til en halvcirkel og brug en gaffel til at lukke dejen sammen hele vejen rundt. Sæt de samlede pirogger på en bageplade og lad dem hæve i 15 minutter. Pensl med sammenpisket æg og bag i ovnen ved 175 grader varmluft i 12-16 minutter.'),
   (8237, 'Råcreme til frugtsalat', 'https://www.valdemarsro.dk/raacreme-til-frugtsalat/', 'https://www.valdemarsro.dk/wp-content/2015/01/raacreme-frugtsalat.jpg', '30', '4 servings', 'Pisk vanilje, æggeblomme og sukker til en luftig og cremet æggesnaps.
 Kom piskefløden i en ren skål og pisk den til en luftig flødeskum. Rør æggesnaps og flødeskum sammen og server til en lækker frugtsalat.
-Bland de skårne frugter forsigtigt sammen i en skål og server råcremen til.'),
+Bland de skarne frugter forsigtigt sammen i en skal og server racremen til.'),
   (8240, 'Fattoush - libanesisk brødsalat', 'https://www.valdemarsro.dk/fattoush-broedsalat/', 'https://www.valdemarsro.dk/wp-content/2018/05/fattoush-broedsalat-1.jpg', '30', '4 servings', 'Rist brødet i et par minutter på begge side på en pande med olivenolie og salt. Tag brødet af varmen og smør presset hvidløg udover brødskiverne. Skær brødet i tern på 2 x 2 cm.
-Kom brødskiverne sammen med agurk, tomat, peber­ frugt, rødløg, sumak, persille og mynte i en stor skål.
-Vend salaten godt sammen og smag til med citronsaft og citron­skal, salt og friskkværnet peber.'),
+Kom brødskiverne sammen med agurk, tomat, peber frugt, rødløg, sumak, persille og mynte i en stor skål.
+Vend salaten godt sammen og smag til med citronsaft og citronskal, salt og friskkværnet peber.'),
   (8243, 'Tarteletter med høns i asparges', 'https://www.valdemarsro.dk/tarteletter-hoens-asparges/', 'https://www.valdemarsro.dk/wp-content/2017/01/tarteletter.jpg', '45', '4 servings', 'Kogt hønsebryst eller kyllingebryst
 Kom hønsebryst eller kyllingebryst i en gryde med grøntsagsboullion, en gulerod, løg, salt, hele eller friskkværnede peberkorn, samt laurbærblade og lad det simrekoge i 15 minutter. Gem 3 dl kogevand til tarteletsaucen.
 Tarteletter
@@ -3372,11 +3295,11 @@ Lun tarteletterne i ovnen efter anvisning på pakken.
 Fyld de lune tarteletter med sauce og pynt med persille og kværn sort peber over, samt et lille drys flagesalt.'),
   (8246, 'Pizzamuffins', 'https://www.valdemarsro.dk/pizza-muffins/', 'https://www.valdemarsro.dk/wp-content/2016/09/pizzamuffins-1.jpg', '240', '12 servings', 'Rør gæren ud i koldt vand og kom i en skål med revet gulerødder, æg, hørfrø, sukker, salt, olie og fuldkornshvedemel og rugmel. Rør godt rundt. Rør hvedemel i og ælt dejen godt igennem i 10 minutter, gerne på en røremaskine, til dejen er blød, elastisk og smidig.
 Sæt dejen til at hæve i en overdækket skål på køkkenbordet cirka 2 timer, eller i køleskabet natten over.
-Kom dejen ud på et meldrysset bord og lade den flyde en smule ud. Fordel 2/3 af fyldet på dejen og fold dejen sammen på langs, så fyldet er inde i dejen som ‘en rulle’. Skær lige store boller ud af dejen og kom dem i en smurt fast muffinsform. Fordel resten af fyldet ovenpå og lad pizzamuffins efterhæve med et rent klæde over i 45 minutter på køkkenbordet.
+Kom dejen ud på et meldrysset bord og lade den flyde en smule ud. Fordel 2/3 af fyldet på dejen og fold dejen sammen på langs, så fyldet er inde i dejen som ''en rulle''. Skær lige store boller ud af dejen og kom dem i en smurt fast muffinsform. Fordel resten af fyldet ovenpå og lad pizzamuffins efterhæve med et rent klæde over i 45 minutter på køkkenbordet.
 Bag i en forvarmet ovn ved 175 grader varmluft i cirka 20 minutter. Lad dem køle af på en rist.'),
   (8249, 'Bearnaise Kartoffelsalat', 'https://www.valdemarsro.dk/bearnaise-kartoffelsalat/', 'https://www.valdemarsro.dk/wp-content/2023/08/bearnaise-kartoffelsalat.jpg', '30', '4 servings', 'Skær de kolde kogte kartofler i tern og kom dem i en stor skål.
 Nip bladene af estragonstænglerne og kom stænglerne i en lille gryde. Hak estragonbladene fint og gem dem i en skål til senere.
-Tilsæt vand, løg, sukker og citronsaft til gryden med estrongonstænglerne og kog op. Lad det simrekoge uden låg, til der er ca. 2 spsk. bearnaiseessens. Si fyldet fra gennem en fintmasket sigte og kom den fintsigtede bearnaiseessens i en skål med cremefraiche, mayonnaise og smag til med fintrevet citronskal, salt og peber. Vend estragonbladene i – gem lidt til drys. Rør bearnaisedressingen sammen med kartoflerne og drys estragonblade over.'),
+Tilsæt vand, løg, sukker og citronsaft til gryden med estrongonstænglerne og kog op. Lad det simrekoge uden låg, til der er ca. 2 spsk. bearnaiseessens. Si fyldet fra gennem en fintmasket sigte og kom den fintsigtede bearnaiseessens i en skål med cremefraiche, mayonnaise og smag til med fintrevet citronskal, salt og peber. Vend estragonbladene i - gem lidt til drys. Rør bearnaisedressingen sammen med kartoflerne og drys estragonblade over.'),
   (8252, 'Lun kartoffelsalat med spidskål', 'https://www.valdemarsro.dk/lun-kartoffelsalat-med-spidskaal/', 'https://www.valdemarsro.dk/wp-content/2023/08/lun-kartoffelsalat.jpg', '45', '4 servings', 'Skrub kartoflerne og kog dem møre i en gryde med letsaltet vand.
 Kom spidskål og ærter i gryden, lige et minut før kartoflerne er møre, læg låg på og hæld vandet fra efter et minut.
 Spidskål skal blot akkurat falde sammen og ærterne skal blot lyntilberedes.
@@ -3399,7 +3322,7 @@ Sæt i ovnen i på et stykke bagepair i et ildfast fad og bag i 20 minutter elle
 Rør halvdelen af den finthakkede røgede laks og purløg i dippen og kom i en skål.
 Top med resten af laks, purløg, kapers og friskkværnet peber.'),
   (8267, 'Konditorcreme', 'https://www.valdemarsro.dk/konditorcreme/', 'https://www.valdemarsro.dk/wp-content/2023/11/konditorcreme.jpg', '360', '1 serving', 'Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker.
-Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
+Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
 Hæld vaniljecremen i en skål, læg husholdningsfilm over overfladen og stil i køleskabet til cremen er helt kold.
 Pisk fløden til en luftig flødeskum og vend den i vaniljecremen til en luftig og lækker konditorcreme'),
   (8270, 'BBQ laks med ris og bønner', 'https://www.valdemarsro.dk/bbq-laks-med-ris-og-boenner/', 'https://www.valdemarsro.dk/wp-content/2023/06/bbq-laks-boenner.jpg', '30', '4 servings', 'BBQ Laks
@@ -3414,17 +3337,17 @@ Drys lidt græskarkerner over brødet og bag brødet i 30 minutter i en forvarme
 Tag formen ud af ovnen og vend brødet ud på en rist.'),
   (8276, 'Halloweenboller', 'https://www.valdemarsro.dk/halloweenboller/', 'https://www.valdemarsro.dk/wp-content/2021/10/halloweenboller.jpg', '180', '14 servings', 'Kom hokkaidogræskar i tern og vand i en gryde med låg. Kog op og lad det koge i 10 minutter. Hæld vandet fra og blend græskar til en tyk cremet puré og sæt den færdige pure i fryseren, så den bliver helt kold inden den skal i dejen.
 Rør gær ud i en skål med mælk (brug gerne en røremaskine). Tilsæt kardemomme, æg, sukker, salt og fuldkornshvedemel. Rør det godt igennem. Rør halvdelen af hvedemelen i og rør smørtern i dejen, når den er ensartet.
-Tilsæt den afkølede græskarpuré og kom resten af hvedemelet i lidt efter lidt – men kun så meget at dejen føles blød, smidig og lækker. Ælt dejen sammen ved lav hastighed i 10 minutter.
+Tilsæt den afkølede græskarpuré og kom resten af hvedemelet i lidt efter lidt - men kun så meget at dejen føles blød, smidig og lækker. Ælt dejen sammen ved lav hastighed i 10 minutter.
 Kom dejen i en ren skål med et klæde over og lad den hæve i 1 1/2 time på køkkenbordet.
 Kom dejen på et meldrysset bord og del dejen og form helt runde boller. Sæt bollerne på en bageplade ved bagepapir og lad dem efterhæve, uden de er dækket over i 15 minutter.
 Bind forsigtigt et stykke køkkensnor om hver bolle. Bind, som ville du pakke en rund pakke ind og så der dannes et lagkagemønster på seks eller 0tte stykker lagkage. Bind forsigtigt en knude på snoren til sidst.
-Vær nænsom, så snoren ikke skærer sig ind i dejen, den skal blot sidde pænt rundt om. Bind en knude  ved at lave et mønster som et hjul med 8 dele.
+Vær nænsom, så snoren ikke skærer sig ind i dejen, den skal blot sidde pænt rundt om. Bind en knude  ved at lave et mønster som et hjul med 8 dele.
 Lad bollerne efterhæve i 30 minutter på bagepladen, dækket af et rent klæde.
 Pensl bollerne med sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft i cirka 16-18 minutter.
 Lad dem køle lidt af på en rist og klip derefter snoren af og fjern den forsigtigt. Sæt en lille lakridsrod i som stilk, inden bollerne serveres.'),
   (8279, 'Mumie pølsehorn til halloween', 'https://www.valdemarsro.dk/mumie-poelsehorn-til-halloween/', 'https://www.valdemarsro.dk/wp-content/2021/10/mumie-poelsehorn.jpg', '120', '16 servings', 'Rør gæren ud i en skål med stuetempereret mælk og olie, sukker og æg. Rør det godt rundt og tilsæt derefter salt og mel lidt efter lidt.
-Ælt dejen i 10 minutter, gerne på en  røremaskine ved lav hastighed, til den er smidig og nem at arbejde med. Stil dejen til hævning i en skål med et rent klæde over i en time på køkkenbordet.
-Rul dejen ud i en retangel og skær lange tynde strimler. Vikl strimlerne omkring pølserne til mumier og læg dem på en bageplade med bagepapir.  Lad mumie pølsehornene efterhæve i en time på køkkenbordet, dækket med et rent klæde.
+Ælt dejen i 10 minutter, gerne på en  røremaskine ved lav hastighed, til den er smidig og nem at arbejde med. Stil dejen til hævning i en skål med et rent klæde over i en time på køkkenbordet.
+Rul dejen ud i en retangel og skær lange tynde strimler. Vikl strimlerne omkring pølserne til mumier og læg dem på en bageplade med bagepapir.  Lad mumie pølsehornene efterhæve i en time på køkkenbordet, dækket med et rent klæde.
 Pensl med sammenpisket æg og bag i en forvarmet ovn 175 grader varmluft i cirka 15 minutter. Lad dem køle af og pynt med sukkerøjne lavet af hvid og sort fondant.'),
   (8282, 'Græskarkage', 'https://www.valdemarsro.dk/graeskarkage/', 'https://www.valdemarsro.dk/wp-content/2018/10/graeskarkage-2.jpg', '90', '6 servings', 'Pisk smør, sukker og brun farin sammen, til det er luftigt. Pisk derefter et æg i et ad gangen.
 Bland hvedemel, bagepulver, krydderier og salt sammen og sigt det i dejen. Vend dejen sammen og vend til sidst revet græskar i.
@@ -3441,7 +3364,7 @@ Tag tærtedejen ud, fjern bagepapir og bønner og bag den videre i 5 minutter. L
 Tærtefyld
 Pisk æg og muscovadosukker luftigt. Tilsæt kondenseret mælk, græskarpuré og alle krydderier og salt og pisk, til det er en ensartet masse.
 Saml tærten
-Hæld fyldet i tærten og bag den i ovnen ved 170 grader varmluft i ca. 50 minutter. Dæk evt. tærten med stanniol, hvis den bliver for mørk på overfladen, inden den er færdig – dog uden, at stanniolen rører tærtens overflade. Lad tærten køle helt af og pynt med flødeskumstoppe, tærtedejsfigurer og lidt fintrevet muskatnød og kanel. Nyd tærten med lidt ahornsirup dryppet over.'),
+Hæld fyldet i tærten og bag den i ovnen ved 170 grader varmluft i ca. 50 minutter. Dæk evt. tærten med stanniol, hvis den bliver for mørk på overfladen, inden den er færdig - dog uden, at stanniolen rører tærtens overflade. Lad tærten køle helt af og pynt med flødeskumstoppe, tærtedejsfigurer og lidt fintrevet muskatnød og kanel. Nyd tærten med lidt ahornsirup dryppet over.'),
   (8288, 'Mexicansk græskarsuppe', 'https://www.valdemarsro.dk/mexicansk-graeskarsuppe/', 'https://www.valdemarsro.dk/wp-content/2020/09/mexicansk-graeskarsuppe.jpg', '45', '4 servings', 'Skyl hokkaidoen og skær den midt over. Skrab kernerne ud med en ske og skær hokkaidoen med skræl i grove tern.
 Sauter løg og hvidløg i en gryde med olie til de er bløde. Kom spidskommen, koriander, chili og ingefær i. Rør et minuts tid til det dufter skønt.
 Kom kartofler og hokkaidogræskar i gryden. Hæld grøntsagsboullion over og læg låg på. Lad det simre i 20 minutteer.
@@ -3461,7 +3384,7 @@ Rul dejen ud i stor retangel på et meldrysset bord. Smør remonce på hele flad
 Skær 1 cm tykke skiver og sæt dem på en bageplade med bagepapir. Bøj gerne den yderste kant ind under kanelsneglen og luk bunden. Det hjælper til at holde på den lækre remonce. Lad kanelsneglene hæve på køkkenbordet i 45 minutter under et rent klæde
 Bag i en forvarmet ovn ved 175 grader varmluft i cirka 17 minutter. Lad sneglene køle lidt af på bagepladen og pisk imens en tyk hvid glasur, som kanelsneglene kan pyntes med inden servering.'),
   (8302, 'Pumpkin Bread', 'https://www.valdemarsro.dk/pumpkin-bread/', 'https://www.valdemarsro.dk/wp-content/2024/11/pumpkinbread.jpg', '120', '1 serving', 'Græskarpuré
-Skær skrællen af hokkaidogræskaret og skær derefter græskarkødet i mindre tern på cirka 2×2 cm. Kom i en gryde og dæk med vand.  Bring i kog og kog det i cirka 20 minutter til græskarret er mørt.
+Skær skrællen af hokkaidogræskaret og skær derefter græskarkødet i mindre tern på cirka 2×2 cm. Kom i en gryde og dæk med vand.  Bring i kog og kog det i cirka 20 minutter til græskarret er mørt.
 Hæld vandet fra og lad græskaret køle af til stuetemperatur. Blend derefter til en cremet puré.
 Pumpkinbread
 Pisk smør og sukker sammen til det er lyst og luftigt. Pisk derefter ét æg i ad gangen. Rør til sidst græskarpuré i blandingen.
@@ -3475,7 +3398,7 @@ Kom dejen på et meldrysset bord, skær dejen ud til boller, drys med solsikkeke
 Bag gulerodsbollerne i en forvarmet ovn ved 220 grader varmluft i 17-20 minutter, til de er gyldne. Lad dem køle lidt af på en rist inden servering.'),
   (8316, 'Koldhævede boller', 'https://www.valdemarsro.dk/koldhaevede-boller/', 'https://www.valdemarsro.dk/wp-content/2013/04/koldhaevede-boller-1.jpg', '600', '12 servings', 'Om aftenen
 Rør vand og gær sammen i en stor skål.
-Tilsæt fuldkornshvedemel og havregryn. Rør rundt med en grydeske, tilsæt  hvedemel og salt.
+Tilsæt fuldkornshvedemel og havregryn. Rør rundt med en grydeske, tilsæt  hvedemel og salt.
 Rør og mærk efter om dejen kan klare 1 dl hvedemel mere. Dejen skal fortsat være til at røre i, men uden at være helt lind og flydende.
 Dæk skålen med låg og sæt skålen i køleskabet.
 Om morgen
@@ -3483,7 +3406,7 @@ Tænd ovnen for 250 grader varmluft. Tag dejen op med en spiseske og sæt dem p�
 Skrue temperaturen ned til 220 grader varmluft lige inden bollerne skal i ovnen, sæt bollerne ind på miderste rille og bag i cirka 15 minutter. Lad bollerne køle lidt af på en rist inden servering.'),
   (8319, 'Tom Yum Suppe', 'https://www.valdemarsro.dk/tom-yum-suppe/', 'https://www.valdemarsro.dk/wp-content/2017/01/Tom-yum-suppe-opskrift.jpg', '40', '4 servings', 'Fjern skallerne (undtagen halespidsen) på rejerne og skær et lille rids på undersiden af dem og fjern den lille sorte tarmstreng. Sæt rejerne til side og klargør alle ingredienserne til suppen.
 Varm grøntsagsbouillon op i en gryde til kogepunktet og rør tom yum-pastaen i. Tilsæt rejer, champignoner, skalotteløg, hvidløg, citrongræs, kaffirlimeblade, galangarod, ingefær, sukker, chili (mængde efter smag) og fishsauce. Lad suppen koge i 5 minutter og tilsæt tomaterne.
-Smag til med limesaft og fintrevet limeskal, fishsauce, sukker og evt. kokosmælk – hvis du ønsker den afrundet med en blødere cremet smag.
+Smag til med limesaft og fintrevet limeskal, fishsauce, sukker og evt. kokosmælk - hvis du ønsker den afrundet med en blødere cremet smag.
 Anret suppen i skåle og drys med friskhakket koriander, samt chili.'),
   (8322, 'Kartoffelblinis med røget laksemousse', 'https://www.valdemarsro.dk/kartoffelblinis/', 'https://www.valdemarsro.dk/wp-content/2018/03/kartoffelblinis-1.jpg', '30', '4 servings', 'Kartoffelblinis
 Mos de kogte kolde katofler og rør dem sammen med cremefraiche og æggeblommer.
@@ -3507,7 +3430,7 @@ Rør majskerner og fintklippet purløg i.'),
   (8334, 'Æggesalat', 'https://www.valdemarsro.dk/aeggesalat/', 'https://www.valdemarsro.dk/wp-content/2018/03/aeggesalat-2.jpg', '15', '8 servings', 'Kog æggene i en gryde med kogende vand i 8 minutter og lad dem derefter køle af i koldt vand.
 Pil og hak æggene. Rør dressingen sammen af mayonnaise, cremefraiche, karry, gurkemeje (tilsæt mere, hvis æggesalaten ønskes mere gul) sennep, en spsk. fintklippet karse, en spsk. knust sprød bacon og smag godt til med salt og peber.
 Vend de hakkede æg i dressingen og server i en skål med sprød bacon til og et gavmildt drys karse på toppen.'),
-  (8339, 'Wraps med varmrøget laks og avocado', 'https://www.valdemarsro.dk/wraps-med-varmroeget-laks/', 'https://www.valdemarsro.dk/wp-content/2016/01/Wraps-med-laks.jpg', '10', '4 servings', 'Halver avocadoen, tag stenen ud, fjern skallen og skær avocadoen ud i skiver som dryppes med lidt citronsaft.
+  (8339, 'Wraps med varmrøget laks og avocado', 'https://www.valdemarsro.dk/wraps-med-varmroeget-laks/', 'https://www.valdemarsro.dk/wp-content/2016/01/Wraps-med-laks.jpg', '10', '4 servings', 'Halver avocadoen, tag stenen ud, fjern skallen og skær avocadoen ud i skiver som dryppes med lidt citronsaft.
 Kom laks, mayo, cremefraiche og purløg i en skål og mos det godt sammen med en gaffel. Smag til om det evt kunne bruge lidt salt og peber.
 Smør den rørte laks på 4 tortillapandekager, og kom et par skiver avocado på hver. Rul tæt sammen og skær i halve.'),
   (8342, 'Påskemuffins', 'https://www.valdemarsro.dk/paaskemuffins/', 'https://www.valdemarsro.dk/wp-content/2019/04/paaskemuffins-1.jpg', '45', '12 servings', 'Pisk sukker og æg til det er luftigt og rør derefter gulerødderne i dejen.
@@ -3521,13 +3444,13 @@ Fyld cremen i en sprøjtepose og dekorer de fine påskemuffins med frosting og p
   (8345, 'Sangria', 'https://www.valdemarsro.dk/sangria/', 'https://www.valdemarsro.dk/wp-content/2016/06/sangria-opskrift.jpg', '10', '5 servings', 'Kom rødvin, appelsinjuice, Grand Marnier og honning i en kande med isterninger og rør rundt.
 Kom alle frugter og bær i og smag til med lidt danskvand eller cava.
 Tip
-Prøv også at tilføje også  2 nektarin eller fersken, skåret i tynde både, blåbær eller hindbær.
+Prøv også at tilføje også  2 nektarin eller fersken, skåret i tynde både, blåbær eller hindbær.
 Alhoholfri version
 Undlad rødvin, grand Marnier og cava.
-Brug i stedet solbærsaft, jordbærsaft, ribs og rabarbersaft – gerne en blanding af det hele.'),
+Brug i stedet solbærsaft, jordbærsaft, ribs og rabarbersaft - gerne en blanding af det hele.'),
   (8348, 'Æbletoddy', 'https://www.valdemarsro.dk/aebletoddy/', 'https://www.valdemarsro.dk/wp-content/2019/10/toddy-uden-alkohol.jpg', '45', '6 servings', 'Kom alle æblemost, kanel, flækket vaniljestang, nelliker, stjerneanis, peberkorn, muskatnød og fintrevet citronskal i en gryde og varm langsomt op til kogepunktet under omrøring.
 Læg låg på, sluk varmen og lad krydderierne trække smag i 30-45 min.
-Sigt krydderierne fra – tag kanelstang og stjerneanis fra til pynt i drikken –  smag den lækre æbletoddy til med honning, citronsaft og evt. rom til de voksne.
+Sigt krydderierne fra - tag kanelstang og stjerneanis fra til pynt i drikken -  smag den lækre æbletoddy til med honning, citronsaft og evt. rom til de voksne.
 Hæld på termokande eller i kopper med æblebåde og nyd.'),
   (8371, 'Brownie', 'https://www.valdemarsro.dk/brownie/', 'https://www.valdemarsro.dk/wp-content/2011/11/brownie_.jpg', '1440', '12 servings', 'Smelt smør i en gryde ved lav varme. Tag gryden af varmen og rør to tredjedele af chokoladen i det smeltede smør. Rør, til det er helt ensartet.
 Pisk æg, sukker og vaniljesukker til det er lyst og luftigt. Rør chokoladesmørblandingen i. Bland hvedemel og salt sammen, sigt det i dejen og rør godt rundt. Tilsæt derefter de grofthakkede valnødder og den sidste tredjedel grofthakket chokolade. Vend dejen godt sammen.
@@ -3542,7 +3465,7 @@ Pisk smør og flormelis, til det er hvidt og luftigt. Smelt chokoladen i et vand
 Vend flødeosten i og smør frosting på den afkølede kage. Drys med hakkede hasselnødder, pistaciekerner og kakaonibs.'),
   (8378, 'Den du ved nok - chokoladekage med kaffe/kokosglasur', 'https://www.valdemarsro.dk/den-du-ved-nok-kage/', 'https://www.valdemarsro.dk/wp-content/2017/06/den-du-ved-nok-kage_.jpg', '45', '16 servings', 'Smelt smør i en gryde ved lav varme. Tag gryden af varmen og rør chokoladen i. Pisk sukker, vaniljekorn og æg sammen, til det er luftigt, og pisk til sidst mælk i.
 Bland mel, mandelmel, kakao, bagepulver og salt godt sammen og rør det i æggeblandingen. Rør derefter smør- og chokoladeblandingen i.
-Kom dejen i en bradepande på ca. 20 x 32 cm beklædt med bagepapir. Bag i en forvarmet ovn ved 175 grader varmluft i 25-30 minutter. Hold øje med kagen – den må gerne stadig føles en anelse ubagt i midten, når du tager den ud, og den må endelig ikke få for meget.
+Kom dejen i en bradepande på ca. 20 x 32 cm beklædt med bagepapir. Bag i en forvarmet ovn ved 175 grader varmluft i 25-30 minutter. Hold øje med kagen - den må gerne stadig føles en anelse ubagt i midten, når du tager den ud, og den må endelig ikke få for meget.
 Kaffe-kokosglasur
 Kom alle ingredienserne til glasur i en gryde og rør det sammen ved middelvarme, til smørret smelter, og det har en lækker ensartet konsistens. Det skal ikke koge. Sluk for varmen, så snart glasuren er rørt sammen.
 Lad kagen køle en smule af og smør derefter kaffe-kokosglasur på kagen.'),
@@ -3557,7 +3480,7 @@ Lad drømmekagen køle af, og så er den klar til at blive nydt.'),
   (8384, 'Pistaciemuffins med lime og marengs', 'https://www.valdemarsro.dk/pistaciemuffins/', 'https://www.valdemarsro.dk/wp-content/2022/01/pistaciemuffins-lime.jpg', '60', '12 servings', 'Pisk smør, marcipan, limesaft, fintrevet limeskal fra den ene lime, sukker og vaniljesukker sammen, til det er luftigt. Pisk derefter et æg i ad gangen, til blandingen er jævn. Bland mel, bagepulver og salt sammen og sigt det i dejen. Vend også de grofthakkede pistaciekerner i og rør dejen sammen.
 Fyld dejen i muffinforme og bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 20 minutter, til de er gennembagte i midten. Lad kagerne køle af på en rist.
 Marengs
-Kom sukker, glukosesirup og vand i en gryde. Kog op til 117 grader – mål med et sukkertermometer.
+Kom sukker, glukosesirup og vand i en gryde. Kog op til 117 grader - mål med et sukkertermometer.
 Pisk æggehvider, til de er luftige, stive og danner toppe. Hæld langsomt den varme sukkerlage i æggehviderne i en meget tynd stråle. Pisk konstant, så sukkerlagen piskes godt ind i æggehviderne. Pisk i 8-10 minutter, til det er en sej, blank marengs.
 Fyld marengs i en sprøjtepose med en stor stjernetylle og sprøjt toppe på hver af de afkølede muffins.'),
   (8387, 'Isroulade', 'https://www.valdemarsro.dk/isroulade/', 'https://www.valdemarsro.dk/wp-content/2022/01/isroulade.jpg', '240', '8 servings', 'Rouladebund
@@ -3569,19 +3492,19 @@ Smør rouladen med hindbærmarmelade, fordel tynde skiver af vaniljeis på og ru
 Drys med sukker, frysetørret hindbær og blade af citronmelisse inden servering.'),
   (8390, 'Frisk lasagne med ragu og bagte tomater', 'https://www.valdemarsro.dk/frisk-lasagne-med-ragu-og-bagte-tomater/', 'https://www.valdemarsro.dk/wp-content/2025/04/frisk-lasagne-ragu-bagte-tomater.jpg', '240', '8 servings', 'Skær kødet i tykke skiver. Varm en støbejernsgryde op med olie ved høj varme og brun kødet godt på alle sider. Tag kødet op af gryden, sæt det til side på en tallerken og skru ned for varmen på gryden. Steg bacon sprødt i gryden, tag op og sæt til side.
 Sauter løg i den samme gryde ved middelvarme, til løgene er bløde. Tilsæt hvidløg, bladselleri, gulerod og sauter i yderligere et minut. Kom det brunede kød, finthakket sprødstegt bacon, bladselleri, gulerødder, rødvin, oksefond, soltørrede tomater, hakkede tomater, laurbærblade og timian i gryden.
-Læg låg op og kog langsomt op til kogepunktet og juster derefter temperaturen, så retten blot simrer svagt. Lad det simre svagt i cirka 3-4 timer – bag undervejs tomaterne – til kødet er mørt som smør og falder fra hinanden.
+Læg låg op og kog langsomt op til kogepunktet og juster derefter temperaturen, så retten blot simrer svagt. Lad det simre svagt i cirka 3-4 timer - bag undervejs tomaterne - til kødet er mørt som smør og falder fra hinanden.
 Tag laurbærblade og kødet op og træk kødet fra hinanden i trævler. Kasser laurbærbladene. Kom kødet tilbage i gryden og smag godt til med salt og peber.
 Bagte tomater
 Kom tomater og timian i et smurt ovnfast fad. Vend tomaterne sammen med olie, salt og friskkværnet peber. Bag i en forvarmet ovn ved 225 grader varmluft i cirka 25-30 minutter.
 Servering
 Kog lasagnepladerne i en gryde med letsaltet vand efter anvisning på emballagen, til de er aldente.
 Anret på tallerkener med dampende varm ragu, bagte tomater, fintrevet parmesan lagt ind i folderne på lasagnepladerne. Afslut med burrata og basilikum.'),
-  (8393, 'Chokoladebrud', 'https://www.valdemarsro.dk/chokoladebrud-med-moerk-og-lys-chokolade/', 'https://www.valdemarsro.dk/wp-content/2025/03/chokoladebrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt græsk yoghurt, sukker, salt og fuldkornshvedemel. Rør det sammen – gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
+  (8393, 'Chokoladebrud', 'https://www.valdemarsro.dk/chokoladebrud-med-moerk-og-lys-chokolade/', 'https://www.valdemarsro.dk/wp-content/2025/03/chokoladebrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt græsk yoghurt, sukker, salt og fuldkornshvedemel. Rør det sammen - gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
 Læg dejen på en meldrysset bordplade og lav en fordybning i midten af dejen. Slå et æg ud i fordybningen og kom mørk chokolade, mælkechokolade og hasselnødder ovenpå. Luk dejen lidt til omkring fyldet og brug en bagespartel til at hakke dejen i små stykker. Brug bagespartlen til at vende dejen sammen med fyldet undervejs og hak dejen igennem en ekstra gang.
 Fordel den hakkede dej til antallet af boller og løft hvert stykke over på en bageplade med bagepapir. Lad chokoladebrudene hæve i en time med et rent klæde over. Pensl forsigtigt med sammenpisket æg og drys med hasselnødder og perlesukker. Bag i en forvarmet ovn ved 200 grader varmluft i cirka 15-17 minutter, til de er gyldne og gennembagte. Lad dem køle lidt af på en rist inden servering.'),
-  (8396, 'Burger med kikærtebøffer', 'https://www.valdemarsro.dk/kikaerteboeffer/', 'https://www.valdemarsro.dk/wp-content/2018/08/kikaerteboeffer.jpg', '60', '4 servings', 'Kom alle ingredienserne, undtagen rasp, i en foodpro­cessor eller minihakker og kør, til farsen er godt blandet og er jævn i konsistensen. Lad farsen trække i 30 minut­ter på køl.
+  (8396, 'Burger med kikærtebøffer', 'https://www.valdemarsro.dk/kikaerteboeffer/', 'https://www.valdemarsro.dk/wp-content/2018/08/kikaerteboeffer.jpg', '60', '4 servings', 'Kom alle ingredienserne, undtagen rasp, i en foodprocessor eller minihakker og kør, til farsen er godt blandet og er jævn i konsistensen. Lad farsen trække i 30 minutter på køl.
 Del farsen i 4 dele. Kom godt med olie på hænderne og form hver del til en rund kugle, som trykkes flad på en tallerken med rasp. Vend kikærtebøffen, så den er dækket med rasp på begge sider, og bøffen er pæn flad og rund.
-Læg alle 4 kikærtebøffer på en bageplade med bage­papir, pensl med olie og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 25-­30 minutter, til de er sprøde og gyldne i kanterne.
+Læg alle 4 kikærtebøffer på en bageplade med bagepapir, pensl med olie og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 25-30 minutter, til de er sprøde og gyldne i kanterne.
 Til servering
 Varm burgerbollerne og smør dem med mayo. Mos avocadoen og saml burgerne med grøntsager og avocadomos.'),
   (8399, 'Marmorkage med chokolade og hasselnødder', 'https://www.valdemarsro.dk/marmorkage/', 'https://www.valdemarsro.dk/wp-content/2019/01/marmorkage-1.jpg', '90', '1 serving', 'Skær vaniljestangen igennem på langs, skrab forsigtigt kornene ud med en kniv og fordel dem i sukkeret. Pisk sukker, vanilje, appelsinskal og smør godt sammen, til det er luftigt. Pisk derefter et æg i ad gangen.
@@ -3602,7 +3525,7 @@ Pisk flødeskum af den anden halvdel piskefløde og vend den i chokoladecremen. 
 Pynt talkagen
 Placer tallet på et serveringsfad eller en bakke og pynt med toppe af mælkechokolademousse, bær og Toffifee eller andet fint pynt alt efter årstid og smag.'),
   (8405, 'Æblepandekager med kanel', 'https://www.valdemarsro.dk/aeblepandekager/', 'https://www.valdemarsro.dk/wp-content/efteraarspandekager.jpg', '20', '2 servings', 'Æblepandekager med kanel
-Kom alle ingredienserne til æblepandekagerne – undtagen groftrevet æble – i en blender og kør til det er ensartet. Vend groftrevet æble i dejen.
+Kom alle ingredienserne til æblepandekagerne - undtagen groftrevet æble - i en blender og kør til det er ensartet. Vend groftrevet æble i dejen.
 Varm en pande op til middelhøj varme og kom en klat smør på. Lad smørret bruse af og kom pandekagedejen på panden i klatter med en spiseske. Steg først æblepandekagerne 2-3 minutter på den ene side og vend dem når de er gyldne og steg videre på den anden side.
 Honningglaserede hasselnødder med kanel og æble
 Varm en anden pande op ved middelvarme, kom honning og hasselnøddekerner på panden sammen med kanel og rist dem til honningen har glaseret hasselnødderne. Vend til sidst æbletern i blandingen.
@@ -3620,17 +3543,17 @@ Kom rugbrødet i en minihakker og hak på pulsfunktion til det er findelt. Rist 
 Servering
 Server vaflerne toppet med hummus, avocado i skiver, sprødristet halloumi og rugbrødsknas, samt lidt rucola og frisk timian'),
   (8414, 'Vegetar Taquitos', 'https://www.valdemarsro.dk/vegetar-taquitos/', 'https://www.valdemarsro.dk/wp-content/2023/09/vegetar-taquitos.jpg', '45', '4 servings', 'Pico de gallo
-Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
+Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
 Vegetar taquitos
-Sauter løg og hvidløg på en pande med olie til løgene er bløde. Kom krydderier på og varm det godt igennem. Tag panden af varmen og tilsæt tomatpure, jalapenos og flødeost. Rør det godt sammen. Kom kikærterne i en minihakker og kør hurtigt til kikærterne er grofthakkede.  Rør kikærterne i fyldet og smag til med salt og peber.
+Sauter løg og hvidløg på en pande med olie til løgene er bløde. Kom krydderier på og varm det godt igennem. Tag panden af varmen og tilsæt tomatpure, jalapenos og flødeost. Rør det godt sammen. Kom kikærterne i en minihakker og kør hurtigt til kikærterne er grofthakkede.  Rør kikærterne i fyldet og smag til med salt og peber.
 Varm alle tortillapandekagerne på en pande, til de er bløde og smidige. Gnid hver tortilla med olie på begge sider. Kom 2 spsk kikærtefyld og et drys cheddar i en stribe på midten af hver tortilla. Fold enderne sammen og rul tortillaen stramt sammen.
 Sæt med lukningen vendt ned på en bageplade med bagepapir og fortsæt med de andre taquitos.
-Bag i en forvarmet ovn ved 225 grader varmluft i 5-7 minutter. Vend dem derefter en halv omgang og bag i yderligere 5 minutter på den anden side, til osten er smeltet og de er sprøde. 
+Bag i en forvarmet ovn ved 225 grader varmluft i 5-7 minutter. Vend dem derefter en halv omgang og bag i yderligere 5 minutter på den anden side, til osten er smeltet og de er sprøde. 
 Grøn chilidip
 Kom alle ingredienserne, undtagen salt og peber, i en foodprocessor og kør til det er en glat cremet dip. Smag godt til med salt og peber og eventuelt mere limesaft.
 Server de sprøde taquitos med pico de gallo og chilidip'),
-  (8417, 'Aloo Gobi', 'https://www.valdemarsro.dk/aloo-gobi/', 'https://www.valdemarsro.dk/wp-content/2019/03/aloo-gobi-1.jpg', '30', '4 servings', 'Forkog kartoflerne i en gryde med letsaltet vand i cirka 10 minutter – de skal ikke være helt færdige og møre. Kom blomkålsbuketter i gryden og kog i 2 minutter mere. Gem 1 dl af kogevandet og hæld resten af vandet fra.
-Sauter løg, hvidløg, ingefær, spidskommen, koriander, gurkemeje og garam masala  i lidt olie på en stor pande, til løgene er bløde.
+  (8417, 'Aloo Gobi', 'https://www.valdemarsro.dk/aloo-gobi/', 'https://www.valdemarsro.dk/wp-content/2019/03/aloo-gobi-1.jpg', '30', '4 servings', 'Forkog kartoflerne i en gryde med letsaltet vand i cirka 10 minutter - de skal ikke være helt færdige og møre. Kom blomkålsbuketter i gryden og kog i 2 minutter mere. Gem 1 dl af kogevandet og hæld resten af vandet fra.
+Sauter løg, hvidløg, ingefær, spidskommen, koriander, gurkemeje og garam masala  i lidt olie på en stor pande, til løgene er bløde.
 Tilsæt hakkede tomater, de næsten møre kartofler og blomkål og lad det simre under låg, til kartoflerne er møre. Tilsæt kogevandet fra kartoflerne efter behov.
 Smag til med salt, friskkværnet peber, fintrevet limeskal og limesaft. Server med basmatiris, koriander og chiliflager.'),
   (8420, 'Misosuppe', 'https://www.valdemarsro.dk/misosuppe/', 'https://www.valdemarsro.dk/wp-content/2010/01/misosuppe.jpg', '25', '4 servings', 'Misosuppe
@@ -3656,17 +3579,17 @@ Steg kyllingestykkerne møre på en pande med olie ved middelvarme til de er gen
 Fyld pitabrød med salat, tomat, agurk, parmesandressing samt krydret kylling.'),
   (8435, 'Bagels med laks', 'https://www.valdemarsro.dk/bagels-med-laks/', 'https://www.valdemarsro.dk/wp-content/2020/06/bagels-laks.jpg', '150', '8 servings', 'Bagels
 Rør gær og ud i en skål med vand.
-Tilsæt olie, sukker, salt og rør godt sammen. Rør hvedemel i lidt efter lidt og ælt dejen til den er  smidig, gerne i en røremaskine ved middelhastighed i 7-8 minutter. Den kan også æltes på køkkenbordet til den er lækker blød og smidig. Pas på med ikke at komme for meget mel i.
+Tilsæt olie, sukker, salt og rør godt sammen. Rør hvedemel i lidt efter lidt og ælt dejen til den er  smidig, gerne i en røremaskine ved middelhastighed i 7-8 minutter. Den kan også æltes på køkkenbordet til den er lækker blød og smidig. Pas på med ikke at komme for meget mel i.
 Kom dejen i en ren skål med et klæde over og lad den hæve i 2 timer på køkkenbordet.
-Del dejen i 8 og form otte runde boller. Sæt en tommelfingeren gennem midten af hver dejkugle, så der bliver et hul i midten. Form og træk ud i dejen og udvid hullet, så det bliver en flot rund cirkel, med et godt stort hul i midten. Vær opmærksom på at dejen hæver godt op under hævning og kogning, så hullet må gerne være på størrelse med en gammeldags femkrone.
+Del dejen i 8 og form otte runde boller. Sæt en tommelfingeren gennem midten af hver dejkugle, så der bliver et hul i midten. Form og træk ud i dejen og udvid hullet, så det bliver en flot rund cirkel, med et godt stort hul i midten. Vær opmærksom på at dejen hæver godt op under hævning og kogning, så hullet må gerne være på størrelse med en gammeldags femkrone.
 Læg de runde bagels på en bageplade med et meldrysset bagepapir og lad dem hæve i yderligere 30 minutter. Klip bagepapiret rundt om hver bagels ud og sæt en stor gryde i kog med rigeligt vand.
-Sænk bagels med bagepapir i det kogende vand. Brug en hulske og kog 2-3 bagels ad gangen. Fjern bagepapiret i vandet, så snart bagelsbrødet er smuttet af og lad bollerne koge i 1 minut. Tag dem op med en hulske og sæt dem på en bageplade med bagepapir. Fortsæt til alle otte bagels er kogt.
+Sænk bagels med bagepapir i det kogende vand. Brug en hulske og kog 2-3 bagels ad gangen. Fjern bagepapiret i vandet, så snart bagelsbrødet er smuttet af og lad bollerne koge i 1 minut. Tag dem op med en hulske og sæt dem på en bageplade med bagepapir. Fortsæt til alle otte bagels er kogt.
 Pensl de kogte bagels med æg og drys med den topping du ønsker.
 Bag i en forvarmet ovn ved 175 grader varmluft i 20 minutter
 Bagels med laks
 Smør de lune nybagte bagels med hvidløgsflødeost, fordel en håndfuld salat på, et drys karse, agurkeskiver og laks.'),
   (8439, 'Bagels med kylling', 'https://www.valdemarsro.dk/bagels-med-floedeost-og-kylling/', 'https://www.valdemarsro.dk/wp-content/2016/03/bagels-opskrift-1.jpg', '150', '8 servings', 'Rør gær og sukker ud i vand. Tilsæt olie, salt og derefter hvedemel. Ælt til dejen er fast og smidig på et meldrysset bord eller i en røremaskine i 7-8 minutter.
-Kom dejen i en ren skål smurt med olie og lad den hæve overdækket med et rent klæde i 1½ time på køkkenbordet.
+Kom dejen i en ren skål smurt med olie og lad den hæve overdækket med et rent klæde i 11/2 time på køkkenbordet.
 Vend dejen ud på et meldrysset bord og slå den let sammen. Del dejen i lige store stykker, som hver formes til en helt rund bolle. Smør hænderne i olivenolie og sæt tommelfingeren gennem midten af hver dejkugle, så der bliver et hul i midten. Træk godt ud i dejen og udvid hullet. Form hver bagel, så den er rund og fin, og vær opmærksom på , at brødet hæver godt op under kogning og bagning, så hullet i midten må gerne være lidt stort.
 De formede brød stilles til hævning en halv time på et stykke bagepapir. Klip bagepapiret rundt om hver bagels ud.
 En stor gryde med vand koges op, vandet skal kun lige småkoge. Sænk bagels med bagepapir i vandet på en hulske en eller to ad gangen.
@@ -3689,9 +3612,9 @@ Serveres og spises lune'),
 Kom kikærter i en foodprocessor eller minihakker og hak det groft. Rør de grofthakkede kikærter i farsen sammen med fintsmuldret halloumi, krydr med lidt salt og peber.
 Kom spiseskefulde fars på en bradepande med bagepapir. Kom lidt olie på hænderne og form dellerne runde. Bag i en forvarmet ovn sammen med kartoflerne ved 175 grader varmluft i cirka 15 minutter i alt, vend dem efter cirka 10 minutter.'),
   (8451, 'Emmerboller', 'https://www.valdemarsro.dk/emmer-grovboller/', 'https://www.valdemarsro.dk/wp-content/2011/10/Emmerboller.jpg', '720', '12 servings', 'Rør gær ud i en skål med vand. Tilsæt solsikkekerner, mandler, honning og salt. Rør godt rundt og tilsæt mel lidt efter lidt. Dejen skal ikke æltes med hænderne, blot røres i skålen med en grydeske til den er godt samlet og let klistret. Kom låg eller et rent klæde over skålen og lad dejen hæve i 30 minutter på køkkenbordet og sæt den derefter til koldhævning i køleskabet i 8-12 timer.
-Sæt bollerne på en bageplade med bagepapir. Brug gerne en spiseske, dyppet i koldt vand, til at sætte bollerne på pladen eller kom dejen ud på et meldrysset bord og skær bollerne ud – bollerne skal ikke formes, så luften trykkes ud af dejen!
+Sæt bollerne på en bageplade med bagepapir. Brug gerne en spiseske, dyppet i koldt vand, til at sætte bollerne på pladen eller kom dejen ud på et meldrysset bord og skær bollerne ud - bollerne skal ikke formes, så luften trykkes ud af dejen!
 Lad bollerne hæve i 20 minutter, mens ovnen varmes op, hvorefter de bages i en forvarmet ovn ved 175 grader varmluft i 10 minutter og derefter ved 225 grader i 7-8 minutter eller til de er gyldne, sprøde og færdigbagte. Lad bollerne køle af på en rist.'),
-  (8454, 'Æblebrud med valnødder', 'https://www.valdemarsro.dk/aeblebrud-med-valnoedder/', 'https://www.valdemarsro.dk/wp-content/2025/05/aeblebrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen – gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
+  (8454, 'Æblebrud med valnødder', 'https://www.valdemarsro.dk/aeblebrud-med-valnoedder/', 'https://www.valdemarsro.dk/wp-content/2025/05/aeblebrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen - gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
 Læg dejen på en meldrysset bordplade og lav en fordybning i midten af dejen. Slå et æg ud i fordybningen og kom groftrevet æble og valnøddekerner på. Luk dejen lidt til omkring fyldet og brug en bagespartel til at hakke dejen i små stykker. Brug bagespartlen til at vende dejen sammen med fyldet undervejs og hak dejen igennem en ekstra gang.
 Fordel den hakkede dej til antallet af boller og løft hvert stykke over på en bageplade med bagepapir. Lad æblebrudene hæve i en time med et rent klæde over.
 Rør perlesukker og kanel sammen i en skål og drys det over bollerne. Bag i en forvarmet ovn ved 200 grader varmluft i cirka 15-17 minutter, til de er gyldne og gennembagte. Lad dem køle lidt af på en rist inden servering.'),
@@ -3706,9 +3629,9 @@ Sigt hvedemel i og rør dejen godt sammen. Ælt den gerne på en røremaskine ve
 Pensl bollerne med et sammenpisket æg og bag den i en forvarmet ovn ved 175 grader varmluft i cirka 17-18 minutter. Lad bollerne køle af på en rist.
 Skær toppen af og sæt den til side til senere. Udhul bollen og kom brøddejen i en foodprocessor med groftrevet marcipan, hakkede mandler og en smule mælk. Kør hurtigt til en ensartet og lækker creme Kom fyldet tilbage i de udhulede semlor, top med flødeskum og sæt brødlåget på igen. Sigt lidt flormelis over inden servering.'),
   (8463, 'Kyllingesalat med bacon', 'https://www.valdemarsro.dk/kyllingesalat-med-bacon/', 'https://www.valdemarsro.dk/wp-content/2025/04/kyllingesalat.jpg', '15', '4 servings', 'Skær kyllingekødet i små tern og steg bacon sprød på en pande med lidt olie. Lad bacon dryppe af på køkkenrulle og hak derefter fint.
-Rør dressingen sammen af mayonnaise, cremefraiche, dijonsennep, fuldkornssennep, rødløg, purløg og kørvel – gem lidt til servering – samt salt og peber. Lad den trække smag i et par minutter og smag så rigtig godt til med salt, friskkværnet peber, sennep efter smag og evt en anelse mere mayo, så balancen mellem fedme og smag er god. Rør kylling og finthakket bacon – gem lidt til servering – i dressingen. Anret i en skål og drys med kørvel, purløg og bacon.'),
+Rør dressingen sammen af mayonnaise, cremefraiche, dijonsennep, fuldkornssennep, rødløg, purløg og kørvel - gem lidt til servering - samt salt og peber. Lad den trække smag i et par minutter og smag så rigtig godt til med salt, friskkværnet peber, sennep efter smag og evt en anelse mere mayo, så balancen mellem fedme og smag er god. Rør kylling og finthakket bacon - gem lidt til servering - i dressingen. Anret i en skål og drys med kørvel, purløg og bacon.'),
   (8466, 'Fransk omelet', 'https://www.valdemarsro.dk/fransk-omelet-med-hvidloegsfloedeost/', 'https://www.valdemarsro.dk/wp-content/2025/03/fransk-omelet.jpg', '15', '1 serving', 'Sæt en sigte over en skål og slå æggene ud i sigten. Pisk æggene ned i sigten til al æggemassen er sigtet.
-Pisk salt og friskkværnet peber i.  Varm en pande op med olie, kom smør på og lad det bruse af. Kom de sammenpiskede på den varme pande. Rør i æggemassen med en dejskraber i 15-20 sekunder. Kom små klatter af hvidløgsflødeost på midten og fold derefter omeletten ind mod midten, mens den stadig er blød i midten. Lad omeletten hvile på den varme panden i 5-10 sekunder, før den vendes over på en tallerken.
+Pisk salt og friskkværnet peber i.  Varm en pande op med olie, kom smør på og lad det bruse af. Kom de sammenpiskede på den varme pande. Rør i æggemassen med en dejskraber i 15-20 sekunder. Kom små klatter af hvidløgsflødeost på midten og fold derefter omeletten ind mod midten, mens den stadig er blød i midten. Lad omeletten hvile på den varme panden i 5-10 sekunder, før den vendes over på en tallerken.
 Server på en tallerken med et drys fintklippet purløg og friskkværnet peber.'),
   (8469, 'Kål og bønner med sennepsdressing', 'https://www.valdemarsro.dk/kaal-og-boenner-med-sennepsdressing/', 'https://www.valdemarsro.dk/wp-content/2025/01/kaal-boenner-sennepsdressing.jpg', '45', '4 servings', 'Rør dressingen sammen og smag den godt til. Lad den stå og trække smag, mens resten af retten tilberedes.
 Læg blomkålsskiverne på en bradepande med bagepapir og pensl med smeltet smør. Rør sød paprika, røget paprika, salt og peber sammen og drys det over blomkålen. Bag i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter, til blomkålen er mør og gylden.
@@ -3724,14 +3647,14 @@ Rul dejen ud mellem to stykker bagepapir. Træk det ene stykke bagepapir af og p
 Fordel først den kolde æblemos på den bagte mørdej og kom derefter makronmassen på i skefulde, uden at røre i æblemosen. Bag i en forvarmet ovn ved 200 grader varmluft i cirka 15 minutter til makronmassen er smukt gylden.
 Lad kagen køle lidt af på bagepladen og skær ud i snitter.'),
   (8475, 'Studenterbrød', 'https://www.valdemarsro.dk/studenterbroed/', 'https://www.valdemarsro.dk/wp-content/2022/02/studenterbroed.jpg', '120', '10 servings', 'Mørdej
-Kør hvedemel, flormelis, salt og smør hurtigt i en foodprocessor, til det er ensartet. Kom dejen i en skål og saml den med sammenpisket æg og evt. lidt koldt vand hvis nødvendigt. Rul dejen ud i 2 mm’s tykkelse mellem to stykker bagepapir. Træk det øverste lag bagepapir af, prik dejen med en gaffel og sæt den på en bageplade.
+Kør hvedemel, flormelis, salt og smør hurtigt i en foodprocessor, til det er ensartet. Kom dejen i en skål og saml den med sammenpisket æg og evt. lidt koldt vand hvis nødvendigt. Rul dejen ud i 2 mm''s tykkelse mellem to stykker bagepapir. Træk det øverste lag bagepapir af, prik dejen med en gaffel og sæt den på en bageplade.
 Bag i en forvarmet ovn ved 175 grader varmluft i 16-18 minutter, til bunden er gylden.
 Trøffelmasse
 Kør kageresterne til helt fint smulder i en foodprocessor. Smelt chokoladen under omrøring over et vandbad ved lav varme. Kom den smeltede chokolade, marcipan, rom og marmelade i foodprocessoren og kør, til det er en samlet trøffelmasse. Smag trøffelmassen godt til med mere marmelade, chokolade, rom eller marcipan alt efter smag og behag.
 Ælt trøffelmassen let med hænderne og fordel den på mørdejsbunden. Læg et stykke bagepapir over og rul forsigtigt med en kagerulle, så trøffelmassen fordeler sig jævnt. Lad den sætte sig i ca. 1 time og træk bagepapiret af.
 Glasur og pynt
 Rør en tyk glasur af flormelis, vand og lyserød farvepasta. Overtræk kagen med glasuren. Drys med krymmel og skær kagen ud i passende stykker til studenterbrød, når glasuren har sat sig.'),
-  (8478, 'Vegetar burritos', 'https://www.valdemarsro.dk/vegetar-burritos/', 'https://www.valdemarsro.dk/wp-content/2023/08/vegetar-burritos.jpg', '45', '4 servings', 'Sauter løgene på en pande med olivenolie ved middelvarme til løgene er bløde. Kom spidskommen, røget paprika, koriander, oregano og hvidløg på og rør det godt sammen. Kom kidneybønner og hakkede tomater på panden og kog det op. Lad det simre lidt ind uden låg, til en tyk sauce – rør i det nogle gange undervejs. Tag af varmen, mos en del af bønnerne let med bagsiden af en ske og rør det godt sammen med flødeost, smag til med salt og peber.
+  (8478, 'Vegetar burritos', 'https://www.valdemarsro.dk/vegetar-burritos/', 'https://www.valdemarsro.dk/wp-content/2023/08/vegetar-burritos.jpg', '45', '4 servings', 'Sauter løgene på en pande med olivenolie ved middelvarme til løgene er bløde. Kom spidskommen, røget paprika, koriander, oregano og hvidløg på og rør det godt sammen. Kom kidneybønner og hakkede tomater på panden og kog det op. Lad det simre lidt ind uden låg, til en tyk sauce - rør i det nogle gange undervejs. Tag af varmen, mos en del af bønnerne let med bagsiden af en ske og rør det godt sammen med flødeost, smag til med salt og peber.
 Varm tortillapandekagerne på en pande, til de er bløde og smidige. Gnid hver tortilla med olie på begge sider. Kom lidt majs, peberfrugt, avocado og cheddar i en stribe på midten af hver tortilla. Kom 4-5 spsk fyldet på og fold enderne sammen og rul en stram pakket burrito. Sæt med lukningen vendt ned på en bradepande med bagepapir. Fortsæt med resten af burritos og bag i en forvarmet ovn ved 200 grader i cirka 15 minutter, til de er sprøde og lækre.
 Hvidløgsris
 Kom olie og hvidløg i en gryde og sauter hvidløg ved middellav varme til det dufter let. Tilsæt vand, basmatiris og salt. Rør det godt igennem, læg låg på og bring langsomt op til kogepunktet. Kog under låg ved svag varme i 10 minutter. Tag af varmen og lad derefter risen hvile i yderligere 10 minutter i gryden med låget på. Vend finthakket koriander i risen inden servering.
@@ -3793,9 +3716,9 @@ Steg pandekagerne i smør, til de er gyldne. Lad dem køle af, inden pandekagela
 Saml lagkagen
 Pisk fløden til skum. Læg en pandekage på et fad. Fyld karamel og chokoladeganache i to sprøjteposer. Sprøjt en cirkel med karamel og en cirkel med ganache og smør et lag flødeskum på. Læg en pandekage på og fortsæt lag på lag, til den sidste pandekage er lagt på. Drys til sidst med hakket mørk chokolade på toppen.'),
   (8505, 'Banh Mi Burger', 'https://www.valdemarsro.dk/banh-mi-burger/', 'https://www.valdemarsro.dk/wp-content/2014/08/burger-banh-mi.jpg', '90', '4 servings', 'Rør dressingen sammen og smag den godt til.
-Smør burgerbollerne eller baguetterne med dressing – vær gerne lidt gavmild. Fyld dem med gulerod og agurk, derefter godt med dressing, kød og masser af koriander.
+Smør burgerbollerne eller baguetterne med dressing - vær gerne lidt gavmild. Fyld dem med gulerod og agurk, derefter godt med dressing, kød og masser af koriander.
 Er du ikke fan af koriander, kan du bruge bredbladet persille i stedet.'),
-  (8536, '3 x hjemmelavet dip til chips', 'https://www.valdemarsro.dk/3-x-hjemmelavet-dip-til-chips/', 'https://www.valdemarsro.dk/wp-content/2015/10/chips-og-dip.jpg', '10', '4 servings', 'Fremgangsmåden er noget så enkel og nem. Og den er den samme ved alle tre dip – rør sammen og smag til.
+  (8536, '3 x hjemmelavet dip til chips', 'https://www.valdemarsro.dk/3-x-hjemmelavet-dip-til-chips/', 'https://www.valdemarsro.dk/wp-content/2015/10/chips-og-dip.jpg', '10', '4 servings', 'Fremgangsmåden er noget så enkel og nem. Og den er den samme ved alle tre dip - rør sammen og smag til.
 Lad gerne de tre dips stå og trække lidt smag et kvarters tid og husk endelig at smage til om der skal mere salt, krydderier, løgpulver eller lign i'),
   (8556, 'Thaisuppe med kylling og kokosmælk', 'https://www.valdemarsro.dk/thaisuppe-kylling/', 'https://www.valdemarsro.dk/wp-content/2016/04/thaisuppe-kokos.jpg', '45', '4 servings', 'Skær kyllingebrystfileterne i mundrette stykker og sauter dem hurtigt i en sauterpande med kokosolie. Tag kyllingestykkerne op og læg dem på en tallerken, mens grøntsagerne sauteres.
 Kom champignon på panden og brun dem ved høj varme, tilsæt løg, hvidløg, ingefær, gurkemeje, galangarod, kaffirblade, samt evt. finthakket rød chili efter smagsløg og mod. Kom også grøntsagsbouillon i gryden.
@@ -3820,7 +3743,7 @@ Smuldr smørret i og bland det godt og grundigt sammen.
 Når massen er ensartet, formes små kugler, som rulles i lakridspulver.'),
   (8576, 'Hindbærsirup med vanilje', 'https://www.valdemarsro.dk/hindbaersirup-med-vanilje-i-en-raspberry-latte/', 'https://www.valdemarsro.dk/wp-content/2013/02/hindbaersirup.jpg', '25', '1 serving', 'Flæk vaniljestangen og skrab vaniljekornene ud, rør dem godt ud i 2 spsk sukker så vaniljekornene skilles smukt fra hinanden.
 Kom alle ingredienser i en gryde, varm op til det koger og lad det koge i 10-20 minutter.
-Hold øje med  det. Det skal ikke tykne for meget. Tag løbende en prøve op og lad den køle af på en tallerken, tjek om konsistensen er korrekt sirupsagtig. Er det blevet for tykt røres en smule vand i.
+Hold øje med  det. Det skal ikke tykne for meget. Tag løbende en prøve op og lad den køle af på en tallerken, tjek om konsistensen er korrekt sirupsagtig. Er det blevet for tykt røres en smule vand i.
 Si hindbærmosen fra og opbevar siruppen i en lille flaske i køleskabet.
 Opskriften giver ca 2 dl'),
   (8592, 'Fødselsdagsboller', 'https://www.valdemarsro.dk/fodselsdagsboller/', 'https://www.valdemarsro.dk/wp-content/2013/06/foedselsdagsboller.jpg', '210', '12 servings', 'Rør gær ud i en skål med mælk. Tilføj de øvrige ingredienser og ælt dejen sammen, gerne på røremaskine ved lav hastighed i 10 minutter.
@@ -3833,7 +3756,7 @@ Bland salt, hvedemel og ølandshvede i en skål og kom det i røreskålen.
 Rør dejen på laveste hastighed i to minutter og sæt derefter hastigheden op på til middelhastighed, alt afhængig af din maskine. Dejen skal æltes på maskinen omkring 10-12 minutter. Så snart dejen slipper skålens kant, skal du stoppe maskinen og se om du kan lave en glutentest.
 Tjek at dejen er æltet perfekt ved at lave en glutentest:
 Tag en lille klump dej og træk den ud, så den bliver helt gennemsigtig uden at gå i stykker.
-Hvis du ikke kan lave en glutentest efter 10-15 minutter, så kom en smule mere mel i, 1/2 – 1 dl ekstra mel.
+Hvis du ikke kan lave en glutentest efter 10-15 minutter, så kom en smule mere mel i, 1/2 - 1 dl ekstra mel.
 Smør en stor ren skål med olivenolie og kom den æltede dej deri. Dæk med husholdningsfilm eller et låg og lad dejen hæve i køleskabet 12-14 timer.
 Tænd ovnen på 260 grader varmluft og sæt en bagesten eller bagestål ind i ovnen.
 Skær bollerne ud med en spartel eller kniv, dejen skal ikke æltes.
@@ -3862,9 +3785,9 @@ Form bollerne og sæt dem på en bageplade med bagepapir, lad dem hæve 30 minut
 Pensl med æg og bag bollerne i en forvarmet ovn ved 240 grader varmluft i 6 minutter og skrue derefter ned til 220 grader hvor bollerne bages færdig i omkring 10-14 minutter.'),
   (8612, 'Old Fashioned', 'https://www.valdemarsro.dk/old-fashioned-cocktail/', 'https://www.valdemarsro.dk/wp-content/2024/01/old-fashioned.jpg', '5', '1 serving', 'Kom en sukkerknald i et glas, dryp angustura og bourbon whisky over. Rør drinken godt igennem og top med isterninger.
 Skær tynde strimmel af det yderste skræl af appelsinen med en tyndskræller, og gnid kanten af glasset med ydersiden af et lille stykke appelsin, så aromaerne fra appelsinen frigives og server med en strimmel appelsinskal i glasset.'),
-  (8615, 'Hvidløgssnegle', 'https://www.valdemarsro.dk/hvidloegssnegle/', 'https://www.valdemarsro.dk/wp-content/2023/11/hvidloegssnegle.jpg', '180', '12 servings', 'Opløs gæren i en skål med stuetemperet mælk. Tilsæt yoghurt, fuldkornshvedemel, sigtet hvedemel samt salt. Ælt dejen godt sammen, gerne på en røremaskine i 10 minutter ved lav-middelhastighed, til dejen er helt glat og blank. Lad dejen hæve i en tildækket skål på køkkenbordet i 1 ½ time.
+  (8615, 'Hvidløgssnegle', 'https://www.valdemarsro.dk/hvidloegssnegle/', 'https://www.valdemarsro.dk/wp-content/2023/11/hvidloegssnegle.jpg', '180', '12 servings', 'Opløs gæren i en skål med stuetemperet mælk. Tilsæt yoghurt, fuldkornshvedemel, sigtet hvedemel samt salt. Ælt dejen godt sammen, gerne på en røremaskine i 10 minutter ved lav-middelhastighed, til dejen er helt glat og blank. Lad dejen hæve i en tildækket skål på køkkenbordet i 1 1/2 time.
 Rør blødt smør sammen med presset fed hvidløg og persille. Lad smørret stå på køkkenbordet, så det bliver godt blødt og smørbart.
-Rul dejen ud på bordpladen i en lang retangel. Fordel hvidløgsmørret og drys med friskrevest ost. Rul sammen til en roulade og skær ud i skiver på 1 ½ cm. Sæt sneglene i en smurt muffinsform og lad dem efterhæve i 30 minutter.
+Rul dejen ud på bordpladen i en lang retangel. Fordel hvidløgsmørret og drys med friskrevest ost. Rul sammen til en roulade og skær ud i skiver på 1 1/2 cm. Sæt sneglene i en smurt muffinsform og lad dem efterhæve i 30 minutter.
 Pensl med sammenpisket æg og bag i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter, til de er gyldne på toppen. Lad dem køle lidt af på en rist, inden servering.'),
   (8618, 'Eclairs', 'https://www.valdemarsro.dk/eclairs/', 'https://www.valdemarsro.dk/wp-content/2022/01/eclairs_app.jpg', '90', '20 servings', 'Tænd ovnen på 200 grader alm ovn.
 Kom mælk, vand og smør i en gryde og kog det op til kogepunktet. Tilsæt sukker og salt og rør det godt igennem, til sukkeret smelter. Tag gryden af varmen og sigt melet i. Rør det godt igennem til dejen er glat og sæt tilbage på varmen og rør videre til dejen slipper bunden, når du rører den igennem og dejen har en temperatur på 75 grader.
@@ -3894,7 +3817,7 @@ Smelt smør på en pande og steg små runde blinis. Kom cirka 1 tsk dej på pand
 Anretning
 Anret de små blinis på en tallerken med avocado, cremefraiche, caviar, meget finthakket purløg.
 Man kan også nyde blinis blot med caviar og uden andet til.'),
-  (8627, 'Bagt Mont d''Or', 'https://www.valdemarsro.dk/bagt-mont-dor/', 'https://www.valdemarsro.dk/wp-content/2021/11/mont-d-or.jpg', '45', '4 servings', 'Fjern al plastikinpakningen fra osten. Lad osten blive i trææsken – med låget i bunden af æsken – både under bagningen og efterfølgende.
+  (8627, 'Bagt Mont d''Or', 'https://www.valdemarsro.dk/bagt-mont-dor/', 'https://www.valdemarsro.dk/wp-content/2021/11/mont-d-or.jpg', '45', '4 servings', 'Fjern al plastikinpakningen fra osten. Lad osten blive i trææsken - med låget i bunden af æsken - både under bagningen og efterfølgende.
 Snit et kryds i midten af osten og fordel små kviste med rosmarin rundt i osten. Hæld hvidvinen langsomt over og bag osten i en forvarmet ovn ved 175 grader varmluft i cirka 30 minutter.
 Tag osten ud af ovnen og lad den sætte sig i 10 minutter. Fjern rosmarinkvistene og rør osten sammen med en ske til den er blød, flydende og cremet.'),
   (8630, 'Hjemmelavet kebab krydderi', 'https://www.valdemarsro.dk/hjemmelavet-kebab-krydderi/', 'https://www.valdemarsro.dk/wp-content/2022/05/kebabkrydderi.jpg', '15', '4 servings', 'Rør krydderierne godt sammen og opbevar dem i et lufttæt glas.'),
@@ -3946,7 +3869,7 @@ Fordel suppen med nudler og grønt i skåle. Top med sprød gris og dryp chili-i
 Rør friskrevet parmesan, mynte, basilikum, friskrevet citronskal, citronsaft i risene og smag til med salt og peber, samt evt. ekstra citronsaft.
 Tag gryden af varmen, rør ærterne i og server på tallerkener med ærtespirer, et drys friske ærter og lidt mynte.'),
   (8696, 'Bagt blomkål', 'https://www.valdemarsro.dk/bagt-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2019/03/blomkaal-bagt.jpg', '45', '4 servings', 'Skyl blomkålen, fjern bladene og dup blomkålshovedet tørt med et rent klæde. Rør smør med citronskal og et lille nip salt. Fordel citronsmørret på hele blomkålens overflade, riv lidt ekstra citronskal over, efter smag og behag. Drys med salt og friskkværnet peber.
-Bag blomkålen i en forvarmet ovn ved 175 grader varm­ luft i cirka 35-­45 minutter, til blomkålshovedet er gyldent på overfladen.
+Bag blomkålen i en forvarmet ovn ved 175 grader varm luft i cirka 35-45 minutter, til blomkålshovedet er gyldent på overfladen.
 Drys med parmesan og persille inden servering.'),
   (8741, 'Amerikanske pandekager', 'https://www.valdemarsro.dk/amerikanske-pandekager/', 'https://www.valdemarsro.dk/wp-content/2011/04/amerikanske-pandekager.jpg', '30', '4 servings', 'Amerikanske pandekager
 Rør mel, sukker, salt og bagepulver sammen i en skål og pisk mælk og æggeblommer i.
@@ -3985,7 +3908,7 @@ Kom det i en sprøjtepose med en stor stjernetyl og sprøjt små toppe på en ba
 Bag dem i en forvarmet ovn ved 165 grader varmluft i cirka 10 minutter. De skal blot lige blive en smule gyldne i kanten.
 Lad dem køle helt af og dyp derefter bunden i tempereret chokolade. Lad chokolade størkne helt.'),
   (8879, 'Hindbær og vodka cocktail', 'https://www.valdemarsro.dk/hindbaer-og-vodka-cocktail/', 'https://www.valdemarsro.dk/wp-content/2018/12/cocktails-hindbaer.jpg', '1440', '4 servings', 'Dagen før
-Kom hindbær i en gryde og kog op, lad det simre i 5 minutter. Køl af, blend de kogte hindbær og kom pureen i isterningbeholder, som fyldes op til 1/3. Sæt i fryseren i 30 minutter.  Fordel derefter friske hindbær, kviste af rosmarin og top med vand til kanten, hvorefter isterningebakken sættes på køl til næste dag.
+Kom hindbær i en gryde og kog op, lad det simre i 5 minutter. Køl af, blend de kogte hindbær og kom pureen i isterningbeholder, som fyldes op til 1/3. Sæt i fryseren i 30 minutter.  Fordel derefter friske hindbær, kviste af rosmarin og top med vand til kanten, hvorefter isterningebakken sættes på køl til næste dag.
 Kom limesaft og sukker i en gryde og kog det op til sukkeret er opløst. Hæld siruppen på glas og stil på køl.
 Til servering
 Kom vodka, limesirup, en rosmarinstængel og to hindbæristerninger i en shaker og ryst godt sammen.
@@ -3993,7 +3916,7 @@ Hæld i glas fyldt med hindbæristerninger, top med gingerbeer og server.
 Alkoholfri version
 Præcis samme fremgangsmåde, undlad blot vodka'),
   (8926, 'Surdejsboller uden gær', 'https://www.valdemarsro.dk/surdejsboller/', 'https://www.valdemarsro.dk/wp-content/2017/08/surdejsboller-2.jpg', '1080', '12 servings', 'Surdej
-Rør 100 g aktiv surdej, 100 g vand og 100 g hvedemel sammen til det er ensartet i konsistensen. Læg  et låg løst over og lad det stå på køkkenbordet, til det hæver til minimum dobbeltstørrelse. Det tager typisk cirka 1-3 timer, alt afhængig af styrken i din surdej og temperaturen i dit køkken.
+Rør 100 g aktiv surdej, 100 g vand og 100 g hvedemel sammen til det er ensartet i konsistensen. Læg  et låg løst over og lad det stå på køkkenbordet, til det hæver til minimum dobbeltstørrelse. Det tager typisk cirka 1-3 timer, alt afhængig af styrken i din surdej og temperaturen i dit køkken.
 Dej til surdejsboller
 Kom mel og vand i skålen og rør det godt sammen. Lad det stå i en time på køkkenbordet.
 Rør halvdelen af surdejen, samt salt i dejen. Gem resten af surdejen til at fodre videre på til fremtidigt bagværk. Ælt dejen på en røremaskine i cirka 5 minutter eller i en skål med en grydeske. Dejen skal være meget blød og der skal ikke ekstra mel i!
@@ -4005,9 +3928,9 @@ Bagning
 Med bagestål: Tænd ovnen på højeste varme og varm bagestålet op på en rist i en time inden bagning
 Uden bagestål: Tænd ovnen på højeste varme, med en bageplade i ovnen og varm ovn og bageplade op.
 Tag dejen ud af køleskabet og brug en blød bagespartel til nænsomt at få dejen forsigtigt ud af skålen på et meldrysset bord. Fold dejen en enkelt gang og drys lidt mel over dejen. Skær bollerne ud med en fast bagespartel.
-Med bagestål: Tag risten med bagestål ud af ovnen og placer bollerne direkte på den varme plade. Skrue ovnen ned til 180 grader varmluft (gerne med damp og bag bollerne i 7 minutter ved 180 grader varmluft og damp. Skrue derefter temperaturen op til 230 grader og bag videre til bollerne har en smuk sprød skorpe.
-Uden bagestål: Tænd ovnen på højeste varme, med en bageplade i ovnen og varm ovn og bageplade op. Sæt bollerne på et stykke bagepapir og hiv det over på den varme bageplade. Skrue ovnen ned til 180 grader varmluft (gerne med damp og bag bollerne i 7 minutter ved 180 grader varmluft og damp. Skrue derefter temperaturen op til 230 grader og bag videre til bollerne har en smuk sprød skorpe.
-Tag dem ud af ovnen og lad dem  køle lidt af på en rist, inden de serveres.'),
+Med bagestål: Tag risten med bagestål ud af ovnen og placer bollerne direkte på den varme plade. Skrue ovnen ned til 180 grader varmluft (gerne med damp og bag bollerne i 7 minutter ved 180 grader varmluft og damp. Skrue derefter temperaturen op til 230 grader og bag videre til bollerne har en smuk sprød skorpe.
+Uden bagestål: Tænd ovnen på højeste varme, med en bageplade i ovnen og varm ovn og bageplade op. Sæt bollerne på et stykke bagepapir og hiv det over på den varme bageplade. Skrue ovnen ned til 180 grader varmluft (gerne med damp og bag bollerne i 7 minutter ved 180 grader varmluft og damp. Skrue derefter temperaturen op til 230 grader og bag videre til bollerne har en smuk sprød skorpe.
+Tag dem ud af ovnen og lad dem  køle lidt af på en rist, inden de serveres.'),
   (8929, 'Othello lagkage', 'https://www.valdemarsro.dk/othello-lagkage/', 'https://www.valdemarsro.dk/wp-content/2022/02/otello-lagkage.jpg', '1440', '12 servings', 'Lagkagebunde
 Pisk sukker, vaniljesukker og æggeblommer til en luftig æggesnaps og pisk smørret i.
 Bland hvedemel, mandelmel, salt og bagepulver og vend det i dejen. Pisk æggehviderne stive. Rør forsigtigt 1 spsk i dejen og fold derefter resten i. Fordel dejen i en smurt springform på 20 cm i diameter med bagepapir i bunden.
@@ -4033,13 +3956,13 @@ Pensl alle grøntsagerne med marinade og grill først majskolberne i 30 minutter
 Indirekte varme
 Kom kartofler, majs eller andet, der skal være godt mørt i midten, på indirekte varme i 30 minutter.
 Direkte varme
-Grill grøntsagerne på direkte varme i 3-­5 minutter på hver side, til de har grillstriber og er let møre med bid.'),
+Grill grøntsagerne på direkte varme i 3-5 minutter på hver side, til de har grillstriber og er let møre med bid.'),
   (8956, 'Boller med hørfrø', 'https://www.valdemarsro.dk/boller-med-hoerfroe/', 'https://www.valdemarsro.dk/wp-content/2007/09/hoerfroeboller.jpg', '720', '12 servings', 'Rør gæren ud i en skål med vand. Tilsæt honning, salt, hørfrø, fuldkornsmel og hvedemel.
 Rør dejen på røremaskine i 10 minutter ved lav-middelhastighed til dejen er blød, smidig, blank og ensartet.
 Kom dejen i en ren skål smurt med lidt olie. Lad dejen hæve på køkkenbordet i 30 minutter og sæt derefter skålen i køleskabet natten over, eller i minimum 12 timer.
 Hæld dejen ud på et meldrysset bord og brug en bagespartel til at skære dejen ud til boller. Sæt dem på en bageplade med bagepapir, pensl med sammenpisket æg og drys med flagesalt og hørfrø. Bag bollerne ved 200 grader i 15 minutter. Skrue derefter ovnen op til 230 grader og bag i yderligere 5-7 minutter, til skorpen er smukt gylden og sprød.'),
   (8979, 'Pad Thai med kylling', 'https://www.valdemarsro.dk/pad-thai/', 'https://www.valdemarsro.dk/wp-content/2019/05/pad-thai.jpg', '30', '4 servings', 'Kog nudlerne eller læg dem i blød efter anvisning på pakken. Hvis de skal koges, så giv dem 2 minutter for kort tid, og skyl derefter med koldt vand, så de ikke klistre sammen.
-Rør ingredienserne til Pad Thai­ saucen sammen, start med fishsauce, riseddike, soja og sukker og tilsæt tamarind lidt efter lidt, smag til undervejs med tamarind efter smag til du synes smagen er skøn. Rør til en ensartet konsistens og stil den til side.
+Rør ingredienserne til Pad Thai saucen sammen, start med fishsauce, riseddike, soja og sukker og tilsæt tamarind lidt efter lidt, smag til undervejs med tamarind efter smag til du synes smagen er skøn. Rør til en ensartet konsistens og stil den til side.
 Varm olien op i en wok eller en stor pande, tilsæt løg, hvidløg, ingefær, chiliflager og kylling steg det hurtigt, til kyllingen er brunet af.
 Kom nudlerne på panden og steg dem hurtigt mens de vendes flere gange undervejs. Tilsæt mere olie hvis nødvendigt, så nudlerne ikke klumper sammen.
 Skub nudler og kylling til side, tilsæt lidt mere olie og slå æggene ud på panden. Lad dem stege et halvt minut og vend derefter æggene rundt med kylling og nudler. Tilsæt pad thai saucen, samt bønnespirer og halvdelen af forårsløgene.
@@ -4065,23 +3988,23 @@ Tag forsigtigt formen ud af køleskabet, lad den stå på køkkenbordet i 30 min
 Tag brødet ud af formen, bank det under bunden hvis det lyder hult er det færdigt (ellers giv det 10 min længere uden form og lad det så køle af på en rist.'),
   (9005, 'Gin og Tonic', 'https://www.valdemarsro.dk/gin-tonic/', 'https://www.valdemarsro.dk/wp-content/2016/05/gin-tonic-1.jpg', '5', '1 serving', 'Kom gin og tonic i et glas og rør rundt. Top med masser af isterninger.
 Kom et par agurkeskiver og lime i glasset og server.'),
-  (9008, 'Små madbrød med oliven og bacon', 'https://www.valdemarsro.dk/madbroed-med-oliven-og-bacon/', 'https://www.valdemarsro.dk/wp-content/2018/11/kuvertbroed-oliven-bacon.jpg', '180', '15 servings', 'Rør gær ud i en skål med vand. Kom kærnemælk, sukker, olivenolie, salt og fuldkornshvedemel i og rør det sammen. Rør hvedemel i og ælt dejen – gerne på en røremaskine – til den er blød og smidig. Stil dejen til hævning i en skål med et rent klæde over i to timer.
+  (9008, 'Små madbrød med oliven og bacon', 'https://www.valdemarsro.dk/madbroed-med-oliven-og-bacon/', 'https://www.valdemarsro.dk/wp-content/2018/11/kuvertbroed-oliven-bacon.jpg', '180', '15 servings', 'Rør gær ud i en skål med vand. Kom kærnemælk, sukker, olivenolie, salt og fuldkornshvedemel i og rør det sammen. Rør hvedemel i og ælt dejen - gerne på en røremaskine - til den er blød og smidig. Stil dejen til hævning i en skål med et rent klæde over i to timer.
 Rul dejen ud i en lang firkant ca. 20 cm bred, smør med pesto, og oliventapenade, drys med. Fold den ene tredjedel over og derefter den anden, så den er foldet med 3 lag. Skær dejen ud i 3 cm store stykker og læg stykkerne med lidt luft imellem på en bageplade med bagepapir.
 Lad dem hæve i 30 minutter på bagepladen.
 Pensl med æg og drys med sesamfrø. Bag i en forvarmet ovn ved 175 grader varmluft i cirka 15-18 minutter, til de er gyldne og gennembagte. Lad dem køle lidt af på en rist, inden servering.'),
   (9011, 'Pizza med stenbiderrogn', 'https://www.valdemarsro.dk/pizza-med-stenbiderrogn/', 'https://www.valdemarsro.dk/wp-content/2022/12/pizza-stenbiderrogn.jpg', '120', '2 servings', 'Pizzadej
-Opløs gæren i en skål med stuetempereret vand. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring.
-Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne. Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
+Opløs gæren i en skal med stuetempereret vand. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring.
+Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne. Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
 Lad dejen hæve i 45 minutter på køkkenbordet og sæt den derefter i køleskabet i minimum 10 timer eller til næste dag.
 Bagning og topping
 Sæt ovnen til at forvarme på højeste temperatur med en bageplade, bagestål, eller pizzasten på den øverste rille i ovnen.
-Drys lidt mel på køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne på bordet.
+Drys lidt mel pa køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne pa bordet.
 Smør halvdelen af cremefraiche på bundene, fordel papirstynde skiver kartoffel på og drys med flagesalt og peber. Bag pizzabundene i ovnen til de er sprøde. Lad dem køle lidt af på en rist i cirka 5 minutter.
 Rør resten af cremefraichen med citronskal, salt og peber og halvdelen af den finthakkede dild. Smag godt til.
 Top pizzabundene med stenbiderrogn, den rørte cremefraiche, rødløg, og et grønt drys purløg, karse og dild.'),
   (9014, 'Stenbiderrogndip med chips', 'https://www.valdemarsro.dk/stenbiderrogndip-med-chips/', 'https://www.valdemarsro.dk/wp-content/2023/11/stenbiderrogndip.jpg', '15', '4 servings', 'Rør cremefraiche, citronsaft, citronskal, salt og peber godt sammen til en ensartet creme. Rør halvdelen af stenbiderrogn og finthakket purløg i dippen og kom i en skål. Top med resten af stenbiderrognen, purløg og friskkværnet peber.
 Server med fx saltchips'),
-  (9017, 'Spinatblinis med stenbiderrogn', 'https://www.valdemarsro.dk/stenbiderrogn-pa-spinatblinis/', 'https://www.valdemarsro.dk/wp-content/2013/02/spinatblinis.jpg', '60', '30 servings', 'Bring en gryde med ½ liter vand i kog.
+  (9017, 'Spinatblinis med stenbiderrogn', 'https://www.valdemarsro.dk/stenbiderrogn-pa-spinatblinis/', 'https://www.valdemarsro.dk/wp-content/2013/02/spinatblinis.jpg', '60', '30 servings', 'Bring en gryde med 1/2 liter vand i kog.
 Kom spinaten i gryden og kog i 30 sekunder, tag spinaten op i en sigte og pres vandet godt fra. Lad det køle lidt af og hak spinaten fint.
 Rør gær ud i mælk i en skål. Tilsæt boghvedemel, hvedemel, grahamsmel, salt og æggeblommer i dejen, pisk det sammen og kom spinaten i.
 Lad dejen hæve på køkkenbordet i skålen med et rent viskestykke over i ca. 30 minutter.
@@ -4125,7 +4048,7 @@ Fordel lidt olie eller smør i et vaffeljern og steg vaflerne til de er gyldne o
 Servering
 Knæk den trævlede ende af asparges. Smelt smør på en varm pande, lad smørret bruse af og lynrist asparges på panden i max 1 minut.
 Top vaflerne med rucola, smørristet asparges, avocado, rejer, hampefrø og urtedressing.'),
-  (9060, 'Cremet Pasta med bagt blomkål', 'https://www.valdemarsro.dk/cremet-pasta-med-bagt-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2025/02/cremet-pasta-blomkål.jpg', '45', '4 servings', 'Kom blomkål og løg i et smurt ovnfast fad, dryp olivenolie over. Kom pankorasp, friskrevet ost, timian, rosmarin og fintrevet citronskal i en skål og vend det godt sammen med smeltet smør. Fordel det over blomkålen og bag i en forvarmet ovn ved 200 grader varmluft i 20 minutter.
+  (9060, 'Cremet Pasta med bagt blomkål', 'https://www.valdemarsro.dk/cremet-pasta-med-bagt-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2025/02/cremet-pasta-blomkal.jpg', '45', '4 servings', 'Kom blomkål og løg i et smurt ovnfast fad, dryp olivenolie over. Kom pankorasp, friskrevet ost, timian, rosmarin og fintrevet citronskal i en skål og vend det godt sammen med smeltet smør. Fordel det over blomkålen og bag i en forvarmet ovn ved 200 grader varmluft i 20 minutter.
 Kog imens pastaen i en stor gryde med letsaltet vand. Pastaen skal ikke være færdigtilberedt, men skal koges i cirka 2 minutter kortere end angivet på emballagen. Gem kogevandet fra pastaen i en skål.
 Kom smør på en varm pande og lad det bruse af. Kværn godt med friskkværnet peber over, skru ned til lav varme og hæld et par deciliter kogevand fra pastaen på panden sammen med friskrevet ost og rør til osten smelter og kom derefter pastaen på panden. Lad pastaen tilberede færdig i den cremede sauce og tilsæt evt ekstra pastavand hvis nødvendigt. Smag godt til med salt og friskkværnet peber.
 Riv blomkålen lidt fra hinanden med to gafler og vend det i den cremede pasta. Server straks den dampende varme pastaret med et drys rucola.'),
@@ -4139,7 +4062,7 @@ Server suppen med de smørristede champignon og majskerner, et drys persille og 
 Vend oliven og kapers, samt halvdelen af pinjekerner og basilikum i retten og gem resten til servering.
 Smag retten godt til med balsamico, fintrevet citronskal, en smule citronsaft, sukker, salt og friskkværnet peber.
 Server på tallerkener med resten af basilikum og pinjekerner drysset over, samt friskrevet ost og godt ristet brød'),
-  (9069, 'Tandoori blomkål', 'https://www.valdemarsro.dk/tandoori-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2025/03/tandoori-blomkaal.jpg', '45', '4 servings', 'Kom blomkål og kikærter i et stort smurt ovnfast fad, pensl med smeltet smør og drys salt og friskkværnet peber over. Bag i en forvarmet ovn ved 180 grader varmluft i 10 minutter.  Kog imens risene og rør tandoori-marinaden sammen af græsk yoghurt, krydderier, sukker, ingefær, hvidløg, tomatpuré, majsstivelse, salt og peber. Rør derefter kokosmælk, salt og peber i. Tag fadet med blomkål og kikærter ud af ovnen, hæld yoghurtmarinaden over og bag videre i 20 minutter.
+  (9069, 'Tandoori blomkål', 'https://www.valdemarsro.dk/tandoori-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2025/03/tandoori-blomkaal.jpg', '45', '4 servings', 'Kom blomkål og kikærter i et stort smurt ovnfast fad, pensl med smeltet smør og drys salt og friskkværnet peber over. Bag i en forvarmet ovn ved 180 grader varmluft i 10 minutter.  Kog imens risene og rør tandoori-marinaden sammen af græsk yoghurt, krydderier, sukker, ingefær, hvidløg, tomatpuré, majsstivelse, salt og peber. Rør derefter kokosmælk, salt og peber i. Tag fadet med blomkål og kikærter ud af ovnen, hæld yoghurtmarinaden over og bag videre i 20 minutter.
 Server risene med Tandoori blomkål og drys med cashewnødder, koriander og chiliflager.'),
   (9072, 'Asiatisk sprødt flæsk med karamelliserede løg', 'https://www.valdemarsro.dk/asiatisk-sproedt-flaesk-med-karamelliserede-loeg/', 'https://www.valdemarsro.dk/wp-content/2025/09/asiatisk-sproedt-flaesk.jpg', '45', '4 servings', 'Skær flæsk i skiver ( hvis det ikke er købt som skiveskåret) og skær derefter skiverne i tynde strimler i omkring 6-8 mm i tykkelse.
 Varm en pande op ved middelvarme og kom flæsket på. Skru en anelse op for varmen til mellemhøj varme og lad flæskestykkerne stå på panden i 10-15 minutter, til de er sprøde på den ene side. Vend dem derefter med en stegepincet og steg videre på den anden side. Tag flæsket op af fedtstoffet, der er smeltet af på panden og læg det på en tallerken med fedtsugende køkkenrulle.
@@ -4169,23 +4092,23 @@ Servering
 Server de varme kartoffelvafler med varme ovnbagte grøntsager, burrata, et dryp olivenolie og et drys pinjekerner, salt, friskkværnet peber og persille.'),
   (9087, 'Chorizo bønner i krydret tomatsauce på brød', 'https://www.valdemarsro.dk/chorizo-boenner-i-krydret-tomatsauce/', 'https://www.valdemarsro.dk/wp-content/2025/06/chorizo-boenner-tomatsauce.jpg', '45', '4 servings', 'Varm en pande op med olie ved middelvarme og sauter chorizo, løg, hvidløg og soltørrede tomater, til løgene er bløde. Tilsæt bønner, hakkede tomater, brun farin og krydderier og bring det i kog. Lad det simre i 4-5 minutter og smag godt til med salt og friskkværnet peber. Lad det simre svagt mens resten af retten tilberedes.
 Pocheret æg
-Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og læg det på en tallerken – fortsæt på samme måde med de andre æg. Trim til sidst æggene med en skarp kniv, så de er flotte og glatte i overfladen.
+Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og læg det på en tallerken - fortsæt på samme måde med de andre æg. Trim til sidst æggene med en skarp kniv, så de er flotte og glatte i overfladen.
 Servering
 Rist brødet og smør det med lidt smør. Fordel chorizo bønner i krydret tomatsauce på brødene, top med pocheret æg og drys med persille. Server straks.'),
-  (9090, 'Crumpets', 'https://www.valdemarsro.dk/crumpets/', 'https://www.valdemarsro.dk/wp-content/2025/08/crumpets.jpg', '120', '8 servings', 'Kom vand og gær i en skål og rør til gæret er opløst. Kom hvedemel, bagepulver, salt og sukker i en anden skål og rør det godt sammen, rør det derefter i skålen med gær og vand.  Pisk dejen sammen med en håndmikser i cirka 2 minutter ved middel hastighed.
+  (9090, 'Crumpets', 'https://www.valdemarsro.dk/crumpets/', 'https://www.valdemarsro.dk/wp-content/2025/08/crumpets.jpg', '120', '8 servings', 'Kom vand og gær i en skål og rør til gæret er opløst. Kom hvedemel, bagepulver, salt og sukker i en anden skål og rør det godt sammen, rør det derefter i skålen med gær og vand.  Pisk dejen sammen med en håndmikser i cirka 2 minutter ved middel hastighed.
 Dæk skålen med låg eller film og sæt dejen et lunt sted til hævning i cirka 45 minutter, til overfladen er skummende.
-Smør bageringe med smør. Varm en pande op til middelhøj varme (7 ud af 9), lad en smørklat bruse af og sæt bageringene på panden. Fordel cirka ¾ dl dej i hver ring, omkring 1 cm i højden. Steg i 1—2 minutter. Tag bageringen af, sænk varmen til lav-middel varme og steg videre i 2-4 minutter til overfladen er stivnet.
+Smør bageringe med smør. Varm en pande op til middelhøj varme (7 ud af 9), lad en smørklat bruse af og sæt bageringene på panden. Fordel cirka 3/4 dl dej i hver ring, omkring 1 cm i højden. Steg i 1-2 minutter. Tag bageringen af, sænk varmen til lav-middel varme og steg videre i 2-4 minutter til overfladen er stivnet.
 Vend hver crumpet om og steg i et halvt minut på den anden side. Tag af varmen og lad dem køle af på en rist. Skær hver crumpets over og rist på den overskårede side lige inden servering. Server med smør og honning.'),
   (9093, 'Chimichurri', 'https://www.valdemarsro.dk/chimichurri/', 'https://www.valdemarsro.dk/wp-content/2025/08/chimichurri.jpg', '15', '6 servings', 'Kom hvidløg, chiliflager, oregano, persille, citronskal og lidt citronsaft i en skål og rør sammen med olie, til konsistensen er god. Smag godt til med citronsaft, salt og friskkværnet peber.'),
   (9096, 'Babysquash med citron-ricottacreme', 'https://www.valdemarsro.dk/grillede-babysquash-med-ricottacreme/', 'https://www.valdemarsro.dk/wp-content/2025/08/babysquash-ricotta.jpg', '15', '4 servings', 'Grillede babysquash
-Varm en grillpande op med olie og rist babysquash på panden til de begynder at få en  smule farve. Kom smør på og drys med salt og friskkværnet peber
+Varm en grillpande op med olie og rist babysquash på panden til de begynder at få en  smule farve. Kom smør på og drys med salt og friskkværnet peber
 Ricottacreme
 Rør ricotta med lidt citronsaft, olivenolie og fintrevet citronskal. Smag godt til med salt, peber og juster konsistensen med citronsaft eller olivenolie efter behov.'),
   (9099, 'Avocadotoast med pocheret æg og laks', 'https://www.valdemarsro.dk/avocadotoast-med-aeg-og-laks/', 'https://www.valdemarsro.dk/wp-content/2025/05/avocadotoast.jpg', '30', '4 servings', 'Mos avocadofrugtkødet på en tallerken med en gaffel og smag til med citronsaft, halvdelen af den fintrevede citronskal, salt og friskkværnet peber.
 Rist brødet og smør det med smør. Fordel avocadomosen på brødene. Anret med pocheret æg, smalle skiver af røget laks. Drys med hampefrø, chiliflager, purløg, resten af citronskallen, samt flagesalt og friskkværnet peber.
 Pocheret æg
 Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten.
-Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og læg det på en tallerken – fortsæt på samme måde med de andre æg. Trim til sidst æggene med en skarp kniv, så de er flotte og glatte i overfladen.'),
+Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og læg det på en tallerken - fortsæt på samme måde med de andre æg. Trim til sidst æggene med en skarp kniv, så de er flotte og glatte i overfladen.'),
   (9102, 'Italiensk Pastasalat med tomat, burrata og pestodressing', 'https://www.valdemarsro.dk/italiensk-pastasalat/', 'https://www.valdemarsro.dk/wp-content/2024/08/italiensk-pastasalat.jpg', '30', '4 servings', 'Pestodressing
 Hak basilikum, hvidløg, friskrevet ost, pinjekerner og fintrevet citronskal på et skærebræt til det er helt ensartet og meget finthakket. Kom i en skål med en smule citronsaft, sukker, og olivenolie. Vend det godt sammen og smag til med salt og peber.
 Pastasalat
@@ -4193,27 +4116,27 @@ Kog pastaen i en gryde efter anvisningen på emballagen, skyl pastaen med koldt 
 Anret tomater og rødløg i en stor skål og fordel den tortellini med pestodressing over. Fordel oliven og burrata på salaten sammen med lidt frisk basilikum og pinjekerner. Dryp resten af pestodressingen over.'),
   (9105, 'Aspargesrisotto', 'https://www.valdemarsro.dk/aspargesrisotto/', 'https://www.valdemarsro.dk/wp-content/2025/02/asparges-risotto.jpg', '45', '4 servings', 'Sauter løg og hvidløg i en gryde med olie ved middellav varme i 5-6 minutter, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld hvidvin og rør til risene har absorberet vinen. Tilføj derefter grøntsagsbouillon lidt ad gangen, til risene er lige akkurat møre og risottoen er lækker cremet.
 Knæk enderne af de grønne asparges, kasser de træede ender og knæk derefter den friske grønne asparges i mindre stykker a 3-4 cm. Varm en pande op med smør og kom asparges på, når smørret er bruset af. Lynsteg i et minut og tag derefter af varmen. Tag asparges til side til servering.
-Rør friskrevet ost, ristede asparges og persille i aspargesrisotto og smag godt til med citronskal, lidt citronsaft, salt og friskkværnet peber.  Server med friskrevet ost, asparges og et drys persille.'),
-  (9108, 'Pizzabrud med skinke og ost', 'https://www.valdemarsro.dk/pizzabrud-med-skinke-og-ost/', 'https://www.valdemarsro.dk/wp-content/2025/05/pizzabrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen – gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
+Rør friskrevet ost, ristede asparges og persille i aspargesrisotto og smag godt til med citronskal, lidt citronsaft, salt og friskkværnet peber.  Server med friskrevet ost, asparges og et drys persille.'),
+  (9108, 'Pizzabrud med skinke og ost', 'https://www.valdemarsro.dk/pizzabrud-med-skinke-og-ost/', 'https://www.valdemarsro.dk/wp-content/2025/05/pizzabrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen - gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
 Læg dejen på en meldrysset bordplade og lav en fordybning i midten af dejen. Slå et æg ud i fordybningen og kom groftrevet mozzarella, pesto, pinjekerner, soltørrede tomater og skinke ovenpå.
 Luk dejen lidt til omkring fyldet og brug en bagespartel til at hakke dejen i små stykker. Brug bagespartlen til at vende dejen sammen med fyldet undervejs og hak dejen igennem en ekstra gang. Fordel den hakkede dej til antallet af boller og løft hvert stykke over på en bageplade med bagepapir.
 Lad pizzabrudene hæve i en time med et rent klæde over.
 Bag i en forvarmet ovn ved 200 grader varmluft i cirka 15-17 minutter, til de er gyldne og gennembagte.
-Server dem rygende varme og friskbagte drysset med lidt basilikum – eller lad dem køle af på en rist, hvis de skal med i madpakken.'),
+Server dem rygende varme og friskbagte drysset med lidt basilikum - eller lad dem køle af på en rist, hvis de skal med i madpakken.'),
   (9111, 'Halloumi-hotdog', 'https://www.valdemarsro.dk/halloumi-hotdog/', 'https://www.valdemarsro.dk/wp-content/2025/02/vegetar-hotdog-halloumi.jpg', '45', '4 servings', 'Pico de gallo
-Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen.
+Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen.
 Smag godt til med mere chili, limesaft og limeskal, salt og peber efter smag.
 Halloumi
 Vend halloumi i hvedemel, derefter i sammenpisket æg og til sidst i pankorasp. Lad dem stå på køkkenbordet på en tallerken og sætte sig lidt. Varm en pande op med olie og steg på alle sider til halloumistavene har en gyldensprød stegeflade.
 Servering
 Lun pølsebrødene i ovnen og mos imens acovado med limesaft, limeskal, salt og peber. Smør avocadocremen i pølsebrødene. Kom ristede halloumistave i hver hotdog, derefter pico de gallo og afslut med jalapenos og grofthakket koriander.'),
   (9114, 'Vegetar quesadillas med stegte bønner og cheddar', 'https://www.valdemarsro.dk/vegetar-quesadillas-med-stegte-boenner/', 'https://www.valdemarsro.dk/wp-content/2025/03/quesadillas-boenner.jpg', '45', '4 servings', 'Sauter løg i en gryde med olie, til løgene er bløde. Tilsæt hvidløg, chiliflager, spidskommen og oregano sammen med bønner og hakkede tomater og rør det godt sammen i nogle minutter.
-Varm op til det simrer og koger en smule ind. Kom en stavblender i gryden og blend hurtigt til bønnerne er groft most.  Smag godt til med salt og friskkværnet peber.
+Varm op til det simrer og koger en smule ind. Kom en stavblender i gryden og blend hurtigt til bønnerne er groft most.  Smag godt til med salt og friskkværnet peber.
 Fordel stegte bønner på halvdelen af hver tortilla, drys med cheddar, spinat og frisk koriander. Luk den anden halvdel over og steg på en varm pande med lidt olie i 2-3 minutter på hver side, til de er gyldne og sprøde. Server straks.'),
   (9117, 'Asparges frikassé', 'https://www.valdemarsro.dk/asparges-frikasse/', 'https://www.valdemarsro.dk/wp-content/2025/03/aspargesfrikasse.jpg', '45', '4 servings', 'Sæt kartoflerne til at koge i en gryde med letsaltet vand, til de er perfekt møre.
-Kom gulerodstern i en gryde med kogende letsaltet vand og kog i 10 minutter. Kom porre, asparges og ærter i gryden og kog videre i max. 1-2 minutter. Hæld vandet fra ned i en skål – kogevandet skal bruges til saucen – og læg låg på gryden med grøntsager, så de holdes lune.
+Kom gulerodstern i en gryde med kogende letsaltet vand og kog i 10 minutter. Kom porre, asparges og ærter i gryden og kog videre i max. 1-2 minutter. Hæld vandet fra ned i en skål - kogevandet skal bruges til saucen - og læg låg på gryden med grøntsager, så de holdes lune.
 Smelt imens smør i en gryde, pisk hvedemel i det smeltede smør og pisk derefter grøntsagsbouillon og kogevand fra grøntsagerne og kartoflerne i saucen, mens den koger op. Kog saucen igennem nogle minutter under konstant omrøring og juster konsistensen med kogevand og piskefløde.
-Kom grøntsagerne i saucen og smag den lækre frikasse godt til med fintrevet citronskal, lidt citronsaft, finthakket dild – gem lidt til drys ved servering – samt salt og friskkværnet peber.
+Kom grøntsagerne i saucen og smag den lækre frikasse godt til med fintrevet citronskal, lidt citronsaft, finthakket dild - gem lidt til drys ved servering - samt salt og friskkværnet peber.
 Server aspargesfrikasse på tallerkener med et drys dild og nye danske kartofler til.'),
   (9120, 'Negroni', 'https://www.valdemarsro.dk/negroni/', 'https://www.valdemarsro.dk/wp-content/2025/04/negroni.jpg', '5', '1 serving', 'Kom Campari, rød vermouth og gin i et glad med isterninger.
 Rør godt rundt, så drinken køles af og server straks.'),
@@ -4221,7 +4144,7 @@ Rør godt rundt, så drinken køles af og server straks.'),
 Skær skorperne af brødet og smuldr det fint. Bland det med timian, rosmarin, salt og friskkværnet peber. Smelt lidt smør på panden og rist på panden, til brødkrummerne er sprøde og gyldne.
 Pocheret æg
 Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten.
-Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og læg det på en tallerken – fortsæt på samme måde med de andre æg.
+Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og læg det på en tallerken - fortsæt på samme måde med de andre æg.
 Trim til sidst æggene med en skarp kniv, så de er flotte og glatte i overfladen.
 Grillede asparges
 Knæk den nederste trævlede ende af aspargsen. Varm en pande op med smør og rist aspargsen i ca. 2 minutter til de har fået lidt farve og stadig har et sprødt bid.
@@ -4262,7 +4185,7 @@ Kog imens pastaen til den er lige knap perfekt mør. Gem lidt kogevand fra pasta
 Kom pastaen på panden med tomatsauce og vend det godt sammen, spæd til med lidt kogevand fra pastaen til saucen er lækker cremet. Smag til med en anelse sukker hvis nødvendigt, samt salt, peber og basilikum. Server på tallerkener med friterede aubergine, et drys friskrevet parmesan og frisk basilikum.'),
   (9153, 'Ristede Gnocchi med salvie og hasselnødder', 'https://www.valdemarsro.dk/ristede-gnocchi-med-salvie-og-hasselnoedder/', 'https://www.valdemarsro.dk/wp-content/2024/04/gnocchi-salvie_.jpg', '90', '4 servings', 'Gnocchi
 Kog de uskrællede kartoflerne møre i usaltet vand og pil dem, mens de er varme.
-Mos kartoflerne med en gaffel og arbejd kartoffelmos, æg, salt og durummel sammen, uden dog at ælte for meget. Det bliver en meget blød dej, men vær opmærksom på ikke at anvende for meget mel og at den blot skal samles, ikke æltes.
+Mos kartoflerne med en gaffel og arbejd kartoffelmos, æg, salt og durummel sammen, uden dog at ælte for meget. Det bliver en meget blød dej, men vær opmærksom på ikke at anvende for meget mel og at den blot skal samles, ikke æltes.
 Drys mel på køkkenbordet og tril dejen ud i fingertykke pølser. Skær dem i 1 cm stykker og tril hen over tænderne på en gaffel, så de får riller. Læg gnocchi på et rent klæde, sørg for at de ikke rører hinanden eller kommer til at ligge i lag. Lad dem lufttørre i 15 minutter.
 Kog gnocchi i en stor gryde med letsaltet vand. Tag dem op med en hulske, når de kommer op til overfladen og lad dem dryppe af på et rent klæde.
 Salvie og hasselnøddesmørsauce
@@ -4282,7 +4205,7 @@ Bag brødet i 20 minutter i en forvarmet ovn ved 175 grader varmluft. Skru deref
 Tag brødet ud af ovnen og vend brødet ud på en rist.'),
   (9162, 'Blomkål og kikærter i cremet dildsauce', 'https://www.valdemarsro.dk/blomkaal-og-kikaerter-i-cremet-dildsauce/', 'https://www.valdemarsro.dk/wp-content/2023/08/blomkaal-kikaerter-cremet-dildsauce.jpg', '45', '4 servings', 'Kog kartoflerne møre i letsaltet vand. Hæld vandet fra og sæt låget på gryden, når de er færdige, så holder de på varmen.
 Rist spidskålen på en varm grillpande med smør, til den får striber og bliver mør. Drys med flagesalt og friskkværnet peber.
-Sauter løgene i en gryde med lidt smør og olivenolie til de er bløde. Kom hvidvin i gryden og lad det bruse af, tilsæt derefter grøntsagsboullion, blomkålsbuketter og kikærter. Lad det simre i  3-5 minutter, til blomkålen lige akkurat er mør. Rør majsstivelse i piskefløden og rør det i gryden sammen ærterne. Giv et kort opkog og smag derefter retten godt til med dild, lidt friskrevet citronskal, et par dråber citronsaft, salt og friskkværnet peber.
+Sauter løgene i en gryde med lidt smør og olivenolie til de er bløde. Kom hvidvin i gryden og lad det bruse af, tilsæt derefter grøntsagsboullion, blomkålsbuketter og kikærter. Lad det simre i  3-5 minutter, til blomkålen lige akkurat er mør. Rør majsstivelse i piskefløden og rør det i gryden sammen ærterne. Giv et kort opkog og smag derefter retten godt til med dild, lidt friskrevet citronskal, et par dråber citronsaft, salt og friskkværnet peber.
 Server med kartofler og spidskål.'),
   (9165, 'Æltefrit brød i form', 'https://www.valdemarsro.dk/aeltefrit-broed-i-form/', 'https://www.valdemarsro.dk/wp-content/2024/04/aeltefrit-broed.jpg', '840', '1 serving', 'Rør gæren ud i en skål med stuetempereret vand. Tilsæt kærnemælk, sukker, salt og fuldkornsmel, rør til det er ensartet. Rør hvedemelen i dejen, mel skal blot røres hurtigt i dejen, så der ikke er tørre melklumper.
 Læg et rent klæde eller låg over og lad dejen hæve i 10-12 timer på køkkenbordet.
@@ -4294,7 +4217,7 @@ Pisk marcipan og sukker godt sammen. Kom derefter smør i skåret tern i og pisk
 Kom dejen i en smurt springform på 20 cm i diameter, beklædt med bagepapir i bunden. Bag kagen i en forvarmet ovn ved 175 grader varmluft i ca. 30 minutter, til den er gylden og gennembagt.
 Lad kagen køle af nogle minutter og kom chokolade på den lune friskbagte kage. Tag kagen ud af formen og lad den køle af på en rist.
 Konditorcreme
-Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
+Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme.
 Hæld vaniljecremen i en skål, læg husholdningsfilm over overfladen og stil i køleskabet til cremen er helt kold.
 Pisk fløden til en luftig flødeskum og vend den i vaniljecremen til en luftig og lækker konditorcreme
 Pynt kagen
@@ -4314,10 +4237,10 @@ Bag i en forvarmet ovn ved 175 grader varmluft midt i ovnen i 9-12 minutter og l
   (9179, 'Vaniljespecier med citron', 'https://www.valdemarsro.dk/vaniljespecier-med-citron/', 'https://www.valdemarsro.dk/wp-content/2019/12/specier-vanilje-citron.jpg', '120', '100 servings', 'Rør smør og flormelis sammen i en skål til det er lyst og blødt. Rør ægget i og opløs hjortetaksalt i citronsaft, og rør det i skålen.
 Rør hvedemel, citronskal og vanilje i dejen og saml dejen i to stænger, og kom dem i fryseren i en time eller i køleskabet til næste dag.
 Skær småkagerne ud i fine tynde skiver, læg dem på en bageplade med god afstand mellem og bag dem i en forvarmet ovn ved 160 grader varmluft i 8-10 minutter.'),
-  (9182, 'Fudge', 'https://www.valdemarsro.dk/fudge/', 'https://www.valdemarsro.dk/wp-content/2019/11/fudge.jpg', '120', '30 servings', 'Kom alle ingredienserne i en gryde – pånær vanilje og salt – og varm det langsomt op uden at røre i det fra starten. Når det begynder at blive lunt, røres lidt indimellem indtil temperaturen når 100 grader, herefter røres konstant til temperaturen, når 117 grader. Mål med et sukkertermometer.
+  (9182, 'Fudge', 'https://www.valdemarsro.dk/fudge/', 'https://www.valdemarsro.dk/wp-content/2019/11/fudge.jpg', '120', '30 servings', 'Kom alle ingredienserne i en gryde - pånær vanilje og salt - og varm det langsomt op uden at røre i det fra starten. Når det begynder at blive lunt, røres lidt indimellem indtil temperaturen når 100 grader, herefter røres konstant til temperaturen, når 117 grader. Mål med et sukkertermometer.
 Tag gryden af varmen, tilsæt vaniljepulver og salt. Hæld massen i en røremaskine med piskeris og pisk ved høj hastighed i 10-15 minutter til det er kølet af og er blevet luftigt.
 Fordel i et fad på 20×20 cm, beklædt med bagepapir og glat det godt ud. Lad det køle af til næste dag eller minimum 6 timer og skær ud i firkanter.'),
-  (9185, 'Marcipankonfekt med appelsin', 'https://www.valdemarsro.dk/marcipankonfekt-med-appelsin/', 'https://www.valdemarsro.dk/wp-content/2018/12/marcipankonfekt-appelsin.jpg', '90', '30 servings', 'Ælt marcipanen grundigt sammen med en smule appelsinsaft, og  appelsinskal efter smag, Grand Marnier, flormelis og vanilje, til det er ensartet. Marcipanen bliver ret blød, men sætter sig i køleskabet, så den bliver nem at arbejde med igen.
+  (9185, 'Marcipankonfekt med appelsin', 'https://www.valdemarsro.dk/marcipankonfekt-med-appelsin/', 'https://www.valdemarsro.dk/wp-content/2018/12/marcipankonfekt-appelsin.jpg', '90', '30 servings', 'Ælt marcipanen grundigt sammen med en smule appelsinsaft, og  appelsinskal efter smag, Grand Marnier, flormelis og vanilje, til det er ensartet. Marcipanen bliver ret blød, men sætter sig i køleskabet, så den bliver nem at arbejde med igen.
 Sæt marcipanen i køleskabet i en times tid eller natten over.
 Tril runde kugler og sæt dem i køleskabet i 15 minutter. Skær tynde appelsinskal juliennestrimler af en appelsin.
 Overtræk marcipankuglerne med tempereret mørk chokolade og pynt med et lille stykke appelsinskal. Lad chokoladen størkne og pensl med lidt spiseligt guldstøv inden servering.'),
@@ -4326,7 +4249,7 @@ Kom chokoladen i en lille beholder med bagepapir i bunden og sæt i køleskabet 
 Skær chokoladen i 20 lige store firkanter og vend dem i hasselnøddeknas.
 Hasselnøddeknas
 Rist hasselnødderne på en pande under omrøring ved middelvarme til hinderne sprækker. Kom hasselnødderne i et rent klæde og gnid hinderne af.
-Tør panden af. Kom sukker og vand på panden og varm op til sukkeret smelter. Kom hasselnødderne på panden og rør godt til de er karamelliseret. Hæld hasselnødderne på et stykke bagepapir og lad dem køle af.  Hak dem fint til knasende sprød crunch.'),
+Tør panden af. Kom sukker og vand på panden og varm op til sukkeret smelter. Kom hasselnødderne på panden og rør godt til de er karamelliseret. Hæld hasselnødderne på et stykke bagepapir og lad dem køle af.  Hak dem fint til knasende sprød crunch.'),
   (9191, 'Juleboller', 'https://www.valdemarsro.dk/juleboller/', 'https://www.valdemarsro.dk/wp-content/2019/12/juleboller.jpg', '180', '16 servings', 'Rør mælk og gær sammen til gæret er opløst og tilsæt æg og sukker og rør det sammen. Tilsæt revet æble, salt, valnødder, tranebær og fuldkornsmel i blandingen og lad det stå et øjeblik.
 Bland hvedemel med de stødte krydderier i en ren skål og smuldr smørret deri, til det er helt ensartet. Rør mel og smørblanding over i skålen med de andre ingredienser og ælt dejen godt sammen, den må gerne være en anelse klistret og kan fint æltes i hånden eller på maskine.
 Stil dejen til hævning i en ren skål med et klæde over i en time.
@@ -4367,13 +4290,13 @@ Sauter jordskokker, løg, hvidløg og timian i en gryde med olie ved middel-lav 
 Tilsæt ris og rør det godt igennem. Hæld hvidvin og rør til risene har absorberet vinen. Tilføj derefter grøntsagsbouillon lidt ad gangen, til risene er lige akkurat møre og risottoen er lækker cremet.
 Rør friskrevet parmesan i jordskokkerisotto og smag til med citronskal, lidt citronsaft, salt og friskkværnet peber.
 Server med jordskokkechips, friskrevet parmesan og timian.'),
-  (9217, 'Julesalat', 'https://www.valdemarsro.dk/julesalat/', 'https://www.valdemarsro.dk/wp-content/2017/12/julesalat_blaaskimmel.jpg', '10', '4 servings', 'Rist valnødderne på en varm tør pande under om­ røring i et par minutter, til de bliver sprøde, men uden de tager farve. Hak de ristede valnødder groft.
-Vend rucola og cikorie­julesalat med vinaigrette og anret på et fad.
-Drys pære, rødløg, tranebær og de hakkede valnødder over. Fordel til sidst blåskimmel­ osten på salaten.
+  (9217, 'Julesalat', 'https://www.valdemarsro.dk/julesalat/', 'https://www.valdemarsro.dk/wp-content/2017/12/julesalat_blaaskimmel.jpg', '10', '4 servings', 'Rist valnødderne på en varm tør pande under om røring i et par minutter, til de bliver sprøde, men uden de tager farve. Hak de ristede valnødder groft.
+Vend rucola og cikoriejulesalat med vinaigrette og anret på et fad.
+Drys pære, rødløg, tranebær og de hakkede valnødder over. Fordel til sidst blåskimmel osten på salaten.
 Dressing
-Kom alle ingredienserne i en skål og rør det godt sam­men, til vinaigretten er ensartet i konsistensen. Smag den til.'),
+Kom alle ingredienserne i en skål og rør det godt sammen, til vinaigretten er ensartet i konsistensen. Smag den til.'),
   (9220, 'Lakridskarameller', 'https://www.valdemarsro.dk/lakridskarameller-opskrift-pa-hjemmelavede-karameller-med-lakrids/', 'https://www.valdemarsro.dk/wp-content/2013/11/lakridskarameller.jpg', '60', '40 servings', 'Kom piskefløde, sukker og glukosesirup og kog det op. Lad det koge i 35-45 minutter. Mens karamellen koger vil det bruse meget op, så sørg for at der er god plads i gryden. Rør indimellem i gryden, men ikke for ofte.
-Rør lakridssirup i karamellen, når den er næsten klar. Når karamelmassen slipper bunden og har en tyk og sej  konsistens, samt en temperatur på 120 grader er den færdig.
+Rør lakridssirup i karamellen, når den er næsten klar. Når karamelmassen slipper bunden og har en tyk og sej  konsistens, samt en temperatur på 120 grader er den færdig.
 Hæld karamelmassen i en beholder på cirka 16×16 cm, foret med bagepapir. Drys med lakridspulver og tryk det lidt ned i karamellen.
 Lad lakridskaramel stå på køkkenbordet og køle af i mindst 3 timer og skær karamellerne ud i den størrelse du ønsker.'),
   (9223, 'Friterede oliven med citronmayonnaise', 'https://www.valdemarsro.dk/friterede-oliven/', 'https://www.valdemarsro.dk/wp-content/2025/01/friterede-oliven-1.jpg', '45', '6 servings', 'Citronmayonnaise
@@ -4382,12 +4305,12 @@ Friterede oliven med blåskimmelost
 Kom oliven i en sigte og lad dem dryppe af. Dup dem tørre med køkkenrulle og fyld blåskimmelost i alle oliven.
 Kom hvedemel, æg og pankorasp i hver sin skål. Rør citronskal og friskkværnet peber i skålen med hvedemel.
 Vend oliven først i hvedemel, dernæst i sammenpisket æg og til sidst i pankorasp. Lad de panerede oliven sætte sig, mens olien varmes op.
-Kom fritureolie i en gryde og varm op til 170 grader – mål med et termometer. Friter oliven i mindre portioner i cirka et halvt minut og tag dem op med en hulske, når de er gyldne og sprøde. Lad dem dryppe af på køkkenrulle og fortsæt med næste portion til alle oliven er friteret. Server straks, fx på små træspyd, med citronmayonnaise til at dyppe i.'),
+Kom fritureolie i en gryde og varm op til 170 grader - mål med et termometer. Friter oliven i mindre portioner i cirka et halvt minut og tag dem op med en hulske, når de er gyldne og sprøde. Lad dem dryppe af på køkkenrulle og fortsæt med næste portion til alle oliven er friteret. Server straks, fx på små træspyd, med citronmayonnaise til at dyppe i.'),
   (9226, 'Arancini - risottokugler med citronmayo og basilikum', 'https://www.valdemarsro.dk/arancini-risottokugler/', 'https://www.valdemarsro.dk/wp-content/2025/01/arancini-citron.jpg', '360', '30 servings', 'Risotto
-Sauter løg og hvidløg i en gryde med olie og smør, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene har ab­sorberet væden. Tilsæt derefter grøntsagsbouillon lidt ad gangen, til al væden er brugt, og risene er møre, rør friskrevet parmesan i, smag til med salt og friskkværnet peber og sæt risottoen på køl til næste dag.
+Sauter løg og hvidløg i en gryde med olie og smør, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene har absorberet væden. Tilsæt derefter grøntsagsbouillon lidt ad gangen, til al væden er brugt, og risene er møre, rør friskrevet parmesan i, smag til med salt og friskkværnet peber og sæt risottoen på køl til næste dag.
 Citronmayonnaise
 Tag alle ingredienserne ud af køleskabet i god tid og lad dem stå på køkkenbordet, så de får stuetemperatur inden aiolien laves. Kom æggeblommer, citronsaft, citronskal, dijonsennep og salt i en skål og pisk det sammen i et minuts tid. Tilsæt en spsk olie og pisk den godt ind, pisk derefter olie i lidt efter lidt i en tynd stråle. Stop når mayonnaisen har den rette konsistens. Opbevar citron mayo i køleskabet, til den skal serveres.
-Arancini – Sprøde risottokugler
+Arancini - Sprøde risottokugler
 Kom hvedemel, sammenpisket æg og rasp i hver sin dybe tallerken. Vend citronskal, salt og friskkværnet peber i skålen med rasp. Form risottoen til kugler, lidt mindre end en lille limefrugt og tryk dem godt sammen, så de er flotte og faste. Rul dem i først i hvedemel, så i æg og til sidst i raspblandingen.
 Varm en stor gryde op med fritureolien til ca. 175 grader. Friter 5-6 arancinikugler ad gangen i 5-7 minutter til de er sprøde og gyldne. Læg dem på et stykke køkkenrulle og fortsæt med resten af arancinikuglerne til de alle er friterede.
 Kom citronmayo i en sprøjtepose og klip et lille hul. Kom små klatter af citronmayonnaise på et fad eller tallerkener Anret arancinikuglerne ovenpå, og kom en smule citronmayo på hver og sæt et lille basilikumblad på. Server straks.'),
@@ -4403,7 +4326,7 @@ Honning og sennep dip
 Rør dippen sammen og smag den godt til med salt, friskkværnet peber og eventuelt mere honning eller sennep efter smag.
 Servering
 Server de lune vafler, toppet med bagte grøntsager og kikærter, den cremede dip, ristede salte græskarkerner, æbletern og persille.'),
-  (9235, 'Squashbrud', 'https://www.valdemarsro.dk/squashbrud-med-kerner/', 'https://www.valdemarsro.dk/wp-content/2025/03/squashbrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen – gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
+  (9235, 'Squashbrud', 'https://www.valdemarsro.dk/squashbrud-med-kerner/', 'https://www.valdemarsro.dk/wp-content/2025/03/squashbrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen - gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
 Læg dejen på en meldrysset bordplade og lav en fordybning i midten af dejen. Slå et æg ud i fordybningen og kom groftrevet squash, frø og kerner på. Luk dejen lidt til omkring fyldet og brug en bagespartel til at hakke dejen i små stykker. Brug bagespartlen til at vende dejen sammen med fyldet undervejs og hak dejen igennem en ekstra gang.
 Fordel den hakkede dej til antallet af boller og løft hvert stykke over på en bageplade med bagepapir. Lad squashbrudene hæve i en time med et rent klæde over.
 Bag i en forvarmet ovn ved 200 grader varmluft i cirka 15-17 minutter, til de er gyldne og gennembagte. Lad dem køle lidt af på en rist inden servering.'),
@@ -4417,7 +4340,7 @@ Rør hele tiden i blandingen og varm op til middel varme.
 Sukkeret smelter og bliver sammen med vand og krydderier til en tynd sirup. Fortsæt med at røre i blandingen, efter kort til fordamper vandet og sukkeret vil blive helt sprødt og knasende tørt. Den krystalliserede sukker har nu samles sig om hasselnødderne og begynder efter kort tid at smelte. Fortsæt med at røre og vende rundt i hasselnødderne konstant. Det må ikke smelte til karamel, men skal blot lige smelte en anelse, så det bliver en mellemting mellem den sprøde krystalliserede sukker og en sprød karamel.
 Hæld straks de brændte hasselnødder over på bagepapir og lad dem køle helt af, inden de spises.'),
   (9244, 'Butterdejssnegle med oliventapenade', 'https://www.valdemarsro.dk/butterdejssnegle/', 'https://www.valdemarsro.dk/wp-content/2025/11/butterdejssnegle.jpg', '30', '30 servings', 'Læg butterdejspladen på køkkenbordet og del den i to på det lange led. Smør begge stykker med oliventapenade og drys friskrevet gruyere på.
-Rul hvert stykke til en roulade og skær den i skiver på omkring 8 mm i tykkelsen. Jeg bruger en sytråd, i stedet for en kniv til at ”skære dejen over”. Det er nemt og giver en flot snit, der ikke presser dejen sammen. Læg sytråden omkring dejen hvor snittet skal være, bind en halv knude og stram til, så dejen skæres over.
+Rul hvert stykke til en roulade og skær den i skiver på omkring 8 mm i tykkelsen. Jeg bruger en sytråd, i stedet for en kniv til at "skære dejen over". Det er nemt og giver en flot snit, der ikke presser dejen sammen. Læg sytråden omkring dejen hvor snittet skal være, bind en halv knude og stram til, så dejen skæres over.
 Læg butterdejssneglene på en bradepande med bagepapir, pensl med sammenpisket æg og bag i en forvarmet ovn i cirka 10 minutter ved 225 grader varmluft og lad butterdejssneglene køle af på en rist 5-10 minutter inden servering.'),
   (9247, 'Småkager med marmelade', 'https://www.valdemarsro.dk/smaakager-med-marmelade/', 'https://www.valdemarsro.dk/wp-content/2017/11/smaakager-marmelade.jpg', '30', '100 servings', 'Pisk smør og sukker sammen til det er luftigt.
 Bland alle de tørre ingredienser sammen i en skål for sig og rør derefter i smør/sukker blandingen til det er helt smuldret sammen. Saml dejen med piskefløden og ælt dejen kortvarigt til den er helt ensartet.
@@ -4445,37 +4368,37 @@ Pensl bollerne forsigtigt med sammenpisket æg og drys med græskarkerner, bag i
 Lad bollerne køle af på en rist.'),
   (9263, 'Arancini med svampe og trøffelmayo', 'https://www.valdemarsro.dk/arancini-med-svampe-og-troeffelmayo/', 'https://www.valdemarsro.dk/wp-content/2025/01/arancini-troeffel.jpg', '360', '30 servings', 'Risotto
 
-Sauter løg og hvidløg i en gryde med olie, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene har ab­sorberet væden. Tilsæt mere grøntsagsbouillon lidt ad gangen, til al væden er brugt, og risene er møre. Rist champignonerne på en meget varm pande med smør i 2 minutter og rør dem derefter i gryden med risotto. Rør friskrevet parmesan i, smag til med salt og friskkværnet peber og sæt risottoen på køl til næste dag.
+Sauter løg og hvidløg i en gryde med olie, til løgene er bløde. Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene har absorberet væden. Tilsæt mere grøntsagsbouillon lidt ad gangen, til al væden er brugt, og risene er møre. Rist champignonerne på en meget varm pande med smør i 2 minutter og rør dem derefter i gryden med risotto. Rør friskrevet parmesan i, smag til med salt og friskkværnet peber og sæt risottoen på køl til næste dag.
 Trøffelmayonnaise
 
 Tag alle ingredienserne ud af køleskabet i god tid og lad dem stå på køkkenbordet, så de får stuetemperatur inden aiolien laves. Kom æggeblommer, citronsaft, dijonsennep, trøffelpuré, salt og friskkværnet peber i en skål og pisk det sammen i et minuts tid. Tilsæt trøffelolie og pisk den godt ind, pisk derefter solsikkeolie i lidt efter lidt i en tynd stråle. Stop når mayonnaisen har den rette konsistens. Opbevar trøffelmayo i køleskabet til den skal serveres.
-Arancini – Sprøde risottokugler
+Arancini - Sprøde risottokugler
 Kom hvedemel, sammenpisket æg og rasp i hver sin dybe tallerken. Vend citronskal, salt og friskkværnet peber i skålen med rasp.
 Form risottoen til kugler, lidt mindre end en lille limefrugt og tryk dem godt sammen, så de er flotte og faste. Rul dem i først i hvedemel, så i sammenpisket æg og til sidst i raspblandingen.
 Varm en stor gryde op med fritureolien til ca. 175 grader. Friter 5-6 arancinikugler ad gangen i 5-7 minutter til de er sprøde og gyldne. Læg dem på et stykke køkkenrulle og fortsæt med resten af arancinikuglerne til de alle er friterede.
 Kom trøffelmayo i en sprøjtepose og klip et lille hul. Kom små klatter af trøffelmayonnaise på et fad eller tallerkener. Anret arancinikuglerne ovenpå, og kom en smule trøffelmayo på hver samt lidt flager af frisk trøffel. Server straks.'),
-  (9266, 'Parmesanchips med krydderurter', 'https://www.valdemarsro.dk/parmesanchips/', 'https://www.valdemarsro.dk/wp-content/2017/11/parmesanchips.jpg', '10', '20 servings', 'Bland den friskrevet ost – vigtigt, at den er friskrevet – med krydderurter og fordel parmesanblandingen i små cirkler med ca en spsk osteblanding i hver på en bradepande med bagepapir.
-Bag i ovnen i 6-8 minutter ved 160 grader alm. ovn. Hold godt øje med dem – osten skal smelte, men de må ikke tage farve.
+  (9266, 'Parmesanchips med krydderurter', 'https://www.valdemarsro.dk/parmesanchips/', 'https://www.valdemarsro.dk/wp-content/2017/11/parmesanchips.jpg', '10', '20 servings', 'Bland den friskrevet ost - vigtigt, at den er friskrevet - med krydderurter og fordel parmesanblandingen i små cirkler med ca en spsk osteblanding i hver på en bradepande med bagepapir.
+Bag i ovnen i 6-8 minutter ved 160 grader alm. ovn. Hold godt øje med dem - osten skal smelte, men de må ikke tage farve.
 Tag ud og lad køle helt af på bagepapiret, inden de sprøde parmesanchips kan nydes til fx en velkomstdrink.'),
   (9269, 'Stenalderbrød', 'https://www.valdemarsro.dk/stenalderbroed/', 'https://www.valdemarsro.dk/wp-content/2025/09/stenalderbroed.jpg', '75', '1 serving', 'Rør alle ingredienserne godt sammen i en skål og kom derefter i en smurt rugbrødsform på 1 liter.
 Bag nøddebrødet i en forvarmet ovn ved 160 grader alm. over/under varme i en time. Lad brødet køle helt af på en rist, inden det skæres ud.'),
-  (9272, 'Ostebrud', 'https://www.valdemarsro.dk/ostebrud/', 'https://www.valdemarsro.dk/wp-content/2025/08/ostebrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen – gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
+  (9272, 'Ostebrud', 'https://www.valdemarsro.dk/ostebrud/', 'https://www.valdemarsro.dk/wp-content/2025/08/ostebrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen - gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter. Lad dejen hæve på køkkenbordet i halvanden time.
 Læg dejen på en meldrysset bordplade og lav en fordybning i midten af dejen. Slå et æg ud i fordybningen og kom groftrevet cheddarost og persille på. Luk dejen lidt til omkring fyldet og brug en bagespartel til at hakke dejen i små stykker. Brug bagespartlen til at vende dejen sammen med fyldet undervejs og hak dejen igennem en ekstra gang.
 Fordel den hakkede dej til antallet af boller og løft hvert stykke over på en bageplade med bagepapir. Lad ostebrudene hæve i en time med et rent klæde over.
 Bag i en forvarmet ovn ved 200 grader varmluft i cirka 15-17 minutter, til de er gyldne og gennembagte, server gerne mens de er helt dampende varme og friskbagte.'),
   (9275, 'Pop Tarts med chokolade og saltkaramel', 'https://www.valdemarsro.dk/pop-tarts/', 'https://www.valdemarsro.dk/wp-content/2017/02/poptarts-opskrift.jpg', '45', '12 servings', 'Saltkaramel
-Smelt sukker i en gryde ved middel varme og hold godt øje med det. Det kan godt tage tid, før det begynder at smelte, men så går det også lynhurtigt derefter.
-Så snart sukkeret begynder at smelte, så skrues der højt op for varmen, røres grundigt rundt og hældes flødes i lidt af gangen. Rør godt rundt og kog karamellen godt igennem til det er helt enstartet, rør til sidst lidt saltflager i.
+Smelt sukker i en gryde ved middel varme og hold godt øje med det. Det kan godt tage tid, før det begynder at smelte, men så går det også lynhurtigt derefter.
+Så snart sukkeret begynder at smelte, så skrues der højt op for varmen, røres grundigt rundt og hældes flødes i lidt af gangen. Rør godt rundt og kog karamellen godt igennem til det er helt enstartet, rør til sidst lidt saltflager i.
 Chokoladeganache
-Varm fløden op til den lige knap koger. Tag fløden af varmen og rør chokoladen i. Rør godt til det er helt ensartet i konsistensen og hæld det derefter på et glas og sæt i køleskabet til mindst en halv time.
-Dej – og samling+ bagning af Pop Tarts
-Rør alle de tørre ingredienser – mel, bagepulver, sukker, salt og vaniljepulver – sammen i en skål.
+Varm fløden op til den lige knap koger. Tag fløden af varmen og rør chokoladen i. Rør godt til det er helt ensartet i konsistensen og hæld det derefter på et glas og sæt i køleskabet til mindst en halv time.
+Dej - og samling+ bagning af Pop Tarts
+Rør alle de tørre ingredienser - mel, bagepulver, sukker, salt og vaniljepulver - sammen i en skål.
 Smuldr smøret i, og smuldr det sammen med alle de tørre ingredienser til fint smuld. Rør derefter æg og til sidst mælk i. Samle dejen og ælt den evt med en smule mere hvedemel, hvis nødvendigt.
-Rul dejen ud på et meldrysset bord til en stor firkant med en højde på ca. 2-3 mm. Skær firkanter a cirka 6×10 cm – eller den størrelse du foretrækker.
+Rul dejen ud på et meldrysset bord til en stor firkant med en højde på ca. 2-3 mm. Skær firkanter a cirka 6×10 cm - eller den størrelse du foretrækker.
 Halvdelen af firkanterne fyldes på midten med chokoladeganache og saltkaramel.
 Pensl de firkanter uden fyld og læg dem oven på, med den penslede side ned mod fyldet. Tryk de to deje sammen med en gaffel hele vejen rundt i kanterne.
 Pensl med æg, og bag i en forvarmet ovn ved 175 grader varmluft i 15 minutter eller til de er gyldne.
-Når de er taget ud af ovnen skal de køle en smule af på en rist, så de ikke er alt for varme på overfladen – derefter kan de pyntes med resten af chokoladeganachen og saltkaramellen på toppen.'),
+Når de er taget ud af ovnen skal de køle en smule af på en rist, så de ikke er alt for varme på overfladen - derefter kan de pyntes med resten af chokoladeganachen og saltkaramellen på toppen.'),
   (9288, 'Spinatpandekager med laks', 'https://www.valdemarsro.dk/spinatpandekager-med-laks/', 'https://www.valdemarsro.dk/wp-content/2024/03/spinatpandekager-laks.jpg', '45', '4 servings', 'Spinatpandekager
 Skyl spinaten grundigt og kom den i en blender sammen med resten af ingredienserne.
 Blend det sammen til en helt ensartet lind dej.
@@ -4490,7 +4413,7 @@ Fordel spinatblandingen i en retangel på ca 25 x 30 cm på en bageplade beklæd
 Fyld
 Rør flødeost, halvdelen af dilden, salt, peber og citron sammen og fordel det på den afkølede spinatbund.
 Lad en kant på ca. 4-6 cm af den lange side af spinatbunden være uden fyld. Fordel lakseskiverne over, drys med den anden halvdel dild (gem lidt til pynt) og rul lakserouladen sammen, så den lukkes i med kanten uden fyld.
-Pak lakserouladen ind i husholdningsfilm og sæt den på køl min. 1 time inden servering. Skær ca. 2 cm tykke skiver med en skarp kniv – rengør kniven med koldt vand mellem hvert snit.
+Pak lakserouladen ind i husholdningsfilm og sæt den på køl min. 1 time inden servering. Skær ca. 2 cm tykke skiver med en skarp kniv - rengør kniven med koldt vand mellem hvert snit.
 Anret lakseskiverne på en bund af salat, drys med frisk dild og revet citronskal.'),
   (9294, 'Cæsar Pasta Salat med kylling', 'https://www.valdemarsro.dk/caesar-pasta-salat-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2023/11/caesar_pastasalat.jpg', '30', '4 servings', 'Vend kyllingestykkerne i hvedemel, salt og peber og bag dem i et smurt ovnfast fad i en forvarmet ovn ved 180 grader varmluft i 20 minutter. Smør brødskiverne med smør på begge sider og skær dem i tern. Rist croutonerne i ovnen på en bageplade med bagepapir i 5 minutter. Kog imens pasta efter anvisning på emballagen.
 Lad kyllingekødet køle af og skær i tern. Hæld vand fra pastaen og hæld straks iskoldt vand over, for at stoppe kogningen.
@@ -4512,25 +4435,25 @@ Vend broccoli, edamamebønner og bulgur sammen med dressingen. Vend spinatbladen
 Gør alle ingredienserne til salaten klar og vend dem sammen på et stort fad.
 Varm en grillpande op med smør og olie og steg bøffen i 2-3 minutter på hver side ved høj varme. Tag bøffen af panden og lad den hvile på et skærebræt i 4-5 minutter. Krydr den med salt og friskkværnet peber og skær bøffen i tynde skiver.
 Vend salaten med dressingen. Anret salaten med oksekød i skiver og drys peanuts, chiliringe og krydderurter over.'),
-  (9303, 'Cæsarsalat', 'https://www.valdemarsro.dk/caesarsalat/', 'https://www.valdemarsro.dk/wp-content/2017/03/ceasarsalat.jpg', '40', '4 servings', 'Rids skindsiden af kyllingebrysterne med en skarp kniv og drys med salt og peber. Kom smør og olie på en kold pande og læg kyllingebrysterne på panden med skind­ siden ned. Lad kyllingebrysterne stege langsomt ved middelvarme i 20 minutter på skindsiden. Gør imens dressing, croutoner og salaten klar.
-Vend kyllingebrysterne, skru lidt op for varmen og steg dem i cirka 4­-5 minutter på den anden side.
-Pluk salaten og fordel den på fire tallerkener. Skær kyllingebrysterne i skiver, anret dem på tallerkener og kom til sidst dres­sing, parmesan og croutoner ovenpå.
+  (9303, 'Cæsarsalat', 'https://www.valdemarsro.dk/caesarsalat/', 'https://www.valdemarsro.dk/wp-content/2017/03/ceasarsalat.jpg', '40', '4 servings', 'Rids skindsiden af kyllingebrysterne med en skarp kniv og drys med salt og peber. Kom smør og olie på en kold pande og læg kyllingebrysterne på panden med skind siden ned. Lad kyllingebrysterne stege langsomt ved middelvarme i 20 minutter på skindsiden. Gør imens dressing, croutoner og salaten klar.
+Vend kyllingebrysterne, skru lidt op for varmen og steg dem i cirka 4-5 minutter på den anden side.
+Pluk salaten og fordel den på fire tallerkener. Skær kyllingebrysterne i skiver, anret dem på tallerkener og kom til sidst dressing, parmesan og croutoner ovenpå.
 Cæsardressing
 Blend ingredienserne til dressingen og smag til med citronsaft, salt og peber.
 Croutoner
 Smør brødskiverne med smør på begge sider og rist dem på en pande. Skær i tern'),
   (9306, 'Fransk bondesalat', 'https://www.valdemarsro.dk/fransk-bondesalat/', 'https://www.valdemarsro.dk/wp-content/2017/04/fransk-bondesalat.jpg', '30', '4 servings', 'Pocheret æg
-Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger, og tag gryden af den direkte varme. Rør med et piskeris en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog i cirka 3 minutter, tag forsigtigt ægget op med en hulske og anret det på tallerkenen – fortsæt på samme måde med de andre æg.
+Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger, og tag gryden af den direkte varme. Rør med et piskeris en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog i cirka 3 minutter, tag forsigtigt ægget op med en hulske og anret det på tallerkenen - fortsæt på samme måde med de andre æg.
 Tilbered grøntsager til salaten
 Steg baconskiverne sprøde på en pande og lad dem dryppe af på et stykke køkkenrulle. Kom 1 tsk smør på panden til baconfedtet og steg brødternene sprøde heri. Drys med salt og peber og sæt til side. Kom endnu 1 tsk smør på panden og lynsteg de grønne asparges i et lille minut. Kog de grønne bønner i 2 minutter og skyl derefter straks bønnerne i iskoldt vand, så kogningen stopper.
-Anret salaten på tallerkener sammen med rødløg, bøn­ner, halve kartofler, asparges, brødtern, baconstykker og oliven. Server med pocherede æg og fordel dressin­ gen over salaten i små klatter. Drys til sidst med purløg.
+Anret salaten på tallerkener sammen med rødløg, bønner, halve kartofler, asparges, brødtern, baconstykker og oliven. Server med pocherede æg og fordel dressin gen over salaten i små klatter. Drys til sidst med purløg.
 Cremet sennepsdressing
 Rør ingredienserne til dressingen sammen og smag til med salt og peber.
 I stedet for pocherede æg kan man bruge smilende æg. Kog æggene i en gryde med kogende vand i 8 minutter, til de er smilende. Pil æggene og skær dem forsigtigt i kvarte med en skarp kniv.'),
   (9309, 'Kartofler med urter og pocheret æg', 'https://www.valdemarsro.dk/nye-kartofler/', 'https://www.valdemarsro.dk/wp-content/2016/06/kartofler-urter_aeg.jpg', '30', '4 servings', 'Kog kartoflerne i vand med salt, til de er møre og stadig har en smule bid. Hæld vandet fra og lad kartoflerne køle en smule af, mens resten af salaten gøres færdig.
-Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og anret det på tallerkenen – fortsæt på samme måde med de andre æg.
+Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og anret det på tallerkenen - fortsæt på samme måde med de andre æg.
 Anret salaten på et stort fad eller tallerkener, fordel kartofler og æg imellem salaten.
-Drys kapers og krydder­ urter over, fordel små klatter sennepsdressing samt lidt salt og friskkværnet peber over salaten inden servering.
+Drys kapers og krydder urter over, fordel små klatter sennepsdressing samt lidt salt og friskkværnet peber over salaten inden servering.
 Cremet sennepsdressing
 Rør ingredienserne til dressingen sammen og smag til med salt og peber.'),
   (9312, 'Asiatisk kyllingesalat', 'https://www.valdemarsro.dk/asiatisk-kyllingesalat/', 'https://www.valdemarsro.dk/wp-content/2014/08/asiatisk-kyllingesalat-2.jpg', '40', '4 servings', 'Rør dressingen sammen og lad den trække en halv times tid.
@@ -4545,19 +4468,19 @@ Skær æggene i halve og fordel dem på salaten sammen med olivenerne.
 Vinaigrettedressing
 Rør vinaigretten sammen og fordel den over salaten i tynde striber.'),
   (9318, 'Kernestykker med gulerødder', 'https://www.valdemarsro.dk/kernestykker-med-guleroedder/', 'https://www.valdemarsro.dk/wp-content/2025/09/kernestykker-guleroedder.jpg', '720', '12 servings', 'Rør gær ud i en skål med vand og kom kærnemælk, honning, salt, gulerødder, hvedemel og fuldkornshvedemel, havregryn og femkornsblanding i. Rør til dejen er en ensartet, klistret og blød dej. Lad dejen stå overdækket på køkkenbordet i 30 minutter og sæt derefter i køleskabet natten over eller i minimum 8 timer.
-Brug 2 skeer til at sætte bollerne i klatter på en bradepande med bagepapir – dejen skal ikke formes til boller. Bag i en forvarmet ovn ved 200 grader varmluft i 10 minutter. Skru derefter ovnen op til 230 grader og bag videre i 10 minutter mere til bollerne er gyldne og sprøde. Lad bollerne køle af på en rist.'),
+Brug 2 skeer til at sætte bollerne i klatter på en bradepande med bagepapir - dejen skal ikke formes til boller. Bag i en forvarmet ovn ved 200 grader varmluft i 10 minutter. Skru derefter ovnen op til 230 grader og bag videre i 10 minutter mere til bollerne er gyldne og sprøde. Lad bollerne køle af på en rist.'),
   (9324, 'Lakrids småkager med dadler', 'https://www.valdemarsro.dk/lakridssmaakager-med-dadler/', 'https://www.valdemarsro.dk/wp-content/2023/12/lakridssmaakager-dadler.jpg', '60', '50 servings', 'Rør hvedemel, bagepulver, sukker og lakridspulver godt sammen. Smuldr dadler i melblandingen, og brug melet til at skille dadelstykkerne fra hinanden, hvis de klistrer lidt sammen. Smuldr smørret i melblandingen til det er helt ensartet og saml tilsidst dejen med et sammenpisket æg.
 Tril dejen til stængler på cirka 3 cm i diameter. Pak dem i madpapir og sæt i køleskabet i minimum 1 time.
 Skær dem ud i 1 cm tykke skiver og læg dem med afstand imellem på en bageplade med bagepapir. De flyder lidt ud under bagning. Bag i en forvarmet ovn ved 180 grader varmluft i 8-10 minutter til de er gyldne i kanten. Lad dem køle af på en rist.'),
   (9327, 'Orange chokoladesnitter', 'https://www.valdemarsro.dk/orange-chokoladesnitter/', 'https://www.valdemarsro.dk/wp-content/2024/05/orange-chokoladesnitter.jpg', '90', '80 servings', 'Bland hvedemel, sukker, vaniljesukker, bagepulver, appelsinskal og kakaopulver godt sammen i en skål. Smuldr smørret i skålen til det er helt ensartet. Saml hurtigt dejen med æg og sæt dejen i køleskabet i 30 minutter.
 Del dejen i 4 portioner og tril dem til lange stængler, på ca 1,5 cm i diameter. Skær stænglerne til, så de passer i længden med en bageplade. Placer på bageplader med bagepapir. Tryk dem en smule flade, så de bliver ca 4 cm bredde. Pensl med æggehvide og drys hasselnødder over. Bag i en forvarmet ovn ved 180 grader varmluft i cirka 14-16 minutter.
-Skær snitterne ud, med et skråt snit, så snart kagerne er ude af ovnen og lad de varme orange chokoladesnitter  køle af på en rist.'),
+Skær snitterne ud, med et skråt snit, så snart kagerne er ude af ovnen og lad de varme orange chokoladesnitter  køle af på en rist.'),
   (9330, 'Krydrede Juleboller med chokolade', 'https://www.valdemarsro.dk/krydrede-juleboller/', 'https://www.valdemarsro.dk/wp-content/2023/12/juleboller-med-chokolade.jpg', '180', '12 servings', 'Rør mælk og gær sammen til gæret er opløst og tilsæt æg og appelsinjuice. Kom hvedemel, fintrevet appelsinskal, dadler, nellike, kardemomme og salt i en skål og rør det godt sammen. Brug melet til at skille dadelstykkerne fra hinanden hvis de klumper sig lidt sammen.
 Rør dejen sammen, gerne på en røremaskine ved lav hastighed i 5 minutter. Tilsæt smør og rør videre i 5 minutter til dejen er blank og elastisk. Rør til sidst hasselnødder og chokolade i dejen. Kom dejen i en ren skål og lad den hæve i 45 minutter tildækket på køkkenbordet. Sæt derefter på køl til næste dag.
 Tag dejen ud af køleskabet og del den i antal af boller. Form runde boller og sæt dem på bageplader med bagepapir. Kom et rent viskestykke over og lad bollerne efterhæve på køkkenbordet i 1 1/2 time.
 Pensl bollerne med sammenpisket æg og drys med perlesukker og hasselnødder. Bag i en forvarmet ovn ved 175 grader varmluft i cirka 20 minutter.'),
   (9333, 'Aristokrater', 'https://www.valdemarsro.dk/aristokrater/', 'https://www.valdemarsro.dk/wp-content/2023/12/aristokrater-smaakager.jpg', '90', '75 servings', 'Hæld kogende vand over mandlerne. Lad dem stå lidt og smut hinderne af. Kom mandlerne i en forvarmet ovn ved 150 grader og rist dem i 10 minutter. De skal ikke tage farve. Hak mandlerne fint.
-Kom hvedemel,  sukker og citronskal i en skål og smuldr det godt sammen med fingrene til det er helt ensartet og dufter dejligt af citron. Smuldr smørret i til blandingen er helt ensartet. Rør dejen mandlerne og saml dejen med sammenpisket æg. Start med halvdelen af ægget og tilføj kun mere efter behov.
+Kom hvedemel,  sukker og citronskal i en skål og smuldr det godt sammen med fingrene til det er helt ensartet og dufter dejligt af citron. Smuldr smørret i til blandingen er helt ensartet. Rør dejen mandlerne og saml dejen med sammenpisket æg. Start med halvdelen af ægget og tilføj kun mere efter behov.
 Rul dejen til to stænger på 4 cm i diameter. Pak dem ind i madpapir og lad dejen hvile i minimum 30 minutter i køleskabet.
 Skær småkagerne i skiver på 3 mm og læg dem på en bageplade med bagepapir. Bag i en forvarmet ovn ved 180 grader varmluft i 8-10 minutter til de er gyldne i kanten. Lad kagerne køle af på en rist.'),
   (9336, 'Choko-orange småkager', 'https://www.valdemarsro.dk/choko-orange-smaakager/', 'https://www.valdemarsro.dk/wp-content/2023/12/choko-orange-smaakager.jpg', '90', '75 servings', 'Rør hvedemel, bagepulver, sukker og vaniljesukker godt sammen. Smuldr appelsinskal godt i melblandingen til det dufter dejligt af appelsin. Rør mandelmel i og smuldr derefter smør i melblandingen til det er helt ensartet. Vend chokoladen i og saml til sidst dejen med et sammenpisket æg.
@@ -4568,7 +4491,7 @@ Del dejen i 4 portioner og tril dem til lange stængler, på ca 1,5 cm i diamete
 Bag i en forvarmet ovn ved 180 grader varmluft i cirka 14-16 minutter. Skær snitterne ud, med et skråt snit, så snart kagerne er ude af ovnen og lad de svenske chokoladesnitter køle af på en rist.'),
   (9342, 'Kanelstjernekage', 'https://www.valdemarsro.dk/kanelstjernekage/', 'https://www.valdemarsro.dk/wp-content/2022/02/kanelstjernekage.jpg', '120', '8 servings', 'Smelt smør i en gryde ved lav varme. Rør gæren ud i en skål med mælk og tilsæt smeltet smør, æg, sukker, kardemomme, salt og halvdelen af melet. Rør godt sammen og rør derefter resten af melet i. Rør dejen glat og smidig på en røremaskine i 5 minutter.
 Lad dejen hæve tildækket i en skål i en time ved stuetemperatur. Rør imens remoncen sammen.
-Vej dejen og del den i fire lige store portioner. Form hver portion til en rund kugle og lad dem hvile et øjeblik på køkkenbordet. Rul dem ud enkeltvis til fire runde cirkler på 24 cm i diameter. Læg den ene cirkel på en bageplade med bagepapir, smør med ¹⁄³ af remoncen på hele cirklen undtagen 1 cm rundt langs kanten. Placer den næste cirkel ovenpå, smør med remonce og gentag, til alle fire cirkler og remoncen er brugt. Der skal ikke remonce på sidste lag dej.
+Vej dejen og del den i fire lige store portioner. Form hver portion til en rund kugle og lad dem hvile et øjeblik på køkkenbordet. Rul dem ud enkeltvis til fire runde cirkler på 24 cm i diameter. Læg den ene cirkel på en bageplade med bagepapir, smør med 1/3 af remoncen på hele cirklen undtagen 1 cm rundt langs kanten. Placer den næste cirkel ovenpå, smør med remonce og gentag, til alle fire cirkler og remoncen er brugt. Der skal ikke remonce på sidste lag dej.
 Sæt et glas i midten af dejen. Skær snit med en kniv fra glassets kant og ud, så dejcirklen deles i 16 stykker, som ved et lagkagediagram. Sno to stykker ad gangen væk fra hinanden og sno dem to gange. Gentag hele vejen rundt og fjern til sidst glasset.
 Efterhæv under et viskestykke i 30 minutter. Pensl med sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft i 17-20 minutter. Lad kagen køle af og drys med flormelis inden servering.'),
   (9345, 'Orangestænger', 'https://www.valdemarsro.dk/orangestaenger/', 'https://www.valdemarsro.dk/wp-content/2022/11/orangestaenger.jpg', '60', '50 servings', 'Smuldr appelsinskal og sukker sammen i en skål i et par minutter. Kom marcipan i og smuldr også det godt sammen med blandingen. Tilsæt derefter smør og rør sammen til konsistensen er helt ensartet, og rør tilsidst æggehviden i.
@@ -4578,7 +4501,7 @@ Lad småkagerne køle af på en rist og dyp derefter bunden i tempereret chokola
   (9348, 'Cherry christmas cocktail', 'https://www.valdemarsro.dk/cherry-christmas-cocktail/', 'https://www.valdemarsro.dk/wp-content/2023/09/cherry-christmas-cocktail-.jpg', '10', '1 serving', 'Hæld kirsebærlikør, cointreau, gin, citronsaft, appelsinmarmelade og isterninger i en shaker.
 Ryst det kraftigt, til shakeren er iskold. Hæld drinken op i glas fyldt med isterninger. Kom amarena kirsebær i glasset, pynt med en rosmarinkvist og en strimmel appelsinskal.'),
   (9351, 'Marcipankonfekt med Baileys og karamel', 'https://www.valdemarsro.dk/marcipankonfekt-baileys/', 'https://www.valdemarsro.dk/wp-content/2011/12/konfektkaramel-baileys.jpg', '60', '16 servings', 'Skær karamellerne i små stykker og ælt marcipanen med Baileys og karamelstykkerne. Tril små kugler.
-Hak den hvide chokolade fint. Smelt den ene halvdel langsomt over vandbad og under omrøring. Når det lige akkurat er smeltet og har en temperatur på max 45 grader, tages chokoladen af varmen og den sidse halvdel røres i – indtil al chokoladen er smeltet og temperaturen er på 28 grader. Hæv forsigtigt temperaturen igen til max. 31 grader under omrøring.
+Hak den hvide chokolade fint. Smelt den ene halvdel langsomt over vandbad og under omrøring. Når det lige akkurat er smeltet og har en temperatur på max 45 grader, tages chokoladen af varmen og den sidse halvdel røres i - indtil al chokoladen er smeltet og temperaturen er på 28 grader. Hæv forsigtigt temperaturen igen til max. 31 grader under omrøring.
 Dyp marcipankuglerne i chokoladen og lad marcipankonfekten størkne på et stykke bagepapir.
 Pensl de færdige konfektstykker med spiseligt guldstøv.'),
   (9354, 'Churros', 'https://www.valdemarsro.dk/churros/', 'https://www.valdemarsro.dk/wp-content/2014/12/churros.jpg', '45', '40 servings', 'Kom vand, smør, sukker, vanilje, kanel og salt i en gryde og varm op til 90 grader.
@@ -4594,18 +4517,18 @@ Rist hasselnødderne på en pande ved middelvarme under omrøring til hinderne s
 Tør panden af og sæt den på laveste varme. Kom nougat på panden og lad det smelte meget langsomt under omrøring. Rør de hakkede hasselnødder i blandingen. Fordel blandingen i formen med chokolade og stil på køl i 15 min.
 Rul marcipanen tyndt ud, og læg den oven på nougaten i formen. Afslut med et lag tempereret chokolade. Drys med hakkede hasselnødder, kakaonibs, frysetørrede hindbær og et lille drys spiseligt guldstøv.
 Lad chokoladen stå ved stuetemperatur og sætte sig, inden den skæres i mundrette stykker.'),
-  (9360, 'Håkonskager', 'https://www.valdemarsro.dk/haakonskager/', 'https://www.valdemarsro.dk/wp-content/2020/08/haakonskager.jpg', '180', '40 servings', 'Flæk vaniljestangen på langs og skrab kornene ud. Fordel dem i flormelis og kom alle ingredienserne til dejen – undtagen æggehvide og perlesukker – i en foodprocessor og rør dem sammen ved lav hastighed. Det kan også gøres i en skål, så er det nemmest at rive marcipanen og skære smørret i små tern først.
-Saml dejen i en god tyk rund stang, som sættes i køleskabet til næste dag – eller minimum 2 timer.
+  (9360, 'Håkonskager', 'https://www.valdemarsro.dk/haakonskager/', 'https://www.valdemarsro.dk/wp-content/2020/08/haakonskager.jpg', '180', '40 servings', 'Flæk vaniljestangen på langs og skrab kornene ud. Fordel dem i flormelis og kom alle ingredienserne til dejen - undtagen æggehvide og perlesukker - i en foodprocessor og rør dem sammen ved lav hastighed. Det kan også gøres i en skål, så er det nemmest at rive marcipanen og skære smørret i små tern først.
+Saml dejen i en god tyk rund stang, som sættes i køleskabet til næste dag - eller minimum 2 timer.
 Pensl dejen med æggehvide hele vejen rundt og rul den godt i perlesukker.
 Skær småkagerne ud i cirka 1/2 cm tykke skiver og læg dem på en bageplade med god afstand mellem. Bag kagerne i en forvarmet ovn ved 170 grader varmluft i cirka 10 minutter.'),
   (9363, 'Nougatkonfekt', 'https://www.valdemarsro.dk/nougatkonfekt/', 'https://www.valdemarsro.dk/wp-content/2020/09/nougatkonfekt.jpg', '60', '20 servings', 'Rist hasselnødderne på en tør varm pande til hinderne sprækker og kan gnides af. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af, hak derefter hasselnødderne
 Kom chokolade og nougat i en skål og smelt det over et vandbad under omrøring. Tag skålen af varmen, når det er smeltet og rør hasselnødder, kakaonibs og flagesalt i. Hæld i små konfektforme og sæt på køl i 15 minutter.
 Drys eventuelt med en smule spiseligt guldstøv.'),
   (9366, 'Småkager med ingefær og hasselnødder', 'https://www.valdemarsro.dk/smaakager-med-ingefaer/', 'https://www.valdemarsro.dk/wp-content/2021/11/ingefaersmaakager-hasselnoed.jpg', '180', '60 servings', 'Rør mel, bagepulver, sukker, ingefær og vaniljepulver godt sammen i en skål. Smuldr smør i melblandingen til det er godt smuldret sammen. Pisk ægget og saml dejen med ægget og evt. lidt koldt vand. Lad dejen hvile i køleskabet i min. 1 time eller til næste dag.
-Rist hasselnødderne på en tør varm pande, til hinderne begynder at sprække. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af. Hak derefter hasselnødderne fint.
-Rul dejen ud på et meldrysset bord og stik dejen ud til småkager, som sættes på en bageplade med bagepapir. Pensl med æggehvide og drys med de finthakkede hasselnødder og lidt perlesukker.
+Rist hasselnødderne pa en tør varm pande, til hinderne begynder at sprække. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af. Hak derefter hasselnødderne fint.
+Rul dejen ud pa et meldrysset bord og stik dejen ud til smakager, som sættes pa en bageplade med bagepapir. Pensl med æggehvide og drys med de finthakkede hasselnødder og lidt perlesukker.
 Bag i en forvarmet ovn ved 175 grader varmluft i ca. 9-12 minutter.
-Tag småkagerne ud af ovnen og lad dem køle af på en bagerist.'),
+Tag smakagerne ud af ovnen og lad dem køle af pa en bagerist.'),
   (9369, 'Glühwein', 'https://www.valdemarsro.dk/gluhwein/', 'https://www.valdemarsro.dk/wp-content/2022/11/gluhwein.jpg', '90', '6 servings', 'Kom rødvin, appelsinsaft og fintrevet appelsinskal, kanel, nelliker og sukker i en gryde og varm det langsomt op til lige knap kogepunktet. Læg låg på og sluk for varmen. Lad drikken trække smag i 1-2 timer.
 Hæld igennem en sigte i en ren gryde. Smag til om du synes den skal have lidt ekstra sukker og varm op til lige knap kogepunktet igen. Kom rom i og server i glas med appelsinskiver.'),
   (9372, 'Klejner', 'https://www.valdemarsro.dk/klejner/', 'https://www.valdemarsro.dk/wp-content/2016/12/klejner-1.jpg', '120', '40 servings', 'Pisk smør, sukker, piskefløde, vaniljepulver, kardemomme, salt og fintrevet citronskal sammen i en skål og pisk derefter ægget i.
@@ -4623,7 +4546,7 @@ Temperer chokoladen og fordel halvdelen af chokoladen i formen på bagepapiret. 
 Sæt i køleskabet i 10 minutter til chokoladen har sat sig og skær ud i mundrette stykker.'),
   (9384, 'Æblegløgg uden alkohol', 'https://www.valdemarsro.dk/aeblegloegg/', 'https://www.valdemarsro.dk/wp-content/2015/12/aeblegloegg.jpg', '1440', '8 servings', 'Kom æblejuice, appelsinjuice, citronsaft, sukker og krydderier i en gryde og lad det koge op.
 Læg låg på gryden og lad det simre ved lav varme i 30 minutter.
-Hæld det hele,  inkl. krydderier,  i et glas med låg og lad trække i 1-3 dage.
+Hæld det hele,  inkl. krydderier,  i et glas med låg og lad trække i 1-3 dage.
 Sigt krydderierne fra og kom på flaske.
 Ved servering
 Varm æblejuice, appelsinsaft eller hyldeblomstsaft op i en gryde til lige under kogepunktet. (beregn 2 dl til hvert glas.)
@@ -4631,8 +4554,8 @@ Tag gryden af varmen og tilsæt æblegløggekstrakt'),
   (9387, 'Hønsesalat', 'https://www.valdemarsro.dk/hoensesalat-med-bacon/', 'https://www.valdemarsro.dk/wp-content/2016/09/hoensekoedssalat.jpg', '45', '4 servings', 'Kom hønsebryst i en gryde med grøntsagsboullion. Kog op, læg låg på og lad det simre i 20 minutter, til kødet er mørt. Skær hønsekødet i tern og lad det køl lidt af.
 Steg bacon på en pande i lidt smør, til det er sprødt. Skær bacon i tern og læg til side på en tallerken.
 Varm panden med baconfedt godt op med lidt ekstra olie og smør. Lad smørret bruse af og rist champignonerne på panden ved høj varme. Kom champignon i en sigte sammen med hvide asparges og lad dem dryppe af.
-Rør dressingen sammen af mayonnaise, creme fraiche, karry og dijonsennep, salt og peber. Smag til og vend derefter hønsekød i tern, champignon, asparges og halvdelen af purløg  asparges og bacon i dressingen og drys med purløg inden servering.'),
-  (9390, 'Risengrødsvafler', 'https://www.valdemarsro.dk/risengroedsvafler/', 'https://www.valdemarsro.dk/wp-content/2016/11/risengroedsvafler-2.jpg', '120', '4 servings', 'Risengrød – en portion til vafler, eller brug en rest risengrød
+Rør dressingen sammen af mayonnaise, creme fraiche, karry og dijonsennep, salt og peber. Smag til og vend derefter hønsekød i tern, champignon, asparges og halvdelen af purløg  asparges og bacon i dressingen og drys med purløg inden servering.'),
+  (9390, 'Risengrødsvafler', 'https://www.valdemarsro.dk/risengroedsvafler/', 'https://www.valdemarsro.dk/wp-content/2016/11/risengroedsvafler-2.jpg', '120', '4 servings', 'Risengrød - en portion til vafler, eller brug en rest risengrød
 Skyl grødris i koldt vand og hæld derefter risene i en lille gryde tilsat vand og kog op. Hæld mælk i gryden og kog op til kogepunktet under omrøring.
 Skru ned til svag varme, så grøden blot akkurat simrer og lad den stå med låg på. Rør jævnligt, cirka hvert 10. minut.
 Smag til med salt, når grøden er klar.
@@ -4691,12 +4614,12 @@ Vend trøflerne i kakao eller rålakridspulver og drys med en smule guld lige in
   (9418, 'Rocky Road med pebermynte', 'https://www.valdemarsro.dk/rocky-road/', 'https://www.valdemarsro.dk/wp-content/2014/11/rocky-road.jpg', '60', '25 servings', 'Rist mandler og hasselnødder på en pande ved middelhøj varme. Ryst panden nogle gange undervejs. Nødderne skal ikke tage farve, men hinderne på hasselnødderne skal lige revne og blive sprød. Kom mandler og hasselnødder i et rent klæde og gnid hinderne af hasselnødderne.
 Temperer chokoladen.
 Knus pebermyntestokkene med en kagerulle.
-Beklæd en beholder a ca 20×20 cm med bagepapir og kom lidt af de knuste pebermyntestokke i bunden sammen med lidt skumfiduser.
+Beklæd en beholder a ca 20×20 cm med bagepapir og kom lidt af de knuste pebermyntestokke i bunden sammen med lidt skumfiduser.
 Hæld halvdelen af chokoladen over, fordel med endnu et lag knust pebermyntestok, nødder og skumfiduser.
 Rør let sammen og hæld resten af chokoladen over. Drys med de sidste nødder, skumfiduser og knuste pebermyntestokke.
 Stil på køl og vent til chokoladen er helt stivnet.
 Skær derefter i firkanter.'),
-  (9421, 'Eggnog', 'https://www.valdemarsro.dk/eggnog-opskrift/', 'https://www.valdemarsro.dk/wp-content/2014/11/eggnog.jpg', '180', '4 servings', 'Forberedelse – 4 timer før servering
+  (9421, 'Eggnog', 'https://www.valdemarsro.dk/eggnog-opskrift/', 'https://www.valdemarsro.dk/wp-content/2014/11/eggnog.jpg', '180', '4 servings', 'Forberedelse - 4 timer før servering
 Skrab vaniljekernerne ud af vaniljestangen og fordel dem i sukkeret.
 Pisk æggeblomme, vanilje og sukker sammen i en skål til luftig og cremet æggesnaps.
 Kom mælk, nelliker og kanel i en gryde. Varm langsomt op under omrøring til det lidt netop når kogepunktet. Sigt krydderierne fra og pisk langsomt den varme krydrede mælk i æggesnapsen.
@@ -4708,7 +4631,7 @@ Knus nogle pebermyntestokke. Dyp kanten af glassene i sirup og derefter i peberm
   (9425, 'Pebermyntepastiller', 'https://www.valdemarsro.dk/pebermyntepastiller/', 'https://www.valdemarsro.dk/wp-content/2014/12/pebermyntepastiller-1.jpg', '1440', '100 servings', 'Pisk æggehvide og flormelis til en tyk og sej masse, smag til med pebermynteessens.
 Kom i en sprøjtepose med tyl og sprøjt små lukkede cirkler ud på et stykke bagepapir.
 Kom lidt smeltet chokolade eller små chokoladeknapper i midten.
-Lad pebermyntepastillerne stå og tørre på køkkenbordet til næste dag.  Læg eventuelt en rist over og et rent klæde over risten, så de er dækket til, men stadig har luft omkring sig.
+Lad pebermyntepastillerne stå og tørre på køkkenbordet til næste dag.  Læg eventuelt en rist over og et rent klæde over risten, så de er dækket til, men stadig har luft omkring sig.
 De er klar, når de er knasende sprøde og slipper bagepapiret uden problemer.'),
   (9428, 'Grand Marnier Konfektkugler', 'https://www.valdemarsro.dk/grand-marnier-konfektkugler/', 'https://www.valdemarsro.dk/wp-content/2014/12/grandmarnier-konfektkugler.jpg', '30', '30 servings', 'Kom alle ingredienserne til konfektkuglerne i en foodprocessor og kør kortvarigt til det er en ensartet masse.
 Tril små mundrette kugler. Kom dem i en beholder og opbevar på køl til de skal spises.
@@ -4723,8 +4646,8 @@ Siruppen tykner mere og mere, og på kort tid fordamper vandet og sukkeret kryst
 Nu skal du være lidt hurtig og skrue ned på lav varme, for sukkeret må endelig ikke smelte til karamel, for så får du bare et tyndt lag hård karamel rundt om mandlerne. Det skal blot lige karamellisere en lille smule på enkelte af mandlerne.
 Rør godt og når de er klar, så hæld straks mandlerne over på bagepapir og lad dem køle af, inden de spises.'),
   (9442, 'Kokostoppe', 'https://www.valdemarsro.dk/kokostoppe/', 'https://www.valdemarsro.dk/wp-content/2013/11/kokostoppe.jpg', '45', '12 servings', 'Kom æg og sukker i en skål og pisk det godt sammen med en håndmikser.
-Riv marcipanen på et rivejern og rør groftrevet marcipan og kokosmel i skålen med æg og sukker. Lad dejen hvile i 15 minutter. Form kokostoppene på en bageplade med bagepapir. Vask hænderne i lidt  koldt vand, så er det nemt at rette toppene til, så de får  en flot form.
-Bag i forvarmet ovn ved 175 grader varmluft i 10-12 minutter, til  de er smukt gyldne på toppen.
+Riv marcipanen på et rivejern og rør groftrevet marcipan og kokosmel i skålen med æg og sukker. Lad dejen hvile i 15 minutter. Form kokostoppene på en bageplade med bagepapir. Vask hænderne i lidt  koldt vand, så er det nemt at rette toppene til, så de får  en flot form.
+Bag i forvarmet ovn ved 175 grader varmluft i 10-12 minutter, til  de er smukt gyldne på toppen.
 Køl af på en rist og dyp dem derefter i tempereret chokolade, gerne ad to omgange, så det bliver en tyk, sprød og lækker chokoladebund'),
   (9445, 'Lakridskaramel', 'https://www.valdemarsro.dk/karamel-med-store-lakridsstykker/', 'https://www.valdemarsro.dk/wp-content/2013/12/finsk-lakrids-karameller.jpg', '120', '40 servings', 'Kom piskefløde, sukker og glukosesirup i en stor gryde og kog det op.
 Lad det koge i 35-45 minutter. Mens karamellen koger vil det bruse meget op, så sørg for at der er god plads i gryden.
@@ -4738,12 +4661,12 @@ Lad gerne kransekagerne stå og tørre på køkkenbordet i min. 1 time og gerne 
 Bag i en forvarmet ovn ved 175 grader varmluft i 8-10 minutter, eller til de er så gyldne som du ønsker dem. Lad kransekagerne køle af på bagepladen.
 Glasur
 Pisk en tyk glasur af flormelis og æggehvide. Glasuren skal være meget tyktflydende, så den holder formen og kan klemmes ud af et kræmmerhus lavet af bagepapir eller i en sprøjtepose med lille tylle.
-Lad glasuren ”falde ned” på de afkølede kransekager i ca. 1 cm’s afstand, så den lægger sig smukt på kransekagerne.'),
+Lad glasuren "falde ned" på de afkølede kransekager i ca. 1 cm''s afstand, så den lægger sig smukt på kransekagerne.'),
   (9456, 'Pebernødder', 'https://www.valdemarsro.dk/pebernoedder/', 'https://www.valdemarsro.dk/wp-content/2011/11/pebernoedder-julesmaakager.jpg', '30', '100 servings', 'Pisk smør og sukker hurtigt sammen og rør derefter piskefløde i.
 Rør de tørre ingredienser og fintrevet appelsinskal sammen i en skål for sig og rør dette i skålen med de våde ingredienser.
 Saml dejen kort, bare indtil pebernøddedejen er fast og nem at forme og samlet.
-Tril dejen ud i lange pølser og skær pebernødderne ud i passende størrelse på omkring 1×1 cm.
-Tril pebernødderne til små runde kugler og sæt dem på en bageplade med bagepapir med  lidt afstand mellem.
+Tril dejen ud i lange pølser og skær pebernødderne ud i passende størrelse på omkring 1×1 cm.
+Tril pebernødderne til små runde kugler og sæt dem på en bageplade med bagepapir med  lidt afstand mellem.
 Bag ved 175 grader varmluft i omkring 7-10 minutter til de lige akkurat bliver let gyldne i kanterne. Lad dem køle af på en rist.'),
   (9460, 'Kandiserede æbler', 'https://www.valdemarsro.dk/kandiserede-aebler/', 'https://www.valdemarsro.dk/wp-content/2011/12/kandiserede-aebler.jpg', '30', '4 servings', 'Kog sukker, vand, æblecidereddike og glukosesirup op i en gryde.
 Lad det koge i et par minutter under omrøring. Test om sukkerlagen er klar ved at tage den op på en ske. Den skal lige tykne en lille smule, så den hænger ved æblerne, men den må endelig ikke få for meget, for så bliver den umulig at spise.
@@ -4757,7 +4680,7 @@ Kom alle ingredienserne i en skål og rør det godt sammen, til vinaigretten er 
 Alternativt kan dressingen rystes sammen i et glas med låg.'),
   (9466, 'Dadelkugler', 'https://www.valdemarsro.dk/dadelkugler/', 'https://www.valdemarsro.dk/wp-content/2008/03/dadelkugler-1.jpg', '15', '15 servings', 'Kom alle ingredienserne i en foodprocessor og kør til det er en glat masse.
 Form til små mundrette kugler.
-Tril dem i lidt kokosmel, ren kakaopulver, finthakkedde hasselnødder – eller spis dem som de er.'),
+Tril dem i lidt kokosmel, ren kakaopulver, finthakkedde hasselnødder - eller spis dem som de er.'),
   (9470, 'Saltkarameller', 'https://www.valdemarsro.dk/saltkarameller/', 'https://www.valdemarsro.dk/wp-content/2011/06/saltkarameller.jpg', '240', '40 servings', 'Kom piskefløde, sukker og glukosesirup i en stor gryde og kog det op. Lad det koge i 35-45 minutter. Mens karamellen koger vil det bruse meget op, så sørg for at der er god plads i gryden.
 Rør indimellem i gryden, men ikke for ofte. Når karamelmassen slipper bunden og har en tyk og sej konsistens, samt en temperatur på 120 grader er den færdig.
 Drys salt i, rør det rundt og hæld karamelmassen i en beholder på cirka 16×16 cm, foret med bagepapir.
@@ -4765,7 +4688,7 @@ Lad karamellen stå på køkkenbordet og køle af i mindst 3 timer og skær kara
   (9475, 'Hvid julegløgg', 'https://www.valdemarsro.dk/hvid-juleglogg/', 'https://www.valdemarsro.dk/wp-content/2007/12/hvid-julegloegg.jpg', '1440', '1 serving', 'Kom lys sirup, appelsin- og citronsaft og skal, kanelstænger, stjerneanis, kardemomme, ingefær, hvid portvin og kogende vand i en rengjort og skoldet beholder med låg. Rør det godt rundt.
 Lad det trække i 1 et døgn og tag stjerneanis op. Lad det derefter trække i 2-3 dage mere.
 Sigt den hvide julegløgg og hæld det på en ren skoldet flaske.
-Til servering – Pr glas
+Til servering - Pr glas
 Hæld 2 dl hvidvin pr glas gløgg i en gryde og varm det op til det er lige under kogepunktet. Kom den varme hvidvin i glas og rør 1/2 dl hvid gløgg ekstrakt i hvert glas.'),
   (9478, 'Julekringle', 'https://www.valdemarsro.dk/julekringle/', 'https://www.valdemarsro.dk/wp-content/2019/12/julekringle-1.jpg', '120', '8 servings', 'Kom mælk i en skål og rør gær ud i mælken. Tilsæt derefter smør, sukker, æg, salt og cirka halvdelen af melet. Rør dejen godt igennem til den er helt ensartet og tilsæt derefter resten af melet og ælt dejen godt igennem til den er lækker og smidig.
 Stil dejen til hævning på køkkenbordet i cirka 30 minutter i en ren skål med et klæde over.
@@ -4784,7 +4707,7 @@ Bag i en forvarmet ovn ved 175 grader varmluft i 10-12 minutter.
 Lad dem køle af på bagepladen.'),
   (9485, 'Rørt juleleverpostej', 'https://www.valdemarsro.dk/juleleverpostej/', 'https://www.valdemarsro.dk/wp-content/2017/11/juleleverpostej-1.jpg', '45', '4 servings', 'Varm smørret op på en pande og steg baconen sprød. Tag af varmen, skær en af baconskiverne i små tern til at røre i leverpostejen og sæt resten til side til servering.
 Rist champignon til leverpostejen på den samme pande med baconfedt og smør ved høj varme, til de har fået farve.
-Fjern skorpen fra leverpostejen og kom leverpostejen i en skål. Rør leverpostejen sammen med bacon  i tern, ristede svampe i tern, piskefløde, krydderier, tranebær og hakkede hasselnødder. Kom den rørte leverepostej i en ovnfast skål og bag i en forvarmet ovn i 15 min ved 175 grader varmluft.
+Fjern skorpen fra leverpostejen og kom leverpostejen i en skål. Rør leverpostejen sammen med bacon  i tern, ristede svampe i tern, piskefløde, krydderier, tranebær og hakkede hasselnødder. Kom den rørte leverepostej i en ovnfast skål og bag i en forvarmet ovn i 15 min ved 175 grader varmluft.
 Rist champignon til servering ved høj varme i smør. Smag til med salt og peber og lun den sprøde bacon. Server den lunede rørte leverpostej med champignon, bacon og lidt frisk timian.'),
   (9488, 'Salat med and og mango', 'https://www.valdemarsro.dk/salat-med-and/', 'https://www.valdemarsro.dk/wp-content/2018/11/salat-mango-and.jpg', '30', '4 servings', 'Varm det confiterede andelår i en forvarmet ovn ved 225 grader i et ovnfast fad i cirka 20 minutter, til skindet er sprødt
 Vend dressingen sammen, smag til og lad den trække, mens salaten tilberedes.
@@ -4808,7 +4731,7 @@ Fordel skaldyrssalat i krustaderne lige inden servering. Pynt med ørredrogn og 
 Tril pistaciemarcipanen i små kugler.
 Temperer chokoladen og dyp marcipankuglerne i chokoladen og drys med det sidste pistacie.'),
   (9503, 'Citronsmåkager med birkes', 'https://www.valdemarsro.dk/citronsmaakager-med-birkes/', 'https://www.valdemarsro.dk/wp-content/2023/11/citronsmaakager-birkes.jpg', '30', '40 servings', 'Bland mel, bagepulver, sukker, vanilje og fintrevet citronskal godt sammen.
-Smuldr smørret i og ælt det hurtigt sammen med citronsaft og hvid chokolade. Rul dejen sammen til en pølse på ca 2 cm i diameter.  Skær småkagerne i skiver af 1 cm og drys dem med birkes og tryk en gaffel ned i småkagerne, så der kommer en stribe fine riller .
+Smuldr smørret i og ælt det hurtigt sammen med citronsaft og hvid chokolade. Rul dejen sammen til en pølse på ca 2 cm i diameter.  Skær småkagerne i skiver af 1 cm og drys dem med birkes og tryk en gaffel ned i småkagerne, så der kommer en stribe fine riller .
 Sæt småkagerne på en bradepande med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 10-12 minutter.'),
   (9506, 'Medister med kål og æble', 'https://www.valdemarsro.dk/medister-med-kaal-og-aeble/', 'https://www.valdemarsro.dk/wp-content/2022/06/medister-kaal-aeble.jpg', '30', '4 servings', 'Steg medisterpølsen til den er gennemstegt, på en pande med olie ved lav-middel varme i cirka 15 minutter på hver side.
 Varm en sauterpande op med smør, olie og rosmarin og salvieblade. Sauter løgene til de er bløde. Kom fintsnittet rødkål på panden og sauter under omrøring til rødkålen falder sammen. Tilsæt æblebåde og æblejuice og læg låg på. Lad det simre svagt i 5 minutter.
@@ -4831,7 +4754,7 @@ Anret gulerødder og spidskål i en skål og fordel nudler og edamamebønner ove
   (9521, 'Kalkunsteg med fyld', 'https://www.valdemarsro.dk/kalkunsteg-med-fyld/', 'https://www.valdemarsro.dk/wp-content/2023/11/kalkunsteg.jpg', '1440', '6 servings', 'Dagen før
 Kom salt, sukker, krydderier og vand i en gryde og kog op under omrøring til salt og sukker opløses. Lad det køle helt af til stuetemperatur (20 grader). Kom kalkunbrystet i vandet. Vær opmærksom på at hele kalkunbrystet skal være dækket af vand, så tilsæt evt lidt mere kold vand til det dækker. Sæt i køleskabet til næste dag.
 Næste dag
-Kom løg, brødkrummer, abrikosmarmelade, tørret abrikos, rosmarin og timian, lidt fintrevet appelsinskal og piskefløde i en skål og rør det godt sammen til det er ensartet. Rør farsen i, sammen med pinjekerner, pistaciekerner, salt og peber. Lad farsen trække smag i en time i køleskabet.
+Kom løg, brødkrummer, abrikosmarmelade, tørret abrikos, rosmarin og timian, lidt fintrevet appelsinskal og piskefløde i en skål og rør det godt sammen til det er ensartet. Rør farsen i, sammen med pinjekerner, pistaciekerner, salt og peber. Lad farsen trække smag i en time i køleskabet.
 Tag kalkunbrystet op af saltlagen og dup grundigt med køkkenrulle. Læg kalkunbrystet på et skærebræt med den glatte overside vendt ned. Skær to snit hele vejen ned langs kalkunbrystet fra midten ind igennem brystet, så kalkunbrystet kan åbnes op, lidt som en skjorte. Form en aflang pølse af fyldet og læg den på midten af det åbne kalkunbryst. Fold først den ene side stramt over og derefter den anden side, så kalkunkødet lukker sig stramt sammen om fyldet. Sæt kødnåle i, så stegen holder sig lukket.
 Vend stegen rundt. Smør kalkunstegen med et tyndt lag smør og pak derefter ind i bacon, så baconskiverne overlapper hinanden. Kom i et smurt ovnfast fad.
 Fordel løg, porre, gulerødder, bladselleri, laurbærblade, timian, peberkorn og vand i bradepanden. Steg kalkunstegen i en forvarmet ovn ved 200 grader alm ovn i 1 1/2 time eller til kernetemperaturen på kalkunbrystet er 70 grader.
@@ -4848,7 +4771,7 @@ Tilsæt knoldselleri og kartofler og rør godt igennem. Tilsæt grøntsagsbouill
 Blend med hvidløgsflødeost til en cremet suppe og smag den godt til med citronskal, en smule citronsaft, salt og friskkværnet peber.
 Server med et drys purløg og ristet rugbrød'),
   (9530, 'Vegetar cowboytoast', 'https://www.valdemarsro.dk/vegetar-cowboytoast/', 'https://www.valdemarsro.dk/wp-content/2025/02/cowboytoast-vegetar-kopi.jpg', '120', '4 servings', 'Bløde løg
-Smelt smør på en pande ved middelvarme og kom løgene på. Lad dem simre ved lav – middelvarme, til de bliver helt bløde og begynder at karamellisere en anelse. Kom løgene i en skål og sæt dem i køleskabet, så de køler hurtigt af.
+Smelt smør på en pande ved middelvarme og kom løgene på. Lad dem simre ved lav - middelvarme, til de bliver helt bløde og begynder at karamellisere en anelse. Kom løgene i en skål og sæt dem i køleskabet, så de køler hurtigt af.
 Fyld
 Sauter løg i en gryde med olie og smør i 5-7 minutter, til løgene er bløde. Kom gulerødder, squash, hvidløg, timian og rosmarin i gryden og sauter i et minuts tid.
 Tilføj hakkede tomater, grøntsagsbouillon, belugalinser. Rør majsstivelse ud i piskefløde, og kom det i gryden sammen med rødvin. Rør det sammen, læg låg på og lad det simre ved middel-lav varme i 30 minutter. Smag til med tomatpuré, salt og peber og lad retten simre yderligere 15-20 minutter.
@@ -4893,7 +4816,7 @@ Vend mayonnaise, cremefraiche, rødløg, purløg, dijonsennep, sød sennep, salt
   (9557, 'Kalkunbryst med hvidløg, tomat og basilikum', 'https://www.valdemarsro.dk/kalkunbryst/', 'https://www.valdemarsro.dk/wp-content/2025/04/kalkun-med-hvidloeg-floedeost.jpg', '150', '8 servings', 'Rør saltlagen sammen til sukker og salt er opløst.
 Læg kalkunbrystet på et skærebræt med den glatte overside vendt ned. Skær to snit hele vejen ned langs kalkunbrystet fra midten ind igennem brystet, så kalkunbrystet kan åbnes op, lidt som en skjorte. Kom kalkunbrystet i saltlagen, så kødet er dækket og sæt i køleskabet i en times tid.
 Rør hvidløgsflødeost, soltørrede tomater, hvidløg, rosmarin, basilikum og pinjekerner sammen i en skål. Tilsæt lidt olie fra de soltørrede tomater til konsistensen er cremet og lækker smørbar.
-Tag kalkunbrystet op af saltlagen og dup grundigt med køkkenrulle. Smør fyldet på kalkunbrystet og rul det sammen til en stram rouladesteg. Sæt kødnåle i, så stegen holder sig lukket. Vend stegen rundt. Smør kalkunstegen med et tyndt lag smør og pak derefter ind i bacon, så baconskiverne overlapper hinanden. Kom i et smurt ovnfast fad. Steg kalkunstegen i en forvarmet ovn ved 180 grader alm ovn i 1 1/2 time eller til kernetemperaturen på kalkunbrystet er 70-73 grader – dryp væden fra fadet over kalkunbrystet cirka hver 15. minut.
+Tag kalkunbrystet op af saltlagen og dup grundigt med køkkenrulle. Smør fyldet på kalkunbrystet og rul det sammen til en stram rouladesteg. Sæt kødnåle i, så stegen holder sig lukket. Vend stegen rundt. Smør kalkunstegen med et tyndt lag smør og pak derefter ind i bacon, så baconskiverne overlapper hinanden. Kom i et smurt ovnfast fad. Steg kalkunstegen i en forvarmet ovn ved 180 grader alm ovn i 1 1/2 time eller til kernetemperaturen på kalkunbrystet er 70-73 grader - dryp væden fra fadet over kalkunbrystet cirka hver 15. minut.
 Kog kartoflerne i en gryde med letsaltet vand til de er akkurat møre. Hæld vandet fra og fordel kartoflerne på en bageplade med bagepapir og knus dem med undersiden af et glas.
 Tag kødet ud af ovnen og lad det hvile på et skærebræt eller et fad, evt overdækket med folie. Pensl kartoflerne med fonden og fedtet fra kalkunstegen og bag kartoflerne i en ovn ved 230 grader varmluft i cirka 15 minutter, mens kalkunbrystet hviler.
 Rør en vinaigrette sammen af citronsaft, citronskal, olie, salt og peber. Anret salaten med pinjekerner, tomater og basilikum og dryp vinaigretten over.
@@ -4936,8 +4859,8 @@ Varm olie på en pande og steg halloumiskiver på begge sider til de er gyldne o
 Fyld fladbrødene med tzatziki, grøntsager, syltede rødløg, oliven og sprødstegt halloumi.'),
   (9575, 'Hash Browns', 'https://www.valdemarsro.dk/hash-browns/', 'https://www.valdemarsro.dk/wp-content/2025/08/hashbrowns.jpg', '30', '4 servings', 'Kom groftrevet kartoffel i en skål med koldt vand og lad dem stå i 1-2 minutter. Hæld vandet fra gennem en sigte og lad kartoflerne dryppe af. Pres dem let i sigten, så overskydende vand presses fra. Kom derefter kartoflerne i et rent klæde og vrid al overskydende vand fra.
 Pisk æggene sammen med salt og peber i en skål og vend kartofler og finthakket løg deri.
-Varm olie og smør i en stor stegepande og kom kartoffelblandingen på med en spiseske – jeg bruger 2 spsk fulde til hver hash brown. Tryk dem flade med en spartel til omkring 1 cm tykkelse, steg i 2-3 minutter til de er perfekt gyldne og sprøde på den ene side. Vend dem derefter med en spartel og steg 2-3 minutter på den anden side.'),
-  (9581, 'Kylling i fad med kokosmælk og karry', 'https://www.valdemarsro.dk/kylling-i-fad-med-kokosmaelk-og-karry/', 'https://www.valdemarsro.dk/wp-content/2023/11/kylling-karry-fad.jpg', '45', '4 servings', 'Skær kyllingekødet i strimler og vend dem i hvedemel, salt og peber. Brun dem hurtigt af på en varm pande med olie. Tag kødet af panden, og kom løg, hvidløg og porre på den samme pande – tilføj lidt ekstra olie hvis nødvendigt. Sauter løg og porre til de er bløde.
+Varm olie og smør i en stor stegepande og kom kartoffelblandingen på med en spiseske - jeg bruger 2 spsk fulde til hver hash brown. Tryk dem flade med en spartel til omkring 1 cm tykkelse, steg i 2-3 minutter til de er perfekt gyldne og sprøde på den ene side. Vend dem derefter med en spartel og steg 2-3 minutter på den anden side.'),
+  (9581, 'Kylling i fad med kokosmælk og karry', 'https://www.valdemarsro.dk/kylling-i-fad-med-kokosmaelk-og-karry/', 'https://www.valdemarsro.dk/wp-content/2023/11/kylling-karry-fad.jpg', '45', '4 servings', 'Skær kyllingekødet i strimler og vend dem i hvedemel, salt og peber. Brun dem hurtigt af på en varm pande med olie. Tag kødet af panden, og kom løg, hvidløg og porre på den samme pande - tilføj lidt ekstra olie hvis nødvendigt. Sauter løg og porre til de er bløde.
 Tilsæt karry, koriander og spidskommen, og rør det godt igennem. Tilsæt derefter kokosmælk, piskefløde, grøntsagsboullion og spinat. Kog op og smag godt til med saften fra ananas, salt og peber.
 Kom derefter i et smurt ovnfast fad sammen med kylling, broccoli og ananas. Bag i en forvarmet ovn ved 190 grader varmluft i cirka 20-25 minutter. Kog imens risene efter anvisning på emballagen.
 Server med ris, peanuts og et drys persille.'),
@@ -4960,7 +4883,7 @@ Rist auberginetern på panden under konstant omrøring til de har en fin stegesk
 Servering
 Server fladbrød med hummus, fritterede aubergine, syltede grøntsager, feta og sriracha.'),
   (9595, 'Chicken Cæsar Tacos', 'https://www.valdemarsro.dk/chicken-caesar-tacos/', 'https://www.valdemarsro.dk/wp-content/2024/10/chicken-caesar-tacos.jpg', '45', '4 servings', 'Cæsardressing
-Blend ingredienserne – undtagen mayo og cremefraiche – sammen til dressingen. Rør mayonnaise og cremefraiche i og smag til med fintrevet citronskal, salt og peber.
+Blend ingredienserne - undtagen mayo og cremefraiche - sammen til dressingen. Rør mayonnaise og cremefraiche i og smag til med fintrevet citronskal, salt og peber.
 Chicken Cæsar Tacos
 Del kødet i portioner til antal tortillas. Form kyllingefarsen til flade tynde bøffer og pres dem godt ud på hver tortilla wrap, så kødet når ud til kanten af hver wrap. Drys med salt og peber. Varm 1-2 store pander op med olie og steg hver tortilla med kødsiden ned i 1-2 minutter, vend tortillaen om, fordel lidt ost på kødsiden og steg i yderligere 1 minut. Fortsæt med de andre tortillas
 Top hver cæsar chicken tacos med sprød romainesalat, friskrevet parmesan og cæsardressing. Server straks.
@@ -4989,7 +4912,7 @@ Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene
 Rør risotto sammen med friskrevet parmesan, og smag retten godt til med et par dråber citronsaft efter smag, fintrevet citronskal, salt og friskkværnet peber.
 Jomfruhummerhaler
 Bring en stor gryde med vand i kog. Tilsæt citronsaft, citronskal, dild, cayennepeber, salt og peber når vandet koger.
-Kom hummerne i det spilkogende vand, undgå at vandet koger op igen, det skal holdes på en temperatur på 90 grader – mål med termometer. Jomfruhummerne kommer op til overfladen når de er færdige og de skal have max 1-2 minutter i gryden med vandet. Hæld vandet fra og server straks de dampende varme jomfruhummere. Skal de serveres noget tid efter de er kogt, så vær ekstra omhyggelig med at tage dem af varmen og op af det kogende vand, straks de rammer overfladen af vandet i gryden.
+Kom hummerne i det spilkogende vand, undgå at vandet koger op igen, det skal holdes på en temperatur på 90 grader - mål med termometer. Jomfruhummerne kommer op til overfladen når de er færdige og de skal have max 1-2 minutter i gryden med vandet. Hæld vandet fra og server straks de dampende varme jomfruhummere. Skal de serveres noget tid efter de er kogt, så vær ekstra omhyggelig med at tage dem af varmen og op af det kogende vand, straks de rammer overfladen af vandet i gryden.
 Servering
 Server citronrisotto med jomfruhummer og dild'),
   (9610, 'Pesto Pasta', 'https://www.valdemarsro.dk/pesto-pasta/', 'https://www.valdemarsro.dk/wp-content/2024/05/pesto-pasta.jpg', '15', '4 servings', 'Kom pastaen al dente efter anvisning på emballagen.
@@ -5036,7 +4959,7 @@ Skær kylling i skiver og lun tortillapandekagerne på en pande til pandekagerne
 Fyld tortillawraps med salat, saftig kylling, croutoner og dressing, samt lidt ekstra friskrevet parmesan.'),
   (9631, 'Pizza bolo', 'https://www.valdemarsro.dk/pizza-bolo/', 'https://www.valdemarsro.dk/wp-content/2023/11/pizza-bolo.jpg', '1440', '2 servings', 'Pizzadej
 Opløs gær i en skål med stuetemperet vand. Kom 1/3 mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
-Smør en ren skål med olivenolie, kom dejen i skålen og vend den, så den er dækket af olivenolie. Lad dejen hæve i 45 minutter ved stuetemperatur og sæt den derefter i køleskabet til næste dag.
+Smør en ren skål med olivenolie, kom dejen i skålen og vend den, så den er dækket af olivenolie. Lad dejen hæve i 45 minutter ved stuetemperatur og sæt den derefter i køleskabet til næste dag.
 Bolo
 Steg bacon i olivenolie i en tykbundet gryde ved middel varme. Tag baconen op og lad den dryppe af på et stykke køkkenrulle og hak derefter fint.
 Kom løg, hvidløg, timian og rosmarin i gryden med baconfedt og sauter under omrøring, til løgene er bløde. Tilsæt kødet, skrue op for varmen og brun kødet godt af.
@@ -5057,7 +4980,7 @@ Server Kylling Stroganoff med kartoffelmos og et drys bredbladet persille.'),
 Del kødet i portioner til antal tortillawraps. Form oksekødet til flade tynde bøffer og pres dem godt ud på hver tortilla wrap, så kødet når ud til kanten af hver wrap. Drys med salt og peber. Varm 1-2 store pander op med olie og steg hver tortilla med kødsiden ned i 1-2 minutter, vend tortillaen om, fordel lidt ost på kødsiden og steg i yderligere 1 minut.
 Top hver tortilla tacos med sprød iceberg, tomater, agurk, cornichoner, rødløg og burgerdressing. Server og nyd som tacos'),
   (9640, 'Taco med kylling', 'https://www.valdemarsro.dk/tacos-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2023/02/tacos-pulled-chicken.jpg', '240', '4 servings', 'Pulled chicken
-Rør sød paprika, røget paprika, spidskommen, brun farin, hvidløg, sriracha, flagesalt og friskkværnet peber godt sammen. Gnid kyllingebrysterne godt ind i marinaden. Sæt på køl i en lufttæt beholder i minimum 30 minutter – eller til næste dag. Smør en støbejernsgryde godt med smør i bunden og siderne og kom kyllingekødet i gryden.
+Rør sød paprika, røget paprika, spidskommen, brun farin, hvidløg, sriracha, flagesalt og friskkværnet peber godt sammen. Gnid kyllingebrysterne godt ind i marinaden. Sæt på køl i en lufttæt beholder i minimum 30 minutter - eller til næste dag. Smør en støbejernsgryde godt med smør i bunden og siderne og kom kyllingekødet i gryden.
 Hæld grøntsagsbouillon ved, læg låg på og sæt gryden i en forvarmet ovn ved 125 grader alm. ovn i 3 timer.
 Tag kødet op af gryden og træk kødet fra hinanden med to gafler.
 Mangosalsa
@@ -5070,7 +4993,7 @@ Kog imens pastaen efter anvisning på emballagen til den er lige knap færdigkog
 Smag pølsegryden til med parmesan samt salt og peber.
 Server med parmesan og et drys finthakket basilikum'),
   (9646, 'Hele kogte jomfruhummere', 'https://www.valdemarsro.dk/hele-kogte-jomfruhummere/', 'https://www.valdemarsro.dk/wp-content/2024/08/jomfruhummere.jpg', '15', '4 servings', 'Bring en stor gryde med vand i kog. Tilsæt citronsaft, citronskal, dild, cayennepeber, salt og peber når vandet koger.
-Kom hummerne i det spilkogende vand, undgå at vandet koger op igen, det skal holdes på en temperatur på 90 grader – mål med termometer. Jomfruhummerne kommer op til overfladen når de er færdige og de skal have max 1-2 minutter i gryden med vandet. Hæld vandet fra og server straks de dampende varme jomfruhummere. Skal de serveres noget tid efter de er kogt, så vær ekstra omhyggelig med at tage dem af varmen og op af det kogende vand, straks de rammer overfladen af vandet i gryden.
+Kom hummerne i det spilkogende vand, undgå at vandet koger op igen, det skal holdes på en temperatur på 90 grader - mål med termometer. Jomfruhummerne kommer op til overfladen når de er færdige og de skal have max 1-2 minutter i gryden med vandet. Hæld vandet fra og server straks de dampende varme jomfruhummere. Skal de serveres noget tid efter de er kogt, så vær ekstra omhyggelig med at tage dem af varmen og op af det kogende vand, straks de rammer overfladen af vandet i gryden.
 Server jomfruhummerne på et stort fad med godt brød, smør, mayo eller aioli og citroner i både til at dryppe saft over det lækre skaldyrskød.'),
   (9649, 'Kylling med svampesauce', 'https://www.valdemarsro.dk/kylling-med-svampesauce/', 'https://www.valdemarsro.dk/wp-content/2023/01/kylling-svampesauce.jpg', '45', '4 servings', 'Ovnbagte kartofler
 Vend kartoflerne med olie og salt og bag dem i en forvarmet ovn ved 220 grader varmluft i cirka 30 minutter eller til de er sprøde. Vend dem et par gange undervejs.
@@ -5088,9 +5011,9 @@ Vend olie, hvidløg, rosmarin, salt og peber sammen i en skål og vend tomaterne
 Del de friske lasagneplader i stykker på ca 25 cm og bring en gryde med letsaltet vand i kog og kog de store stykker lasagneplader efter anvisning på emballagen. Tag den op af gryden og lad dem dryppe kort af.
 Anret på tallerkener lag på lag med lasagneplader, stracciatella, pesto, bagte tomater med rødløg, rucola og afslut med et drys pinjekerner, tomater, et par striber balsamicoglace, basilikum, lidt fintrevet ost og friskkværnet peber.'),
   (9655, 'Salat med butterbeans og tuncreme', 'https://www.valdemarsro.dk/salat-med-butterbeans-og-tuncreme/', 'https://www.valdemarsro.dk/wp-content/2021/03/salat-tuncreme-butterbeans.jpg', '20', '4 servings', 'Kom tun, cremefraiche og kapers i en foodprocessor og kør det til en glat creme.
-Vend tuncremen med butterbeans og anret på et fad med feldsalat og rucola. Drys med rugbrøds­croutoner og kapersbær og afslut med en smule flagesalt og friskkværnet peber.
+Vend tuncremen med butterbeans og anret på et fad med feldsalat og rucola. Drys med rugbrødscroutoner og kapersbær og afslut med en smule flagesalt og friskkværnet peber.
 Rugbrødscroutoner
-Skær brødet ud i små tern og vend brød­ ternene med friskpresset hvidløg, timian, salt og friskkværnet peber.
+Skær brødet ud i små tern og vend brød ternene med friskpresset hvidløg, timian, salt og friskkværnet peber.
 Rist brødternene sprøde på en varm pande med smeltet smør eller olie under hyppig omrøring, eller vend dem med olie og bag dem i en forvarmet ovn ved 175 grader varmluft i 15 minutter, til de er sprøde.'),
   (9658, 'Pasta med græskar', 'https://www.valdemarsro.dk/pasta-med-graeskar/', 'https://www.valdemarsro.dk/wp-content/2022/11/pasta-graeskar.jpg', '45', '4 servings', 'Vend græskartern i olie, salt og peber og fordel dem på en bradepande med bagepapir. Bag i en forvarmet ovn ved 180 grader varmluft i 20 minutter til de er møre, og begynder at tage lidt farve.
 Rist valnøddekerner og græskarkerner på en tør pande, til de første græskarkerner begynder at poppe. Tilsæt smør og salvie og lad det stå ved middel-lav varme.
@@ -5163,17 +5086,17 @@ Kom en skefuld wasabidip på hver og drys sesamfrø over og server med limebåde
 Wasabi dip
 Kom avocado, wasabi, mayonnaise, hvidløg, limesaft og skal, samt soja og peber i en minihakker og kør til det er en ensartet wasabi dip. Smag til.'),
   (9697, 'Harira - marokkansk suppe', 'https://www.valdemarsro.dk/harira-marokkansk-suppe/', 'https://www.valdemarsro.dk/wp-content/2022/01/harira.jpg', '35', '4 servings', 'Ristede kikærter
-Vend kikærterne med olivenolie, røget paprika og salt og bag dem på bagepapir i en forvarmet ovn ved 175 grader varm­ luft i ca. 20­-25 minutter. Vend dem et par gange undervejs.
+Vend kikærterne med olivenolie, røget paprika og salt og bag dem på bagepapir i en forvarmet ovn ved 175 grader varm luft i ca. 20-25 minutter. Vend dem et par gange undervejs.
 Harira Suppe
 Rist spidskommen og koriander i en varm tør gryde, rør til det dufter. Skru ned for varmen og kom olie, løg og hvidløg på og sauter under omrøring, til løgene bliver bløde.
 Tilsæt bladselleri, tomatpuré, hakkede tomater, squash, gurkemeje, ingefær, chili, sød paprika, røget paprika, safran, grøntsagsbouillon, kikærter og røde linser.
-Varm op til kogepunktet under omrøring, læg låg på og skru ned for varmen og lad suppen simre i ca. 20­-25 minutter.
+Varm op til kogepunktet under omrøring, læg låg på og skru ned for varmen og lad suppen simre i ca. 20-25 minutter.
 Smag til med citronsaft, salt og peber og server den rygende varme suppe med ristede kikærter, mynte og persille.'),
   (9700, 'Jordskokkesalat med rugkerner', 'https://www.valdemarsro.dk/jordskokkesalat/', 'https://www.valdemarsro.dk/wp-content/2021/03/jordskokkesalat.jpg', '45', '4 servings', 'Kog rugkernerne efter anvisning på pakken.
-Vend jordskokker med olie, salt og peber og fordel dem på en bageplade med bagepapir. Bag dem i en forvar­ met ovn ved 175 grader varmluft i ca. 20-­25 minutter, til de er møre og gyldne.
+Vend jordskokker med olie, salt og peber og fordel dem på en bageplade med bagepapir. Bag dem i en forvar met ovn ved 175 grader varmluft i ca. 20-25 minutter, til de er møre og gyldne.
 Rist imens hasselnødderne på en varm tør pande under omrøring, til hinderne begynder at løsne sig.
 Tag nødderne af panden og gnid hinderne af i et rent klæde. Kom nødderne tilbage på panden, varm dem op og hæld ahornsirup på. Rør godt rundt og hæld derefter hasselnødderne ud på et stykke bagepapir, lad dem køle af og hak dem groft.
-Vend rucola, de afkølede rugkerner og bagte jordskok­ker sammen på et fad. Dryp hasselnøddedressing over og drys til sidst med grofthakkede hasselnødder.
+Vend rucola, de afkølede rugkerner og bagte jordskokker sammen på et fad. Dryp hasselnøddedressing over og drys til sidst med grofthakkede hasselnødder.
 Hasselnøddedressing
 Gør dressingen sammen, juster konsistensen med vand, til den er tyktflydende, og lad den stå og trække smag.'),
   (9703, 'Fyldte græskar med chiligryde', 'https://www.valdemarsro.dk/fyldte-graeskar-med-chiligryde/', 'https://www.valdemarsro.dk/wp-content/2021/09/graeskar-chiligryde-1.jpg', '60', '4 servings', 'Sauter løg og hvidløg i en gryde med lidt olie, til de er bløde. Tilsæt spidskommen, koriander og chiliflager og rør det godt igennem til krydderierne dufter dejligt. Kom oksekød i gryden og brun det af, tilsæt hakkede tomater, soltørrede tomater, grøntsagsbouillon, squash og gulerødder.
@@ -5187,16 +5110,16 @@ Form 10 deller og læg dem på en bradepande med bagepapir. Pensl med olie og ba
   (9709, 'Pommes Frites', 'https://www.valdemarsro.dk/pommes-frites/', 'https://www.valdemarsro.dk/wp-content/2021/06/pommes-frites.jpg', '120', '4 servings', 'Skrub eller skræl kartoflerne. Hvis der blot sidder en tynd fin skal, så er det fint blot at skrubbe dem.
 Skær kartoflerne i lige store pommes frites og kom dem i en stor skål med koldt vand. Skift vandet 5-6 gange i løbet af en time, så stivelsen udvandes fra kartoflerne.
 Kom kartoflerne i en gryde med kogende saltet vand tilsat æblecidereddike og kog dem i cirka 10 minutter, til de er næsten møre. Hæld vandet fra og lad dem køle af på et viskestykke.
-Step 1 – forkog pommes frites første gang
+Step 1 - forkog pommes frites første gang
 Varm fritureolien op til cirka 150 grader. Kog lidt pommes frites ad gangen. Det er afgørende for et godt resultat at man tager sig tid og blot koger nogle stykker ad gangen, så de ikke ligger for tæt i olien. De skal have cirka 5 minutter og blot lige knap tage lidt farve. Læg dem på et stykke bagepapir, efterhånden som de er kogt i olien.
 De forkogte pommesfrites kan nu gemmes til lige inden servering, de kan fryses ned eller de kan tilberedes færdigt.
-Step 2 – lige inden servering
-Varm fritureolien op til 180 grader og steg pommes frites – igen en lille portion af gangen – til de er sprøde og smukt gyldne. Lad dem dryppe af på køkkenrulle og server straks de varme fritter.'),
+Step 2 - lige inden servering
+Varm fritureolien op til 180 grader og steg pommes frites - igen en lille portion af gangen - til de er sprøde og smukt gyldne. Lad dem dryppe af på køkkenrulle og server straks de varme fritter.'),
   (9712, 'Spidskålssalat med gulerødder og urter', 'https://www.valdemarsro.dk/spidskaalssalat-med-guleroedder-og-urter/', 'https://www.valdemarsro.dk/wp-content/2021/03/gulerod-salat_spidskaal.jpg', '40', '4 servings', 'Saltede mandler
 Opløs salt i vandet og vend mandlerne deri.
-Fordel mandler og vand ud på en bage­ plade med bagepapir og bag dem i ovnen ved 150 grader varmluft i 15 minutter, til vandet er fordampet, og mandlerne er sprøde. Lad dem køle af på bagepladen.
+Fordel mandler og vand ud på en bage plade med bagepapir og bag dem i ovnen ved 150 grader varmluft i 15 minutter, til vandet er fordampet, og mandlerne er sprøde. Lad dem køle af på bagepladen.
 Spidskålssalat
-Kom spidskålen i en skål og skræl lange strimler af gulerødderne med en tyndskræller eller kartoffel­ skræller og vend dem i spidskålen.
+Kom spidskålen i en skål og skræl lange strimler af gulerødderne med en tyndskræller eller kartoffel skræller og vend dem i spidskålen.
 Rør vinaigretten sammen og hæld den over salaten sammen med finthakket persille. Lad gerne salaten trække i 30 minutter og drys derefter med saltede mandler inden servering.
 Klassisk vinaigrette
 Kom alle ingredienserne i en skål og rør det godt sammen, til vinaigretten er ensartet i konsistensen.'),
@@ -5221,13 +5144,13 @@ Temperer chokoladen og spred chokoladen ud på bagepapir, drys med hasselnødder
 Vend edamamebønnerne med jordbær og feta, anret på et fad eller en stor tallerken og smag til med friskkværnet peber, flagesalt og et dryp lime.'),
   (9727, 'Bagte asparges og tomater med citron og parmesan', 'https://www.valdemarsro.dk/bagte-asparges/', 'https://www.valdemarsro.dk/wp-content/2021/06/bagt-tomat-asparges.jpg', '25', '4 servings', 'Bræk enderne af asparges og vend asparges, halverede tomater, hvidløg, citronsaft, parmesan og olivenolie godt sammen på en bradepande med bagepapir. Bred det ud og bag i en forvarmet ovn ved 175 grader varmluft i 15 minutter.
 Anret på et salatfad og riv citronskal og lidt ekstra parmesan over. Drys med flagesalt og friskkværnet peber inden servering.'),
-  (9730, 'Grøn chilidip med jalapenos', 'https://www.valdemarsro.dk/groen-chilidip/', 'https://www.valdemarsro.dk/wp-content/2021/06/groen-chilidip.jpg', '5', '6 servings', 'Kom alle ingredienserne – undtagen salt og peber og gem gerne en smule koriander til at drysse over – i en foodprocessor og kør til det er en glat cremet dip.
+  (9730, 'Grøn chilidip med jalapenos', 'https://www.valdemarsro.dk/groen-chilidip/', 'https://www.valdemarsro.dk/wp-content/2021/06/groen-chilidip.jpg', '5', '6 servings', 'Kom alle ingredienserne - undtagen salt og peber og gem gerne en smule koriander til at drysse over - i en foodprocessor og kør til det er en glat cremet dip.
 Smag godt til med salt og peber og eventuelt mere limesaft.'),
   (9733, 'Stegt rødspætte med persillesauce', 'https://www.valdemarsro.dk/stegt-roedspaette/', 'https://www.valdemarsro.dk/wp-content/2021/04/stegt-roedspaette.jpg', '45', '4 servings', 'Stegt Rødspætte
-Skyl og rens rødspætterne grundigt og dub dem tørre med køkkenrulle. Vend dem i sammenpisket æg  og derefter i rugmel blandet med salt og peber. Lad dem hvile i 10 minutter, så paneringen sætter sig.
+Skyl og rens rødspætterne grundigt og dub dem tørre med køkkenrulle. Vend dem i sammenpisket æg  og derefter i rugmel blandet med salt og peber. Lad dem hvile i 10 minutter, så paneringen sætter sig.
 Smelt smør og olie på en pande og steg rødspætterne gyldne ved middel varme i 7-8 minutter på hver side. Vent gerne med at vende dem til de er helt færdigstegt på den ene side, hvorefter de kan stege færdig på den anden side.
 Kartoflerne
-Kom  kartoflerne i en gryde med rigeligt letsaltet koldt vand, kog op og kog derefter i 15-20 minutter, eller til de er møre alt efter størrelsen af kartoflerne. Tjek om de er klar og møre og hæld derefter vandet fra gryden og gem lidt af kartoffelvandet til saucen.
+Kom  kartoflerne i en gryde med rigeligt letsaltet koldt vand, kog op og kog derefter i 15-20 minutter, eller til de er møre alt efter størrelsen af kartoflerne. Tjek om de er klar og møre og hæld derefter vandet fra gryden og gem lidt af kartoffelvandet til saucen.
 Persillesovs
 Smelt smør i en lille kasserolle og piske hvedemel i til en melbolle. Pisk derefter mælk og kartoffelvand i lidt ad gangen til saucen har en god konsistens.
 Kog persillesaucen igennem et par minutter under omrøring og smag den derefter til med citronsaft, fintrevet citronskal, masser af persille, salt og peber.
@@ -5270,7 +5193,7 @@ Sprøjt små toppe af cremen i æggehviderne, pynt med lidt stenbiderrogn og dil
 Kom olie, sød paprika, røget paprika, flagesalt og sesamfrø i en stor skål og rør det godt sammen. Vend kartoffelbådene godt i krydderolien.
 Fordel kartoflerne på en bradepande med bagepapir og bag i en forvarmet ovn ved 175 grader i cirka 30 minutter.'),
   (9757, 'Bradepandepizza med kartoffel og oliven', 'https://www.valdemarsro.dk/bradepandepizza-med-kartofler/', 'https://www.valdemarsro.dk/wp-content/2021/03/bradepandepizza-kartoffel.jpg', '180', '4 servings', 'Dej til bradepandepizza
-Kom vand i en skål og rør gær ud i vandet. Kom olie og fuldkornsmel i skålen og rør det godt sammen til en lind dej. Rør hvedemel i lidt efter lidt  – gerne på en røremaskine i 10 minutter. Rør tilsidst salt i dejen.
+Kom vand i en skål og rør gær ud i vandet. Kom olie og fuldkornsmel i skålen og rør det godt sammen til en lind dej. Rør hvedemel i lidt efter lidt  - gerne på en røremaskine i 10 minutter. Rør tilsidst salt i dejen.
 Kom dejen i en ren skål og lad dejen hæve overdækket i 1 time på køkkenbordet. Rul dejen ud til en stor bradepande størrelse og læg den i en bradepande med bagepapir. Lad pizzadejen hæve i 45 minutter.
 Lad mozzarella dryppe godt af, skær den i skiver og dup med køkkenrulle. Smør forsigtigt dejen med cremefraiche og fordel kartoffelskiver, rødløg, oliven og mozzarella på. Drys med lidt salt og peber, samt et par dryp olivenolie.
 Bag i en forvarmet ovn ved 180 grader varmluft i cirka 25-30 minutter.
@@ -5283,7 +5206,7 @@ Bag i en forvarmet ovn ved 175 grader varmluft i cirka 20-30 minutter, til knæk
 Smelt smør i en gryde ved lav varme.
 Rør gæren ud i en skål med stuetempereret mælk, tag gryden med den smeltede smør af varmen og rør smør, vaniljesukker, sukker og æg i mælken.
 Rør fuldkornshvedemel, kardemomme og salt sammen og rør det i skålen med de våde ingredienser.
-Sigt hvedemel i dejen og ælt dejen godt – gerne i en røremaskine – i 5-10 minutter. Dejen skal være smidig og blød, den sætter sig, når den hæver. Der skal ikke ekstra mel i.
+Sigt hvedemel i dejen og ælt dejen godt - gerne i en røremaskine - i 5-10 minutter. Dejen skal være smidig og blød, den sætter sig, når den hæver. Der skal ikke ekstra mel i.
 Lad dejen hæve i en skål med et rent viskestykke over i 45 minutter.
 Vaniljecreme
 Pisk æggeblomme, sukker, majsstivelse og vaniljekorn godt sammen i gryde og pisk mælk i lidt efter lidt, mens cremen langsomt varmes op til kogepunktet.
@@ -5311,22 +5234,22 @@ Smag til med saltflager.
 Form smørret til en aflang rulle og pak den ind i bagepapir eller madpakkepapir.
 Sæt på køl i 30 minutter inden servering.'),
   (9962, 'Kryddersmør - 5 varianter', 'https://www.valdemarsro.dk/kryddersmoer-2/', 'https://www.valdemarsro.dk/wp-content/2016/05/kryddersmoer-1.jpg', '30', '5 servings', 'Ved alle opskrifterne på kryddersmør gælder samme fremgangsmåde:
-I en ren stor skål røres smør med krydderurter og de nævnte råvarer – smag til med saltflager.
+I en ren stor skål røres smør med krydderurter og de nævnte råvarer - smag til med saltflager.
 Når smørret er jævnt rørt med krydderurter, røres det til en kugle, som rulles i et stykke bagepapir eller madpakkepapir.
-Rul enderne sammen, som på billederne, og sæt på køl i 30-30 minutter inden servering.
+Rul enderne sammen, som på billederne, og sæt på køl i 30-30 minutter inden servering.
 Skær ud i skiver og anret i flere små skåle, så det er nemt at forsyne sig ved bordet.
 Rørt kryddersmør kan fint holde sig 14 dage på køl.'),
   (9965, 'Labneh - drænet yoghurt frisk ost', 'https://www.valdemarsro.dk/labneh-mellemoestlig-frisk-ost/', 'https://www.valdemarsro.dk/wp-content/2017/07/labneh.jpg', '1440', '1 serving', 'Rør yoghurt og salt sammen.
-Sæt et kaffefilter over et glas og fastgør det på kanten med en elastik.
-Kom yoghurt i kaffefilteret og stil i køleskabet – muligvis skal du bruge to glas med et kaffefilter i hver.
+Sæt et kaffefilter over et glas og fastgør det på kanten med en elastik.
+Kom yoghurt i kaffefilteret og stil i køleskabet - muligvis skal du bruge to glas med et kaffefilter i hver.
 Lad yoghurten dræne i et døgnstid.
 Skrab den drænede yoghurt ud af kaffefilteret og kom den i en skål eller form små kugler af ost, som kan opbevares i olie i et glas.
 Labneh kan smages til med krydderier alt efter ønske
-Smagsforslag 
+Smagsforslag 
 sumak, mynte eller andre krydderurter, olivenolie
 Opskriften giver ca 1 1/2 dl'),
   (9968, 'Butterbeans hummus', 'https://www.valdemarsro.dk/butterbean-hummus/', 'https://www.valdemarsro.dk/wp-content/2012/03/butterbean-hummus.jpg', '15', '1 serving', 'Start med at komme tahin og citronsaft i blenderen eller foodprocessoren og kør i et minut.
-Tilsæt derefter alle de andre ingredienser og kør i yderligere et minut, til det er helt cremet og fløjlsblødt.
+Tilsæt derefter alle de andre ingredienser og kør i yderligere et minut, til det er helt cremet og fløjlsblødt.
 Vurder om konsistensen skal justeres med lidt koldt vand.
 Opskriften giver ca 3 dl hummus'),
   (9970, 'Wok med kål og friterede spejlæg', 'https://www.valdemarsro.dk/wok-med-kaal-og-friterede-spejlaeg/', 'https://www.valdemarsro.dk/wp-content/2023/01/wok-kaal-spejlaeg.jpg', '30', '4 servings', 'Rør woksaucen sammen og vend den med kål, løg og gulerødder i en stor skål.
@@ -5334,7 +5257,7 @@ Varm en wok eller pande op med olie. Slå æggene ud på den brandvarme pande me
 Kom lidt ekstra olie på panden/wokken og kom kål, grønt og woksauce på den stadig brandvarme pande. Vend det hurtigt rundt i et minutstid til kålen falder sammen og det bliver mørt og lækkert.
 Server på tallerkener, top med de sprøde friterede spejlæg, og drys med flagesalt, friskkværnet peber, chiliflager, fintsnittet forårsløg og sesamfrø.'),
   (9973, 'Pho nudelsuppe med oksekød', 'https://www.valdemarsro.dk/pho-nudelsuppe-med-med-oksekoed/', 'https://www.valdemarsro.dk/wp-content/2024/02/pho-oksekoed.jpg', '30', '4 servings', 'Kom grøntsagsboullion, oksefond, fivespice, ingefær, hvidløg, fishsauce, riseddike og friskkværnet peber i en gryde og kog op til det koger. Skrue derefter ned for varmen til laveste varme og læg låg på.
-Varm en pande op med olie. Gnid bøfferne med salt og peber og steg dem i et minut på hver side ved høj varme. Skrue ned for varmen og tilsæt smør. Steg bøfferne i yderligere 1 ½ minut på hver side til de er medium stegte. Tag dem af varmen og lad dem hvile i 2 minutter.  Skær bøfferne ud i tynde skiver.
+Varm en pande op med olie. Gnid bøfferne med salt og peber og steg dem i et minut på hver side ved høj varme. Skrue ned for varmen og tilsæt smør. Steg bøfferne i yderligere 1 1/2 minut på hver side til de er medium stegte. Tag dem af varmen og lad dem hvile i 2 minutter.  Skær bøfferne ud i tynde skiver.
 Smag suppen godt til, og kog den op igen. Kog nudlerne i suppevandet efter anvisning på emballagen.
 Fordel den varme nudelsuppe i skåle, bøf i skiver, bønnespirer, forårsløg, krydderurter og chili, samt lime i både til at dryppe over.'),
   (9976, 'Bagekartofler med cremet topping og æbleslaw', 'https://www.valdemarsro.dk/bagekartofler-cremet-topping-aebleslaw/', 'https://www.valdemarsro.dk/wp-content/2023/02/bagt-kartoffel-slaw-.jpg', '60', '4 servings', 'Bagekartofler
@@ -5349,7 +5272,7 @@ Anret de halve bagekartofler toppet med cremet hvidløgs- og bacondressing og dr
 Rist sesamfrø på en tør pande og sæt dem til side til senere. Varm panden op til høj varme, kom olie på og rist svampene til de får en flot gyldenbrun stegeskorpe. Kom til sidst shiitakesvampene på panden, vend det sammen og skru ned for varmen til middelvarme.
 Kom grøntsagsbouillon i en gryde med tomat, ingefær og hvidløg og kog op. Tag af varmen, rør misopasta i gryden og smag til med soja.
 Fordel nudler, svampe, spinat, pak choi, gulerodsstrimler, forårsløg og koriander i skåle. Hæld misosuppen over og anret med smilende æg, chiliflager, sesamfrø og limebåde til at dryppe over.'),
-  (9982, 'Pico de gallo', 'https://www.valdemarsro.dk/pico-de-gallo/', 'https://www.valdemarsro.dk/wp-content/2023/06/pico-de-gallo.jpg', '20', '4 servings', 'Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen.
+  (9982, 'Pico de gallo', 'https://www.valdemarsro.dk/pico-de-gallo/', 'https://www.valdemarsro.dk/wp-content/2023/06/pico-de-gallo.jpg', '20', '4 servings', 'Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen.
 Smag godt til med mere chili, limesaft og limeskal, salt og peber efter smag.'),
   (9985, 'Løgtærte', 'https://www.valdemarsro.dk/loegtaerte/', 'https://www.valdemarsro.dk/wp-content/2024/03/loegtaerte.jpg', '90', '4 servings', 'Tærtedej
 Bland hvedemel og fuldkornsmel med salt og smuldr smør i melblandingen Det kan også køres på en foodprocessor. Saml dejen med vand, lad den gerne hvile på køl i 30 minutter. Tryk dejen ud i en smurt tærteform på 27 cm i diameter og prik hul i dejen med en gaffel.
@@ -5365,7 +5288,7 @@ Anretning
 Skær kartoflerne i tykke skiver og anret kartoflerne på en tallerken eller et fad.
 Kom en lille klat cremefraiche på hver kartoffel og derefter lidt caviar i halvdelen og lidt ørredrogn i den anden halvdel.
 Afslut med en anelse dild og persille og server straks.'),
-  (9991, 'Kylling i fad med grønt', 'https://www.valdemarsro.dk/kylling-i-fad-med-groent/', 'https://www.valdemarsro.dk/wp-content/2023/11/kylling-fad-groent.jpg', '60', '4 servings', 'Kom kartoflerne i en gryde med letsaltet koldt vand, så det akkurat dækker kartoflerne. Bring i kog og kog i 6 minutter, – kartoflerne skal ikke være kogt møre. Kom blomkålen i gryden, kog i yderligere 2 minutter og hæld derefter straks vandet fra.
+  (9991, 'Kylling i fad med grønt', 'https://www.valdemarsro.dk/kylling-i-fad-med-groent/', 'https://www.valdemarsro.dk/wp-content/2023/11/kylling-fad-groent.jpg', '60', '4 servings', 'Kom kartoflerne i en gryde med letsaltet koldt vand, så det akkurat dækker kartoflerne. Bring i kog og kog i 6 minutter, - kartoflerne skal ikke være kogt møre. Kom blomkålen i gryden, kog i yderligere 2 minutter og hæld derefter straks vandet fra.
 Steg bacon på begge sider på en pande med lidt olie, til baconskiverne er gyldne og sprøde. Sæt til side på et stykke køkkenrulle og hak groft, når det er kølet lidt af. Kom lidt ekstra olie på panden og skrue op for varmen. Rist champignon ved høj varme til de er gyldne med stegeskorpe. Sæt champignon til side.
 Vend kyllingekødet i hvedemel, salt og peber og brun hurtigt kyllingefiletterne af på alle sider.
 Kom de forkogte kartoffeltern, løg, hvidløg, champignon, bacon, blomkål, porre, hvidvin, grøntsagsboullion, piskefløde, rosmarin, timian, salt og peber i et smurt ovnfast fad og vend det godt sammen. Fordel kyllingestykkerne i fadet og tryk kyllingen lidt ned i grøntsagerne. Bag i en forvarmet ovn ved 200 grader i cirka 30 minutter.
@@ -5380,7 +5303,7 @@ Kog orzo efter anvisning på emballagen og hæld derefter vandet fra.
 Tag fadet med tomater ud af ovnen og mos tomaterne og hvidløgene sammen. Rør fintrevet parmesan ud i de varme tomater til en lækker sauce og smag til med salt og peber.
 Kom orzo i en stor skål og vend det godt sammen med tomatsaucen, friske krydderurter og drys med pinjekerner og sesam. Anret i en stor skål til servering, toppet med en kugle burrata og smuldr til sidst den sprøde parmaskinke over.'),
   (10000, 'Bowl med Pulled chicken', 'https://www.valdemarsro.dk/bowl-med-pulled-chicken/', 'https://www.valdemarsro.dk/wp-content/2023/05/bowl-pulled-chicken.jpg', '240', '4 servings', 'Pulled chicken
-Rør sød paprika, røget paprika, spidskommen, brun farin, hvidløg, sriracha, flagesalt og friskkværnet peber godt sammen. Gnid kyllingebrysterne godt ind i marinaden. Sæt på køl i en lufttæt beholder i minimum 30 minutter – eller til næste dag.
+Rør sød paprika, røget paprika, spidskommen, brun farin, hvidløg, sriracha, flagesalt og friskkværnet peber godt sammen. Gnid kyllingebrysterne godt ind i marinaden. Sæt på køl i en lufttæt beholder i minimum 30 minutter - eller til næste dag.
 Smør en støbejernsgryde godt med smør i bunden og siderne og kom kyllingekødet i gryden. Hæld grøntsagsbouillon ved og læg låg på. Sæt gryden i en forvarmet ovn ved 125 grader alm. ovn i 3 timer.
 Tag kødet op af gryden og træk kødet fra hinanden med to gafler.
 Guacamole
@@ -5401,7 +5324,7 @@ Grøntsager og spejlæg
 Kom løg og hvidløg på en pande med olie og sauter ved middelvarme til løgene er bløde. Kom spinat på og rør til det klasker let sammen. Tag fra på en tallerken og dryp med en smule soja.
 Varm panden godt op med mere olie og slå fire æg ud på den varme pande. Steg spejlæggene til hviden er fast, kanten af ægget er knasende sprødt og blommen stadig blød og flydende.
 Rør mayonnaise, cremefraiche og sriracha sammen i en skål og smag til med salt og peber.
-Fordel risene på tallerkener, fordel spinaten, de syltede gulerødder og spejlæg. Anret med sesam, chiliflager og persille. Server dressingen i en skål  til at dryppe over efter smag og behag.'),
+Fordel risene på tallerkener, fordel spinaten, de syltede gulerødder og spejlæg. Anret med sesam, chiliflager og persille. Server dressingen i en skål  til at dryppe over efter smag og behag.'),
   (10009, 'Hoisin nudler med grønt og æg', 'https://www.valdemarsro.dk/hoisin-nudler-med-groent-og-aeg/', 'https://www.valdemarsro.dk/wp-content/2023/02/hoisin-nudler.jpg', '25', '4 servings', 'Bland ingredienserne til hoisinmarinaden sammen til en sauce.
 Kog nudlerne i 1 minut kortere end der står anvist på emballagen. Hæld vandet fra nudlerne og hæld straks iskoldt vand over nudlerne, så de ikke klistrer sammen.
 Steg gulerødder, spidskål og broccoli på en pande i lidt olie i 2 minutter ved middelhøj varme. Kom nudlerne på panden og kom hoisinmarinaden over. Vend det godt sammen og skrue ned på lav varme.
@@ -5425,10 +5348,10 @@ Rør mayonnaise og cremefraiche med hvidløg, ingefær og smag til med fintrevet
 Servering
 Rist sesamfrø på en tør varme pande.
 Anret risene i dybe tallerkener, top med babyspinat, mango, spicy blomkål med kikærter og fordel dressingen over. Drys med sesamfrø, forårsløg, chiliflager og persille'),
-  (10018, 'Citrongræsrejer i wok med grønt', 'https://www.valdemarsro.dk/citrongraesrejer-i-wok-med-groent/', 'https://www.valdemarsro.dk/wp-content/2023/01/citrongraes-rejer-wok.jpg', '20', '4 servings', 'Pil det yderste lag af citrongræsset og skær enderne af. Snit resten af citrongræsstilken helt fint. Kom citrongræs, hvidløg, ingefær, sriracha,  honning og sesamolie i en skål og rør det godt sammen. Vend rejerne godt i blandingen.
+  (10018, 'Citrongræsrejer i wok med grønt', 'https://www.valdemarsro.dk/citrongraesrejer-i-wok-med-groent/', 'https://www.valdemarsro.dk/wp-content/2023/01/citrongraes-rejer-wok.jpg', '20', '4 servings', 'Pil det yderste lag af citrongræsset og skær enderne af. Snit resten af citrongræsstilken helt fint. Kom citrongræs, hvidløg, ingefær, sriracha,  honning og sesamolie i en skål og rør det godt sammen. Vend rejerne godt i blandingen.
 Varm en wok eller pande op og og rist rejerne under omrøring i et minuts tid. Kom smør, salt og peber på panden og steg videre til rejerne er lyserøde og har en let og smuk stegeskorpe. Sæt rejerne til side på en tallerken til senere.
 Kom broccoli, spinat, gulerødder og cashewnødder på wok/panden med lidt ekstra olie og steg det et par minutter.
-Server i dybe skåle med ris toppet med wok med både rejer og grønt. Drys  basilikum, forårsløg og chiliflager over og server med limebåde til at dryppe over.'),
+Server i dybe skåle med ris toppet med wok med både rejer og grønt. Drys  basilikum, forårsløg og chiliflager over og server med limebåde til at dryppe over.'),
   (10021, 'Banh Mi med kylling', 'https://www.valdemarsro.dk/banh-mi-kylling/', 'https://www.valdemarsro.dk/wp-content/2023/04/banh-mi-kylling.jpg', '45', '4 servings', 'Syltede gulerødder
 Kom vand, sukker og riseddike i en gryde og giv et hurtigt opkog til sukkeret smelter. Tag gryden af varmen og kom gulerødderne i den varme eddikelage. Kom på glas, læg låg på og sæt i køleskabet, mens resten af retten tilberedes.
 Asiatisk mayo-dressing
@@ -5439,7 +5362,7 @@ Skær kyllingekødet ud i skiver. Smør brødene med asiatisk mayo og fyld med k
   (10024, 'Madpakkenudler med sojadressing og grønt', 'https://www.valdemarsro.dk/madpakkenudler-med-sojadressing-og-groent/', 'https://www.valdemarsro.dk/wp-content/2023/02/madpakkenudler.jpg', '30', '4 servings', 'Sojadip
 Kom soja, sukker, lime og ingefær i en gryde og kog op under omrøring. Kog i 2-3 minutter til sukkeret er smeltet og det er helt ensartet. Hæld på et skoldet rent glas og køl af.
 Madpakke nudler
-Kog nudlerne i let saltet vand efter anvisning på emballagen – giv dem gerne et minut kortere end anbefalet.
+Kog nudlerne i let saltet vand efter anvisning på emballagen - giv dem gerne et minut kortere end anbefalet.
 Hæld vandet fra og hæld iskoldt vand over, for at stoppe kogningen. Vend nudlerne i et par skefulde sojadip alt efter smag og behag.
 Vend sojanudlerne, grøntsagerne og sesamfrø sammen i en skål og kom i madpakker.'),
   (10027, 'Kyllingelasagne med spinat', 'https://www.valdemarsro.dk/kyllingelasagne-med-spinat/', 'https://www.valdemarsro.dk/wp-content/2023/02/kyllinglasagne-spinat_app.jpg', '90', '4 servings', 'Spinatfyld
@@ -5466,19 +5389,19 @@ Rør halvdelen af cheddar i sammen med jalapenos i (server dem evt som tilbehør
 Anret i dybe tallerkener, toppet med avocadotern, koriander, jalapenos, cremefraiche og lidt lime til at dryppe over, samt sprøde tortillachips.'),
   (10036, 'Torsk med risotto og italiensk rasp', 'https://www.valdemarsro.dk/torsk-risotto/', 'https://www.valdemarsro.dk/wp-content/2023/02/torsk-risotto-italiensk-rasp.jpg', '45', '4 servings', 'Risotto
 Sauter løg og hvidløg i en gryde med olie, til løgene er bløde.
-Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene har ab­sorberet væden.
+Tilsæt ris og rør det godt igennem. Hæld hvidvin i gryden og rør, til risene har absorberet væden.
 Kom grøntsagsbouillon i gryden, kog op til det simre svagt og læg låg på. Lad det simre svagt i cirka 25-30 minutter, til risene er møre. Rør risotto sammen med friskrevet parmesan. Smag til med salt og friskkværnet peber.
 Bagt spidskål
 Læg de kvarte spidskål i et ovnfast fad. Pensl dem med smeltet smør og drys parmesan, timian, salt og peber over.
-Bag spidskålen i en forvarmet ovn ved 175 grader varmluft i cirka 15­-20 minutter.
+Bag spidskålen i en forvarmet ovn ved 175 grader varmluft i cirka 15-20 minutter.
 Torsk med italiensk rasp
-Smuldr brødet og kom det på en bageplade med bagepapir. Bag i en forvarmet ovn ved 175 grader varmluft i cirka 8-10 minutter. Vend et par gange undervejs.  Lad brødkrummerne køle af og kom dem i en minihakker med krydderurter og lidt salt. Kør til det er findelt til en lækker krydret rasp.
+Smuldr brødet og kom det på en bageplade med bagepapir. Bag i en forvarmet ovn ved 175 grader varmluft i cirka 8-10 minutter. Vend et par gange undervejs.  Lad brødkrummerne køle af og kom dem i en minihakker med krydderurter og lidt salt. Kør til det er findelt til en lækker krydret rasp.
 Skær torsken i passende størrelser. Sæt fisken på en bradepande med bagepapir og dup den med køkkenrulle. Fordel den krydrede rasp over laksen, pres det lidt ind i fisken, så det sidder godt fast. Bag i en forvarmet ovn ved 175 grader varmluft i 10-12 minutter til kødet er perfekt mørt.
 Servering
 Anret risotto på tallerkener med torsk og et kvart spidskål. Drys med parmesan og finthakket persille.'),
   (10039, 'Vegetar Korma med blomkål og kikærter', 'https://www.valdemarsro.dk/vegetar-korma/', 'https://www.valdemarsro.dk/wp-content/2023/02/vegetar-korma.jpg', '30', '4 servings', 'Kog risene efter anvisning på emballagen.
 Kom olie i en gryde og sauter løgene heri, til de er blevet bløde. Tilsæt garam masala, chiliflager, gurkemeje, hvidløg, ingefær og limesaft. Rør det godt igennem og tilsæt derefter kokosmælken.
-Varm op til kogepunktet og kom blomkål, kikærter og tomatpure i gryden.  Læg låg på og lad det simre i 10-15 minutter, til blomkålen er mør. Rør græsk yoghurt og halvdelen af de hakkede mandler i gryden inden servering og smag til med salt og friskkværnet peber.
+Varm op til kogepunktet og kom blomkål, kikærter og tomatpure i gryden.  Læg låg på og lad det simre i 10-15 minutter, til blomkålen er mør. Rør græsk yoghurt og halvdelen af de hakkede mandler i gryden inden servering og smag til med salt og friskkværnet peber.
 Server retten i dybe tallerkener sammen med ris og drys med resten af mandlerne og grofthakket koriander.'),
   (10042, 'Peanutbutter wok med nudler', 'https://www.valdemarsro.dk/peanutbutter-wok-med-nudler/', 'https://www.valdemarsro.dk/wp-content/2023/02/peanutbutter-wok-nudler-aeg.jpg', '30', '4 servings', 'Kog nudlerne i letsaltet vand efter anvisning på emballagen. Tilsæt til sidst edamamebønner og hæld derefter vandet fra.
 Kom olie i en wok eller stor pande og tilsæt karrypasta, ingefær og hvidløg, rør rundt, til det dufter skønt. Rør kokosmælk, soja og peanutbutter i og rør det godt sammen til en ensartet sauce.
@@ -5489,7 +5412,7 @@ Server i dybe tallerkener med sprødt spejlæg, peanuts, sesamfrø, chiliflager 
   (10045, 'Bagt gnocchi i krydret tomatsauce', 'https://www.valdemarsro.dk/bagt-gnocchi-krydret-tomatsauce/', 'https://www.valdemarsro.dk/wp-content/2022/11/gnocchi-tomatsauce.jpg', '45', '4 servings', 'Sauter løgene i en sauterpande med olie ved middelvarme, til løgene er bløde.
 Tilsæt hvidløg, soltørrede tomater, basilikum, fennikelfrø, rosmarin, squash, grøntsagsboullion, hakkede tomater og kog retten op og lad det simre uden låg i 10 minutter, så det kan koge lidt ind.
 Kom ricotta i retten og derefter gnocchi. Vend det nænsomt sammen og smag godt til med salt og peber. Kom retten i et smurt ovnfast fad.
-Pluk mozzarella i mindre stykker og fordel over retten. Drys med parmesan – eller anden hård ost og bag i en forvarmet ovn ved 180 grader varmluft i cirka 15-20 minutter, til osten er smeltet og er begyndt at blive gylden.
+Pluk mozzarella i mindre stykker og fordel over retten. Drys med parmesan - eller anden hård ost og bag i en forvarmet ovn ved 180 grader varmluft i cirka 15-20 minutter, til osten er smeltet og er begyndt at blive gylden.
 Server med friskrevet parmesan og et drys basilikum.'),
   (10048, 'Spinattærte', 'https://www.valdemarsro.dk/spinattaerte/', 'https://www.valdemarsro.dk/wp-content/2021/03/spinattaerte_opskrift.jpg', '90', '4 servings', 'Tærtedej
 Bland hvedemel og fuldkornsmel med salt og smuldr smør i melblandingen. Det kan også køres på en foodprocessor.
@@ -5497,8 +5420,8 @@ Saml dejen med vand, lad den gerne hvile på køl i 30 minutter og tryk derefter
 Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader varmluft i 10 minutter, hvorefter den er klar til at blive fyldt og bagt færdigt.
 Fyld til spinattærte
 Pres væden fra den optøede spinat og rør den sammen i en skål med æg, hytteost, cremefraiche, muskatnød, salt og peber.
-Fordel fyldet i den forbagte tærtebund. Fordel mozza­rellaen i stykker henover fyldet og drys til sidst med pinjekerner.
-Bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30-­35 minutter, til æggemassen er stivnet.'),
+Fordel fyldet i den forbagte tærtebund. Fordel mozzarellaen i stykker henover fyldet og drys til sidst med pinjekerner.
+Bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30-35 minutter, til æggemassen er stivnet.'),
   (10051, 'Rørt tatarsalat', 'https://www.valdemarsro.dk/roert-tatarsalat/', 'https://www.valdemarsro.dk/wp-content/2022/10/tatarsalat.jpg', '45', '4 servings', 'Syltede sennepsfrø
 Kom alle ingredienserne i en gryde og kog op. Lad det simre svagt i 10-15 minutter under låg. Hæld derefter på et skoldet glas og lad dem køle af i køleskabet.
 Peberrodscreme
@@ -5532,7 +5455,7 @@ Drys mel på køkkenbordet. Del dejen til antal personer og tryk hver dej ud i e
 Pluk mozzarella helt fint og rør det sammen med flødeosten. Fordel på dejen, drys finthakket bacon over og slå et æg ud på hver. Dryp med pesto og drys lidt salt og peber over. Skru ovnens temperatur ned til 210 grader varmluft og skub bagepapiret med peinirli ind på den varme plade.
 Bag i cirka 13-15 minutter eller til brødet er sprødt og gyldent.
 Drys med finthakket bredbladet persille inden servering.'),
-  (10063, 'Gumbo med kylling', 'https://www.valdemarsro.dk/gumbo-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2022/06/gumbo.jpg', '180', '4 servings', 'Halver kyllingen og parter den i bryst, vinger og overlår. Gnid skindet med salt.
+  (10063, 'Gumbo med kylling', 'https://www.valdemarsro.dk/gumbo-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2022/06/gumbo.jpg', '180', '4 servings', 'Halver kyllingen og parter den i bryst, vinger og overlår. Gnid skindet med salt.
 Varm en pande op med olie og chorizo og steg chorizoskiverne i et par minutter. Sæt chorizo til side på en tallerken. Brun kyllingen af i den samme pande i chorizofedtet. Kyllingen skal ikke gennemsteges, men skindet skal begynde at tage farve og blive sprødt. Sæt kyllingen til side på en tallerken.
 Varm rapsolie op i en ren gryde ved lav-middelvarme og rør hvedemel i. Rør konstant i blandingen i 15-25 minutter. Gå ikke fra gryden, for det brænder nemt på og så skal du starte forfra. Mel og olieblandingen skal blive smukt nøddebrun, som en mellemting mellem farven på en mandel og en hasselnød og det tager tid.
 Kom peberfrugter, bladselleri, hvidløg og løg i gryden og rør det godt sammen i nogle minutter. Tilsæt derefter hakkede tomater, krydderier, laurbærblade, hønseboullion og chorizopølse og rør det godt sammen. Læg kyllingestykkerne i gryden og lad retten simre i minimum 1 time og gerne længere tid, til kødet er så mørt, at det falder af benene.
@@ -5564,10 +5487,10 @@ Opløs gæren i vand i en skål og rør hvedemel, olivenolie og salt i. Rør dej
 Saml calzonebrødene
 Varm ovnen op med bagestål til ovnens højeste temperatur en time før bagning.
 Rist champignon på en varm pande med lidt olie til de er gyldne med stegeskorpe.
-Drys mel på køkkenbordet. Del dejen til antallet af personer – så der er en calzone pr person – og form en rund cirkel af hvert calzonebrød på cirka 25 cm i diameter. Læg på et stykke bagepapir og smør med tomatpassata og hvidløg. Fordel skinke, champignon, mozzarella og basilikum på halvdelen af pizzadejen.
+Drys mel på køkkenbordet. Del dejen til antallet af personer - så der er en calzone pr person - og form en rund cirkel af hvert calzonebrød på cirka 25 cm i diameter. Læg på et stykke bagepapir og smør med tomatpassata og hvidløg. Fordel skinke, champignon, mozzarella og basilikum på halvdelen af pizzadejen.
 Form den anden halvdel over og giv kanten et buk hele vejen rundt, så den er lukket godt til. Der er plads til to calzonebrød på hvert stykke bagepapir, svarende til en bageplade.
 Skub bagepapiret med calzonebrødene ind på den varme plade og bag i cirka 8-10 minutter eller til overfladen er sprød og gylden.'),
-  (10078, 'Asiatiske kødboller med sticky sauce', 'https://www.valdemarsro.dk/asiatiske-koedboller-med-sticky-sauce/', 'https://www.valdemarsro.dk/wp-content/2022/06/asiatiske-koedboller.jpg', '30', '4 servings', 'Rør farsen sammen af kyllingekød, forårsløg, koriander, ingefær, hvidløg og rød chili, salt og peber – kom rød chili i efter smag og du kan også undlade det, hvis det bliver for stærkt.
+  (10078, 'Asiatiske kødboller med sticky sauce', 'https://www.valdemarsro.dk/asiatiske-koedboller-med-sticky-sauce/', 'https://www.valdemarsro.dk/wp-content/2022/06/asiatiske-koedboller.jpg', '30', '4 servings', 'Rør farsen sammen af kyllingekød, forårsløg, koriander, ingefær, hvidløg og rød chili, salt og peber - kom rød chili i efter smag og du kan også undlade det, hvis det bliver for stærkt.
 Form små kyllingeboller af farsen og steg dem på panden i olie i 7-8 minutter. Vend dem hyppigt, så de bliver fint runde. Tjek om de er gennemstegte og sæt dem til side et øjeblik på en tallerken.
 Sticky sauce
 Kom alle ingredienserne til den sticky sauce på en ren pande og kog det op under omrøring. Det skal gerne koge en smule ind og tykne lidt.
@@ -5579,7 +5502,7 @@ Anretning
 Vend spidskål i en stor skål med dressingen og masser let, så kålen falder lidt sammen. Vend gulerødder i og halvdelen af chili, sesam, peanuts, forårsløg og anret på tallerkener.
 Drys resten af chili, sesam, peanuts og forårsløg over salaten, sammen med mynte, koriander og server med lime i både.'),
   (10084, 'Paella med kylling og chorizo', 'https://www.valdemarsro.dk/paella-med-kylling-og-chorizo/', 'https://www.valdemarsro.dk/wp-content/2022/05/paella-kylling.jpg', '60', '4 servings', 'Sauter løg og chorizo på en stor ovnfast stegepande med olivenolie, til løgene er bløde.
-Kom kyllingen på panden, med skindsiden med og brun den godt af, til skindet har fået en smuk farve og er blevet sprødt. Tilsæt mere olie, hvis nødvendigt.
+Kom kyllingen på panden, med skindsiden med og brun den godt af, til skindet har fået en smuk farve og er blevet sprødt. Tilsæt mere olie, hvis nødvendigt.
 Tag kyllingestykkerne af og sæt dem til side på en tallerken et øjeblik.
 Tilsæt ris, safran, paprika og hvidvin på stegepanden og rør det godt i gennem i et par minutter. Tilsæt grøntsagsboullion, hvidløg, bladselleri, peberfrugt, hakkede tomater, tomatpuré og ærter og rør det godt igennem. Anret kyllingestykkerne på retten. Læg låg på og sæt fadet i en forvarmet ovn ved 180 grader varmluft og bag i 20-25 minutter. Tjek om risene er møre, og hvis ikke så giv retten 5 minutter mere, til risene er perfekte.
 Smag til med salt, peber og drys med finthakket persille og fintrevet citronskal inden servering.'),
@@ -5605,12 +5528,12 @@ Server retten i dybe tallerkner med bredbladet persille.'),
   (10102, 'Bao med asiatiske kødboller', 'https://www.valdemarsro.dk/bao-med-asiatiske-koedboller/', 'https://www.valdemarsro.dk/wp-content/2022/06/bao-kylling-opskrift.jpg', '240', '4 servings', 'Bao
 Rør gær ud i vandet og kom sukker, smeltet smør, salt og halvdelen af hvedemel i. Rør det godt igennem til dejen er helt glat, tilføj mere mel lidt efter lidt. Når dejen er glat og smidig sættes den til hævning på køl natten over eller i 2 timer på køkkenbordet.
 Del dejen i otte lige store stykker og rul dem ud til runde flade boller. Pensl med olie på den ene side og fold dem halvt over, så den olierede halvdel er i midten. Lad bollerne hæve i 30 minutter.
-Kom en asiatisk dampkoger over en gryde med kogende vand. Kom et stykke bagepapir i bunden, som prikkes godt igennem, så der kommer mange huller i – sæt et par boller på og damp dem i 20-25 minutter.
+Kom en asiatisk dampkoger over en gryde med kogende vand. Kom et stykke bagepapir i bunden, som prikkes godt igennem, så der kommer mange huller i - sæt et par boller på og damp dem i 20-25 minutter.
 Asiatiske kødboller
 Rør farsen sammen af kyllingekød, forårsløg, koriander, ingefær, hvidløg og rød chili, salt og peber . Kom rød chili i efter smag og du kan også undlade det, hvis det bliver for stærkt.
 Form små kyllingeboller af farsen og steg dem på panden i olie i 7-8 minutter. Vend dem hyppigt, så de bliver fint runde. Tjek om de er gennemstegte og sæt dem til side et øjeblik på en tallerken.
 Sticky sauce
-Kom alle ingredienseren til den sticky sauce på en ren pande og kog det op under omrøring. Det skal gerne koge en smule ind og tykne lidt. Kom kyllingebollerne på panden og glaser dem i den lækre sauce. Skru ned til lav varme og lad dem simre let i saucen til den har sat sig om kyllingebollerne.
+Kom alle ingredienseren til den sticky sauce på en ren pande og kog det op under omrøring. Det skal gerne koge en smule ind og tykne lidt. Kom kyllingebollerne på panden og glaser dem i den lækre sauce. Skru ned til lav varme og lad dem simre let i saucen til den har sat sig om kyllingebollerne.
 Servering
 Fyld hver bao med grønt, kyllingeboller og dryp lidt sriracha, chiliflager, sesam, forårsløg og frisk koriander over.'),
   (10105, 'Calzone med oksekød og mozzarella', 'https://www.valdemarsro.dk/calzone-med-oksekoed/', 'https://www.valdemarsro.dk/wp-content/2022/02/calzone-med-oksekoed.jpg', '1440', '4 servings', 'Pizzadej
@@ -5625,8 +5548,8 @@ Drys mel på køkkenbordet. Del dejen til en Calzone til hver person og form en 
 Der er plads til to calzonebrød på hvert stykke bagepapir, svarende til en bageplade.
 Skru ovnens temperatur ned til 210 grader varmluft og skub bagepapiret med calzonerne ind på den varme plade. Bag i cirka 15 minutter eller til overfladen er sprød og gylden.'),
   (10108, 'Asiatisk nudelsalat med små kyllingekødboller', 'https://www.valdemarsro.dk/asiatisk-nudelsalat-med-kyllingekoedboller/', 'https://www.valdemarsro.dk/wp-content/2022/02/asiatisk-nudelsalat-kylling.jpg', '45', '4 servings', 'Kyllinge Kødboller
-Rør farsen sammen af kyllingekød, forårsløg, koriander, ingefær, hvidløg og rød chili, saltog peber – kom rød chili i efter smag. Du kan også undlade, hvis det bliver for stærkt.
-Form små kyllingeboller af farsen og steg dem på panden i olie i 7-8 minutter. Vend dem hyppigt, så de bliver fint runde. Tjek om de er gennemstegte og kom brun farin og soja på panden til kødbollerne og vend dem hurtigt sammen. Sæt kyllingebollerne på små spyd.
+Rør farsen sammen af kyllingekød, forårsløg, koriander, ingefær, hvidløg og rød chili, saltog peber - kom rød chili i efter smag. Du kan også undlade, hvis det bliver for stærkt.
+Form små kyllingeboller af farsen og steg dem på panden i olie i 7-8 minutter. Vend dem hyppigt, så de bliver fint runde. Tjek om de er gennemstegte og kom brun farin og soja på panden til kødbollerne og vend dem hurtigt sammen. Sæt kyllingebollerne på små spyd.
 Dressing
 Rør alle ingredienserne sammen og smag godt til.
 Anretning
@@ -5658,7 +5581,7 @@ Hæld ismassen i en form og stil den i fryseren i min. 5 timer eller indtil serv
 Steg bacon på en pande i lidt olie til det er sprødt og sæt derefter tilside på et stykke køkkenrulle. Kom kyllingefilet på den samme pande og brun på alle sider ved mellemhøj varme. Drys derefter med salt og peber og steg kyllingen på panden i 6-8 minutter på hver side til den er gennemstegt.
 Skær kylling og bacon i tern og vend det godt sammen med pasta og edamamebønner.
 Dressing
-Rør dressingen sammen i en skål og smag det godt til, med evt. mere salt, sukker, karry eller andet – alt efter smag og behag.
+Rør dressingen sammen i en skål og smag det godt til, med evt. mere salt, sukker, karry eller andet - alt efter smag og behag.
 Servering
 Vend pastasalaten godt sammen med alle grøntsagerne og dressing'),
   (10126, 'Appelsinkage med hvid chokolade', 'https://www.valdemarsro.dk/appelsinkage/', 'https://www.valdemarsro.dk/wp-content/2020/02/appelsinkage.jpg', '120', '6 servings', 'Pisk smør og sukker sammen, til det er luftigt. Pisk derefter et æg i ad gangen.
@@ -5685,13 +5608,13 @@ Rør den røgede makrel med pikant ost og smag til med salt og peber, hvis nødv
 Kom i en sprøjtetyl og fordel på de små rugbrødshapsere, pynt med dild.
 Tapas med agurk, stenbiderrogn og flødeost
 Kom en tsk fuld stenbiderrogn på hver agurkeskive.
-Kom flødeosten i en sprøjtetyl og fordel små rosetter af flødeost rundt om stenbiderrognen – for mere fancy, rør flødeosten med dild og sort peber – pynt med dild
+Kom flødeosten i en sprøjtetyl og fordel små rosetter af flødeost rundt om stenbiderrognen - for mere fancy, rør flødeosten med dild og sort peber - pynt med dild
 Tapas med parmaskinke, flødeost og oliven
-Rist brødskiverne og smør dem med flødeost (eller med flødeost iblandet hakkede oliven) kom et stykke parmaskinke på og en oliven – sæt fast med en tandstik.'),
+Rist brødskiverne og smør dem med flødeost (eller med flødeost iblandet hakkede oliven) kom et stykke parmaskinke på og en oliven - sæt fast med en tandstik.'),
   (10138, 'Bruschetta med tomat', 'https://www.valdemarsro.dk/bruschetta/', 'https://www.valdemarsro.dk/wp-content/2011/05/Bruschetta-opskrift.jpg', '20', '4 servings', 'Rør marinaden sammen og vend tomaterne deri. Lad dem stå i skålen, mens brødene ristes.
 Rist brødskiverne på brødrister eller i ovnen, og gnid de ristede brød med et fed hvidløg, hvorefter de pensles med en smule olivenolie.
 Hæld overskydende marinade og saft fra tomaterne og top de ristede brød med tomater.
-Fordel derefter parmaskinke eller serranoskinke over tomaterne – eller undlad dette hvis vegetar – og drys med fintstrimlet basilikum.'),
+Fordel derefter parmaskinke eller serranoskinke over tomaterne - eller undlad dette hvis vegetar - og drys med fintstrimlet basilikum.'),
   (10142, 'bananis med chokolade', 'https://www.valdemarsro.dk/bananis-af-frosne-bananstykker/', 'https://www.valdemarsro.dk/wp-content/Frossen-banan-is-med-chokolade.jpg', '120', '3 servings', 'Skræl bananen og skær bananen i 3 lige store stykker og stik en ispind i. Kom bananhapserne i fryseren i 1-2 timer.
 Smelt halvdelen af chokoladen over vandbad, når chokoladen er smeltet røres resten af chokoladen i.
 Dyp de let frosne bananstykker i chokoladen, drys med nødder og nyd med det samme.
@@ -5700,7 +5623,7 @@ Opskriften giver 3 bananis'),
 Læg skiftevis et lag af kartofler og et tyndt lag af grøntsags-flødeblandingen i et smurt ovnfast fad. Bag i en forvarmet ovn ved 180 grader varmluft i cirka 25 minutter.
 Baconruller
 Kom svinekød, løg, soltørrede tomater, timian, æg, piskefløde, hvedemel, salt og peber i en skål og rør det sammen til en god fars.
-Del dejen i mindre portioner, og form små aflange frikadeller – svarende til 2 baconruller pr person. Skær baconen over midten og læg to halve stykker ved siden af hinanden. Læg farsrullen på, og rul omkring til små baconruller.
+Del dejen i mindre portioner, og form små aflange frikadeller - svarende til 2 baconruller pr person. Skær baconen over midten og læg to halve stykker ved siden af hinanden. Læg farsrullen på, og rul omkring til små baconruller.
 Tag det ovnfaste fad ud af ovnen og anret baconrullerne i fadet. Bag retten videre i ovnen i cirka 30-45 minutter, til kartoflerne er møre og baconrullerne er gennemstegte.'),
   (10148, 'Asiatisk mørbrad med lime og ingefær', 'https://www.valdemarsro.dk/asiatisk-moerbrad/', 'https://www.valdemarsro.dk/wp-content/2023/05/asiatisk-moerbrad-lime-ingefaer.jpg', '60', '4 servings', 'Ris med ingefær
 Kom olie og ingefær i en gryde og sauter ingefær ved lav varme til det dufter let, men ikke tager farve. Tilsæt vand, basmatiris og salt. Rør det godt igennem, læg låg på og bring langsomt op til kogepunktet. Kog under låg ved svag varme i 10 minutter. Tag af varmen og lad derefter risen hvile i yderligere 10 minutter i gryden med låget på.
@@ -5710,7 +5633,7 @@ Varm en pande op med olie og brun kødet af ved høj varme under omrøring. Skru
 Rør hoisinsauce med hvidløg og hæld det på panden til kødet og grøntsagerne.
 Servering
 Kom risen på tallerkener og top med kød, grøntsager og den sauce der er på panden. Anret med finthakket koriander, ristet sesam, peanuts og lime til at dryppe over og smage til med.'),
-  (10151, 'Salat med røget makrel', 'https://www.valdemarsro.dk/salat-med-roeget-makrel/', 'https://www.valdemarsro.dk/wp-content/2023/01/salat-roeget-makrel.jpg', '30', '4 servings', 'Kom alle ingredienser til dressingen – start med blot en tsk citronsaft – i en blender og blend til det er helt cremet og ensartet i konsistensen. Smag godt til med salt, peber og citron.
+  (10151, 'Salat med røget makrel', 'https://www.valdemarsro.dk/salat-med-roeget-makrel/', 'https://www.valdemarsro.dk/wp-content/2023/01/salat-roeget-makrel.jpg', '30', '4 servings', 'Kom alle ingredienser til dressingen - start med blot en tsk citronsaft - i en blender og blend til det er helt cremet og ensartet i konsistensen. Smag godt til med salt, peber og citron.
 Kog perlebyg efter anvisning på emballagen og lad dem køle af i en sigte.
 Vend salat, agurkeskiver og perlebyg sammen og anret på et fad eller tallerkener.
 Pluk røget makrel over i passende stykker og fordel dressingen på salaten. Drys med hampefrø, flagesalt og friskkværnet peber.'),
@@ -5723,10 +5646,10 @@ Blend det sammen til en helt ensartet lind dej. Lad gerne dejen hvile i 15 minut
 Fordel lidt olie eller smør i et vaffeljern og steg vaflerne til de er gyldne og gennembagt.
 Servering
 Top vaflerne med hytteostdip, avocado i skiver, agurk, rødløg og røget makrel, rucola, samt lidt citronsaft dryppet over.'),
-  (10157, 'Blomkålshapsere i sticky barbecuesauce', 'https://www.valdemarsro.dk/blomkaalshapsere-barbecuesauce/', 'https://www.valdemarsro.dk/wp-content/2021/03/blomkaalshapsere-1.jpg', '40', '4 servings', 'Del blomkålen i store buketter og dup dem godt af, så de er helt tørre. Rør mel, røget paprika og salt sammen med vand til en tyktflydende dej og vend blomkåls­ buketterne i dejen. Læg blomkålen på en bradepande med bagepapir med afstand mellem stykkerne og bag dem i en forvarmet ovn ved 180 grader varmluft i 15­-20 minutter.
+  (10157, 'Blomkålshapsere i sticky barbecuesauce', 'https://www.valdemarsro.dk/blomkaalshapsere-barbecuesauce/', 'https://www.valdemarsro.dk/wp-content/2021/03/blomkaalshapsere-1.jpg', '40', '4 servings', 'Del blomkålen i store buketter og dup dem godt af, så de er helt tørre. Rør mel, røget paprika og salt sammen med vand til en tyktflydende dej og vend blomkåls buketterne i dejen. Læg blomkålen på en bradepande med bagepapir med afstand mellem stykkerne og bag dem i en forvarmet ovn ved 180 grader varmluft i 15-20 minutter.
 Sticky barbecuesauce
 Kom soja, hvidløg, ahornsirup, tomatpuré, ingefær, røget paprika, æblecidereddike og vand i en skål, sigt majsstivelse i og rør det godt sammen til en sauce.
-Kom saucen på en pande og tænd for middelvarme. Vend blomkålen forsigtigt i, når saucen er varmet op, og vend blomkålsstykkerne med jævne mellemrum. Lad det simre svagt i ca. 5­-6 minutter, til barbecuesaucen har sat sig godt på blomkålsstykkerne.
+Kom saucen på en pande og tænd for middelvarme. Vend blomkålen forsigtigt i, når saucen er varmet op, og vend blomkålsstykkerne med jævne mellemrum. Lad det simre svagt i ca. 5-6 minutter, til barbecuesaucen har sat sig godt på blomkålsstykkerne.
 Server med et drys sesamfrø, lidt finthakket persille og en dip.'),
   (10160, 'Broccolitærte med laks', 'https://www.valdemarsro.dk/broccolitaerte-med-laks/', 'https://www.valdemarsro.dk/wp-content/2021/03/taerte-broccoli-laks.jpg', '90', '4 servings', 'Tærtedej
 Bland hvedemel og fuldkornsmel med salt og smuldr smør i melblandingen. Det kan også køres på en foodprocessor.
@@ -5734,10 +5657,10 @@ Saml dejen med vand, lad den gerne hvile på køl i 30 minutter og tryk derefter
 Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader varmluft i 10 minutter, hvorefter den er klar til at blive fyldt og bagt færdigt.
 Fyld til broccolitærte med laks
 Rør æg, cremefraiche, Pikant flødeost, salt og peber sammen i en skål og vend broccoli og varmrøget laks deri.
-Kom fyldet i den forbagte tærtebund og bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30­-35 minutter, til æggemassen er stivnet.'),
+Kom fyldet i den forbagte tærtebund og bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30-35 minutter, til æggemassen er stivnet.'),
   (10163, 'Tortellini i fad', 'https://www.valdemarsro.dk/tortellini-i-fad/', 'https://www.valdemarsro.dk/wp-content/2022/02/tortellini-fad.jpg', '35', '4 servings', 'Sauter løgene i en gryde med olie, til de bliver bløde. Tilsæt hvidløg, soltørrede tomater, basilikum, groftrevet squash, chiliflager, grøntsagsboullion, hakkede tomater og fløde og kog retten op.
 Kom tortellini i gryden, rør rundt og smag til med salt og peber.
-Kom retten i et smurt ovnfast fad og fordel den friske mozzarella, plukket i mindre stykker, over retten. Drys med parmesan – eller anden hård ost – og rasp. Gratiner i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter.'),
+Kom retten i et smurt ovnfast fad og fordel den friske mozzarella, plukket i mindre stykker, over retten. Drys med parmesan - eller anden hård ost - og rasp. Gratiner i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter.'),
   (10166, 'Gnocchi med kylling og chorizo', 'https://www.valdemarsro.dk/gnocchi-med-kylling-og-chorizo/', 'https://www.valdemarsro.dk/wp-content/2022/12/gnocchi-kylling.jpg', '45', '4 servings', 'Sauter chorizo og løg i en sauterpande med olie ved middelvarme, til løgene er bløde. Kom kyllingetern på panden, skrue op for varmen og brun hurtigt kødet af under omrøring.
 Tilsæt hvidløg, soltørrede tomater, basilikum, fennikelfrø, squash, bladselleri, grøntsagsboullion, hakkede tomater og kog retten op. Kom gnocchi i retten og rør nænsomt sammen. Smag godt til med salt og peber.
 Riv mozzarella i mindre stykker og fordel over retten, sammen med parmesan. Bag i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter, til osten er smeltet og er begyndt at blive gylden.
@@ -5749,7 +5672,7 @@ Tomatsauce
 Blend hakkede tomater, tomatpure, hvidløg, basilikum, oregano, salt og peber til det er ensartet.
 Bag stromboli
 Varm ovnen op med bagestål eller bageplade til ovnens højeste temperatur en time før bagning.
-Drys mel på køkkenbordet og del dejen i to, rul ud i to firkanter på 30×30 cm. Fordel tomatsauce, ost og fyld på hver pizzastykke – bortset fra cirka 2 cm ned langs den ene side. Rul hver Stromboli sammen til en roulade og luk med den side, hvor der ikke er fyld på. Læg på et stykke bagepapir med lukningen ned og sæt på en bageplade og skub begge stromboli ind på en varm bageplade.
+Drys mel på køkkenbordet og del dejen i to, rul ud i to firkanter på 30×30 cm. Fordel tomatsauce, ost og fyld på hver pizzastykke - bortset fra cirka 2 cm ned langs den ene side. Rul hver Stromboli sammen til en roulade og luk med den side, hvor der ikke er fyld på. Læg på et stykke bagepapir med lukningen ned og sæt på en bageplade og skub begge stromboli ind på en varm bageplade.
 Skru ovnens temperatur ned til 200 grader varmluft og bag i cirka 15 minutter eller til overfladen er sprød og gylden.'),
   (10172, 'Puffet rispapir med laks', 'https://www.valdemarsro.dk/puffet-rispapir-med-laks/', 'https://www.valdemarsro.dk/wp-content/2022/12/puffet-rispapir-laks.jpg', '30', '4 servings', 'Vend laks, røget laks, avocado, mayonnaise, sriracha og fintrevet citronskal sammen i en skål og smag til med citronsaft, salt, friskkværnet peber og dild. Lad det trække smag i en skål i minimum 15 minutter i køleskabet, hvor det godt kan stå i et par timer. Tag ud af køleskabet 30 minutter før servering.
 Kom olie på en pande, så bunden er dækket og varm op til høj varme. Kom et stykke rispapir på panden og lad det puffe op og blive sprødt. Tag af panden og køl af på en rist, mens det næste rispapir puffes. Bræk de puffede stykker rispapir i passende stykker.
@@ -5762,25 +5685,25 @@ Sauter løg i en gryde med olie til løgene er bløde. Tilsæt oksekød, skrue o
 Rør majsstivelse med koldt vand og jævn retten med det. Juster farven med et par dråber kulør og smag godt til med salt og peber.
 Server millionbøf med kartoffelmos, syltede rødbeder og et drys bredbladet persille.'),
   (10178, 'Fisketacos med torsk og mangosalsa', 'https://www.valdemarsro.dk/tacos-med-torsk/', 'https://www.valdemarsro.dk/wp-content/2022/02/tacos-torsk-mangosalsa.jpg', '30', '4 servings', 'Mangosalsa
-Vend mangotern, tomatbåde,  agurketern, forårsløg og chilipeber godt sammen med finthakket koriander. Smag til med limesaft, fintrevet limeskal, samt salt og peber.
+Vend mangotern, tomatbåde,  agurketern, forårsløg og chilipeber godt sammen med finthakket koriander. Smag til med limesaft, fintrevet limeskal, samt salt og peber.
 Torsk
 Kom rasp, citronskal, salt, peber og mynte i en minihakker og kør til det er findelt. Dup fisken og drys den med den sprøde raspblanding. Bag fisken i et ovnfast fad i en forvarmet ovn ved 175 grader varmluft i 16-18 minutter. Tjek om den er færdigtilberedt og tag den ud af ovnen.
 Server
 Lun tortillapandekager på en varm tør pande eller i ovnen. Server fisketacos med torsk, mangosalsa, babyspinat, avocado og et drys koriander.'),
   (10181, 'Vegetar taco med blomkål', 'https://www.valdemarsro.dk/vegetar-taco/', 'https://www.valdemarsro.dk/wp-content/2022/02/tacos-vegetar-blomkaal.jpg', '30', '4 servings', 'Krydret blomkål
 Vend blomkål med olivenolie og derefter med røget paprika, sød paprika, salt og peber.
-Fordel blomkålsbuketter­ne på en bageplade med bagepapir og bag i en forvarmet ovn ved 200 grader varmluft i 20-22 minutter.
+Fordel blomkålsbuketterne på en bageplade med bagepapir og bag i en forvarmet ovn ved 200 grader varmluft i 20-22 minutter.
 Mangosalsa
 Vend mangotern, tomatbåde, forårsløg, agurk og chilipeber godt sammen med finthakket koriander. Smag til med limesaft, fintrevet limeskal, samt salt og peber.
 Server
 Lun tortillapandekager på en varm tør pande eller i ovnen. Server med blomkål, mangosalsa, babyspinat, avocado og et drys koriander, samt lidt ristet sesam.'),
-  (10184, 'Røget paprikablomkål og appelsinsalat', 'https://www.valdemarsro.dk/roeget-paprikablomkaal-og-appelsinsalat/', 'https://www.valdemarsro.dk/wp-content/2020/09/roeget-blomkaal-salat-appelsin.jpg', '30', '4 servings', 'Vend blomkål med olivenolie og derefter med røget paprika, kanel, salt og peber. Fordel blomkålsbuketter­ne på en bageplade med bagepapir og bag dem i en forvarmet ovn ved 200 grader varmluft i 20 minutter.
+  (10184, 'Røget paprikablomkål og appelsinsalat', 'https://www.valdemarsro.dk/roeget-paprikablomkaal-og-appelsinsalat/', 'https://www.valdemarsro.dk/wp-content/2020/09/roeget-blomkaal-salat-appelsin.jpg', '30', '4 servings', 'Vend blomkål med olivenolie og derefter med røget paprika, kanel, salt og peber. Fordel blomkålsbuketterne på en bageplade med bagepapir og bag dem i en forvarmet ovn ved 200 grader varmluft i 20 minutter.
 Fileter appelsinerne ved at skære skrællen og de hvide hinder af omkring hver appelsinbåd.
 Anret babyspinat, spidskål, appelsiner og avocado på et fad med de bagte blomkålsstykker. Drys med ristet sesamfrø, salt og peber inden servering.'),
   (10187, 'Vegetar Panang karry', 'https://www.valdemarsro.dk/vegetar-panang-karry/', 'https://www.valdemarsro.dk/wp-content/2020/08/panang-karry.jpg', '45', '4 servings', 'Kog risene efter anvisning på emballagen.
 Sauter løg og hvidløg i olie ved middelvarme på en pande, til de er bløde.
-Tilsæt ingefær og karry­pasta og rør godt sammen. Tilsæt gulerødder, broccoli, edamamebønner og kokosmælk og varm det godt igennem under omrøring. Lad retten simre under låg i 15 minutter.
-Tilsæt peberfrugt, kikærter og peanutbutter. Rør godt igennem og smag til med sukker, sojasauce, fintrevet limeskal og ­saft.
+Tilsæt ingefær og karrypasta og rør godt sammen. Tilsæt gulerødder, broccoli, edamamebønner og kokosmælk og varm det godt igennem under omrøring. Lad retten simre under låg i 15 minutter.
+Tilsæt peberfrugt, kikærter og peanutbutter. Rør godt igennem og smag til med sukker, sojasauce, fintrevet limeskal og saft.
 Server i skåle med ris, frisk koriander og saltede peanuts.'),
   (10190, 'Tacoskåle med kylling', 'https://www.valdemarsro.dk/nachos-bowl-kylling/', 'https://www.valdemarsro.dk/wp-content/2020/06/tacoskaale-kylling.jpg', '30', '4 servings', 'Pensl tortillawraps med olie og læg dem i små ovnfaste skåle, så de danner en skål. Bag dem i en forvarmet ovn ved 175 grader varmluft i 8-10 minutter, til de har fået lidt farve. Tag dem ud af ovnen og lad dem køle af i skålene. De bliver sprøde, når de er kølet af.
 Sauter løg og hvidløg i olivenolie i en gryde ved middelvarme og under omrøring, til de er bløde. Tilsæt kylling og brun det godt af. Kom derefter squash, krydderier, tomatpuré, hakkede tomater og majskerner i og kog op. Lad det simre uden låg i 20 minutter. Smag til med salt og peber.
@@ -5807,12 +5730,12 @@ Varm fløden op til kogepunktet i en lille kasserolle, og sluk for blusset. Kom 
 Tilsæt smør, pisk det godt sammen og hæld derefter den varme fløde i lidt efter lidt. Kog karamellen op og sluk for varmen.
 Rør godt igennem og sæt gryden med karamel i køleskabet.
 Saml tærten
-Rør ½ tsk flagesalt i den afkølede karamel og fordel halvdelen af karamellen i den afkølede tærtebund.
+Rør 1/2 tsk flagesalt i den afkølede karamel og fordel halvdelen af karamellen i den afkølede tærtebund.
 Fordel derefter alle nødderne oven på karamellen og hæld resten af karamellen over. Sæt kagen i køleskabet i min. 2 timer inden servering.'),
   (10203, 'Rösti med grønt og feta', 'https://www.valdemarsro.dk/rosti-med-groent/', 'https://www.valdemarsro.dk/wp-content/2020/04/rosti-groent-opskrift.jpg', '45', '4 servings', 'Sæt fetaosten til serveringen på en bradepande med bagepapir, dryp den med ahornsirup og olie og bag i en forvarmet ovn ved 220 grader varmluft, til kanterne er gyldne.
 Vrid overskydende væde fra de revede kartofler og squash og bland dem med spinat, sammenpiskede æg, feta, fuldkornsmel, hvidløg, salt og peber i en skål. Del i fire portioner og steg en af gangen på en varm pande med smør og lidt olie. Vend dem når de er færdigstegt på den ene side og steg videre på den anden side. Forsæt til alle er lavet.
 Servering
-Hæld kogende vand over edamamebønnerne og lad dem stå et øjeblik. Mos avocadokødet med citronsaft og ­skal. Smag til med salt og peber.
+Hæld kogende vand over edamamebønnerne og lad dem stå et øjeblik. Mos avocadokødet med citronsaft og skal. Smag til med salt og peber.
 Anret de fire rösti på tallerkener og top med rucola, edamamebønner og avocado. Smuldr den bagte feta over og drys til sidst med karse.'),
   (10206, 'Dalgona Kaffe', 'https://www.valdemarsro.dk/dalgona-kaffe/', 'https://www.valdemarsro.dk/wp-content/2020/04/dalonga-kaffe.jpg', '10', '2 servings', 'Kom instant kaffepulver, kogende vand og sukker i en skål og pisk det i 2-3 minutter med en håndmixer ved mellem hastighed. Det er klar når det er blevet smukt lysebrunt, tykt, cremet og luftigt.
 Kom mælken i to glas (og kahlua, hvis det frister) sammen med isterninger og top den luftige cremede kaffeskum ovenpå. Drys med lidt kakaonibs, mørk chokolade eller kakaopulver inden servering.'),
@@ -5822,7 +5745,7 @@ Tilsæt bønner, majskerner og rød peberfrugt og varm igen op til kogepunktet. 
 Smag til med salt og peber. Rør tomaterne i og anret risretten på et fad med tilbehøret til servering.'),
   (10212, 'Napoleonshatte', 'https://www.valdemarsro.dk/napoleonshatte/', 'https://www.valdemarsro.dk/wp-content/2020/01/napoleonshatte.jpg', '60', '12 servings', 'Mørdej
 Rør flormelis, salt og mel sammen i en skål eller i en røremaskine. Skær smørret i små tern og smuldr det i melet. Hvis du har en røremaskine eller foodprocessor, så kør til det er som savsmuld.
-Saml hurtigt dejen med æg, start med blot ½ æg og vurder om der skal mere i til at samle dejen til en tæt rund kugle.
+Saml hurtigt dejen med æg, start med blot 1/2 æg og vurder om der skal mere i til at samle dejen til en tæt rund kugle.
 Lad dejen hvile en halv time på køl.
 Kransekagemasse
 Rør flormelis og æggehvide sammen, rør finthakkede mandler i og ælt det lidt efter lidt i marcipanen, til det er ensartet og har en god konsistens til at rulle til kugler.
@@ -5831,7 +5754,7 @@ Rul mørdejen ud til ca. 3 mm tykkelse på et meldrysset bord og udstik dejen me
 Form kransekagemassen til runde kugler, svarende til antallet af cirkler og lav en lille fordybning ned i hver kugle, som fyldes med nougat og sættes på mørdejscirklen med nougat nedad. Fugt hænderne med koldt vand og fold tre hjørner af mørdejen op mod kransekagekuglen, så de sidder fast.
 Bag kagerne i en forvarmet ovn ved 180 grader varmluft i 10-12 minutter, eller til de er let gyldne. Tag kagerne ud af ovnen og lad dem afkøle på en rist.
 Dyp de lækre napoleonshatte i chokolade inden servering.'),
-  (10219, 'Røget makrelmousse', 'https://www.valdemarsro.dk/makrelmousse/', 'https://www.valdemarsro.dk/wp-content/2017/04/makrelmousse.jpg', '10', '4 servings', 'Rør makrelstykkerne sammen med mayo og cremefraiche – brug en gaffel og rør til makrellen er helt findelt og moussen har en god cremet konsistens.
+  (10219, 'Røget makrelmousse', 'https://www.valdemarsro.dk/makrelmousse/', 'https://www.valdemarsro.dk/wp-content/2017/04/makrelmousse.jpg', '10', '4 servings', 'Rør makrelstykkerne sammen med mayo og cremefraiche - brug en gaffel og rør til makrellen er helt findelt og moussen har en god cremet konsistens.
 Rør citronsaft og purløg i, smag til med salt og peber.
 Serveres på fx sprødt ristet rugbrød med salat, urter og mere purløg + gerne radisser eller forårsløg, hvis de er i sæson.
 Tilbehørforslag
@@ -5849,7 +5772,7 @@ Grøntsagsmuffins kan serveres lune eller kolde (er også gode i madpakken)'),
 Sauter løg og hvidløg i olie i en gryde, ved middelvarme under omrøring, til de er bløde.
 Kom ingefær, karry og rød karrypasta i gryden og rør det godt sammen i et minuts tid. Kom kokosmælk, fishsauce eller soya, brun farin, gulerødder og kartofler i gryden. Kog op, sæt låg på og skrue derefter ned for varmen til det blot simre sagte.
 Lad det simre i 15 minutter.
-Tilsæt broccoli, squash og blomkål i gryden, og lad dem koge med i 5 minutter. Smag retten til med limesaft, limeskal, friskkværnet peber eller mere fishsauce, rød karry og brun farin – alt efter smag og behag
+Tilsæt broccoli, squash og blomkål i gryden, og lad dem koge med i 5 minutter. Smag retten til med limesaft, limeskal, friskkværnet peber eller mere fishsauce, rød karry og brun farin - alt efter smag og behag
 Server retten i skåle med ris, et drys peanuts og koriander.'),
   (10233, 'Foccacia med spinat', 'https://www.valdemarsro.dk/foccasia-med-spinat/', 'https://www.valdemarsro.dk/wp-content/2019/11/foccasia-spinat.jpg', '120', '1 serving', 'Dej
 Rør gæren ud i en skål med vand. Tilsæt olie, salt og fuldkornshvedemel og rør det godt sammen. Tilsæt hvedemel lidt efter lidt, rør det godt igennem til en lind dej og ælt derefter, til dejen er let klistret og blød.
@@ -5865,10 +5788,10 @@ Vend ananas, avocado og krydderurter sammen i en skål. Smag til med limesaft og
 Avocadocreme
 Kom avocado, cremefraiche, citronsaft og skal i en minihakker og kør til en cremet dip. Smag til med salt og peber og kør igen til det er godt blandet sammen.
 Taquitos med kylling
-Brun kyllingekødet under omrøring på en varm pande med olivenolie, til kødet er helt gennemstegt. Tilsæt løg og krydderier og lidt jalapenos – efter smag og behag – og skrue ned til middelvarme. Lad det simre i et par minutter. Rør majsstivelse ud i hakkede tomater og tilsæt blandingen til panden. Lad det simre under omrøring i et par minutter, mens det tykner til en cremet fyld til taquitos.
+Brun kyllingekødet under omrøring på en varm pande med olivenolie, til kødet er helt gennemstegt. Tilsæt løg og krydderier og lidt jalapenos - efter smag og behag - og skrue ned til middelvarme. Lad det simre i et par minutter. Rør majsstivelse ud i hakkede tomater og tilsæt blandingen til panden. Lad det simre under omrøring i et par minutter, mens det tykner til en cremet fyld til taquitos.
 Varm alle tortillapandekagerne på en pande, til de er bløde og smidige. Gnid hver tortilla med olie på begge sider. Kom kyllingefyld og cheddar i en stribe på midten af hver tortilla. Fold enderne sammen og rul tortillaen stramt sammen. Sæt med lukningen vendt ned på en bageplade med bagepapir og fortsæt med de andre taquitos. Bag i en forvarmet ovn ved 225 grader varmluft i 5-7 minutter. Vend dem derefter en halv omgang og bag i yderligere 5 minutter på den anden side, til osten er smeltet og de er sprøde.
 Server de varme sprøde taquitos med ananassalsa og avocadocreme.'),
-  (10239, 'Gulerodsbrud', 'https://www.valdemarsro.dk/gulerodsbrud/', 'https://www.valdemarsro.dk/wp-content/2023/01/gulerodsbrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen – gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter.
+  (10239, 'Gulerodsbrud', 'https://www.valdemarsro.dk/gulerodsbrud/', 'https://www.valdemarsro.dk/wp-content/2023/01/gulerodsbrud.jpg', '180', '12 servings', 'Rør gær ud i en skål med vand og tilsæt sukker, salt og fuldkornshvedemel. Rør det sammen - gerne på en røremaskine. Tilsæt hvedemel og ælt dejen i 5 minutter. Tilsæt smør i små tern og ælt dejen i yderligere 5 minutter.
 Lad dejen hæve på køkkenbordet i halvanden time.
 Læg dejen på en meldrysset bordplade og lav en fordybning i midten af dejen. Slå et æg ud i fordybningen og kom groftrevet gulerødder og solsikkekerner ovenpå. Luk dejen lidt til omkring fyldet og brug en bagespartel til at hakke dejen i små stykker. Brug bagespartlen til at vende dejen sammen med fyldet undervejs og hak dejen igennem en ekstra gang.
 Fordel den hakkede dej til antallet af boller og løft hvert stykke over på en bageplade med bagepapir. Lad gulerodsbrudene hæve i en time med et rent klæde over.
@@ -5880,7 +5803,7 @@ Dyp rejerne en efter en, først i en skål med sammenpisket æg og derefter i en
 Chilidip
 Rør alle ingredienser sammen og smag til. Du kan evt runde smagen af med mere mayo, hvis den skal være mere cremet eller med mere sriracha, hvis du ønsker den stærkere.
 Pico de gallo
-Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen.
+Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen.
 Smag godt til med mere chili, limesaft og limeskal, salt og peber efter smag.
 Servering
 Varm tortillabrød på begge sider på en pande, til de er bløde og lune. Server dem ved bordet med pico de gallo, kokosrejer, rucola, koriander og chilidip til at dryppe over.'),
@@ -5896,8 +5819,8 @@ Rør hvedemel, bagepulver, vaniljesukker og salt sammen i en skål og rør det i
 Rul dejen ud mellem to stykker bagepapir til ca 2 mm i højden. Træk det øverst bagepapir af og kom det på en bradepande med bagepapir. Skær dejen i passende stykker til småkager. Aflange snitter er klassisk svensk, men du kan også skære i ruder, som jeg gør her. Læg kagerne på bagepladen med bagepapiret.
 Bag i en forvarmet ovn ved 180 grader varmluft i cirka 9-12 minutter. Tag bradepanden ud af ovnen og sæt derefter kagerne på en rist til at køle af. Så snart de er kølet af vil de være knasende sprøde.'),
   (10254, 'Pølser i butterdej', 'https://www.valdemarsro.dk/poelser-i-butterdej/', 'https://www.valdemarsro.dk/wp-content/2025/03/poelser-butterdej.jpg', '35', '6 servings', 'Rør sennepsdressingen sammen og smag den godt til, så der er en god balance mellem både en lækker sødme og lidt stærk sennepssmag.
-Skær butterdejspladerne ud i strimler, der passer med at den kan rulles om pølserne med en lukning, der overlapper på omkring ½ cm. Smør med lidt af sennepsdressingen – gem resten til servering – og læg pølserne på butterdejen. Rul butterdejen omkring pølserne. Pensl med æg og drys med sesamfrø, blå birkes og friskkværnet peber. Prik overfladen af hver butterdejsrulle med en spids gaffel.
-Skær butterdejsrullerne ud i hapsere på cirka 2 ½ – 3 cm og læg dem på en bageplade med bagepapir med lukningen ned.
+Skær butterdejspladerne ud i strimler, der passer med at den kan rulles om pølserne med en lukning, der overlapper på omkring 1/2 cm. Smør med lidt af sennepsdressingen - gem resten til servering - og læg pølserne på butterdejen. Rul butterdejen omkring pølserne. Pensl med æg og drys med sesamfrø, blå birkes og friskkværnet peber. Prik overfladen af hver butterdejsrulle med en spids gaffel.
+Skær butterdejsrullerne ud i hapsere på cirka 2 1/2 - 3 cm og læg dem på en bageplade med bagepapir med lukningen ned.
 Bag i en forvarmet ovn ved 190 grader varmluft i cirka 22-25 minutter eller til de er gyldne og sprøde. Server med sennepsdressing og bbq-sauce.'),
   (10257, 'Kage med rabarber', 'https://www.valdemarsro.dk/kage-med-rabarber/', 'https://www.valdemarsro.dk/wp-content/2025/04/kage-rabarber.jpg', '90', '1 serving', 'Skær vaniljestangen igennem på langs, skrab forsigtigt kornene ud med en kniv og fordel dem i sukkeret. Pisk vanilje, sukker og smør sammen, til det er lyst og luftigt. Pisk derefter et æg i ad gangen og pisk til sidst fløden i.
 Bland bagepulver med hvedemel og sigt det i dejen. Vend dejen sammen og vend derefter rabarber og den hvide chokolade i dejen.
@@ -5921,7 +5844,7 @@ Rør sukker og salt ud i en skål med kogende vand. Når sukkeret er opløst og 
 Skær agurken i helt tynde skiver, kom skiverne i et rent skoldet glas og hæld eddikelagen over. Lad det trække i min. 20 minutter og gerne længere.
 Frikadeller og kartofler
 Rør alle ingredienserne med en håndmikser i 2-3 minutter. Lad frikadellefarsen hvile i minimum en halv time i køleskabet.
-Sæt imens kartoflerne til at koge i en gryde med letsaltet vand. Kogetiden er cirka 16-20 minutter, afhængig af størrelsen på kartoflerne. Hæld vandet fra når kartoflerne er møre – mærk med en kødnål – og hold kartoflerne varme i gryden med låg, til de skal serveres.
+Sæt imens kartoflerne til at koge i en gryde med letsaltet vand. Kogetiden er cirka 16-20 minutter, afhængig af størrelsen på kartoflerne. Hæld vandet fra når kartoflerne er møre - mærk med en kødnål - og hold kartoflerne varme i gryden med låg, til de skal serveres.
 Form frikadellerne og steg dem på en pande med smør og olie ved middelvarme i cirka 5 minutter på hver side, til de er gennemstegte.
 Pandesovs
 Lad fedt og smuldr fra frikadellerne sidde på panden og kom derefter grøntsagsboullion og kartoffelvand på panden. Brug en træpalet til at skrabe al smuldr af og rør rundt, så det opløses og koger ud i vandet og saucen.
@@ -5932,7 +5855,7 @@ Server frikadeller med dampende varme kartofler, pandesauce, agurkesalat og mør
   (10271, 'Frugtsalat de luxe med chokolade', 'https://www.valdemarsro.dk/frugtsalat-sund-og-god/', 'https://www.valdemarsro.dk/wp-content/frugtsalat3.jpg', '5', '2 servings', 'Vend det hele sammen i en skål.
 Nydes med fx yoghurt naturel, græsk yoghurt eller skyr.'),
   (10273, 'Lakridsis', 'https://www.valdemarsro.dk/lakrids-is/', 'https://www.valdemarsro.dk/wp-content/2016/10/lakridsis.jpg', '300', '4 servings', 'Pisk kondenseret mælk, fløde, yoghurt og lakridspulver sammen. Kør det i en ismaskine, til konsistensen er tyk og cremet.
-Kom isen i en fryseegnet beholder. Sæt i fryseren i minimum 4 timer. Drys isen med lidt lakridspulver.'),
+Kom isen i en fryseegnet beholder. Sæt i fryseren i minimum 4 timer. Drys isen med lidt lakridspulver.'),
   (10276, 'Iced Dolce Latte Coffee', 'https://www.valdemarsro.dk/iced-dolce-latte/', 'https://www.valdemarsro.dk/wp-content/iced-dolce-latte.jpg', '5', '1 serving', 'Pisk mælken til tyk cremet koldt skum.
 Kom en dl stærk kaffe i et glas, rør karamelcreme i kaffen.
 Tilsæt isterninger og mælkeskum og top med hakket mørk chokolade.
@@ -5952,7 +5875,7 @@ Kom dejen i en skål smurt med olie og lad den hæve overdækket på køkkenbord
 Læg pizzaerne på bagepapir og fordel frisk mozzarella, tynde kartoffelskiver og evt oliven eller kapers på pizzabundene.
 Hiv bagepapiret med pizzaerne over på en brandvarm bageplade og bag minipizzaerne i forvarmet ovn ved 250 grader varmluft i 10 minutter.
 Giv de færdige pizzaer et lille nip flagesalt, friskkværnet sort peber, et drys frisk timian og et dryp olivenolie.
-Server straks, – men de er også gode kolde, fx i madpakkerne.'),
+Server straks, - men de er også gode kolde, fx i madpakkerne.'),
   (10287, 'Grønne melon is', 'https://www.valdemarsro.dk/gronne-sunde-melon-is/', 'https://www.valdemarsro.dk/wp-content/frossen-melon-is.jpg', '45', '4 servings', 'Skær melonen i små firkantede stykker, stik en ispind i og frys stykkerne ned.
 Frys i minimum et par timer.
 Temperer chokoladen og dyp de frosne stykker melon i chokoladen.'),
@@ -5962,11 +5885,11 @@ Læg kryddersmøren på køl i 2-3 timer, hvorefter den skæres i skiver og pynt
 Smager fantastisk på sprøde kiks/brød, på en bøf, majskolbe, i en bagt kartoffel eller til grillet fisk, kylling eller skaldyr.'),
   (10292, 'Massaman Curry', 'https://www.valdemarsro.dk/massaman-curry/', 'https://www.valdemarsro.dk/wp-content/2015/06/massaman-curry.jpg', '30', '4 servings', 'Sauter løg, gulerødder og karrypasta i en gryde med lidt olie. Lad det simre lidt og nyd duften, der spreder sig i køkkenet.
 Tilsæt kokosmælk, kartofler, søde kartofler, grøntsagsbouillon og lad det simre under låg i 15 minutter. Smag retten til med fishsauce, soja, sukker og peber. Lad den simre videre, til kartoflerne er møre.
-Anret med finthakket koriander – eller bredbladet persille – og peanuts og server gerne ris til.'),
+Anret med finthakket koriander - eller bredbladet persille - og peanuts og server gerne ris til.'),
   (10295, 'Æg med laks og asparges en cocotte', 'https://www.valdemarsro.dk/aeg-bagt-laks-asparges/', 'https://www.valdemarsro.dk/wp-content/2016/06/laks-aeg-cocotte.jpg', '20', '4 servings', 'Smør 4 cocotter med smør eller olie.
 Skær asparges og laks i mundrette stykker. Læg 8 aspargestoppe til side.
-Slå æggene ud og skil hviderne fra blommerne. Læg blommerne til side i en skål – pas på at de ikke går i stykker.
-Vend æggehviden med cremefraiche, asparges, laks, salt peber og ca 1 spsk friske timianblade og kom blandingen i cocotterne. Kom tilsidst to aspargestoppe øverst i hver cocotte. Bag i en forvarmet ovn i 10 minutter ved 175 grader varmluft – herefter tilføjes æggeblommer i cocotterne, som bages videre i ca  5 minutter.
+Slå æggene ud og skil hviderne fra blommerne. Læg blommerne til side i en skål - pas på at de ikke går i stykker.
+Vend æggehviden med cremefraiche, asparges, laks, salt peber og ca 1 spsk friske timianblade og kom blandingen i cocotterne. Kom tilsidst to aspargestoppe øverst i hver cocotte. Bag i en forvarmet ovn i 10 minutter ved 175 grader varmluft - herefter tilføjes æggeblommer i cocotterne, som bages videre i ca  5 minutter.
 Pynt med timian inden servering.
 Nydes mens de er varme, gerne med ristet rugbrød i skiver eller andet godt brød til.'),
   (10298, 'Avocadosalat med majs', 'https://www.valdemarsro.dk/avocadosalat/', 'https://www.valdemarsro.dk/wp-content/2014/08/avocadosalat-1.jpg', '20', '4 servings', 'Kog majskolberne i 12 minutter i letsaltet vand, gerne med lidt smør i. Tag majskolberne op, lad dem køle lidt af og skær derefter kernerne af.
@@ -5975,14 +5898,14 @@ Bland majskernerne med avocado, tomater og limesaft. Drys med lidt salt og peber
 Tag gryden af varmen, hæld den mousserende vin i og rør rundt. Sæt blandingen på køl i minimum 3 timer.
 Kør det på en ismaskine til det bliver en flot champagnesorbet.
 Sæt i fryseren i minimum en time inden servering.'),
-  (10309, 'Avocadosuppe', 'https://www.valdemarsro.dk/avocadosuppe/', 'https://www.valdemarsro.dk/wp-content/2019/05/suppe-avocado-agurk.jpg', '120', '2 servings', 'Kom avocado, agurk, koriander, hvidløg og grøntsags­bouillon i en blender og blend, til det er helt cremet og ensartet. Smag suppen til med salt, peber, limesaft og lidt friskrevet limeskal, samt chiliflager efter smag og behag.
-Blend igen og sæt derefter suppen på køl i cirka 3 timer eller i fryseren i cirka 30­-40 minutter, til suppen er helt afkølet.
+  (10309, 'Avocadosuppe', 'https://www.valdemarsro.dk/avocadosuppe/', 'https://www.valdemarsro.dk/wp-content/2019/05/suppe-avocado-agurk.jpg', '120', '2 servings', 'Kom avocado, agurk, koriander, hvidløg og grøntsagsbouillon i en blender og blend, til det er helt cremet og ensartet. Smag suppen til med salt, peber, limesaft og lidt friskrevet limeskal, samt chiliflager efter smag og behag.
+Blend igen og sæt derefter suppen på køl i cirka 3 timer eller i fryseren i cirka 30-40 minutter, til suppen er helt afkølet.
 Rist græskarkerner, solsikkekerner og pinjekerner på en tør varm pande, til de lige akkurat tager en anelse farve. Server den iskolde suppe med frisk koriander, chiliflager, et dryp lime og et drys kerner.
 4 personer, hvis forret'),
   (10312, 'Italiensk salat', 'https://www.valdemarsro.dk/italiensk-salat/', 'https://www.valdemarsro.dk/wp-content/2018/05/italiensk-salat.jpg', '20', '8 servings', 'Rør dressingen sammen og smag godt til.
-Vend gulerødder og ærter i salaten og vend det godt sammen – gem gerne lidt ærter og gulerødder til at drysse over ved serveringen.'),
-  (10315, 'Kold gulerodssuppe med kokosmælk og lime', 'https://www.valdemarsro.dk/kold-gulerodssuppe/', 'https://www.valdemarsro.dk/wp-content/2019/06/kold-gulerodssuppe.jpg', '120', '4 servings', 'Sauter løg og hvidløg i olivenolie i en gryde ved middel varme, til de er bløde. Tilsæt citrongræs, ingefær, gulerødder, peberfrugt og grøntsagsbouillon. Lad det simre, til gulerødderne er møre.
-Tag citrongræs op af gryden og blend suppen, til den er cremet og lækker. Juster derefter både smag og konsistens med kokosmælk, et nip sukker, limesaft og fintrevet ­skal, salt og peber. Sæt derefter suppen på køl i cirka 3 timer eller i fryseren i ca. 30­-40 minutter, til suppen er helt afkølet.
+Vend gulerødder og ærter i salaten og vend det godt sammen - gem gerne lidt ærter og gulerødder til at drysse over ved serveringen.'),
+  (10315, 'Kold gulerodssuppe med kokosmælk og lime', 'https://www.valdemarsro.dk/kold-gulerodssuppe/', 'https://www.valdemarsro.dk/wp-content/2019/06/kold-gulerodssuppe.jpg', '120', '4 servings', 'Sauter løg og hvidløg i olivenolie i en gryde ved middel varme, til de er bløde. Tilsæt citrongræs, ingefær, gulerødder, peberfrugt og grøntsagsbouillon. Lad det simre, til gulerødderne er møre.
+Tag citrongræs op af gryden og blend suppen, til den er cremet og lækker. Juster derefter både smag og konsistens med kokosmælk, et nip sukker, limesaft og fintrevet skal, salt og peber. Sæt derefter suppen på køl i cirka 3 timer eller i fryseren i ca. 30-40 minutter, til suppen er helt afkølet.
 Basilikumolie
 Blend basilikum og olie, til det er ensartet, og olien er flot grøn.
 Servering
@@ -6005,18 +5928,18 @@ Anret ris, broccoli, edamamebønner og kylling i dybe tallerkener eller skåle. 
   (10327, 'Madpandekager - de klassiske', 'https://www.valdemarsro.dk/klassiske-madpandekager/', 'https://www.valdemarsro.dk/wp-content/2020/10/madpandekager.jpg', '40', '10 servings', 'Pisk æg og mælk sammen med salt, fuldkornshvedemel og hvedemel.
 Smelt lidt smør eller kom lidt olie på en pande og steg madpandekagerne en ad gangen, på begge sider, til de er flotte lysebrune.'),
   (10330, 'Flødeboller', 'https://www.valdemarsro.dk/floedeboller/', 'https://www.valdemarsro.dk/wp-content/2020/03/floedeboller.jpg', '180', '12 servings', 'Flødebollebund
-Drys flormelis ud på bordet og rul marcipanen ud i ca. 5 mm’s tykkelse. Udstik 12-14 bunde med en rund udstikker (6 cm i diameter). Bag bundene i ca. 8-9 minutter i en forvarmet ovn ved 175 grader varmluft, til de er gyldne i kanten. Lad dem køle af på en rist på køkkenbordet.
+Drys flormelis ud på bordet og rul marcipanen ud i ca. 5 mm''s tykkelse. Udstik 12-14 bunde med en rund udstikker (6 cm i diameter). Bag bundene i ca. 8-9 minutter i en forvarmet ovn ved 175 grader varmluft, til de er gyldne i kanten. Lad dem køle af på en rist på køkkenbordet.
 Flødebolleskum
-Skær vaniljestangen igennem på langs, skrab kornene ud og fordel dem i sukkeret. Kom vanilje, sukker, vand og glukosesirup i en gryde og kog det op under jævnlig omrøring, til temperaturen er præcis 117 grader – mål med et sukkertermometer.
+Skær vaniljestangen igennem på langs, skrab kornene ud og fordel dem i sukkeret. Kom vanilje, sukker, vand og glukosesirup i en gryde og kog det op under jævnlig omrøring, til temperaturen er præcis 117 grader - mål med et sukkertermometer.
 Pisk æggehviderne, til de er luftige, stive og danner toppe. Hæld langsomt den varme sukkerlage i æggehviderne i en meget tynd stråle. Pisk konstant, så sukkerlagen piskes godt ind i æggehviderne. Pisk i 8-10 minutter, til det er en sej, blank flødebolleskum.
 Fyld flødebolleskum i en sprøjtepose med en stor rund tylle eller en stjernetylle. Sprøjt toppe på de afkølede flødebollebunde og sæt til side på køkkenbordet i ca. 1 time, til de tørrer en anelse i overfladen.
 Overtræk flødebollerne
 Temperer chokoladen.
 Sæt flødebollerne på en rist med bagepapir under risten, og brug en ske til at hælde chokoladen over lidt efter lidt. Eller hæld chokoladen i en høj smal skål og dyp flødebollerne en ad gangen i chokoladen. Sørg for, at flødebolleskummet er helt dækket af chokolade og også, at den øverste del af bundene er dækket af chokolade.'),
-  (10333, 'Blomkålsgratin', 'https://www.valdemarsro.dk/blomkaalsgratin/', 'https://www.valdemarsro.dk/wp-content/2020/01/blomkaalsgratin.jpg', '90', '4 servings', 'Smelt smør i en gryde og rør hvedemel i. Pisk mælk i saucen, lad den koge godt igennem og smag til med muskatnød, salt og peber. Sluk for varmen og tag gry­den af blusset.
-Del æggene i blommer og hvider og rør æggeblommer og parmesan i saucen. Pisk æggehviderne stive og vend dem forsigtigt i saucen. Drys rasp i bunden af et smurt ovnfast fad og kom halv­delen af saucen i, derefter alle blomkålsbuketterne og til sidst resten af saucen.
-Drys resten af raspen over og sæt fadet i en forvarmet ovn ved 175 grader varmluft i cirka 30­-35 minutter.
-Åbn først ovnlågen, når de 30 minutter er gået, da gra­tinen ellers kan risikere at falde sammen.'),
+  (10333, 'Blomkålsgratin', 'https://www.valdemarsro.dk/blomkaalsgratin/', 'https://www.valdemarsro.dk/wp-content/2020/01/blomkaalsgratin.jpg', '90', '4 servings', 'Smelt smør i en gryde og rør hvedemel i. Pisk mælk i saucen, lad den koge godt igennem og smag til med muskatnød, salt og peber. Sluk for varmen og tag gryden af blusset.
+Del æggene i blommer og hvider og rør æggeblommer og parmesan i saucen. Pisk æggehviderne stive og vend dem forsigtigt i saucen. Drys rasp i bunden af et smurt ovnfast fad og kom halvdelen af saucen i, derefter alle blomkålsbuketterne og til sidst resten af saucen.
+Drys resten af raspen over og sæt fadet i en forvarmet ovn ved 175 grader varmluft i cirka 30-35 minutter.
+Åbn først ovnlågen, når de 30 minutter er gået, da gratinen ellers kan risikere at falde sammen.'),
   (10336, 'Panang karry med kylling', 'https://www.valdemarsro.dk/panang-karry-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2020/03/panang-karry-1.jpg', '35', '4 servings', 'Kog risene efter anvisning på emballagen.
 Kom kylling og olie i en pande, wok eller gryde og brun kødet af på alle sider. Tilsæt derefter løg, hvidløg, ingefær og karrypasta og sauter ved middelvarme, til løgene er bløde. Tilsæt gulerødder, broccoli, edamamebønner og kokosmælk til retten og
 lad retten simre under låg i 15 minutter.
@@ -6028,8 +5951,8 @@ Rør kokosmælk og cashewnøddesmør i og rør det godt sammen til en ensartet s
 Vend nudler og edamamebønner i og vend det godt sammen, så saucen fordeler sig i retten. Smag til med fishsauce og saften fra en lime.
 Server i skåle med et drys cashewnødder og frisk koriander.'),
   (10342, 'Rødbedehummus', 'https://www.valdemarsro.dk/roedbedehummus/', 'https://www.valdemarsro.dk/wp-content/2020/09/roedbedehummus.jpg', '45', '1 serving', 'Skrub rødbederne og kog dem med skræl i 30 minutter. Hæld koldt vand over rødbederne. Lad dem køle lidt af og gnid skrællen af og skær dem i mindre stykker.
-Blend rød­bede, kikærter, tahin, citronsaft, hvidløg, spidskommen og peberrod til en cremet hummus.
-Smag til med citronsaft, salt og peber og tilføj evt. lidt olie for at få den rette konsi­stens.'),
+Blend rødbede, kikærter, tahin, citronsaft, hvidløg, spidskommen og peberrod til en cremet hummus.
+Smag til med citronsaft, salt og peber og tilføj evt. lidt olie for at få den rette konsistens.'),
   (10345, 'Krydrede kyllingelår', 'https://www.valdemarsro.dk/krydrede-kyllingelaar/', 'https://www.valdemarsro.dk/wp-content/2020/11/kyllingelaar-krydrede.jpg', '60', '4 servings', 'Rør kryddermarinaden sammen i en skål og pensl den på kyllingelårene. Kom gerne lidt under skindet også, hvor det er muligt.
 Lad kyllingelårene med krydderi trække i mindst 30 minutter og gerne op til 24 timer i køleskabet.
 Læg de krydrede kyllingelår på en bradepande med bagepapir og bag dem i en forvarmet ovn 175 grader varmluft i 30-35 minutter, til de er gennemstegte.'),
@@ -6055,7 +5978,7 @@ Svampeblanding
 Steg champignon, løg, hvidløg og timian under omrøring på panden ved mellemhøj varme. Kom ekstra smør på, hvis nødvendigt. Sauter til al væden er helt fordampet. Lad svampeblandingen køle af på en tallerken med et stykke køkkenrulle, som kan suge overskydende væde. Skift evt køkkenrullen, så svampeblandingen ikke er våd.
 Læg et stykke film på køkkenbordet og fordel den tørrede seranoskinke på filmen, så hvert stykke ligger en cm ind over det næste. Fordel svampeblandingen på skinken i et ensartet lag. Læg svinemørbraden på, rul den sammen til en pakke og luk enderne med skinke. Filmen bruges som en hjælp til at få pakken flot og ensartet og fjernes derefter.
 Butterdejsindpakning
-Pak mørbrad med svampe og skinke ind i butterdej. Sørg for at lukningen er i bunden og er placeret på et stykke bagepapir. Sørg for at pakken er lukket godt hele vejen rundt – men vær opmærksom på ikke at bruge ekstra lag af butterdej.
+Pak mørbrad med svampe og skinke ind i butterdej. Sørg for at lukningen er i bunden og er placeret på et stykke bagepapir. Sørg for at pakken er lukket godt hele vejen rundt - men vær opmærksom på ikke at bruge ekstra lag af butterdej.
 Pensl med æggeblomme og skær derefter ridser i butterdejen med en skarp kniv, for en flot servering.
 Bagning
 Kom en pizzaplade eller bradepande i ovnen og varm den op til 225 grader, alm ovn.
@@ -6064,7 +5987,7 @@ Lad derefter stegen hvile i 10 minutter, inden den skæres ud i tykke skiver med
   (10357, 'Skagenslapper', 'https://www.valdemarsro.dk/skagenslapper/', 'https://www.valdemarsro.dk/wp-content/2021/01/skagenslapper.jpg', '600', '12 servings', 'Kom vand i en skål og rør gær ud i vandet. Rør fuldkornsmel og hvedemel og rør dejen godt sammen, gerne på en røremaskine i 10-12 minutter til dejen er blød og smidig. Rør tilsidst salt i.
 Kom dejen i en ren skål og dæk den til med et låg eller en tallerken. Stil på køl natten over, eller i 10-18 timer.
 Tag dejen ud af skålen, når den har hævet færdigt på køl. Fold dejen en enkelt gang på et meldrysset bord og skær dejen ud i lige store stykker.
-Kom solsikkekerner på en tallerken og ‘dyp’ bunden af hver bolle godt i solsikkekerne. Tryk let, så solsikkekernerne sidder godt fast og placer bollerne på en bradepande med bagepapir. Pensl med sammenpisket æg og drys med blå birkes og sesamfrø.
+Kom solsikkekerner på en tallerken og ''dyp'' bunden af hver bolle godt i solsikkekerne. Tryk let, så solsikkekernerne sidder godt fast og placer bollerne på en bradepande med bagepapir. Pensl med sammenpisket æg og drys med blå birkes og sesamfrø.
 Bag bollerne i en forvarmet ovn på 180 grader varmluft i 10 minutter. Skru op for varmen til 225 grader og bag i yderligere 8-10 minutter til bollerne er gyldne, sprøde og lækre.'),
   (10360, 'Vandbakkelser med vaniljecreme og hindbærflødeskum', 'https://www.valdemarsro.dk/vandbakkelser-med-vaniljecreme/', 'https://www.valdemarsro.dk/wp-content/2020/10/vandbakkelser.jpg', '90', '10 servings', 'Vandbakkelser
 Tænd ovnen på 200 grader almindelig over- og undervarme.
@@ -6072,7 +5995,7 @@ Kog vand og smør op i en gryde, tilsæt sukker og salt og rør, til sukkeret sm
 Tag gryden af varmen, sigt hvedemel i og rør dejen glat. Sæt gryden tilbage på varmen og rør, til dejen slipper og har en temperatur på 75 grader. Tag gryden af og afkøl dejen i 5 minutter. Pisk sammenpisket æg i lidt ad gangen og rør, til dejen er ensartet, elastisk og fast nok, til at den kan holde formen.
 Kom dejen i en sprøjtepose med rund eller stjerneformet tylle og sprøjt ensartede boller ud på en bageplade med bagepapir.
 Bag vandbakkelserne midt i den forvarmede ovn og skru straks ned til 175 grader, når ovnlågen er lukket. Bag dem i ca. 35 minutter, til de er gyldne og faste. Ser de færdige ud efter 30 minutter, så skru ned til 165 grader og giv dem lidt mere tid.
-Lad vandbakkelserne køle af på en rist. Prik et lille hul i bunden med et grillspyd, så den varme luft kan trænge ud – det hindrer dem i at falde sammen.
+Lad vandbakkelserne køle af på en rist. Prik et lille hul i bunden med et grillspyd, så den varme luft kan trænge ud - det hindrer dem i at falde sammen.
 Vaniljecreme
 Flæk vaniljestangen og skrab vaniljekornene ud. Skil vaniljekornene fra hinanden, ved at blande dem med sukker. Rør vaniljesukker, æggeblommer og majsstivelse godt sammen i en gryde. Pisk mælken i og varm langsomt op til kogepunktet under konstant omrøring til det tykner og bliver en lækker tyk vaniljecreme. Hæld vaniljecremen i en skål, læg husholdningsfilm over overfladen og stil i køleskabet til cremen er helt kold.
 Hindbærflødeskum
@@ -6106,16 +6029,16 @@ Bag i en forvarmet ovn ved 175 grader varmluft i 20-25 minutter, til de er gyldn
 Skyl mandlerne. Opløs salt i vandet og vend mandlerne deri.
 Fordel mandler og vand ud på en bageplade med bagepapir og bag dem i ovnen ved 150 grader varmluft i 15 minutter, til vandet er fordampet og mandlerne er sprøde. Lad dem køle af på bagepladen.
 Salat med broccoli
-Rør ingredienserne til dressingen sammen og smag til. Vend broccolibuketter og rødløg godt rundt i  dressingen, så det bliver jævnt fordelt over det hele.
+Rør ingredienserne til dressingen sammen og smag til. Vend broccolibuketter og rødløg godt rundt i  dressingen, så det bliver jævnt fordelt over det hele.
 Vend derefter halvdelen af edamamebønner, æble og saltede mandler i. Anret på et fad eller i en skål og drys den anden halvdel af bønner, æble og mandler over inden servering.'),
-  (10381, 'Vodka Pasta', 'https://www.valdemarsro.dk/vodka-pasta/', 'https://www.valdemarsro.dk/wp-content/2022/02/vodka-pasta.jpg', '20', '4 servings', 'Sauter løg på en pande med olie ved middelvarme til de er bløde. Skrue op for varmen og tilsæt vodka, lad det koge af ved høj varme i et halvt minuts tid – men hold godt øje med at panden ikke koger tør. Mos de flåede tomater i en dyb tallerken og rør tomatpuré i. Tilsæt det til panden og skrue ned til middelvarme. Lad det simre til tomaterne er kogt lidt ind og blevet cremet.
+  (10381, 'Vodka Pasta', 'https://www.valdemarsro.dk/vodka-pasta/', 'https://www.valdemarsro.dk/wp-content/2022/02/vodka-pasta.jpg', '20', '4 servings', 'Sauter løg på en pande med olie ved middelvarme til de er bløde. Skrue op for varmen og tilsæt vodka, lad det koge af ved høj varme i et halvt minuts tid - men hold godt øje med at panden ikke koger tør. Mos de flåede tomater i en dyb tallerken og rør tomatpuré i. Tilsæt det til panden og skrue ned til middelvarme. Lad det simre til tomaterne er kogt lidt ind og blevet cremet.
 Kog imens pastaen i letsaltet vand til den er perfekt mør.
 Tilsæt fløde til pastasaucen, rør det godt sammen og kog op igen.
 Smag til med salt, peber og friskrevet parmesan og vend pastaen godt sammen i vodkasaucen.
 Server på tallerkener med lidt fintrevet parmesandrys og et drys finthakket persille.'),
-  (10384, 'Bagt ost med sprøde butterdejsstænger', 'https://www.valdemarsro.dk/bagt-ost-med-sproede-butterdejsstaenger/', 'https://www.valdemarsro.dk/wp-content/2020/09/bagt-ost.jpg', '20', '4 servings', 'Rul butterdejen ud og smør den med  dijonsennep. Fordel skiver af serranoskinke over hele butterdejsstykket og fold den ene halvdel af butterdejen over den anden.
+  (10384, 'Bagt ost med sprøde butterdejsstænger', 'https://www.valdemarsro.dk/bagt-ost-med-sproede-butterdejsstaenger/', 'https://www.valdemarsro.dk/wp-content/2020/09/bagt-ost.jpg', '20', '4 servings', 'Rul butterdejen ud og smør den med  dijonsennep. Fordel skiver af serranoskinke over hele butterdejsstykket og fold den ene halvdel af butterdejen over den anden.
 Brug en saks og klip strimler butterdej ud på cirka 1 cm i bredden. Pensl alle strimlerne med sammenpisket æg, twist dem og læg dem på en bageplade med bagepapir. Drys med friskkværnet peber. Sørg for at der er plads til osten også.
-Placer en camenbert eller mont d´or ost i midten af bagepapiret med de twistede butterdejsstrimlerne.
+Placer en camenbert eller mont d''or ost i midten af bagepapiret med de twistede butterdejsstrimlerne.
 Skær ridser i osten og dryp lidt olivenolie over, sæt et par stængler rosmarin i og et par hvidløgsfed, der lige er knust let med en kniv.
 Sæt i en forvarmet ovn ved 200 grader varmluft og bag i 12-14 minutter. Nyd dem friskbagte, mens de stadig er lune.'),
   (10387, 'Grillede jomfruhummere', 'https://www.valdemarsro.dk/grillede-jomfruhummere/', 'https://www.valdemarsro.dk/wp-content/2021/02/grillede-jomfruhummer.jpg', '30', '4 servings', 'Tænd grillen og sørg for den er godt varm.
@@ -6131,8 +6054,8 @@ Bland hvedemel og fuldkornsmel med salt og smuldr smør i melblandingen. Det kan
 Saml dejen med vand, lad den gerne hvile på køl i 30 minutter og tryk derefter dejen ud i en smurt tærteform, min er 24 cm i diameter.
 Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader varmluft i 10 minutter, hvorefter den er klar til at blive fyldt og bagt færdigt.
 Fyld til tomattærte
-Pisk æg, ricotta, timian eller oregano, salt og peber sammen i en skål og kom det i den forbagte tærtedej. Fordel to­materne i fyldet. Smuldr feta over og fordel til sidst olivenerne i fadet.
-Bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30­-35 minutter, til æggemassen er stivnet.'),
+Pisk æg, ricotta, timian eller oregano, salt og peber sammen i en skål og kom det i den forbagte tærtedej. Fordel tomaterne i fyldet. Smuldr feta over og fordel til sidst olivenerne i fadet.
+Bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30-35 minutter, til æggemassen er stivnet.'),
   (10396, 'Pasta al Forno med kylling, grøntsager og ostesauce', 'https://www.valdemarsro.dk/pasta-al-forno/', 'https://www.valdemarsro.dk/wp-content/2021/10/pasta-al-forno.jpg', '60', '4 servings', 'Varm en sauterpande op med olie og brun hurtigt kyllingekødet under konstant omrøring. Skrue ned for varmen og sauter løg og hvidløg på panden med kylling, til løgene er bløde. Tilsæt squash, bladselleri og broccoli og rør det godt igennem.
 Kog pastaen i en gryde med letsaltet vand til den er lige 2-3 minutter fra at være færdig tilberedt. Hæld vandet fra pastaen af i en sigte sat over en skål. Hæld 2 dl af kogevandet fra pastaen i sauterpanden med kylling. Kog saucen op til kogepunktet og lad den derefter simre i 5 minutter, mens du laver ostesaucen.
 Ostesauce
@@ -6142,7 +6065,7 @@ Kom skiftevis pastaret og ostesauce i et smurt ovnfast fad.
 Vend rasp og parmesan sammen og drys det over tilsidst.
 Bag retten i en forvarmet ovn ved 190 grader varmluft i 15 minutter.'),
   (10399, 'Bramble Cocktail', 'https://www.valdemarsro.dk/bramble-cocktail/', 'https://www.valdemarsro.dk/wp-content/2021/10/bramble-cocktail.jpg', '5', '1 serving', 'Kom gin, citronsaft og sukkersirup i en shaker med is og ryst det godt sammen. Fyld et glas med knust is og sigt indholdet fra shakeren over den knuste is i glasset.
-Hæld langsomt brombærsirup over – gerne over bagsiden af en ske – så det lægger sig smukt omkring drinken.
+Hæld langsomt brombærsirup over - gerne over bagsiden af en ske - så det lægger sig smukt omkring drinken.
 Anret med brombær, citronskive, sugerør og top med lidt ekstra knust is.'),
   (10402, 'Pasta Alfredo', 'https://www.valdemarsro.dk/pasta-alfredo/', 'https://www.valdemarsro.dk/wp-content/2020/08/pasta-alfredo-app.jpg', '15', '4 servings', 'Kog pastaen i en stor gryde med rigeligt letsaltet vand til pastaen er al dente.
 Husk at tage en dl af kogevandet fra.
@@ -6153,14 +6076,14 @@ Kom løg og hvidløg i gryden med smør og sauter, til løgene er bløde. Tilsæ
 Blend evt. saucen med en stavblender, hvis du ønsker en fin og ensartet konsistens.
 Quinoa- og linseboller
 Skyl quinoa og linser grundigt i en sigte og kom dem derefter i en gryde sammen med grøntsagsbouillon. Læg låg på, bring i kog og lad det simre i 20 minutter, til linserne er knap møre.
-Kom de kogte linser og quinoa i en skål og rør grundigt sammen med champignoner, æg, rødløg, hvidløg, per­sille, krydderier, smuldret feta, salt og peber. Form en masse små boller af farsen. Læg dem på en bageplade med bagepapir og bag i ovnen ved 175 grader i 25­-30 minutter.
+Kom de kogte linser og quinoa i en skål og rør grundigt sammen med champignoner, æg, rødløg, hvidløg, persille, krydderier, smuldret feta, salt og peber. Form en masse små boller af farsen. Læg dem på en bageplade med bagepapir og bag i ovnen ved 175 grader i 25-30 minutter.
 Kog imens pastaen al dente efter anvisning på pakken.
 Server quinoa og linsebollerne med spaghetti, varm tomatsauce og rigeligt revet parmesan og lidt timian til at drysse over.'),
   (10408, 'Hytteostsalat med blomkål', 'https://www.valdemarsro.dk/hytteostsalat-med-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2020/10/salat-hytteost.jpg', '15', '4 servings', 'Vend spidskål, blomkål, edamamebønner, avocado og æble godt sammen i en stor skål med citronsaft.
 Vend derefter hytteost i og smag salaten godt til med salt og peber.'),
   (10411, 'Kylling med cashew', 'https://www.valdemarsro.dk/kylling-med-cashew/', 'https://www.valdemarsro.dk/wp-content/2022/02/kylling-med-cashew.jpg', '30', '4 servings', 'Rist cashewnødderne på en tør pande. De skal blot lige have en anelse farve, men ikke være mørke. Tag dem af varmen og sæt til side i en skål.
 Sauter løg på panden i lidt olie til de er bløde. Tilsæt kylling og brun kyllingen af under omrøring.
-Rør hvidløg, ingefær, fishsauce, soyasauce, grøntsagsboullion, brun faring og majsstivelse godt sammen i en skål. Kom saucen, broccoli og cashew (gem lidt til servering) på panden til kyllingen og varm det op under omrøring. Lad det simre i 10-15 minutter til kyllingen er gennemstegt. Smag til med lidt limesaft og fintrevet limeskal fra en halv lime – gem resten af lime til servering- , samt friskkværnet peber.
+Rør hvidløg, ingefær, fishsauce, soyasauce, grøntsagsboullion, brun faring og majsstivelse godt sammen i en skål. Kom saucen, broccoli og cashew (gem lidt til servering) på panden til kyllingen og varm det op under omrøring. Lad det simre i 10-15 minutter til kyllingen er gennemstegt. Smag til med lidt limesaft og fintrevet limeskal fra en halv lime - gem resten af lime til servering- , samt friskkværnet peber.
 Server i skåle med ris og cashew kylling. Drys med forårsløg og lidt cashewnødder, og server lime til at dryppe over.'),
   (10414, 'Blomkålsdeller med quinoa og feta', 'https://www.valdemarsro.dk/blomkaalsdeller/', 'https://www.valdemarsro.dk/wp-content/2020/08/blomkaalsdeller.jpg', '60', '10 servings', 'Kog quinoa efter anvisning på emballagen i letsaltet vand, hæld al vand fra og lad det køle af og tørre lidt.
 Kom quinoa, rå blomkålsris, æg, smuldret feta, hvidløg, mel, salt og peber i en skål og rør sammen til en ensartet fars.
@@ -6169,7 +6092,7 @@ Form 10 deller og læg dem på en bradepande med bagepapir. Pensl med olie og ba
   (10417, 'Sprød mexi torsk med mangosalsa', 'https://www.valdemarsro.dk/sproed-mexi-torsk-med-mangosalsa/', 'https://www.valdemarsro.dk/wp-content/2023/05/sproed-mexi-torsk.jpg', '45', '4 servings', 'Mangosalsa
 Vend mango, avocado og krydderurter sammen i en skål. Smag til med limesaft og skal, chili, salt og peber og rør det godt sammen.
 Pico de gallo
-Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
+Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
 Sprød mexi torsk med panko
 Krydr fisken med krydderier, salt og peber. Tryk krydderierne lidt ind i fisken og vend den derefter i sammenpisket æg og tilsidst på en tallerken med pankorasp.
 Varm en pande op med olie og smør. Steg fisken på alle sider til den er sprød, men kun akkurat netop gennemstegt.
@@ -6184,11 +6107,11 @@ Server teriyaki laks med ris og lynstegte grøntsager. Drys med sesamfrø og kor
   (10423, 'Burritos med oksekød ala chimichanga', 'https://www.valdemarsro.dk/burritos-med-oksekoed/', 'https://www.valdemarsro.dk/wp-content/2023/05/burritos-chimichanga-app.jpg', '45', '4 servings', 'Burritos
 Brun oksekødet af på en varm pande med olivenolie, under omrøring. Tilsæt hvidløg, sriracha, røget paprika, spidskommen og oregano og rør det godt sammen.
 Tag af varmen og tilsæt tomatpure, flødeost og bønner, smag til med salt og peber.
-Halver tomaterne og skrab kernerne ud – kom evt tomatkernerne i mangosalsaen. Skær tomatkødet i tern.
+Halver tomaterne og skrab kernerne ud - kom evt tomatkernerne i mangosalsaen. Skær tomatkødet i tern.
 Varm tortillapandekagerne på en pande, til de er bløde og smidige. Gnid hver tortilla med olie på begge sider. Kom lidt avocado, lidt tomat, et par jalapenos, og cheddar i en stribe på midten af hver tortilla. Kom 3-4 spsk fyld på og fold enderne sammen og rul en stram pakket burrito.
 Sæt med lukningen vendt ned, fortsæt med resten af burritos.
 Kom 2 spsk ost på en varm pande ved middel varme, drys en knivspids chiliflager på og sæt burritoen på osten. Steg den i cirka 1-2 minutter, til den er sprød og gyldenbrun.
-Vend burritoen og steg den på brødsiden i ca. 1½-2 min.
+Vend burritoen og steg den på brødsiden i ca. 11/2-2 min.
 Mangosalsa
 Vend mango, avocado, tomatkerner og krydderurter sammen i en skål. Smag til med limesaft og skal, chili, salt og peber og rør det godt sammen.
 Server de varme sprøde chimichanga burritos med mangosalsa og cremefraiche.'),
@@ -6229,7 +6152,7 @@ Steg chorizo på en panden med lidt olivenolie i et par minutter. Kom de finthak
 Kom smør på den samme pande fra før og tilsæt smør, spidskommen, hvidløg og jalapenos. Rør det godt igennem ved lav-middelvarme, til det dufter skønt.
 Rør mælk og majsstivelse sammen i en skål og kom det på panden. Rør rundt og kog langsomt op til saucen lige akkurat simrekoger let. Rør i saucen i et par minutter og tilsæt derefter cheddarost i tern. Rør til osten smelter. Smag til med salt og friskkværnet sort peber og lad osten stå i gryden ved lav varme.
 Pico de gallo
-Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
+Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
 Servering
 Kom den varme quesodip i et varmt støbejernsfad og top med halvdelen af pico de galo. Kom resten af pico de gallo i en skål, og server ostedippen med tortillachips og limebåde.'),
   (10444, 'Bagt pasta bolognese', 'https://www.valdemarsro.dk/bagt-pasta-bolognese/', 'https://www.valdemarsro.dk/wp-content/2020/08/bagt-pasta-bolognese-1.jpg', '75', '4 servings', 'Steg bacon i en stor gryde i olivenolie på begge sider til de er sprøde. Lad dem dryppe af på et stykke køkkenrulle.
@@ -6239,15 +6162,15 @@ Skær den ristede baconen i små terninger og kom den tilbage i gryden til sauce
 Kom halvdelen af saucen i et stort smurt ovnfast fad, drys med halvdelen af parmesanen riv den ene kugle mozzarella i stykker og fordel over. Kom resten af bolognese og pastablandingen over. Afslut med det sidste parmesan og friskrevet mozzarella.
 Bag i en forvarmet ovn ved 175 grader varmluft i cirka 30 minutter eller til pastaen er al dente. Lad den sætte sig i 5-10 minutter inden servering.'),
   (10447, 'Sidecar cocktail', 'https://www.valdemarsro.dk/sidecar/', 'https://www.valdemarsro.dk/wp-content/2024/01/sidecar-cocktail.jpg', '5', '1 serving', 'Kom isterninger, cognac, cointreau, citronsaft og en dråbe simpel sirup i en shaker og ryst drinken godt sammen, til den er iskold.
-Dyp kanten af glasset i lidt sirup og derefter i sukker. Sigt drinken op i  cocktailglasset.'),
+Dyp kanten af glasset i lidt sirup og derefter i sukker. Sigt drinken op i  cocktailglasset.'),
   (10450, 'Æblegranola', 'https://www.valdemarsro.dk/aeblegranola/', 'https://www.valdemarsro.dk/wp-content/2024/03/aeblegranola.jpg', '45', '12 servings', 'Kom alle de tørre ingredienserne i en stor skål og rør det godt sammen. Tilsæt æblemos og smeltet smør og rør det godt igennem til æblemos og smør er godt fordelt i granolablandingen. Fordel det på en bageplade med bagepapir.
 Bag en forvarmet ovn ved 150 grader varmluft i cirka 30-45 minutter til det er gyldent og sprødt. Vend det sammen et par gange undervejs.
 Lad den duftende lækre æblegranola køle af og hæld derefter på glas.'),
   (10453, 'Grillet grøntsagssuppe med tomater og peberfrugt', 'https://www.valdemarsro.dk/grillet-groentsagssuppe/', 'https://www.valdemarsro.dk/wp-content/2019/12/grillet-groentsagssuppe.jpg', '45', '4 servings', 'På grill
 Vend tomater, peberfrugter, løg og hvidløg i olie, salt og peber og kom dem på en grillbakke på grillen, vend dem nogle gange undervejs og grill, til alle grøntsagerne er godt møre.
 I ovnen
-Vend tomater, peberfrugt, løg og hvidløg i olie, salt og peber og kom dem på en bradepande med bagepapir. Bag grøntsagerne i en forvarmet ovn ved 180 grader varmluft i 30­-35 minutter, til grøntsagerne er møre.
-Kom de grillede eller bagte grøntsager i en blender med grøntsagsbouillon og timian og blend til en cremet sup­pe. Blend til sidst piskefløde i suppen for at gøre den ekstra cremet og fyldig.
+Vend tomater, peberfrugt, løg og hvidløg i olie, salt og peber og kom dem på en bradepande med bagepapir. Bag grøntsagerne i en forvarmet ovn ved 180 grader varmluft i 30-35 minutter, til grøntsagerne er møre.
+Kom de grillede eller bagte grøntsager i en blender med grøntsagsbouillon og timian og blend til en cremet suppe. Blend til sidst piskefløde i suppen for at gøre den ekstra cremet og fyldig.
 Kikærter
 Rist kikærterne på en pande eller i ovnen, vendt i lidt olie og drysset med røget paprika til de er sprøde.
 Servering
@@ -6291,10 +6214,10 @@ Rist halloumi på en varm pande med olie i et par minutter på hver side, til de
 Vend salaten med ingefærdressing lige inden servering og fordel bagt rabarber, rødløg, sprød halloumi og et drys sprøde boghvedekerner og friskkværnet peber over salaten.
 Ingefærdressing
 Kom citronsaft i en skål og pisk det godt sammen med olie og lidt salt. Kom til sidst ingefær og chiliflager i og smag til med salt og peber.'),
-  (10485, 'Linsesalat med asparges og radiser', 'https://www.valdemarsro.dk/linsesalat/', 'https://www.valdemarsro.dk/wp-content/2020/04/linsesalat-radiser.jpg', '30', '4 servings', 'Skyl og kog ­linserne efter anvisning på emballagen.
-Rist pinjekernerne på en tør pande, til de er gyldenbru­ne og sæt dem til side.
+  (10485, 'Linsesalat med asparges og radiser', 'https://www.valdemarsro.dk/linsesalat/', 'https://www.valdemarsro.dk/wp-content/2020/04/linsesalat-radiser.jpg', '30', '4 servings', 'Skyl og kog linserne efter anvisning på emballagen.
+Rist pinjekernerne på en tør pande, til de er gyldenbrune og sæt dem til side.
 Knæk den nederste trævlede ende af aspargesene. Kom smør på en varm pande, lad det bruse af og rist hurtigt aspargesene på panden i ca. 1 minut.
-Anret salaten på et fad. Vend rucola, linser med dres­sing og persille godt sammen. Fordel de lune asparges på salaten, drys med radiser og pinjekerner.
+Anret salaten på et fad. Vend rucola, linser med dressing og persille godt sammen. Fordel de lune asparges på salaten, drys med radiser og pinjekerner.
 Ramsløgsdressing
 Rør ingredienserne til dressingen sammen og vend til sidst finthakkede ramsløgsblade i.'),
   (10488, 'Sprøde vafler', 'https://www.valdemarsro.dk/vafler/', 'https://www.valdemarsro.dk/wp-content/2011/08/vafler.jpg', '30', '10 servings', 'Pisk alle ingredienserne sammen i en skål med en håndmikser.
@@ -6337,7 +6260,7 @@ Kom dejen i en ren skål med et fugtigt viskestykke over og stil den i køleskab
 Næste morgen
 Tag skålen ud af køleskabet og rul dejen ud på et meldrysset køkkenbord i en retangel. Skær 16 lange strimler og form brødene i de traditionelle luciaforme eller find på dine egne.
 Pynt med chokoladeknapper og lad dejen hæve en time på køkkenbordet.
-Pensl forsigtigt uden at trykke dejen flad med sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft, i 16-18 minutter til brødene er gyldne og gennembagte.'),
+Pensl forsigtigt uden at trykke dejen flad med sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft, i 16-18 minutter til brødene er gyldne og gennembagte.'),
   (10514, 'Grønkålspesto', 'https://www.valdemarsro.dk/gronkalspesto/', 'https://www.valdemarsro.dk/wp-content/2013/01/groenkaalspesto.jpg', '10', '1 serving', 'Kom alle ingredienserne i en minihakker eller foodprocessor.
 Blend i et minutstid, til det har en skøn konsistens.
 Smag til og tjek om der skal mere olie i.
@@ -6350,15 +6273,15 @@ Smag til med flagesalt og friskkværnet sort peber inden servering.'),
 Tilsæt rugkerner, hvidvin og halvdelen af grøntsagsboullion, rør godt rundt. Sæt låg på og lad det simre ved middellav varme i 15 minutter.
 Rør resten af grøntsagsbouillonen i, rør godt rundt og lad rugkernerne suge al væsken.
 Varm en pande op og lad smørret bruse af på den varme pande. Rist champignonerne ved høj varme til de har en smuk gylden stegeskorpe. Tilsæt kantareller og græskarkerner og rist videre i et minuts tid. Drys med lidt salt og tag af varmen.
-Rør friskrevet parmesan og halvdelen af de ristede svampe i rugotto´en. Aret i dybe tallerkener og server rugotto toppet med ristede svampe, græskarkerner og lidt finthakket persille.'),
-  (10528, 'Grillede gulerødder med fetacreme og oliven', 'https://www.valdemarsro.dk/grillede-guleroedder/', 'https://www.valdemarsro.dk/wp-content/2020/02/grillede-guleroedder-opskrift.jpg', '20', '4 servings', 'Pensl gulerødderne med olie og kom dem på grillen ved direkte varme. Grill dem et par minutter på hver side, eller til de er møre – stadig med bid – og har flotte grillstriber.
-Anret salaterne på et stort fad og fordel gulerødderne ovenpå. Dryp med fetadip over og drys til sidst groft­ hakkede og hele oliven over.
+Rør friskrevet parmesan og halvdelen af de ristede svampe i rugotto''en. Aret i dybe tallerkener og server rugotto toppet med ristede svampe, græskarkerner og lidt finthakket persille.'),
+  (10528, 'Grillede gulerødder med fetacreme og oliven', 'https://www.valdemarsro.dk/grillede-guleroedder/', 'https://www.valdemarsro.dk/wp-content/2020/02/grillede-guleroedder-opskrift.jpg', '20', '4 servings', 'Pensl gulerødderne med olie og kom dem på grillen ved direkte varme. Grill dem et par minutter på hver side, eller til de er møre - stadig med bid - og har flotte grillstriber.
+Anret salaterne på et stort fad og fordel gulerødderne ovenpå. Dryp med fetadip over og drys til sidst groft hakkede og hele oliven over.
 Fetadip
 Rør feta og piskefløde sammen, til det er fløjlsblødt og cremet. Juster konsistensen med cremefraiche og smag til med finthakket timian og friskkværnet peber.
 Gulerødderne kan også steges på en pande eller bages i ovnen ved 175 grader varmluft i 20 minutter.'),
   (10531, 'Chilimayo', 'https://www.valdemarsro.dk/chilimayo/', 'https://www.valdemarsro.dk/wp-content/2019/05/chilimayo.jpg', '10', '1 serving', 'Chili mayonnaise
 Tag alle ingredienserne ud af køleskabet i god tid og lad dem stå på køkkenbordet i 30 minutter.
-Kom æggeblommer, citronsaft, sriracha, ketchup, chiliflager, dijonsennep og salt i en blenderskål, og sæt stavblenderen i bunden af blenderglasset. Hæld halvdelen af olien over og blend – uden at løfte stavblenderen til at starte med!
+Kom æggeblommer, citronsaft, sriracha, ketchup, chiliflager, dijonsennep og salt i en blenderskål, og sæt stavblenderen i bunden af blenderglasset. Hæld halvdelen af olien over og blend - uden at løfte stavblenderen til at starte med!
 Når mayonnaisen begynder at samle sig i blenderglasset, skal stavblenderen løftes op og ned til aiolien er ensartet. Blend videre, mens resten af oliens tilsættes i en tynd stråle. Smag til med salt.
 Sæt i køleskabet til den skal serveres
 Chili mayo med håndmikser eller piskeris
@@ -6373,7 +6296,7 @@ Saucen
 Kom okseboullion på den samme pande, som har været brugt til løg og bøffer og brug en træpalet til at skrabe al krymlen af panden, så det kan koge ud i saucen. Rør godt rundt, så det fordeler sig godt. Smag saucen til med piskefløde, worchestershiresauce, ketchup, sennep, evt mere peber og jævn den til sidst med majsstivelse rørt ud i en anelse vand og tilsæt kulør efter smag og behag. Kog godt igennem.
 Kom bøfferne tilbage på panden i saucen.
 Skær burgerbollerne op og smør dem med remoulade og ketchup. Læg rødløg, syltede agurker og rødbede på underbollen, derefter en bøf med brun sauce på samt en portion bløde løg og ristede løg. Overbollen oven på og dryp med ekstra sovs over, hvis du synes.'),
-  (10538, 'Wok med kylling og grøntsager', 'https://www.valdemarsro.dk/wok-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2019/08/wok-kylling-groentsager-1.jpg', '30', '4 servings', 'Pisk æg og vand godt sammen med lidt salt og peber til det er luftigt og kom det på en meget varm wok eller pande med olie.  Rør hurtigt igennem og lad det derefter sætte sig til en luftig omelet. Sæt omeletten til side på en tallerken.
+  (10538, 'Wok med kylling og grøntsager', 'https://www.valdemarsro.dk/wok-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2019/08/wok-kylling-groentsager-1.jpg', '30', '4 servings', 'Pisk æg og vand godt sammen med lidt salt og peber til det er luftigt og kom det på en meget varm wok eller pande med olie.  Rør hurtigt igennem og lad det derefter sætte sig til en luftig omelet. Sæt omeletten til side på en tallerken.
 Kom ekstra olie i den varme wok og steg kylling, karrypasta og løg. Vend under omrøring konstant i et par minutter.
 Skru ned på middelvarme og tilsæt ingefær, hvidløg, broccoli, peberfrugt, gulerødder og kokosmælk. Lad det simre i 5 minutter og kog imens nudlerne efter anvisning på emballagen.
 Skær omeletten i strimler og vend omelet, nudler og spinat i retten og anret i skåle. Top med cashewnødder, finthakket forårsløg og koriander.'),
@@ -6383,7 +6306,7 @@ Kom det hele i en blender, hold lidt af væden tilbage, og kør til det er en l�
 Blend parmesan og æblecider i og smag til med salt og peber.'),
   (10544, 'Aioli - hvidløgsmayonnaise', 'https://www.valdemarsro.dk/aioli/', 'https://www.valdemarsro.dk/wp-content/2019/05/aioli-hjemmelavet.jpg', '10', '1 serving', 'Aioli med stavblender
 Tag alle ingredienserne ud af køleskabet i god tid og lad dem stå på køkkenbordet i 30 minutter.
-Kom æggeblommer, hvidløg, citronsaft, dijonsennep og salt i en blenderskål, og sæt stavblenderen i bunden af blenderglasset. Hæld halvdelen af olien over og blend – uden at løfte stavblenderen til at starte med!
+Kom æggeblommer, hvidløg, citronsaft, dijonsennep og salt i en blenderskål, og sæt stavblenderen i bunden af blenderglasset. Hæld halvdelen af olien over og blend - uden at løfte stavblenderen til at starte med!
 Når mayonnaisen begynder at samle sig i blenderglasset, skal stavblenderen løftes op og ned til aiolien er ensartet. Blend videre, mens resten af oliens tilsættes i en tynd stråle. Smag til med salt.
 Sæt i køleskabet til den skal serveres
 Aioli med håndmikser eller piskeris
@@ -6396,7 +6319,7 @@ Saml dejen med vand, lad den gerne hvile på køl i 30 minutter og tryk derefter
 Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader varmluft i 10 minutter, hvorefter den er klar til at blive fyldt og bagt færdigt.
 Tærtefyld til kartoffeltærte
 Kom kartoffeltern i en gryde med letsaltet vand, lad det koge op og kog kartoflerne i 3 minutter. Hæld vandet fra gennem en sigte og lad dem lufttørre og køle lidt af i sigten. Kartoflerne skal ikke være kogt møre.
-Kom æg, mælk, cremefraiche, sennep, muskatnød, timi­an og friskkværnet peber i en skål og pisk det sammen til en ensartet masse. Vend kartoffeltern, finthakkede løg og finthakket sprød bacon i æggeblandingen.
+Kom æg, mælk, cremefraiche, sennep, muskatnød, timian og friskkværnet peber i en skål og pisk det sammen til en ensartet masse. Vend kartoffeltern, finthakkede løg og finthakket sprød bacon i æggeblandingen.
 Kom fyldet i den forbagte tærtedej og bag i en forvarmet ovn ved 175 grader varmluft i 40 minutter.'),
   (10553, 'Kringle', 'https://www.valdemarsro.dk/kringle/', 'https://www.valdemarsro.dk/wp-content/2019/08/kringle-1.jpg', '90', '8 servings', 'Rør gæren ud i en skål med mælk og tilsæt derefter smør skåret i små tern, sukker, æg, salt og halvdelen af melet. Rør det hele godt igennem, til det har en ensartet konsistens.
 Tilsæt derefter resten af melet lidt efter lidt og ælt dejen grundigt, til den er helt smidig, blød og glat. Dæk skålen med et rent klæde og lad dejen hæve i 30 minutter.
@@ -6404,9 +6327,9 @@ Remonce
 Rør marcipan, smør, sukker, kardemomme og kanel sammen i en skål til en ensartet remonce.
 Saml kringlen
 Rul dejen ud i et rektangel på et meldrysset bord. Fordel remoncen ned langs midten på dejen og drys med rosiner og halvdelen af mandlerne. Fold hver side af dejen ind mod midten og lad siderne overlappe hinanden på midten, så kringlen lukkes sammen. Placer kringlen på en bageplade med bagepapir.
-Pensl kringlen med et sammenpisket æg, drys til sidst med perlesukker og resten af mandlerne. Lad kringlen efterhæve i 20 minutter. Klip evt. små snit ned langs kringlen – det giver den et flot mønster, når den bages.
+Pensl kringlen med et sammenpisket æg, drys til sidst med perlesukker og resten af mandlerne. Lad kringlen efterhæve i 20 minutter. Klip evt. små snit ned langs kringlen - det giver den et flot mønster, når den bages.
 Bag kringlen i en forvarmet ovn ved 180 grader varmluft i 15-18 minutter, til den er gylden og færdigbagt.'),
-  (10556, 'Klatkager', 'https://www.valdemarsro.dk/klatkager/', 'https://www.valdemarsro.dk/wp-content/2007/12/klatkager-3.jpg', '120', '4 servings', 'Risengrød – skal afkøles, hvis man ikke har en rest tilovers
+  (10556, 'Klatkager', 'https://www.valdemarsro.dk/klatkager/', 'https://www.valdemarsro.dk/wp-content/2007/12/klatkager-3.jpg', '120', '4 servings', 'Risengrød - skal afkøles, hvis man ikke har en rest tilovers
 Skyl grødris i koldt vand og hæld derefter risene i en lille gryde tilsat vand og kog op. Hæld mælk i gryden og kog op til kogepunktet under omrøring.
 Skru ned til svag varme, så grøden blot akkurat simrer og lad den stå med låg på. Rør jævnligt, cirka hvert 10. minut.
 Smag til med salt, når grøden er klar.
@@ -6424,13 +6347,13 @@ Skær ud i firkantede konfektstykker.'),
   (10564, 'Gnocchi med salviesmør og tomater', 'https://www.valdemarsro.dk/gnocchi/', 'https://www.valdemarsro.dk/wp-content/2020/03/gnocchi_opskrift.jpg', '120', '4 servings', 'Tomater
 Kom de halverede tomater på en bageplade med bagepapir, med den overskårede side op og dryp en smule olie over og lidt flagesalt. Sæt i en kold ovn og sæt temperaturen til 100 grader varmluft. Bag i 45 minutter.
 Gnocchi
-Kog de uskrællede kartoflerne møre i usaltet vand og pil dem, mens de er varme. Mos kartoflerne med en gaffel og arbejd kartoffelmos,  æg, salt og durummel sammen, uden dog at ælte for meget. Det bliver en meget blød dej, men vær opmærksom på ikke at anvende for meget mel og at den blot skal samles, ikke æltes.
+Kog de uskrællede kartoflerne møre i usaltet vand og pil dem, mens de er varme. Mos kartoflerne med en gaffel og arbejd kartoffelmos,  æg, salt og durummel sammen, uden dog at ælte for meget. Det bliver en meget blød dej, men vær opmærksom på ikke at anvende for meget mel og at den blot skal samles, ikke æltes.
 Drys mel på køkkenbordet og tril dejen ud i fingertykke pølser. Skær dem i 1 cm stykker og tril hen over tænderne på en gaffel, så de får riller. Læg gnocchierne på et rent klæde, sørg for at de ikke rører hinanden eller kommer til at lægge i lag. Lad dem lufttørre i 15 minutter.
 Kog gnocchierne i en stor gryde med letsaltet vand. Tag dem op med en hulske, når de kommer op til overfladen.
 Salviesmør
 Smelt smør på en pande og kom salviebladene i, lad det stå ved svag varme til det dufter herligt og smørret bliver brunet lidt. Vend parmesanost i sammen med bagte tomater og vend de færdig gnocchi deri, inden de anrettes på tallerkener. Kom lidt friskkværnet sort peber og friskkværnet parmesan'),
   (10567, 'Fedtebrød med romglasur', 'https://www.valdemarsro.dk/fedtebroed/', 'https://www.valdemarsro.dk/wp-content/2021/01/fedtebroed.jpg', '30', '25 servings', 'Kom hvedemel og hjortetakssalt i en skål og bland det godt sammen. Smuldr smør i, til det er ensartet og helt fintsmuldret. Vend det sammen med kokosmel og sukker.
-Saml dejen, ved at trykke den godt sammen til faste stænger med en tykkelse på 1,5-2 cm, tryk dem let flade og sæt på stængerne på en bageplade beklædt med bagepapir. Bag stængerne i en forvarmet ovn ved 180 grader varmluft i 9 – 10 min.
+Saml dejen, ved at trykke den godt sammen til faste stænger med en tykkelse på 1,5-2 cm, tryk dem let flade og sæt på stængerne på en bageplade beklædt med bagepapir. Bag stængerne i en forvarmet ovn ved 180 grader varmluft i 9 - 10 min.
 Kom imens flormelis i en skål og rør rom i lidt ad gangen til konsistensen er en tyk og lækker glasur. Brug gerne en håndmikser.
 Tag kagestængerne ud af ovnen, træk kagerne og bagepapiret over på et stort skærebræt. Skær fedtebrødene igennem i passende stykker med en meget skarp kniv, mens de stadig er varme og lad dem ligge på bagepapiret. Fordel glasuren på de varme kager. Den løber én smule ud og fordeler sig pænt. Drys dem med lidt kokosmel.'),
   (10570, 'Kokoskranse', 'https://www.valdemarsro.dk/kokoskranse/', 'https://www.valdemarsro.dk/wp-content/2022/11/kokoskranse.jpg', '60', '30 servings', 'Bland sukker, kardemomme og appelsinskal godt sammen i en skål i nogle minutter til det dufter himmelsk.
@@ -6444,20 +6367,20 @@ Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader v
 Fyld til grøntsagstærte
 Fordel porrer, jordskokker, blomkål og spinat i den forbagte tærtebund.
 Rør æg, hytteost, cremefraiche, muskatnød, salt og peber sammen i en skål og hæld over grøntsagerne.
-Drys med smuldret feta og bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30­-35 minutter, til æggemassen er stivnet.'),
+Drys med smuldret feta og bag tærten i en forvarmet ovn ved 175 grader varmluft i ca. 30-35 minutter, til æggemassen er stivnet.'),
   (10579, 'Grøntsagsbiksemad med spejlæg', 'https://www.valdemarsro.dk/groentsagsbiksemad/', 'https://www.valdemarsro.dk/wp-content/2020/01/groentsagsbiksemad.jpg', '40', '4 servings', 'Sauter løg, kartofler, gulerødder og søde kartofler på en pande med smør eller olie ved middelvarme og rør jævnligt, til løgene er bløde, og kartoflerne har fået stegeskorpe og er lige knap møre.
 Krydr med salt og peber.
-Kom broccolibuketter på sammen med finthakket hvid­løg og sauter videre, til kartoflerne er møre.
+Kom broccolibuketter på sammen med finthakket hvidløg og sauter videre, til kartoflerne er møre.
 Varm smør op på en pande og steg æggene til spejlæg.
 Server grøntsagsbiksemad med spejlæg og ketchup på rugbrød og med tilbehør af rødbeder og persille.'),
   (10582, 'Bagt torsk med kapersvinaigrette og grønt', 'https://www.valdemarsro.dk/bagt-torsk-med-kapersvinaigrette/', 'https://www.valdemarsro.dk/wp-content/2023/04/bagt-torsk-kapersvinaigrette.jpg', '45', '4 servings', 'Kog kartoflerne i en gryde med letsaltet vand til de er møre.
 Hæld vandet fra og lad kartoflerne blive i gryden. Kom også spidskål i gryden til de varme kartofler, sammen med smør og et drys flagesalt. Sæt låg på.
-Vend blomkålen i olie, salt og peber og kom blomkål på en bradepande med bagepapir. Bag i en forvarmet ovn ved 180 grader varmluft i 15 minutter. Skær torsken i passende størrelse og sæt dem på bagepladen med blomkålen. Drys fisken med salt og peber.  Bag torsk og blomkål i yderligere 15 minutter, til fisken er perfekt tilberedt.
+Vend blomkålen i olie, salt og peber og kom blomkål på en bradepande med bagepapir. Bag i en forvarmet ovn ved 180 grader varmluft i 15 minutter. Skær torsken i passende størrelse og sæt dem på bagepladen med blomkålen. Drys fisken med salt og peber.  Bag torsk og blomkål i yderligere 15 minutter, til fisken er perfekt tilberedt.
 Kapers vinaigrette
 Rør honning, æblecidereddike, olivenolie og dijonsennep godt sammen til det er helt ensartet. Kom dild og kapers i og smag godt til med salt og peber.
 Vend kartofler, spidskål og den nu smeltede smør godt sammen og anret på tallerkener, sammen med blomkål og torsk. Hæld kapers vinaigretten over torsk og blomkål og drys med dild iden servering.'),
   (10585, 'Asiatisk wok med hvidløgsrejer og kokosmælk', 'https://www.valdemarsro.dk/asiatisk-wok-med-hvidloegsrejer/', 'https://www.valdemarsro.dk/wp-content/2023/02/asiatisk-wok-hvidloegsrejer-app.jpg', '25', '4 servings', 'Nudler
-Kog nudlerne i letsaltet vand efter anvisning på emballagen. Hæld vandet fra og skyl nudlerne under koldt vand, så de ikke klistre sammen. 
+Kog nudlerne i letsaltet vand efter anvisning på emballagen. Hæld vandet fra og skyl nudlerne under koldt vand, så de ikke klistre sammen. 
 Hvidløgsrejer med ingefær
 Kom honning, hvidløg, ingefær, chiliflager og olie i en skål og rør det godt sammen. Vend rejerne godt i blandingen.
 Varm en wok eller pande op og og rist rejerne under omrøring i et minuts tid. Hæld overskydende væde fra panden over i en skål og kom smør, salt og peber på panden og steg videre til rejerne er lyserøde og har en let og smuk stegeskorpe. Tag halvdelen af rejerne fra og sæt dem til side på en tallerken til senere.
@@ -6481,7 +6404,7 @@ Pasta med hvidløg og olie
 Kog pastaen al dente i en stor gryde med rigeligt letsaltet vand.
 Kom imens hvidløg og chili i en sauterpande med olie og tænd for lav varme. Rør i olien, mens pastaen koger. Olien skal ikke blive varm eller sautere hvidløget, den skal blot lige blive tilpas varm til at trække smag fra chili og hvidløg.
 Hæld vandet fra pastaen gennem en sigte, når den er perfekt og stadig har bid. Kom den varme pasta på panden med olie, hvidløg og chili og vend det godt rundt. så den krydrede olie fordeler sig overalt på pastaen.
-Server på tallerkener med pasta og squashruller. Drys resten af basilikum og fintrevet  fast ost over, inden servering.'),
+Server på tallerkener med pasta og squashruller. Drys resten af basilikum og fintrevet  fast ost over, inden servering.'),
   (10594, 'Nachos Bowl - vegetar', 'https://www.valdemarsro.dk/nachos-bowl/', 'https://www.valdemarsro.dk/wp-content/2020/01/nachos-bowl-vegetar.jpg', '30', '4 servings', 'Pensl tortillapandekagerne med olivenolie og placer dem på en bageplade med bagepapir, med små ovnfaste skåle, der er sat omvendt på bagepladen, så tortillaerne kan lægges over og formes som en skål. Bag dem i en forvarmet ovn ved 175 grader varmluft i 8-10 minutter, til de har fået lidt farve.
 Tag dem ud af ovnen og lad dem køle af på skålene. De bliver sprøde, når de er kølet af.
 Sauter løgene i olivenolie i en gryde ved middelvarme og under omrøring, til de er bløde. Tilsæt squash, gulerod, krydderier, tomatpuré, hakkede to- mater og kog op. Lad det simre uden låg i 15 minutter. Tilsæt kidneybønner, kog op og smag til med salt og peber.
@@ -6501,7 +6424,7 @@ Syltede gulerødder
 Skræl gulerødderne med en tyndskræller eller kartoffelskræller i lange strimler. Kom vand, sukker og riseddike i en gryde og giv et hurtigt opkog til sukkeret smelter. Tag gryden af varmen og kom gulerødderne i den varme eddikelage. Kom på glas, læg låg på og sæt i køleskabet, mens resten af retten tilberedes.
 Krydrede stegte kikærter
 Kom kikærterne på en bradepande med bagepapir og rist dem 5 minutter i en forvarmet ovn ved 200 grader.
-Rør sukker, teriaky og limesaft sammen i en skål og vend blandingen med kikærterne. Sæt tilbage i ovnen og bag videre i 20-30 minutter – vend flere gange undervejs.
+Rør sukker, teriaky og limesaft sammen i en skål og vend blandingen med kikærterne. Sæt tilbage i ovnen og bag videre i 20-30 minutter - vend flere gange undervejs.
 Asiatisk mayo-dressing
 Rør mayonnaise med fishsauce, hvidløg, ingefær og smag til med fintrevet limeskal og friskkværnet peber.
 Servering
@@ -6511,7 +6434,7 @@ Kom olie og hvidløg i en gryde og sauter hvidløg ved middellav varme til det d
 Syltede gulerødder
 Kom vand, sukker og æblecidereddike i en gryde og giv et hurtigt opkog til sukkeret smelter. Tag gryden af varmen og kom gulerødderne i den varme eddikelage. Kom på glas, læg låg på og sæt i køleskabet, mens resten af retten tilberedes.
 Sprød hvidløgskylling med ingefær
-Dup kyllingebrystet helt tørt med køkkenrulle. Brug en lang, tynd og spids kniv til at lave en dyb lomme ind i den tykkeste ende af kyllingekødet. Rør presset hvidløg og ingefær sammen med smør og kom det krydrede smør ind i lommen på kyllingebrystet. Luk åbningen til og dyp den godt i hvedemel.  Vend kød godt i hvedemel, rørt med salt og peber, så det er dækket til. Vend derefter i sammenpisket æg og tilsidst i pankorasp.
+Dup kyllingebrystet helt tørt med køkkenrulle. Brug en lang, tynd og spids kniv til at lave en dyb lomme ind i den tykkeste ende af kyllingekødet. Rør presset hvidløg og ingefær sammen med smør og kom det krydrede smør ind i lommen på kyllingebrystet. Luk åbningen til og dyp den godt i hvedemel.  Vend kød godt i hvedemel, rørt med salt og peber, så det er dækket til. Vend derefter i sammenpisket æg og tilsidst i pankorasp.
 Varm en pande op med olie og steg kyllingen i 5 minutter på hver side ved middelvarme. Tjek at kødet er helt gennemstegt, inden du tager det af varmen.
 Asiatisk dressing
 Rør mayonnaise med cremefraiche, fishsauce, hvidløg, ingefær og smag til med fintrevet limeskal og friskkværnet peber.
@@ -6542,7 +6465,7 @@ Forbag dejen i en forvarmet ovn ved 175 grader varmluft i 10 minutter, hvorefter
 Tærte med kylling og grønt
 Vend kyllingetern med hvedemel, salt og peber og brun dem hurtigt af på en varm pande med olie. Kyllingekødet skal ikke være gennemstegt.
 Pisk æg, mælk, hytteost, salt og friskkværnet peber sammen med et piskeris og vend kylling, broccoli og chorizotern i blandingen.
-Fordel fyldet i den forbagte tærtebund, drys med friskrevet cheddar og bag tærten i ca. 35 minutter i en forvarmet ovn ved 175 grader varmluft,  til æggemassen er stivnet.'),
+Fordel fyldet i den forbagte tærtebund, drys med friskrevet cheddar og bag tærten i ca. 35 minutter i en forvarmet ovn ved 175 grader varmluft,  til æggemassen er stivnet.'),
   (10615, 'Pirogger med kylling', 'https://www.valdemarsro.dk/pirogger-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2024/03/kyllingepirogger.jpg', '90', '14 servings', 'Dej
 Lun mælken en smule til blot omkring 37 grader og rør gæren ud i mælken Rør honning i og derefter salt, smør og tilsidst hvedemel lidt af gangen, indtil dejen kan æltes til en blød og smidig dej.
 Lad dejen hæve i en ren skål under et klæde på køkkenbordet i 45-60 minutter.
@@ -6553,13 +6476,13 @@ Saml pirogger
 Del dejen i 14 lige store stykker, som først rulles til runde boller og dernæst rulles flade til en rund cirkel med en kagerulle. Kom 2 spiseskefulde fyld på midten, luk cirklen til en halvcirkel og brug en gaffel til at lukke dejen sammen hele vejen rundt. Sæt de samlede pirogger på en bageplade og lad dem hæve i 15 minutter.
 Pensl med sammenpisket æg og bag i ovnen ved 175 grader varmluft i 12-16 minutter.'),
   (10618, 'Lynstegt tun med sesam', 'https://www.valdemarsro.dk/lynstegt-tun-med-sesam/', 'https://www.valdemarsro.dk/wp-content/2024/04/lynstegt-tun.jpg', '20', '4 servings', 'Tag tunen ud af fryseren og lad den hvile i 10 minutter på køkkenbordet. Rør marinaden sammen og lad den trække smag.
-Varm en pande op med sesamolie til høj varme og steg tunen i 1 ½ minut på hver side. Tag tunen af panden, når alle fire sider af tunen er stegt. Drys med friskkværnet peber og flagesalt og lad den hvile på skærebrættet i 30 sekunder, skær ud i tynde skiver og anret på et fad med rucola.
+Varm en pande op med sesamolie til høj varme og steg tunen i 1 1/2 minut på hver side. Tag tunen af panden, når alle fire sider af tunen er stegt. Drys med friskkværnet peber og flagesalt og lad den hvile på skærebrættet i 30 sekunder, skær ud i tynde skiver og anret på et fad med rucola.
 Dryp den asiatiske marinade over og drys med purløg og sesamfrø.'),
   (10621, 'Asiatisk agurkesalat', 'https://www.valdemarsro.dk/asiatisk-agurkesalat/', 'https://www.valdemarsro.dk/wp-content/2024/04/asiatiske-agurkesalat.jpg', '15', '4 servings', 'Skær endestykkerne af agurkerne og giv agurkerne 2-3 bank hver med en kagerulle. Skær agurkerne i grove, mundrette tern og kom dem i en skål.
 Drys agurketern med salt og vend dem i saltet. Lad dem trække i 10 minutter.
 Rør hvidløg, soja, riseddike, limesaft og limeskal, sukker, sesamolie, ingefær og chiliflager sammen. Rør til sukkeret er opløst. Smag godt til. Hæld væden fra skålen med agurker og vend marinaden med agurkerne. Drys med ristede sesamfrø og koriander inden servering.'),
-  (10624, 'Gratin med kylling blomkål og kartofler', 'https://www.valdemarsro.dk/gratin-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2020/08/gratin-kylling-kartoffel.jpg', '90', '4 servings', 'Kog kartoflerne i kogende vand til de er lige knap møre. Tilsæt  blomkålsbuketter i vandet og kog dem med de sidste 4-5 minutter, til de er lige knap møre og stadig har bid. Gem 1 dl af kogevandet.
-Smelt smør i en gryde, og pisk hvedemel i, pisk derefter kogevand fra kartofler og blomkål samt mælk i saucen og kog den godt igennem. Smag til med muskatnød, salt og peber. Sluk for varmen og tag gryden af varmen.
+  (10624, 'Gratin med kylling blomkål og kartofler', 'https://www.valdemarsro.dk/gratin-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2020/08/gratin-kylling-kartoffel.jpg', '90', '4 servings', 'Kog kartoflerne i kogende vand til de er lige knap møre. Tilsæt  blomkålsbuketter i vandet og kog dem med de sidste 4-5 minutter, til de er lige knap møre og stadig har bid. Gem 1 dl af kogevandet.
+Smelt smør i en gryde, og pisk hvedemel i, pisk derefter kogevand fra kartofler og blomkål samt mælk i saucen og kog den godt igennem. Smag til med muskatnød, salt og peber. Sluk for varmen og tag gryden af varmen.
 Del æggene og rør æggeblommerne i den saucen, når den er kølet en smule af.
 Pisk æggehviderne stive, og vend dem forsigtigt i saucen.
 Drys rasp i bunden af et smurt ovnfast fad på 18×26 cm. Fordel halvdelen af saucen i fadet og kom derefter kartofler, blomkål og kyllingebryst i. Hæld resten af saucen over. Vær opmærksom på at retten vil hæve op under bagning, så fyld kun fadet 1/2 op.
@@ -6571,7 +6494,7 @@ Læg et stykke bagepapir over og rul dejen på hvert stykke bagepapir til ca. 1,
 Skær dejen igennem til knækbrød med en skarp kniv, pizzaskærer eller sporejern.
 Bag i en forvarmet ovn ved 175 grader varmluft i cirka 30 minutter, til knækbrødene er sprøde. Skær dem efter hvor de er skåret eller knæk dem fra hinanden og lad dem køle af på en rist.'),
   (10630, 'Gryderet med Peanutbuttersauce', 'https://www.valdemarsro.dk/gryderet-med-peanutbuttersauce/', 'https://www.valdemarsro.dk/wp-content/2010/01/crunchy-peanutbutter-gryderet.jpg', '120', '6 servings', 'Sauter løgene i en gryde ved middelvarme til de er bløde. Skru op for varmen, tilsæt kød og brun kødet ved høj varme.
-Rør peanutbutter ud i det kolde vand og hæld det over kødet. Tilsæt alle de andre ingredienser. Rør godt rundt og lad retten simrer under låg i 1 1/2 – 2 timer.
+Rør peanutbutter ud i det kolde vand og hæld det over kødet. Tilsæt alle de andre ingredienser. Rør godt rundt og lad retten simrer under låg i 1 1/2 - 2 timer.
 Rør i det ind imellem. Når kødet er godt mørt, tages laurbærbladene op og kasseres.
 Serveres med fx ris eller kartoffelmos, en god salat og et drys krydderurter.'),
   (10632, 'Risengrød', 'https://www.valdemarsro.dk/risengroed/', 'https://www.valdemarsro.dk/wp-content/2010/10/risengroed-1.jpg', '60', '4 servings', 'Risengrød i ovn
@@ -6580,7 +6503,7 @@ Læg låg på gryden og sæt gryden med risengrød i en forvarmet ovn ved 125 gr
 Lad grøden passe sig selv i ovnen i omkring 35-40 minutter. TIlberedningstiden kan variere lidt alt efter hvilken gryde man bruger. Rør 1-2 gange undervejs, tag grydelåget af med en grydelap og rør igennem, sæt låg på igen og tilbered videre.
 Tag gryden ud af ovnen, tag låget af (Pas på gryden og låget er meget varmt, husk grydelapper!) og rør grøden godt igennem. Læg låg på og lad grøden trække i 5 minutter ekstra inden servering. Hvis der er meget mælk i gryden, så kan den simre et par minutter på komfuret uden låg.
 Ved at tilberede risengrød i ovnen, undgår man helt, at grøden brænder på, man behøver ikke røre i grøden og man kan hygge med en masse andet, mens maden passer sig selv i ovnen.
- 
+ 
 Risengrød på komfur
 Skyl grødris i koldt vand og kom dem i en gryde med dobbelt mængde vand af hvad der står i opskriften (risengrød skal have lidt ekstra vand, når den tilberedes på komfur)
 Kog op under omrøring. Hæld mælk i gryden til grødrisene, når vandet er fordampet og rør det godt igennem nogle minutter, mens det varmes op til knap kogepunktet.
@@ -6618,8 +6541,8 @@ Drys frisk basilikum over inden servering.'),
   (10652, 'Rødvinssauce', 'https://www.valdemarsro.dk/roedvinssauce/', 'https://www.valdemarsro.dk/wp-content/2019/11/roedsvinssauce.jpg', '60', '4 servings', 'Smelt smørret i en gryde og sauter løg, hvidløg og champignoner ved middelvarme, til løgene er bløde. Tilsæt rødvin, kalvebouillon eller -fond, worcestershiresauce og timian.
 Lad saucen simre i 45 minutter under låg. Hæld den gennem en si over i en anden gryde, kog ind til smagen er skøn. Jævn saucen med saucejævner, hvis konsistensen ønskes tykkere og mere cremet.
 Smag til med salt, peber og evt mere worcestershiresauce.'),
-  (10655, 'Grønkålschips', 'https://www.valdemarsro.dk/gronkalschips/', 'https://www.valdemarsro.dk/wp-content/2013/10/groenkaalschips.jpg', '15', '1 serving', 'Vend grønkål med olivenolie, salt og peber. Fordel dem på en bageplade med bagepapir i et tyndt lag og drys parmesan­ ost over.
-Bag dem i en forvarmet ovn ved 160 gra­der varmluft i cirka 10-­15 minutter, til de er knasende sprøde. Hold godt øje med dem, så de ikke brænder på!'),
+  (10655, 'Grønkålschips', 'https://www.valdemarsro.dk/gronkalschips/', 'https://www.valdemarsro.dk/wp-content/2013/10/groenkaalschips.jpg', '15', '1 serving', 'Vend grønkål med olivenolie, salt og peber. Fordel dem på en bageplade med bagepapir i et tyndt lag og drys parmesan ost over.
+Bag dem i en forvarmet ovn ved 160 grader varmluft i cirka 10-15 minutter, til de er knasende sprøde. Hold godt øje med dem, så de ikke brænder på!'),
   (10658, 'Æbler med gele', 'https://www.valdemarsro.dk/aebler-med-gele/', 'https://www.valdemarsro.dk/wp-content/2019/10/aebler-gele.jpg', '30', '8 servings', 'Skræl æblerne og skær dem i halve og fjern kernehuset, så der bliver en lille fordybning.
 Kom vand, sukker, citronsaft og vanilje i kog i en gryde sammen med æblerne. Lad dem koge i 5 min.
 Tag æblerne op og lad dem køle lidt af. Fyld æblerne med ribsgele og server dem til julemiddagen.'),
@@ -6633,13 +6556,13 @@ Kom mel, sukker og salt i en ren skål og smuldr smørret i, til blandingen er s
 Del dejen op i 15 lige store stykker, så alle bollerne får samme størrelse. Kom lidt olivenolie på hænderne, så er dejen nemmest at arbejde med. Fold hvert stykke dej rundt om et stykke ost og luk godt til. Tril bollerne runde.
 Kom vand i en stor gryde og lad det koge op.
 Sænk tre boller ad gangen i det kogende vand og lad dem koge i 30 sekunder. Tag dem op med en hulske og sæt dem på en bageplade beklædt med bagepapir. Fortsæt på samme måde med resten af bollerne.
-Pensl bollerne med sammenpisket æg og drys med salt og sesamfrø. Bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 15­-17 minutter.
+Pensl bollerne med sammenpisket æg og drys med salt og sesamfrø. Bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 15-17 minutter.
 Drys evt. med friske timianblade og nyd bollerne, mens de er helt lune og nybagte.'),
   (10668, 'Shakshuka', 'https://www.valdemarsro.dk/shakshuka/', 'https://www.valdemarsro.dk/wp-content/2015/10/shakshuka-opskrift-1.jpg', '30', '4 servings', 'Rist krydderierne på en varm tør pande under omrøring i et minuts tid, til det begynder at dufte fantastisk.
 Kom olie, løg og hvidløg på panden og sauter løgene, til de er bløde.
 Tilsæt hakkede tomater og lad det simre uden låg i cirka 10 minutter, til noget af væden er fordampet.
 Rør peberfrugt i og smag til med salt og friskkværnet peber.
-Slå æggene ud i panden og rør en smule af æggehvi­den rundt i retten. Sæt låg på panden og lad den stå, til æggehviden er fast.
+Slå æggene ud i panden og rør en smule af æggehviden rundt i retten. Sæt låg på panden og lad den stå, til æggehviden er fast.
 Drys med feta og bredbladet persille inden servering.'),
   (10671, 'Pappardelle med svampe, nødder og rosmarin', 'https://www.valdemarsro.dk/pappardelle-med-svampe/', 'https://www.valdemarsro.dk/wp-content/2019/11/pappardelle-svampe.jpg', '30', '4 servings', 'Varm en stor pande op, kom smør på og lad smørret bruse af. Rist champignon og kantareller på panden, til de har en flot gyldne stegeskorpe. Skru ned til middelvarme og tilsæt løg, hvidløg, timian og rosmarin til svampene, sauter i nogle minutter til løgene er bløde.
 Hæld hvidvin og grøntsagsbouillon ved og lad det simre svagt i 10 minutter. Kog imens pastaen efter anvisning på emballagen, til pastaen er perfekt mør
@@ -6679,7 +6602,7 @@ Kagen rækker fint til 10 personer'),
 Dejen
 Lun vandet en smule til blot omkring 37 grader og rør gæren ud i vandet Rør sukker, salt, smør, fuldkornsmel og tilsidst hvedemel lidt af gangen, til dejen kan æltes til en blød og smidig dej. Lad den hæve i en ren skål under et klæde på køkkenbordet i 1 time.
 Rul dejen ud i en stor firkant på et meldrysset bord. Dejen skal være ca 0,5 cm i højden, når den er rullet ud. Smør tomatpure over hele fladen. Skær derefter firkanter ud i størrelse 10×10 cm.
-Fordel resten af fyldet på midten af halvdelen af firkanterne – undgå at fyldet går for meget ud til siderne –  og læg den anden halvdel firkanter over som låg. Pres kanterne sammen med en gaffel hele vejen rundt. Hvis de to dejstykker har lidt svært ved at binde sammen, så pensle med en smule koldt vand.
+Fordel resten af fyldet på midten af halvdelen af firkanterne - undgå at fyldet går for meget ud til siderne -  og læg den anden halvdel firkanter over som låg. Pres kanterne sammen med en gaffel hele vejen rundt. Hvis de to dejstykker har lidt svært ved at binde sammen, så pensle med en smule koldt vand.
 Pensl med sammenpisket æg, der er pisket sammen med en tsk tomatpure og drys tilsidst med oregano.
 Sæt pizzastykkerne på en bageplade med bagepapir, hvor de efterhæver i 30 minutter og derefter bages i en forvarmet ved 175 grader varmluft i 16-18 minutter.'),
   (10688, 'Gin Gimlet', 'https://www.valdemarsro.dk/gin-gimlet/', 'https://www.valdemarsro.dk/wp-content/2019/08/gin-gimlet.jpg', '15', '1 serving', 'Limesirup
@@ -6689,7 +6612,7 @@ Gin Gimlet
 Kom gin, limesirup og isterninger i en shaker og shake det godt sammen. Hæld gennem en sigte i afkølede glas og server med en limeskive.
 Opskrift på alkoholfri alternativ
 Erstat gin med tonic og miks limesirup med tonic'),
-  (10691, 'Donuts', 'https://www.valdemarsro.dk/donuts/', 'https://www.valdemarsro.dk/wp-content/2019/09/donuts.jpg', '840', '25 servings', 'Rør gær ud i en skål med mælk. Kom sukker, vaniljesukker, æg, citronskal, kardemomme og salt i. Rør sammen og sigt hvedemel i. Rør ved lav hastighed i 5 minutter på en røremaskine. Kom smør i skålen og rør ved høj hastighed i 5 minutter til dejen er blød og blank. Dejen skal være meget blød.
+  (10691, 'Donuts', 'https://www.valdemarsro.dk/donuts/', 'https://www.valdemarsro.dk/wp-content/2019/09/donuts.jpg', '840', '25 servings', 'Rør gær ud i en skål med mælk. Kom sukker, vaniljesukker, æg, citronskal, kardemomme og salt i. Rør sammen og sigt hvedemel i. Rør ved lav hastighed i 5 minutter på en røremaskine. Kom smør i skålen og rør ved høj hastighed i 5 minutter til dejen er blød og blank. Dejen skal være meget blød.
 Kom dejen i en ren skål smurt med lidt olie. Sæt låg over og lad dejen hæve i en time på køkkenbordet og sæt den derefter i køleskabet i cirka 10-12 timer.
 Rul den kolde dej ud på et meldrysset bord, til cirka 1 cm i højden. Stik runde donuts ud med en udstikker på 7 cm i diameter og stik derefter hullerne ud med en mindre udstikker på 2-3 cm i diameter. Læg dem på et stykke meldrysset bagepapir og lad dem hæve i 1 1/2 time.
 Varm fritureolie op i en gryde, til den er 170-175 grader varm. Kog 2-3 donuts af gangen i cirka 1-2 minutter på hver side eller til de er flot gyldenbrune.
@@ -6702,7 +6625,7 @@ Del den kolde den i lige store stykker til små boller. Vej dem gerne for at sik
 Varm fritureolie op i en gryde, til den er 170-175 grader varm. Kog 2-3 berlinere af gangen i cirka 2 minutter på hver side eller til de er flot gyldenbrune.
 Tag de færdige berlinere op med en hulske og lad dem dryppe af på en rist eller på køkkenrulle. Vend dem derefter i sukker på alle sider. Snit et hul på ca 1 cm i toppen af hver berliner med en skarp og spids kniv.
 Kom hindbærmarmelade i en sprøjtepose med en sprøjtetyl. Sprøjt marmelade ind i alle berlinerne og nyd dem, mens de er frisktlavede og nykogte.'),
-  (10697, 'Kålsalat med appelsin og valnødder', 'https://www.valdemarsro.dk/kaalsalat-med-appelsin/', 'https://www.valdemarsro.dk/wp-content/2019/10/kaalsalat-appelsin.jpg', '10', '4 servings', 'Vend dressingen grundigt sammen med spidskål, grøn­ kål og rødløg. Lad det trække lidt smag, mens appelsin­erne fileteres. Fileter appelsinerne ved at skære skrællen og de hvide hinder af omkring hver appelsinbåd.
+  (10697, 'Kålsalat med appelsin og valnødder', 'https://www.valdemarsro.dk/kaalsalat-med-appelsin/', 'https://www.valdemarsro.dk/wp-content/2019/10/kaalsalat-appelsin.jpg', '10', '4 servings', 'Vend dressingen grundigt sammen med spidskål, grøn kål og rødløg. Lad det trække lidt smag, mens appelsinerne fileteres. Fileter appelsinerne ved at skære skrællen og de hvide hinder af omkring hver appelsinbåd.
 Rist valnødderne på en tør pande i et minut, lad dem køle af og hak dem groft.
 Anret salaten med appelsinbåde, smuldret feta og et godt drys valnødder samt lidt friskkværnet peber.
 Appelsindressing
@@ -6719,11 +6642,11 @@ Vend de lune nybagte grøntsager med frisk spinat og rugbrødscroutoner og anret
 Rugbrødscroutoner
 Skær brødet ud i små tern og vend brødternene med friskpresset hvidløg, timian, salt og friskkværnet peber.
 Rist brødternene sprøde på en varm pande med smeltet smør under hyppig omrøring eller bag dem i en forvarmet ovn ved 175 grader varmluft i 15-20 minutter, til de er sprøde.'),
-  (10709, 'Ajvar - grøntsagsdip', 'https://www.valdemarsro.dk/ajvar-groentsagsdip/', 'https://www.valdemarsro.dk/wp-content/2020/07/ajvar-dip-opskrift.jpg', '45', '4 servings', 'Vend peberfrugt, aubergine, chili og hvidløg med oliven­ olie, salt og peber og kom dem i en grillbakke. Grill grøntsagerne, til de er meget møre.
+  (10709, 'Ajvar - grøntsagsdip', 'https://www.valdemarsro.dk/ajvar-groentsagsdip/', 'https://www.valdemarsro.dk/wp-content/2020/07/ajvar-dip-opskrift.jpg', '45', '4 servings', 'Vend peberfrugt, aubergine, chili og hvidløg med oliven olie, salt og peber og kom dem i en grillbakke. Grill grøntsagerne, til de er meget møre.
 Sæt også citronen direkte på grillristen og på direkte varme, så den får flotte grillstriber.
-Kom de møre grillede grøntsager – dog ikke citronen – i en blender og kør, til det er helt glat og cremet. Smag til med saften fra den grillede citron.
+Kom de møre grillede grøntsager - dog ikke citronen - i en blender og kør, til det er helt glat og cremet. Smag til med saften fra den grillede citron.
 Chili er en smagssag, så juster endelig til efter dine smagsløg.'),
-  (10712, 'Bønnesalat med grønne bønner', 'https://www.valdemarsro.dk/boennesalat/', 'https://www.valdemarsro.dk/wp-content/2020/01/boennesalat.jpg', '20', '4 servings', 'Nip enderne af bønnerne, hvis de er friske. Bring en gryde med letsaltet vand i kog og kom bønnerne i. Lad bønnerne koge i ca. 2-­3 minutter, hæld derefter vandet fra gennem en si. Skyl bønnerne med iskoldt vand og lad dem dryppe af.
+  (10712, 'Bønnesalat med grønne bønner', 'https://www.valdemarsro.dk/boennesalat/', 'https://www.valdemarsro.dk/wp-content/2020/01/boennesalat.jpg', '20', '4 servings', 'Nip enderne af bønnerne, hvis de er friske. Bring en gryde med letsaltet vand i kog og kom bønnerne i. Lad bønnerne koge i ca. 2-3 minutter, hæld derefter vandet fra gennem en si. Skyl bønnerne med iskoldt vand og lad dem dryppe af.
 Vend derefter bønnerne i en skål med finthakkede soltørrede tomater, bredbladet persille, rødløg og halvdelen af fetaosten, som smuldres i. Vend det godt sammen og anret på et fad eller i en skål.
 Varm en pande op og kom brødtern, olivenolie og presset hvidløg på. Rør rundt konstant til brødene er let ristet og sprøde. Drys med flagesalt og friskkværnet sort peber, tag af varmen og drys over salaten.
 Rist græskarkernerne på den samme pande til de popper og bliver sprøde.
@@ -6768,14 +6691,14 @@ Pensl med sammenpisket æg og skær evt mønster i butterdejen meden skarp kniv.
 Bagning af Beef Wellington
 Sæt stegen i en forvarmet ovn ved 225 grader varmluft og skru straks ned til 190 grader. Bag i 30-4o minutter til butterdejen er gyldensprød og mørbraden har en kernetemperatur på omkring 56 grader. Lad stegen hvile i 15 minutter og skær derefter ud i tykke skiver af 1,5 cm med en skarp kokkekniv eller brødkniv.'),
   (10733, 'Pommes Anna', 'https://www.valdemarsro.dk/pommes-anna/', 'https://www.valdemarsro.dk/wp-content/2019/12/pommes-anna.jpg', '1440', '6 servings', 'Skær kartoflerne i 1 mm tynde skiver, gerne på mandolinjern, så de bliver helt ensartet. Dup kartoffelskiverne tørre med et rent viskestykke.
-Smelt langsomt smør ved laveste varme i en gryde og hæld forsigtigt det klarede smør – dvs. alt undtagen den hvide valle i bunden af gryden – i en skål.
+Smelt langsomt smør ved laveste varme i en gryde og hæld forsigtigt det klarede smør - dvs. alt undtagen den hvide valle i bunden af gryden - i en skål.
 Beklæd et ovnfast brødform eller fad str 24 x 14 cm med bagepapir. Fordel kartoffelskiver i ét lag, pensl med smør, fordel et lag kartofler mere, pensl med smør. Drys med en smule salt og friskkværnet peber ved hvert 4 lag kartofler og fortsæt til alle kartoflerne og smørret er brugt.
 Dæk det ovnfaste fad med et låg, bagepapir eller folie og bag kartoflerne i en forvarmet ovn ved 175 grader varmluft i 50-60 minutter. Tjek om kartoflerner er møre ved at stille en kødnål i kartoflerne. Tag kartoflerne ud af ovnen, når de er møre. Læg et stykke bagepapir over kartoflerne, så det slutter tæt og stil noget fladt og tungt på kartoflerne, så de ligger i pres, mens de køler af og sætter sig.
 Sæt kartoflerne i køleskab i minimum 8 timer eller til næste dag.
-Inden servering 
+Inden servering 
 Tag fadet med kartofler ud af køleskabet og skær de køleskabskolde kartoffellag ud i flotte kvadratiske stykker med en skarp kniv.
 Varm en pande op med den overskydende smør, der har samlet sig i formen med kartoflerne.
-Steg Pommes Anna  i cirka 2 minutter på hver side, og vend dem derefter til en anden side. Steg kartoflerne til de har fået en smuk gylden stegeskorpe på alle sider.'),
+Steg Pommes Anna  i cirka 2 minutter på hver side, og vend dem derefter til en anden side. Steg kartoflerne til de har fået en smuk gylden stegeskorpe på alle sider.'),
   (10736, 'Parmesan biscotti med sort peber og rosmarin', 'https://www.valdemarsro.dk/parmesan-biscotti-med-sort-peber/', 'https://www.valdemarsro.dk/wp-content/2019/11/Parmesanbiscotti-opskrift.jpg', '60', '30 servings', 'Bland mel, bagepulver, parmesan, fintrevet citronskal, rosmarin, sukker, salt og friskkværnet sort peber. Smuldr smørret i og derefter de grofthakkede valnødder og pinjekerner. Saml dejen med et æg og en smule citronsaft og vand, hvis der mangler væde.
 Til dejen til lange pølser, som sættes på en bageplade med bagepapir.
 Pensl med sammenpisket æg og drys med flagesalt og friskkværnet peber. Bag dem i en forvarmet ovn ved 160 grader varmluft i 20 minutter. Tag dem ud af ovnen og lad dem køle lidt af, før de skæres i diagonale skiver, som igen sættes på samme bageplade med bagepapir og bages færdig i 15 minutter ved 175 grader varmluft.
@@ -6790,7 +6713,7 @@ Smør en tærteform på 24 cm i diameter og læg dejen i formen. Tryk den flot t
 Citroncreme
 Pisk æg og æggeblommer, sukker, citronsaft og -skal samt majsstivelse sammen i en gryde og lad det langsomt varme op ved middelvarme, til det tykner. Tag gryden af varmen og pisk smør i lidt ad gangen. Fordel cremen i den færdigbagte tærtebund og sæt på køl.
 Marengs
-Kom vand og sukker i en gryde og lad det koge op til præcis 118 grader – brug et sukkertermometer.
+Kom vand og sukker i en gryde og lad det koge op til præcis 118 grader - brug et sukkertermometer.
 Pisk æggehviderne, til de er luftige og stive. Pisk sukkerlagen i æggehviderne i en tynd stråle og pisk til sidst salt og citronsaft i. Pisk fortsat i 10-12 minutter, til marengsen er blank og luftig. Fyld marengsen i en sprøjtepose med stor stjernetylle og sprøjt mange tætte marengstoppe på tærten. Brænd marengstoppene med en gasbrænder til kager, til toppene har en smuk gylden farve.'),
   (10745, 'Stuvet hvidkål', 'https://www.valdemarsro.dk/stuvet-hvidkaal/', 'https://www.valdemarsro.dk/wp-content/2019/10/stuvet-hvidkaal.jpg', '20', '4 servings', 'Snit hvidkålen i ca. 1 cm brede strimler. Kom hvidkål, vand og salt i en gryde med låg og kog i 5 minutter til det falder sammen.
 Smelt smør i en anden gryde og rør mel i og derefter mælk og piskefløde. Kog op og juster konsistensen af saucen med kogevandet fra kålen.
@@ -6813,7 +6736,7 @@ Rør flødeost, cremefraiche og peberrod sammen, smag til med salt og peber
 Anret
 Anret på tallerkener med en kagering. Kom først finthakket avocado i, og pres det glat. Derefter rødbede. Tag ringen af og anret med lidt peberrodcreme og et drys kørvel på toppen.'),
   (10755, 'Gyros i fladbrød med tzatziki', 'https://www.valdemarsro.dk/gyros/', 'https://www.valdemarsro.dk/wp-content/2022/02/Gyros.jpg', '180', '4 servings', 'Gyros
-Rør hvidløg og krydderier – undtagen salt og peber – sammen i en skål og kom kødstrimlerne i blandingen. Vend det godt sammen og lad kødet marinere i minimum 2 timer og gerne op til 24 timer.
+Rør hvidløg og krydderier - undtagen salt og peber - sammen i en skål og kom kødstrimlerne i blandingen. Vend det godt sammen og lad kødet marinere i minimum 2 timer og gerne op til 24 timer.
 Kom olie på en rygende varm pande og lynsteg kødet, under konstant omrøring til det er gennemstegt, smag til med salt og peber.
 Tzatziki
 Halver agurk på langs, og skrab kernerne ud med en ske.
@@ -6826,8 +6749,8 @@ Hvidløgsdressing
 Bland dressingen sammen og smag den godt til.
 Servering
 Anret salat, agurk, løg, tomater og kebab på tallerkener og fordel dressingen over. Drys med persille og så er den lækre ret klar til servering.'),
-  (10761, 'Tærtedej til madtærter', 'https://www.valdemarsro.dk/taertedej/', 'https://www.valdemarsro.dk/wp-content/2020/06/taertedej.jpg', '45', '1 serving', 'Bland fuldkornsmel, hvedemel og salt sammen i en skål og smuldr smør i mel­ blandingen.
-Saml dejen med lidt vand, til den hænger sammen. Tril den til en rund kugle og læg den tilbage i skålen. Sæt dejen i køleskab i ca. 15-­30 minutter.
+  (10761, 'Tærtedej til madtærter', 'https://www.valdemarsro.dk/taertedej/', 'https://www.valdemarsro.dk/wp-content/2020/06/taertedej.jpg', '45', '1 serving', 'Bland fuldkornsmel, hvedemel og salt sammen i en skål og smuldr smør i mel blandingen.
+Saml dejen med lidt vand, til den hænger sammen. Tril den til en rund kugle og læg den tilbage i skålen. Sæt dejen i køleskab i ca. 15-30 minutter.
 Rul dejen ud i en cirkel, der passer til tærtefadet, og tryk den fast i en smurt tærteform på cirka 27 cm i diameter.
 Prik hul i dejen med en gaffel og forbag tærten i en forvarmet ovn ved 175 grader varmluft i 10 minutter. Den er nu klar til at blive fyldt med tærtefyld.'),
   (10764, 'Melanzane alla Parmigiana', 'https://www.valdemarsro.dk/melanzane-alla-parmigiana/', 'https://www.valdemarsro.dk/wp-content/2020/09/melanzane-alla-parmigiana.jpg', '90', '4 servings', 'Pensl aubergineskiverne med olivenolie og vend dem med hvedemel blandet med salt og peber. Lad aubergineskiverne hvile på en tallerken, mens tomatsaucen tilberedes.
@@ -6835,10 +6758,10 @@ Tomatsauce
 Varm olie op i en sauterpande og sauter hvidløg og løg, til løgene er bløde. Tilsæt tomatpassata og basilikum.
 Lad saucen simre i 30 minutter uden låg, så den koger en anelse ind, men hold øje med at den ikke bliver tør. Smag til med salt og peber.
 Saml retten i fadet
-Vend de meldryssede aubergineskiver med sammenpi­sket æg og steg dem i olie på en pande i et par minut­ter, til de er gyldne på begge sider.
-Smør et ovnfast fad med smør og fordel et par skefulde tomatsauce i bunden. Læg der­ efter lag på lag af aubergine, tomatsauce og revet par­mesan. Gentag, til al tomatsauce og aubergine er brugt. Afslut med tomatsauce, et gavmildt drys parmesanost og et par skefulde rasp. Riv mozzarella i stykker og for­del over.
-Bag retten ved i en forvarmet ovn ved 175 grader varmluft i 20-­25 minutter.
-Tag fadet ud af ovnen og lad retten hvile i et par minut­ter inden servering. Pynt med lidt friske basilikumblade.'),
+Vend de meldryssede aubergineskiver med sammenpisket æg og steg dem i olie på en pande i et par minutter, til de er gyldne på begge sider.
+Smør et ovnfast fad med smør og fordel et par skefulde tomatsauce i bunden. Læg der efter lag på lag af aubergine, tomatsauce og revet parmesan. Gentag, til al tomatsauce og aubergine er brugt. Afslut med tomatsauce, et gavmildt drys parmesanost og et par skefulde rasp. Riv mozzarella i stykker og fordel over.
+Bag retten ved i en forvarmet ovn ved 175 grader varmluft i 20-25 minutter.
+Tag fadet ud af ovnen og lad retten hvile i et par minutter inden servering. Pynt med lidt friske basilikumblade.'),
   (10768, 'Dild sild', 'https://www.valdemarsro.dk/dild-sild/', 'https://www.valdemarsro.dk/wp-content/2021/01/dildsild.jpg', '30', '6 servings', 'Rør cremefraiche med dijonsennep, grov sennep, æblecidereddike og dild i en skål. Smag til med friskkværnet peber.
 Skær sildene i mindre stykker, vend dem med dilddressingen og drys med kapers og frisk dild.
 Server til rugbrød med æbler i små tern, rødløg og smilende æg.
@@ -6852,8 +6775,8 @@ Forbag dejen i en forvarmet ovn ved 175 grader varmluft i 10 minutter, hvorefter
 Krydret tomatkylling
 Rist krydderierne ved middelvarme i en lille kasserolle. Kom olie, hvidløg, hakkede tomater, bladselleri, squash og kylling i. Lad det simre uden låg i 10 minutter og lad det køle lidt af. Hæld væden fra, hvis der er flydende væde i gryden.
 Tærte fyld til mexitærte
-Pisk æg, hytteost, salt og friskkværnet peber sammen med et piskeris og vend den lune krydrede tomatkylling, kidneybønner,  majskerner i blandingen.
-Fordel fyldet i den forbagte tærtebund, drys med friskrevet cheddar og knuste tortilla og bag tærten i ca. 35 minutter i en forvarmet ovn ved 175 grader varmluft,  til æggemassen er stivnet.
+Pisk æg, hytteost, salt og friskkværnet peber sammen med et piskeris og vend den lune krydrede tomatkylling, kidneybønner,  majskerner i blandingen.
+Fordel fyldet i den forbagte tærtebund, drys med friskrevet cheddar og knuste tortilla og bag tærten i ca. 35 minutter i en forvarmet ovn ved 175 grader varmluft,  til æggemassen er stivnet.
 Server med cremefraiche, chili, lime og koriander'),
   (10774, 'Grøn salat med pære og parmesandressing', 'https://www.valdemarsro.dk/groen-salat-med-paere/', 'https://www.valdemarsro.dk/wp-content/2021/09/groen_salat.jpg', '10', '4 servings', 'Parmesandressing med pesto
 Rør cremefraiche sammen med parmesan og pesto til det er ensartet og rør mayonnaise i. Smag til med salt og peber, lidt citronskal og et par dråber citronsaft
@@ -6869,7 +6792,7 @@ Tilsæt smør, rør rundt, lad det bruse af og læg æblerne i panden. Vend dem 
 Tag panden af blusset og lad æblerne køle af til stuetemperatur. Læg mørdejen over æblerne og pres den godt ned i kanten af panden hele vejen rundt. Snit et par ridser i dejen, så dampen kan komme ud under bagningen. Bag i en forvarmet ovn ved 175 grader varmluft i 25-30 minutter, til tærten er smukt gylden.
 Tag tærten ud af ovnen. Læg en tallerken eller et rundt fad over panden og vend den hurtigt rundt, så kagen kommer ud og panden kan løftes af.
 Nyd tærten, mens den stadig er lun, evt. med flødeskum, vaniljeis eller cremefraiche.'),
-  (10780, 'Spidskålssalat med æble og avocado', 'https://www.valdemarsro.dk/spidskaalssalat-opskrift/', 'https://www.valdemarsro.dk/wp-content/2019/10/spidskaalssalat_opskrift.jpg', '15', '4 servings', 'Rist pinjekernerne på en varm tør pande i cirka 2-­3 minut­ter under omrøring, til de er gyldenbrune.
+  (10780, 'Spidskålssalat med æble og avocado', 'https://www.valdemarsro.dk/spidskaalssalat-opskrift/', 'https://www.valdemarsro.dk/wp-content/2019/10/spidskaalssalat_opskrift.jpg', '15', '4 servings', 'Rist pinjekernerne på en varm tør pande i cirka 2-3 minutter under omrøring, til de er gyldenbrune.
 Vend fintsnittet spidskål grundigt med dressing og anret salaten på et fad eller en tallerken med avocado i små tern, æblestykker og ristede pinjekerner. Kværn lidt frisk peber over inden servering.
 Agurkedressing
 Kom alle ingredienserne til dressingen i en blender og blend til en lækker cremet grøn dressing. Smag til med salt og peber.'),
@@ -6885,7 +6808,7 @@ Vend tomater, agurk og feta sammen i en skål med lidt salt og peber.
 Server de græske hakkebøffer på tallerkener med krydrede kartofler, grønt tilbehør og tzatziki.'),
   (10787, 'Cobb salat med kylling og bacon', 'https://www.valdemarsro.dk/cobb-salat-med-kylling-og-bacon/', 'https://www.valdemarsro.dk/wp-content/2023/05/cobb-salat.jpg', '30', '4 servings', 'Krydr kyllingen med salt, peber og røget paprika og kom på en bradepande med bagepapir. Bag i en forvarmet ovn ved 225 grader i cirka 20 minutter eller til skindet er sprødt og kødet gennemstegt.
 Kog imens æggene i 8 minutter. Hæld koldt vand over, pil æggene og skær dem i kvarte.
-Steg bacon på en pande i en smule olie til det er sprødt, tag af panden og hak groft. Anret salaten på et stort fad. Med de forskellige elementer for sig. Fordel vinaigretten over og drys med finthakket purløg. 
+Steg bacon på en pande i en smule olie til det er sprødt, tag af panden og hak groft. Anret salaten på et stort fad. Med de forskellige elementer for sig. Fordel vinaigretten over og drys med finthakket purløg. 
 Vinaigrette
 Pisk olivenolie, balsamico, sennep og honning sammen og smag til med salt og peber'),
   (10790, 'Gnocchi salat med broccoli og bacon', 'https://www.valdemarsro.dk/gnocchi-salat-med-broccoli/', 'https://www.valdemarsro.dk/wp-content/2023/05/gnocchi-salat-broccoli.jpg', '30', '4 servings', 'Kom broccoli i en stor skål og hæld kogende vand over. Lad det stå i 30 sekunder og hæld derefter broccoli i en sigte, så vandet kan løbe fra.
@@ -6940,11 +6863,11 @@ Kom pasta i en stor skål og rør sammen med halvdelen af ranchdressingen og bac
 Ranchdressing
 Kom alle ingredienser i en skål og rør det godt sammen til en krydret og lidt tynd dressing. Smag til med salt og peber.'),
   (10808, 'Pulled chicken burger', 'https://www.valdemarsro.dk/pulled-chicken-burger/', 'https://www.valdemarsro.dk/wp-content/2023/04/pulled-chicken-burger.jpg', '240', '4 servings', 'Pulled chicken
-Rør sød paprika, røget paprika, spidskommen, brun farin, hvidløg, sriracha, flagesalt og friskkværnet peber godt sammen. Gnid kyllingebrysterne godt ind i marinaden. Sæt på køl i en lufttæt beholder i minimum 30 minutter – eller til næste dag.
+Rør sød paprika, røget paprika, spidskommen, brun farin, hvidløg, sriracha, flagesalt og friskkværnet peber godt sammen. Gnid kyllingebrysterne godt ind i marinaden. Sæt på køl i en lufttæt beholder i minimum 30 minutter - eller til næste dag.
 Smør en støbejernsgryde godt med smør i bunden og siderne og kom kyllingekødet i gryden. Hæld grøntsagsbouillon ved og læg låg på og sæt gryden i en forvarmet ovn ved 125 grader alm. ovn i 3 timer.
 Tag kødet op af gryden og træk kødet fra hinanden med to gafler.
 Coleslaw
-Kom cremefraiche og mayonnaise i en skål sammen med dijonsennep, æblecidereddike, salt, sukker, spidskommen, friskkværnet peber og salt. Rør dressingen godt sammen og smag til.
+Kom cremefraiche og mayonnaise i en skal sammen med dijonsennep, æblecidereddike, salt, sukker, spidskommen, friskkværnet peber og salt. Rør dressingen godt sammen og smag til.
 Bland kål og gulerødder i en stor skål og rør dressingen grundigt i. Lad coleslawen trække i ca. 1 time på køl inden servering.
 Server pulled chicken i varme burgerboller smurt med lidt barbecuesauce, sammen med coleslaw og lidt rucola.'),
   (10814, 'Salat med klementiner og saltede mandler', 'https://www.valdemarsro.dk/salat-med-klementiner/', 'https://www.valdemarsro.dk/wp-content/2021/01/salat-klementiner.jpg', '20', '4 servings', 'Saltede mandler
@@ -6962,7 +6885,7 @@ Kom klementinmarmelade på rengjorte, skoldede glas, som evt. er slynget med lid
 Kom mælk, grødris og et nip salt i en gryde og kog op under omrøring. Sæt gryden i en forvarmet ovn ved 125 grader i 40 minutter eller til grødrisene er perfekt møre. Lad det køle af til stuetemperatur.
 Hvis du bruger en rest risengrød, så tag den ud af køleskabet, så den ikke er køleskabskold.
 Bund
-Kom mandler (både til bunden og til risalamandecremen) i en skål og hæld kogende vand over. Lad det trække i 10 minutter, hæld vandet fra og hæld igen kogende vand over. Hæld vandet fra og smut mandlerne, del dem i to portioner til bund og risalamande creme.
+Kom mandler (både til bunden og til risalamandecremen) i en skal og hæld kogende vand over. Lad det trække i 10 minutter, hæld vandet fra og hæld igen kogende vand over. Hæld vandet fra og smut mandlerne, del dem i to portioner til bund og risalamande creme.
 Kom kiks og mandler til bunden i en foodprocessor og kør til det er en ensartet grynet masse. Kom smør i og kør et par sekunder mere. Læg bagepapir i bunden af en springform på 18 cm, og sæt lagkageplast fast langs indersiden af kanten. Fordel kiksemassen i bunden i et jævnt lag og tryk den godt sammen. Sæt på køl i 30 minutter.
 Risalamandecreme
 Flæk vaniljestangen og fordel vaniljekornene i flormelis.
@@ -6982,13 +6905,13 @@ Kom hvidvin på panden og lad det bruse af, tilsæt derefter grøntsagsboullion 
 Server kuller i cremet dildsauce med kartofler og spidskål.'),
   (10826, 'Knuste kartofler med hvidløg og parmesan', 'https://www.valdemarsro.dk/knuste-kartofler/', 'https://www.valdemarsro.dk/wp-content/2019/10/knuste-kartofler.jpg', '40', '4 servings', 'Kom kartofler og salt i en gryde og kog dem til de er lige akkurat møre. Hæld vandet fra og fordel kartoflerne på en bageplade med bagepapir. Giv alle kartoflerne et tryk, så de bliver knust, men ikke mast.
 Smelt smør og rør presset hvidløgsfed i smørret. Pensl alle kartoflerne med en smule hvidløgssmør på hver. Drys timian over, lidt salt og peber og derefter friskrevet parmesanost.
-Sæt kartoflerne i en forvarmet ovn ved 180 grader varmluft og bag til de er flot sprøde og gyldne på overfladen – det tager cirka 15-20 minutter.'),
+Sæt kartoflerne i en forvarmet ovn ved 180 grader varmluft og bag til de er flot sprøde og gyldne på overfladen - det tager cirka 15-20 minutter.'),
   (10829, 'Kyllingebryst svøbt i bacon med pistaciekerner', 'https://www.valdemarsro.dk/kyllingebryst-svoebt-bacon/', 'https://www.valdemarsro.dk/wp-content/2019/10/kylling-bacon-ruller.jpg', '25', '4 servings', 'Bank de 4 kyllingebrystfiletter flade med en kødhammer eller håndfladen.
-Smør dem med hvidløgsost, drys med friskkværnet sort peber og halvdelen af de finthakkede pistaciekerner – gem resten af pistaciekernerne til servering.
+Smør dem med hvidløgsost, drys med friskkværnet sort peber og halvdelen af de finthakkede pistaciekerner - gem resten af pistaciekernerne til servering.
 Rul dem sammen enkeltvis og rul bacon om.
 Steg kyllingerullerne på alle sider på en pande eller på grillen i ca 15 minutter ved middelvarme til bacon er sprød og kyllingekødet er gennemstegt. Eller bag dem i ovnen i et lille smurt ovnfast fad ved 175 grader varmluft i 20 minutter.
 Skæres over på midten ved servering og drysses med pistaciekerner.'),
-  (10832, 'Mangosalsa', 'https://www.valdemarsro.dk/mangosalsa/', 'https://www.valdemarsro.dk/wp-content/2022/02/mangosalsa.jpg', '15', '4 servings', 'Vend mangotern, tomatbåde,  agurketern, forårsløg og chilipeber godt sammen med finthakket koriander.
+  (10832, 'Mangosalsa', 'https://www.valdemarsro.dk/mangosalsa/', 'https://www.valdemarsro.dk/wp-content/2022/02/mangosalsa.jpg', '15', '4 servings', 'Vend mangotern, tomatbåde,  agurketern, forårsløg og chilipeber godt sammen med finthakket koriander.
 Smag til med limesaft, fintrevet limeskal, samt salt og peber.'),
   (10835, 'Clover Club', 'https://www.valdemarsro.dk/clover-club/', 'https://www.valdemarsro.dk/wp-content/2023/06/clovers-club.jpg', '60', '1 serving', 'Hindbærsirup
 Flæk vaniljestangen på langs og skrab kornene ud. Vend dem i sukkeret. Kom hindbær, sukker, vaniljekorn, vaniljestang og vand i en kasserolle. Kog i 10-15 minutter. Sluk og træk i yderligere 10-15 minutter. Sigt siruppen og sæt den i køleskab.
@@ -7000,7 +6923,7 @@ Skrub kartoflerne og kom dem i en gryde med letsaltet vand. Varm op til kogepunk
 Kryddersmør
 Rør smør med citronskal, dild, persille, flagesalt og peber.
 Bagt torsk i pakker
-Del torsken i portioner til antal personer der spiser med. Læg først fennikel og derefter et stykke torsk på hvert stykke bagepapir og fordel halvdelen af kryddersmørret på fiskepakkerne – kom den anden halvdelen af smørret i gryden til de varme kartofler. Top hver fiskepakke med gulerødder og asparges, fold bagepapiret op om fisken og hæld 1-2 spsk hvidvin over fisken. Bind hver fiskepakke med madlavningssnor. Bag i et ovnfast fad i en forvarmet ovn ved 175 grader varmluft i cirka 12-14 minutter. Lad dem hvile i 5 minutter, inden servering.
+Del torsken i portioner til antal personer der spiser med. Læg først fennikel og derefter et stykke torsk på hvert stykke bagepapir og fordel halvdelen af kryddersmørret på fiskepakkerne - kom den anden halvdelen af smørret i gryden til de varme kartofler. Top hver fiskepakke med gulerødder og asparges, fold bagepapiret op om fisken og hæld 1-2 spsk hvidvin over fisken. Bind hver fiskepakke med madlavningssnor. Bag i et ovnfast fad i en forvarmet ovn ved 175 grader varmluft i cirka 12-14 minutter. Lad dem hvile i 5 minutter, inden servering.
 Vend kartoflerne godt sammen i gryden med den smeltede kryddersmør og anret med ekstra persille og et drys salt og peber.'),
   (10841, 'Sennepssild', 'https://www.valdemarsro.dk/sennepssild/', 'https://www.valdemarsro.dk/wp-content/2021/01/sennepssild.jpg', '30', '6 servings', 'Rør cremefraiche dijonsennep, grov sennep og honning godt sammen i en skål og tilsæt kapers. Smag godt til med friskkværnet peber og mere sennep efter smag.
 Skær sildene i mindre stykker og vend dem med sennepsdressingen.
@@ -7015,12 +6938,12 @@ Vend andeskindet på panden og steg det hurtigt på den anden side, til det er l
 Sticky nudler
 Kom soja, hvidløg, brun farin, ingefær, riseddike, fivespice, majsstivelse og grøntsagsbouillon i en skål og rør det godt sammen til en marinade.
 Sauter grønkål og pak choi på en stor pande i lidt olie til det falder sammen. Kom den stickysauce på og lad det simre ved middelvarme.
-Kog nudlerne efter anvisning på emballagen – men giv dem gerne et minut kortere end anvist! Hæld vandet fra nudlerne og kom dem på panden til kålen og den sticky sauce. Rør det godt sammen.
+Kog nudlerne efter anvisning på emballagen - men giv dem gerne et minut kortere end anvist! Hæld vandet fra nudlerne og kom dem på panden til kålen og den sticky sauce. Rør det godt sammen.
 Servering
 Anret nudlerne i skåle, skær andekødet i skiver og anret det på nudlerne, drys med andeskind, sesamfrø og forårsløg.'),
   (10850, 'Hasselnøddesmåkager', 'https://www.valdemarsro.dk/hasselnoeddesmaakager/', 'https://www.valdemarsro.dk/wp-content/2023/11/hasselnoeddesmaakager.jpg', '45', '40 servings', 'Pisk smør, sukker og farin, til det er luftigt, og pisk derefter ægget i.
 Bland hvedemel, bagepulver, vaniljesukker og salt sammen, sigt det i dejen og rør det godt sammen.
-Rist hasselnødderne på en tør varm pande, til hinderne begynder at sprække. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af. Hak derefter hasselnødderne så omkring 2/3 af hasselnødderne er fnthakkede og resten mellem-grofthakkede. Vend hasselnødder og chokolade i dejen.
+Rist hasselnødderne pa en tør varm pande, til hinderne begynder at sprække. Kom hasselnødderne i et rent klæde og brug det til at gnubbe alle hinderne af. Hak derefter hasselnødderne så omkring 2/3 af hasselnødderne er fnthakkede og resten mellem-grofthakkede. Vend hasselnødder og chokolade i dejen.
 Form små runde kugler på størrelse med en hasselnød med skal og sæt dem på bageplader med bagepapir. Giv kagerne et lille tryk, så de flader en smule ud. Drys med lidt flagesalt.
 Bag dem i en forvarmet ovn ved 175 grader varmluft i 11-14 minutter, til de er gyldne og sprøde. Lad dem køle af på en bagerist.'),
   (10853, 'Tomat Bruschetta', 'https://www.valdemarsro.dk/tomat-bruschetta/', 'https://www.valdemarsro.dk/wp-content/2022/06/bruchetta-bagt-tomat.jpg', '15', '4 servings', 'Ovnbagte tomater
@@ -7035,13 +6958,13 @@ Del avocado og tag stenen ud. Fordel rejerne i hulrummet på avocadoen. Top med 
 Server med citronbåde og en lille ske til at spise den med.'),
   (10859, 'Carnitas - mexicansk pulled pork', 'https://www.valdemarsro.dk/carnitas-mexicansk-pulled-pork/', 'https://www.valdemarsro.dk/wp-content/2023/05/carnitas.jpg', '600', '4 servings', 'Dup kødet tørt og lad det hvile lidt ved stuetemperatur.
 Rør krydderiblandingen af spidskommen, koriander, sød og røget paprika, chiliflager, brun farin, salt og friskkværnet peber. Vend kødet godt i blandingen og gnid krydderiblandingen godt ind i kødet. Lad den trække smag i minimum 30 minutter og gerne til næste dag.
-Brun kødet med krydderiblandingen godt af på alle sider – vend stegen hyppigt, så det ikke brænder på – i en støbejernsgryde med olie. Skrue ned for varmen og tilsæt limesaft, øl, jalapenos + lidt lage, finthakkede løg, hvidløg og kanelstang. Vend det godt sammen og læg låg på. Sæt gryden i ovnen ved 110 grader i 9-11 timer.
+Brun kødet med krydderiblandingen godt af på alle sider - vend stegen hyppigt, så det ikke brænder på - i en støbejernsgryde med olie. Skrue ned for varmen og tilsæt limesaft, øl, jalapenos + lidt lage, finthakkede løg, hvidløg og kanelstang. Vend det godt sammen og læg låg på. Sæt gryden i ovnen ved 110 grader i 9-11 timer.
 Kødet er færdigt når det er mørt som smør og kan trækkes fra hinanden i trævler med to gafler.
 Tag kødet op af gryden, og træk kødet fra hinanden med 2 gafler. Hvis der er meget marinade, tilbage, så sigt det og kog det ind til 1 dl væde og vend marinaden med kødet.
 Sprød carnitas
 Sæt ovnen på 250 grader og bag canitas i nogle minutter til det bliver sprødt og en smule karamelliseret i kanterne. Du kan også riste det sprødt på en pande med lidt olie ved høj varme.
 Pico de gallo
-Kom alle ingredienserne i en stor skål – start med blot halvdelen af chilien – og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
+Kom alle ingredienserne i en stor skål - start med blot halvdelen af chilien - og vend det godt sammen. Smag godt til med mere chili, limesaft og lineskal, salt og peber efter smag.
 Servering
 Lun tortillapandekagerne og fyld dem med carnitas, pico de gallo, avocado mv.'),
   (10862, 'Surdejsbrød med avocado og rejer', 'https://www.valdemarsro.dk/surdejsbroed-med-avocado-og-rejer/', 'https://www.valdemarsro.dk/wp-content/2023/05/surdejsbroed-rejer-avocado.jpg', '20', '4 servings', 'Rør mayonnaise med citronskal og dild og smag godt til med salt og peber.
@@ -7098,7 +7021,7 @@ Servering
 Rør græsk yoghurt med ahornsirup og server french toast på tallerkener med en skefuld græsk yoghurt rørt med ahornsirup, en skefuld blåbærkompot og lidt friske blåbær.'),
   (10883, 'Friske forårsruller med rejer', 'https://www.valdemarsro.dk/friske-foraarsruller-med-rejer/', 'https://www.valdemarsro.dk/wp-content/2024/03/friske-foraarsruller-rejer.jpg', '90', '4 servings', 'Pankorejer
 Rør ingefær, hvidløg, fishsauce, limesaft og sesamolie sammen til det er ensartet. Dup rejerne helt tørre med køkkenrulle og vend dem godt i marinaden. Lad det trække smag i minimum 1 time eller natten over.
-Dyp rejerne en efter en, først i en skål med sammenpisket æg og derefter i en skål med pankorasp. Læg dem på en bageplade med  bagepapir, og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 12-15 minutter til de er gyldne.
+Dyp rejerne en efter en, først i en skål med sammenpisket æg og derefter i en skål med pankorasp. Læg dem på en bageplade med  bagepapir, og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 12-15 minutter til de er gyldne.
 Ananassalsa med avocado
 Vend ananas, avocado og krydderurter sammen i en skål. Smag til med limesaft og skal, finthakket chili, salt og peber og rør det godt sammen.
 Saml forårsrullerne
@@ -7137,7 +7060,7 @@ Kom vand, samt lidt salt og peber i gryden til kyllingen. Læg låg på og lad k
 Skum urenheder af væden/stegeskyen fra kyllingen og hæld derefter stegeskyen op i en lille kasserolle. Kom kyllingen tilbage i stegegryden, og læg låg på for at holde kyllingen varm, mens skysaucen tilberedes.
 Kog stegeskyen op i gryden og rør en meljævning af hvedemel og vand. Pisk jævningen i gryden med stegesky, mens saucen koges godt igennem. Tilsæt piskefløde og evt et par dråber kulør, smag godt til med salt og peber.
 Syltede agurker
-Rør sukker og salt ud i en skål med kogende vand. Når sukkeret er opløst og vandet kølet lidt af, tilsættes eddike, peberkorn og evt smagsgivere som dild eller laurbærblade.
+Rør sukker og salt ud i en skål med kogende vand. Når sukkeret er opløst og vandet kølet lidt af, tilsættes eddike, peberkorn og evt smagsgivere som dild eller laurbærblade.
 Skær agurken i helt tynde skiver, kom skiverne i et rent skoldet glas og hæld eddikelagen over. Lad det trække i min. 30 minutter.
 Rabarberkompot
 Kom alle ingredienserne i en gryde og rør det godt sammen. Lad det stå og trække saft i en halv time uden varme. Tænd for varmen og varm op til kogepunktet under omrøring.
@@ -7186,7 +7109,7 @@ Server Bøf Lindstrøm toppet med et spejlæg og et drys karse og purløg, samt 
   (10913, 'Citrus Macarons', 'https://www.valdemarsro.dk/citrus-macarons/', 'https://www.valdemarsro.dk/wp-content/2023/11/citrus-macarons_app.jpg', '240', '80 servings', 'Lime og lemoncurd
 Det er samme fremgangsmåde for begge varianter, blot med hver sin citrusfrugt.
 Pisk lime/citronsaft, lime/citronskal, æg og sukker sammen i en gryde og varm det langsomt op ved lav varme til 65 grader, under konstant omrøring.
-Pisk smørternene i lidt efter lidt. Rør konstant med et piskeris til det tykner og hold øje med at temperaturen konstant holdes under 80 grader – brug et køkkentermometer.
+Pisk smørternene i lidt efter lidt. Rør konstant med et piskeris til det tykner og hold øje med at temperaturen konstant holdes under 80 grader - brug et køkkentermometer.
 Hæld den bløde tykke creme gennem en sigte, så lime/citronskal og eventuelle æggehviderester, sigtes fra og kom cremen på et rent skoldet glas. Sæt i køleskabet til det er helt koldt.
 Macarons
 Sigt mandelmelet og kom mandelmel, flormelis, og præcis halvdelen af æggehviderne i en minihakker og kør til det er helt ensartet og fast i konsistensen.
@@ -7204,10 +7127,10 @@ Læg husblas i koldt vand i 10 minutter. Kog frugtkødet fra passionsfrugterne, 
 Skær forsigtigt rundt langs kanten af kagen, mens du fjerner kageplasten. Rul kagekrymmel i guldstøv og pynt kagen med dem og cironmelisse lige inden servering.'),
   (10920, 'Klassisk rejesalat', 'https://www.valdemarsro.dk/klassisk-rejesalat/', 'https://www.valdemarsro.dk/wp-content/2025/04/rejesalat.jpg', '15', '4 servings', 'Rør mayonnaise, cremefraiche og fintrevet citronskal sammen.
 Dræn rejer og asparges godt og dup dem derefter tørre på køkkenrulle. Vend rejer og asparges i dressingen sammen med finthakket dild. Smag godt til med salt, friskkværnet peber og et par dråber citronsaft efter smag.'),
-  (10923, 'Langtidsstegt lammekølle i ovnen', 'https://www.valdemarsro.dk/langtidsstegt-lammekoelle-i-ovnen/', 'https://www.valdemarsro.dk/wp-content/2025/04/langtidsstegt-lammekoelle-ovn.jpg', '720', '8 servings', 'Puds lammekøllen af og rids et rudemønster med en skarp kniv i fedtlaget – pas på ikke at skære ned i kødet.
+  (10923, 'Langtidsstegt lammekølle i ovnen', 'https://www.valdemarsro.dk/langtidsstegt-lammekoelle-i-ovnen/', 'https://www.valdemarsro.dk/wp-content/2025/04/langtidsstegt-lammekoelle-ovn.jpg', '720', '8 servings', 'Puds lammekøllen af og rids et rudemønster med en skarp kniv i fedtlaget - pas på ikke at skære ned i kødet.
 Kom hvidløg, rosmarin, salt og peber i en morter og stød godt sammen til en ensartet krydderblanding. Gnub krydderblandingen godt ind i lammekøllen og læg den i et smurt ovnfast fad. Dæk med køkkenfilm og sæt på køl til næste dag.
 Kom gulerødder, løg, hvidløg og rosmarin i fadet til lammekøllen og sæt den kolde lsteg i en kold ovn. Hæld rødvin og halvdelen af grøntsagsbouillon i fadet og tænd ovnen for 130 grader varmluft. Hæld godt med væde/fond fra fadet over lammekøllen 1-2 gange i timen. Supplere med ekstra grøntsagsbouillon hvis nødvendigt undervejs.
-Steg lammekøllen ved 130 grader varmluft i 2 ½ time, og skru derefter temperaturen op til 150 grader varmluft og steg i 30 minutter eller til kernetemperaturen i lammekøllen er 65 grader.
+Steg lammekøllen ved 130 grader varmluft i 2 1/2 time, og skru derefter temperaturen op til 150 grader varmluft og steg i 30 minutter eller til kernetemperaturen i lammekøllen er 65 grader.
 Sigt stegeskyen fra det ovnfaste fad ned i en skål og skum fedtet fra. Kom stegeskyen i en gryde og jævn evt med en anelse majsstivelse eller saucejævner. Smag godt til. Lad lammekøllen hvile i 20 minutter på et skærebræt og skær derefter ud.'),
   (10926, 'Julesalat med kål, æbler og dadler', 'https://www.valdemarsro.dk/julesalat-med-kaal-aebler-og-dadler/', 'https://www.valdemarsro.dk/wp-content/2021/01/julesalat.jpg', '20', '4 servings', 'Kom ingredienserne til dressingen i en skål, rør den godt sammen og smag den til.
 Vend æbler, grønkål og rødkål i dressingen.
@@ -7228,16 +7151,16 @@ Saml fiskehotdogs
 Kom et fiskestykke i hvert pølsebrød og top med tatarsauce, finthakkede agurketern og friske krydderurter.
 Resten af tatarsaucen kan bruge som lækker dip til de grøntsager, der evt serveres til.'),
   (10935, 'Bagt spidskål', 'https://www.valdemarsro.dk/bagt-spidskaal/', 'https://www.valdemarsro.dk/wp-content/2019/05/bagt-spidskaal-opskrift.jpg', '25', '4 servings', 'Læg de kvarte spidskål i et ovnfast fad. Pensl dem med smeltet smør og drys parmesan, timian, salt og peber over.
-Bag spidskålen i en forvarmet ovn ved 175 grader varmluft i cirka 15­-20 minutter.'),
+Bag spidskålen i en forvarmet ovn ved 175 grader varmluft i cirka 15-20 minutter.'),
   (10938, 'Vandbakkelse med kyllingesalat', 'https://www.valdemarsro.dk/vandbakkelser-med-kyllingesalat/', 'https://www.valdemarsro.dk/wp-content/2025/04/vandbakkelser-kyllingesalat.jpg', '120', '40 servings', 'Kyllingesalat
 Skær kyllingekødet i små tern og steg bacon sprød på en pande med lidt olie. Lad bacon dryppe af på køkkenrulle og hak derefter fint.
-Rør dressingen sammen af mayonnaise, cremefraiche, dijonsennep, fuldkornssennep, rødløg, purløg og kørvel – gem lidt til servering – samt salt og peber. Lad den trække smag i et par minutter og smag så rigtig godt til med salt, friskkværnet peber, sennep efter smag og evt en anelse mere mayo, så balancen mellem fedme og smag er god. Rør kylling og finthakket bacon – gem lidt til servering – i dressingen. Sæt i køleskabet og tilbered derefter vandbakkelserne.
+Rør dressingen sammen af mayonnaise, cremefraiche, dijonsennep, fuldkornssennep, rødløg, purløg og kørvel - gem lidt til servering - samt salt og peber. Lad den trække smag i et par minutter og smag så rigtig godt til med salt, friskkværnet peber, sennep efter smag og evt en anelse mere mayo, så balancen mellem fedme og smag er god. Rør kylling og finthakket bacon - gem lidt til servering - i dressingen. Sæt i køleskabet og tilbered derefter vandbakkelserne.
 Vandbakkelser
 Tænd ovnen på 200 grader almindelig over- og undervarme.
 Kog vand og smør op i en gryde, tilsæt sukker og salt og rør, til sukkeret smelter. Tag gryden af varmen, sigt hvedemel i og rør dejen glat. Sæt gryden tilbage på varmen og rør, til dejen slipper og har en temperatur på 75 grader. Tag gryden af og afkøl dejen i 5 minutter. Pisk sammenpisket æg i lidt ad gangen og rør, til dejen er ensartet, elastisk og fast nok, til at den kan holde formen.
 Kom dejen i en sprøjtepose med rund eller stjerneformet tylle og sprøjt ensartede boller ud på en bageplade med bagepapir.
 Bag vandbakkelserne midt i den forvarmede ovn og skru straks ned til 175 grader, når ovnlågen er lukket. Bag dem i ca. 35 minutter, til de er gyldne og faste. Ser de færdige ud efter 30 minutter, så skru ned til 165 grader og giv dem lidt mere tid.
-Lad vandbakkelserne køle af på en rist. Prik et lille hul i bunden med et grillspyd, så den varme luft kan trænge ud – det hindrer dem i at falde sammen.
+Lad vandbakkelserne køle af på en rist. Prik et lille hul i bunden med et grillspyd, så den varme luft kan trænge ud - det hindrer dem i at falde sammen.
 Servering
 Skær vandbakkelserne over og kom en lille skefuld kyllingesalat på hver. Pynt med purløg og server straks.'),
   (10941, 'Risotto med kylling', 'https://www.valdemarsro.dk/risotto-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2023/08/risotto-kylling.jpg', '45', '4 servings', 'Sauter løg og hvidløg i en gryde med olie, til løgene er bløde. Tilsæt ris og rør det godt igennem ved høj varme i et halvt minut.
@@ -7269,7 +7192,7 @@ Rør alle ingredienserne sammen i en stor skål. Lad farsen hvile i minimum 30 m
 Steg kødbollerne på en varm sauterpande med olie og smør, og vend dem flere gange undervejs, så de bliver fint runde. Sæt de græske kødboller til side på en tallerken.
 Græsk onepot med græske kødboller og orzo
 Kom lidt ekstra olie i sauterpanden og sauter løg, hvidløg og soltørrede tomater i nogle minutter ved middelvarme, til løgene er bløde.
-Tilsæt squash, hakkede tomater, grøntsagsboullion, timian, rosmarin og orzo og rør det godt igennem. Læg låg på og lad det simre ved lav varme til pastaen er perfekt mør – rør flere gange undervejs.
+Tilsæt squash, hakkede tomater, grøntsagsboullion, timian, rosmarin og orzo og rør det godt igennem. Læg låg på og lad det simre ved lav varme til pastaen er perfekt mør - rør flere gange undervejs.
 Rør spinat i og anret derefter de græske kødboller i retten. Smuldr feta over og fordel oliven sammen med et drys frisk oregano på inden servering.'),
   (10959, 'Sommerruller med grønt og halloumi', 'https://www.valdemarsro.dk/sommerruller/', 'https://www.valdemarsro.dk/wp-content/2023/02/sommerruller.jpg', '45', '4 servings', 'Peanutdip
 Rør alle ingredienserne sammen og juster konsistensen med kokosmælk. Smag godt til, om smagen er som du ønsker.
@@ -7302,7 +7225,7 @@ Servering
 Anret den cremede polenta på tallerkener med tomater. Dryp hvidløgs- og tomatsaften over og server med lidt parmesanflager og et drys persille.'),
   (10968, 'Paella med rejer og chorizo', 'https://www.valdemarsro.dk/paella/', 'https://www.valdemarsro.dk/wp-content/2022/02/paella.jpg', '60', '4 servings', 'Skrub muslingerne og tjek at skallerne er lukkede. De åbne skaller kan du banke blidt mod køkkenbordet, hvis de ikke lukker sig, så skal de kasseres. Sæt de rengjorte muslinger til side.
 Sauter løg og chorizo på en stor pande med olivenolie, til løgene er bløde. Tilsæt ris, safran, paprika og hvidvin og rør det godt igennem, mens risene absorberer væden fra hvidvinen. Tilsæt grøntsagsboullion, hvidløg, bladselleri, peberfrugt, hakkede tomater og tomatpuré og lad det simre ved lav varme i 10 minutter.
-Tjek om risene er ved at være møre – de skal ikke være helt klar endnu, men omkring 5 minutter fra færdigtilberedt – og kom ærter, rejer samt muslinger på panden. Sæt låg på og lad muslingerne åbne sig i den varme ret. Det tager cirka 5 minutter.
+Tjek om risene er ved at være møre - de skal ikke være helt klar endnu, men omkring 5 minutter fra færdigtilberedt - og kom ærter, rejer samt muslinger på panden. Sæt låg på og lad muslingerne åbne sig i den varme ret. Det tager cirka 5 minutter.
 Rist kammuslingerne på en varm pande i olivenolie og krydr dem med salt og peber.
 Anret paella med ristede kammuslinger. Smag til med salt, peber og drys med finthakket persille og fintrevet citronskal inden servering.'),
   (10971, 'Feta pasta med tomat', 'https://www.valdemarsro.dk/feta-pasta-med-tomat/', 'https://www.valdemarsro.dk/wp-content/2022/02/feta-pasta-opskrift.jpg', '30', '4 servings', 'Kom tomater i et smurt ovnfast fad og fordel hvidløg, olie, oregano, timian, chili samt friskkværnet peber over. Hak halvdelen af den friske basilikum fint og drys den over. Vend det godt sammen. Sæt fetaosten midt i fadet oven på tomaterne. Bag i en forvarmet ovn ved 180 grader varmluft i 25 minutter.
@@ -7312,7 +7235,7 @@ Server den dampende varme pastaret på tallerkener og drys frisk basilikum over.
   (10975, 'Frittata med squash og chorizo', 'https://www.valdemarsro.dk/frittata/', 'https://www.valdemarsro.dk/wp-content/2018/06/frittata-squash.jpg', '30', '4 servings', 'Sauter løg og chorizo på en sauterpande eller stegepande i en smule olie, til løgene er bløde.
 Pisk æggene sammen med mælk og rør det sammen med ost, salt og peber.
 Pres al væden godt fra den groftrevne squash og rør den i æggeblandingen og hæld det hele på panden. Læg låg på og lad det stå ved mellemvarme i cirka 5 minutter.
-Kom panden – vær obs på om den er ovnfast – i en forvarmet ovn ved 175 grader i 10-15 minutter eller til æggene er stivnet.
+Kom panden - vær obs på om den er ovnfast - i en forvarmet ovn ved 175 grader i 10-15 minutter eller til æggene er stivnet.
 Server med friske krydderurter.'),
   (10977, 'Græskarmuffins', 'https://www.valdemarsro.dk/graeskarmuffins/', 'https://www.valdemarsro.dk/wp-content/2019/10/graeskarmuffins.jpg', '45', '12 servings', 'Pisk smør, sukker og brun farin sammen, til det er luftigt, og pisk derefter et æg i ad gangen.
 Bland hvedemel, bagepulver, salt og krydderier sammen, sigt det i dejen og rør dejen sammen. Kom derefter græskar i og vend dejen godt sammen.
@@ -7343,15 +7266,15 @@ Lad dejen hæve i en skål med et rent viskestykke over i 4-6 timer.
 Smør en fast muffin form godt med olie eller smør. Drys solsikkekerner i bunden, så det dækker og med en ske fyldes formen med dejen fyldt op til omkring 1 cm fra toppen. Lad hæve en halv times tid og pensl med sammenpisket æg.
 Bag i en forvarmet ovn i 18 minutter ved 175 grader varmluft.'),
   (10994, 'Boller med tomat og bacon', 'https://www.valdemarsro.dk/frokost-boller-med-tomat-og-bacon/', 'https://www.valdemarsro.dk/wp-content/2012/11/boller-med-tomat-bacon.jpg', '1440', '12 servings', 'Rør gær ud i en skål med vand.
-Kom bacon, soltørrede tomater og fuldkornshvedemel i skålen og rør det godt sammen. Rør hvedemel i lidt efter lidt og rør dejen sammen til den er ensartet – gerne på en røremaskine.
+Kom bacon, soltørrede tomater og fuldkornshvedemel i skålen og rør det godt sammen. Rør hvedemel i lidt efter lidt og rør dejen sammen til den er ensartet - gerne på en røremaskine.
 Lad dejen stå i skålen i røremaskinen og hvile i 30 minutter. Kom salt i dejen og ælt dejen på røremaskinen i 10 minutter ved middelhastighed til dejen er blød, smidig og glat.
-Lad dejen hæve tildækket  i en skål på køkkenbordet i 45 minutter til den er hævet til cirka dobbelt størrelse og sæt derefter dejen i køleskabet til næste dag.
+Lad dejen hæve tildækket  i en skål på køkkenbordet i 45 minutter til den er hævet til cirka dobbelt størrelse og sæt derefter dejen i køleskabet til næste dag.
 Form bollerne og sæt dem på en bageplade med bagepapir. Pensl med et sammenpisket æg og bag dem i en forvarmet ovn ved 200 grader varmluft i 18-20 minutter til de er gyldne og gennembagte.
 Lad dem køle af på en rist.'),
-  (10997, 'Kyllingesalat med aubergine', 'https://www.valdemarsro.dk/kyllingesalat-med-aubergine-croutoner/', 'https://www.valdemarsro.dk/wp-content/2015/01/kyllingesalat-opskrift.jpg', '30', '2 servings', 'Bland marinaden til kylling godt og lad kyllingen marinere deri i minimum 20 minutter – gerne længere.
+  (10997, 'Kyllingesalat med aubergine', 'https://www.valdemarsro.dk/kyllingesalat-med-aubergine-croutoner/', 'https://www.valdemarsro.dk/wp-content/2015/01/kyllingesalat-opskrift.jpg', '30', '2 servings', 'Bland marinaden til kylling godt og lad kyllingen marinere deri i minimum 20 minutter - gerne længere.
 Lynsteg kyllingen på en pande ved høj varme til den er gennemstegt.
 Bland aubergine og marinade godt sammen, og rist enten auberginetern på panden eller på en bageplade i ovnen.
-Anret salaten med persille, lidt tomater, avocado, syltede rødløg og lidt smuldret feta.'),
+Anret salaten med persille, lidt tomater, avocado, syltede rødløg og lidt smuldret feta.'),
   (11000, 'Tomatsnurrer', 'https://www.valdemarsro.dk/tomatsnurrer-sma-madbrod-med-smag-af-tomater/', 'https://www.valdemarsro.dk/wp-content/madboller-med-tomat.jpg', '90', '25 servings', 'Lun mælken i en gryde til mælken er omkring 37 grader varmt og rør gæren ud i den lune mælk. Tilsæt ymer, olie, sukker og æg.
 Rør godt rundt og tilsæt derefter salt og mel lidt efter lidt.
 Ælt dejen til den er smidig og nem at arbejde med. Den må ikke være klistret, men lækker smidig.
@@ -7360,12 +7283,12 @@ Når dejen har hævet rulles den ud og skæres i fx 25-30 firkanter. Smør firka
 Lad dem hæve i 30 minutter, hvorefter de pensles med mælk og drysses med sesamfrø eller birkes.
 Bag dem ved 225 grader varmluft i 12-15 minutter'),
   (11003, 'Mini pizza chorizo', 'https://www.valdemarsro.dk/mini-pizza-med-chorizo-og-sma-tomater/', 'https://www.valdemarsro.dk/wp-content/2013/09/minipizza.jpg', '120', '12 servings', 'Pizzadej
-Opløs gæren i en skål med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring.
-Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
-Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
+Opløs gæren i en skal med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring.
+Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
+Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
 Lad dejen hæve i ca. 45-60 minutter eller til koldhævning i køleskabet natten over.
- Bagning og Topping
-Drys lidt mel på køkkenbordet. Del dejen i 12 dele og form 12 små pizzabunde på bordet med hænderne. Læg dem på to bageplader med bagepapir.
+ Bagning og Topping
+Drys lidt mel pa køkkenbordet. Del dejen i 12 dele og form 12 små pizzabunde på bordet med hænderne. Læg dem på to bageplader med bagepapir.
 Smør hver bund med lidt tomatpure, hvorefter de toppes med en skive mozzarella, 3 tynde skiver chorizo, basilikum og oliven.
 Bag i ovnen på en bageplade med bagepapir ved 230 grader i 10-14 minutter. Når pizzaerne er færdig, drysses de med basilikum.'),
   (11006, 'Minipizza med asparges og gedeost', 'https://www.valdemarsro.dk/mini-pizza-med-asparges/', 'https://www.valdemarsro.dk/wp-content/2013/07/asparges-pizza-gedeost.jpg', '90', '12 servings', 'Kom vand og gær i en skål og rør til gæren er opløst. Tilsæt olie, salt og hvedemel. Rør det godt sammen og rør lidt efter lidt durummel i til dejen kan æltes smidig og lækker.
@@ -7381,12 +7304,12 @@ Kom alle ingredienserne, undtagen vand, i et blenderglas. Hæld en smule vand ov
 Hak hasselnødder og mandler fint i en foodprocessor. Kom krydderier, kakao og dadler i og kør til en ensartet masse.
 Tril mundrette dadelkonfektkugler og vend dem i finthakkede hasselnødder.'),
   (11018, 'Brødskål med æg og skinke', 'https://www.valdemarsro.dk/aeg-og-ost-bagt-i-brod-ala-toast/', 'https://www.valdemarsro.dk/wp-content/2013/03/broedskaal-aeg-skinke-1.jpg', '30', '4 servings', 'Rul brødet fladt med en kagerulle og smør den med lidt smør på den ene side og flødeost, pesto og dijon på den anden side.
-Kom brødskiven ned i en fast muffinsform – smørsiden vendt ud af – og form brødet så det danner en lille skål med plads til fyld.
+Kom brødskiven ned i en fast muffinsform - smørsiden vendt ud af - og form brødet så det danner en lille skål med plads til fyld.
 Kom skinke ned i hver brødskål og slå derefter et æg ud i hver.
 Bag i en forvarmet ovn ved 175 grader varmluft i ca 15 minutter eller til æggehviden er perfekt stivnet og blommen stadig er blød.'),
   (11021, 'Pølsehorn', 'https://www.valdemarsro.dk/polsehorn/', 'https://www.valdemarsro.dk/wp-content/2013/05/poelsehorn.jpg', '165', '16 servings', 'Rør gæren ud i en skål med stuetempereret mælk og tilsæt yoghurt, olie, sukker og æg. Rør det godt rundt og tilsæt derefter salt og mel lidt efter lidt.
-Ælt dejen i 5-10 minutter, gerne på en  røremaskine, til den er smidig og nem at arbejde med. Stil dejen til hævning i en skål med et rent klæde over i en time på køkkenbordet.
-Del dejen i to og rul ud i to cirkler, som deles i et lagkagediagram med 8 lige store trekanter. Smør trekanterne med ketchup eller en god blanding af ketchup og koncentreret tomatpure – min favorit! Del pølserne i to og læg et stykke pølse på den brede ende og rul dejen omkring. Lad dem efterhæve i 1 time på køkkenbordet på en bradepande med bagepapir, Dæk med et rent klæde.
+Ælt dejen i 5-10 minutter, gerne på en  røremaskine, til den er smidig og nem at arbejde med. Stil dejen til hævning i en skål med et rent klæde over i en time på køkkenbordet.
+Del dejen i to og rul ud i to cirkler, som deles i et lagkagediagram med 8 lige store trekanter. Smør trekanterne med ketchup eller en god blanding af ketchup og koncentreret tomatpure - min favorit! Del pølserne i to og læg et stykke pølse på den brede ende og rul dejen omkring. Lad dem efterhæve i 1 time på køkkenbordet på en bradepande med bagepapir, Dæk med et rent klæde.
 Pensl med sammenpisket æg og drys med sesamfrø. Bag i en forvarmet ovn 175 grader varmluft i cirka 14-15 minutter.'),
   (11025, 'Grøntsagsgryde med kikærter', 'https://www.valdemarsro.dk/groentsagsgryde-med-kikaerter/', 'https://www.valdemarsro.dk/wp-content/2016/03/groentsagsgryde_opskrift.jpg', '30', '4 servings', 'Kom spidskommen, koriander, kardemomme, ingefær, cayennepeber og kanel i en varm tør gryde og varm det godt igennem under omrøring, til det begynder at dufte skønt.
 Skru ned for varmen og kom rødløg, hvidløg og olie i gryden og sauter, til løgene er bløde. Tilsæt butternutsquash, gulerødder, hakkede tomater og grøntsagsbouillon. Læg låg på og lad retten simre ved lav varme i 10 minutter.
@@ -7394,9 +7317,9 @@ Kom broccoli og squash i gryden og lad det simre i endnu 10 minutter. Tilsæt ki
 Server i dybe tallerkener med cremefraiche og persille.
 Hvis I er ekstra sultne, så kan I servere ris til'),
   (11028, 'Wraps med pølse og peberfrugt', 'https://www.valdemarsro.dk/wraps-med-peberfrugt-og-poelse-madpakketips/', 'https://www.valdemarsro.dk/wp-content/2015/12/wraps-til-madpakke.jpg', '10', '2 servings', 'Bland alt fyldet sammen i en skål.
-Fordel fyldet i hver sin wrap. Fyld kun på 2/3 af wrappen og rul dem så sammen med start fra den side hvor alt fyldet sidder og afslut med den ‘tomme’ side af wrappen.
+Fordel fyldet i hver sin wrap. Fyld kun på 2/3 af wrappen og rul dem så sammen med start fra den side hvor alt fyldet sidder og afslut med den ''tomme'' side af wrappen.
 Pak den hele wrap ind i madpakkepapir, hvor enderne lukkes tæt om bunden, som var det en gave man pakker ind. Skær over på midten og så er de klar til madkassen.'),
-  (11031, 'Romanesco salat med pære og syrlig dressing', 'https://www.valdemarsro.dk/romanesco-salat/', 'https://www.valdemarsro.dk/wp-content/2016/01/romanesco-salat.jpg', '15', '4 servings', 'Skær romanesco buketterne af ‘stammen’, som evt kan gemmes og kommes i en juicer eller rives groft til en anden salat.
+  (11031, 'Romanesco salat med pære og syrlig dressing', 'https://www.valdemarsro.dk/romanesco-salat/', 'https://www.valdemarsro.dk/wp-content/2016/01/romanesco-salat.jpg', '15', '4 servings', 'Skær romanesco buketterne af ''stammen'', som evt kan gemmes og kommes i en juicer eller rives groft til en anden salat.
 Sæt en gryde med lidt vand i kog og damp romanesco buketterne over vandet i en sigte med låg på i ét minut. Har man en dampgryde eller lign, bruger man selvfølgelig bare den.
 Tag gryden af varmen og anret romanescoen på et fad eller tallerken. Fordel pære i tern samt bacon over salaten.
 Dressing
@@ -7406,19 +7329,19 @@ Fordel dressingen over salaten i små klatter, drys med finthakket rosmarin samt
 Rør eddike, sukker og salt sammen og lad det stå i et glas til sukkeret er opløst.
 Skyl risene grundigt i en sigte under rindende vand. Kom risene i en gryde med vand og lad dem trække i 30 minutter. Kog derefter op ved middelhøj varme med låg på gryden og lad risene simre under låg i 10 minutter.
 Sluk for varmen og lad risene stå i gryden med låg på i 30 minutter.
-Kom eddikeblandingen i, sæt låg på igen og lad risene stå til de er kolde. Vi forbereder dem dagen før – fx i forbindelse med at vi spiser hjemmelavet sushi til aftensmad – og sætter resten på køl.
+Kom eddikeblandingen i, sæt låg på igen og lad risene stå til de er kolde. Vi forbereder dem dagen før - fx i forbindelse med at vi spiser hjemmelavet sushi til aftensmad - og sætter resten på køl.
 Om morgenen
 Klip en plade noritang over på midten, kom ris på som på billedet (det klistre mindre hvis man kommer hænderne i lidt koldt vand først), derefter en strimmel laks. Rul sammen og skær i passende stykker med en skarp kniv.
 Sæt dem tæt sammen i madpakken, med et lille bæger soya og dertil godt med grøntsager og gerne lækre edamamebønner med citron og lidt salt.
-– denne portion passer til to børns madpakker, hvor der desuden er grønt, fx edamamebønner og gnavegrønt.'),
+- denne portion passer til to børns madpakker, hvor der desuden er grønt, fx edamamebønner og gnavegrønt.'),
   (11037, 'Buddha Bowl', 'https://www.valdemarsro.dk/buddha-bowl/', 'https://www.valdemarsro.dk/wp-content/2018/09/buddha-bowl-1.jpg', '40', '4 servings', 'Kog risene efter anvisning på emballagen og tilbered imens kikærter, tahin og grøntsagerne.
-Vend søde kartofler, squash, tomater og rødløg med olie og salt og fordel blandingen på en bageplade med bagepapir. Bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 20­-25 minutter.
+Vend søde kartofler, squash, tomater og rødløg med olie og salt og fordel blandingen på en bageplade med bagepapir. Bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 20-25 minutter.
 Hæld kogende vand over edamamebønnerne og lad dem stå et øjeblik.
-Anret salaten i skåle med de bagte grøntsager, edamamebønner, sorte bønner, brune ris, avocado og rucola samt sprøde kikærter. Læg en skefuld hummus i midten af hver skål og drys til sidst med sesamfrø og grofthak­ket mynte. Server tahin­dressingen ved siden af.
+Anret salaten i skåle med de bagte grøntsager, edamamebønner, sorte bønner, brune ris, avocado og rucola samt sprøde kikærter. Læg en skefuld hummus i midten af hver skål og drys til sidst med sesamfrø og grofthakket mynte. Server tahindressingen ved siden af.
 Tahindressing
 Kom tahin, hvidløg, citronsaft og spidskommen i en skål sammen med salt og peber og rør rundt. Tilsæt vand lidt ad gangen, til dressingen er ensartet og lind i konsistensen.
 Ristede kikærter
-Vend kikærterne med olivenolie, røget paprika og salt og bag dem på bagepapir i en forvarmet ovn ved 175 grader varm­ luft i ca. 20-­25 minutter. Vend dem et par gange undervejs.'),
+Vend kikærterne med olivenolie, røget paprika og salt og bag dem på bagepapir i en forvarmet ovn ved 175 grader varm luft i ca. 20-25 minutter. Vend dem et par gange undervejs.'),
   (11040, 'Blodappelsinsalat med rucola og nødder', 'https://www.valdemarsro.dk/blodappelsin-salat/', 'https://www.valdemarsro.dk/wp-content/2018/02/blodappelsin-salat.jpg', '10', '4 servings', 'Rør dressingen godt sammen og vend rucola og grønkål godt i dressingen.
 Kom det i en skål.
 Fileter blodappelsinerne ved at skære skal og hinder af.
@@ -7444,7 +7367,7 @@ Pisk æg, mælk, salt og peber sammen til omeletten med en gaffel.
 Kom æggeblandingen på en pande med olivenolie og bag omeletten ved svag varme i 3-4 min.
 Servering
 Kom fyldet på den ene halvdel af omeletten, vend den anden halvdel over og drys med basilikum, oliven, pinjekerner, fetaost og tzatziki'),
-  (11056, 'Bagte søde kartofler med fyld', 'https://www.valdemarsro.dk/bagte-soede-kartofler/', 'https://www.valdemarsro.dk/wp-content/2017/07/soede-kartofler-bagte.jpg', '60', '4 servings', 'Skrub kartoflerne godt og bag dem på bagepapir i en forvarmet ovn ved 175 grader varmluft i 45-60 minutter, eller til de er møre inden i – det kan variere efter størrelse.
+  (11056, 'Bagte søde kartofler med fyld', 'https://www.valdemarsro.dk/bagte-soede-kartofler/', 'https://www.valdemarsro.dk/wp-content/2017/07/soede-kartofler-bagte.jpg', '60', '4 servings', 'Skrub kartoflerne godt og bag dem på bagepapir i en forvarmet ovn ved 175 grader varmluft i 45-60 minutter, eller til de er møre inden i - det kan variere efter størrelse.
 Skær hver kartoffel op og fyld ost og tomater i.
 Bag videre i 5 minutter mere.
 Server med cremefraiche, masser af purløg og et godt drys chili.'),
@@ -7455,11 +7378,11 @@ Servering
 Hæld kogende vand over suppen og rør godt rundt. Lad det trække i et minutter, inden det er klar til at blive nydt.'),
   (11062, 'Nøddepostej', 'https://www.valdemarsro.dk/noeddepostej/', 'https://www.valdemarsro.dk/wp-content/2019/11/noeddepostej-svampe.jpg', '90', '4 servings', 'Rist hasselnøddekernerne på en tør varm pande under omrøring, til hinderne begynder at sprække. Tag nødderne af varmen og gnid de tørre hinder af hasselnødderne i et rent klæde.
 Kog risene i en gryde med letsaltet vand efter anvisning på emballagen.
-Kom hasselnødder og valnødder i en minihakker og kør, til de er finthakkede. Sæt dem til side og kom derefter svampene i minihakkeren og kør, til de også er finthak­kede eller grofthakkede, alt efter smag og behag. Sæt dem til side i en skål for sig.
+Kom hasselnødder og valnødder i en minihakker og kør, til de er finthakkede. Sæt dem til side og kom derefter svampene i minihakkeren og kør, til de også er finthakkede eller grofthakkede, alt efter smag og behag. Sæt dem til side i en skål for sig.
 Varm en pande op med smør og olie og rist svampene ved høj varme under omrøring i nogle minutter. Skru ned for varmen og tilsæt løg, hvidløg, hasselnødder og valnødder. Sauter i et par minutter under omrøring, til løgene er blevet bløde.
 Kom svampe, nødder og løg fra panden i en stor skål og tilsæt kogte ris, jordskokker, æg, piskefløde, æble, tahin, timian, soja, samt lidt salt og friskrevet peber.
 Rør det godt sammen og kom det i et smurt ovnfast fad eller små ramakiner.
-Sæt nøddepostejen i en forvarmet ovn ved 175 grader varmluft og bag den i 30­-40 minutter (20-30 minutter, hvis små ramakiner)'),
+Sæt nøddepostejen i en forvarmet ovn ved 175 grader varmluft og bag den i 30-40 minutter (20-30 minutter, hvis små ramakiner)'),
   (11065, 'Forårssalat med råsyltede rabarber og hvide asparges', 'https://www.valdemarsro.dk/foraarssalat-med-raasyltede-rabarber/', 'https://www.valdemarsro.dk/wp-content/2020/02/salat-rabarber-asparges.jpg', '30', '4 servings', 'Råsyltede rabarber
 Kom rabarber i et rengjort og skoldet glas. Kom vand, æblecidereddike og sukker i en gryde, kog op til sukkerkornene er smeltet og hæld den varme lage over rabarberne. Sæt låg på og lad det trække i mindst 3 dage i køleskab.
 Dressingen
@@ -7491,24 +7414,24 @@ Rør dressingen sammen og smag til. Vend dressingen med nudler, edamamebønner o
 Anret på tallerkener eller i skåle og server med et drys friske krydderurter, finthakket rød chili og cashewnødder'),
   (11078, 'Spansk Tortilla', 'https://www.valdemarsro.dk/spansk-tortilla/', 'https://www.valdemarsro.dk/wp-content/2019/08/spansk-tortilla.jpg', '45', '4 servings', 'Sauter løg på en stor pande i olivenolie ved middelvarme, til de er bløde. Tag løgene af panden og sæt dem til side. Tilsæt kartoffeltern på den varme pande og steg disse, mens de vendes hyppigt, til de får blot en anelse stegeskorpe og bliver næsten møre.
 Skrue ned for varmen, kom løgene på panden til kartoflerne igen og læg låg på.
-Pisk derefter æg sammen med hvidløg, salt og peber og hæld blandingen over kartofler og løg op panden. Læg igen låg på og lad den spanske tortilla bage på komfuret i 30 minutter – temperaturen skal være mellem lav og middel. Efter 30 min har tortillaen fået en fin stegeskorpe og hvis den stadig er lidt utilberedt på midten kan den evt bages færdig i ovnen ved 175 grader varmluft i 5-10 minutter.'),
-  (11081, 'Rugboller', 'https://www.valdemarsro.dk/rugboller/', 'https://www.valdemarsro.dk/wp-content/2019/08/rugboller_1300-app.jpg', '840', '10 servings', 'Opløs gær i hvidøl og rør sammen med kærnemælk, salt, rugmel  og hvedemel.
-Lad dejen hæve i 30 minutter på køkkenbordet under et klæde og stil den på køl til næste dag eller  i mindst 12 timer.
+Pisk derefter æg sammen med hvidløg, salt og peber og hæld blandingen over kartofler og løg op panden. Læg igen låg på og lad den spanske tortilla bage på komfuret i 30 minutter - temperaturen skal være mellem lav og middel. Efter 30 min har tortillaen fået en fin stegeskorpe og hvis den stadig er lidt utilberedt på midten kan den evt bages færdig i ovnen ved 175 grader varmluft i 5-10 minutter.'),
+  (11081, 'Rugboller', 'https://www.valdemarsro.dk/rugboller/', 'https://www.valdemarsro.dk/wp-content/2019/08/rugboller_1300-app.jpg', '840', '10 servings', 'Opløs gær i hvidøl og rør sammen med kærnemælk, salt, rugmel  og hvedemel.
+Lad dejen hæve i 30 minutter på køkkenbordet under et klæde og stil den på køl til næste dag eller  i mindst 12 timer.
 Kom dejen ud på et meldrysset bord og fold den 2 gange over hinanden brug en bagespartel og vær nænsom så luften ikke slåes ud af dejen, men foldes ind i dejen. Skær bollerne ud med en bagespartel og sæt dem på en bageplade med bagepapir. Lad bollerne efterhæve en time.
 Drys bollerne med rugflager og sæt dem i en forvarmet ovn ved 220 grader og bag bollerne i 17-18 minutter til de er sprøde og lækre.
 Lad dem køle lidt af på en rist inden servering.'),
-  (11084, 'Alt godt fra køkkenhaven på en bund af butterbeanhummus', 'https://www.valdemarsro.dk/alt-godt-fra-koekkenhaven/', 'https://www.valdemarsro.dk/wp-content/2021/10/alt-godt-koekkenhaven.jpg', '45', '4 servings', 'Vend gulerødder, fennikel og radiser med olie, røget paprika, salt og peber. Fordel grøntsagerne på en bage­ plade med bagepapir og sæt dem i en forvarmet ovn ved 175 grader varmluft og bag dem i 20 minutter.
+  (11084, 'Alt godt fra køkkenhaven på en bund af butterbeanhummus', 'https://www.valdemarsro.dk/alt-godt-fra-koekkenhaven/', 'https://www.valdemarsro.dk/wp-content/2021/10/alt-godt-koekkenhaven.jpg', '45', '4 servings', 'Vend gulerødder, fennikel og radiser med olie, røget paprika, salt og peber. Fordel grøntsagerne på en bage plade med bagepapir og sæt dem i en forvarmet ovn ved 175 grader varmluft og bag dem i 20 minutter.
 Boghvedekerner
 Skyl boghvedekernerne godt i en sigte, lad dem dryppe af og rist dem derefter på en stor tør pande under konstant omrøring ved middelhøj varme. Rist kernerne til, de er sprøde og gyldne.
 Ovntørrede tomater
-Drys tomaterne med salt og læg dem på en bradepande med bagepapir, så den overskårne side vender opad. Pensl med olivenolie og kom kviste af rosmarin over. Bag tomaterne i ovnen ved 100 grader i 4­5 timer.
+Drys tomaterne med salt og læg dem på en bradepande med bagepapir, så den overskårne side vender opad. Pensl med olivenolie og kom kviste af rosmarin over. Bag tomaterne i ovnen ved 100 grader i 45 timer.
 Butterbeanhummus
 Kom alle ingredienserne i en foodprocessor og kør, til det er en tyk glat creme. Fordel butterbeanhummus på et fad og anret de bagte grøntsager og tomater ovenpå. Drys med ristede boghvedekerner og mynteblade.'),
   (11087, 'Kopnudler ala vietnamesisk nudelsuppe', 'https://www.valdemarsro.dk/kop-nudler-ala-asiatisk-nudelsuppe/', 'https://www.valdemarsro.dk/wp-content/2023/03/kopnudler-asiatisk-nudelsuppe-1.jpg', '25', '1 serving', 'Rør karrypasta, grøntsagsboullion, kokosmælk, fishsauce, limesaft, sukker og friskrevet ingefær sammen i en skål til en asiatisk marinade.
 Kog nudlerne til de er akkurat møre. Hæld det kogende vand fra, hæld iskoldt vand over nudlerne og lad dem dryppe af i en sigte.
 Bland de kolde nudlerne med den asiatiske marinade og anret den i madkassen. Top med kylling og alle grøntsagerne og luk madpakken.
 Ved servering hældes kogende vand over og suppen røres godt rundt. Lad det trække i et par minutter, inden det er klar til at blive nydt.'),
-  (11090, 'Kop Nudler ala hønsekødssuppe', 'https://www.valdemarsro.dk/kop-nudler-ala-hoensekoedssuppe/', 'https://www.valdemarsro.dk/wp-content/2023/03/kopnudler-hoensekoedssuppe.jpg', '25', '1 serving', 'Kog hønseboullion op i en lille kasserolle. Kom kyllingefilet i gryden og lad det simre i cirka 10-15 minutter, til kyllingekødet er mørt. Tag kyllingekødet op og kom nudlerne i det samme vand, som kyllingen er kogt i. Kog nudlerne efter anvisning på emballagen. Kom gulerødder i gryden, når nudlerne er lige knap færdige. Sæt en sigte over en skål og hæld straks nudler og grøntsagerne i sigten. Kom blandingen i en skål og vend straks lidt olivenolie i – det hindre at nudlerne klistre. Stil derefter i køleskabet.
+  (11090, 'Kop Nudler ala hønsekødssuppe', 'https://www.valdemarsro.dk/kop-nudler-ala-hoensekoedssuppe/', 'https://www.valdemarsro.dk/wp-content/2023/03/kopnudler-hoensekoedssuppe.jpg', '25', '1 serving', 'Kog hønseboullion op i en lille kasserolle. Kom kyllingefilet i gryden og lad det simre i cirka 10-15 minutter, til kyllingekødet er mørt. Tag kyllingekødet op og kom nudlerne i det samme vand, som kyllingen er kogt i. Kog nudlerne efter anvisning på emballagen. Kom gulerødder i gryden, når nudlerne er lige knap færdige. Sæt en sigte over en skål og hæld straks nudler og grøntsagerne i sigten. Kom blandingen i en skål og vend straks lidt olivenolie i - det hindre at nudlerne klistre. Stil derefter i køleskabet.
 Kom kogevandet tilbage i gryden og kog ind til halv mængde. Rør ekstra hønseboullion i, så det er en kraftig boullion og lad derefter køle helt af.
 Saml kopnudlerne i et henkogningsglas
 Kom 1 dl kold kraftig hønseboullion i glasset, top med nudler blandet med gulerødder og bladselleri. Skær kyllingekødet i små tern og kom i glasset sammen med spidskål, forårsløg, finthakket spinat, salt og peber.
@@ -7520,7 +7443,7 @@ Varm en pande op med olie og steg kødet lynhurtigt på alle sider og tag straks
 Halver peberfrugten på langs og fjern frøstol og stilk. Læg den på en bageplade med bagepapir med skindsiden opad og bag den i ovnen i cirka 20 minutter ved 175 grader. Hold øje med den! Peberfrugten skal være mørk på skindet, og det går først ret langsomt, men så lige pludselig er den der.
 Tag peberfrugten ud og lad den køle af, til den stadig er godt lun og kom den i en frysepose og luk den til. Lad den stå i en halv times tid og fjern skindet.
 Kom peberfrugtkød i en blenderskål sammen med de øvrige ingredienser, dog undtaget olien. Blend godt igennem, til konsistensen er cremet. Smag til og tilføj lidt olivenolie, hvis det er nødvendigt.
- Kyllingekødboller
+ Kyllingekødboller
 Rør farsen sammen af kyllingekød, forårsløg, koriander, ingefær, hvidløg, salt og peber. Form små kyllingeboller af farsen og steg dem på panden i olie i 7-8 minutter. Vend dem hyppigt, så de bliver fint runde.
 Tjek om de er gennemstegte, kom en spsk brun farin på panden sammen med sesamfrø og vend kyllingekødbollerne i sukkeret, så de bliver lidt glaserede.
 Saml fladbrødene
@@ -7542,13 +7465,13 @@ Fordel oksekødsfyld og mozzarella i mindre stykker i brødet.
 Skru ovnens temperatur ned til 210 grader varmluft og skub bagepapiret med de tyrkiske pide ind på den varme plade. Bag i cirka 13-15 minutter eller til brødet er sprødt og gyldent.
 Rør dressingen sammen af creme fraiche, purløg, presset hvidløg, salt og peber. Fordel striber af dressing over de friskbagte tyrkiske pizzaer og drys med finthakket persille.'),
   (11108, 'Nudler med broccoli og sesam chiliolie', 'https://www.valdemarsro.dk/nudler-med-broccoli-og-sesam-chiliolie/', 'https://www.valdemarsro.dk/wp-content/2022/06/nudler-broccoli-sesam.jpg', '20', '4 servings', 'Sesam-chiliolie
-Kom alle ingredienserne – undtagen ingefær – på en lille pande og lad det simre svagt ved middelvarme, til sesamfrøene og hvidløgene får lidt farve. Tag af varmen og rør ingefæren i.
+Kom alle ingredienserne - undtagen ingefær - på en lille pande og lad det simre svagt ved middelvarme, til sesamfrøene og hvidløgene får lidt farve. Tag af varmen og rør ingefæren i.
 Nudler og grønt
 Kog nudlerne efter anvisning på pakken og kom broccoli, edamamebønner og spinat i gryden, når nudlerne mangler et minut fra at være færdige. Læg låg på og kog det sidste minut med grøntsagerne.
 Hæld vandet fra og kom al sesam-chili olien i gryden til nudler og grøntsager. Vend det godt sammen.
 Anret i skåle og dryp med et par få dråber soja. Drys med forårsløg, frisk koriander og lidt lime til at dryppe over.'),
   (11111, 'Cowboy toast', 'https://www.valdemarsro.dk/cowboytoast/', 'https://www.valdemarsro.dk/wp-content/2022/05/cowboytoast.jpg', '45', '4 servings', 'Bløde løg
-Smelt smør på en pande ved middelvarme og kom løgene på. Lad dem simre ved lav – middelvarme, til de er bløde og begynder at karamellisere. Kom løgene i en skål og sæt dem i køleskabet, så de køler hurtigt af.
+Smelt smør på en pande ved middelvarme og kom løgene på. Lad dem simre ved lav - middelvarme, til de er bløde og begynder at karamellisere. Kom løgene i en skål og sæt dem i køleskabet, så de køler hurtigt af.
 Krydret kød
 Brun oksekødet under konstant omrøring på en varm pande med olie. Smag godt til med worcestershire sauce, tomatpuré, sennep, røget paprika, salt og peber. Rør majsstivelse ud i grøntsagsboullion og rør det i kødet. Kog op og lad det simre kortvarigt. Kom det krydrede kød i en skål og sæt i køleskabet, så det køler hurtigt af.
 Saml coyboytoasten
@@ -7561,9 +7484,9 @@ Ved servering
 Hænd kogende varmt vand over og rør suppen sammen. Lad det trække i et par minutter og nyd den lækre suppe.'),
   (11117, 'Gnocchi i svampesauce', 'https://www.valdemarsro.dk/gnocchi-i-svampesauce/', 'https://www.valdemarsro.dk/wp-content/2024/04/gnocchi-svampesauce-1.jpg', '45', '4 servings', 'Varm en pande op med olie og smør og rist svampene ved høj varme under konstant omrøring. Skrue lidt ned for varmen, når champignonerne har fået en smuk gylden stegeskorpe.
 Tilsæt løg, hvidløg, rosmarin, fennikelfrø, røget paprika og finthakkede soltørrede tomater, og sauter til løgene er blevet bløde. Tilsæt hvidvin, grøntsagsbouillon og bring det kog.
-Rør majsstivelsen ud i fløden og tilsæt til retten sammen med gnocchi.  Rør rundt og tilsæt spinaten. Lad det simre i 4-5 minutter til gnocchien er gennemvarm og lækkert mør.
+Rør majsstivelsen ud i fløden og tilsæt til retten sammen med gnocchi.  Rør rundt og tilsæt spinaten. Lad det simre i 4-5 minutter til gnocchien er gennemvarm og lækkert mør.
 Smag godt til med fintrevet citronskal, lidt citronsaft efter smag, samt salt og friskkværnet peber. Drys med ristede pinjekerner og lidt friskkværnet peber ved servering.'),
-  (11120, 'Muslingesuppe', 'https://www.valdemarsro.dk/muslingesuppe-med-safran/', 'https://www.valdemarsro.dk/wp-content/2024/04/muslingesuppe-safran.jpg', '60', '4 servings', 'Rens muslingerne ved at skrubbe skallerne under lidt rindende vand – de må ikke stå i blød. Kasser alle muslinger, hvor skallen er i stykker og de åbne muslinger, som ikke lukker sig ved et let bank mod bordpladen.
+  (11120, 'Muslingesuppe', 'https://www.valdemarsro.dk/muslingesuppe-med-safran/', 'https://www.valdemarsro.dk/wp-content/2024/04/muslingesuppe-safran.jpg', '60', '4 servings', 'Rens muslingerne ved at skrubbe skallerne under lidt rindende vand - de må ikke stå i blød. Kasser alle muslinger, hvor skallen er i stykker og de åbne muslinger, som ikke lukker sig ved et let bank mod bordpladen.
 Sauter løg og hvidløg i olivenolie i en stor gryde, til løgene er bløde. Tilsæt muslingerne, grøntsagsboullion og hvidvin i gryden og læg låg på. Lad det koge ved middelvarme i 5-8 minutter, til muslingerne har åbnet sig.
 Sigt suppevandet fra muslingerne ned i en ren gryde. Sæt de åbne muslinger med skal til side i en skål med låg, så de holder sig lune. Kom fennikel, gulerødder, piskefløde og safran i gryden med muslingesuppen. Smag suppen godt til med salt og peber.
 Pil de fleste muslinger ud af skallen, men lad nogle være i skallen så der kan anrettes med 3 muslinger i skal på hver tallerken.
@@ -7572,9 +7495,9 @@ Husk at alle muslinger der ikke har åbnet sig under tilberedning skal kasseres!
 Persilleolie
 Blend olie med persille til en grøn og ensartet olie.'),
   (11123, 'Tacosalat med kylling', 'https://www.valdemarsro.dk/taco-salat/', 'https://www.valdemarsro.dk/wp-content/2019/07/tacosalat.jpg', '30', '4 servings', 'Rør dressingen sammen, smag den til og lad den trække smag mens resten af retten tilberedes.
-Skær kyllingefiletterne i tern, vend dem med stødt koriander, spidskommen,  lime, paprika, salt og peber og lynsteg dem på en pande med olie og smør, til de er næsten gennemstegte. Kom derefter majskerner på panden og steg kyllingerne færdig og majskernerne sprøde.
+Skær kyllingefiletterne i tern, vend dem med stødt koriander, spidskommen,  lime, paprika, salt og peber og lynsteg dem på en pande med olie og smør, til de er næsten gennemstegte. Kom derefter majskerner på panden og steg kyllingerne færdig og majskernerne sprøde.
 Anret salaten på tallerkener eller i skåle med alle grøntsagerne, vendt med dressing, kylling, ristede majskerner og drys med knust nachos og friskrevet cheddar.'),
-  (11126, 'Blomkålscouscous', 'https://www.valdemarsro.dk/blomkaalscouscous/', 'https://www.valdemarsro.dk/wp-content/2019/05/blomkaalscouscous_opskrift.jpg', '15', '4 servings', 'Kom blomkålsbuketter og abrikoser i en foodprocessor. Kør kun i kort tid, til det er akkurat findelt og har samme konsistens som små riskorn – eller couscous, heraf navnet. Vend blomkål med krydderurter og rødløg.
+  (11126, 'Blomkålscouscous', 'https://www.valdemarsro.dk/blomkaalscouscous/', 'https://www.valdemarsro.dk/wp-content/2019/05/blomkaalscouscous_opskrift.jpg', '15', '4 servings', 'Kom blomkålsbuketter og abrikoser i en foodprocessor. Kør kun i kort tid, til det er akkurat findelt og har samme konsistens som små riskorn - eller couscous, heraf navnet. Vend blomkål med krydderurter og rødløg.
 Rist pinjekernerne på en tør pande under omrøring, til det dufter skønt.
 Vend dressingen i blomkålsblandingen, anret på et fad eller i en skål og drys til sidst med de ristede pinjekerner.
 Ingefærvinaigrette
@@ -7584,18 +7507,18 @@ Skær agurken i helt tynde skiver, kom skiverne i et rent skoldet glas og hæld 
   (11132, 'Græsk salat', 'https://www.valdemarsro.dk/graesk-salat/', 'https://www.valdemarsro.dk/wp-content/2019/05/graesk-salat.jpg', '15', '4 servings', 'Vend alle grøntsagerne sammen i en stor skål. Smuldr feta ud over og drys med sorte oliven.
 Drys med lidt ekstra frisk oregano inden servering.
 Citron-oreganodressing
-Rør olivenolie, sukker, citronskal og ­saft, salt, peber og finthakket oregano sammen, til sukkeret er opløst, og vend den græske salat sammen med dressingen.'),
+Rør olivenolie, sukker, citronskal og saft, salt, peber og finthakket oregano sammen, til sukkeret er opløst, og vend den græske salat sammen med dressingen.'),
   (11135, 'Sliders - mini burgere', 'https://www.valdemarsro.dk/sliders-brioche-burgerboller/', 'https://www.valdemarsro.dk/wp-content/2017/03/sliders-brioche.jpg', '240', '20 servings', 'Miniburgerboller
-Lun mælken og kom mælken i en skål, lad den køle af til lillefingervarme og rør gær ud i mælken. Tilsæt honning, salt, æg, kardemomme, smør og 2/3 mel. Rør godt sammen – evt. på røremaskine – til dejen er helt ensartet og glat
-Rør derefter resten af melet i til dejen er smidig og elastisk. Lad den hæve på køkkenbordet i en ren skål med et rent klæde over i 2 timer. Form 20 små runde boller, som stilles til hævning på bageplade med bagepapir. Lad bollerne hæve i  1 time og 30 min.
+Lun mælken og kom mælken i en skål, lad den køle af til lillefingervarme og rør gær ud i mælken. Tilsæt honning, salt, æg, kardemomme, smør og 2/3 mel. Rør godt sammen - evt. på røremaskine - til dejen er helt ensartet og glat
+Rør derefter resten af melet i til dejen er smidig og elastisk. Lad den hæve på køkkenbordet i en ren skål med et rent klæde over i 2 timer. Form 20 små runde boller, som stilles til hævning på bageplade med bagepapir. Lad bollerne hæve i  1 time og 30 min.
 Pensl bollerne med et sammenpisket æg. Drys med sesamfrø og bag i en forvarmet ovn ved 175 grader varmluft i 12-14 minutter. Lad dem køle af på en rist, inden de skæres op og bruges til burgere. De små boller kan fint fryses ned.
 Bøffer
-Rør alle ingredienserne til farsen sammen og form 20 små bøffer. Steg bøfferne på en pande i olie og smør i 3-4 minutter på hver side, kom til sidst et lille stykke cheddar på bøffen – hvis det skal være cheeseburgere.
-Saml miniburgerne / sliders 
+Rør alle ingredienserne til farsen sammen og form 20 små bøffer. Steg bøfferne på en pande i olie og smør i 3-4 minutter på hver side, kom til sidst et lille stykke cheddar på bøffen - hvis det skal være cheeseburgere.
+Saml miniburgerne / sliders 
 Skær bollerne over og fyld miniburgeren med et halvt blad krølsalat, en skive agurk, en skive tomat, en løgring, lidt mayo, lidt ketchup, et lille stykke god bacon, smeltet cheddar, og en god lille bøf.'),
   (11139, 'Vietnamesisk bowl ala Banh mi', 'https://www.valdemarsro.dk/vietnamesisk-bowl-ala-bahn-mi/', 'https://www.valdemarsro.dk/wp-content/2023/05/vietnamesisk-bowl-banh-mi.jpg', '45', '4 servings', 'Vietnamesisk kylling
 Rør marinaden sammen og vend kyllingestykkerne godt i marinaden. Lad det gerne trække smag i minimum et kvarters tid eller til næste dag.
-Tag kyllingestykkerne op af marinaden – gem marinaden i skålen – og brun dem af på en brandvarm pande med olie, under omrøring til kyllingen får en flot stegeskorpe. Kom marinaden ved og steg til kyllingen er gennemstegt.
+Tag kyllingestykkerne op af marinaden - gem marinaden i skålen - og brun dem af på en brandvarm pande med olie, under omrøring til kyllingen får en flot stegeskorpe. Kom marinaden ved og steg til kyllingen er gennemstegt.
 Syltede gulerødder
 Kom vand, sukker og riseddike i en gryde og giv et hurtigt opkog til sukkeret smelter. Tag gryden af varmen og kom gulerødderne i den varme eddikelage. Kom på glas, læg låg på og sæt i køleskabet, mens resten af retten tilberedes.
 Ris med ingefær og hvidløg
@@ -7605,7 +7528,7 @@ Rør mayonnaise med fishsauce, hvidløg, ingefær og smag til med fintrevet lime
 Anret i skåle, først med ris, toppet med kylling, syltede gulerødder, spidskål, agurk, avocado, koriander. Fordel dressingen over og drys med koriander, chiliflager og sesam.'),
   (11142, 'Bowl med hvidløgsbagt grønt og kikærter', 'https://www.valdemarsro.dk/bowl-med-hvidloegsbagt-groent-og-kikaerter/', 'https://www.valdemarsro.dk/wp-content/2023/05/hvidloegsbagte-groentsager-bowl.jpg', '45', '4 servings', 'Sprøde kikærter
 Skyl kikærterne og tør den i et rent klæde. Vend kikærterne godt i olie og derefter krydderier.
-Fordel på en bageplade med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 20-25 min til de er lækre og sprøde – vend dem evt. en gang eller to undervejs.
+Fordel på en bageplade med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 20-25 min til de er lækre og sprøde - vend dem evt. en gang eller to undervejs.
 Hvidløgsbagte tomater i lun salat
 Vend tomater, peberfrugt, spinat og squash med olivenolie, salt, hvidløg og rosmarin. Fordel på en bradepande med bagepapir og bag i en forvarmet ovn ved 175 grader varmluft i 20 minutter.
 Ris med citron og persille
@@ -7697,25 +7620,25 @@ Anret i glas skiftevis med rabarber, sprød havregrynscrumble og vaniljeråcreme
 Skrab kornene ud af vaniljestangen og vend dem med sukkeret. Kom sukker, vaniljekorn, vaniljestang, piskefløde, sødmælk og citronskal i en gryde og varm op under omrøring til det akkurat når kogepunktet og tag straks gryden af varmen.
 Kram vandet fra husblas og smelt husblas i den varme vaniljefløde.
 Hæld vaniljefløden gennem en finmasket sigte ned i en skål og lad det køle af på køkkenbordet til stuetemperatur. Rør det godt rundt og hæld på glas til servering. Stil på køl i mindst 3 timer, eller til dagen efter. Hæld først kirsebærsauce på, når pannacottaen har sat sig.
-Kirsebær. 
+Kirsebær. 
 Kom husblas i en skål med koldt vand i 10 minutter.
 Varm kirsebærsaucen igennem til kogepunktet og vrid derefter husblas for vand og rør det i den varme kirsebærsauce. Sigt bærene fra og kirsebærgeleen køle af til stuetemperatur og fordel derefter et lille lag på hver pannacotta.
 Stil på køl og lad det stå på køl mindst 3 timer mere inden servering.'),
   (11183, 'Blommetrifli', 'https://www.valdemarsro.dk/blommetrifli/', 'https://www.valdemarsro.dk/wp-content/2018/09/blommetrifli.jpg', '90', '4 servings', 'Bagte blommer
 Halver blommerne og fjern stenene, anret blommerne i et fad med bagepapir. Rør sukker og vanilje sammen og strøg det over blommerne, inden de bages i en forvarmet ovn ved 175 grader varmluft i 20 minutter. Når blommerne er kølet af, kan de evt. pensles med hvid rom, portvin eller sherry.
 Nøddeknas
-Rist  nødderne på en tør pande. De skal ikke tage farve, hvis der er hinder på – fx hasselnødder, så gnides de af i et rent viskestykke.
+Rist  nødderne på en tør pande. De skal ikke tage farve, hvis der er hinder på - fx hasselnødder, så gnides de af i et rent viskestykke.
 Hak nødderne groft og kom dem på panden sammen med honning og havregryn. Rør godt igennem og lad dem køle af på et stykke bagepapir.
 Vaniljeråcreme
 Pisk æggeblomme, sukker og vanilje til æggesnaps. Pisk derefter piskefløden luftig og vend æggesnaps og flødeskum sammen.'),
   (11186, 'Blåbærtrifli', 'https://www.valdemarsro.dk/blaabaertrifli/', 'https://www.valdemarsro.dk/wp-content/2018/10/blaabaertrifli-1.jpg', '60', '4 servings', 'Blåbærkompot
-Kom blåbær, sukker og vanilje i en gryde og kog op. Lad det simre svagt i 15 minutter uden låg og sæt derefter i køleskabet i en skål, til det er kølet helt af. Hvis der er meget saft ved, så hæld det fra – og brug saften til fx sirup eller en drink.
+Kom blåbær, sukker og vanilje i en gryde og kog op. Lad det simre svagt i 15 minutter uden låg og sæt derefter i køleskabet i en skål, til det er kølet helt af. Hvis der er meget saft ved, så hæld det fra - og brug saften til fx sirup eller en drink.
 Vaniljeflødeskum
 Pisk fløde med vanilje til en lækker cremet flødeskum.
 Anretning
 Anret fine glas med blåbær, grofthakkede makroner og flødeskum skiftevis i lag. Pynt med friske blåbær'),
   (11189, 'Jordbærtrifli', 'https://www.valdemarsro.dk/jordbaertrifli/', 'https://www.valdemarsro.dk/wp-content/2019/06/jordbaertrifli.jpg', '60', '4 servings', 'Makroner
-Kør mandelmel og flormelis i en minihakker, til det er helt ensartet i konsistensen. Tilsæt æggehvide og kør igen, til massen er helt ensartet. Fyld massen i en sprøjtepose og sprøjt runde makroner ud på en bageplade med bagepapir på ca. 2½ cm i diameter.
+Kør mandelmel og flormelis i en minihakker, til det er helt ensartet i konsistensen. Tilsæt æggehvide og kør igen, til massen er helt ensartet. Fyld massen i en sprøjtepose og sprøjt runde makroner ud på en bageplade med bagepapir på ca. 21/2 cm i diameter.
 Bag dem i en forvarmet ovn ved 150 grader varmluft i ca. 25 minutter. Lad dem køle af på en bagerist og knus dem lidt.
 Vaniljeråcreme
 Pisk æggeblommer, sukker og vaniljekorn sammen til en luftig og cremet æggesnaps. Pisk piskefløden til en luftig flødeskum. Rør æggesnaps og flødeskum sammen.
@@ -7728,7 +7651,7 @@ Vrid husblas for vand og kom dem straks derefter i den varme væske i gryden, r�
 Hvis glassene skal have panna cotta på skrå, så hældes det forsigtigt i glassene, som stilles på køl på i et fad med et viskestykke, der holder glasset stående på skrå. Lad det stå på køl i 2-3 timer.
 Appelsin og lakrids
 Kom husblas i en skål med koldt vand.
-Kom appelsinjuice og sukker i en gryde og kog det op til sukkeret er smeltet.  Sluk for varmen. Vrid husblas for vand og kom det i gryden og rør godt igennem.
+Kom appelsinjuice og sukker i en gryde og kog det op til sukkeret er smeltet.  Sluk for varmen. Vrid husblas for vand og kom det i gryden og rør godt igennem.
 Sæt på køl i en time og drys derefter en knivspids rålakridspulver i. Når panna cottaen har hvilet på køl i 3 timer, så kan appelsin gelé forsigtigt hældes over panna cotta, som derefter sættes på køl indtil den skal serveres.
 Hvid chokolademousse
 Sæt en skål over et vandbad med kogende vand. Kom den hvide chokolade i skålen og sluk straks for vandet. Rør godt rundt til chokoladen smelter. Tag chokoladen af vandbadet, så snart den er næsten smeltet og rør den færdig uden varme, til den er helt smeltet. Pisk fløden til en luftig flødeskum og pisk den hvide chokolade i. Kom på en sprøjtepose med tyl, sæt i køleskab i 15 minutter til det er fast nok til at sprøjte ud i toppe og pynt så med hvid chokoladetoppe og en anelse rålakridspulver.'),
@@ -7751,9 +7674,9 @@ Hæld rabarber gelé forsigtigt hældes over panna cotta og igen sæt desserten 
 Bagt rabarber
 Vend rabarberstykkerne med ahornsirup og vaniljesukker og læg dem på en bradepande med bagepapir. Bag i en forvarmet ovn ved 175 grader i 15 minutter og lad dem køle af til stuetemperatur, før de anrettes på rabarber panna cottaen med flager af hvid chokolade.'),
   (11201, 'Panna Cotta med havtorn og lakrids', 'https://www.valdemarsro.dk/panna-cotta-med-havtorn/', 'https://www.valdemarsro.dk/wp-content/2021/02/havtorn-panna-cotta.jpg', '240', '4 servings', 'Læg husblas i blød i koldt vand i 10 minutter.
-Skær vaniljestangen igennem på langs, skrab forsigtigt vaniljekornene ud med en kniv og vend dem i sukkeret. Kom vaniljekorn, sukker, fløde, sødmælk og den tomme vaniljestang i en gryde og varm det op til 85-90 grader – brug et sukkertermometer. Tag derefter gryden af varmen.
+Skær vaniljestangen igennem på langs, skrab forsigtigt vaniljekornene ud med en kniv og vend dem i sukkeret. Kom vaniljekorn, sukker, fløde, sødmælk og den tomme vaniljestang i en gryde og varm det op til 85-90 grader - brug et sukkertermometer. Tag derefter gryden af varmen.
 Vrid husblas for vand, kom det i den varme flødeblanding i gryden og rør godt, til det er helt smeltet.
-Tag den tomme vaniljestang op og lad vaniljeflødecremen køle af på køkkenbordet i 1½ time. Rør cremen godt igennem, hæld den i serveringsglas og sæt dem i køleskabet i 3 timer.
+Tag den tomme vaniljestang op og lad vaniljeflødecremen køle af på køkkenbordet i 11/2 time. Rør cremen godt igennem, hæld den i serveringsglas og sæt dem i køleskabet i 3 timer.
 Havtorngelé
 Læg husblas i blød i koldt vand i 10 minutter. Varm havtorn, vand og sukker op i en gryde, til sukkeret er smeltet. Mos havtornene lidt med en ske, til de afgiver saft. Sluk for varmen og hæld den varme saft gennem en sigte over en skål. Vrid husblas for vand og rør det straks i den varme havtornsaft. Rør godt, til det er smeltet.
 Lad det køle helt af til stuetemperatur. Tag panna cottaen ud af køleskabet og hæld derefter forsigtigt havtornsaften over. Sæt på køl igen indtil servering. Dryp med en smule lakridssirup og drys til sidst lidt lakridspulver over inden servering.'),
@@ -7766,7 +7689,7 @@ Kom i en sprøjtepose med stjernetyl, kom marengs i og sprøjt kyskager på en b
 Sluk ovnen, sæt lågen lidt på klem og lad kyskagerne stå i ovnen, til den er kold.
 Anretning
 Pisk flødeskum med lidt vaniljesukker til det er luftigt og lækkert.
-Knus nogle af marengskyssene lidt og anret rabarber og flødeskum  lag på lag i flere lag i glas. Afslut med et par kys og så er de klar til servering.'),
+Knus nogle af marengskyssene lidt og anret rabarber og flødeskum  lag på lag i flere lag i glas. Afslut med et par kys og så er de klar til servering.'),
   (11207, 'Halloween dessert', 'https://www.valdemarsro.dk/halloween-dessert/', 'https://www.valdemarsro.dk/wp-content/2022/02/halloween-dessert.jpg', '180', '4 servings', 'Læg husblad i en skål med koldt vand i 10 minutter.
 Pisk æggehviderne i en skål til det er helt luftigt og danner toppe. Pisk piskefløden i en anden skål, til en let og luftig flødeskum.
 Hak chokoladen fint og smelt den i et vandbad ved lav varme.
@@ -7776,14 +7699,14 @@ Vend forsigtigt den piskede æggehvide i chokolademoussen, og vend det sammen ti
 Til servering
 Knus oreo kiks til jord og drys det over chokolademoussen i glassene. Rør en tyk glasur af flormelis og vand og kom det i en sprøjtepose. Dekorer nogle små lakridsskilte ala kirkegård og dekorer med halloween slik.'),
   (11210, 'Jule cheesecake med kirsebær og brunkager', 'https://www.valdemarsro.dk/jule-cheesecake/', 'https://www.valdemarsro.dk/wp-content/2020/08/julecheesecake.jpg', '300', '8 servings', 'Kiksebund
-Kom mandlerne i en skål og hæld kogende vand over. Lad det trække i 10 minutter, hæld vandet fra og hæld igen kogende vand over og lad dem stå i 2 minutter. Hæld vandet fra og smut mandlerne.
+Kom mandlerne i en skal og hæld kogende vand over. Lad det trække i 10 minutter, hæld vandet fra og hæld igen kogende vand over og lad dem sta i 2 minutter. Hæld vandet fra og smut mandlerne.
 Kom de smuttede mandler, brunkager og smør i en foodprocessor og kør, til det er helt findelt.
 Anretning i portionsglas: fordel kiksebunden løssmuldret i 8 portionsglas.
-Anretning i springform: Beklæd en springform på 20 cm i diameter med bagepapir i bunden og fordel kiksebunden i formen. Pres den godt sammen og sørg for at den er ensartet  hele vejen rundt. Sæt i køleskab.
+Anretning i springform: Beklæd en springform på 20 cm i diameter med bagepapir i bunden og fordel kiksebunden i formen. Pres den godt sammen og sørg for at den er ensartet  hele vejen rundt. Sæt i køleskab.
 Flødeostcreme
-Læg husblas i blød i en skål med koldt vand i 10 minutter – Brug 1 ark husblas ved anretning i portionsglas og 3 ark husblas ved anretning i springform.
+Læg husblas i blød i en skål med koldt vand i 10 minutter - Brug 1 ark husblas ved anretning i portionsglas og 3 ark husblas ved anretning i springform.
 Tag husblas op af vandet, lad blot en smule vand hænge ved og smelt husblassen over vandbad ved lav varme, tag af varmen, så snart det er smeltet.
-Halver vaniljestangen på langs og skrab kornene ud. Rør flødeost, græsk yoghurt, flormelis og vaniljekorn godt sammen i en ren skål. Kom 2 spsk ostecreme i skålen med den lune smeltede husblas og rør det godt og hurtigt sammen til det er helt ensartet. Rør derefter cremen med husblas i skålen med flødeostcreme og rør det godt sammen.
+Halver vaniljestangen pa langs og skrab kornene ud. Rør flødeost, græsk yoghurt, flormelis og vaniljekorn godt sammen i en ren skål. Kom 2 spsk ostecreme i skålen med den lune smeltede husblas og rør det godt og hurtigt sammen til det er helt ensartet. Rør derefter cremen med husblas i skålen med flødeostcreme og rør det godt sammen.
 Anretning i portionsglas: Kom ostecremen i en sprøjtepose og klip et stort hul. Sprøjt ostecremen pænt i glassene over kiksebunden og sæt glassene i køleskab i minimum 2 timer, så cremen kan sætte sig.
 Anretning i springform: Sæt kageplast hele vejen rundt i kanten af springformen. Hæld flødeostecremen ovenpå brunkagebunden. Bank formen let ned i bordpladen, for at få ostecremen til at sætte sig pænt og fordel det godt til en jævnt lag øverst. Sæt kagen i køleskab.
 Kirsebærgele
@@ -7799,7 +7722,7 @@ Kog kartoflerne i usaltet vand, til de er møre. Lun mælken i en kasserolle til
 Karamelliserede perleløg
 Smelt sukker på en pande ved lav varme, kom smør på panden og lad det bruse af. Tilsæt perleløgene og lad dem karamellisere i sukkerlagen.
 Kom de karamelliserede perleløg i gryden til svampe bourguignon og smag godt til med salt, peber.
- Server den luftige kartoffelmos med svampe bourguignon og et drys persille.'),
+ Server den luftige kartoffelmos med svampe bourguignon og et drys persille.'),
   (11216, 'Kalvefrikassé', 'https://www.valdemarsro.dk/kalvefrikasse/', 'https://www.valdemarsro.dk/wp-content/2019/05/kalvefrikasse.jpg', '120', '6 servings', 'Kød
 Kom det hele stykke kød og vand i en stor gryde og dæk med vand. Kog op ved middelvarme. Sørg for at skumme overfladen godt af for alle urenheder og skum. Det sikre at saucen bliver fin og lækker og ikke grumset.
 Når vandet koger og al skum og urenheder er skummet godt af, tilsættes hvidvin, løg, peberkorn, salt, dildstængler, laurbærblade og persille. Tilsæt også den trævlede del af hvide og grønne og asparges, som man ellers ville kassere. Den gode spiselige del skal bruges til servering og saucen senere.
@@ -7819,7 +7742,7 @@ Kom gulerodstern og porre i skiver i en gryde med kogende letsaltet vand og kog 
 Smelt smør i en gryde, pisk mel i det smeltede smør og pisk derefter suppevandet fra suppehønen i lidt efter lidt til saucen er cremet og lækker. Lad saucen koge i et par minutter og tilsæt piskefløde og smag godt til med salt og peber. Kog op igen og juster evt konsistensen med ekstra suppevand.
 Kom porre, gulerødder, ærter og kød i saucen, varm det godt igennem i 1-2 minutter og tilsæt derefter finthakket dild. Anret hønsefrikasse på tallerkener med et drys dild og nye danske kartofler til.'),
   (11222, 'Svinekæber - braiserede med øl', 'https://www.valdemarsro.dk/svinekaeber-braiserede-med-oel/', 'https://www.valdemarsro.dk/wp-content/2020/01/svinekaeber-braiseret.jpg', '180', '4 servings', 'Braiserede svinekæber
-Fjern sener fra svinekæberne og dup dem tørre med et stykke køkkenrulle.  Brun svinekæberne af i smør i en gryde og sæt dem derefter til side på en tallerken.
+Fjern sener fra svinekæberne og dup dem tørre med et stykke køkkenrulle.  Brun svinekæberne af i smør i en gryde og sæt dem derefter til side på en tallerken.
 Kom løg, gulerødder og porre i gryden og sauter det ved middelvarme, til løgene er bløde. Tilsæt det brunede kød, mørk øl, tomatpuré, laurbærblade, rosmarin, timian, salt og friskkværnet peber.
 Sæt låg på og lad det simre svagt i 2 timer ved lav varme. Rør grøntsagsbouillon sammen med majsstivelse og kom det i gryden. Rør det godt igennem og lad det simre videre i 15 minutter.
 Tag laurbærblade op af gryden og smag retten godt til med salt og friskkværnet peber.
@@ -7830,7 +7753,7 @@ Smag til med salt og peber, samt friskrevet muskatnød.
 Til servering
 Hak hasselnødder, persille og fintrevet citronskal godt sammen til det bliver helt finthakket.
 Server de braiserede svinekæber med kartoffelmos og hasselnøddedrys'),
-  (11225, 'Svampe Stroganoff med ris', 'https://www.valdemarsro.dk/svampe-stroganoff/', 'https://www.valdemarsro.dk/wp-content/2022/09/svampe-stroganoff.jpg', '45', '4 servings', 'Steg champignonerne i olie og smør på en pande ved høj varme. Vend dem hyppigt, til de har fået lidt stege­ skorpe. Skru ned for varmen og tilsæt de blandede svampe, løg og hvidløg. Sauter ved middelvarme, til løgene er bløde.
+  (11225, 'Svampe Stroganoff med ris', 'https://www.valdemarsro.dk/svampe-stroganoff/', 'https://www.valdemarsro.dk/wp-content/2022/09/svampe-stroganoff.jpg', '45', '4 servings', 'Steg champignonerne i olie og smør på en pande ved høj varme. Vend dem hyppigt, til de har fået lidt stege skorpe. Skru ned for varmen og tilsæt de blandede svampe, løg og hvidløg. Sauter ved middelvarme, til løgene er bløde.
 Rør sød paprika, røget paprika og hvedemel sammen i en skål og sigt det over panden med svampe og løg. Rør tomatpuré, grøntsagsbouillon og piskefløde i retten og lad det simre i 10 minutter.
 Smag godt til med salt og peber og server retten med brune ris og persille.'),
   (11228, 'Langtidssimret chili con carne', 'https://www.valdemarsro.dk/langtidssimret-chili-con-carne-med-bov/', 'https://www.valdemarsro.dk/wp-content/2023/08/langtidssimret-chili-carne-bov.jpg', '240', '4 servings', 'Skær kødet i tykke skiver (jeg deler en oksebov på 800 g i 3-4 skiver).
@@ -7903,8 +7826,8 @@ Server med friskrevet parmesan, rucola og basilikum.'),
 Tilsæt resten af ingredienserne og rør godt rundt. Læg låget på og lad det koge op, rør godt rundt igen og lad det simrekoge i 10-12 minutter, til pastaen er perfekt kogt.
 Server retten med revet parmesan og friske krydderurter.'),
   (11263, 'One pot pasta med spinat og ærter', 'https://www.valdemarsro.dk/one-pot-pasta-med-spinat-og-aerter/', 'https://www.valdemarsro.dk/wp-content/2019/08/onepotpasta-aerter.jpg', '30', '4 servings', 'Kom alle ingredienserne i en stor gryde.
-Kog retten op, rør godt rundt i gryden og læg låget på.
-Skru ned for varmen og lad det simrekoge i 10 minutter, til spaghettien er perfekt kogt – al dente, og med lidt bid i.
+Kog retten op, rør godt rundt i gryden og læg laget pa.
+Skru ned for varmen og lad det simrekoge i 10 minutter, til spaghettien er perfekt kogt - al dente, og med lidt bid i.
 Server retten med ristede pinjekerner, parmesan, citron og basilikum.'),
   (11265, 'One pot pasta med bacon og kylling', 'https://www.valdemarsro.dk/one-pot-pasta-med-bacon-og-kylling/', 'https://www.valdemarsro.dk/wp-content/2021/03/one-pot-pasta-kylling.jpg', '25', '4 servings', 'Kog grøntsagsbouillonen op og kom kyllingekødet i, skru ned for varmen og lad det simre i 10 minutter.
 Tilsæt resten af ingredienserne og rør godt rundt.
@@ -7916,14 +7839,14 @@ Kog i cirka 10 minutter eller til pastaen er perfekt mør. Smag til med salt, fr
 Server straks med et drys bredbladet persille og friskkværnet peber.'),
   (11271, 'One pot tortellini suppe', 'https://www.valdemarsro.dk/one-pot-tortellini-suppe/', 'https://www.valdemarsro.dk/wp-content/2022/05/tortellinisuppe.jpg', '25', '4 servings', 'Varm en gryde op med olie og rist squash i tern ved høj varme til de får stegeskorpe. Skru ned for varmen og sauter løgene, til de bliver bløde. Tilsæt hvidløg, soltørrede tomater, spinat, basilikum og chiliflager og rør det godt igennem.
 Tilsæt derefter grøntsagsbouillon, hakkede tomater og piskefløde og varm retten op til kogepunktet. Kom tortellini i gryden og lad det simre efter anvisning på emballagen.
-Drys med parmesan – eller anden hård ost – og server den rygende varme tortellini suppe i skåle med mozzarella plukket i mindre stykker og et drys basilikumblade.'),
+Drys med parmesan - eller anden hård ost - og server den rygende varme tortellini suppe i skåle med mozzarella plukket i mindre stykker og et drys basilikumblade.'),
   (11274, 'Bønnegryde', 'https://www.valdemarsro.dk/boennegryde/', 'https://www.valdemarsro.dk/wp-content/2018/09/boennegryde-3.jpg', '60', '4 servings', 'Kom karry, spidskommen, kardemomme, kanel, røget paprika og koriander i en tør gryde og varm det godt igennem under omrøring, til det begynder at dufte skønt. Skru ned for varmen, kom løg, hvidløg, ingefær og olie i gryden og sauter, til løgene er bløde.
-Kom squash, bladselleri, hakkede tomater og grønt­sagsbouillon i gryden og lad det simre under låg i min. 30 minutter og gerne 1 time, hvis der er tid.
+Kom squash, bladselleri, hakkede tomater og grøntsagsbouillon i gryden og lad det simre under låg i min. 30 minutter og gerne 1 time, hvis der er tid.
 Tilsæt til sidst kidneybønner, peberfrugt og majskerner og varm det godt igennem i 5 minutter. Smag til med chokolade, salt og peber.
 Server med toppings i små skåle ved siden af, så man selv kan forsyne sig ved bordet.'),
   (11277, 'Kikærtegryde med linser og kokosmælk', 'https://www.valdemarsro.dk/kikaertegryde/', 'https://www.valdemarsro.dk/wp-content/2018/02/kikaertegryde_opskrift.jpg', '45', '4 servings', 'Kom karry, spidskommen, kardemomme og koriander i en tør gryde og varm godt igennem, til det begynder at dufte herligt.
 Skru lidt ned for varmen og kom løg, hvidløg, ingefær og olie i gryden og sauter, til løgene er bløde.
-Skyl linserne i en sigte og kom dem i gryden sammen med grøntsagsboullion, hakkede tomater og kokos­ mælk. Lad det simre under låg i 30 minutter. Rør jævn­ ligt i gryden.
+Skyl linserne i en sigte og kom dem i gryden sammen med grøntsagsboullion, hakkede tomater og kokos mælk. Lad det simre under låg i 30 minutter. Rør jævn ligt i gryden.
 Tilsæt kikærter, squash og peberfrugt og varm det hele godt igennem i ca. 10 minutter. Smag til med salt og friskkværnet peber.
 Server med ris og grofthakket persille.'),
   (11280, 'Marokkansk linsegryde med kikærter', 'https://www.valdemarsro.dk/marokkansk-linsegryde/', 'https://www.valdemarsro.dk/wp-content/2023/08/marokkansk-linsegryde.jpg', '45', '4 servings', 'Sauter løg og hvidløg i en gryde ved middelvarme til de er bløde.
@@ -7954,7 +7877,7 @@ Server den dampende varme suppe i dybe tallerkener med et drys parmesan og lidt 
 Kom krydderier, grøntsager, hakkede tomater og grøntsagsboullion i gryden og kog op til det simrer. Lad det simre i 7-10 minutter og smag til med flødeost, salt og peber.
 Server cheeseburgersuppen i skåle eller dybe tallerkener og top med den sprødtstegte bacon, cheddar, finthakkede cornichoner og et drys bredbladet persille.'),
   (11301, 'Hvidkålssuppe', 'https://www.valdemarsro.dk/hvidkaalssuppe/', 'https://www.valdemarsro.dk/wp-content/2023/11/hvidkaalssuppe.jpg', '30', '4 servings', 'Sauter løg, hvidløg i en gryde med med olie, til løgene er bløde. Tilsæt kartofler, hvidkål og gulerødder, samt fennikelfrø og grøntsagsboullion. Kog op, læg låg på og lad suppen simre til kartoflerne er møre. Smag til med soja, piskefløde, salt og peber.
-Blend suppen til den er helt cremet og ensartet – eller undlad at blende og server den dampende varme suppe i dybe tallerkener, med de hele grøntsager.
+Blend suppen til den er helt cremet og ensartet - eller undlad at blende og server den dampende varme suppe i dybe tallerkener, med de hele grøntsager.
 Kom æbletern, valnødder og persille i små skåle, så man selv kan forsyne sig med topping ved bordet og server ristet rugbrød som tilbehør.'),
   (11304, 'Mexicansk suppe med oksekød', 'https://www.valdemarsro.dk/mexicansk-suppe-med-oksekoed/', 'https://www.valdemarsro.dk/wp-content/2023/01/mexicansk-suppe-oksekoed.jpg', '30', '4 servings', 'Kom løg, hvidløg og olie i en gryde og sauter ved middelvarme til løgene er bløde. Tilsæt soltørrede tomater og oksekød og brun kødet under omrøring ved høj varme. Kom gulerødder, bladselleri, squash, hakkede tomater, grøntsagsboullion, jalapenos og krydderier i gryden og lad det simre i 15 minutter.
 Tilsæt bønnerne og varm dem godt igennem. Smag suppen godt til med salt og peber.
@@ -7967,9 +7890,9 @@ Server i dybe tallerkener med friskrevet parmesan og et drys krydderurter.'),
 Sauter løg i en gryde med olie ved middelvarme, til de bliver bløde. Tilsæt hvidløg, timian, rosmarin, fennikelfrø, squash, bladselleri, grøntsagsboullion og kyllingboullion, samt det hele kyllingebryst. Varm det op til kogepunktet og lad det simre under låg i 10 minutter. Kom derefter pastamuslingeskallerne i og lad det simre videre under låg i yderligere 10 minutter til kyllingen er færdigtilberedt.
 Tag det hele stykke kyllingebryst op af suppevandet og riv kødet fra hinanden med to gafler. Kom kyllingen tilbage i suppen, når pastaen er perfekt mør og smag suppen til med piskefløde.
 Vend babyspinat og parmesanost i, lige inden servering og drys med knust sprød parmaskinke og basilikum.'),
-  (11313, 'Kokos dhal med grønne linser', 'https://www.valdemarsro.dk/kokos-dhal-med-groenne-linser/', 'https://www.valdemarsro.dk/wp-content/2021/03/kokosdhal-app.jpg', '50', '4 servings', 'Varm olien i en stor gryde ved middelvarme og tilsæt hvidløg og ingefær og rør rundt i 1 minut. Tilsæt her­efter karry, spidskommen, kardemomme, koriander og chiliflager og svits krydderierne kort under omrøring.
-Skyl linserne godt i en sigte og kom dem i gryden sam­men med grøntsagsbouillon, kokosmælk og hakkede tomater.
-Lad det simre under låg i ca. 30­-45 minutter. Rør jævnligt i gryden og tilsæt evt. lidt ekstra grøntsags­ bouillon, hvis dhalen bliver for fast.
+  (11313, 'Kokos dhal med grønne linser', 'https://www.valdemarsro.dk/kokos-dhal-med-groenne-linser/', 'https://www.valdemarsro.dk/wp-content/2021/03/kokosdhal-app.jpg', '50', '4 servings', 'Varm olien i en stor gryde ved middelvarme og tilsæt hvidløg og ingefær og rør rundt i 1 minut. Tilsæt herefter karry, spidskommen, kardemomme, koriander og chiliflager og svits krydderierne kort under omrøring.
+Skyl linserne godt i en sigte og kom dem i gryden sammen med grøntsagsbouillon, kokosmælk og hakkede tomater.
+Lad det simre under låg i ca. 30-45 minutter. Rør jævnligt i gryden og tilsæt evt. lidt ekstra grøntsags bouillon, hvis dhalen bliver for fast.
 Smag til med salt og server retten i dybe skåle og top med en skefuld græsk yoghurt, avocado i skiver, et drys chiliflager og koriander.'),
   (11316, 'Congee Rissuppe med kylling', 'https://www.valdemarsro.dk/congee-rissuppe-kylling/', 'https://www.valdemarsro.dk/wp-content/2020/08/congee.jpg', '75', '4 servings', 'Skyl risene grundigt under rindende vand og kom dem derefter i en gryde med en lidt tyndt blandet grøntsagsboullion og den friskrevede ingefær.
 Kog op under omrøring og skrue derefter ned for varmen.
@@ -8010,10 +7933,10 @@ Tahindip
 Rør dippen sammen i en skål for sig og sæt den på køl indtil servering.
 Gør grøntsagerne klar
 Kog majs og kartofler i letsaltet vand, til de er næsten møre.
-Sæt grøntsager, kartofler og halloumi på spyd. Pensl grillspyddene med marinaden og grill på begge sider i ca. 5­-7 minutter på hver side. Vend dem hyppigt og hold øje med, at de ikke brænder på.
+Sæt grøntsager, kartofler og halloumi på spyd. Pensl grillspyddene med marinaden og grill på begge sider i ca. 5-7 minutter på hver side. Vend dem hyppigt og hold øje med, at de ikke brænder på.
 Drys med finthakket mynte inden servering.
 Hvis du bruger grillspyd af træ, så husk at lægge dem i vand i 2 timer inden brug, så der ikke går ild i dem på grillen.'),
-  (11334, 'Pasta Arrabiata', 'https://www.valdemarsro.dk/pasta-arrabiata/', 'https://www.valdemarsro.dk/wp-content/2019/04/Pasta-arrabiata-1.jpg', '45', '4 servings', 'Kom olie i en lille gryde sammen med den friske chili i skiver, sæt varmen på lav til middelvarme og lad olien varme langsomt op – det skal ikke blive varmere, end at man kan stikke en lillefinger i olien uden at brænde sig. Lad det stå i 30 minutter, sluk derefter for varmen og sigt chilien gennem en sigte. Olien kan gemmes til andre retter, som chiliolie. Denne metode trækker den ’værste’ vrede ud af chilien, så den bliver mildere stemt.
+  (11334, 'Pasta Arrabiata', 'https://www.valdemarsro.dk/pasta-arrabiata/', 'https://www.valdemarsro.dk/wp-content/2019/04/Pasta-arrabiata-1.jpg', '45', '4 servings', 'Kom olie i en lille gryde sammen med den friske chili i skiver, sæt varmen på lav til middelvarme og lad olien varme langsomt op - det skal ikke blive varmere, end at man kan stikke en lillefinger i olien uden at brænde sig. Lad det stå i 30 minutter, sluk derefter for varmen og sigt chilien gennem en sigte. Olien kan gemmes til andre retter, som chiliolie. Denne metode trækker den ''værste'' vrede ud af chilien, så den bliver mildere stemt.
 Kog pastaen al dente i en gryde med rigeligt letsaltet vand, mens resten af retten tilberedes.
 Kom chilien tilbage i gryden sammen med hvidløg, tomater, salt og friskkværnet peber og kog op. Lad det simre under låg i 5 minutter. Smag til med balsamico, lidt sukker, friskrevet citronskal og finthakket basilikum og vend saucen med den friskkogte pasta.
 Server med friskrevet parmesan og et drys basilikum.'),
@@ -8023,7 +7946,7 @@ Kyllingestykkerne kan også steges på panden i olie. Vend dem med jævne mellem
   (11340, 'Salat med æbler, bulgur, blomkål og mynte', 'https://www.valdemarsro.dk/salat-med-aebler-bulgur/', 'https://www.valdemarsro.dk/wp-content/2019/04/salat-aeble-bulgur.jpg', '30', '4 servings', 'Kog bulguren efter anvisning på pakken og lad den derefter køle af.
 Kom alle ingredienserne til dressing i en skål og pisk det godt sammen, før det vendes med bulguren.
 Gnid skålen til salaten med et overskåret fed hvidløg.
-Vend fintrevet blomkål, skalotteløg og æbletern,  godt sammen med bulgur.
+Vend fintrevet blomkål, skalotteløg og æbletern,  godt sammen med bulgur.
 Rist mandlerne på en pande eller i ovnen til de er sprøde og hak dem fint inden de vendes i salaten. Rist også pinjekernerne til de får en smule farve og vend dem i salaten sammen med mynte og bredbladet persille.
 Drys evt lidt ekstra krydderurter på inden servering.'),
   (11343, 'Ovnbagte grøntsager - alt i et fad', 'https://www.valdemarsro.dk/ovnbagte-groentsager/', 'https://www.valdemarsro.dk/wp-content/2019/04/ovnbagte-groentsager-2.jpg', '40', '4 servings', 'Kom alle grøntsagerne, halloumi, krydderier, kerner, olie, salt og peber i en stor bradepande beklædt med bagepapir og vend det hele godt sammen.
@@ -8054,16 +7977,16 @@ Drys med friske krydderurter inden servering og server med en god blandet salat 
 Rist alle krydderierne i en tør gryde, til de begynder at dufte skønt. Tilsæt olie, hvidløg og løg og sauter, til løgene er bløde. Rør mel ud i fyldet og kom derefter grøntsagsbouillon og hakkede tomater i.
 Rør det hele godt sammen og lad saucen simre i 15 minutter uden låg. Smag til med salt og friskkværnet peber.
 Fyld
-Varm olie op i en gryde og sauter løg og hvidløg, til løgene er bløde. Tilsæt squash, hakkede tomater, spids­kommen og koriander og lad det simre i 15 minutter uden låg, til det koger lidt ind. Tilsæt de sorte bønner og kidneybønner og varm godt igennem.
+Varm olie op i en gryde og sauter løg og hvidløg, til løgene er bløde. Tilsæt squash, hakkede tomater, spidskommen og koriander og lad det simre i 15 minutter uden låg, til det koger lidt ind. Tilsæt de sorte bønner og kidneybønner og varm godt igennem.
 Rist majskernerne i lidt smør på en pande, til de bliver sprøde og får lidt farve.
 Saml Enchiladas
-Smør hver tortillapandekage med enchilada­s sauce og kom derefter bønnefyld, majs og cheddarost ovenpå, rul sammen og placer dem i et smurt ovnfast fad.
+Smør hver tortillapandekage med enchiladas sauce og kom derefter bønnefyld, majs og cheddarost ovenpå, rul sammen og placer dem i et smurt ovnfast fad.
 Fordel den sidste enchiladas sauce over og drys med mere ost. Fordel bønnefyld og majskerner i siderne af fadet, hvis der er noget til overs. Bag dem i en forvarmet ovn ved 175 grader varmluft i cirka 18 minutter.
 Drys med koriander inden servering.'),
   (11364, 'Vegetar Bolognese', 'https://www.valdemarsro.dk/vegetar-bolognese/', 'https://www.valdemarsro.dk/wp-content/2019/02/vegetar-bolognese-opskrift-1.jpg', '30', '4 servings', 'Sauter løg og hvidløg i en gryde med olie, til de er bløde.
 Skru op for varmen og kom finthakkede champignoner i gryden, rør godt igennem og tilsæt derefter de andre ingredienser.
 Skru ned for varmen og lad retten simre i 20 minutter, til linserne er møre.
-Smag saucen til med salt og frisk­kværnet peber.
+Smag saucen til med salt og friskkværnet peber.
 Server med dampende varm spaghetti, friskrevet parmesan eller vesterhavsost og lidt frisk timian.'),
   (11367, 'Avocadohummus', 'https://www.valdemarsro.dk/avocadohummus/', 'https://www.valdemarsro.dk/wp-content/2019/02/avocadohummus-2.jpg', '15', '4 servings', 'Kom alle ingredienserne i en blender eller foodprocessor og kør i omkring 5 minutter eller til det er fløjlsblødt og cremet.
 Smag godt til med salt, peber, citronsaft og fintrevet citronskal.
@@ -8083,7 +8006,7 @@ Fordel fyldet, rester af chili sin carne eller chili con carne på halvdelen af 
 Læg den anden halvdel af tortillawraps på som låg.
 Bag i ovnen i 10 minutter ved 200 grader varmluft eller steg dem på begge sider på en varm tør pande.'),
   (11379, 'Gryderet med kylling', 'https://www.valdemarsro.dk/gryderet-med-kylling/', 'https://www.valdemarsro.dk/wp-content/2019/01/gryderet_kylling.jpg', '50', '6 servings', 'Kom olie i en stor gryde og varm op ved middelvarme. Kom smør på og lad det bruse af. Rist champignon ved høj varme til de har en flot stegeskorpe og sæt dem derefter tilside på en tallerken.
-Tilsæt løg, hvidløg, chorizo og soltørrede tomater i olie i samme gryde og sauter til løgene er bløde.  Tilsæt squash og aubergine og rist til grøntsagerne  er lækre og møre. Kom paprika, røget paprika, oregano, timian, spidskommen, grøntsagsboullion og hakkede tomater i gryden og lad det koge op.
+Tilsæt løg, hvidløg, chorizo og soltørrede tomater i olie i samme gryde og sauter til løgene er bløde.  Tilsæt squash og aubergine og rist til grøntsagerne  er lækre og møre. Kom paprika, røget paprika, oregano, timian, spidskommen, grøntsagsboullion og hakkede tomater i gryden og lad det koge op.
 Kom de hele rå kyllingefiletter i gryden, sammen med de ristede champignon og dæk dem med grøntsagerne. Læg låg på og lad retten simre i 20-30 minutter, til kyllingekødet er perfekt mørt. Tag kyllingefiletterne op af gryden og riv kødet fra hinanden med to gafler eller skær det i små tern.
 Kom kødet tilbage i gryden og smag retten godt til med salt, peber og piskefløde.
 Til servering
@@ -8100,7 +8023,7 @@ Servering
 Fugt et stykke rispapir i vand og læg på køkkenbordet. Læg salat, krydderurter, nudler og skiver af den varme ribbensteg på midten af rispapiret. Fold først siderne om og rul derefter sammen til en fast forårsrulle. Fortsæt til alle forårsruller er samlede.
 Server med hoisinsauce.'),
   (11388, 'Quinoadeller', 'https://www.valdemarsro.dk/quinoadeller/', 'https://www.valdemarsro.dk/wp-content/2019/01/quinoadeller_opskrift.jpg', '60', '10 servings', 'Skyl quinoa grundigt gennem en sigte. Kom quinoa og grøntsagsbouillon i en gryde og lad det simrekoge i 15 minutter under låg.
-Hæld overskydende væde fra og kom den kogte quinoa i en skål og rør det grundigt sammen med æg, rød­løg, hvidløg, persille, kikærter, alle krydde­rierne, hvedemel og smuldret feta.
+Hæld overskydende væde fra og kom den kogte quinoa i en skål og rør det grundigt sammen med æg, rødløg, hvidløg, persille, kikærter, alle krydderierne, hvedemel og smuldret feta.
 Rør det hele godt sammen til en fars. Lad farsen trække på køl i 30 minutter.
 Form 10 deller og læg dem på en bradepande med bagepapir. Pensl med olie og bag dem i en forvarmet ovn ved 190 grader varmluft i ca. 25 minutter. Vend dem, når halvdelen af tiden er gået.'),
   (11391, 'Lynstegt karrykål med gulerødder', 'https://www.valdemarsro.dk/karrykaal/', 'https://www.valdemarsro.dk/wp-content/2019/01/karrykaal.jpg', '15', '4 servings', 'Rist krydderierne på en tør pande, til de dufter skønt.
@@ -8119,7 +8042,7 @@ Lad det simre uden låg i 5 minutter. Smag godt til med salt, friskkværnet pebe
 Smør et ovnfast fad og fordel skiftevis sauce og lasagneplader, til der kan afsluttes med et lag sauce. Riv mozzarella i mindre stykker og fordel over lasagnen. Bag lasagnen i en forvarmet ovn ved 175 grader varmluft i 15 minutter.'),
   (11406, 'Hjemmelavet sushi med laks', 'https://www.valdemarsro.dk/hjemmelavet-sushi/', 'https://www.valdemarsro.dk/wp-content/sushi-4.jpg', '120', '2 servings', 'Risene koges efter anvisning på pakken nogle timer før brug. Når risen er kogt og stadig lun, vendes den forsigtigt med sukker, salt og eddike.
 Køl risen ned til den er stuetemperatur (ikke køleskabskold).
-Læg et ark noritang på en bambusrulle og fordel en portion ris på, som trykkes lidt flad og jævn med fingerne. De 2 cm af tangen der vender ind mod dig selv og de 3 cm af tangen, der vender længst væk fra dig selv, skal være fri for ris og fyld.
+Læg et ark noritang på en bambusrulle og fordel en portion ris på, som trykkes lidt flad og jævn med fingerne. De 2 cm af tangen der vender ind mod dig selv og de 3 cm af tangen, der vender længst væk fra dig selv, skal være fri for ris og fyld.
 Midt på risen lægges salat, laks, hvidløgsflødeost og purløg og derefter rulles sushirullen stramt sammen og skæres i passende stykker med en meget skarp kniv.
 Serveres med wasabi, soya og syltede ingefær.'),
   (11409, 'Ravioli med gorgonzolasauce', 'https://www.valdemarsro.dk/ravioli-opskrift/', 'https://www.valdemarsro.dk/wp-content/2010/03/ravioli-gorgonzolasauce.jpg', '120', '4 servings', 'Ravioli pasta
@@ -8156,21 +8079,21 @@ I en anden skål røres vand og olie sammen og melblandingen røres i lidt efter
 Fyld og bagning
 Tænd ovnen på højeste varme og lad enten bagepladerne blive i ovnen eller brug en bage- eller pizzasten, som varmes op sammen med ovnen. Drys en bordplade med rigeligt mel, del dejen i to og rul hvert dejstykke meget tyndt ud, til det har samme størrelse som bagepladen. Placer de to deje på hver deres bageplade beklædt med bagepapir.
 Rør cremefraiche med salt, peber og en anelse muskatnød. Smør hver pizzabund med cremefraiche
-Og fordel løg og bacon ovenpå. Tag den første brandvarme bageplade ud af ovnen – den anden skal blive i ovnen, da der optimalt bages én flammkuchen ad gangen. Træk nu bagepapiret med den ubagte flammkuchen over på den varme plade og sæt den straks i ovnen på højeste rille og bag den i ca. 12-15 minutter, til skorpen er sprød og lækker. Drys lidt friske timianblade over inden servering.'),
+Og fordel løg og bacon ovenpå. Tag den første brandvarme bageplade ud af ovnen - den anden skal blive i ovnen, da der optimalt bages én flammkuchen ad gangen. Træk nu bagepapiret med den ubagte flammkuchen over på den varme plade og sæt den straks i ovnen på højeste rille og bag den i ca. 12-15 minutter, til skorpen er sprød og lækker. Drys lidt friske timianblade over inden servering.'),
   (11428, 'Kylling med hvidvin, flødesauce, svampe og urter', 'https://www.valdemarsro.dk/kylling-hvidvin-floede/', 'https://www.valdemarsro.dk/wp-content/2018/09/Kylling-hvidvin-floede.jpg', '120', '4 servings', 'Gnid kyllingestykkerne godt med salt og peber og brun dem af på alle sider i smør og olie på en sauterpande eller gryde. Tag kyllingestykkerne op, drys skindet med en smule hvedemel gennem en sigte og sæt dem til side et øjeblik.
 Rist champignon på panden ved høj varme, når de begynder at tage farve skrues ned for varmen, løg og hvidløg tilsættes og det sauteres sammen ved middelvarme til løgene er bløde.
-Kom kyllingen tilbage i gryden/panden, sammen med hvidvin, hønsefond, laurbærblade og timian og lad det simre en times tid med låg eller sæt gryden i ovnen (hvis den kan tåle dette og lad den stå i ovnen ved 150 grader i 1 – 1 ½ time. Tilsæt til sidst fløde med lidt maizena rørt i, og jævn retten, hvorefter den smages til med salt og peber.
+Kom kyllingen tilbage i gryden/panden, sammen med hvidvin, hønsefond, laurbærblade og timian og lad det simre en times tid med låg eller sæt gryden i ovnen (hvis den kan tåle dette og lad den stå i ovnen ved 150 grader i 1 - 1 1/2 time. Tilsæt til sidst fløde med lidt maizena rørt i, og jævn retten, hvorefter den smages til med salt og peber.
 Serveret med krydderurter og server med fx ris, salat og godt brød.'),
   (11430, 'Varm Kartoffelsalat', 'https://www.valdemarsro.dk/varm-kartoffelsalat/', 'https://www.valdemarsro.dk/wp-content/2018/09/varm-kartoffelsalat.jpg', '45', '4 servings', 'Skræl kartoflerne og kog dem i en gryde med letsaltet vand til de er møre.
 Hæld vandet fra, lad kartoflerne køle helt af i køleskabet og skær dem i skiver.
-Sauter løg i smør ved lav-middel varme i 15-20 minutter til løgene er bløde og smager sødt. Kom vand, æblecidereddike, salt og peber i gryden.  Tilsæt kartofler i skiver, varm langsomt igennem. Smag til med sukker, sennep, salt, peber efter behov. Server med fintklippet frisk purløg'),
+Sauter løg i smør ved lav-middel varme i 15-20 minutter til løgene er bløde og smager sødt. Kom vand, æblecidereddike, salt og peber i gryden.  Tilsæt kartofler i skiver, varm langsomt igennem. Smag til med sukker, sennep, salt, peber efter behov. Server med fintklippet frisk purløg'),
   (11433, 'Råsyltede blommer med rom eller portvin + råsyltede blommer uden alkohol', 'https://www.valdemarsro.dk/raasyltede-blommer/', 'https://www.valdemarsro.dk/wp-content/2018/08/raasyltede-blommer.jpg', '60', '8 servings', 'Råsyltede blommer med rom eller portvin
 Flæk vaniljestangen og skrab kornene ud og fordel i sukkeret. Kom den tomme vaniljestang, sukker, vanilje og vand i en gryde og kog op. Lad det simre i 5 minutter uden låg.
 Halver blommerne og fjern stenene. Skær dem i kvarte, eller mindre stykker hvis de er meget store. Kom blommerne i gryden og lad det simre under låg i et par minutter. Sluk for varmen og tilsæt rom eller portvin.
 Hæld på rengjorte skoldede glas og lad det trække i køleskab eller et køligt rum i 2-3 uger.
 Råsyltede blommer uden alkohol
 Flæk vaniljestangen og skrab kornene ud og fordel i sukkeret. Kom den tomme vaniljestang, sukker, vanilje, nelliker, kanel og vand i en gryde og kog op. Lad det simre i 5 minutter uden låg.
-Halver blommerne og fjern stenene. Skær dem i kvarte, eller mindre stykker hvis de er meget store. Kom blommerne i gryden og lad det simre under låg i et par minutter. Hæld på rengjorte skoldede glas og lad det trække i køleskab eller et køligt rum i 2-3 uger.'),
+Halver blommerne og fjern stenene. Skær dem i kvarte, eller mindre stykker hvis de er meget store. Kom blommerne i gryden og lad det simre under låg i et par minutter. Hæld på rengjorte skoldede glas og lad det trække i køleskab eller et køligt rum i 2-3 uger.'),
   (11436, 'Squashtærte', 'https://www.valdemarsro.dk/squashtaerte/', 'https://www.valdemarsro.dk/wp-content/2018/08/squashtaerte-1.jpg', '60', '4 servings', 'Tærtedej
 Bland hvedemel og fuldkornsmel med salt og smuldr smør i melblandingen. Det kan også køres på en foodprocessor.
 Saml dejen med lidt vand til den hænger sammen og lad den gerne hvile på køl i 15 minutter hvorefter den trykkes ud i en smurt tærteform (ca. 27 cm diameter).
@@ -8178,7 +8101,7 @@ Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader v
 Fyld til squashtærte
 Pisk æg, mælk, parmesan, hytteost, muskatnød, salt og peber sammen med et piskeris og vend porrer i blandingen.
 Fordel fyldet i den forbagte tærtebund, læg squashskiverne ovenpå og drys fintrevet parmesan over.
-Bag tærten i ca. 30­-40 minutter i en forvarmet ovn ved 175 grader varmluft, til æggemassen er stivnet.'),
+Bag tærten i ca. 30-40 minutter i en forvarmet ovn ved 175 grader varmluft, til æggemassen er stivnet.'),
   (11439, 'Salat med bulgur, abrikos, dadler og pinjekerner', 'https://www.valdemarsro.dk/salat-med-bulgur/', 'https://www.valdemarsro.dk/wp-content/2018/08/salat-bulgur-pinjekerner.jpg', '25', '4 servings', 'Bulgur
 Kom bulgur, vand og grøntsagsboullion i en gryde, og lad det koge med låg på i 5-8 minutter, hvorefter varmen slukkes og det trækker i 10-15 min.
 Dressing
@@ -8203,8 +8126,8 @@ Rør cremefraiche med sriracha, mayo og smag til med salt og peber.'),
 Hak estragon helt fint og rør det sammen med smør, citronsaft, hvidløg og smag til med citronskal, salt og peber. Kom det i en skål og sæt på køl minimum 1 time inden servering.
 Entrecote på grill
 Tag entrecote bøfferne ud af køleskabet i god tid, gerne 45 minutter inden de skal på grillen, så de kan nå at få stuetemperatur og ikke kommer direkte fra det kolde køleskab til grill.
-Pensl bøfferne med lidt olivenolie og kom dem på den varme grill – direkte varme, hvor den grilles cirka 2 minutter på hver side. Hvis bøfferne er meget tykke eller hvis man ønsker dem mere end medium stegt, så kan man give dem 1-2 minutter på hver side på indirekte varme derefter.
-Krydr med flagesalt og friskkværnet sort peber inden servering – hvor de fx kan serveres med en skefuld rørt estragonsmør
+Pensl bøfferne med lidt olivenolie og kom dem på den varme grill - direkte varme, hvor den grilles cirka 2 minutter på hver side. Hvis bøfferne er meget tykke eller hvis man ønsker dem mere end medium stegt, så kan man give dem 1-2 minutter på hver side på indirekte varme derefter.
+Krydr med flagesalt og friskkværnet sort peber inden servering - hvor de fx kan serveres med en skefuld rørt estragonsmør
 Kartofler
 Skrub kartoflerne godt og dup dem tørre. Vend dem med olie og salt og bag dem i en forvarmet ovn ved 200 grader i cirka 25-35 minutter til de er møre.
 Salat
@@ -8227,14 +8150,14 @@ Server med syltede rødbeder og friske krydderurter'),
   (11464, 'Hotwings', 'https://www.valdemarsro.dk/hotwings/', 'https://www.valdemarsro.dk/wp-content/2018/04/hotwings.jpg', '45', '4 servings', 'Hotwings
 Del kyllingevingerne ved leddet og gem det yderste led i en beholder i fryseren til næste gang, der skal koges kyllingefond.
 Bland mel, paprika, cayennepeber, løgpulver, salt og friskkværnet peber i en stor skål. Dup kyllingevingerne med køkkenrulle og vend dem i krydderiblandingen. Lad dem trække i et par minutter eller længere. Vend derefter kyllingevingerne i lidt olie eller stænk blot lidt olie over dem.
-Grill dem på en varm grill. Hold godt øje med dem og vend dem flere gange undervejs. Kom gerne lidt røgesmuld på til sidst – det giver en lækker røget barbecuesmag.
+Grill dem på en varm grill. Hold godt øje med dem og vend dem flere gange undervejs. Kom gerne lidt røgesmuld på til sidst - det giver en lækker røget barbecuesmag.
 Du kan også stege dem i ovnen. Grill dem på en varm grill eller bag dem på bagepapir i en forvarmet ovn ved 225 grader i 15-20 minutter, til de er gennemstegte. Vend dem et par gange.
 Pensl de varme kyllingestykker med barbecuemarinade inden servering.
 BBQ sauce
 Kom alle ingredienserne til barbecuesaucen i en gryde og pisk det godt sammen, mens det langsomt varmes op til kogepunktet. Lad det simre i fem minutter og smag det derefter godt til.
 Hotwings
 Lad saucen køle lidt af og vend derefter de gennemstegte kyllingevinger i barbecuesaucen, hvorefter de serveres og nydes straks.'),
-  (11467, 'Marokkansk kyllingegryde med abrikos og kikærter', 'https://www.valdemarsro.dk/kyllingegryde/', 'https://www.valdemarsro.dk/wp-content/2018/08/kyllingegryde.jpg', '150', '4 servings', 'Sauter løg og hvidløg i en gryde ved middelvarme til de er bløde. Vend alle krydderierne sammen med mel, salt og peber, og vend kyllingestykkerne i halvdelen af blandingen. Brun kyllingestykkerne af i gryden, og tag dem derefter kortvarigt op af gryden – hvor de lægges fra på en tallerken et øjeblik.
+  (11467, 'Marokkansk kyllingegryde med abrikos og kikærter', 'https://www.valdemarsro.dk/kyllingegryde/', 'https://www.valdemarsro.dk/wp-content/2018/08/kyllingegryde.jpg', '150', '4 servings', 'Sauter løg og hvidløg i en gryde ved middelvarme til de er bløde. Vend alle krydderierne sammen med mel, salt og peber, og vend kyllingestykkerne i halvdelen af blandingen. Brun kyllingestykkerne af i gryden, og tag dem derefter kortvarigt op af gryden - hvor de lægges fra på en tallerken et øjeblik.
 Tilsæt tomat, grøntsagsboullion, dadler, abrikoser, samt den anden halvdel mel- og krydderiblanding i gryden og rør det godt sammen med løgene.
 Kom kyllingestykkerne tilbage i gryden, med skindsiden op. Tilsæt finthakkede mandler, kikærter samt fintrevet citronskal og saft. Sæt låg på og kom gryden i en kold ovn, som tændes på 150 grader.
 Lad retten simre i ovnen i 2 timer. Smag saucen til med salt og peber og server den duftende kyllingegryde med ris, og et drys krydderurter.'),
@@ -8249,7 +8172,7 @@ Tilberedelsestiden kan variere lidt, så tjek dem gerne efter cirka 10 minutter,
   (11476, 'Køleskabsgrød', 'https://www.valdemarsro.dk/koleskabsgrod-nem-og-laekker-kold-grod/', 'https://www.valdemarsro.dk/wp-content/2013/11/koeleskabsgroed-1.jpg', '600', '1 serving', 'Rør det hele sammen, stil på køl og nyd næste morgen.
 Køleskabsgrøden kan evt røres op med yoghurt naturel eller skyr næste morgen og toppes med bær, nødder, kerner, frugt, frø eller lign.'),
   (11479, 'Kyllingeruller med salvie parmaskinke og mozzarella', 'https://www.valdemarsro.dk/kyllingeruller-med-salvie-parmaskinke-og-mozarella/', 'https://www.valdemarsro.dk/wp-content/2011/08/kyllingeruller-salvie.jpg', '25', '4 servings', 'Bank eller tryk kyllingefiletterne lidt flade.
-Læg en skive parmaskinke, en smule gorgonzola og to skiver frisk mozzarella, 2 salvieblade og  drys med lidt salt og peber på hvert stykke kyllingebryst
+Læg en skive parmaskinke, en smule gorgonzola og to skiver frisk mozzarella, 2 salvieblade og  drys med lidt salt og peber på hvert stykke kyllingebryst
 Rul dem sammen og saml dem med en tandstik, et lille grillspyd eller bind en kødsnor omkring.
 Steges på panden i olivenolie og smør på alle sider i ca. 15 minutter, eller til kyllingen er gennemstegt.'),
   (11482, 'Blomkålscurry', 'https://www.valdemarsro.dk/blomkaalscurry/', 'https://www.valdemarsro.dk/wp-content/2018/02/blomkaalscurry-1.jpg', '40', '4 servings', 'Varm krydderierne igennem på en tør pande ved høj varme under omrøring, til de begynder at dufte dejligt. Skru ned til middelvarme, tilsæt olie, løg og hvidløg og sauter det, til løgene er bløde.
@@ -8271,20 +8194,20 @@ Rør alle ingredienserne til dressingen sammen i en skål og smag den til. Tag l
 Anret salaten på et fad og fordel rødløg, æbletern, bacon, dild og purløg over inden servering.'),
   (11490, 'Topping til salat og suppe', 'https://www.valdemarsro.dk/topping-suppe/', 'https://www.valdemarsro.dk/wp-content/2018/01/suppetopping-1.jpg', '10', '1 serving', 'Kom alle kerner og frø på en tør pande og rist under omrøring, til græskarkernerne begynder at poppe en smule, og det hele bliver lettere gyldent.
 Tag panden af varmen, tilsæt honning og soja og rør godt rundt.
-Drys med en smule spidskommen og frisk­kværnet peber.'),
+Drys med en smule spidskommen og friskkværnet peber.'),
   (11493, 'Spinatsalat med feta, sprød parmaskinke og granatæble', 'https://www.valdemarsro.dk/spinatsalat/', 'https://www.valdemarsro.dk/wp-content/2018/02/spinatsalat.jpg', '15', '4 servings', 'Steg parmaskinken sprød på en pande med olivenolie eller i ovnen på bagepapir ved 175 grader i ca. 10-12 minutter.
 Rør imens ingredienserne til dressingen godt sammen, vend babyspinat og rucola med dressingen og anret salaten på et fad.
 Top med sprød parmaskinke, gedeost i små stykker, grofthakkede mandler og granatæblekerner. Smag til med friskkværnet peber og salt.'),
   (11496, 'Tzatziki', 'https://www.valdemarsro.dk/tzatziki/', 'https://www.valdemarsro.dk/wp-content/2018/02/tzatziki.jpg', '20', '4 servings', 'Halver agurkerne på langs, og skrab kernerne ud med en ske.
 Riv agurkerne groft, vend dem med salt og lad dem trække i 5-10 minutter, hvorefter de dryppes af gennem en sigte, og al væde trykkes og vrides godt fra.
 Rør agurken ud i yoghurt og smag til med hvidløg, salt, peber og olivenolie.'),
-  (11499, 'One Pot Pasta med Kødsovs', 'https://www.valdemarsro.dk/koedsovs-onepotpasta/', 'https://www.valdemarsro.dk/wp-content/2018/01/onepotpasta_koedsauce-1.jpg', '35', '4 servings', 'Steg bacon sprødt i en stor gryde med olie – den samme som du vil tilberede din one pot pasta i. Læg bacon kortvarigt til side og brun oksekødet i baconfedtet i den samme gryde.
+  (11499, 'One Pot Pasta med Kødsovs', 'https://www.valdemarsro.dk/koedsovs-onepotpasta/', 'https://www.valdemarsro.dk/wp-content/2018/01/onepotpasta_koedsauce-1.jpg', '35', '4 servings', 'Steg bacon sprødt i en stor gryde med olie - den samme som du vil tilberede din one pot pasta i. Læg bacon kortvarigt til side og brun oksekødet i baconfedtet i den samme gryde.
 Tilføj alle de andre ingredienser, samt den stegte bacon i gryden.
 Rør godt rundt og skru ned til middelvarme.
 Lad det simre under låg i cirka 10-15 minutter. Rør et par gange undervejs og test, om pastaen er al dente.
 Server med friskrevet parmesan og eventuelt lidt frisk timian.'),
   (11502, 'Rucolasalat med bagte tomater', 'https://www.valdemarsro.dk/rucolasalat/', 'https://www.valdemarsro.dk/wp-content/2018/01/rucola-bagte-tomater.jpg', '120', '4 servings', 'Halver tomaterne og læg dem på en bageplade med bagepapir. Fordel finthakket hvidløg henover og stænk med olivenolie samt drys lidt salt og peber over.
-Bag tomaterne ved lav varme på 125 grader i 1 1⁄2 – 2 timer.
+Bag tomaterne ved lav varme på 125 grader i 1 1/2 - 2 timer.
 Tag tomaterne ud af ovnen og lad dem køle af.
 Rist pinjekernerne på en varm tør pande under omrøring, til de tager farve.
 Vend rucola og spinat med vinaigrette, anret på et fad og fordel tomater og pinjekerner over.'),
@@ -8298,10 +8221,10 @@ Smag til med salt, peber, chili og citronsaft. Lad gerne guacamolen trække i 30
 Rør olivenolie, sennep, honning, ingefær, citronsaft, salt, peber og tranebær sammen i en skål og vend det i råkostsalaten.
 Smag til med salt og peber og drys med et par spiseskefulde af hakkede mandler og solsikkekerner.'),
   (11515, 'Glaseret skinke', 'https://www.valdemarsro.dk/glaseret-skinke/', 'https://www.valdemarsro.dk/wp-content/2017/12/glaseret-skinke-1.jpg', '180', '4 servings', 'Kom skinken med sværen opad i et ovnfast fad. Hvis det er en skinke i net, så lad den blive i nettet og sæt dem med sværen op. Sæt et stegetermometer i midten af skinken for at sikre, den ikke får for længe.
-Kom 2 dl. vand i bunden af det ovnfaste fad og sæt skinken på en rist i fadet og bag den i en forvarmet ovn ved 175 grader varmluft i cirka 1 time og 30 minutter – eller til skinken, har en kernetemperatur på 65 grader.
+Kom 2 dl. vand i bunden af det ovnfaste fad og sæt skinken på en rist i fadet og bag den i en forvarmet ovn ved 175 grader varmluft i cirka 1 time og 30 minutter - eller til skinken, har en kernetemperatur på 65 grader.
 Tag skinken ud af ovnen, lad den køle lidt af.
-Fjern evt. net og svær, men uden at fjerne fedtkanten, der ligger lige under sværen. Rids skinkens fedtkanter godt igennem, så den lækre sennepsgratinering kan give bedst muligt smag til kødet. Læg skinken tilbage i det ovnfaste fad.
-Rør glaseringen sammen af dijonsennep, honning, farin, revet ingefær og fintrevet appelsinskal, 1-2 spsk appelsinsaft, salt og friskkværnet peber. Pensl et tykt lag på hele skinken og drys til sidst med rasp, til skinken er helt dækket. Sæt den glaserede skinke i ovnen igen og bag den i ca. 15 minutter ved 175 grader varmluft, til gratineringen er sprød og gylden.'),
+Fjern evt. net og svær, men uden at fjerne fedtkanten, der ligger lige under sværen. Rids skinkens fedtkanter godt igennem, sa den lækre sennepsgratinering kan give bedst muligt smag til kødet. Læg skinken tilbage i det ovnfaste fad.
+Rør glaseringen sammen af dijonsennep, honning, farin, revet ingefær og fintrevet appelsinskal, 1-2 spsk appelsinsaft, salt og friskkværnet peber. Pensl et tykt lag pa hele skinken og drys til sidst med rasp, til skinken er helt dækket. Sæt den glaserede skinke i ovnen igen og bag den i ca. 15 minutter ved 175 grader varmluft, til gratineringen er sprød og gylden.'),
   (11518, 'Grønlangkål', 'https://www.valdemarsro.dk/groenlangkaal/', 'https://www.valdemarsro.dk/wp-content/2021/01/groenlangkaal.jpg', '45', '4 servings', 'Sauter grønkålen i smør under omrøring i et par minutter til den falder sammen og er mør. Hæld piskefløde ved, læg låg på og lad retten simre ved svag varme i cirka 30 minutter. Tilsæt ekstra fløde, mælk eller en smule vand, hvis grønkålen bliver for tør.
 Smag den lækre grønlangkål til med sukker, salt, friskkværnet peber og en anelse friskrevet muskatnød.
 Når kålen er mør og smagt godt til, så kan den enten serveres som den er, eller den kan jævnes en anelse med majsstivelse rørt ud i kold mælk.
@@ -8317,22 +8240,22 @@ Mandler, hampefrø, kakaonibs, chiafrø, valnødder, bananskiver, chokoladegrano
   (11527, 'Braiseret svinenakke med æbler og timian', 'https://www.valdemarsro.dk/braiseret-svinenakke/', 'https://www.valdemarsro.dk/wp-content/2017/11/braiserede-svinenakke-1.jpg', '150', '6 servings', 'Braiseret nakkefilet
 Varm smør i en gryde og brun nakkefileten på alle sider, tag den op og sæt til side på en tallerken.
 Kom løg, gulerødder, porrer, hvidløg og peberkorn i gryden og sauter det ved middelvarme, til løgene er bløde. Tilsæt det brunede kød sammen med laurbærblade, rosmarin, timian, æblemost og øl.
-Sæt låg på og lad det simre i 1 1⁄2 – 2 timer ved lav varme.
+Sæt låg på og lad det simre i 1 1/2 - 2 timer ved lav varme.
 Kartoffelmos
 Kog kartoflerne i usaltet vand, til de er møre. Lun mælken i en kasserolle til den er ca. 50 grader varm.
 Mos de varme nykogte kartofler let med smør og pisk derefter kartoffelmosen med en håndmikser, tilsæt imens den varme mælk lidt efter lidt, til konsistensen af kartoffelmosen er cremet, luftig og fløjlsblød. Smag til med salt og peber, samt friskrevet muskatnød.
 Inden servering
 Tag kødet op af gryden, sigt saucen og kasser fyldet. Kom kød og sauce tilbage i gryden sammen med gulerødder og porrer. Lad det simre i 10 minutter og tilsæt æble, smør, salt og peber.
 Server med et drys frisk timian og grofthakket persille, samt kartoffelmos.'),
-  (11530, 'Andebryst á l’orange', 'https://www.valdemarsro.dk/andebryst/', 'https://www.valdemarsro.dk/wp-content/2017/11/andebryst-orange-2.jpg', '60', '4 servings', 'Appelsinsauce
+  (11530, 'Andebryst á l''orange', 'https://www.valdemarsro.dk/andebryst/', 'https://www.valdemarsro.dk/wp-content/2017/11/andebryst-orange-2.jpg', '60', '4 servings', 'Appelsinsauce
 Alle ingredienserne til appelsinsaucen kommes i en gryde og lad det koge ind til ca. 1 dl. sauce. Det tager omkring samme tid, som det tager at stege andebrysterne.
 Sigt saucen og hæld den på panden med stegefedt fra andebrystet. Rør det sammen, smag til og hæld over andebrysterne.
 Andebryst
-Rids skindsiden på andebrystfileterne med en skarp kniv – pas på ikke at skære igennem fedtet og ned i kødet, da kødsaften vil sive ud under stegningen, og kødet vil blive tørt. Gnid andebrysterne godt på alle sider med salt og peber.
+Rids skindsiden på andebrystfileterne med en skarp kniv - pas på ikke at skære igennem fedtet og ned i kødet, da kødsaften vil sive ud under stegningen, og kødet vil blive tørt. Gnid andebrysterne godt på alle sider med salt og peber.
 Læg dem med skindsiden ned på en kold tør pande og sæt varmen på lav middelvarme, så panden varmes langsomt op og fedtet har tid til at smelte. Steg andebrysterne med skindsiden ned ved lav varme til skindet er sprødt i ca. 20 min. Vend andebrysterne om og steg dem på den anden side 5 min.
 Sluk varmen, tag andebrysterne af, og lad fedtet stå på panden til saucen.
 Skær det lækre andekød ud i tynde skiver, anret på tallerkener eller et fad og hæld appelsinsaucen over.'),
-  (11533, 'Toastbrød', 'https://www.valdemarsro.dk/toastbroed/', 'https://www.valdemarsro.dk/wp-content/2017/11/toastbroed-1.jpg', '720', '8 servings', 'Rør gær ud i en skål med mælk og rør derefter fuldkornsmel, hvedemel og sukker i dejen. Rør dejen godt i gennem – gerne på en røremaskine ved middel hastighed i 10 minutter. Tilsæt tilsidst salt og koldt smør i små tern. Rør videre til smørret er rørt godt ud i dejen.
+  (11533, 'Toastbrød', 'https://www.valdemarsro.dk/toastbroed/', 'https://www.valdemarsro.dk/wp-content/2017/11/toastbroed-1.jpg', '720', '8 servings', 'Rør gær ud i en skål med mælk og rør derefter fuldkornsmel, hvedemel og sukker i dejen. Rør dejen godt i gennem - gerne på en røremaskine ved middel hastighed i 10 minutter. Tilsæt tilsidst salt og koldt smør i små tern. Rør videre til smørret er rørt godt ud i dejen.
 Kom dejen i en skål med et låg over og lad den hæve på køkkenbordet til cirka dobbelt størrelse.
 Kom dejen ud på et meldrysset køkkenbord og fold dejen nænsomt et par gange. Kom den i en smurt brødform på cirka 9×28 cm (1,3 liter). Sæt dejen i køleskabet til næste dag.
 Pensl brødet med mælk og bag toastbrødet i en forvarmet ovn ved 175 grader varmluft i cirka 50-60 minutter, til det er gennembagt. Lad toastbrødet køle af på en rist.'),
@@ -8340,7 +8263,7 @@ Pensl brødet med mælk og bag toastbrødet i en forvarmet ovn ved 175 grader va
 Kom hvedemel, bagepulver, parmasanost og salt og rør det godt sammen. Ælt det i skålen med vand og olie til dejen er lækker og smidig.
 Tril lange fingertykke strimler og skær dem ud i strimler på cirka 10-12 cm.
 Læg dem på en bradepande med bagepapir. Tryk fingerriller med bagsiden af en kniv og smør lidt tomatpure på fingerspidserne og klem en smuttet mandel på.
-Kom lidt tomatpure i skålen med sammenpisket æg – det skal ikke være jævnt fordelt. Pensl fingrene med æg og lidt tomatpure.
+Kom lidt tomatpure i skålen med sammenpisket æg - det skal ikke være jævnt fordelt. Pensl fingrene med æg og lidt tomatpure.
 Bag i en forvarmet ovn ved 175 grader varmluft i cirka 15-20 minutter, til de er gyldne og sprøde.'),
   (11540, 'Pizzasauce', 'https://www.valdemarsro.dk/pizzasauce/', 'https://www.valdemarsro.dk/wp-content/2017/11/pizzasauce.jpg', '5', '3 servings', 'Tag eventuelt stænglerne fra timian og oregano fra, hvis de er hårde og træede, og kom alle ingredienserne i en blender. Blend, til pizzasaucen har en ensartet konsistens.
 Brug 1-2 spsk. sauce pr pizza
@@ -8348,7 +8271,7 @@ Pizzasaucen kan fint fryses ned i mindre portioner.
 Tip
 Når hvidløget blancheres under kogende vand, forsvinder den skarpe hvidløgssmag og den milde aromatiske hvidløg træder bedre frem. Det kan være en fordel når man bruger rå hvidløg i retter, der ikke skal tilberedes. Alternativt kan man bruge hvidløgspulver.'),
   (11544, 'Mexicansk lasagne', 'https://www.valdemarsro.dk/mexicansk-lasagne/', 'https://www.valdemarsro.dk/wp-content/2017/10/mexicansk-lasagne-1.jpg', '120', '6 servings', 'Varm en tør gryde op med spidskommen, chiliflager og koriander, rør i krydderierne til de dufter skønt. Skrue ned for varmen og kom derefter , sød paprika, røget paprika, løg, hvidløg og olivenolie i gryden og sauter løg ved middel varme, til de er bløde.
-Kom soltørrede tomater og oksekød i gryden og brun det godt ved høj varme. Skru ned for varmen og tilsæt oregano/timian, bladselleri, squash,  hakkede tomater, grøntsagsboullion, salt og peber. Læg låg på gryden og lad saucen simre i 30 minutter.
+Kom soltørrede tomater og oksekød i gryden og brun det godt ved høj varme. Skru ned for varmen og tilsæt oregano/timian, bladselleri, squash,  hakkede tomater, grøntsagsboullion, salt og peber. Læg låg på gryden og lad saucen simre i 30 minutter.
 Smag saucen til og tilsæt kidneybønner, jalapenos og halvdelen af majskernerne.
 Saml den mexicanske lasagne i et smurt ovnfast fad, med skiftevis sauce, lasagneplader og friskrevet cheddar ost.
 Afslut med majs og cheddar ost. Bag i en forvarmet ovn ved 175 grader varmluft i 30 minutter, eller til lasagnepladerne er møre.
@@ -8410,7 +8333,7 @@ Vend kartoflerne i olie og salt, læg dem på en bradepande med bagepapir, samme
 Tagliata
 Tag kødet ud af køleskabet en halv time inden tilberedning og lad det temperere på køkkenbordet.
 Opvarm en pande med tyk bund ved høj varme. Tilsæt 2 spsk olivenolie, halver citronen på tværs og sæt hver halvdel på panden med frugtkødet nedad. Kom kødet på panden med citroner, steg det i ca. 20 sekunder på alle sider, krydr med salt og peber og vend kødet fortsat i 1-2 minutter endnu. Stegetiden varierer efter kødets tykkelse, og hvor rødt man ønsker sin tagliata (som traditionelt serveres meget rød). Jeg beregner ca. 3-4 minutter i alt. Tag kødet af varmen og lad det hvile på et skærebræt med saftrille i ca. 5 minutter.
-Lad citronerne blive på panden, tilsæt 3 spsk olivenolie, hvidløg, og rosmarin og skru straks helt ned for varmen. Lad det stå i et par minutter og tilsæt den kødsaft, der er løbet af det stegte kød. Tag panden af varmen og sigt til sidst marinaden i en skål. Vend rucola med 1-2 spsk sigtet marinade fra panden og anret den på et fad eller tallerkener. Skær tynde skiver på ca. 1⁄2 cm’s tykkelse af kødet. Drys med salt og friskkværnet peber og 1-2 spsk af den sigtede marinade.
+Lad citronerne blive på panden, tilsæt 3 spsk olivenolie, hvidløg, og rosmarin og skru straks helt ned for varmen. Lad det stå i et par minutter og tilsæt den kødsaft, der er løbet af det stegte kød. Tag panden af varmen og sigt til sidst marinaden i en skål. Vend rucola med 1-2 spsk sigtet marinade fra panden og anret den på et fad eller tallerkener. Skær tynde skiver på ca. 1/2 cm''s tykkelse af kødet. Drys med salt og friskkværnet peber og 1-2 spsk af den sigtede marinade.
 Anret kødet på rucolasalaten, fordel et gavmildt drys parmesanflager, sprøde pinjekerner samt et par rosmarinstilke til pynt.
 Server den lækre Tagliata med en skål ovnstegte kartofler med olivenolie, hvidløg, havsalt og masser af frisk rosmarin.'),
   (11587, 'Pikant koteletter i fad med chorizo', 'https://www.valdemarsro.dk/pikant-koteletter/', 'https://www.valdemarsro.dk/wp-content/2017/09/pikant-koteletter-fad.jpg', '35', '4 servings', 'Krydr koteletterne med salt og peber.
@@ -8423,7 +8346,7 @@ Drys lidt finthakket persille over retten til sidst inden servering og server me
 Kom lidt fedtstof fra fx kokosolie eller olivenolie i et vaffeljern og fordel derefter falafelfarsen deri. Luk og lad den stege, til knappen viser grøn eller til vaflen er sprød og gylden.
 Top hver vaffel med creme fraiche, avocado, agurk, tomat, tahinsauce (som blot piskes sammen), sriracha og frisk koriander.'),
   (11593, 'Paprikasauce', 'https://www.valdemarsro.dk/paprikasauce/', 'https://www.valdemarsro.dk/wp-content/2019/03/paprikasauce.jpg', '10', '4 servings', 'Smelt smør i en gryde og pisk hvedemel i gryden med et piskeris.
-Pisk straks efter mælk i og kog det op under omrøring og pisk resten af ingredienserne i – smag til med salt og peber og evt flere krydderier, tomatpuré og fløde efter smag og behag.'),
+Pisk straks efter mælk i og kog det op under omrøring og pisk resten af ingredienserne i - smag til med salt og peber og evt flere krydderier, tomatpuré og fløde efter smag og behag.'),
   (11596, 'Flæskestegssandwich', 'https://www.valdemarsro.dk/flaeskestegssandwich/', 'https://www.valdemarsro.dk/wp-content/2011/12/flaeskestegsandwich.jpg', '10', '1 serving', 'Lun bollen på en brødrister eller i ovnen.
 Rør dressingen af mayo, abrikosmarmelade og sennep. Smag til med salt og peber og smør bollen med den lækre dressing.
 Fyld flæskestegssandwichen med flæskesteg, salat, æble, frisk timian, et par ringe rødløg og cornichoner.'),
@@ -8439,12 +8362,12 @@ Tag gryden af varmen, tag vaniljestangen op og blend hindbærmassen. Hæld det h
 Smag hindbærsaften til med lidt citronsaft og stil den i køleskabet i 2 timer.
 Kør hindbærsorbeten på en ismaskine i 15 minutter, til den er tyk og cremet.
 Sæt i fryseren i min. 1 time inden servering.'),
-  (11608, 'Kanelis', 'https://www.valdemarsro.dk/kanelis/', 'https://www.valdemarsro.dk/wp-content/2017/06/kanelis-opskrift.jpg', '300', '4 servings', 'Kom mælk og fløde i en gryde og kog det op til lige knap kogepunktet. Sluk for varmen. Kom æggeblommer og sukker i en ren skål og pisk det sammen til en tyk æggesnaps. Pisk kanel i. Hæld mælke-flødeblandingen i æggesnapsen i en tynd stråle, mens du pisker hele tiden.
-Kom det hele tilbage i gryden og varm kaneliscremen langsomt op under omrøring, til temperaturen er præcis 80 grader – mål med et sukkertermometer.
-Hæld iscremen i en skål og sæt på køl i en time eller til næste dag.
+  (11608, 'Kanelis', 'https://www.valdemarsro.dk/kanelis/', 'https://www.valdemarsro.dk/wp-content/2017/06/kanelis-opskrift.jpg', '300', '4 servings', 'Kom mælk og fløde i en gryde og kog det op til lige knap kogepunktet. Sluk for varmen. Kom æggeblommer og sukker i en ren skål og pisk det sammen til en tyk æggesnaps. Pisk kanel i. Hæld mælke-flødeblandingen i æggesnapsen i en tynd strale, mens du pisker hele tiden.
+Kom det hele tilbage i gryden og varm kaneliscremen langsomt op under omrøring, til temperaturen er præcis 80 grader - mål med et sukkertermometer.
+Hæld iscremen i en skal og sæt på køl i en time eller til næste dag.
 Rør kanelisen på en ismaskine og sæt den derefter i fryseren i en bøtte med låg i minimum 2 timer inden servering.
-Hvis isen er frosset ned i længere tid, så tag isen op af fryseren, 15 minutter før den skal serveres.'),
-  (11613, 'Cacio e Pepe', 'https://www.valdemarsro.dk/cacio-e-pepe/', 'https://www.valdemarsro.dk/wp-content/2017/07/cacio_e_pepe.jpg', '15', '4 servings', 'Kom pastaen i en stor gryde med kogende vand og salt. Kog den i cirka 2 minutter kortere end angivet på pakken – den skal altså ikke være helt færdigtilberedt.
+Hvis isen er frosset ned i længere tid, sa tag isen op af fryseren, 15 minutter før den skal serveres.'),
+  (11613, 'Cacio e Pepe', 'https://www.valdemarsro.dk/cacio-e-pepe/', 'https://www.valdemarsro.dk/wp-content/2017/07/cacio_e_pepe.jpg', '15', '4 servings', 'Kom pastaen i en stor gryde med kogende vand og salt. Kog den i cirka 2 minutter kortere end angivet på pakken - den skal altså ikke være helt færdigtilberedt.
 Kværn imens de hele peberkorn eller stød dem i en morter.
 Kom de knuste peberkorn på en tør pande og varm dem godt igennem. Tilsæt smør og lad det bruse af. Skru lidt ned for varmen og lad det stå, til pastaen er næsten færdig.
 Hæld 2 dl af kogevandet fra pastaen på panden et par minutter, inden pastaen er færdig. Skru op for varmen, kom begge oste på panden, samt pastaen og rør rundt, til pastaen er vel tilberedt, ostene er smeltet og konsistensen er cremet.
@@ -8461,15 +8384,15 @@ Kom sukker, vanilje, den tomme vaniljestang, rabarber og vand i en gryde og kog 
 Tag gryden af varmen, og sigt saften ned i en skål. Brug bagsiden af en spiseske til at presse al saften ud af rabarbermassen.
 Stil saften på køl i 1 time eller til næste dag.
 Kom rabarbersaften i en ismaskine og kør, til det er en luftig og lækker sorbet. Kom i en beholder og stil den i fryseren i min. 2 timer inden servering.'),
-  (11622, 'Flæskesteg med sprød svær', 'https://www.valdemarsro.dk/flaeskesteg/', 'https://www.valdemarsro.dk/wp-content/2017/10/flaeskesteg.jpg', '180', '4 servings', 'Trin 1
-Svinekammen er ofte forskåret i sværen fra slagteren – men den skal gerne tjekkes efter med en skarp kniv.
+  (11622, 'Flæskesteg med sprød svær', 'https://www.valdemarsro.dk/flaeskesteg/', 'https://www.valdemarsro.dk/wp-content/2017/10/flaeskesteg.jpg', '180', '4 servings', 'Trin 1
+Svinekammen er ofte forskåret i sværen fra slagteren - men den skal gerne tjekkes efter med en skarp kniv.
 Der skal skæres igennem sværen, igennem fedtet og lige akkurat ned til der hvor kødet starter eller lige før. Man må endelig ikke skære ned i kødet, for så vil kødsaften gøre sværen blød under stegning og det er sværere (men ikke umuligt) at få en sprød svær.
-Trin 2
-Stød gerne salten helt fint i en morter og bland den med friskkværnet peber, gnid  derefter grundigt ud i sværen og ned mellem hver en rille i sværen. Det gør en stor forskel i forhold til at få den perfekte svær, at der er gnedet godt med salt ned mellem rillerne i flæskestegen.
+Trin 2
+Stød gerne salten helt fint i en morter og bland den med friskkværnet peber, gnid  derefter grundigt ud i sværen og ned mellem hver en rille i sværen. Det gør en stor forskel i forhold til at få den perfekte svær, at der er gnedet godt med salt ned mellem rillerne i flæskestegen.
 Trin 3
-Sæt flæskestegen på en rist, lagt over en bradepande – eller et ovnfast fad med tilhørende rist.
+Sæt flæskestegen på en rist, lagt over en bradepande - eller et ovnfast fad med tilhørende rist.
 Kom laurbærblade og timian under flæskestegen på risten. Risten bruges til at hæve flæskestegen lidt over fadet, så den ikke kommer direkte i kontakt med væden.
-Sørg for at sværen ligger nogenlunde i lige højde – læg evt en skrællet kartoffel under den ene ende af stegen, for at sørge for at den ligger helt lige. Det sikrer en jævnt stegt sprød svær.
+Sørg for at sværen ligger nogenlunde i lige højde - læg evt en skrællet kartoffel under den ene ende af stegen, for at sørge for at den ligger helt lige. Det sikrer en jævnt stegt sprød svær.
 Kom vand i bunden af bradepanden. Det skal ikke røre flæskestegen, men være under risten.
 Trin 4
 Sæt flæskestegen i en kold ovn! Tænd på 125 grader varmluft og steg i 2 timer.
@@ -8480,13 +8403,13 @@ Trin 5
 Lad flæskestegen hvile på et skærebræt i 15 minutter inden den skæres ud.'),
   (11626, 'Krabbeklør med dilddressing', 'https://www.valdemarsro.dk/krabbekloer/', 'https://www.valdemarsro.dk/wp-content/2017/06/krabbekloer-1.jpg', '45', '4 servings', 'Krabbeklør
 Kog en stor gryde med vand op til kogepunktet, tilsæt salt og citronbåde, samt krabbeklør.
-Sæt låg på, kog op og lad krabbekløerne simrekoge i 20 minutter. Sluk for varmen og lad krabbekløerne hvile i yderligere 10 minutter – så er de klar til at blive fisket op og serveret.
+Sæt låg på, kog op og lad krabbekløerne simrekoge i 20 minutter. Sluk for varmen og lad krabbekløerne hvile i yderligere 10 minutter - så er de klar til at blive fisket op og serveret.
 Flæk skallen med en hammer, i mangel af bedre redskab, og pil det lækre krabbekød ud med lange tynde gafler.
 Dild dressing
 Rør creme fraiche, dild, salt og peber sammen i en skål og smag til.'),
   (11629, 'Spaghetti Vongole', 'https://www.valdemarsro.dk/spaghetti-vongole/', 'https://www.valdemarsro.dk/wp-content/2017/05/pasta-vongole-1.jpg', '30', '4 servings', 'Rens og børst muslingeskallerne under rindende vand. Kasser de muslinger der er knækkede, eller som ikke lukker sig, når de bankes let mod køkkenbordet.
 Kog pasta al dente.
-Sauter imens hvidløg og chili i en sauterpande med olivenolie i 1-2 minutter ved middelvarme. Tilsæt muslinger og hvidvin, læg låg på og lad retten simre i 5 minutter.
+Sauter imens hvidløg og chili i en sauterpande med olivenolie i 1-2 minutter ved middelvarme. Tilsæt muslinger og hvidvin, læg låg på og lad retten simre i 5 minutter.
 Kom spaghetti i sauterpanden til muslingerne. Tilsæt smør, finthakket persille og revet citronskal, samt saften fra halvdelen af citronen. Vend retten godt sammen og smag til med salt og peber.
 Server straks, gerne med godt brød, en god salat og et dejligt glas hvidvin. Nip muslingerne ud af skallerne og kasser de muslinger der ikke har åbnet sig under tilberedningen.'),
   (11632, 'Kyllinge Korma', 'https://www.valdemarsro.dk/kyllinge-korma/', 'https://www.valdemarsro.dk/wp-content/2017/08/kylling-korma-1.jpg', '720', '4 servings', 'Korma marinade
@@ -8504,24 +8427,24 @@ Rør æggesnapsen sammen med kærnemælk og ymer. Smag til med citronsaft og fin
 Sæt låg på og lad det koge op, rør godt rundt igen og lad det simre i 10-12 minutter, til pastaen er perfekt kogt.
 Server med finthakket basilikum.'),
   (11642, 'Lammeculotte', 'https://www.valdemarsro.dk/lammeculotte/', 'https://www.valdemarsro.dk/wp-content/2017/04/lammeculotte.jpg', '45', '4 servings', 'Kom salt, krydderurter, citronskal, hvidløg og peber i en morter og stød det godt sammen til en ensartet duftende krydderiblanding.
-Skær ridser i fedtmarmoreringen på culottestegen, først på langs og dernæst på tværs, så det danner rudeformet tern – og rids kun lige akkurat ned til før kniven ridser kødet, det må endelig ikke skæres i.
+Skær ridser i fedtmarmoreringen på culottestegen, først på langs og dernæst på tværs, så det danner rudeformet tern - og rids kun lige akkurat ned til før kniven ridser kødet, det må endelig ikke skæres i.
 Gnid krydderiblandinge godt rundt på hele stegen og kom dernæst stegen på en varm grill indirekte varme eller i ovnen ved 175 grader varmluft.
 Intervalsteges efter følgende metode: 
 Skæres i tynde skiver inden servering.'),
   (11645, 'Nougat', 'https://www.valdemarsro.dk/nougat/', 'https://www.valdemarsro.dk/wp-content/2017/11/nougat.jpg', '45', '1 serving', 'Rist hasselnøddekernerne i ovnen ved 150 grader varmluft i ca. 10-15 minutter, til hinderne begynder at sprække. Kom hasselnødderne i et rent viskestykke og gnid hinderne af i klædet.
 Kom hasselnødderne i en foodprocessor og kør længe til det bliver som en blød hasselnøddecreme.
-Smelt chokoladen i et vandbad ved lav varme og kom flormelis og chokolade i foodprocessoren til hasselnøddecremen.  Kør til massen er helt ensartet og lækker.
+Smelt chokoladen i et vandbad ved lav varme og kom flormelis og chokolade i foodprocessoren til hasselnøddecremen.  Kør til massen er helt ensartet og lækker.
 Kom bagepapir i en lille form. Kom nougaten i formen og lad den sætte sig til næste dag.'),
   (11648, 'Bao med marineret nakkekotelet', 'https://www.valdemarsro.dk/bao-opskrift/', 'https://www.valdemarsro.dk/wp-content/2017/05/bao.jpg', '240', '4 servings', 'Marinade til nakkekoteletter
 Bland marinaden og vend nakkekoteletterne i marinaden. Lad kødet marinere i minimum 2 timer og gerne op til et døgn.
-Dampede Bao brød
-Rør gær ud i vandet og kom sukker, smeltet smør, salt og halvdelen af hvedemel i. Rør det godt igennem til dejen er helt glat, tilføj mere mel lidt efter lidt. Når dejen er glat og smidig sættes den til hævning på køl natten over eller i 2 timer på køkkenbordet.
+Dampede Bao brød
+Rør gær ud i vandet og kom sukker, smeltet smør, salt og halvdelen af hvedemel i. Rør det godt igennem til dejen er helt glat, tilføj mere mel lidt efter lidt. Når dejen er glat og smidig sættes den til hævning på køl natten over eller i 2 timer på køkkenbordet.
 Del dejen i otte lige store stykker og rul dem ud til runde flade boller. Pensl med olie på den ene side og fold dem halvt over, så den olierede halvdel er i midten. Lad bollerne hæve i 30 minutter.
-Kom en asiatisk dampkoger over en gryde med kogende vand. Kom et stykke bagepapir i bunden, som prikkes godt igennem, så der kommer mange huller i – sæt et par boller på og damp dem i 20-25 minutter.
+Kom en asiatisk dampkoger over en gryde med kogende vand. Kom et stykke bagepapir i bunden, som prikkes godt igennem, så der kommer mange huller i - sæt et par boller på og damp dem i 20-25 minutter.
 Hvis du ikke har en dampkoger, så brug en sigte over en gryde med kogende vand i, kom bagepapir i (prik mange huller i bagepapiret) og sæt låg på.
 Tilberedning af kød og samling af bao
 Lynsteg det marinerede kød på en varm pande, til det er mørt og gennemstegt.
-Saml bao bollerne med kød, grøntsager, koriander, sesam og chiliflager – dryp chiliolie eller sriracha sauce over inden servering'),
+Saml bao bollerne med kød, grøntsager, koriander, sesam og chiliflager - dryp chiliolie eller sriracha sauce over inden servering'),
   (11651, 'Moussaka', 'https://www.valdemarsro.dk/moussaka/', 'https://www.valdemarsro.dk/wp-content/2017/04/moussaka-1.jpg', '120', '4 servings', 'Kødsauce
 Sauter løg, hvidløg i en gryde med olivenolie ved middelvarme, til løgene er bløde. Tilsæt kødet og brun det ved høj varme under omrøring.
 Skru ned for varmen og tilsæt hakkede tomater, tomatpuré, hakkede soltørrede tomater, alle krydderier, rødvin, salt og peber.
@@ -8548,7 +8471,7 @@ Kom alle ingredienserne til ramsløgspesto i en minihakker eller foodprocessor o
 Dejen
 Lun mælken til den er omkring 27 grader varm. Rør gær ud i en skål med mælk. Tilsæt yoghurt, olie, honning, fuldkornshvedemel, salt og æg. Rør det godt rundt og tilsæt derefter hvedemel lidt efter lidt. Ælt dejen til den er smidig og nem at arbejde med.
 Kom dejen i en ren skål og lad den hæve på køkkenbordet med et klæde over i cirka 2 timer.
-Rul dejen ud til en stor firkant i cirka 1 cm tykkelse. Smør dejen med ramsløgspesto og fold den ene halvdel over den anden. Skær strimler ud i 1-1 ½ cm bredde og sno dem til snurrer.
+Rul dejen ud til en stor firkant i cirka 1 cm tykkelse. Smør dejen med ramsløgspesto og fold den ene halvdel over den anden. Skær strimler ud i 1-1 1/2 cm bredde og sno dem til snurrer.
 Læg snurrerne på en bageplade med bagepapir og lad dem efterhæve i 30 minutter.
 Pensl med et sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft i cirka 20 minutter til de er gyldne og gennembagte. Lad dem køle lidt af på en rist inden servering.'),
   (11663, 'Chokolade Granola', 'https://www.valdemarsro.dk/chokolade-granola/', 'https://www.valdemarsro.dk/wp-content/2017/04/chokoladegranola-opskrift.jpg', '45', '12 servings', 'Bland alle de tørre ingredienser sammen på en bageplade med bagepapir. og hæld honning over. Bag i en forvarmet ovn ved 150 grader varmluft i cirka 30-45 minutter til det er gyldent og dufter dejligt. Rør et par gange undervejs.
@@ -8557,14 +8480,14 @@ Lad det køle helt af på bagepladen og kom derefter i et lufttæt glas med låg
   (11666, 'Ramsløgspesto', 'https://www.valdemarsro.dk/ramsloegspesto/', 'https://www.valdemarsro.dk/wp-content/2017/04/ramsloegspesto_opskrift.jpg', '5', '1 serving', 'Kom det hele i en blenderskål og blend godt med en stavblender.
 Smag til med salt og peber + evt mere olie.
 Opskriften giver ca 1 dl'),
-  (11670, 'Lammekølle på grill', 'https://www.valdemarsro.dk/lammekoelle/', 'https://www.valdemarsro.dk/wp-content/2017/04/lammekoelle-grill.jpg', '300', '6 servings', 'Hvis der er et godt fedtlag på lammekøllen, så skal denne ridses i tern på kryds og tværs. Brug en skarp kniv og pas på med ikke at skære ned i kødet – det er kun fedtmarmoreringen der skal ridses.
+  (11670, 'Lammekølle på grill', 'https://www.valdemarsro.dk/lammekoelle/', 'https://www.valdemarsro.dk/wp-content/2017/04/lammekoelle-grill.jpg', '300', '6 servings', 'Hvis der er et godt fedtlag på lammekøllen, så skal denne ridses i tern på kryds og tværs. Brug en skarp kniv og pas på med ikke at skære ned i kødet - det er kun fedtmarmoreringen der skal ridses.
 Dup lammekøllen tør med køkkenrullen og lav marinaden
 Marinade / rub
-Kom alle ingredienserne i en morter og stød til det er en duftende grøn krydderblanding – og man ikke længere kan skelne rosmarinnåle eller salvieblade i blandingen. Gnid blandingen godt ind overalt på lammekøllen.
+Kom alle ingredienserne i en morter og stød til det er en duftende grøn krydderblanding - og man ikke længere kan skelne rosmarinnåle eller salvieblade i blandingen. Gnid blandingen godt ind overalt på lammekøllen.
 Lad lammekøllen trække med marinade på i mindst 2 timer og gerne op til et døgns tid.
 Tilberedning
 Fordel kullene i grillen i siderne, så lammekøllen grilles ved indirekte varme med låg på kuglegrillen.
-Læg lammekøllen på grillen og grill den i ca. 1 – 1 1/2 time – brug meget gerne et stegetermometer, hvor kernetemperaturen af lammekøllen skal være på 61-63 grader.
+Læg lammekøllen på grillen og grill den i ca. 1 - 1 1/2 time - brug meget gerne et stegetermometer, hvor kernetemperaturen af lammekøllen skal være på 61-63 grader.
 Tag lammekøllen af grillen og lad den hvile i 20-25 minutter, inden den skæres ud i tynde skiver.'),
   (11673, 'Rejecocktail', 'https://www.valdemarsro.dk/rejecocktail/', 'https://www.valdemarsro.dk/wp-content/2017/04/rejecocktail.jpg', '30', '4 servings', 'Thousand Island dressing
 Rør cremefraiche, mayo, tomatpure, ketchup, fintrevet hvidløg og sød paprika godt sammen i en skål. Smag til med sukker, worcestershiresauce, tomatpure, citronsaft, salt og peber til smagen er perfekt.
@@ -8587,30 +8510,30 @@ Bag bollerne i en forvarmet ovn ved 175 grader varmluft i 16-18 minutter. Lad de
   (11683, 'Biksemad med spejlæg og bearnaise', 'https://www.valdemarsro.dk/biksemad/', 'https://www.valdemarsro.dk/wp-content/2017/03/biksemad.jpg', '60', '4 servings', 'Syltede rødløg
 Kom eddike og sukker i en skål og rør til sukkeret er opløst. Vend løgringene deri og lad det trække i mindst 30 minutter.
 Biksemad
-Sauter løgene på en pande med olivenolie, til de er bløde. Kom kartoflerne på panden, sammen med halvdelen af smøret og rist kartoffelternene, til de har en sprød stegeflade – vend dem jævnligt. Smag til med salt, peber og worchestershiresauce, når de er færdige.
+Sauter løgene på en pande med olivenolie, til de er bløde. Kom kartoflerne på panden, sammen med halvdelen af smøret og rist kartoffelternene, til de har en sprød stegeflade - vend dem jævnligt. Smag til med salt, peber og worchestershiresauce, når de er færdige.
 På en anden pande lynsteges oksekødet i lidt smør og krydres med salt og peber. Oksekødet må gerne have en rosa midte ved servering. Sluk for panderne og vend oksekød sammen med kartoflerne.
-Steg hurtigt fire spejlæg på panden. Når æggene er færdige, anrettes fire tallerkener med biksemad, spejlæg, en skefuld bearnaise, samt syltede rødløg + syltede rødbeder
-– vær gavmild med et grønt drys persille og lidt friskkværnet peber og så er der ellers serveret …'),
+Steg hurtigt fire spejlæg på panden. Når æggene er færdige, anrettes fire tallerkener med biksemad, spejlæg, en skefuld bearnaise, samt syltede rødløg + syltede rødbeder
+- vær gavmild med et grønt drys persille og lidt friskkværnet peber og så er der ellers serveret ...'),
   (11686, 'One Pot Pasta med chorizo', 'https://www.valdemarsro.dk/one-pot-pasta/', 'https://www.valdemarsro.dk/wp-content/2017/03/one-pot-pasta-4.jpg', '25', '4 servings', 'Helt enkelt som navnet antyder, så kom alle ingredienserne i en stor gryde på én gang.
 Kog retten op, rør godt rundt i gryden og skru ned for varmen.
-Lad det simrekoge under låg i 10-12 minutter, til spaghettien er perfekt kogt – al dente med lidt bid i.
+Lad det simrekoge under låg i 10-12 minutter, til spaghettien er perfekt kogt - al dente med lidt bid i.
 Server med revet parmesan og basilikum.'),
   (11691, 'Grillet aubergine med mynte og tahindressing', 'https://www.valdemarsro.dk/aubergine-med-tahindressing/', 'https://www.valdemarsro.dk/wp-content/2017/03/aubergine-i-ovn.jpg', '30', '4 servings', 'Grillet aubergine
-Pensl auberginestykkerne med rigeligt olivenolie – de suger en del til sig, og det bliver de blot ekstra lækre af.
-Bag auberginerne på en bradepande med bagepapir ved 225 grader i en forvarmet ovn ved varmluft i 20 minutter – eller smæk dem på grillen, til de er gyldne.
+Pensl auberginestykkerne med rigeligt olivenolie - de suger en del til sig, og det bliver de blot ekstra lækre af.
+Bag auberginerne på en bradepande med bagepapir ved 225 grader i en forvarmet ovn ved varmluft i 20 minutter - eller smæk dem på grillen, til de er gyldne.
 Tahindressing
-Bland tahin, citronsaft, olivenolie og spidskommen i en skål. Rør det godt sammen og tilføj vand en smule af gangen til konsistensen er perfekt som dressing. Smag til med salt og peber
+Bland tahin, citronsaft, olivenolie og spidskommen i en skål. Rør det godt sammen og tilføj vand en smule af gangen til konsistensen er perfekt som dressing. Smag til med salt og peber
 Anret
 Dryp tahindressing over og drys med graatæblekerner, pistacie og krydderurter.'),
   (11695, 'Kikærtesalat', 'https://www.valdemarsro.dk/kikaertesalat/', 'https://www.valdemarsro.dk/wp-content/2017/02/kikaerte-salat-opskrift.jpg', '40', '4 servings', 'Kom spidskommen, koriander, kanel og paprika på en tør pande og rist krydderierne ved middelvarme i et par minutter.
 Skru ned for varmen og tilføj olivenolie, gulerødder, hvidløg og rødløg, vend det et par gange og skru igen lidt op for varmen. Rist gulerødder og løg under omrøring i ca. 5 minutter.
 Kom kikærter på panden. Varm dem godt igennem og smag til med friskpresset citronsaft, salt og peber.
 Server på en bund af frisk grøn salat og smuldr lidt feta over sammen med et drys mandler, finthakket koriander og mynte.'),
-  (11699, 'Råkost med rødkål og gulerødder', 'https://www.valdemarsro.dk/raakost-med-roedkaal/', 'https://www.valdemarsro.dk/wp-content/2017/02/raakost-roedkaal-app.jpg', '15', '4 servings', 'Riv rødkål, gulerødder, æble og løg groft – det gøres bedst på en køkkenmaskine eller foodprocessor.
+  (11699, 'Råkost med rødkål og gulerødder', 'https://www.valdemarsro.dk/raakost-med-roedkaal/', 'https://www.valdemarsro.dk/wp-content/2017/02/raakost-roedkaal-app.jpg', '15', '4 servings', 'Riv rødkål, gulerødder, æble og løg groft - det gøres bedst på en køkkenmaskine eller foodprocessor.
 Bland råkosten sammen i en skål eller på et fad.
 Rør olivenolie, sennep, honning, citronsaft, salt, peber og tranebær sammen i en skål og vend det i råkostsalaten.
 Smag til med salt og peber og drys med hakkede nødder og/eller kerner.'),
-  (11702, 'Bagte gulerødder i salat med rucola', 'https://www.valdemarsro.dk/bagte-guleroedder/', 'https://www.valdemarsro.dk/wp-content/2017/02/bagte-guleroedder-1.jpg', '15', '4 servings', 'Tilberedning i  ovnen
+  (11702, 'Bagte gulerødder i salat med rucola', 'https://www.valdemarsro.dk/bagte-guleroedder/', 'https://www.valdemarsro.dk/wp-content/2017/02/bagte-guleroedder-1.jpg', '15', '4 servings', 'Tilberedning i  ovnen
 Vend gulerødderne med olie, teriyakisauce, et lille dryp honning og kom et par små klatter smør over. Bag gulerødderne i ovnen i 10 minutter ved 175- 200 grader varmluft.
 Tilberedning på panden
 Kom gulerødder, olie, smør, teriakysauce på en pande og rist dem ved middel til høj varme i 5 minutter, mens gulerødderne vendes hyppigt.
@@ -8618,12 +8541,12 @@ Dryp til sidst et par dråber honning over.
 Anretning
 Rist græskarkernerne sprøde på en tør pande. Vend rucola med citronsaft, salt og peber og fordel den på et fad. Anret gulerødderne på fadet og drys med nødder'),
   (11705, 'Oksehalesuppe', 'https://www.valdemarsro.dk/oksehalesuppe/', 'https://www.valdemarsro.dk/wp-content/2017/02/oksehalesuppe.jpg', '300', '4 servings', 'Del oksehalerne i ledene, hvis de ikke allerede er delt. Skær synligt fedt af oksehalerne. Dup oksehalerne tørre med et stykke køkkenrulle. Brun oksehalerne godt af på alle sider i en stor gryde i olie.
-Kom gulerødder, porre, løg, hvidløg, bladselleri og tomatpure i gryden og sauter i et minuts tid. Tilsæt paprika, timian, persille, laurbærblade,  rødvin, koldt vand til det dækker kød og grønt, samt salt og friskkværnet peber. Kog langsomt op til kogepunktet.
+Kom gulerødder, porre, løg, hvidløg, bladselleri og tomatpure i gryden og sauter i et minuts tid. Tilsæt paprika, timian, persille, laurbærblade,  rødvin, koldt vand til det dækker kød og grønt, samt salt og friskkværnet peber. Kog langsomt op til kogepunktet.
 Fjern evt skum på overfladen, sæt låg på og lad retten simre i ved smag varme 3-4 timer. Skum suppen et par gange undervejs.
 Tag de møre oksehaler op og sæt til side på en tallerken.
 Sigt suppen 2 gange gennem en fintmasket sigte og kasser grøntsagerne og urterne. Kom den sigtede klare suppe tilbage i en ren gryde og hold den varm. Kom gulerødder og porre i suppen og lad det simre i 10 minutter.
 Pil det møre kød fra oksehalerne og riv det fra hinanden med to gafler.
-Smag suppen godt til med salt, peber, æblecidereddike og sukker –  og server suppen med gulerødder, porre og kødet fra oksehalerne.'),
+Smag suppen godt til med salt, peber, æblecidereddike og sukker -  og server suppen med gulerødder, porre og kødet fra oksehalerne.'),
   (11708, 'Cannelloni med spinat og ricotta i tomatsauce', 'https://www.valdemarsro.dk/cannelloni-med-spinat/', 'https://www.valdemarsro.dk/wp-content/2017/02/canneloni-vegetar.jpg', '45', '4 servings', 'Tomatsauce
 Kom løg og hvidløg i en gryde med olie og sauter dem, til løgene er bløde. Kom de hakkede tomater og timian i og lad saucen simre i 15-30 minutter, mens resten af retten tilberedes.
 Smag til med lidt æblecidereddike, sukker samt salt og peber.
@@ -8637,14 +8560,14 @@ Kom resten af tomatsaucen over og fordel mozzarella og basilikum over til sidst.
   (11711, 'Lammekoteletter med rosmarin og myntemarinade', 'https://www.valdemarsro.dk/lammekoteletter/', 'https://www.valdemarsro.dk/wp-content/2017/01/lammekoteletter-2.jpg', '120', '4 servings', 'Kom ingredienserne til marinaden i en morter og kværn det godt sammen, så al duft, smag og gode sager bliver godt og grundigt mikset til en skøn duftende marinade.
 Dup lammekoteletterne tørre med køkkenrulle og fordel marinaden godt på kødet.
 Kom koteletterne i en skål med låg eller en pose og lad det trække i minimum 2 eller i op til 12 timer på køl.
-Steg lammekoteletterne på grillen i  cirka 4-5 minutter på hver side.'),
+Steg lammekoteletterne på grillen i  cirka 4-5 minutter på hver side.'),
   (11714, 'Wraps med ristede kikærter og blomkål', 'https://www.valdemarsro.dk/wraps-med-kikaerter-og-blomkaal/', 'https://www.valdemarsro.dk/wp-content/2017/01/wraps-blomkaal-kikaerter.jpg', '45', '4 servings', 'Fordel kikærter, blomkålsbuketter og løg på en bageplade med bagepapir.
 Kom hvidløg, citronsaft, citronskal, olie, salt og peber i en skål og vend det godt sammen. Vend blandingen med blomkål, kikærter og løg på bradepanden. Sæt bradepanden i en forvarmet ovn ved 175 grader varmluft og bag i 20-25 minutter, til blomkålen er gylden, saftig og mør. Drys sumak, kapers og finthakket persille over.
 Lun tortillas i ovnen eller på en pande, til de er bløde og fyld de lune wraps med saftigt krydret blomkål og kikærter, top med rucola, tomat, agurk og et drys ristede græskarkerner.'),
   (11717, 'Salat med grillet aubergine og tomat', 'https://www.valdemarsro.dk/tomatsalat-aubergine/', 'https://www.valdemarsro.dk/wp-content/2017/07/tomat-grillet-aubergine.jpg', '15', '4 servings', 'Pensl aubergine- og squashskiver med olivenolie. Gril dem på begge sider på grillen eller på en grillpande.
 Anret salaten med skiftevis tomatskiver, aubergineskiver og squashskiver. Riv mozarellaen i mindre stykker, som fordeles over salaten. Skær basilikumbladene i strimler og drys tilsidst med lidt salt, peber og balsamico.'),
   (11720, 'Thai Fiskefrikadeller', 'https://www.valdemarsro.dk/thai-fiskefrikadeller-fish-cake/', 'https://www.valdemarsro.dk/wp-content/2017/01/fishcakes_asian.jpg', '30', '4 servings', 'Dip
-Rør alle ingredienserne sammen og lad det trække i en skål på køkkenbordet – rør et par gange for at opløse sukkeret.
+Rør alle ingredienserne sammen og lad det trække i en skål på køkkenbordet - rør et par gange for at opløse sukkeret.
 Asiatiske fiskefrikadeller
 Kom alle ingredienserne, på nær forårsløg og bønner,
 I blenderskålen til en stavblender eller i en foodprocessor. Kør, til det har en ensartet konsistens, men ikke er helt fint. Rør med en ske de finthakkede bønner og forårsløg i.
@@ -8660,7 +8583,7 @@ Kom alle ingredienserne til kødbollerne i en stor skål og pisk det sammen med 
 Kom suppen i en ren gryde sammen med kødboller, gulerødder og porrer. Varm det op til kogepunktet, og suppen er nu klar til servering.'),
   (11729, 'Klassisk andesteg med svesker og æble', 'https://www.valdemarsro.dk/andesteg-med-svesker/', 'https://www.valdemarsro.dk/wp-content/2016/12/juleand-2.jpg', '360', '1 serving', 'Fremgangsmåde
 Tag anden ud af køleskabet, 1 time før den skal tilberedes. Rengør og soigner anden og dup den ind- og udvendigt med køkkenrulle. Bland salt og friskkværnet peber i en skål og gnid anden indvendigt og udvendigt med salt og peber.
-Fyld anden med æbler, svesker og rødløg. Pres ikke fyldet for meget og gem hellere lidt til bradepanden. Luk åbningen med et par kødnåle. Læg anden i en dyb bradepande med brystet vendt ned. Sæt i en kold ovn ved 125 grader almindelig ovn (ikke varmluft) og steg anden i en time.
+Fyld anden med æbler, svesker og rødløg. Pres ikke fyldet for meget og gem hellere lidt til bradepanden. Luk åbningen med et par kødnåle. Læg anden i en dyb bradepande med brystet vendt ned. Sæt i en kold ovn ved 125 grader almindelig ovn (ikke varmluft) og steg anden i en time.
 Læg derefter anden på en rist med brystet opad. Læg indmad fra anden, samt gulerødder, bladselleri, rødløg, resten af æble/sveskeblandingen, laurbærblade og timian i bradepanden. Fyld bradepanden halvt op med vand og lad den stege videre i 2 timer stadig ved 125 grader. Hæld væde fra bradepanden over anden hver halve time.
 Hæv herefter temperaturen til 150 grader og fortsæt stegningen i yderligere 1 time. Hæld fortsat væde fra bradepanden over anden hver halve time. Sæt evt. et stegetermometer i anden og hold øje med kernetemperaturen. Efter 1 time eller når kernetemperaturen på anden er 65 grader, hæves temperaturen til 225 grader. Lad anden stege videre i ca. 20 minutter, eller til kernetemperaturen er på ca. 74-75 grader.
 Tjek med en kødnål, om anden er færdigstegt. Saften, der løber ud skal være klar.
@@ -8669,17 +8592,17 @@ Fjern fedt fra andefonden og tilbered julesaucen.
 3 kg and passer til 4-6 personer'),
   (11732, 'Appelsinsauce og honningmandler', 'https://www.valdemarsro.dk/appelsinsauce/', 'https://www.valdemarsro.dk/wp-content/2012/11/risalamande-appelsin.jpg', '30', '6 servings', 'Appelsinsauce
 Flæk vaniljestangen og skrab vaniljekornene ud i sukker på et skærebræt. Fordel vaniljekornene godt i sukkeret, så de skilles fint fra hinanden.
-Kom vanilje, sukker og den hele tomme vaniljestang i en gryde sammen med appelsinsaft. Kog saften op og lad det koge i 15 minutter uden låg, så det koger en smule ind og bliver lettere sirupsagtig. Kom Grand Manier i appelsinsaucen og kog i yderligere 5 minutter.
+Kom vanilje, sukker og den hele tomme vaniljestang i en gryde sammen med appelsinsaft. Kog saften op og lad det koge i 15 minutter uden låg, så det koger en smule ind og bliver lettere sirupsagtig. Kom Grand Manier i appelsinsaucen og kog i yderligere 5 minutter.
 Sigt appelsinsaucen gennem en finmasket sigte og hæld fx på en rengjort skoldet glasflaske, som kan bruges til servering.
 Honningkarameliserede mandler
 Kom honning på en sliplet pande og varm op til det smelter og bobler let.
-Kom mandlerne på panden og rør i dem indimellem til de har den perfekte bruge sprøde overflade. Pas på mandlerne ikke brænder på – og pas også godt på ikke at brænde dig på dem!
+Kom mandlerne på panden og rør i dem indimellem til de har den perfekte bruge sprøde overflade. Pas på mandlerne ikke brænder på - og pas også godt på ikke at brænde dig på dem!
 Hæld dem op på et stykke bagepapir, og lad dem køle helt af, inden de hakkes groft.'),
   (11735, 'Ostebord med charcuteri og tilbehør', 'https://www.valdemarsro.dk/ostebord/', 'https://www.valdemarsro.dk/wp-content/2016/12/ostebord.jpg', '30', '4 servings', 'Fremgangsmåde til tilbehøret
 Løgkompot
 Smelt smør på en pande ved middelvarme og kom rødløg på panden. Lad løgene stå og sautere og karamelisere en anelse ved middelvarme i 10 minutter, uden at røre i dem.
 Rør godt rundt og tilsæt æblecidereddike, honning, timian og muscovadosukker. Lad det simre i 5 minutter og smag til med salt og peber.
-Opbevares på et skoldet glas og bruges som tilbehør til ostebordet – men også i burgere, til en rullepølsemad mv.
+Opbevares på et skoldet glas og bruges som tilbehør til ostebordet - men også i burgere, til en rullepølsemad mv.
 (kan holde sig i 4-5 dage i køleskab)
 Lynsyltede pære i ingefær
 Kom pæretern, ingefær og sukker i en gryde.
@@ -8690,12 +8613,12 @@ Syltede nødder
 Kom farin, appelsin- og citronsaft, vaniljestang og vand i en gryde. Kog siruplagen op til det simre og lad det simre svagt i cirka 30 minutter uden låg ved middel varme.
 Kom nødderne i lagen og lad dem simre med i 10 minutter. Kom de syltede nødder på rengjorte og skoldede glas.
 (kan holde sig i cirka 1 måned i køleskab)'),
-  (11739, 'Foccacia med oliven og rosmarin', 'https://www.valdemarsro.dk/foccacia/', 'https://www.valdemarsro.dk/wp-content/2016/11/foccacia-1.jpg', '120', '6 servings', 'Rør gær ud i en skål med vand. Tilsæt olie, salt og gra­hamsmel og rør det godt sammen. Tilsæt hvedemel lidt efter lidt, og rør det godt igennem til en lind dej. Ælt hvedemel i lidt efter lidt, til dejen er let klistret og blød.
-Kom dejen i en ren skål og lad den hæve 1 time på køk­kenbordet med et rent klæde over.
+  (11739, 'Foccacia med oliven og rosmarin', 'https://www.valdemarsro.dk/foccacia/', 'https://www.valdemarsro.dk/wp-content/2016/11/foccacia-1.jpg', '120', '6 servings', 'Rør gær ud i en skål med vand. Tilsæt olie, salt og grahamsmel og rør det godt sammen. Tilsæt hvedemel lidt efter lidt, og rør det godt igennem til en lind dej. Ælt hvedemel i lidt efter lidt, til dejen er let klistret og blød.
+Kom dejen i en ren skål og lad den hæve 1 time på køkkenbordet med et rent klæde over.
 Beklæd et ovnfast fad på ca. 25 × 25 cm med bagepapir, tryk dejen ud i formen og lad den hæve i 30 minutter. Pensl dejen med lidt olivenolie og stik derefter dybe huller ned i brødet med fingrene.
 Dryp dejen med olie og drys med rosmarinblade, oliven, hvidløg og salt.
-Bag den i en forvarmet ovn ved 180 grader varmluft i cirka ­20 minutter og pynt med lidt frisk rosmarin inden servering.'),
-  (11742, 'Broccolisuppe', 'https://www.valdemarsro.dk/broccolisuppe/', 'https://www.valdemarsro.dk/wp-content/2016/11/broccolisuppe-2.jpg', '30', '4 servings', 'Sauter løg og hvidløg i en gryde med olie ved middel­ varme, til løgene er bløde. Kom kartoffeltern, timian og grøntsagsbouillon i gryden. Kog op og lad det simre under låg i 15 minutter. Tilsæt broccoli og kog yderligere i 5 minutter.
+Bag den i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter og pynt med lidt frisk rosmarin inden servering.'),
+  (11742, 'Broccolisuppe', 'https://www.valdemarsro.dk/broccolisuppe/', 'https://www.valdemarsro.dk/wp-content/2016/11/broccolisuppe-2.jpg', '30', '4 servings', 'Sauter løg og hvidløg i en gryde med olie ved middel varme, til løgene er bløde. Kom kartoffeltern, timian og grøntsagsbouillon i gryden. Kog op og lad det simre under låg i 15 minutter. Tilsæt broccoli og kog yderligere i 5 minutter.
 Blend suppen grundigt. Tilsæt fløde og smag til med æblecider, salt og peber. Blend suppen igen og server med æbletern og græskarkerner.
 Græskarkerner
 Rist græskarkernerne på en pande med lidt olie og salt, til de begynder at poppe.
@@ -8706,14 +8629,14 @@ Server den varme suppe med de sprøde toppings'),
 Kom farin, citronsaft, appelsin, vaniljestang og vand i en gryde.
 Kog siruplagen op til det simre og lad det simre svagt i cirka 30 minutter uden låg ved middel varme.
 Kom de syltede valnødder i lagen og lad dem simre med i 10 minutter. Kom de syltede valnødder på rengjorte og skoldede glas.'),
-  (11748, 'Grønkålssuppe', 'https://www.valdemarsro.dk/groenkaalssuppe/', 'https://www.valdemarsro.dk/wp-content/2016/11/groenkaalssuppe-1.jpg', '30', '4 servings', 'Sauter løg og hvidløg i en gryde med olie i et par minut­ter ved middelvarme, til løgene er bløde. Tilsæt kartofler og grøntsagsbouillon. Kog op og lad det simre under låg, til kartoflerne er møre.
+  (11748, 'Grønkålssuppe', 'https://www.valdemarsro.dk/groenkaalssuppe/', 'https://www.valdemarsro.dk/wp-content/2016/11/groenkaalssuppe-1.jpg', '30', '4 servings', 'Sauter løg og hvidløg i en gryde med olie i et par minutter ved middelvarme, til løgene er bløde. Tilsæt kartofler og grøntsagsbouillon. Kog op og lad det simre under låg, til kartoflerne er møre.
 Kom grønkål i gryden og lad det koge yderligere i 3 minutter. Tilsæt piskefløde og blend suppen, til den er luftig og cremet. Smag til med salt og peber.
 Topping
 Server med et drys af æble i tern og ristede græskarkerner'),
   (11751, 'Farserede porrer', 'https://www.valdemarsro.dk/farserede-porrer/', 'https://www.valdemarsro.dk/wp-content/2016/10/farserede-porre-opskrift.jpg', '40', '4 servings', 'Start med at lave farsen
 Alle ingredienserne til fars kommes i en stor skål og mikses sammen med en håndmikser i 1-2 minutter. Lad farsen stå på køl indtil porrene er klar.
 Porrer
-Rens porrerne godt og skær den øverste grønne del af, som ikke skal bruges. Skær porrerne over på midten (ikke på langs!)  og skyl dem grundigt under rindende vand. De 4 porrestykker  kommes i en gryde med vand og en smule salt, det bringes til kogepunktet og skal simre blidt i ca 5 minutter. Tag porrerne op og lad vandet stå i gryden – det skal bruges igen om lidt
+Rens porrerne godt og skær den øverste grønne del af, som ikke skal bruges. Skær porrerne over på midten (ikke på langs!)  og skyl dem grundigt under rindende vand. De 4 porrestykker  kommes i en gryde med vand og en smule salt, det bringes til kogepunktet og skal simre blidt i ca 5 minutter. Tag porrerne op og lad vandet stå i gryden - det skal bruges igen om lidt
 Saml de farserede porrer
 Dryp hvert porrestykke fri for vand og drys dem med en smule mel. Del farsen i 4 lige store stykker, som hver formes omkring hver porrestykke. Rul et stykke bagepapir omkring hver porre, så det holder godt sammen på det hele og så den farserede porre er pakket godt ind. Kom et stykke staniol omkring, så der ikke kan komme vand ind og kom nu de 4 pakker ned i gryden med varmt vand. Kog op og lad det simre i ca 7-8 minutter. Hæld vandet fra og pak pakkerne op, når de lige er kølet en smule af.
 Vend de farserede porrer i først et sammenpisket æg og derefter i rasp blandet med salt og peber.
@@ -8729,13 +8652,13 @@ Varm smørret op i en gryde ved middelvarme og sauter løg og hvidløg, til løg
 Smag til med æblecidereddike og lidt sukker, som fremhæver tomatsmagen, samt salt og peber
 Ratatouille
 Tænd ovnen på 175 grader varmluft. Smør et ovnfast fad grundigt med smør og fordel tomatsaucen i bunden af fadet.
-Anret grøntsagerne på skift – enten i en cirkel ved runde fade eller på langs i firkantede fade. Bag i ovnen i 30-40 minutter og drys med basilikum inden servering.'),
+Anret grøntsagerne på skift - enten i en cirkel ved runde fade eller på langs i firkantede fade. Bag i ovnen i 30-40 minutter og drys med basilikum inden servering.'),
   (11763, 'Osso buco med safranrisotto og gremolata', 'https://www.valdemarsro.dk/osso-buco/', 'https://www.valdemarsro.dk/wp-content/2016/10/osso-buco-1.jpg', '180', '6 servings', 'Osso Buco
 Dup kødet tørt med køkkenrulle og vend det i hvedemel, blandet med salt og peber. Varm olie op i en gryde, brun okseskankerne på begge sider, et par stykker ad gangen, og læg dem efterhånden til side på en tallerken.
 Kom nu lidt mere olie i gryden og sauter løg og hvidløg, til de er bløde. Tilsæt gulerødder og bladselleri og lad dem sautere med i nogle minutter. Tilsæt hakkede tomater, tomatpuré, hvidvin og laurbærblade. Fordel kødstykkerne i gryden, hæld bouillon over og læg låg på.
-Lad det simre i de næste 3 timer – efter ca. 2 1/2 time er det tid til at lave risotto og gremolata.
+Lad det simre i de næste 3 timer - efter ca. 2 1/2 time er det tid til at lave risotto og gremolata.
 Safranrisotto
-Smelt smør i en gryde og sauter løg og hvidløg heri, til løgene er bløde. Rør risottoris og safran i blandingen og hæld hvidvin over. Rør rundt, til risene har suget alt væden, og tilføj derefter 1 dl grøntsagsbouillon ad gangen, til risene er møre.
+Smelt smør i en gryde og sauter løg og hvidløg heri, til løgene er bløde. Rør risottoris og safran i blandingen og hæld hvidvin over. Rør rundt, til risene har suget alt væden, og tilføj derefter 1 dl grøntsagsbouillon ad gangen, til risene er møre.
 Rør til sidst friskrevet parmesan i og smag til med revet citronskal, salt og peber.
 Gremolata
 Bland persille og hvidløg, kom det i en skål og bland det med revet citronskal.
@@ -8743,11 +8666,11 @@ Server ossobuco med risotto og et drys gremolata.'),
   (11766, 'Lasagnesuppe', 'https://www.valdemarsro.dk/lasagnesuppe/', 'https://www.valdemarsro.dk/wp-content/2016/10/lasagnesuppe-1.jpg', '45', '4 servings', 'Varm olie op i en gryde og sauter løg og hvidløg heri, til løgene er bløde.
 Skru op for varmen og kom kødet i gryden. Brun kødet godt under omrøring og kom gulerødder, bladselleri og squash i sammen med hakkede tomater, tomatpuré og grøntsagsbouillon.
 Lad det koge i 15-30 minutter. Kom lasagneplader i, ved at stikke dem ned i saucen med lidt mellemrum mellem pladerne, så de ikke klistrer sammen. Lad lasagnepladerne koge med i 10 minutter, eller til de er perfekt møre.
-Smag til med salt og peber og juster konsistensen med ekstra grøntsagsbouillon, hvis den ønskes mere ’suppet’.
+Smag til med salt og peber og juster konsistensen med ekstra grøntsagsbouillon, hvis den ønskes mere ''suppet''.
 Anret i dybe tallerkener med lidt frisk mozzarella rørt i lasagnesuppen, lidt friskrevet parmesan over og et drys friske timianblade.'),
   (11770, 'Rösti - lavet i æbleskivepanden', 'https://www.valdemarsro.dk/roesti/', 'https://www.valdemarsro.dk/wp-content/2016/10/Roesti-kartofler.jpg', '15', '7 servings', 'Bland kartofler og de sammenpiskede æg i en skål, sammen med det pressede fed hvidløg, salt og peber.
-Steg rösti i smør på en god æbleskivepande af  støbejern – eller på en pande, men så får de ikke samme runde form'),
-  (11773, 'Græsk farsbrød', 'https://www.valdemarsro.dk/graesk-farsbroed/', 'https://www.valdemarsro.dk/wp-content/2016/10/graesk-farsbroed.jpg', '60', '4 servings', 'Kom alle ingredienserne til farsen – med undtagelse af oliven og feta – i en stor skål og pisk det sammen med en håndmikser i 1-2 minutter. Vend til sidst smuldret feta og de halve oliven i.
+Steg rösti i smør på en god æbleskivepande af  støbejern - eller på en pande, men så får de ikke samme runde form'),
+  (11773, 'Græsk farsbrød', 'https://www.valdemarsro.dk/graesk-farsbroed/', 'https://www.valdemarsro.dk/wp-content/2016/10/graesk-farsbroed.jpg', '60', '4 servings', 'Kom alle ingredienserne til farsen - med undtagelse af oliven og feta - i en stor skål og pisk det sammen med en håndmikser i 1-2 minutter. Vend til sidst smuldret feta og de halve oliven i.
 Smør et ovnfast fad med smør. Form farsen til et aflangt farsbrød og læg det midt på fadet. Vend kartoflerne med olie og salt og fordel dem i hver side. Brug gerne kartoflerne til at holde lidt sammen på farsbrødet.
 Bag farsbrødet i en forvarmet ovn ved 180 grader varmluft i cirka 45 minutter. Vend eventuelt kartoflerne et par gange undervejs.'),
   (11776, 'Chili oksekødsgryde', 'https://www.valdemarsro.dk/chilioksekodsgryde/', 'https://www.valdemarsro.dk/wp-content/2007/10/chili-oksekoed-gryde.jpg', '180', '4 servings', 'Sauter løg og hvidløg i en stor gryde med olie og smør til løgene er bløde.
@@ -8772,35 +8695,35 @@ Lad dejen hæve i køleskabet minimum 6 timer, gerne op mod 12-18 timer.
 Pizzasauce
 Sauter løg og hvidløg i olie og tilføj de andre ingredienser, så lad saucen simre i 30 minutter.
 Pizzaen
-Varm ovnen op – gerne med en stenplade – til 250 grader.
+Varm ovnen op - gerne med en stenplade - til 250 grader.
 Del pizzadejen til antal personer og form pizzaerne.
 Smør med tomatsauce og fordel skiver af frisk mozzarella på, hvorefter pizzaen bages i 10-12 minutter eller til bunden er sprød.
 Pynt med friske basilikumblade.'),
   (11793, 'English Breakfast Pizza', 'https://www.valdemarsro.dk/english-breakfast-pizza/', 'https://www.valdemarsro.dk/wp-content/2011/05/english-breakfast-pizza-1.jpg', '120', '4 servings', 'Pizzadej
-Opløs gæren i en skål med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time.
-Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
-Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
+Opløs gæren i en skal med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time.
+Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
+Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
 Lad dejen hæve i ca. 45-60 minutter eller i til koldhævning i køleskabet natten over.
 Pizzasauce
 Blend alle ingredienserne til en ensartet sauce. Brug ca. 1-2 spsk. pr pizza (Pizzasaucen kan fint fryses ned i mindre portioner)
 Topping og bagning
-Drys lidt mel på køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne på bordet og smør dem med tomatsauce. Fordel frisk mozarella, tomater og slå æggene ud på pizzaerne.
+Drys lidt mel pa køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne pa bordet og smør dem med tomatsauce. Fordel frisk mozarella, tomater og slå æggene ud på pizzaerne.
 Drys med ristet bacon og kom pizzaen på grillen i ca 7-10 minutter eller bag pizzaen i ovnen i 12-15 minutter ved 250 grader.
 Mærk om bunden er sprød og drys med persillen, lidt friskkværnet peber og en smule groft salt.'),
   (11796, 'Salade Lyonnaise', 'https://www.valdemarsro.dk/salade-lyonnaise/', 'https://www.valdemarsro.dk/wp-content/2017/05/salade-lyonnaise.jpg', '30', '4 servings', 'Steg baconskiver sprøde på en tør pande.
 Gnid brødskiven med hvidløg og smør den på begge sider med et tyndt lag smør. Steg brødskiven på panden i fedtet fra bacon, til den er sprød på begge sider. Tag af varmen, skær i grove tern og drys med salt og peber.
-Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller et piske­ris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog i ca. 3 minutter, tag for­sigtigt ægget op med en hulske og anret det på taller­kenen. Fortsæt på samme måde med de andre æg.
+Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller et piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten. Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog i ca. 3 minutter, tag forsigtigt ægget op med en hulske og anret det på tallerkenen. Fortsæt på samme måde med de andre æg.
 Anret salat og rucola på tallerkener eller et fad.
 Fordel dressingen over i striber, drys med finthakket bacon, croutoner og anret med de pocherede æg samt et skønt grønt drys af purløg og karse.
 Dressing
 Rør ingredienserne til dressingen sammen og smag til med salt og peber.'),
   (11799, 'Kartoffelpizza', 'https://www.valdemarsro.dk/hvid-pizza-med-kartoffel-og-rosmarin/', 'https://www.valdemarsro.dk/wp-content/2011/06/kartoffelpizza-1.jpg', '120', '2 servings', 'Pizzadej
-Opløs gæren i en skål med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time.
-Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
-Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
+Opløs gæren i en skal med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time.
+Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring. Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
+Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
 Lad dejen hæve i ca. 45-60 minutter eller til koldhævning i køleskabet natten over.
 Topping og bagning
-Drys lidt mel på køkkenbordet.
+Drys lidt mel pa køkkenbordet.
 Form pizzaerne og fordel kartoffelskiverne i et tyndt lag. Fordel mozzarella over og læg et par kviste rosmarin på. Bag pizzaerne en ad gangen i 6-10 minutter på en varm bageplade eller pizzasten ved min. 280 grader.
 Dryp den varme pizza med lidt olivenolie og drys lidt salt og friskkværnet peber på til sidst.'),
   (11802, 'Scrambled eggs', 'https://www.valdemarsro.dk/scrambled-eggs/', 'https://www.valdemarsro.dk/wp-content/2011/07/scrambled-eggs.jpg', '5', '1 serving', 'Kom æg og mælk i en skål og pisk dem let sammen med en gaffel.
@@ -8809,16 +8732,16 @@ Drys med flagesalt, friskkværnet peber og rigelige mængder purløg.'),
   (11805, 'Cremet tomatsuppe', 'https://www.valdemarsro.dk/cremet-tomatsuppe-med-mascarpone/', 'https://www.valdemarsro.dk/wp-content/2011/09/tomatsuppe-cremet-mascarpone.jpg', '30', '4 servings', 'Sauter løg, hvidløg og porre i en gryde med olivenolie, til løgene er bløde. Tilsæt kartofler, gulerødder, hakkede tomater, tomatpuré og bouillon. Læg låg på og lad det simre i 15-20 minutter.
 Blend suppen og tilsæt mascarpone eller piskefløde og smag til med salt og friskkværnet sort peber.
 Det smager dejligt med brød (evt hvidløgsostebrød) og frisk basilikum på toppen'),
-  (11811, 'Vintersalat med rødkål', 'https://www.valdemarsro.dk/vintersalat-med-rodkal-og-aebler/', 'https://www.valdemarsro.dk/wp-content/2011/11/vintersalat_roedkaal.jpg', '10', '4 servings', 'Skyl belugalinserne og kog dem efter anvisning på em­ ballagen. Hæld vandet fra gennem en sigte, skyl linser­ne med iskoldt vand og lad dem dryppe af i sigten.
+  (11811, 'Vintersalat med rødkål', 'https://www.valdemarsro.dk/vintersalat-med-rodkal-og-aebler/', 'https://www.valdemarsro.dk/wp-content/2011/11/vintersalat_roedkaal.jpg', '10', '4 servings', 'Skyl belugalinserne og kog dem efter anvisning på em ballagen. Hæld vandet fra gennem en sigte, skyl linserne med iskoldt vand og lad dem dryppe af i sigten.
 Vend de afkølede belugalinser, rødkål, fennikel, rødløg og halvdelen af æbleternene godt med vinaigrette og anret på et fad.
-Drys resten af æblerne over sammen med lidt fennikel­ frø.
+Drys resten af æblerne over sammen med lidt fennikel frø.
 Vinaigrette
-Kom alle ingredienserne i en skål og rør det godt sam­ men, til vinaigretten er ensartet i konsistensen.'),
+Kom alle ingredienserne i en skål og rør det godt sam men, til vinaigretten er ensartet i konsistensen.'),
   (11814, 'Julesirup', 'https://www.valdemarsro.dk/appelsin-vanilje-og-kanel-julesirup/', 'https://www.valdemarsro.dk/wp-content/2011/11/julesirup-1.jpg', '30', '1 serving', 'Flæk vaniljestangen og skrab kornene ud. Fordel vaniljekornene i sukkeret og kom appelsinsaft, vanilje, sukker og krydderier i gryde eller sauterpande uden låg og kog det op.
 Lad det simrekoge uden låg ved middel varme i 15-20 minutter, rør jævnligt og hold lidt øje med det.
 Hæld gennem en sigte og på et skoldet og rengjort flaske eller glas.'),
   (11817, 'Vegetariske boller i karry', 'https://www.valdemarsro.dk/vegetariske-boller-i-karry/', 'https://www.valdemarsro.dk/wp-content/2025/03/boller-karry-vegetar.jpg', '45', '4 servings', 'Blomkålsdeller med kikærter og feta
-Hak kikærter, blomkål og feta til det er grofthakket i en foodprocessor. Kom i en skål sammen med æg, hvidløg, rasp, salt og peber. Rør til en fast og ensartet fars.  Varm en æbleskive pande op med olie og lidt smør og steg blomkålsdellerne i æbleskivepanden til de er runde og med gyldenbrun stegeskorpe.
+Hak kikærter, blomkål og feta til det er grofthakket i en foodprocessor. Kom i en skål sammen med æg, hvidløg, rasp, salt og peber. Rør til en fast og ensartet fars.  Varm en æbleskive pande op med olie og lidt smør og steg blomkålsdellerne i æbleskivepanden til de er runde og med gyldenbrun stegeskorpe.
 Karrysauce
 Rist karry i en tør gryde til det dufter dejligt. Tilføj olie, squash, gulerødder, løg, hvidløg, æble og gurkemeje og rør det godt sammen et par minutter i gryden. Tilføj kokosmælk. Læg låg på og lad det simre i omkring 15 minutter eller til gulerødderne er møre. Blend saucen til den er helt cremet. Juster konsistensen med hønsebouillon og smag godt til med soja og peber. Kom blomkålsdellerne i saucen.
 Servering
@@ -8837,13 +8760,13 @@ Mos avocadokødet med en gaffel på en tallerken og smag til med limesaft, fintr
 Servering
 Fyld hver pandekage med et par skefulde oksekødsfyld, lidt cheddar og rul dem sammen. Anret dem i et fad med samlingen nederst. Drys med resten af cheddarost over pandekagerne inden de skal i ovnen og bag ved 200 grader varmluft i ca. 10 minutter.
 Drys med finthakket persille og server med salat og avocadomos.'),
-  (11826, 'Flæskesteg med abrikos og timian', 'https://www.valdemarsro.dk/flaeskesteg-med-abrikos-og-timianfyld/', 'https://www.valdemarsro.dk/wp-content/2011/12/flaeskesteg-abrikos-1.jpg', '240', '6 servings', 'Skær rillerne i flæskestegen efter, så de alle sammen går godt igennem fedtet og akkurat lige ned og stopper inden kødet – for de må endelig ikke ridse igennem kødet (det gør det sværere at få en sprød svær).
+  (11826, 'Flæskesteg med abrikos og timian', 'https://www.valdemarsro.dk/flaeskesteg-med-abrikos-og-timianfyld/', 'https://www.valdemarsro.dk/wp-content/2011/12/flaeskesteg-abrikos-1.jpg', '240', '6 servings', 'Skær rillerne i flæskestegen efter, så de alle sammen går godt igennem fedtet og akkurat lige ned og stopper inden kødet - for de må endelig ikke ridse igennem kødet (det gør det sværere at få en sprød svær).
 Salt sværen grundigt og gnid groft salt og friskkværnet peber mellem alle revnerne. Endnu et vigtigt step, som er med til at sikre en sprød svær.
 Snit en god dyb lomme ind i kødet. Skær abrikoserne i små tern, hvidløg og timian hakkes og bland godt sammen med abrikosmarmelade og stop det ind i lommen. Luk flæskestegen godt til med kødnåle.
-Kom flæskestegen i et ovn fast fad, der passer i størrelsen, gerne på en rist med vand i bunden af  fadet. Drys lidt ekstra salt hen over sværen og sæt flæskestegen i en kold ovn ved 100 grader i ca 3 timer
+Kom flæskestegen i et ovn fast fad, der passer i størrelsen, gerne på en rist med vand i bunden af  fadet. Drys lidt ekstra salt hen over sværen og sæt flæskestegen i en kold ovn ved 100 grader i ca 3 timer
 Skru tilsidst ovnen op til 225 grader og giv den 30 minutter mere.
 En flæskesteg skal have en centertemperatur på omkring 65 grader, så mål gerne efter, hvis du er i tvivl.
-Min svær bliver knasende sprød, men mangler den lige det sidste, så er der intet i vejen for lige at tænde ovnens grillfunktion og give et par minutter på grill, til sværen bobler og bliver lækkert sprød – hold endelig øje med stegen, hvis du bruger grillen.'),
+Min svær bliver knasende sprød, men mangler den lige det sidste, så er der intet i vejen for lige at tænde ovnens grillfunktion og give et par minutter på grill, til sværen bobler og bliver lækkert sprød - hold endelig øje med stegen, hvis du bruger grillen.'),
   (11829, 'Blomkålssuppe', 'https://www.valdemarsro.dk/blomkaalssuppe/', 'https://www.valdemarsro.dk/wp-content/2012/01/blomkaalssuppe-2.jpg', '25', '4 servings', 'Skær blomkålen i grove stykker og kom dem i en gryde sammen med resten af ingredienserne, dog undtagen citronsaft og piskefløde.
 Kog op, læg låg på og lad det koge i 8-10 minutter.
 Kom en anelse piskefløde i og blend suppen, til den er helt cremet og luftig. Juster konsistensen med grøntsagsbouillon og smag til med citronsaft, muskatnød, salt og friskkværnet peber.
@@ -8864,7 +8787,7 @@ Lun mælken i en gryde. Mos kartofler med smør og pisk derefter ved laveste has
 Mos en gaffel ned i blandingen en gang eller to, så der frigives en masse saft og så det bliver mere som en salsa, end som en tomatsalat.'),
   (11841, 'Tortilla med mango, laks og mynte', 'https://www.valdemarsro.dk/tortilla-med-laks-og-mango/', 'https://www.valdemarsro.dk/wp-content/2012/02/wraps-laks-mango-2.jpg', '20', '4 servings', 'Laksen dryppes med lime og drysses med salt og peber, hvorefter den bages i et smurt ovnfast fad i en forvarmet ovn ved 175 grader i ca. 18-20 minutter.
 Lun tortillas pandekager på en tør pande eller i ovnen og server med Rucola, mynte, laks, løg, chutney, avocado, mango og evt pistaciekerner.'),
-  (11844, 'Alt i én gryde med hanekylling og rodfrugter', 'https://www.valdemarsro.dk/alt-i-en-gryde-med-hanekylling-og-rodfrugter/', 'https://www.valdemarsro.dk/wp-content/Alt-i-en-gryde-2.jpg', '120', '6 servings', 'Hanekyllingen rengøres og renses. Gnid med salt og friskkværnet peber, spidskommen og tørret koriander.
+  (11844, 'Alt i én gryde med hanekylling og rodfrugter', 'https://www.valdemarsro.dk/alt-i-en-gryde-med-hanekylling-og-rodfrugter/', 'https://www.valdemarsro.dk/wp-content/Alt-i-en-gryde-2.jpg', '120', '6 servings', 'Hanekyllingen rengøres og renses. Gnid med salt og friskkværnet peber, spidskommen og tørret koriander.
 Olivenolie og smør varmes i en stor gryde, gerne en støbejernsgryde. Brun kyllingen heri, godt brunet på alle sider.
 Lad kyllingen ligge i gryden med brystet op, tilsæt 2 dl boullion og krydderier + chilien. Lad kyllingen simre i 30-40 minutter med låg på. Sørg for at den ikke koger tør.
 Skræl rodfrugterne og skær dem i grove stykker.
@@ -8879,14 +8802,14 @@ Bland speltkernerne med peberfrugt, persille, rødløg og vinaigrette i en skål
 Vinaigrette
 Kom alle ingredienserne i en skål og rør det godt sammen, til vinaigretten er ensartet i konsistensen.'),
   (11851, 'Pizza med laks og wasabi', 'https://www.valdemarsro.dk/fantastisk-pizza-med-laks-og-wasabi/', 'https://www.valdemarsro.dk/wp-content/2012/06/pizza-laks-wasabi.jpg', '1440', '2 servings', 'Pizzadej
-Opløs gæren i en skål med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring.
-Drys lidt mel på køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
-Vask skålen og smør den med olivenolie, kom dejen tilbage i skålen og vend den, så den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
+Opløs gæren i en skal med lunkent vand. Brug 5 g gær, til koldhævning natten over, og 25 g gær, hvis pizzadejen blot skal hæve i en time. Kom halvdelen af mel, olivenolie og salt i og rør godt rundt til en ensartet konsistens. Tilsæt resten af melet lidt ad gangen under omrøring.
+Drys lidt mel pa køkkenbordet og ælt til sidst dejen sammen til en smidig dej med hænderne.
+Vask skalen og smør den med olivenolie, kom dejen tilbage i skalen og vend den, sa den er dækket af olivenolie. Olien gør dejen nem og smidig at arbejde med og skorpen ekstra sprød ved bagningen.
 Lad dejen hæve i køleskabet natten over.
 Bagning og topping
-Sæt ovnen til at forvarme på højeste temperatur med en bageplade, bagestål, eller pizzasten på den øverste rille i ovnen. Drys lidt mel på køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne på bordet.
-Sæt bundene i ovnen og forbag dem uden fyld til bundene er sprøde. Lad dem køle lidt af på en rist.
-Rør wasabi og smøreost sammen og smag til – den må gerne rive lidt, men skal ikke være al for stærk. Fordel wasabicremen på de afkølede pizzabunde, så osten ikke smelter på den varme pizzabund. Fordel laksestykkerne på, drys salt og kværn godt med peber på.
+Sæt ovnen til at forvarme på højeste temperatur med en bageplade, bagestål, eller pizzasten på den øverste rille i ovnen. Drys lidt mel pa køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne pa bordet.
+Sæt bundene i ovnen og forbag dem uden fyld til bundene er sprøde. Lad dem køle lidt af på en rist.
+Rør wasabi og smøreost sammen og smag til - den må gerne rive lidt, men skal ikke være al for stærk. Fordel wasabicremen på de afkølede pizzabunde, så osten ikke smelter på den varme pizzabund. Fordel laksestykkerne på, drys salt og kværn godt med peber på.
 Server med masser af frisk sprød rucola og dryp citronsaft samt lidt revet citronskal over.'),
   (11854, 'Koldskål med brændte mandler og jordbær', 'https://www.valdemarsro.dk/koldskal-med-jordbaer-og-braendte-mandler/', 'https://www.valdemarsro.dk/wp-content/2012/07/koldskaal-mandler-.jpg', '30', '4 servings', 'Kom sukker og sirup på en pande, sammen med mandler og varm op ved middelvarme under omrøring til det er smeltet og koger tørt. Rør videre til karamellen smelter en smule igen. Hæld mandlerne ud på bagepapir og lad dem køl af.
 Pisk æggeblommer, vanilje og sukker til æggesnaps. Pisk derefter ymer, kærnemælk og citron i.
@@ -8894,7 +8817,7 @@ Hak de brændte mandler og skær jordbærrene i skiver.
 Hæld koldskålen i skåle og server med jordbær og de brændte mandler.'),
   (11857, 'Grøntsagsfad', 'https://www.valdemarsro.dk/grontsagsfad/', 'https://www.valdemarsro.dk/wp-content/2012/08/groentsagsfad.jpg', '45', '4 servings', 'Gør alle grøntsagerne i stand og skær dem i meget små stykker. Kom dem i en gryde, dæk med vand og tilsæt lidt salt. Kog i 8 minutter.
 Hæld vandet fra og kør grøntsagerne i en blender sammen med æg og parmesan. Kom rasp og halvdelen af mozzarellaen i og blend igen. Gem den anden halvdel af mozzarellaen til topping.
-Smør et ovnfast fad med smør, kom grøntsagsblandingen i fadet, drys med 1⁄2 dl rasp og skær resten af mozzarellaen i skiver og læg dem på toppen af fadet.
+Smør et ovnfast fad med smør, kom grøntsagsblandingen i fadet, drys med 1/2 dl rasp og skær resten af mozzarellaen i skiver og læg dem på toppen af fadet.
 Bag retten i en forvarmet ovn ved 180 grader varmluft i 30 minutter.'),
   (11861, 'Ravioli med fuldkorn', 'https://www.valdemarsro.dk/ravioli/', 'https://www.valdemarsro.dk/wp-content/ravioli_.jpg', '90', '4 servings', 'Pasta
 Rør mel og salt sammen i en skål.
@@ -8905,8 +8828,8 @@ Ravioli
 Rul dejen tyndt ud på køkkenbordet med en kagerulle. Stik cirkler med et glas og kom en smule fyld i midten. Luk cirklen og pres en gaffel langs kanten.
 De færdige raviolier koges i vand tilsat lidt olie og salt. Kogetid omkring 3-3 1/2 minut'),
   (11864, 'Sojamandler', 'https://www.valdemarsro.dk/soyamandler/', 'https://www.valdemarsro.dk/wp-content/2013/01/sojamandler.jpg', '20', '1 serving', 'Sojamandler på panden
-Kom mandler og soja på en pande og varm op til middelhøj varme under konstant omrøring.
-Rør hele tiden i mandlerne, til mandlerne er tørre og sprøde – sojaen godt fordelt på mandlerne.
+Kom mandler og soja på en pande og varm op til middelhøj varme under konstant omrøring.
+Rør hele tiden i mandlerne, til mandlerne er tørre og sprøde - sojaen godt fordelt på mandlerne.
 Sojamandler i ovnen
 Kom mandlerne på en bradepande med bagepapir og bag i en forvarmet ovn ved 160 grader varmluft i cirka 10-14 minutter. Tag bradepanden ud af ovnen, hæld soja over mandlerne og vend mandlerne godt sammen, så de er helt dækket af soja.
 Bag i ovnen i yderligere 5 minutter til sojaen er tørret ind.'),
@@ -8926,7 +8849,7 @@ Kødboller
 Rør alle ingredienserne sammen og form farsen til små kødboller. Lynsteg dem på en varm pande i olie i et par minutter, mens de vendes hyppigt.
 Pizzaen
 Varm ovnen op. gerne med en stenplade, til 250 grader.
-Form to runde pizzaer. Fordel tomatsauce på  pizzabundene sammen med  mozzarella, kødboller og løgringe. Bag i 10-12 minutter eller til bunden er sprød.
+Form to runde pizzaer. Fordel tomatsauce på  pizzabundene sammen med  mozzarella, kødboller og løgringe. Bag i 10-12 minutter eller til bunden er sprød.
 Drys pizzaen med frisk eller tørre timian inden servering.'),
   (11882, 'Kartofler med fyld', 'https://www.valdemarsro.dk/bagte-kartofler-med-fyld/', 'https://www.valdemarsro.dk/wp-content/bagte_kartofler_med_fyld.jpg', '60', '4 servings', 'Prik kartoflerne med en gaffel og bag dem i ovnen i 1 times tid ved 200 grader varmluft.
 Test om de er færdige ved at stikke en gaffel i dem.
@@ -8941,12 +8864,12 @@ Bag dem i en forvarmet ovn ved 160 grader varmluft i 15-18 minutter, til de er l
 Dæk dejen til og lad den hæve i en times tid til dobbelt størrelse.
 Del dejen i 4 dele og tryk eller rul hver del flad og i dråbeform. Læg dem på en bageplade med bagepapir, dæk dem til og lad dem hæve i et kvarters tid.
 Pensl brødene med smeltet smør og drys med de ønskede krydderier. Bag brødene i en forvarmet ovn ved 175 grader varmluft i cirka 20 minutter.'),
-  (11893, 'Ærtesuppe', 'https://www.valdemarsro.dk/aertesuppe/', 'https://www.valdemarsro.dk/wp-content/2016/10/aertesuppe-app.jpg', '15', '4 servings', 'Kom løg og hvidløg i en gryde med olie og sauter løgene ved middelvarme, til de er bløde. Tilsæt ærter og timian, rør rundt og tilsæt derefter grøntsagsbouillonen. Læg låg på og lad det simre i 5­-7 minutter.
+  (11893, 'Ærtesuppe', 'https://www.valdemarsro.dk/aertesuppe/', 'https://www.valdemarsro.dk/wp-content/2016/10/aertesuppe-app.jpg', '15', '4 servings', 'Kom løg og hvidløg i en gryde med olie og sauter løgene ved middelvarme, til de er bløde. Tilsæt ærter og timian, rør rundt og tilsæt derefter grøntsagsbouillonen. Læg låg på og lad det simre i 5-7 minutter.
 Hæld fløde i og blend suppen, til den er helt cremet og ensartet i konsistensen. Smag til med salt og peber.
 Server suppen med cremefraiche og grofthakkede saltmandler'),
   (11896, 'Hokkaidosuppe', 'https://www.valdemarsro.dk/hokkaidosuppe/', 'https://www.valdemarsro.dk/wp-content/2011/10/hokkaidosuppe-2-1.jpg', '45', '4 servings', 'Skyl og skrub hokkaido græskaret godt og skær den midtover. Skrab kernerne ud med en ske og skær hokkaidoen med skræl i grove tern.
 Varm olie op i en gryde og sauter alle grøntsagerne, chili, spidskommen og ingefær ved middelvarme i 1-2 minutter.
-Hæld grøntsagsbouillon i, så det dækker ca. 2⁄3 af grøntsagerne, hellere lidt for lidt end for meget for du kan altid spæde lidt til, hvis suppen bliver for tyk.
+Hæld grøntsagsbouillon i, så det dækker ca. 2/3 af grøntsagerne, hellere lidt for lidt end for meget for du kan altid spæde lidt til, hvis suppen bliver for tyk.
 Læg låget på og lad det koge i ca. 15-18 minutter. Blend suppen, til den er helt glat og cremet. Tilsæt citronsaft og fløde, blend igen og smag suppen til med salt og peber.
 Topping
 Rist græskarkernerne i lidt smør på panden under middelvarme under omrøring, til de begynder at poppe. Tag dem af varmen og drys med lidt salt. Skær æblerne i små tern, rør honning og citronsaft sammen og vend æbleternene i.
@@ -8958,9 +8881,9 @@ Læg torskestykkerne i et ovnfast fad på bagepapir og bag dem i en forvarmet ov
 Bland honning, æblecidereddike og citron i en skål, kom æbletern i og vend dem godt rundt.
 Tag gryden af varmen, når suppen har kogt i 15 minutter, tilsæt fløde og blend suppen. Smag til med muskatnød, salt og peber.
 Anret en lille forhøjning i midten af en skål eller dyb tallerken med æbletern og placer torsken herpå. Hæld suppen rundt om torsken og drys til sidst med sprød bacon, revet citronskal og et par enkelte æbletern oven på torsken. Lidt frisk timian pynter smukt på toppen.'),
-  (11903, 'Langtidsbagte tomater - ovntørrede', 'https://www.valdemarsro.dk/ovnt%c3%b8rrede-tomater/', 'https://www.valdemarsro.dk/wp-content/2011/07/langtidsbagte-tomater-i-ovnen.jpg', '300', '10 servings', 'Drys tomaterne med salt og læg dem på en bradepande med bagepapir, så den overskårne side vender opad. Pensl med olivenolie og kom kviste af rosmarin over. Bag tomaterne i ovnen ved 100 grader i 4­-5 timer.
-Kom de bagte tomater i et skoldet glas og hæld oliven­olie over, til det dækker.
-Alternativt kan du sætte tomaterne i en forvarmet ovn ved 225 grader og slukke ovnen, så snart toma­terne er sat ind. Tomaterne skal stå i den lukkede ovn natten over eller fra morgen til aften, hvorefter de er klar til brug. Med denne fremgangsmåde kan toma­terne tilberedes natten over, eller mens du ikke er hjemme. Hvis du ikke synes, at de har fået helt nok, så giv dem en ekstra time i ovnen ved 100 grader.'),
+  (11903, 'Langtidsbagte tomater - ovntørrede', 'https://www.valdemarsro.dk/ovnt%c3%b8rrede-tomater/', 'https://www.valdemarsro.dk/wp-content/2011/07/langtidsbagte-tomater-i-ovnen.jpg', '300', '10 servings', 'Drys tomaterne med salt og læg dem på en bradepande med bagepapir, så den overskårne side vender opad. Pensl med olivenolie og kom kviste af rosmarin over. Bag tomaterne i ovnen ved 100 grader i 4-5 timer.
+Kom de bagte tomater i et skoldet glas og hæld olivenolie over, til det dækker.
+Alternativt kan du sætte tomaterne i en forvarmet ovn ved 225 grader og slukke ovnen, så snart tomaterne er sat ind. Tomaterne skal stå i den lukkede ovn natten over eller fra morgen til aften, hvorefter de er klar til brug. Med denne fremgangsmåde kan tomaterne tilberedes natten over, eller mens du ikke er hjemme. Hvis du ikke synes, at de har fået helt nok, så giv dem en ekstra time i ovnen ved 100 grader.'),
   (11906, 'Vegetar gryderet med blomkål og kikærter', 'https://www.valdemarsro.dk/vegetar-gryderet/', 'https://www.valdemarsro.dk/wp-content/2019/01/gryderet-groentsager-kikaerter.jpg', '40', '4 servings', 'Sauter løg, hvidløg, karry, spidskommen, koriander, kardemomme og garam masala i olie ved middelvarme til løgene bliver bløde.
 Kom linser, grøntsagsboullion, hakkede tomater, kartofler og kokosmælk i gryden og lad det simre i 15 minutter under låg.
 Tilsæt squash, blomkål og kikærter og lad retten simre i 10 minutter, hvorefter den smages til med salt og friskkværnet sort peber.
@@ -8985,11 +8908,11 @@ Server på tallerkener med en skefuld vaniljeskyr og råsyltede jordbær.'),
   (11918, 'Muslinger i hvidvin og flødesauce - Moules Frites', 'https://www.valdemarsro.dk/muslinger-moules-frites/', 'https://www.valdemarsro.dk/wp-content/2010/04/muslinger-hvidvin.jpg', '45', '4 servings', 'Kartoflerne
 Skrub kartoflerne godt og skær dem i stave. Vend kartoflerne i olie og salt og bag dem i ovnen ved 175 grader varmluft i 35-40 minutter til de er sprøde. Vend dem et par gange undervejs.
 Muslinger
-Rens muslingerne ved at skrubbe skallerne under lidt rindende vand – de må ikke stå i blød. Kasser alle muslinger, hvor skallen er i stykker og de åbne muslinger, som ikke lukker sig ved et let bank mod bordpladen.
+Rens muslingerne ved at skrubbe skallerne under lidt rindende vand - de må ikke stå i blød. Kasser alle muslinger, hvor skallen er i stykker og de åbne muslinger, som ikke lukker sig ved et let bank mod bordpladen.
 Sauter løg, chili og hvidløg i olivenolie i en stor gryde, til de er klar og bløde. Kom muslingerne og hvidvin i gryden og læg låg på. Lad det koge ved middelvarme i 5-10 minutter, til muslingerne har åbnet sig.
 Sigt væden fra muslingerne gennem en sigte og ned i en skål, til at opsamle den lækre hvidvinssauce. Hæld hvidvinssaucen tilbage i gryden og læg låg på skålen med muslinger, så de holder varmen, mens saucen koges ind.
 Kog hvidvinssaucen ind til cirka 1 dl fond. Skrue godt op for varmen og hold øje med det hele tiden, så det ikke koger tørt, for det går forholdsvis stærkt. Skrue ned for varmen når der er cirka en dl hvidvinssauce tilbage, tilsæt fløde og smag til med salt og peber. Kom muslingerne tilbage i gryden, læg låg på og varm op til det koger i cirka 1-2 minutter.
-Server i en stor skål eller portionsanrettet i dybe tallerkener. Drys med finthakket bredbladet persille og server med ovnbagte fritter.
+Server i en stor skål eller portionsanrettet i dybe tallerkener. Drys med finthakket bredbladet persille og server med ovnbagte fritter.
 Husk at alle muslinger der ikke har åbnet sig under tilberedning skal kasseres!'),
   (11921, 'Tomatsuppe med nudler', 'https://www.valdemarsro.dk/tomatsuppe-opskrift/', 'https://www.valdemarsro.dk/wp-content/2010/10/tomatsuppe.jpg', '30', '4 servings', 'Varm olie op i en gryde og sauter løg, hvidløg og porrer ved middelvarme, til de er bløde. Tilsæt paprika, spidskommen og karry og lad det stege med i et par minutter under omrøring.
 Tilsæt kartofler og gulerødder og dernæst flåede tomater, tomatpuré, timian og bouillon og lad det simre i 15-20 minutter.
@@ -9001,7 +8924,7 @@ Kom den varme suppe i dybe tallerkener. Kom en god klat cremefraiche i suppen og
 Tilsæt peberfrugter, tomat, bønner og kokosmælk i retten og lad det simre i 10-15 minutter til kyllingen er gennemstegt.
 Smag til med limesaft, fintrevet limeskab, salt og peber.
 Kan fx serveres med lækre basmati ris, hakkede cashewnødder og et drys bredbladet persille.'),
-  (11927, 'Hjemmelavede burgere', 'https://www.valdemarsro.dk/hjemmelavede-burgere/', 'https://www.valdemarsro.dk/wp-content/2008/01/burgere.jpg', '120', '4 servings', 'Hjemmelavede boller med oliven – opskrift på 10 boller
+  (11927, 'Hjemmelavede burgere', 'https://www.valdemarsro.dk/hjemmelavede-burgere/', 'https://www.valdemarsro.dk/wp-content/2008/01/burgere.jpg', '120', '4 servings', 'Hjemmelavede boller med oliven - opskrift på 10 boller
 Rør vand og gær sammen i en skål, tilsæt olivenolie, hørfrø, oliven, salt og fuldkornsmel.Rør hvedemel lidt af gangen til dejen kan æltes på bordpladen.
 Dejen skal ikke være hård, men blød, smidig og må gerne klistre en smule. Lad den hæve i skålen i 30 minutter.
 Slå dejen sammen, form 10 boller og lad dem hæve på en bageplade med bagepapir i 1 1/2 time. Pensl med lidt olivenolie og drys med flagesalt. Sæt bollerne i en forvarmet ovn ved 250 grader varmluft, skrue straks ned til 200 grader varmluft og bag bollerne i 15-18 minutter.
@@ -9016,7 +8939,7 @@ Hæld den overskydende marinade fra kyllingen, men dup ikke kyllingestykkerne t�
 Bland rasp, paprika, salt og peber godt sammen i en skål. Dyp først kyllingestykkerne i æg og derefter i raspen. Læg dem på et fad med lidt rasp i bunden. Dæk evt. fadet med film og sæt det i køleskabet i et par timer, før de steges i ovnen, det bliver de ekstra sprøde af.
 Pensl evt med lidt olie og bag dem i en forvarmet ovn ved 180 grader varmluft i cirka 25 minutter, til de er flot gyldne og sprøde, og kødet er gennemstegt.'),
   (11934, 'Coleslaw', 'https://www.valdemarsro.dk/coleslaw/', 'https://www.valdemarsro.dk/wp-content/2013/05/coleslaw-1.jpg', '60', '10 servings', 'Dressing
-Kom cremefraiche og mayonnaise i en skål sammen med dijonsennep, honning, æblecidereddike, salt, sukker, spidskommen, friskkværnet peber og salt. Rør dressingen godt sammen og smag til.
+Kom cremefraiche og mayonnaise i en skal sammen med dijonsennep, honning, æblecidereddike, salt, sukker, spidskommen, friskkværnet peber og salt. Rør dressingen godt sammen og smag til.
 Coleslaw
 Bland kål og gulerødder i en stor skål og rør dressingen grundigt i.
 Lad coleslawen trække i ca. 1 time på køl inden servering.'),
@@ -9035,7 +8958,7 @@ Tilsæt rød peberfrugt og kokosmælk og varm godt igennem. Smag til med lime, s
 Serveres med ris og frisk koriander, samt evt naanbrød'),
   (11946, 'Souvlaki - græsk kebab', 'https://www.valdemarsro.dk/souvlaki-graesk-kebab/', 'https://www.valdemarsro.dk/wp-content/2013/06/souvlaki1.jpg', '120', '4 servings', 'Kebab
 Skær koteletterne ud i mundrette stykker og kom dem i en skål. Lav en marinade af olie, citronsaft, mynte, oregano, hvidløg, salt og peber som røres sammen i en skål. Vend kødet heri.
-Lad det stå overdækket i køleskabet i nogle timer, gerne fra om morgenen til aftensmadstid. Kom kødstykkerne på grillspyd og grill på en varm grill – eller lynsteg alternativt kødet med marinaden på en brandvarm pande.
+Lad det stå overdækket i køleskabet i nogle timer, gerne fra om morgenen til aftensmadstid. Kom kødstykkerne på grillspyd og grill på en varm grill - eller lynsteg alternativt kødet med marinaden på en brandvarm pande.
 Fladbrød
 Kom olie og vand i en skål og rør groft mel, hvedemel og salt i. Ælt det grundigt i gennem gennem. Lad dejen hvile i en halv times tid.
 Skær dejen ud i 10 lige store kugler, som rulles ud til meget tynde fladbrød. Brug olivenolie på bordpladen til udruldningen i stedet for mel. Varm en pande op til middelhøj varme og bag fladbrødene derpå.
@@ -9067,7 +8990,7 @@ Flæk vaniljestangen, skrab kornene ud og bland vaniljekorn med sukker. Kom vani
 Kog op og lad marmeladen simre i 15 minutter under låg. Tag låget af og kog videre i 15 minutter uden låg.
 Hvis du ønsker marmeladen finere, kan du blende den lidt med en stavblender. Kom marmeladen på rengjorte og skoldede glas, som er slynget med lidt cognac eller anden spiritus.'),
   (11967, 'Coq au vin', 'https://www.valdemarsro.dk/coq-au-vin/', 'https://www.valdemarsro.dk/wp-content/2014/01/coq-au-vin-1.jpg', '120', '6 servings', 'Gnid kyllingestykkerne med salt og peber og brun dem godt af i smør og olie i en stegegryde, til skindet begynder at blive sprødt. Tag kyllingestykkerne op og sæt dem til side på et fad.
-Kom nu løg, hvidløg, knoldselleri og halvdelen af gulerødderne i gryden og sauter dem i et par minutter. Kom kyllingestykkerne tilbage i gryden, sammen med rødvin, timian, laurbærblade, nelliker og peberkorn. Læg låg på gryden og lad retten simre i 1 – 1 1⁄2 time.
+Kom nu løg, hvidløg, knoldselleri og halvdelen af gulerødderne i gryden og sauter dem i et par minutter. Kom kyllingestykkerne tilbage i gryden, sammen med rødvin, timian, laurbærblade, nelliker og peberkorn. Læg låg på gryden og lad retten simre i 1 - 1 1/2 time.
 Lige inden retten er færdig, steges bacon sprød på en pande. Rist derefter champignoner og de resterende gulerødder på panden i fedtet fra bacon og sæt til side.
 Tør panden af og kom perleløg, smør, sukker, salt og vand på panden, lad det koge op under omrøring, til løgene karamelliserer.
 Tag kyllingestykkerne op af gryden, når retten har simret færdig, og sæt dem til side. Sigt saucen gennem en finmasket sigte over en gryde og kasser fyldet. Skum overflødigt fedt fra saucen og kog den op i gryden uden låg. Jævn saucen med lidt majsstivelse og smag den til med salt og peber.
@@ -9079,7 +9002,7 @@ Kom rødbede, havregryn, hvedemel og løg i en skål med æg og dijonsennep. Rø
 Tag bagepladen ud af ovnen og kom hver bøf på en skive brød. Sæt bagepladen med pariserbøfferne tilbage i ovnen og bag videre i 10 minutter.
 Pocherede æg
 Bring en gryde med vand i kog. Slå hvert æg ud i en lille skål. Tilsæt æblecidereddike, når vandet koger og tag gryden af den direkte varme. Brug en ske eller piskeris til at lave en hvirvel rundt i vandet, så der kommer et hul i midten.
-Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og anret det på tallerkenen – fortsæt på samme måde med de andre æg.
+Kom et æg i midten af hvirvlen og sæt gryden tilbage på varmen. Kog ægget i cirka 3 minutter, tag det forsigtigt op med en hulske og anret det på tallerkenen - fortsæt på samme måde med de andre æg.
 Servering
 Server vegetar pariserbøffer toppet med pocherede æg, et drys purløg, salt og friskkværnet peber. Server kapersbær og cornichoner til'),
   (11973, 'Salade Chevre Chaud', 'https://www.valdemarsro.dk/salade-chevre-chaud/', 'https://www.valdemarsro.dk/wp-content/2014/02/chevre-chaud-1.jpg', '15', '4 servings', 'Stik 16 runde cirkler ud af brødskiverne og læg gedeost på. Sæt brødene på en bageplade med bagepapir og bag dem i en forvarmet ovn ved 180 grader varmluft i 10 minutter.
@@ -9093,7 +9016,7 @@ Skær burgerbollerne op og lun dem i ovnen. Smør med mayo, og saml vegetarburge
   (11979, 'Vitello Tonnato', 'https://www.valdemarsro.dk/vitello-tonnato/', 'https://www.valdemarsro.dk/wp-content/2014/03/vitello-tunnato-1.jpg', '15', '4 servings', 'Blend tun, mayonnaise, cremefraiche, kapers, citron og salt og peber til en jævn sauce. Smag den til.
 Rul hver skive steg med tunsauce og dryp med lidt pesto, som er blevet fortyndet med lidt olivenolie.
 Anret på tallerkener med salat, agurk, kapersbær og resten af tunsaucen samt ekstra pesto.'),
-  (11982, 'Spidskålswrap med laks og kapersdressing', 'https://www.valdemarsro.dk/spidskaalswrap-med-laks-og-kapersdressing/', 'https://www.valdemarsro.dk/wp-content/2014/03/spidskaalswraps-laks.jpg', '25', '4 servings', 'Kom laksen i et ovnfast fad med bagepapir. Dryp med lidt citronsaft og drys med salt og peber. Bag i en forvarmet ovn ved 175  grader varmluft i 15 minutter.
+  (11982, 'Spidskålswrap med laks og kapersdressing', 'https://www.valdemarsro.dk/spidskaalswrap-med-laks-og-kapersdressing/', 'https://www.valdemarsro.dk/wp-content/2014/03/spidskaalswraps-laks.jpg', '25', '4 servings', 'Kom laksen i et ovnfast fad med bagepapir. Dryp med lidt citronsaft og drys med salt og peber. Bag i en forvarmet ovn ved 175  grader varmluft i 15 minutter.
 Rør dressingen sammen og smag den godt til.
 Server pærer, løg, agurker og dressing i små skåle ved bordet, så man selv kan samle sin spidskålswraps.'),
   (11985, 'Mynte yoghurt', 'https://www.valdemarsro.dk/super-laekker-hjemmelavet-mynteyoghurt/', 'https://www.valdemarsro.dk/wp-content/2014/04/hjemmelavet-mynteyoghurt.jpg', '5', '1 serving', 'Blend banan, ymer/yoghurt, mynteblade og vanilje sammen til en yoghurt.
@@ -9110,7 +9033,7 @@ Kom hakkede tomater og soltørrede tomater i gryden, sammen med oregano, rosmari
 Mornaysauce
 Smelt smør i en gryde ved lav varme, pisk hvedemel i og kom mælk i lidt ad gangen. Kog op og pisk saucen godt igennem til den er lind og uden klumper. Tilsæt mere mælk hvis nødvendigt.
 Kom mozzarella i saucen og rør til osten er smeltet. Smag til med muskatnød, salt og peber.
-Saml  Moussaka
+Saml  Moussaka
 Steg aubergineskiverne møre på en pande i lidt olie.
 Kom mornaysauce i bunden af et smurt ovnfast fad på 24 x 30 cm. Læg skiftevis tomatsauce, squash og aubergineskiver og de kogte kartoffelskiver i fadet. Lav to lag af dette. Afslut med mornaysauce.
 Bag i en forvarmet ovn ved 180 grader varmluft, i 30-45 minutter til grøntsagerne er møre.'),
@@ -9140,7 +9063,7 @@ Kom alle råvarerne til pesto i en foodprocessor og kør, til pestoen er finthak
   (12012, 'Chiagrød', 'https://www.valdemarsro.dk/chiagroed/', 'https://www.valdemarsro.dk/wp-content/2014/06/chia-grod-opskrift.jpg', '600', '1 serving', 'Bland mandelmælk med chiafrø og vaniljekorn og rør det godt rundt. Lad det stå i 30 minutter eller til næste dag i køleskabet.
 Rør chiablandingen godt igennem og rør den sammmen med græsk yoghurt eller skyr. Smag til med honning.
 Nyd den kolde chiagrød med fx rabarberkompot, friske bær, banan og peanutbutter. En smule honning og hakkede mandler er også skønt'),
-  (12015, 'Grillet fersken salat', 'https://www.valdemarsro.dk/grillet-fersken-salat/', 'https://www.valdemarsro.dk/wp-content/2014/08/grillet-ferskensalat.jpg', '15', '4 servings', 'Grill fersknerne på direkte varme i ca. 2-­3 minutter, til de får smukke grillstriber. Rist mandlerne på en varm pande i et par minutter under omrøring, til de bliver sprøde, men uden de får farve. Hak dem groft.
+  (12015, 'Grillet fersken salat', 'https://www.valdemarsro.dk/grillet-fersken-salat/', 'https://www.valdemarsro.dk/wp-content/2014/08/grillet-ferskensalat.jpg', '15', '4 servings', 'Grill fersknerne på direkte varme i ca. 2-3 minutter, til de får smukke grillstriber. Rist mandlerne på en varm pande i et par minutter under omrøring, til de bliver sprøde, men uden de får farve. Hak dem groft.
 Vend vinaigretten sammen med rucola og anret på et fad. Skær de lune grillede ferskner i både og anret på fadet sammen med rucola.
 Drys grofthakkede mandler, blåbær og smuldret feta over salaten
 Vinaigrette
@@ -9152,10 +9075,10 @@ Varm smør i en gryde ved middel varme, kom hvidløg i og sauter under omrøring
 Skru ned til lav varme og rør citronsaft, kapers, revet citronskal, salt og friskkværnet peber i. Lad det stå og trække smag til laksen er klar og pastaen koges al dente.
 Skrue gryden med hvidløg, citron og kapers op til middelvarme og rør den græske yoghurt i saucen. Sørg for at røre hele tiden, mens gryden står på varmen. Det må ikke koge eller blive for varm, for så vil saucen skille. Det skal blot være sådan at saucen bliver lind og lun.
 Vend pastaen med et par spsk citron og kaperssauce. Anret på tallerkener, fordel laks, sauce, friskkværnet peber og et drys finthakket persille over inden servering.'),
-  (12021, 'Løgsuppe med ostebrød', 'https://www.valdemarsro.dk/logsuppe/', 'https://www.valdemarsro.dk/wp-content/2007/10/loegsuppe.jpg', '60', '4 servings', 'Kom løg, hvidløg og olivenolie i en gryde og sauter ved middelvarme, til løgene er bløde. Tilsæt sukker og rør fortsat godt rundt, til det karamelliserer, og løge­ne bliver lidt mørkere.
-Kom chili, timian, grøntsagsbouillon og balsamico i gry­den, kog op og lad det simrekoge svagt i 20 minutter. Smag til med salt, peber og evt. mere balsamico.
+  (12021, 'Løgsuppe med ostebrød', 'https://www.valdemarsro.dk/logsuppe/', 'https://www.valdemarsro.dk/wp-content/2007/10/loegsuppe.jpg', '60', '4 servings', 'Kom løg, hvidløg og olivenolie i en gryde og sauter ved middelvarme, til løgene er bløde. Tilsæt sukker og rør fortsat godt rundt, til det karamelliserer, og løgene bliver lidt mørkere.
+Kom chili, timian, grøntsagsbouillon og balsamico i gryden, kog op og lad det simrekoge svagt i 20 minutter. Smag til med salt, peber og evt. mere balsamico.
 Hviddløgsostebrød
-Gnid brødskiverne med overskåret hvidløg, fordel skiver af mozzarella på og sæt brødskiverne på en bradepan­de med bagepapir og bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 10 minutter, til osten smelter.
+Gnid brødskiverne med overskåret hvidløg, fordel skiver af mozzarella på og sæt brødskiverne på en bradepande med bagepapir og bag dem i en forvarmet ovn ved 175 grader varmluft i ca. 10 minutter, til osten smelter.
 Server suppen i skåle med de varme ostebrød til.'),
   (12024, 'Hasselback kartofler', 'https://www.valdemarsro.dk/hasselback-kartofler/', 'https://www.valdemarsro.dk/wp-content/2014/08/hasselback-kartofler.jpg', '80', '4 servings', 'Smelt smør i en gryde ved mellemvarme og tilføj hvidløg og krydderurter.
 Skru lidt ned for varmen og lad det stå i gryden.
@@ -9184,7 +9107,7 @@ Drys med bredbladet persille og sæt gerne gryden på bordet.
 Kartoffelmos
 Kog kartoflerne i usaltet vand til de er møre. Mos først kartoflerne med smør og pisk derefter kartoffelmosen med en elpisker.
 Tilsæt mælk lidt efter lidt til mosen er cremet og fløjlsblød. Smag til med salt og peber, samt friskrevet muskatnød. Server Bøf Stroganoff med kartoffelmosen og et drys bredbladet persille, samt lidt friskrevet muskatnød'),
-  (12037, 'Clam Chowder - muslingesuppe', 'https://www.valdemarsro.dk/clam-chowder-muslingesuppe/', 'https://www.valdemarsro.dk/wp-content/2014/10/clamchowder.jpg', '45', '4 servings', 'Rens muslingerne ved at gnubbe dem under let rindende vand, de må dog ikke stå i blød. Kassér de muslinger der er knækkede, og de åbne muslinger, skal lige bankes let mod bordpladen eller have et let tryk og så skulle de gerne lukke sig selv – hvis de ikke lukker sig, skal de kasseres!
+  (12037, 'Clam Chowder - muslingesuppe', 'https://www.valdemarsro.dk/clam-chowder-muslingesuppe/', 'https://www.valdemarsro.dk/wp-content/2014/10/clamchowder.jpg', '45', '4 servings', 'Rens muslingerne ved at gnubbe dem under let rindende vand, de må dog ikke stå i blød. Kassér de muslinger der er knækkede, og de åbne muslinger, skal lige bankes let mod bordpladen eller have et let tryk og så skulle de gerne lukke sig selv - hvis de ikke lukker sig, skal de kasseres!
 Damp muslingerne i ca. 5-6 minutter i hvidvin i en gryde med låg. Når muslingerne har åbnet sig, tages de af varmen og hældes i en sigte, hvor væsken drypper ned i en skål. Gem både væsken og muslinger.
 Steg bacon i en stor gryde i smør til det er lettere sprødt, tilsæt løg og sauter løgene til de er bløde.
 Kom finthakket hvidløg, laurbærblade, kartofler, gulerødder, fennikel og de finthakkede krydderurter i gryden sammen med væsken fra muslingerne som tidligere er siet fra, samt mælk og fløde. Lad det simre til kartoflerne er møre.
@@ -9196,13 +9119,13 @@ Salat og vinaigrette
 Rør vinaigretten sammen og smag til. Anret salaten i en skål og vent med at vende den med vinaigrette til lige inden servering.
 Tatar
 Rør æggeblommer, estragon, kapers, cornichoner, worchestershiresauce, tacasco og olivenolie sammen med oksekødet. Smag til med salt, 1 tsk dijonsennep, halvdelen af de finthakkede skalotteløg og friskkværnet sort peber.
-Rør det godt igennem  og smag til igen med det sidste dijon, skalotteløg og evt mere salt og peber efter smag. Hvor meget der skal i, af hver smagsgiver er en individuel vurdering. Mængden er tilpasset så den er afstemt perfekt til vores smagsløg.
+Rør det godt igennem  og smag til igen med det sidste dijon, skalotteløg og evt mere salt og peber efter smag. Hvor meget der skal i, af hver smagsgiver er en individuel vurdering. Mængden er tilpasset så den er afstemt perfekt til vores smagsløg.
 Del tataren i fire portioner og form tataren på tallerkenen med en kniv, og top med en rå æggeblomme og et drys estragon
 Server med kartoffelfritter, aioli eller mayonnaise og en enkel salat'),
-  (12043, 'Burgerboller', 'https://www.valdemarsro.dk/burgerboller/', 'https://www.valdemarsro.dk/wp-content/2014/10/burgerboller-2.jpg', '1440', '8 servings', 'Rør gæren ud i vand, tilsæt mælk, olie og æg. Bland fuldkornshvedemel, salt og sukker i en skål og rør det sammen med gærblandingen – brug gerne en røremaskine.
+  (12043, 'Burgerboller', 'https://www.valdemarsro.dk/burgerboller/', 'https://www.valdemarsro.dk/wp-content/2014/10/burgerboller-2.jpg', '1440', '8 servings', 'Rør gæren ud i vand, tilsæt mælk, olie og æg. Bland fuldkornshvedemel, salt og sukker i en skål og rør det sammen med gærblandingen - brug gerne en røremaskine.
 Ælt dejen i 10 minutter og rør derefter langsomt hvedemelet i og ælt grundigt videre i min. 10 minutter, til dejen er lækker smidig. Dæk dejen til med et klæde og sæt den til hævning et lunt sted i 30 minutter og sæt derefter i køleskabet i minimum 4 timer eller til næste dag.
 Skrab dejen ud på et meldrysset bord og fold den nogle gange. Form runde burgerboller og lad dem hæve tildækket på en bageplade med bagepapir i 30 minutter. Pensl dem med æg og drys sesamfrø henover bollerne. Bag burgerbollerne i en forvarmet ovn ved 190 grader varmluft i ca. 15-18 minutter.'),
-  (12046, 'Græsk Burger', 'https://www.valdemarsro.dk/graesk-burger-med-lammekod/', 'https://www.valdemarsro.dk/wp-content/2014/10/graesk-burger-1.jpg', '30', '4 servings', 'Kom kødet i en skål sammen med de øvrige ingredienser og rør det godt sammen. Form fire bøffer og steg dem på en varm pande i lidt smør eller olivenolie.
+  (12046, 'Græsk Burger', 'https://www.valdemarsro.dk/graesk-burger-med-lammekod/', 'https://www.valdemarsro.dk/wp-content/2014/10/graesk-burger-1.jpg', '30', '4 servings', 'Kom kødet i en skal sammen med de øvrige ingredienser og rør det godt sammen. Form fire bøffer og steg dem pa en varm pande i lidt smør eller olivenolie.
 Tzatziki
 Rør den groftrevne agurk med salt og dræn den i en sigte i 30 minutter, hvor væden knuges fra, og rør derefter agurk, græsk yoghurt og hvidløg sammen.
 Anret burgerne med rigelig mængder tzatziki, lammebøffer og syltede rødløg.'),
@@ -9228,7 +9151,7 @@ Smørristede majskerner
 Varm en pande op og lad smørret bruse af. Rist majskernerne under omrøring ved høj varme til de får farve. Drys med salt og peber og anret dem i salaten.
 Anret salaten
 Anret alle delene i skåle. Vælg frit dine favoritter på min ingrediensliste og tilføj gerne nye. Det bliver lækrest, når man vælger en god blanding af sprødt og knasende / cremet og saftigt
-Det skal gerne ligge på hver sin plads det hele, så det hele ikke bare roder sammen – men tæt som en salat. Drys med lidt friske krydderurter inden servering.'),
+Det skal gerne ligge på hver sin plads det hele, så det hele ikke bare roder sammen - men tæt som en salat. Drys med lidt friske krydderurter inden servering.'),
   (12064, 'Boller i karry', 'https://www.valdemarsro.dk/boller-i-karry/', 'https://www.valdemarsro.dk/wp-content/2010/10/boller_karry-1.jpg', '35', '4 servings', 'Ris
 Kog risene efter anvisning på emballagen.
 Kødboller
@@ -9236,7 +9159,7 @@ Rør alle ingredienserne sammen i en skål med en håndmikser og tilbered saucen
 Karrysauce
 Smelt smør ved svag varme i en gryde sammen med karry, koriander og spidskommen, drys mel i og pisk sammen. Pisk langsomt mælk i, til opbagningen har en ensartet konsistens.
 Kog saucen op og tilsæt grøntsagsbouillon, til saucen har den rette tykkelse. Smag saucen til med salt og peber og evt. mere karry.
-Form farsen til små kødboller. Kom koldt vand på hænderne, når kødbollerne formes, så de bliver glatte og faste i overfladen. Kog enten kødbollerne i en kasserolle med grøntsagsboullion i et par minutter og kom dem derefter i karrysaucen – eller kom de rå kødboller direkte i saucen, hvor de tilberedes og giver god smag til saucen.
+Form farsen til små kødboller. Kom koldt vand på hænderne, når kødbollerne formes, så de bliver glatte og faste i overfladen. Kog enten kødbollerne i en kasserolle med grøntsagsboullion i et par minutter og kom dem derefter i karrysaucen - eller kom de rå kødboller direkte i saucen, hvor de tilberedes og giver god smag til saucen.
 Kom låg på gryden og lad sauce og kødboller simre ved lav varme i cirka 15 minutter, til kødbollerne er perfekt tilberedt og klar til servering. Rør indimellem forsigtigt i gryden med en træspartel, så saucen ikke brænder fast, men uden at kødbollerne går i stykker og spæd til med mere grøntsagsbouillion, hvis nødvendigt.
 Til servering
 Boller i karry serveres traditionelt blot med ris, men det er også virkelig lækkert med et drys æbler og mango i tern og lidt finthakket persille.'),
@@ -9244,7 +9167,7 @@ Boller i karry serveres traditionelt blot med ris, men det er også virkelig læ
 Drys lidt salt over flæsket og læg det på en rist over en bradepande beklædt med bagepapir.
 Steg flæskeskiverne i en forvarmet ovn ved 175 grader varmluft i 30-40 minutter og vend dem et par gange undervejs.
 Kartoflerne
-Kom  kartoflerne i en gryde med rigeligt letsaltet koldt vand, kog op og kog derefter i cirka 20 minutter alt efter størrelsen af kartoflerne. Tjek om de er klar og møre og hæld derefter vandet fra. De kan holde sig lune i gryden med låg på (uden vand) til flæsk og saucen er klar.
+Kom  kartoflerne i en gryde med rigeligt letsaltet koldt vand, kog op og kog derefter i cirka 20 minutter alt efter størrelsen af kartoflerne. Tjek om de er klar og møre og hæld derefter vandet fra. De kan holde sig lune i gryden med låg på (uden vand) til flæsk og saucen er klar.
 Persillesauce
 Smelt smør i en gryde ved lav varme, pisk mel i, til det er en jævn masse, og pisk derefter mælk i lidt ad gangen. Kog persillesaucen i ca. 5 minutter ved middelvarme, mens den piskes igennem, og smag den til med citronsaft og -skal, persille samt salt og peber.'),
   (12070, 'Scones', 'https://www.valdemarsro.dk/scones/', 'https://www.valdemarsro.dk/wp-content/2013/10/scones_opskrift_hjemmelavede_perfekte.jpg', '20', '8 servings', 'Kom alle de tørre ingredienser i en skål og rør den godt sammen. Smuldr iskoldt smør i blandingen.
@@ -9258,7 +9181,7 @@ Kom kyllingen og marinaden i et ovnfast fad og kom det i en forvarmet varm ovn v
 Tilbered imens ris, tilbehør og saucen.
 Tikka chicken masala-sauce
 Sauter løgene i en gryde med olie ved middelvarme under omrøring, til de er bløde.
-Tilsæt hvidløg, ingefær, gurkemeje, mandler, tomatpuré og vand. Kog op og lad saucen simre i 5 minutter, hæld kyllingen og marinaden fra det ovnfaste fad i saucen.
+Tilsæt hvidløg, ingefær, gurkemeje, mandler, tomatpuré og vand. Kog op og lad saucen simre i 5 minutter, hæld kyllingen og marinaden fra det ovnfaste fad i saucen.
 Varm godt igennem under omrøring og smag til med en anelse fløde. Tilsæt eventuelt også lidt vand eller grøntsagsboullion, hvis saucen er for tyk. Smag til med salt og friskkværnet peber.
 Drys hakkede, smuttede mandler og grofthakket koriander over og server med ris.'),
   (12077, 'Butter chicken', 'https://www.valdemarsro.dk/butter_chicken/', 'https://www.valdemarsro.dk/wp-content/2014/06/butterchicken-1.jpg', '90', '4 servings', 'Blend yoghurt, chili, nellike, spidskommen, kardemomme, garam masala, gurkemeje, ingefær, hvidløg og hakkede tomater sammen til en lind sauce.
@@ -9281,11 +9204,11 @@ Lad dejen hæve i ca. 45-60 minutter. Hvis du sætter dejen til koldhævning i k
 Drys lidt mel på køkkenbordet. Del dejen i to og form to runde pizzaer med hænderne på bordet.
 Vi har en pizzaplade og laver pizzaen på grillen, men ellers kan du også bruge en alm bageplade og ovnen. Lad ovnen varme op til 250 grader (over/undervarme eller grill) med bagepladen i ovnen, så den bliver varm. Eller endnu bedre brug en stenplade. Det gør bunden på pizzaen sprødere.
 Kom pizzaen på pladen, fyld dit favoritfyld på og bag i ca. 10 minutter, eller til bunden er sprød.'),
-  (12090, 'Falafler', 'https://www.valdemarsro.dk/falafler/', 'https://www.valdemarsro.dk/wp-content/2011/08/falafler-1.jpg', '720', '4 servings', 'Sæt de tørrede kikærter i blød i koldt vand i ca. 12-24 timer – skift gerne vandet 1-2 gange og skyl dem grundigt efter iblødsætningen. Kom kikærterne og de øvrige ingredienser i en foodprocessor og kør, til farsen er ensartet i konsistensen.
+  (12090, 'Falafler', 'https://www.valdemarsro.dk/falafler/', 'https://www.valdemarsro.dk/wp-content/2011/08/falafler-1.jpg', '720', '4 servings', 'Sæt de tørrede kikærter i blød i koldt vand i ca. 12-24 timer - skift gerne vandet 1-2 gange og skyl dem grundigt efter iblødsætningen. Kom kikærterne og de øvrige ingredienser i en foodprocessor og kør, til farsen er ensartet i konsistensen.
 Er farsen lidt for våd, så tilsæt et par spsk groft mel eller ekstra rasp og lad farsen hvile lidt.
 Form runde falafler med en ske. Varm en gryde op med fritureolie til 175-180 grader og steg falaflerne lidt af gangen, til de er sprøde og lækre.
 Tag dem op med en hulske og lad dem dryppe af på fedtsugende papir.
-Server falaflerne med citron til at dryppe over og et drys salt. Rør en dressing af lidt cremefraiche smagt til med citronskal og salt og fyld dem i pitabrød med grønt og dressing – og nyd også de færdige varme falafler som lækre hapsere.'),
+Server falaflerne med citron til at dryppe over og et drys salt. Rør en dressing af lidt cremefraiche smagt til med citronskal og salt og fyld dem i pitabrød med grønt og dressing - og nyd også de færdige varme falafler som lækre hapsere.'),
   (12094, 'Lasagne', 'https://www.valdemarsro.dk/lasagne/', 'https://www.valdemarsro.dk/wp-content/lasagne3.jpg', '180', '4 servings', 'Lasagnesauce
 Sauter løg og hvidløg i olivenolie, til løgene er bløde. Tilsæt kødet og brun det ved høj varme. Skru ned for varmen og tilsæt resten af ingredienserne.
 Lad saucen simrekoge under låg i 2-6 timer, jo længere, jo bedre. Smag på saucen løbende og smag til med flere krydderier, tomatpuré, flåede tomater efter smag, samt salt og peber. Hvis du synes den bliver for tør, kan du komme mere grøntsagsboullion i, men vent gerne til den har simret i en times tid for grøntsagerne afgiver også en del væde til saucen.
@@ -9306,7 +9229,7 @@ Server med hoisin dip.'),
 Top de varme nachos med finthakket agurk, tomatsalsa og krydderurter. Server nachos med skål af forskellige dips.'),
   (12104, 'Chokoladecreme', 'https://www.valdemarsro.dk/chokoladecreme/', 'https://www.valdemarsro.dk/wp-content/2016/07/chokoladecreme-1.jpg', '30', '2 servings', 'Mørk chokoladecreme
 Varm 1 dl fløde op til lige knap kogepunktet og tag gryden af varmen. Rør den mørke chokolade i til cremen er helt ensartet. Hvis nødvendigt, så blend kort med en stavblender.
-Kom i  to små glas og sæt på køl i 2 timer
+Kom i  to små glas og sæt på køl i 2 timer
 Lys chokolade creme
 Varm 1 dl fløde op til lige knap kogepunktet og tag gryden af varmen. Rør den lyse chokolade i til cremen er helt ensartet. Hvis nødvendigt, så blend kort med en stavblender. Lad det køle af til stuetemperatur og hæld forsigtigt i glassene med den stivnede mørke chokoladecreme.
 Sæt på køl i 2 timer
@@ -9324,12 +9247,12 @@ Kom ost i og rør rundt til osten er smeltet. Smag til med muskatnød, salt og p
 Saml fiskelasagnen
 Smør et ovnfast fad og læg skiftevis mornaysauce, spinat, tomat, fisk, lasagneplader i lag. Afslut med bechamelsauce og drys med lidt revet ost og en smule rasp.
 Bag fiskelasagnen i en forvarmet ovn ved 175 grader varmluft i cirka 30 minutter eller til lasagnepladerne er møre.'),
-  (12110, 'Champignonsuppe', 'https://www.valdemarsro.dk/champignonsuppe/', 'https://www.valdemarsro.dk/wp-content/2016/08/champignonsuppe-1.jpg', '45', '4 servings', 'Sauter løg og hvidløg i en gryde med smør ved middel­ varme, til løgene er bløde.
+  (12110, 'Champignonsuppe', 'https://www.valdemarsro.dk/champignonsuppe/', 'https://www.valdemarsro.dk/wp-content/2016/08/champignonsuppe-1.jpg', '45', '4 servings', 'Sauter løg og hvidløg i en gryde med smør ved middel varme, til løgene er bløde.
 Drys mel over, rør godt igennem og pisk grøntsagsbouillon i lidt efter lidt.
-Kom champignonerne i gryden og lad det simre i 5 mi­nutter. Smag suppen til med piskefløde, muskatnød, salt og peber. Varm op til kogepunktet lige inden servering.
+Kom champignonerne i gryden og lad det simre i 5 minutter. Smag suppen til med piskefløde, muskatnød, salt og peber. Varm op til kogepunktet lige inden servering.
 Server med forårsløg, lidt smørristede svampe og godt brød.'),
   (12116, 'Kandiseret rabarber', 'https://www.valdemarsro.dk/kandiseret-rabarber/', 'https://www.valdemarsro.dk/wp-content/2016/06/kandiseret-rabarber.jpg', '45', '25 servings', 'Rens rabarberstilkene grundigt og fjern bladene. Brug en kartoffelskræller eller tyndskræller til at skrælle lange flade strimler af rabarberne.
-Kog vand og sukker op i en gryde. Tag gryden af varmen og kom  rabarberstrimlerne i gryden. Vend dem godt rundt evt med en køkkenpincet. Tag rabarberstrimlerne op en efter en og læg dem i lange strimler på en bageplade med bagepapir. Lad dem tørre i 6-8 timer eller i ovnen ved 50-60 grader i 40 minutter. Tag dem ud og lad dem køle en smule af i nogle minutter. Sno dem løst rundt om runde spisepinde, eller skaftet på grydeskeer. Lad dem tørre til næste dag på køkkenbordet.'),
+Kog vand og sukker op i en gryde. Tag gryden af varmen og kom  rabarberstrimlerne i gryden. Vend dem godt rundt evt med en køkkenpincet. Tag rabarberstrimlerne op en efter en og læg dem i lange strimler på en bageplade med bagepapir. Lad dem tørre i 6-8 timer eller i ovnen ved 50-60 grader i 40 minutter. Tag dem ud og lad dem køle en smule af i nogle minutter. Sno dem løst rundt om runde spisepinde, eller skaftet på grydeskeer. Lad dem tørre til næste dag på køkkenbordet.'),
   (12119, 'Gratinerede artiskokker', 'https://www.valdemarsro.dk/gratinerede-artiskokker/', 'https://www.valdemarsro.dk/wp-content/2016/05/gratinerede-artiskokker.jpg', '30', '4 servings', 'Kog artiskokkerne i 7-8 minutter i spilkogende vand tilsat salt og citronskiver.
 Tag artiskokkerne op og lad dem dryppe af i en sigte.
 Halver dem på tværs og læg artiskokkerne med midten op i et fad. Kom en lille klat smør på hver, et lille dryp citronsaft, revet parmesanost og rosmarinkviste.
@@ -9337,7 +9260,7 @@ Gratiner i en forvarmet ovn ved 175 grader i 10-15 minutter.
 Serveres i fadet med rørt smør som tilbehør.
 Sådan spises de
 Tag en artiskok over på tallerkenen og pluk et blad af, som dyppes let i smør, hvorefter den bløde nederste del bides/skrabes af med tænderne. Resten smides i en stor skål og ryger ud.
-Artiskokhjertet kommer man til tilsidst og det sidder helt inde i midten tæt på stilken. I omkreds er det ca på størrelse med eller lidt større end en fem-krone og er toppet med en masse fine ‘hår’ – hårene skrabes af med en skarp kniv, og derefter spises artiskokhjertet med lidt smør, og smager helt vidunderligt.'),
+Artiskokhjertet kommer man til tilsidst og det sidder helt inde i midten tæt på stilken. I omkreds er det ca på størrelse med eller lidt større end en fem-krone og er toppet med en masse fine ''hår'' - hårene skrabes af med en skarp kniv, og derefter spises artiskokhjertet med lidt smør, og smager helt vidunderligt.'),
   (12123, 'Løgsalat', 'https://www.valdemarsro.dk/loegsalat/', 'https://www.valdemarsro.dk/wp-content/2016/05/logsalat.jpg', '15', '4 servings', 'Bland løgringe i en skål med citronsaft, olivenolie, sumak, spidskommen, koriander og 2 spsk finthakket bredbladet persille.
 Fordel det godt rundt.
 Lad det marinere og trække i 20-30 minutter.
@@ -9370,14 +9293,14 @@ Kog vandet op og rør sukker ud i vandet til sukkerkornene er opløst. Lad vande
   (12136, 'Couscous salat', 'https://www.valdemarsro.dk/couscous-salat/', 'https://www.valdemarsro.dk/wp-content/2016/05/couscoussalat-1.jpg', '15', '4 servings', 'Tilbered couscous efter anvisning på emballagen.
 Vend couscous med dressing og tomater, forårsløg og rødløg. Drys til sidst med ekstra krydderurter og server.
 Urtedressing
-Kom citronsaft i en skål, tilføj olien lidt ad gangen og pisk det godt sammen. Tilføj derefter resten af ingredi­enserne og smag til med salt og peber.'),
+Kom citronsaft i en skål, tilføj olien lidt ad gangen og pisk det godt sammen. Tilføj derefter resten af ingredienserne og smag til med salt og peber.'),
   (12139, 'Peanutsauce og vietnamesisk sød sur chili dip', 'https://www.valdemarsro.dk/peanut-sauce-soedsur-chili-dip/', 'https://www.valdemarsro.dk/wp-content/2016/04/vietnamesisk-chilisauce.jpg', '10', '1 serving', 'Peanut sauce
 Kom kokosolie, hvidløg, og citrongræs i en lille gryde og lad det varme op, til det dufter. Tilsæt vand, peanutbutter og sukker og lad det simre i et par minutter under omrøring.
 Fjern citrongræs og hæld peanutdippen på et glas eller en lille skål til servering.
 Sød/sur chili dip
 Opløs sukkeret i limesaft, tilsæt fishsauce, vand samt hvidløg og chili.
 Smag evt til med mere fishsauce eller sukker, hvis ønsket.'),
-  (12144, 'Koteletter med champignon og fløde', 'https://www.valdemarsro.dk/koteletter/', 'https://www.valdemarsro.dk/wp-content/2016/04/koteletter-champignon.jpg', '50', '4 servings', 'Dup koteletterne med køkkenrulle og dem på en pande i lidt olie. De skal blot lige brunes på alle sider og tages derefter af varmen.
+  (12144, 'Koteletter med champignon og fløde', 'https://www.valdemarsro.dk/koteletter/', 'https://www.valdemarsro.dk/wp-content/2016/04/koteletter-champignon.jpg', '50', '4 servings', 'Dup koteletterne med køkkenrulle og dem på en pande i lidt olie. De skal blot lige brunes på alle sider og tages derefter af varmen.
 Sauter løg og champignon på samme pande som blev brugt til kødet. Når løgene er bløde, hældes piskeflødes over og det smages til med salt og peber.
 Smør et ovnfast fad med smør og fordel de tynde skiver kartofler og jordskokker i fadet. Kom koteletterne oven på, og hæld fløde, champignon og løg blandingen over. Riv muskatnød over og sæt retten i ovnen ved 180 grader varmluft i 35-40 minutter.
 Serveres med godt brød og en skøn salat der passer til årstiden.'),
@@ -9391,7 +9314,7 @@ Rosmarin kartofler
 Kom rosmarin og salt i en morter og stød det grundigt til en flot grøn rosmarinsalt.
 Smør et ovnfast fad med en smule olivenolie og vend derefter kartoffelskiver, gulerodsskiver, knust hvidløg, løgringe grundigt med olivenolie og rosmarinsalt, samt friskværnet peber.
 Anret i det ovnfastefad og kom små smørklatter over anretningen.
-Sæt fadet i ovnen ved 175 grader varmluft og bag i 40-45 minutter til kartoflerne er møre.'),
+Sæt fadet i ovnen ved 175 grader varmluft og bag i 40-45 minutter til kartoflerne er møre.'),
   (12150, 'Fyldt kyllingebryst med pikant flødeost og chorizo', 'https://www.valdemarsro.dk/fyldt-kyllingebryst/', 'https://www.valdemarsro.dk/wp-content/2016/03/pankorasp-kylling.jpg', '30', '4 servings', 'Lav en god dyb lomme i siden af hvert kyllingebryst. Brug en skarp, spids kniv og vær lidt forsigtig, så du ikke skærer hele vejen igennem kødet.
 Bland flødeost, chorizo, tomater og persille sammen i en skål. Fordel lidt af fyldet i hvert kyllingebryst og luk hullet pænt til, brug evt en kødnål.
 Vend først fileterne i groft mel blandet med salt og peber, derefter i et sammenpisket æg og til sidst i rasp.
@@ -9402,7 +9325,7 @@ Sæt låg på og lad det simre i 30 minutter.
 Smag til med salt, peber, ribsgele og æblecidereddike, til den rammer den skønneste balance mellem let syrligt og en smule sødme.
 Tag stjerneanis, kanel og laurbærblade op af gryden og server den varme rødkålssalat.'),
   (12157, 'Julesauce til and eller gås', 'https://www.valdemarsro.dk/julesauce/', 'https://www.valdemarsro.dk/wp-content/2016/12/julesauce.jpg', '180', '6 servings', 'Kom kråse, indmad, grønt og krydderurter i den store bradepande, som juleanden eller gåsen skal stege i. Fyld bradepanden halvt op med vand.
-Når julestegen er færdig, sigtes skyen ned i en ren skål – fyldet fra bradepanden kan gemmes til fx at blende i en suppe eller sauce. Skal saucen være ekstra klar, så kan fonden sigtes et par gange og gerne gennem et rent klæde.
+Når julestegen er færdig, sigtes skyen ned i en ren skål - fyldet fra bradepanden kan gemmes til fx at blende i en suppe eller sauce. Skal saucen være ekstra klar, så kan fonden sigtes et par gange og gerne gennem et rent klæde.
 Stil den sigtede sky i køleskabet i en ren skål. Fjern alt fedtet, som lægger sig på overfladen af skyen.
 Inden servering
 Varm skyen op i en gryde til kogepunktet og jævn med saucejævner eller majsstivelse rørt ud i mælk eller piskefløde.
@@ -9418,20 +9341,20 @@ Tag kartoflerne ud af køleskabet og tag låget af.
 Kom sukker i et jævnt lag på en stor kold pande. Tænd for middelhøj varme (jeg sætter blusset til 6 ud af 9), og lad sukkeret smelte og blive lysebrunt, uden at røre i sukkeret.
 Tilsæt smør, så snart sukkeret er lysebrunt og lad det bruse op. Rør godt igennem til en lækker brun karamel.
 Kom kartoflerne på panden og skrue lidt op for varmen. Brun kartoflerne godt i cirka 15 minutter og vend dem flere gange undervejs, til de er flotte brune på alle sider.'),
-  (12167, 'Vietnamesiske forårsruller med and og grønkål', 'https://www.valdemarsro.dk/vietnamesiske-foraarsruller-and/', 'https://www.valdemarsro.dk/wp-content/2016/11/vietnamesiske-foraarsruller-and.jpg', '45', '8 servings', 'Varm de confiterede andelår i ovnen ved 220 grader i cirka 20 minutter til skindet er sprødt.
-Fugt rispapiret i koldt vand og læg det på køkkenbordet.
-Anret fyldet af and, grønkål, peanuts, nudler og granatæble i en stribe på midten.
-Fold siderne omkring og rul forårsrullen sammen, så den er lukket.'),
-  (12170, 'Anderillette', 'https://www.valdemarsro.dk/anderilette/', 'https://www.valdemarsro.dk/wp-content/2016/11/anderilette.jpg', '30', '1 serving', 'Brug to gafler til at pille kødet af andelårene med, og sørg for at trevle kødet godt igennem – det gøres ved at hive de to gafler i hver sin retning, så kødet strimles og falder helt fra hinanden.
+  (12167, 'Vietnamesiske forårsruller med and og grønkål', 'https://www.valdemarsro.dk/vietnamesiske-foraarsruller-and/', 'https://www.valdemarsro.dk/wp-content/2016/11/vietnamesiske-foraarsruller-and.jpg', '45', '8 servings', 'Varm de confiterede andelar i ovnen ved 220 grader i cirka 20 minutter til skindet er sprødt.
+Fugt rispapiret i koldt vand og læg det pa køkkenbordet.
+Anret fyldet af and, grønkal, peanuts, nudler og granatæble i en stribe pa midten.
+Fold siderne omkring og rul forarsrullen sammen, sa den er lukket.'),
+  (12170, 'Anderillette', 'https://www.valdemarsro.dk/anderilette/', 'https://www.valdemarsro.dk/wp-content/2016/11/anderilette.jpg', '30', '1 serving', 'Brug to gafler til at pille kødet af andelårene med, og sørg for at trevle kødet godt igennem - det gøres ved at hive de to gafler i hver sin retning, så kødet strimles og falder helt fra hinanden.
 Hak kødet med en skarp kniv.
 Kom kødet i en skål og rør andefedt i, til konsistensen bliver smørbar og som du ønsker dig den. Spar ikke på fedtet, det er med til at give en fantastisk cremet anderilette.
 Smag til med flagesalt og friskkværnet peber, inden herligheden kommes i glas.
 Tryk godt sammen og hæld mindst en cm smeltet andefedt på toppen, som forsejler kødet, så det holder længere.'),
   (12177, 'Moscow Mule', 'https://www.valdemarsro.dk/moscow-mule/', 'https://www.valdemarsro.dk/wp-content/2016/02/moscow_mule.jpg', '5', '1 serving', 'Kom isterninger, limesaft og vodka i en shaker og ryst det godt sammen.
-Hæld i to glas fyldt med knuste isterninger, top med gingerbeer og pynt med lime og  mynte'),
+Hæld i to glas fyldt med knuste isterninger, top med gingerbeer og pynt med lime og  mynte'),
   (12180, 'Squash frikadeller', 'https://www.valdemarsro.dk/squash-frikadeller/', 'https://www.valdemarsro.dk/wp-content/2016/02/squash-frikadeller.jpg', '30', '4 servings', 'Pres al den overskydende saft fra squash gennem en sigte.
 Kom squash i en skål sammen med de andre ingredienser og rør det godt sammen til en fars. Lad farsen trække på køl i 30 minutter.
-Form 8 deller og læg dem på en bradepan­de med bagepapir. Pensl med olie og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 25 minutter. Vend dem, når halvdelen af tiden er gået.'),
+Form 8 deller og læg dem på en bradepande med bagepapir. Pensl med olie og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 25 minutter. Vend dem, når halvdelen af tiden er gået.'),
   (12184, 'Haydari dip', 'https://www.valdemarsro.dk/haydari-dip/', 'https://www.valdemarsro.dk/wp-content/2016/02/haydari-1.jpg', '45', '4 servings', 'Halver peberfrugten på langs og fjern frøstol og stilk.
 Læg den på en bageplade med bagepapir med skindsiden opad og bag den i ovnen i cirka 20 minutter ved 175 grader. Hold øje med den! Peberfrugten skal være mørk på skindet, og det går først ret langsomt, men så lige pludselig er den der.
 Tag peberfrugten ud og lad den køle af, til den stadig er godt lun, og kom den i en frysepose og luk den til. Lad den stå i en halv times tid og fjern skindet. Kom peberfrugtkød i en blenderskål sammen med de øvrige ingredienser, dog undtaget olien. Blend godt igennem, til konsistensen er cremet. Smag til og tilføj lidt olivenolie, hvis det er nødvendigt.'),
@@ -9453,7 +9376,7 @@ Kog op og lad det simre uden låg i 10 minutter.
 Tilbered imens kartoffelmosen.
 Kartoffelmos
 Kog kartoflerne i en gryde med rigeligt vand uden salt, til de er møre. Kom kartoflerne i en stor skål sammen med smør og pisk godt igennem med en håndmikser, til kartoffelmosen er cremet og luftig. Tilsæt piskefløde og smag til med parmesanost, salt og peber.
-Fordel kødsaucen i et smurt ovnfast fad og læg ‘et låg’ af kartoffelmos over. Glat kartoffelmosen pænt ud med en spartel og lav et mønster med en gaffel. Drys rasp og lidt ekstra parmesan over.
+Fordel kødsaucen i et smurt ovnfast fad og læg ''et låg'' af kartoffelmos over. Glat kartoffelmosen pænt ud med en spartel og lav et mønster med en gaffel. Drys rasp og lidt ekstra parmesan over.
 Bag i en forvarmet ovn ved 180 grader varmluft i 30-45 minutter.
 Drys finthakket bredbladet persille over inden servering.'),
   (12199, 'Paprikagryde / mørbradgryde', 'https://www.valdemarsro.dk/paprikagryde/', 'https://www.valdemarsro.dk/wp-content/2016/01/paprikagryde.jpg', '45', '4 servings', 'Steg baconskiver i en sauterpande, til de lige netop har fået lidt farve. Tag dem af panden og lad dem dryppe af på et stykke køkkenrulle. Skær dem i tynde strimler. Kom champignon og løg i sauterpanden sammen med olie og sauter ved middelhøj varme, til løgene er bløde.
@@ -9462,7 +9385,7 @@ Læg låg på og lad det simre i omkring 15 minutter.
 Når retten har simret færdig, tilsættes peberfrugt, og fløden røres i.
 Lad det koge op og smag til med salt og peber. Tilføj lidt majsstivelse rørt med vand, hvis saucen er lidt tynd. Kog godt igennem, efter majsstivelsen er tilsat.
 Server med ris og et drys persille.'),
-  (12204, 'Fish n´Chips', 'https://www.valdemarsro.dk/fish-n-chips/', 'https://www.valdemarsro.dk/wp-content/2014/02/fish-chips_2.jpg', '45', '4 servings', 'Sauce tartare
+  (12204, 'Fish n''Chips', 'https://www.valdemarsro.dk/fish-n-chips/', 'https://www.valdemarsro.dk/wp-content/2014/02/fish-chips_2.jpg', '45', '4 servings', 'Sauce tartare
 Begynd med saucen. Rør alle ingredienserne godt sammen i en skål og smag til med citron, salt, friskkværnet peber og eventuelt lidt mere sennep. Lad den trække på køl til servering.
 Kartofler
 Vask og rengør kartoflerne grundigt og skær dem i grove aflange fritter. Vend kartoffelfritterne med 4 spsk olie og salt og fordel dem på en bageplade med bagepapir.
@@ -9470,7 +9393,7 @@ Bag kartoflerne i en forvarmet ovn ved 225 grader varmluft i 30-40 minutter. Ven
 Fisk
 Bland mel med bagepulver, salt og peber. Pisk langsomt øl i, til dejen er lind og flydende. Lad dejen hvile en halv times tid. Skær fisken i passende stykker og dup fiskestykkerne helt tørre med køkkenrulle.
 Varm en gryde med olie op. Olien har den perfekte temperatur på omkring 175 grader, når den småsyder, når man forsigtigt stikker fx enden af en trægrydeske i olien.
-Sigt lidt hvedemel over fiskene og dyp derefter fiskestykkerne i øldej. Sænk  forsigtigt to stykker fisk ad gangen i den varme olie  og steg til de er gyldne og sprøde. Tag fisken op med en hulske, lad den dryppe godt af på et stykke køkkenrulle.'),
+Sigt lidt hvedemel over fiskene og dyp derefter fiskestykkerne i øldej. Sænk  forsigtigt to stykker fisk ad gangen i den varme olie  og steg til de er gyldne og sprøde. Tag fisken op med en hulske, lad den dryppe godt af på et stykke køkkenrulle.'),
   (12207, 'Tomatsalat', 'https://www.valdemarsro.dk/tomatsalat/', 'https://www.valdemarsro.dk/wp-content/2011/08/tomatsalat-opskrift.jpg', '10', '4 servings', 'Fordel tomater, mozzarella og basilikumblade på et stort fad eller på et par tallerkener.
 Fordel balsamicoglace over tomatsalaten i en tynd stribe.
 Drys med salt og peber.'),
@@ -9491,25 +9414,25 @@ Kom dejen ud på et meldrysset bord sigt lidt hvedemel over og del dejen i tre l
 Pensl med sammenpisket æg og bag i en forvarmet ovn ved 175 grader varmluft i 30 minutter.
 Server med koldt smør, mens brødet er lunt og nybagt.'),
   (12219, 'Kylling med appelsin', 'https://www.valdemarsro.dk/kylling-med-appelsin/', 'https://www.valdemarsro.dk/wp-content/2015/12/kylling-appelsin-1.jpg', '90', '4 servings', 'Varm en pande op med olie og brun kyllingelårene godt på alle sider.
-Kom dem derefter i en stegeso eller støbejernsgryde, sammen med kærnemælk, appelsin i skiver, kanel, kardemomme, tranebær, et par stængler rosmarin og hvidløgsfed – som blot lige bliver knust med en kniv.
+Kom dem derefter i en stegeso eller støbejernsgryde, sammen med kærnemælk, appelsin i skiver, kanel, kardemomme, tranebær, et par stængler rosmarin og hvidløgsfed - som blot lige bliver knust med en kniv.
 Sæt i en forvarmet ovn ved 175 grader med låg og bag i 45 minutter.
 Fjern derefter låget og bag videre i 15-20 minutter til skindet er sprødt.
 Server med ris.'),
   (12222, 'Enchiladas', 'https://www.valdemarsro.dk/den-bedste-enchiladas/', 'https://www.valdemarsro.dk/wp-content/2015/10/enchiladas-2.jpg', '60', '4 servings', 'Enchiladas sauce
 Kom alle krydderierne i en tør gryde, skru op for varmen og rist krydderierne under omrøring, til de dufter skønt. Tag gryden af varmen, tilsæt olie og de finthakkede løg, og sauter det ved middelvarme. Rør derefter mel godt ud i løgblandingen og kom så grøntsagsbouillon
 Rør det hele godt rundt, til der ikke er melklumper. Tilsæt hakkede tomater og lad saucen simre uden låg i 10-15 minutter. Smag til med lidt salt og peber og lidt mere chili eller cayennepeber, hvis det skal være hot.
-Kylling – pulled chicken
+Kylling - pulled chicken
 Kom kylling, tomat, hvidløg, grøntsagsbouillon og olie i en gryde, kog op og skru derefter ned, så det blot simrer under låg. Lad det simre i 30 minutter, til kødet er mørt. Riv kyllingekødet fra hinanden med to gafler og bland det med tomatsaucen, som det er kogt i.
 Saml enchilada-retten
 Smør tortillawraps med enchilada-sauce. Fyld med sorte bønner, majskerner, kyllingekød, og drys med revet ost og majskerner. Kom dem i et fad med lukningen nederst. Smør et godt lag sauce på toppen og drys med mere ost. Bag dem i en forvarmet ovn ved 180 grader varmluft i ca. 15-18 minutter.
 Drys med bredbladet persille eller koriander inden servering.'),
   (12225, 'Pasta med chorizo og svampe', 'https://www.valdemarsro.dk/pasta-med-chorizo-og-svampe/', 'https://www.valdemarsro.dk/wp-content/2015/10/pasta-chorizo-svampe.jpg', '20', '4 servings', 'Kog pasta efter anvisning på pakken.
-Varm en pande op med olie. Kom smør på, lad det bruse af og kom derefter de rengjorte svampe på. De skal lynsteges i 1-2 minutter ved høj varme, for så slipper de ikke al væden og forbliver fantastisk saftige og lækre. Sæt svampene til side
+Varm en pande op med olie. Kom smør på, lad det bruse af og kom derefter de rengjorte svampe på. De skal lynsteges i 1-2 minutter ved høj varme, for så slipper de ikke al væden og forbliver fantastisk saftige og lækre. Sæt svampene til side
 Kom chorizo i små stykker, løg og hvidløg på panden og skrue lidt ned for varmen. Tilsæt de ristede svampe og hakkede tomater og lad det simre.
 Vend pasta sammen med pastesauce og smag til med salt, peber og krydderurter. Nyd retten mens den er rygende varm.'),
   (12228, 'Roastbeef', 'https://www.valdemarsro.dk/perfekt-tilberedt-roastbeef/', 'https://www.valdemarsro.dk/wp-content/2015/10/perfekt-roastbeef.jpg', '75', '1 serving', 'Tag stegen ud af køleskabet og lad den temperere på køkkenbordet i en times tid.
 Dup stegen med et stykke køkkenrulle og varm så en pande op med olie og smør. Når smørret er bruset af, så brunes stegen på alle sider, til den er smukt gyldenbrun overalt.
-Lav en kryddersalt ved at komme rosmarin, salt og hvidløg i en morter og stød det til det er helt ensartet og en smuk grøn salt. Fordel blandingen den øverste del af roastbeef-stegen
+Lav en kryddersalt ved at komme rosmarin, salt og hvidløg i en morter og stød det til det er helt ensartet og en smuk grøn salt. Fordel blandingen den øverste del af roastbeef-stegen
 Sæt et stegetermometer i stegen fra siden af den tykkeste ende og ind til midten. Lad termometeret sidde i under hele tilberedningen og hviletiden.
 I ovn
 Sæt roastbeef stegen på en rist i en forvarmet ovn ved 150 grader alm over/undervarme og lad den stå der til den rammer 55 grader. Det tager ca 45 minutter til en time.
@@ -9522,7 +9445,7 @@ Smager også fantastisk som pålæg og til lækre sandwich dagen efter.'),
 Blend og tilsæt mere vand til konsistensen er som en tyk yoghurt aka smoothie der skal spises med en ske. Hæld det i en dyb tallerken eller skål.
 Gør det samme med den lyserøde smoothie, bare i et rent blenderglas. Hæld den lyserøde smoothie over den grønne, så de danner et fint mønster.
 Rist havregryn på en pande og bland med lidt honning, kakaonibs og frysetørrede hindbær'),
-  (12235, 'Porchetta', 'https://www.valdemarsro.dk/porchetta/', 'https://www.valdemarsro.dk/wp-content/2015/10/porchetta-opskrift.jpg', '180', '8 servings', 'Hvis svineslaget ikke er ridset på forhånd af slagteren, så kan man enten helt fravælge det – det bliver porchettaen ikke dårligere af – eller man kan ridse skindet med en skarp kniv. Pas endelig på ikke at skære ned til kødet, for så kan saften fra kødet gøre, at sværen har vanskeligere ved at blive sprød.
+  (12235, 'Porchetta', 'https://www.valdemarsro.dk/porchetta/', 'https://www.valdemarsro.dk/wp-content/2015/10/porchetta-opskrift.jpg', '180', '8 servings', 'Hvis svineslaget ikke er ridset på forhånd af slagteren, så kan man enten helt fravælge det - det bliver porchettaen ikke dårligere af - eller man kan ridse skindet med en skarp kniv. Pas endelig på ikke at skære ned til kødet, for så kan saften fra kødet gøre, at sværen har vanskeligere ved at blive sprød.
 Bland marmelade, hvidløg, finthakket løg, finthakkede krydderurter, peber og salt i en skål.
 Fordel fyldet godt på kødsiden.
 Rul svineslaget stramt sammen, så der er svær hele vejen rundt om stegen. Snør et stykke bomuldssnor til køkkenbrug rundt om og gnid derefter sværen med godt med salt.
@@ -9540,7 +9463,7 @@ Form romkugler i passende størrelse og rul dem i kagekrymmel, kokosmel eller fi
   (12242, 'Spidskålswrap med kyllingedeller', 'https://www.valdemarsro.dk/kyllingedeller-spidskaalswraps/', 'https://www.valdemarsro.dk/wp-content/2015/09/spidskaalswraps.jpg', '40', '4 servings', 'Rør ingredienserne til farsen godt sammen i en skål og sæt den på køl i en halv times tid. Form farsen til frikadeller og steg dem på en pande i olie og smør i ca. 5 minutter på hver side, til de er gennemstegte.
 Du kan også bage frikadellerne i ovnen. Pensl dem med lidt olie og vend dem flere gange undervejs. De skal have ca. 20 minutter i en forvarmet ovn ved 180 grader varmluft.
 Fyld spidskålsbladene med salat, kyllingefrikadeller, agurk og grønt. Dryp til sidst med dilddressing.'),
-  (12246, 'Kylling i Rømertopf', 'https://www.valdemarsro.dk/kylling-i-roemertopf/', 'https://www.valdemarsro.dk/wp-content/2015/09/kylling-roemertopf.jpg', '240', '6 servings', 'Sæt Rømertopf i blød i vand, mens kyllingen gøres klar. Den skal gerne stå i blød i 15-20 minutter.
+  (12246, 'Kylling i Rømertopf', 'https://www.valdemarsro.dk/kylling-i-roemertopf/', 'https://www.valdemarsro.dk/wp-content/2015/09/kylling-roemertopf.jpg', '240', '6 servings', 'Sæt Rømertopf i blød i vand, mens kyllingen gøres klar. Den skal gerne stå i blød i 15-20 minutter.
 Rens kyllingen, dup med et stykke køkkenrulle og gnid godt med salt og peber på skindet.
 Bland estragon med smør, hvidløg, salt og peber. Løsn forsigtigt brystskindet foroven på kyllingen og hele vejen ned, uden at prikke hul igennem og lav på den måde to dybe lommer, hvor estragonsmør kan kommes i.
 Gnid kyllingen indvendigt med salt og peber og fyld den med løg, citron og resten af estragonen. Luk kyllingen til med en kødnål eller to og kom den i en stegeso eller römertopf. Alternativt en stegepose eller ovnfast fad.
@@ -9552,7 +9475,7 @@ Skrab, skrub eller skræl kartoflerne og skær dem i grove både.
 Vend dem i olie, timian og salt og sæt dem på en bageplade med bagepapir.
 Bag i ovnen ved 200 grader i ca 30-40 minutter eller til de er sprøde, lækre og får samme farve som dem på billedet her.
 Græsk salat
-Rør olivenolie, sukker, citronskal og ­saft, salt, peber og finthakket oregano sammen, til sukkeret er opløst, og vend grøntsagerne sammen med dressingen i en stor skål. Smuldr feta ud over og drys med sorte oliven. Drys med lidt ekstra frisk oregano inden servering.
+Rør olivenolie, sukker, citronskal og saft, salt, peber og finthakket oregano sammen, til sukkeret er opløst, og vend grøntsagerne sammen med dressingen i en stor skål. Smuldr feta ud over og drys med sorte oliven. Drys med lidt ekstra frisk oregano inden servering.
 Græske kødspyd med lammekød
 Kom lammekød, æg, hvidløg, rødløg, feta, soltørrede tomater, timian, salt og peber i en skål og pisk det godt sammen med en håndmikser i 1-2 minutter.
 Form farsen til kugler og steg dem på en varm pande i olie og smør.
@@ -9578,7 +9501,7 @@ Steg bacon sprødt på en pande, sæt det til side på køkkenrulle og sauter l�
 Saml aussie-burgeren
 Smør burgerbollerne med mayonnaise og saml burgeren med rødbedeskiver, rucola, bøf med ost, bacon, ananas, bløde løg og spejlæg.'),
   (12266, 'Ceviche med laks', 'https://www.valdemarsro.dk/ceviche-med-laks/', 'https://www.valdemarsro.dk/wp-content/2015/08/ceviche-laks.jpg', '180', '4 servings', 'Tø den frosne laks op langsomt i køleskab.
-Skær laksen i tern og vend fisketernene i citron og limesaft, rørt sammen med hvidløg, koriander, salt og peber. Lad det stå på køl og trække i mellem 10 og 30 minutter – alt efter hvor tilberedt du ønsker fisken.
+Skær laksen i tern og vend fisketernene i citron og limesaft, rørt sammen med hvidløg, koriander, salt og peber. Lad det stå på køl og trække i mellem 10 og 30 minutter - alt efter hvor tilberedt du ønsker fisken.
 Vend den marinerede laks med avocado, rødløg og nektarin inden servering og anret på tallerkener med et drys koriander og godt brød.'),
   (12269, 'Fiskeburger med urtedressing', 'https://www.valdemarsro.dk/fiskeburger/', 'https://www.valdemarsro.dk/wp-content/2015/08/fiskeburger.jpg', '30', '4 servings', 'Fiskefiletter
 Skyl fiskefileterne og dup dem tørre med køkkenrulle. Bland rasp, dild, citronskal, salt og peber i en skål. Drys fileterne med lidt hvedemel og vend dem først i sammenpisket æg og bagefter i raspeblandingen.
@@ -9609,18 +9532,18 @@ Drys revet ost på bønnemix og grofthakket koriander over hele tallerkenen, kom
   (12281, 'Huevos Rancheros', 'https://www.valdemarsro.dk/huevos-rancheros/', 'https://www.valdemarsro.dk/wp-content/2015/08/huevos-rancheros-1.jpg', '35', '4 servings', 'Varm en sauterpande op med olie og sauter løg, hvidløg, chili og krydderier ved middelvarme, til løgene er bløde og krydderierne dufter.
 Tilsæt hakkede tomater, rød peber og squash og lad det simre under låg i 20 minutter.
 Kom bønnerne i gryden og lad dem simre med i yderligere 5 minutter. Smag til med salt, peber og chili.
-Slå fire æg ud i sauterpanden, sæt låg på og lad æggene pochere i 6-­8 minutter, til æggehviden er fast.
+Slå fire æg ud i sauterpanden, sæt låg på og lad æggene pochere i 6-8 minutter, til æggehviden er fast.
 Drys lidt revet ost over og server med koriander og avocado skåret ud i skiver. Server tortillapandekager til sammen med lime, chili og cremefraiche som tilbehør.
 Ved bordet kan man hver især fylde en wrap med en skefuld huevos rancheros og avocado og derefter tilføje limesaft, cremefraiche og chili efter smag.'),
-  (12285, 'Jordbærsalat med feta og pekannødder', 'https://www.valdemarsro.dk/jordbaer-og-fetasalat-med-glaserede-pecannoedder/', 'https://www.valdemarsro.dk/wp-content/2015/07/jordbaersalat.jpg', '10', '4 servings', 'Varm en pande op med honning og vand. Vend pekan­nødderne deri, når det bobler, og lad dem karamellise­re i et øjeblik. Tag dem af panden, lad dem køle helt af.
-Rør vinaigretten sammen og smør et salatfad med dres­singen. Anret med først spinatblade, så rødløg, jordbær og smuldr til sidst feta henover.
+  (12285, 'Jordbærsalat med feta og pekannødder', 'https://www.valdemarsro.dk/jordbaer-og-fetasalat-med-glaserede-pecannoedder/', 'https://www.valdemarsro.dk/wp-content/2015/07/jordbaersalat.jpg', '10', '4 servings', 'Varm en pande op med honning og vand. Vend pekannødderne deri, når det bobler, og lad dem karamellisere i et øjeblik. Tag dem af panden, lad dem køle helt af.
+Rør vinaigretten sammen og smør et salatfad med dressingen. Anret med først spinatblade, så rødløg, jordbær og smuldr til sidst feta henover.
 Drys friskkværnet peber over salaten sammen med pekannødderne inden servering.
 Vinaigrette
 Rør eddike, honning og salt sammen i en skål og pisk olien i lidt ad gangen. Smag dressingen til med salt.'),
   (12288, 'Kåldolmere', 'https://www.valdemarsro.dk/kaaldolmere/', 'https://www.valdemarsro.dk/wp-content/2015/09/kaaldolmere.jpg', '80', '4 servings', 'Rør hakket kød godt sammen med løg, hvidløg, æg, timian, havregryn, hvedemel, samt salt og friskkværnet peber til en helt ensartet fars. Stil farsen i køleskabet i en skåll med låg i 30 minutter, så den kan hvile.
-Bring en stor gryde med grøntsagsbouillon og salt i kog og kom det hele  hvidkål i det kogende vand i omkring 1-2 minutter, hvorefter det er nemmere at tage bladene forsigtigt fra.
+Bring en stor gryde med grøntsagsbouillon og salt i kog og kom det hele  hvidkål i det kogende vand i omkring 1-2 minutter, hvorefter det er nemmere at tage bladene forsigtigt fra.
 Tag dem op og dryp vandet af. Gem 1 dl af kogevandet.
-Form farsen i 8 lige store stykker og pak dem ind i hver sit kålblad som en kuvert. Saml evt med en ‘snor’ af en grov stængel purløg eller køkkensnor.
+Form farsen i 8 lige store stykker og pak dem ind i hver sit kålblad som en kuvert. Saml evt med en ''snor'' af en grov stængel purløg eller køkkensnor.
 Smør et ovnfast fad grundigt og sæt alle kåldolmerne deri. Hæld 1 dl af kogevandet med boullion i fadet og et par klatter smør. Krydr med salt og peber og læg et par kviste timian ved.
 Bag i en forvarmet ovn i 35-45 minutter ved 175 grader, til kødet er gennemstegt og mørt'),
   (12291, 'Kylling med honning og sennep', 'https://www.valdemarsro.dk/kylling-i-fad-med-honning-og-sennep/', 'https://www.valdemarsro.dk/wp-content/2015/06/kylling-honning-sennep-opskrift-1.jpg', '60', '4 servings', 'Bland honning, sennep, citronskal, 2 kviste rosmarin og citronsaft sammen og vend kyllingestykkerne i marinaden.
@@ -9629,11 +9552,11 @@ Smør et ovnfast fad med smør.
 Anret kyllingen deri og sæt fadet i ovnen ved 175 grader varmluft i ca 30 minutter, eller til kyllingen er gennemstegt.
 Server med friske kviste rosmarin.'),
   (12294, 'English Muffins', 'https://www.valdemarsro.dk/english-muffin/', 'https://www.valdemarsro.dk/wp-content/2015/06/english-muffins-3.jpg', '1440', '10 servings', 'Rør gær ud i en skål med stuetempereret mælk. Rør
-Rør fuldkornshvedemel, sukker, salt og hvedemel i og rør dejen på en røremaskine ved lav hastighed i 5 minutter. Tilsæt smør i tern og rør dejen ved høj hastighed i yderligere 5 minutter. Kom dejen i en skål smurt med lidt olie og lad dejen hæve på køkkenbordet i 45 minutter. Sæt dejen i køleskab til koldhævning natten over – i 12-18 timer.
+Rør fuldkornshvedemel, sukker, salt og hvedemel i og rør dejen på en røremaskine ved lav hastighed i 5 minutter. Tilsæt smør i tern og rør dejen ved høj hastighed i yderligere 5 minutter. Kom dejen i en skål smurt med lidt olie og lad dejen hæve på køkkenbordet i 45 minutter. Sæt dejen i køleskab til koldhævning natten over - i 12-18 timer.
 Tag dejen ud og tryk den lidt ud til cirka 1 cm i højden på køkkenbordet, drysset med groft mel. Udstik muffins med en udstikker på cirka 8 cm i diameter.
 Bag bollerne på en tør pande ved lav-middel varme i cirka 10-12 minutter på hver side. Hvis du er tvivl om de har fået nok, så kan de bages færdigt i ovnen ved 175 grader i 5 minutter.'),
   (12297, 'Koteletter i fad med svampe og tomat', 'https://www.valdemarsro.dk/koteletter-i-fad/', 'https://www.valdemarsro.dk/wp-content/2015/07/koteletter-fad.jpg', '30', '4 servings', 'Start med at stege baconskiverne sprøde på en pande og sæt dem derefter til side.
-Krydder koteletterne med salt og peber, kom nu smør på panden og steg koteletterne et halvt til et helt minuts tid på begge sider. Sæt koteletterne til side sammen med bacon.
+Krydder koteletterne med salt og peber, kom nu smør på panden og steg koteletterne et halvt til et helt minuts tid på begge sider. Sæt koteletterne til side sammen med bacon.
 Steg champignon, timian og løg sammen på panden ved høj varme, brug lidt ekstra smør, hvis det er nødvendigt.
 Tilsæt hvidløg og paprika og derefter bacon (som lige skal skæres i små stykker inden) hakkede tomater og fløde. Lad saucen koge i 10 minutter,
 Hvorefter den smages til med salt og peber og derefter hældes i et smurt ovnfast fad med koteletter og bages i en forvarmet ovn ved 175 grader i 15-20minutter eller til koteletterne er gennembagte (det kan variere alt efter tykkelse)
@@ -9646,12 +9569,12 @@ Pisk æggehviderne helt stive.
 Hæld langsomt den varme sukkerlage i de stiftpiskede æggehvider under konstant piskning. Fortsæt med at piske til massen er lun og luftig.
 Skrab massen ud på bagepapir og glat den ud til en tykkelse på omkring 8 millimeter. Tryk de saltede peanuts ned i nougaten, så overfladen er ujævn og lad det køle af.
 Skær nougaten i 2×6 cm store stykker. Sæt dem på en rist. Kom en stribe tyk karamelcreme på hver og hæld tempereret chokolade over. Lad chokoladen sætte sig inden servering.'),
-  (12311, 'Krydrede bønnedeller', 'https://www.valdemarsro.dk/krydrede-boennedeller/', 'https://www.valdemarsro.dk/wp-content/2015/01/boennedeller.jpg', '45', '12 servings', 'Hak bønnerne mellemgroft i en minihakker, sammen med finthakkede løg, hvidløg og persille. Kom æg, mel og alle krydderierne i og kør det hurtigt sammen, men uden at farsen bliver for lind og fintdelt. Den vil være blød, men skal gerne være lidt “grovkornet” i det.
+  (12311, 'Krydrede bønnedeller', 'https://www.valdemarsro.dk/krydrede-boennedeller/', 'https://www.valdemarsro.dk/wp-content/2015/01/boennedeller.jpg', '45', '12 servings', 'Hak bønnerne mellemgroft i en minihakker, sammen med finthakkede løg, hvidløg og persille. Kom æg, mel og alle krydderierne i og kør det hurtigt sammen, men uden at farsen bliver for lind og fintdelt. Den vil være blød, men skal gerne være lidt "grovkornet" i det.
 Lad farsen trække på køl i 30 minutter.
-Form 10 deller og læg dem på en brade­pande med bagepapir. Pensl med olie og bag dem i en forvarmet ovn ved 190 gra­der varmluft i cirka 25 minutter. Vend dem, når halvdelen af tiden er gået.'),
+Form 10 deller og læg dem på en bradepande med bagepapir. Pensl med olie og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 25 minutter. Vend dem, når halvdelen af tiden er gået.'),
   (12314, 'Majspandekager', 'https://www.valdemarsro.dk/majspandekager/', 'https://www.valdemarsro.dk/wp-content/2015/01/majspandekager-2.jpg', '45', '10 servings', 'Rør mælk, æg, salt og pisk fuldkornsmajsmel i dejen. Lad gerne dejen stå og hvile i 30 minutter.
 Dejen skal være flydende, så den nemt kan fordeles på panden til en pandekage og den skal gerne røres sammen undervejs.
-Fordel lidt olie og smør på en varm pande. Når smørret er bruset af, så hældes lidt pandekagedej ud og panden vippes lige lidt rundt så det fordeler sig på hele panden – steg pandekagerne en af gangen på begge sider.'),
+Fordel lidt olie og smør på en varm pande. Når smørret er bruset af, så hældes lidt pandekagedej ud og panden vippes lige lidt rundt så det fordeler sig på hele panden - steg pandekagerne en af gangen på begge sider.'),
   (12317, 'Rosenkålssalat med pære og feta', 'https://www.valdemarsro.dk/rosenkaalssalat/', 'https://www.valdemarsro.dk/wp-content/2014/12/rosenkaalsalat-app.jpg', '15', '4 servings', 'Varm en pande op, kom smør på og lad det bruse af. Lynrist rosenkålen ved høj varme i 15 sekunder under omrøring.
 Anret rosenkålen på et fad sammen med pæretern, smuldret feta, tahindressing, salt og peber.
 Tahindressing
@@ -9660,21 +9583,21 @@ Kom tahin, hvidløg, citronsaft og spidskommen i en skål sammen med salt og peb
 Ælt dejen grundigt på et meldrysset bord. Kom dejen i en ren skål med et rent klæde over og lad den hæve på køkkenbordet i 1 time.
 Ælt dejen igen og rul den ud på et meldrysset bord til en firkant. Drys mel over dejen, rul den sammen. Skær hurtigt tynde skiver, som straks foldes ud og snos til aflange grissinier.
 Læg dem på en bageplade med bagepapir og lad dem hæve i 30 minutter på køkkenbordet. Pensl med æg og drys med sesam eller birkes.
-Bag dem i en forvarmet ovn ved 225 grader varmluft i ca. 6­-10 minutter, til de er gyldne og sprøde.'),
-  (12328, 'Ribbensteg med sprød svær', 'https://www.valdemarsro.dk/ribbensteg-med-sproed-svaer-og-fyld/', 'https://www.valdemarsro.dk/wp-content/2015/11/ribbensteg_.jpg', '180', '6 servings', 'Rids sværen efter med en skarp kniv – pas på ikke at skære gennem spæklaget og ned i kødet, så saften siver ud under stegningen, og sværen bliver blød.
-Gnid flæskesværen grundigt med salt og peber mellem alle rillerne på sværen. Læg et par laurbærblade i bunden af et ovnfast fad og sæt ribbensstegen i en kold ovn. Tænd for 110 grader varmluft og steg den i 1 time.
+Bag dem i en forvarmet ovn ved 225 grader varmluft i ca. 6-10 minutter, til de er gyldne og sprøde.'),
+  (12328, 'Ribbensteg med sprød svær', 'https://www.valdemarsro.dk/ribbensteg-med-sproed-svaer-og-fyld/', 'https://www.valdemarsro.dk/wp-content/2015/11/ribbensteg_.jpg', '180', '6 servings', 'Rids sværen efter med en skarp kniv - pas pa ikke at skære gennem spæklaget og ned i kødet, sa saften siver ud under stegningen, og sværen bliver blød.
+Gnid flæskesværen grundigt med salt og peber mellem alle rillerne pa sværen. Læg et par laurbærblade i bunden af et ovnfast fad og sæt ribbensstegen i en kold ovn. Tænd for 110 grader varmluft og steg den i 1 time.
 Skru temperaturen op til 200 grader og steg i yderligere 1 time. Skru derefter op til 225 grader og fortsæt stegningen, til sværen er sprød. Tag stegen ud og lad den hvile 10 minutter uden at være dækket til, inden den skæres ud i skiver.'),
   (12331, 'Svinemørbrad med parmaskinke', 'https://www.valdemarsro.dk/svinemoerbrad-med-parmaskinke/', 'https://www.valdemarsro.dk/wp-content/2015/06/svinemoerbrad-.jpg', '35', '4 servings', 'Rens mørbraden for evt sener.
 Gnid den med salt og peber og smør den derefter med hvidløgsosten.
 Drys med frisk timian over det hele og pak tilsidst mørbraden ind i parmaskinke til den er godt dækket.
 Læg den i et smurt ovnfast fad og bag den i ovnen i ca 25-30 minutter ved 170 grader varmluft.'),
-  (12334, 'Tryllekartofler', 'https://www.valdemarsro.dk/tryllekartofler/', 'https://www.valdemarsro.dk/wp-content/2014/11/tryllekartofler.jpg', '120', '4 servings', 'Kartoflerne skrubbes rene og skylles grundigt, hvorefter de prikkes gennem skrællen med en gaffel og derefter bages hele i ovnen ved 175 grader varmluft i 1 – 1 1/2 time. Mærk efter med en kødnål, hvornår kartoflerne er møre og klar.
+  (12334, 'Tryllekartofler', 'https://www.valdemarsro.dk/tryllekartofler/', 'https://www.valdemarsro.dk/wp-content/2014/11/tryllekartofler.jpg', '120', '4 servings', 'Kartoflerne skrubbes rene og skylles grundigt, hvorefter de prikkes gennem skrællen med en gaffel og derefter bages hele i ovnen ved 175 grader varmluft i 1 - 1 1/2 time. Mærk efter med en kødnål, hvornår kartoflerne er møre og klar.
 Steg bacon på en pande ved mellemhøj varme på en pande til det er sprødt og læg det derefter på et stykke køkkenrulle.
 Kom løgtern på panden og steg løgene bløde sammen med olivenolie.
-Skær bacon i små tern og bland bacon og løg. Halver kartoflerne og udhul dem, så der kun er skallen tilbage.
-Kom ‘kartoffelkødet’ i en skål og mos det godt sammen med hvidløgsosten, så det bliver lækkert cremet.
+Skær bacon i små tern og bland bacon og løg. Halver kartoflerne og udhul dem, så der kun er skallen tilbage.
+Kom ''kartoffelkødet'' i en skål og mos det godt sammen med hvidløgsosten, så det bliver lækkert cremet.
 Rør bacon og løg i, og fordel det hele tilbage i de halve kartoffelskaller.
-Drys med tørret timian og sæt kartoflerne i ovnen igen, og bag dem 10-15 minutter ved 175 grader varmluft. Pynt med frisk timian inden servering.'),
+Drys med tørret timian og sæt kartoflerne i ovnen igen, og bag dem 10-15 minutter ved 175 grader varmluft. Pynt med frisk timian inden servering.'),
   (12337, 'Svenske Köttbullar med kartoffelmos', 'https://www.valdemarsro.dk/svenske-kottbullar-med-kartoffelmos-og-sauce/', 'https://www.valdemarsro.dk/wp-content/2014/11/svenske-kottbullar.jpg', '40', '4 servings', 'Köttbullar
 Kom rasp og mælk i en skål og lad det trække i 10 minutter.
 Kom løg, kød, hvedemel, æg, bacon, stødt allehånde, salt og peber i en skål og rør det godt sammen. Rør blandingen af rasp og mælk i. Sæt dejen til at trække smag i 30 minutter.
@@ -9683,7 +9606,7 @@ Sauce
 Kom stegefedt fra panden hvor kødbollerne er stegt i en lille gryde sammen med lidt ekstra smør. Pisk hvedemel i til en melbolle og pisk mælk i, mens det varmer op til kogepunktet. Tilsæt piskefløde og oksefond. Smag til med salt, peber og ribsgele.
 Kartoffelmos
 Kog kartoflerne møre i usaltet vand.
-Hæld vandet fra når kartoflerne er møre og mos kartoflerne med smør og pisk den med en  Håndmikser, tilsæt lun mælk lidt efter lidt til mosen er cremet og fløjlsblød.
+Hæld vandet fra når kartoflerne er møre og mos kartoflerne med smør og pisk den med en  Håndmikser, tilsæt lun mælk lidt efter lidt til mosen er cremet og fløjlsblød.
 Smag til med salt og peber, samt friskrevet muskatnød.'),
   (12340, 'Risalamande', 'https://www.valdemarsro.dk/risalamande/', 'https://www.valdemarsro.dk/wp-content/2012/11/risalamande-1.jpg', '240', '6 servings', 'Kom mælk og grødris i en gryde og kog langsomt op under konstant omrøring.
 Skru ned for varmen til næstlaveste blus. Rør rundt et par minutter og læg låg på gryden.
@@ -9691,7 +9614,7 @@ Flæk vaniljestangen og skrab vaniljekornene ud, vend vaniljekornene sammen med 
 Kom sukker, vaniljekorn og den hele tomme vanilje stang i gryden, rør rundt og lad risengrøden simre svagt i 45-50 minutter under jævnlig omrøring til risene er lækre og møre. Tag vaniljestangen op.
 Kom mandlerne i en skål og hæld kogende vand over. Lad det trække i 10 minutter, hæld vandet fra og hæld igen kogende vand over og lad dem stå i 2 minutter. Hæld vandet fra, smut mandlerne og hak dem groft.
 Rør de smuttede og hakkede mandler, samt salt i grøden og lad grøden køle helt af i køleskab i nogle timer eller til dagen efter.
-Inden servering – eller en times tid før den serveres
+Inden servering - eller en times tid før den serveres
 Pisk fløden til en luftig flødeskum og vend den i risengrøden.'),
   (12344, 'Fiskefrikadeller med remoulade og råkost', 'https://www.valdemarsro.dk/fiskefrikadeller/', 'https://www.valdemarsro.dk/wp-content/2012/09/fiskefrikadeller.jpg', '45', '4 servings', 'Kartoffelbåde
 Skær kartoflerne i både og vend dem i olie, salt, og paprika og bag dem i en forvarmet ovn ved 200 grader varmluft i 30-35 minutter til de er gyldne og sprøde. Vend dem et par gange undervejs.
@@ -9707,11 +9630,11 @@ Tilsæt grøntsagsbouillon samt stødt koriander og ingefær, læg låg på og l
 Blend suppen, til den er cremet og ensartet i konsistensen, smag til med salt og peber og måske lidt mere ingefær.
 Server med lækre sprøde croutoner, persille og cremefraiche på toppen.
 Brødcroutoner
-Skær brød i tern og vend med olivenolie, salt og timian. Rist brødene sprøde på en  pande under hyppig omrøring eller bag i en forvarmet ovn ved 175 grader varmluft grader i 15 minutter til de er sprøde.'),
-  (12350, 'Hjemmelavet guf', 'https://www.valdemarsro.dk/hjemmelavet-guf/', 'https://www.valdemarsro.dk/wp-content/2011/08/guf-til-is-2.jpg', '45', '16 servings', 'Klassisk guf – 8 portioner
+Skær brød i tern og vend med olivenolie, salt og timian. Rist brødene sprøde på en  pande under hyppig omrøring eller bag i en forvarmet ovn ved 175 grader varmluft grader i 15 minutter til de er sprøde.'),
+  (12350, 'Hjemmelavet guf', 'https://www.valdemarsro.dk/hjemmelavet-guf/', 'https://www.valdemarsro.dk/wp-content/2011/08/guf-til-is-2.jpg', '45', '16 servings', 'Klassisk guf - 8 portioner
 Kog vand, glukosesirup, sukker og vaniljesukker op i en gryde og rør rundt, til sukkeret er smeltet. Stil sukkerlagen i køleskabet i 15 minutter og rør et par gange, mens den køler lidt af.
 Pisk æggehviderne stive, til de danner toppe. Pisk 1 spsk af sukkerlagen i æggehviderne og hæld derefter sukkerlagen i lidt ad gangen i en tynd stråle. Pisk videre i 5-10 minutter, til det lækre guf er skinnende blankt og luftigt.
-Jordbærguf – 8 portioner
+Jordbærguf - 8 portioner
 Kog sukker, glukosesirup og jordbærsaft op i en gryde og rør rundt, til sukkeret er smeltet. Stil sukkerlagen i køleskabet i 15 minutter og rør et par gange, mens den køler lidt af.
 Pisk æggehvider stive, til de danner toppe. Pisk 1 spsk af sukkerlagen i æggehviderne og hæld derefter sukkerlagen i lidt ad gangen i en tynd stråle og pisk grundigt. Smag til med lidt jordbærsyltetøj og pisk videre i 5-10 minutter, til det er skinnende blankt og luftigt.'),
   (12354, 'Kyllingedeller med krydderurter', 'https://www.valdemarsro.dk/kyllingedeller/', 'https://www.valdemarsro.dk/wp-content/2007/10/kyllingedeller-groent.jpg', '15', '4 servings', 'Kom alle ingredienserne i en skål og rør det godt sammen.
@@ -9721,14 +9644,14 @@ Lad fedt og smuldr sidde på panden og kom derefter grøntsagsboullion og kartof
 Smag pandesovs til med piskefløde, worchestershiresauce, evt salt og peber efter smag og jævn den til sidst med saucejævner og kulør.
 Kog den godt igennem 1-2 minutter og så er den klar til servering.'),
   (12360, 'bagte kartofler med hvidløgssmør', 'https://www.valdemarsro.dk/bagte-kartofler/', 'https://www.valdemarsro.dk/wp-content/2019/11/bagte-kartofler-opskrift.jpg', '90', '4 servings', 'Skrub kartoflerne grundigt og tør dem godt af.
-Prik et par gange i hver  kartoffel med en gaffel og sæt dem i en forvarmet ovn ved 175 grader varmluft.
+Prik et par gange i hver  kartoffel med en gaffel og sæt dem i en forvarmet ovn ved 175 grader varmluft.
 Bag kartoflerne til de er møre. Det tager mellem 1 time og 1 1/2 time, alt efter størrelse.
 Hvidløgssmør
 Tag smørret ud af køleskabet og skær det i små tern som kommes i en skål. Hak persillen fint og rør smørret med persille og presset hvidløg. Smag evt til med flagesalt og friskkværnet peber. Stil på køl til kartoflerne er færdige.
 Skær et kryds i kartoflerne og server med hvidløgssmør.'),
-  (12363, 'Butterdejssnegle med abrikos og bacon', 'https://www.valdemarsro.dk/butterdejssnegle-med-abrikos-og-bacon/', 'https://www.valdemarsro.dk/wp-content/2025/11/butterdejssnegle_abrikos-bacon.jpg', '30', '30 servings', 'Varm en pande op med  lidt olie og steg bacon på begge sider til det er sprødt. Lad det dryppe af på et stykke køkkenrulle og hak derefter fint.
-Læg butterdejspladen på køkkenbordet og del den i to på det lange led.  Smør begge stykker med abrikosmarmelade og drys med bacon og timian.
-Rul hvert stykke til en roulade og skær den i skiver på omkring 8 mm i tykkelsen. Jeg bruger en sytråd, i stedet for en kniv til at ”skære dejen over”. Det er nemt og giver en flot snit, der ikke presser dejen sammen. Læg sytråden omkring dejen hvor snittet skal være, bind en halv knude og stram til, så dejen skæres over.
+  (12363, 'Butterdejssnegle med abrikos og bacon', 'https://www.valdemarsro.dk/butterdejssnegle-med-abrikos-og-bacon/', 'https://www.valdemarsro.dk/wp-content/2025/11/butterdejssnegle_abrikos-bacon.jpg', '30', '30 servings', 'Varm en pande op med  lidt olie og steg bacon på begge sider til det er sprødt. Lad det dryppe af på et stykke køkkenrulle og hak derefter fint.
+Læg butterdejspladen på køkkenbordet og del den i to på det lange led.  Smør begge stykker med abrikosmarmelade og drys med bacon og timian.
+Rul hvert stykke til en roulade og skær den i skiver på omkring 8 mm i tykkelsen. Jeg bruger en sytråd, i stedet for en kniv til at "skære dejen over". Det er nemt og giver en flot snit, der ikke presser dejen sammen. Læg sytråden omkring dejen hvor snittet skal være, bind en halv knude og stram til, så dejen skæres over.
 Læg butterdejssneglene på en bradepande med bagepapir, pensl med sammenpisket æg og bag i en forvarmet ovn i cirka 10 minutter ved 225 grader varmluft og lad dem køle af på en rist 5-10 minutter inden servering.'),
   (12366, 'Æbleslaw med spidskål', 'https://www.valdemarsro.dk/aebleslaw/', 'https://www.valdemarsro.dk/wp-content/2024/02/aebleslaw.jpg', '15', '4 servings', 'Vend æbler, spidskål, gulerødder, tranebær og solsikkekerner sammen i en skål.
 Rør råkostsalaten godt sammen og smag til med lidt salt, friskkværnet peber og citronsaft.'),
@@ -9739,7 +9662,7 @@ Vend frisk basilikum i retten og server den dampende varme pasta med salsiccia p
   (12372, 'Friske forårsruller med kokosrejer', 'https://www.valdemarsro.dk/friske-foraarsruller-med-kokosrejer/', 'https://www.valdemarsro.dk/wp-content/2024/03/friske-foraarsruller-kokosruller.jpg', '90', '4 servings', 'Kokosrejer
 Rør ingefær, hvidløg, fishsauce, sriracha, limesaft og olie sammen til det er ensartet. Dup rejerne helt tørre med køkkenrulle og vend dem godt i marinaden.
 Lad det trække smag i minimum 1 time eller natten over.
-Dyp rejerne en efter en, først i en skål med sammenpisket æg og derefter i en skål med kokosmel. Læg dem på en bageplade med  bagepapir, og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 12-15 minutter til de er gyldne.
+Dyp rejerne en efter en, først i en skål med sammenpisket æg og derefter i en skål med kokosmel. Læg dem på en bageplade med  bagepapir, og bag dem i en forvarmet ovn ved 190 grader varmluft i cirka 12-15 minutter til de er gyldne.
 Mango og avocado salsa
 Vend mango, avocado og krydderurter sammen i en skål og mos det en smule med en gaffel. Det skal gerne være groft og med hele stykker mango og avocado, men samtidig også smovset og lækkert. Smag til med limesaft og skal, chili, salt og peber og rør det godt sammen.
 Saml forårsrullerne
@@ -9771,7 +9694,7 @@ Anret kålen på et fad eller i en skål og fordel appelsinfileter, vindruer, gr
   (12396, 'Julefrikadeller', 'https://www.valdemarsro.dk/julefrikadeller/', 'https://www.valdemarsro.dk/wp-content/2021/01/julefrikadeller.jpg', '45', '4 servings', 'Kom alle ingredienserne i en skål og rør dem sammen med en håndmikser i 2 minutter.
 Lad frikadellefarsen hvile i minimum 30 min i køleskabet.
 Form frikadellerne og steg dem i cirka 5 minutter på hver side på en pande med smør og olie.'),
-  (12399, 'Butterdejsstænger med parmesan', 'https://www.valdemarsro.dk/butterdejsstaenger/', 'https://www.valdemarsro.dk/wp-content/2020/02/butterdejsstaenger-parmesan.jpg', '30', '16 servings', 'Skær butterdejen på langs, pensl det ene stykke med et tyndt lag sennep og drys halvdelen af parmesan på. Læg den anden halvdel butterdej over og skær derefter i strimler på 1 – 1,5 cm. Pensl butterdejsstrimlerne på begge sider med sammenpisket æg.
+  (12399, 'Butterdejsstænger med parmesan', 'https://www.valdemarsro.dk/butterdejsstaenger/', 'https://www.valdemarsro.dk/wp-content/2020/02/butterdejsstaenger-parmesan.jpg', '30', '16 servings', 'Skær butterdejen på langs, pensl det ene stykke med et tyndt lag sennep og drys halvdelen af parmesan på. Læg den anden halvdel butterdej over og skær derefter i strimler på 1 - 1,5 cm. Pensl butterdejsstrimlerne på begge sider med sammenpisket æg.
 Vrid strimlerne, så de bliver twistede og læg dem på bagepapir på en bageplade. Drys hvert stykke butterdej med fintrevet ost, birkes, flagesalt og friskkværnet peber. Sæt butterdejsstængerne i en forvarmet ovn ved 220 grader varmluft og bag i ca. 10 minutter. Lad dem køle af på en rist og server med en dip til.
 Citron- og pestodip
 Rør ingredienserne til dip sammen og smag godt til med salt og peber, samt mere citronsaft, pesto eller sennep efter smag.'),
@@ -9786,7 +9709,7 @@ Kom kødet tilbage i gryden med tomatflødesaucen og lad et simre med til kødet
 Server i dybe tallerkener med friskrevet parmesan og et lille drys oregano.'),
   (12408, 'Fuldkornsbagels', 'https://www.valdemarsro.dk/fuldkornsbagels/', 'https://www.valdemarsro.dk/wp-content/2025/05/fuldkornsbagels.jpg', '240', '8 servings', 'Rør gær ud i en skål med vand. Tilsæt olie, salt, sukker, fuldkornshvedemel og hvedemel. Rør dejen til den er blød og smidig, ved lav-middel hastighed i 10 minutter på en røremaskine. Kom dejen i en ren skål smurt med olie. Lad dejen hæve overdækket med et rent klæde i 1 time på køkkenbordet. Vend dejen ud på et meldrysset bord og slå den let sammen. Vej dejen af og del den i lige store stykker, som hver formes til en helt rund og glat bolle.
 Smør hænderne i olivenolie og sæt tommelfingeren gennem midten af hver dejkugle, så der bliver et hul i midten. Træk godt ud i dejen og udvid hullet. Form hver bagel, så den er rund og fin, og vær opmærksom på, at brødet hæver godt op under kogning og bagning, så hullet i midten må gerne være lidt stort. Læg dem på et stykke bagepapir med god afstand mellem dem og lad dem hæve i 45 minutter.
-Klip bagepapiret rundt om hver bagels ud og bring en gryde med 2 liter vand i kog. Skru ned for varmen så vandet koger svagt. Sænk hver bagels på med bagepapiret i vandet på en hulske og kog en eller to bagels ad gangen. Fjern bagepapiret i vandet med en madpincet og lad hver bagel simre i vandet i et minuts tid. Tag dem op med en hulske og læg dem på en bageplade med bagepapir. Fortsæt med resten af bollerne.  Pensl med sammenpisket æg og drys med topping. Bag i en forvarmet ovn ved 200 grader varmluft i ca. 16-18 minutter. Lad dem køle lidt af på en rist, inden de skæres over.'),
+Klip bagepapiret rundt om hver bagels ud og bring en gryde med 2 liter vand i kog. Skru ned for varmen så vandet koger svagt. Sænk hver bagels på med bagepapiret i vandet på en hulske og kog en eller to bagels ad gangen. Fjern bagepapiret i vandet med en madpincet og lad hver bagel simre i vandet i et minuts tid. Tag dem op med en hulske og læg dem på en bageplade med bagepapir. Fortsæt med resten af bollerne.  Pensl med sammenpisket æg og drys med topping. Bag i en forvarmet ovn ved 200 grader varmluft i ca. 16-18 minutter. Lad dem køle lidt af på en rist, inden de skæres over.'),
   (12411, 'Rosmarinkartofler med gulerødder', 'https://www.valdemarsro.dk/rosmarinkartofler-med-guleroedder/', 'https://www.valdemarsro.dk/wp-content/2025/04/rosmarinkartofler-guleroedder.jpg', '45', '4 servings', 'Kom kartofler, gulerødder og rødløg på en bradepande med bagepapir.
 Kom hvidløg, rosmarin, salt og peber i en morter og stød til det er ensartet og en fin kryddersalt. Vend kryddersaltet med olivenolie og fordel over kartofler og gulerødder på bagepapiret. Vend det godt sammen og bag i en forvarmet ovn ved 220 grader varmluft i cirka 30-40 minutter, til kartoflerne er møre og gyldne. Vend et par gange undervejs.
 Server i et ovnfast fad eller i en skål og drys eventuelt lidt flagesalt over før servering.'),
@@ -9796,34 +9719,34 @@ Skru op for varmen, kom champignoner i og rør godt igennem.
 Kom alle de andre ingredienser til lasagnesaucen i gryden og lad det simre i minimum 1 time ved lav varme. Jo længere tid, jo mere cremet og lækker bliver saucen. Rør jævnligt og tilføj grøntsagsbouillon, hvis det er nødvendigt. Smag til med salt og peber.
 Spinatfyld
 Tilbered spinatfyldet, når lasagnesaucen har simret færdig.
-Sauter løg og hvidløg på en pande med olie, til løgene er bløde. Tilsæt frossen spinat og kog op, til spi­naten er tøet op. Hæld overskydende væde fra. Tilsæt basilikum og fløde. Smag til med friskrevet muskatnød, salt og peber.
+Sauter løg og hvidløg på en pande med olie, til løgene er bløde. Tilsæt frossen spinat og kog op, til spinaten er tøet op. Hæld overskydende væde fra. Tilsæt basilikum og fløde. Smag til med friskrevet muskatnød, salt og peber.
 Mornaysauce
 Smelt smør i en gryde og pisk hvedemel i til en melbolle. Pisk derefter langsomt mælk i, til alt melet er opløst og saucen er jævn. Kog den igennem og kom mere mælk i hvis nødvendigt.
 Når saucen er jævn og har en god cremet men flydende konsistens, tilsættes ost og der røres til osten er smeltet. Smag til med muskatnød, salt og peber.
 Vegetar Lasagne
-Kom først halvdelen af mornaysaucen i et smurt ovn­fast fad.
+Kom først halvdelen af mornaysaucen i et smurt ovnfast fad.
 Kom skiftevis lasagnesauce, spinatfyld og lasagneplader i, til der ikke er mere sauce tilbage og afslut med mornaysauce.
-Bag lasagnen i en forvarmet ovn ved 175 grader varmluft i cirka 20-­25 minutter, til lasagnepladerne er møre.'),
+Bag lasagnen i en forvarmet ovn ved 175 grader varmluft i cirka 20-25 minutter, til lasagnepladerne er møre.'),
   (12417, 'Chili sin carne', 'https://www.valdemarsro.dk/chili-sin-carne/', 'https://www.valdemarsro.dk/wp-content/2017/09/chili-sin-carne-1.jpg', '45', '4 servings', 'Varm spidskommen, kanel, koriander, røget paprika og chiliflager igennem i en tør sauterpande eller en gryde. Rør rundt i et par minutter, til det dufter pragtfuldt.
 Skru derefter lidt ned for varmen og tilsæt olie, hakkede rødløg og hvidløg. Rør rundt, til løgene er bløde. Tilsæt squash, aubergine, bladselleri, hakkede tomater, soltørrede tomater og grøntsagsboullion. Læg låg på og lad det simre i 30 minutter.
 Tilsæt bønner og varm dem godt igennem i 5 minutter.
-Tag sauterpanden af varmen og rør chokoladen i – start med halvdelen og smag til med resten af chokoladen samt salt og peber og evt. mere chili, hvis den skal være stærkere.
+Tag sauterpanden af varmen og rør chokoladen i - start med halvdelen og smag til med resten af chokoladen samt salt og peber og evt. mere chili, hvis den skal være stærkere.
 Server med ris, nachos, cremefraiche, chili, cheddarost, frisk koriander og lime.'),
   (12420, 'Culottesteg', 'https://www.valdemarsro.dk/culottesteg/', 'https://www.valdemarsro.dk/wp-content/2017/07/culottesteg-opskrift.jpg', '90', '1 serving', 'Tag culottestegen ud af køleskabet. Dup den godt af med køkkenrulle for kødsaft og lad den tempere på køkkenbordet.
-Fjern sener fra undersiden af culotten med en skarp kniv og rids fedtet øverst på culotten i tern – sørg for ikke at skære gennem kødet, men blot lige gennem fedtet og ned til kødet.
+Fjern sener fra undersiden af culotten med en skarp kniv og rids fedtet øverst på culotten i tern - sørg for ikke at skære gennem kødet, men blot lige gennem fedtet og ned til kødet.
 Kom rosmarinnåle, salt, peberkorn og hvidløg i en morter og stød det sammen til en smuk grøn rosmarinsalt, som gnides godt ind i de ridsede fedttern på culottestegen.
 På grill
-Varm kullene i en grillstarter og fordel derefter de varme kul i hver side af en kuglegrill. Grill culottestegen ved indirekte varme på en rist.
+Varm kullene i en grillstarter og fordel derefter de varme kul i hver side af en kuglegrill. Grill culottestegen ved indirekte varme på en rist.
 Intervalstegning:
-Tag culotten ud og lad den hvile på et skærebræt i cirka 15 minutter, dækket med et rent klæde og skær den derefter ud.
+Tag culotten ud og lad den hvile på et skærebræt i cirka 15 minutter, dækket med et rent klæde og skær den derefter ud.
 I ovnen
 Forvarm ovnen til 175 grader varmluft.
 Intervalstegning:
 Tag culotten ud og lad den hvile i fadet i cirka 15 minutter, dækket med et rent klæde og skær den derefter ud.
 Udskæring af culottesteg
 På mine billeder her, har jeg først skåret skiver af den spidse ende af culottestegen. Man kan se at jeg faktisk godt lige kan skære en skive mere og derefter vender jeg stegen en kvart omgang og skærer på den anden led.
-TIP – Stegetermometer
-Vi bruger ikke selv et stegetermometer, når vi steger culottesteg. Men hvis man har en mindre eller større steg end vores – eller gerne vil være helt på den sikre side, så kan man bruge sådan et.
+TIP - Stegetermometer
+Vi bruger ikke selv et stegetermometer, når vi steger culottesteg. Men hvis man har en mindre eller større steg end vores - eller gerne vil være helt på den sikre side, så kan man bruge sådan et.
 Her skal temperaturen være på 56-57 grader (endelig ikke mere), når culottestegen tages af grillen eller ud af ovnen i det sidste interval.
 Opskriften er til 6-8 personer'),
   (12423, 'Sprøde Wontons', 'https://www.valdemarsro.dk/sproede-wontons/', 'https://www.valdemarsro.dk/wp-content/2017/05/wonton-app.jpg', '40', '40 servings', 'Sauter champignoner, løg og hvidløg i olie på en pande ved høj varme.
@@ -9859,7 +9782,7 @@ Server kølig raita.
 Raita
 Rør alle ingredienserne til raita sammen og smag til.'),
   (12439, 'Bearnaise sauce', 'https://www.valdemarsro.dk/bearnaise/', 'https://www.valdemarsro.dk/wp-content/2014/08/bearnaise.jpg', '30', '4 servings', 'Kom smørret i en gryde og smelt det ved laveste varme. Den smeltede smør deler sig i en klaret smør med et hvidt kærnemælkslignende bundfald i gryden. Hæld den klarede smør langsomt i en kande og kasser det hvide bundfald.
-Kom estragonstænglerne – nip på forhånd estragonbladene af og læg dem til side til senere – eddike, vand, finthakket løg, samt en smule salt og peber i en ren gryde. Kog op og kog det ind til ca. 3-4 spsk. bearnaiseessens.
+Kom estragonstænglerne - nip på forhånd estragonbladene af og læg dem til side til senere - eddike, vand, finthakket løg, samt en smule salt og peber i en ren gryde. Kog op og kog det ind til ca. 3-4 spsk. bearnaiseessens.
 Si fyldet fra, så der kun er den rene essens tilbage. Kom essensen i en ren gryde, og sæt temperaturen på den laveste eller næst-laveste varme (på mit komfur sætter jeg varmen på 2 ud af 9)
 Kom æggeblommer i gryden og pisk til det skummer og æggeblommerne begynder at tykne. Måske skal der lige skrues en anelse op for varmen, før at æggeblommerne tykner, det er dog vigtigt, at der hele tiden piskes i saucen og at æggeblommerne tykner inden smør piskes i, for ellers bliver saucen alt for tynd. Når æggeblommerne tykner, så skrues ned på laveste varme. Pisk 1 spsk. smør i ad gangen de første 10 spsk. og pisk derefter resten af smørret i i en tynd stråle, til alt smør er brugt.
 Smag bearnaisen til med citronsaft, salt, peber og de finthakkede estragonblade inden servering.'),
@@ -9879,7 +9802,7 @@ Læg indmad fra anden, timiankviste, gulerødder, bladselleri, løg og en flækk
 Læg anden med brystet ned i bradepanden og sæt i en kold ovn ved 125 grader almindelig ovn (ikke varmluft) og steg anden i en time.
 Vend anden om og sæt den på en rist efter en time, så den har brystet op og hæld appelsinsaft og 1 liter vand over anden, så det løbet ned i bradepanden. Steg videre i 2 timer ved 125 grader. Hæld væde fra bradepanden over anden hver halve time.
 Hæv temperaturen til 150 grader i yderligere en time. Hæld væde fra bradepanden over anden hver halve time. Mål eventuelt med et stegetermometer sat ind i anden. Efter en time, eller når temperaturen på anden er 65 grader, så hæves temperaturen til 225 grader og anden steges videre i cirka 20 minutter eller til temperaturen er 74-75 grader. Du kan også tjekke om anden er færdig ved at stikke den med en kødnål, hvorefter saften der løber ud skal være klar.
-Si skyen fra og sæt den i køleskabet. Partér anden og læg stykkerne i en bradepande. Brun anden lige inden servering, til skindet er sprødt, ved 250 grader i ca. 10- 15 minutter. Skum skyen for fedt og kog ind, til der er ca. 5 dl sky tilbage til saucen. Jævn eventuelt saucen med lidt majsstivelse og smag til med honning, piskefløde, salt og peber
+Si skyen fra og sæt den i køleskabet. Parter anden og læg stykkerne i en bradepande. Brun anden lige inden servering, til skindet er sprødt, ved 250 grader i ca. 10- 15 minutter. Skum skyen for fedt og kog ind, til der er ca. 5 dl sky tilbage til saucen. Jævn eventuelt saucen med lidt majsstivelse og smag til med honning, piskefløde, salt og peber
 Servering
 Andesteg serveres med almindelige, brune og franske kartofler, den brune julesauce, rødkål, en sprød kålsalat, surt og sødt og et dejligt glas kraftig rødvin.'),
   (12451, 'Ovnstegt kylling med citron og rosmarin', 'https://www.valdemarsro.dk/citron-og-rosmarin-kylling/', 'https://www.valdemarsro.dk/wp-content/2008/07/ovnstegt-kylling-1.jpg', '150', '4 servings', 'Riv lidt citronskal af den ene citron, og stød det sammen med 1 spsk rosmarinkviste, smør, salt og peber til en grødet masse, som stilles til side et øjeblik.
@@ -9930,20 +9853,20 @@ Tilsæt bacon og fløde. Lad fløden bruse kort op. Tag panden af varmen og rør
   (12484, 'Boghvedepandekager', 'https://www.valdemarsro.dk/boghvedepandekager/', 'https://www.valdemarsro.dk/wp-content/2014/04/boghvedepandekager.jpg', '15', '10 servings', 'Mos bananen og pisk først æggene og derefter boghvedemel, salt og honning i med en gaffel.
 Steg på en varm pande med lidt olie og en smule smør.
 Serveres med friske bær, frugt, ahorn eller agavesirup, samt evt et drys lakridspulver.'),
-  (12486, 'Ciabattabrød med surdej', 'https://www.valdemarsro.dk/ciabattabroed-med-surdej/', 'https://www.valdemarsro.dk/wp-content/2025/10/ciabatta-surdej.jpg', '720', '2 servings', 'Rør vand, manitoba hvedemel og durumhvedemel sammen i en skål, til det er blandet godt. Læg låg på og lad dejen hvile til autolyse i 1 ½ time.
-Kom surdejen i dejen og ælt – gerne på en røremaskine ved lav-middelhastighed i 10 minutter. Tilsæt salt og ælt videre i 5 minutter, til dejen er glat og blank i overfladen. Kom dejen i en skål smurt med olie, læg låg over og lad dejen hvile på køkkenbordet i 30 minutter. Fold dejen i skålen ved at fugte hænderne med koldt vand og derefter tage fat om dejen og folde den 3-5 gange til den spændes lidt op og føles mere elastisk og spændt. Lad dejen hvile igen i 30 minutter og gentag foldningen. Gentag dette til dejen er foldet over i alt 3 omgange. Lad derefter dejen hvile på køkkenbordet i yderligere 2 timer uden at folde dejen og sæt derefter dejen i køleskabet på den køligste hylde – nederst i køleskabet lige over grøntsagsskuffen – i 10-16 timer.
+  (12486, 'Ciabattabrød med surdej', 'https://www.valdemarsro.dk/ciabattabroed-med-surdej/', 'https://www.valdemarsro.dk/wp-content/2025/10/ciabatta-surdej.jpg', '720', '2 servings', 'Rør vand, manitoba hvedemel og durumhvedemel sammen i en skål, til det er blandet godt. Læg låg på og lad dejen hvile til autolyse i 1 1/2 time.
+Kom surdejen i dejen og ælt - gerne på en røremaskine ved lav-middelhastighed i 10 minutter. Tilsæt salt og ælt videre i 5 minutter, til dejen er glat og blank i overfladen. Kom dejen i en skål smurt med olie, læg låg over og lad dejen hvile på køkkenbordet i 30 minutter. Fold dejen i skålen ved at fugte hænderne med koldt vand og derefter tage fat om dejen og folde den 3-5 gange til den spændes lidt op og føles mere elastisk og spændt. Lad dejen hvile igen i 30 minutter og gentag foldningen. Gentag dette til dejen er foldet over i alt 3 omgange. Lad derefter dejen hvile på køkkenbordet i yderligere 2 timer uden at folde dejen og sæt derefter dejen i køleskabet på den køligste hylde - nederst i køleskabet lige over grøntsagsskuffen - i 10-16 timer.
 Kom en bagesten eller et bagestål i ovnen og varm ovnen op til 250 grader varmluft i 45 minutter, til bagepladen er godt varm.
 Vend forsigtigt den bløde dej ud på et meldrysset bord og skær dejen ud til ciabatabrød. Læg dem forsigtigt på et stykke bagepapir med lidt plads mellem. Drys lidt durummel over og sæt brødet i ovnen og skru temperaturen ned til 180 grader varmluft. Bag i 30 minutter. Tag derefter bagepapiret ud under brødet og skru ovnens temperatur op til 230 grader og bag videre i 15 minutter eller til brødet er gyldent og har en flot skorpe.
 Lad brødet køle af på en bagerist.'),
   (12489, 'Sharwarma af lammekød - kebab', 'https://www.valdemarsro.dk/kebab-shawarma/', 'https://www.valdemarsro.dk/wp-content/2016/08/hjemmelavet-sharwarma-lam.jpg', '1440', '6 servings', 'Skær lammekødet i små, gode mundrette stykker og strimler.
-Rør marinaden godt sammen i en stor skål og vend l ammekødet grundigt i marinaden. Dæk skålen til og lad kødet marinere i køleskabet i 12 – 24 timer.
+Rør marinaden godt sammen i en stor skål og vend l ammekødet grundigt i marinaden. Dæk skålen til og lad kødet marinere i køleskabet i 12 - 24 timer.
 Tag kødet op af marinaden med en hulske og kasser den overskydende marinade.
 Varm lidt olie op på en stor pande og steg kødet i små portioner ad flere omgange. Det er vigtigt kun at stege lidt kød ad gangen, da det ellers afgiver for meget væde og derved risikerer at blive kogt i stedet for stegt.
 Saml shawarmaen med fyldet, mens kødet stadig er rygende varmt.'),
   (12493, 'Fuldkornsboller', 'https://www.valdemarsro.dk/fuldkornsboller/', 'https://www.valdemarsro.dk/wp-content/2025/10/fuldkornsboller.jpg', '720', '12 servings', 'Skyl hvedekernerne godt i en sigte under rindende vand og kom hvedekerner i en skål. Hæld kogende vand over og lad det trække i mindst en time, til det er kølet helt af til stuetemperatur, lad vandet blive i skålen.
 Opløs gæren i en lille skål med stuetempereret vand og rør den i skålen med iblødsatte hvedekerner sammen med yoghurt, salt, hvedemel og fuldkornsmel i og rør dejen sammen med en grydeske. Lad dejen hæve på køkkenbordet i 30 minutter og sæt derefter skålen med dej i køleskabet natten over.
 Hæld dejen ud på et meldrysset bord, og skær bollerne ud med en bagespartel. Sæt bollerne på en bageplade med bagepapir og lad dem efterhæve i 30 minutter og bag dem i en forvarmet ovn ved 180 grader varmluft i cirka 20 minutter. Lad dem køle af på en rist.'),
-  (12496, 'Halloumi Stroganoff med kartoffelmos', 'https://www.valdemarsro.dk/halloumi-stroganoff-med-kartoffelmos/', 'https://www.valdemarsro.dk/wp-content/2025/03/Halloumi-stroganoff-vegetar.jpg', '45', '4 servings', 'Varm olien op i en stegegryde og rist champignon høj varme, til de har fået en gylden stegeskorpe. Tilsæt aubergine, halloumi, løg og hvidløg.  Steg videre til også aubergine har fået en gylden stegeskorpe.
+  (12496, 'Halloumi Stroganoff med kartoffelmos', 'https://www.valdemarsro.dk/halloumi-stroganoff-med-kartoffelmos/', 'https://www.valdemarsro.dk/wp-content/2025/03/Halloumi-stroganoff-vegetar.jpg', '45', '4 servings', 'Varm olien op i en stegegryde og rist champignon høj varme, til de har fået en gylden stegeskorpe. Tilsæt aubergine, halloumi, løg og hvidløg.  Steg videre til også aubergine har fået en gylden stegeskorpe.
 Rør tomatpure, paprika, hvedemel og grøntsagsbouillon sammen i en skål til det er ensartet, rør piskefløden i og kom det i gryden sammen med laurbærblade.
 Læg låg på og lad gryderetten simre i 15 minutter og kog imens kartoflerne og blomkål til mosen. Tilføj lidt ekstra grøntsagsbouillon, hvis nødvendigt og smag til med salt og friskkværnet peber.
 Kartoffelmos
@@ -9952,7 +9875,7 @@ Mos kartofler og blomkål med smør og pisk derefter kartoffelmosen med en elpis
 Server Stroganoff med mos og et drys bredbladet persille.'),
   (12499, 'Pasta med laks og fløde', 'https://www.valdemarsro.dk/nem-pastaret-med-laks-og-basilikum/', 'https://www.valdemarsro.dk/wp-content/2012/11/pasta-laks-floede.jpg', '25', '4 servings', 'Kom laksefiletter på en bageplade med bagepapir. Drys med salt og peber og bag dem i en forvarmet ovn ved 175 grader varmluft i 10 minutter. Drys finthakkede mandler på og bag videre i cirka 5 minutter eller til laksen er lige knap færdigtilberedt.
 Kog imens pasta efter anvisning på pakken.
-Sauter løg og hvidløg på en pande til det er blødt og klart. Tilsæt fløden og lad den bruse af og koge lidt ind. Fjern skindet fra den næsten færdigtilberedte laks og kom laksen på panden med flødesaucen, lad den simre med i et lille minutstid til den er færdig og smag godt til med salt,  peber og finthakket basilikum.
+Sauter løg og hvidløg på en pande til det er blødt og klart. Tilsæt fløden og lad den bruse af og koge lidt ind. Fjern skindet fra den næsten færdigtilberedte laks og kom laksen på panden med flødesaucen, lad den simre med i et lille minutstid til den er færdig og smag godt til med salt,  peber og finthakket basilikum.
 Vend den varme pasta med flødesaucen og fordel resten af saucen og laksen over på tallerkener.'),
   (12502, 'Valnøddelagkage', 'https://www.valdemarsro.dk/valnoeddelagkage/', 'https://www.valdemarsro.dk/wp-content/2017/03/valnoeddelagkage-1.jpg', '360', '1 serving', 'Lagkagebunde med valnødder
 Del æggene i hvider og blommer.
@@ -9998,14 +9921,14 @@ Vend forsigtigt nøddemelet i med en dejskraber uden at trykke luften ud af mare
 Læg bagepapir på to plader og pensl bagepapiret med smeltet smør. Fordel marengsmassen på de to bageplader og glat hver del ud til en firkantet bund på ca. 25 x 30 cm. Drys hasselnøddeflager på den ene bund. Bag bundene i en forvarmet ovn ved 150 grader varmluft i ca. 25 minutter, til de er gyldne. Lad bundene afkøle helt på bagepladerne.
 Moccacreme
 Smelt chokoladen i et vandbad ved lav varme og kom den i en skål sammen med smørret. Pisk det godt sammen, til det er luftigt. Tilsæt flormelis og pisk igen, til det er en lækker og ensartet creme. Rør en æggeblomme ad gangen i cremen og sørg for, at cremen er helt ensartet, inden du rører den næste æggeblomme i.
-Rør til sidst den stærke kaffe i – start først med halvdelen og smag til med resten.
+Rør til sidst den stærke kaffe i - start først med halvdelen og smag til med resten.
 Halvér bundene til i alt fire bunde. Læg de fire bunde sammen med moccasmørcremen lag for lag og afslut med den pæneste marengsbund med hasselnøddeflager drysset over.
 Sæt kagen i køleskab i min. 2 timer, eller til den skal serveres, eller sæt den i fryseren i 1 time. Drys med flormelis og skær fragilitéen ud i passende stykker til servering'),
   (12532, 'Blomkålssalat med æbler og mandler', 'https://www.valdemarsro.dk/blomkaalssalat/', 'https://www.valdemarsro.dk/wp-content/2018/01/blomkaalssalat-1.jpg', '10', '4 servings', 'Pestodressing
 Rist pinjekerner og kom persille, hvidløg, parmesan og olie i en minihakker, og kør til konsistensen er god.
 Rør de andre ingredienser til dressingen i pestoen og smag til.
 Saltede mandler
-Opløs salt i vandet, skyl mandlerne og kom dem i det saltede vand.  Rist dem på en pande til vandet er fordampet og hak dem fint.
+Opløs salt i vandet, skyl mandlerne og kom dem i det saltede vand.  Rist dem på en pande til vandet er fordampet og hak dem fint.
 Blomkålssalat
 Skær blomkålen i små buketter og hak dem fint eller kom blomkålen i en foodprocessor og hak den fint.
 Vend blomkålen med æbletern (gem lidt til anretningen), mandler, persille og pestodressing og anret salaten i en skål med et drys æbletern, nødder og lidt friske krydderurter på toppen.'),
@@ -10019,9 +9942,9 @@ Bland hvedemel og fuldkornsmel med salt og smuldr smør i melblandingen. Saml de
 Rul dejen ud og tryk derefter dejen ud i en smurt tærteform. Prik hul i dejen med en gaffel og forbag den i en forvarmet ovn ved 175 grader varmluft i 10 minutter.
 Fyld
 Steg bacon på panden, til det er næsten færdigt og sprødt.
-Sauter porrerne under omrøring ved middel­ varme i fedtet fra bacon eller i olivenolie.
+Sauter porrerne under omrøring ved middel varme i fedtet fra bacon eller i olivenolie.
 Bland æg, mælk, bacon, muskatnød, porrer og peber i en skål og fordel fyldet i den forbagte tærtebund.
-Bag tærten færdig i ovnen ved 175 grader varmluft i cirka 25­-30 minutter, eller til æggemassen er stivnet.'),
+Bag tærten færdig i ovnen ved 175 grader varmluft i cirka 25-30 minutter, eller til æggemassen er stivnet.'),
   (12542, 'Græsk kartoffelfad', 'https://www.valdemarsro.dk/graesk-kartoffelfad-med-oksekoed/', 'https://www.valdemarsro.dk/wp-content/2023/10/graesk-kartoffelfad-oksekoed.jpg', '60', '4 servings', 'Græsk kartoffelfad
 Vend kartoffeltern, rød peber, løg, soltørrede tomater, timian, rosmarin, salt og olie godt sammen i et smurt ovnfast fad og bag i en forvarmet ovn ved 220 grader varmluft i cirka 30 minutter. Lav imens tzatzikien klar.
 Sauter løgene på en pande ved middelvarme, til de er bløde. Skru op for varmen og brun kødet godt af under konstant omrøring. Skru ned for varmen til middelvarme og tilsæt krydderier, soltørrede tomater i olie og hakkede tomater. Smag godt til med salt og peber og lad det koge lidt ind i 5 minutter.
@@ -10041,7 +9964,7 @@ Server i skåle med lidt cremefraiche, et drys ristede græskarkerner, hasselnø
 Smelt smør i en gryde og sauter løg og hvidløg heri. Tilsæt resten af ingredienserne, rør godt rundt og lad marinaden simre i en halv time uden låg.
 Spareribs
 Fjern den hinde, der sidder på bagsiden af spareribsene, og læg dem i et stort fad. Fordel marinaden over, så spareribsene er smurt godt ind på alle sider. Kom et stykke folie over og sæt fadet på køl til dagen efter eller i min. 10 timer.
-Grill dem i en grill ved indirekte varme under låg ved ca. 150 grader i 2-3 timer, og giv dem gerne lidt røg til sidst – dette kan dog undlades, hvis man ikke har røgsmuld.
+Grill dem i en grill ved indirekte varme under låg ved ca. 150 grader i 2-3 timer, og giv dem gerne lidt røg til sidst - dette kan dog undlades, hvis man ikke har røgsmuld.
 Tag spareribsene af grillen og pensl med ekstra barbecuemarinade.'),
   (12554, 'Chili Cheese Scones', 'https://www.valdemarsro.dk/chili-cheese-scones/', 'https://www.valdemarsro.dk/wp-content/2014/11/chili-cheese-scones.jpg', '30', '8 servings', 'Kom de tørre ingredienser i en skål og rør dem godt sammen. Smuldr iskoldt smør i blandingen, der må gerne være synlige smørklumper. Vend jalapenos og cheddar i blandingen.
 Rør hurtigt kærnemælk i dejen og saml dejen med piskefløde. Dejen skal blot være akkurat samlet og må ikke æltes. Vend dejen ud på et meldrysset og tryk dejen ud til en firkant på 1,5 cm i højden. Skær dejen ud i firkanter til antal scones. Dejen vil klistre lidt til bordpladen, brug en kniv til at skære hver scones fri. Der skal endelig ikke bruges mere mel.
@@ -10055,7 +9978,7 @@ Tomatsauce
 Sauter løg og hvidløg i en gryde med olivenolie, til løgene er bløde. Kom resten af ingredienser til saucen, rør godt sammen og lad det simre i 30 minutter uden låg, så det koger lidt ind.
 Smag saucen til med salt og friskkværnet peber. Sæt derefter saucen i køleskab, så den er helt afkølet, når pizzasneglene samles.
 Saml pizzasneglene
-Rul dejen ud på et meldrysset bord, til et rektangel på omkring ½ cm i tykkelsen.
+Rul dejen ud på et meldrysset bord, til et rektangel på omkring 1/2 cm i tykkelsen.
 Smør kold tomatsauce på dejen, bortset fra de yderste 4 cm fra den ene kant og drys mozzarella, basilikum og chorizo over.
 Rul dejen sammen til en lang rulle og skær snegle i cirka 2 cm tykkelse med en skarp kniv.
 Sæt dem på en bageplade med bagepapir og form dem runde og pæne med hænderne. Lad dem hæve i 30 minutter.
@@ -10064,12 +9987,12 @@ Pensl med sammenpisket æg og bag i en forvarmet ovn ved 180 grader varmluft i 1
 Kom spinat, flødeost, cremefraiche i gryden og rør det godt sammen med lidt af kogevandet fra pastaen. Sæt temperaturen på middelvarme og juster konsistensen til at være lækker cremet.
 Kom den ferske laks i tern og den knap færdigkogte pasta tilbage i gryden, så snart spinaten er faldet sammen. Vend det godt sammen i ét minut og smag til med lidt citronsaft, fintrevet citronskal, salt og friskkværnet peber. Server straks.'),
   (12563, 'Koldhævede hasselnøddeboller', 'https://www.valdemarsro.dk/koldhaevede-hasselnoeddeboller/', 'https://www.valdemarsro.dk/wp-content/2025/10/hasselnoeddeboller.jpg', '720', '12 servings', 'Rør gær ud i en skål med vand og kom yoghurt, honning, salt, hvedemel, fuldkornshvedemel, havregryn og hasselnøddekerner i. Rør til dejen er en ensartet, klistret og blød dej. Lad dejen stå overdækket på køkkenbordet i 30 minutter og sæt derefter i køleskabet natten over eller i minimum 8 timer.
-Brug 2 skeer til at sætte bollerne i klatter på en bradepande med bagepapir – dejen skal ikke formes til boller. Bag i en forvarmet ovn ved 200 grader varmluft i 10 minutter. Skru derefter ovnen op til 230 grader og bag videre i 10 minutter mere til bollerne er gyldne og sprøde. Lad bollerne køle af på en rist.'),
+Brug 2 skeer til at sætte bollerne i klatter på en bradepande med bagepapir - dejen skal ikke formes til boller. Bag i en forvarmet ovn ved 200 grader varmluft i 10 minutter. Skru derefter ovnen op til 230 grader og bag videre i 10 minutter mere til bollerne er gyldne og sprøde. Lad bollerne køle af på en rist.'),
   (12566, 'Chokoladeboller', 'https://www.valdemarsro.dk/chokoladeboller/', 'https://www.valdemarsro.dk/wp-content/2017/05/chokoladeboller-2.jpg', '720', '12 servings', 'Rør gær ud i en skål med mælk og rør derefter æg, sukker, salt og hvedemel i dejen. Rør dejen sammen, gerne på en røremaskine ved lav-middel hastighed i 2-3 minutter.
 Kom smør i og rør dejen i yderligere 10 minutter, til dejen er smidig, blød og lækker.
 Kom dejen ud på et meldrysset bord og drys chokolade over dejen. Fold dejen flere gange, så chokoladen fordeles godt i dejen.
 Kom dejen i en skål og stil den til at hæve i 1 time på køkkenbordet, dækket med et rent klæde. Sæt derefter skålen med dej i køleskabet til næste dag.
-Tag dejen ud på et meldrysset bord, skær bollerne ud og form til runde boller. Sæt dem på en bradepande med bagepapir – der skal være ca. en centimeter mellem bollerne. Kom et rent viskestykke over og lad dem efterhæve i 1 ½ – 2 timer under et let fugtigt viskestykke
+Tag dejen ud på et meldrysset bord, skær bollerne ud og form til runde boller. Sæt dem på en bradepande med bagepapir - der skal være ca. en centimeter mellem bollerne. Kom et rent viskestykke over og lad dem efterhæve i 1 1/2 - 2 timer under et let fugtigt viskestykke
 Pensl bollerne med sammenpisket æg og bag dem i en forvarmet ovn ved 175 grader varmluft i cirka 17-20 minutter, til de er gyldne og gennembagte. Lad bollerne køle lidt af på en rist, inden servering.'),
   (12569, 'Valnøddeboller', 'https://www.valdemarsro.dk/valnoeddeboller/', 'https://www.valdemarsro.dk/wp-content/2017/01/valnoeddeboller-3.jpg', '720', '12 servings', 'Rør gær ud i en skål med vand og rør honning, fuldkornsmel og hvedemel i til dejen akkurat er ensartet. Lad dejen hvile i 30 minutter på køkkenbordet.
 Rør salt i dejen og rør dejen godt sammen til den er blød og smidig, gerne på en røremaskine ved middelhastighed. Rør til sidst valnøddekerner i. Dæk skålen med et tætsiddende låg eller med husholdningsfilm og lad dejen hæve på køkkenbordet 30 minutter. Stil derefter dejen i køleskabet i 12-18 timer.
@@ -10250,7 +10173,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10024, 'soja'),
   (10024, 'spidskål'),
   (10024, 'sukker'),
-  (10027, 'Derudover'),
   (10027, 'frisk mozzarella'),
   (10027, 'frisk oregano'),
   (10027, 'friske lasagneplader'),
@@ -10652,7 +10574,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10108, 'fishsauce'),
   (10108, 'forårsløg'),
   (10108, 'frisk koriander'),
-  (10108, 'grillspyd af træ'),
   (10108, 'gulerødder'),
   (10108, 'hakket kylling'),
   (10108, 'hvidløg'),
@@ -10894,7 +10815,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10172, 'sriracha chilisauce'),
   (10172, 'øko citron'),
   (10175, 'bredbladet persille'),
-  (10175, 'dråber kulør'),
   (10175, 'gulerødder'),
   (10175, 'hakket oksekød'),
   (10175, 'kartofler'),
@@ -11027,7 +10947,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10203, 'squash'),
   (10203, 'æg'),
   (10203, 'øko citron'),
-  (10206, 'instant kaffe'),
   (10206, 'isterninger'),
   (10206, 'kahlua'),
   (10206, 'kakaonibs'),
@@ -11224,9 +11143,7 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10263, 'vaniljesukker'),
   (10263, 'æg'),
   (10263, 'øko appelsin'),
-  (10266, 'Pandesmuldr og stegefedt fra frikadellerne'),
   (10266, 'agurk'),
-  (10266, 'dråber kulør'),
   (10266, 'finvalset havregryn'),
   (10266, 'grøntsagsbouillon'),
   (10266, 'hakket svinekød'),
@@ -11265,7 +11182,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10276, 'mælk'),
   (10276, 'mørk chokolade'),
   (10276, 'piskefløde'),
-  (10276, 'stærk kaffe'),
   (10279, 'lakridsrod'),
   (10279, 'mørk chokolade'),
   (10281, 'kokosmel'),
@@ -11445,7 +11361,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10348, 'daim'),
   (10348, 'flormelis'),
   (10348, 'hasselnødder'),
-  (10348, 'kageplast'),
   (10348, 'piskefløde'),
   (10348, 'spiseligt guldstøv'),
   (10348, 'sukker'),
@@ -12443,7 +12358,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10635, 'æg'),
   (10635, 'øko citron'),
   (10640, 'citron'),
-  (10640, 'drys kørvel'),
   (10640, 'fuldkornshvedemel'),
   (10640, 'hvedemel'),
   (10640, 'olivenolie'),
@@ -12527,7 +12441,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10671, 'tørret rosmarin'),
   (10671, 'tørret timian'),
   (10671, 'valnødder'),
-  (10674, 'dråber kulør'),
   (10674, 'frisk rosmarin'),
   (10674, 'gulerødder'),
   (10674, 'hvedemel'),
@@ -12539,7 +12452,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10674, 'ribsgele'),
   (10674, 'rødvin'),
   (10674, 'smør'),
-  (10674, 'stegesky/fond fra flæskestegen'),
   (10674, 'svineben'),
   (10674, 'tørret timian'),
   (10674, 'worcestershire sauce'),
@@ -12553,7 +12465,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10680, 'appelsinjuice'),
   (10680, 'ark husblas'),
   (10680, 'bagepulver'),
-  (10680, 'farvepasta'),
   (10680, 'grøn fondant'),
   (10680, 'hvedemel'),
   (10680, 'hvid fondant'),
@@ -12581,13 +12492,10 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10684, 'tørret oregano'),
   (10684, 'tørret timian'),
   (10684, 'æg'),
-  (10688, 'Isterninger'),
-  (10688, 'Limesirup'),
   (10688, 'gin'),
   (10688, 'lime'),
   (10688, 'sukker'),
   (10688, 'øko lime'),
-  (10691, 'farvepasta'),
   (10691, 'flormelis'),
   (10691, 'fritureolie'),
   (10691, 'gær'),
@@ -12669,14 +12577,12 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10715, 'rucola'),
   (10715, 'soltørrede tomater i olie'),
   (10718, 'ark husblas'),
-  (10718, 'den tomme vaniljestang fra flødeostcremen'),
   (10718, 'digestive kiks'),
   (10718, 'flormelis'),
   (10718, 'frisk mynte'),
   (10718, 'frosne jordbær'),
   (10718, 'græsk yoghurt 10 %'),
   (10718, 'jordbær'),
-  (10718, 'kageplast'),
   (10718, 'mandler'),
   (10718, 'naturel flødeost'),
   (10718, 'smør'),
@@ -12701,7 +12607,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10721, 'spidskål'),
   (10721, 'sriracha chilisauce'),
   (10721, 'sukker'),
-  (10724, 'brev geleringsmiddel'),
   (10724, 'citron'),
   (10724, 'jordbær'),
   (10724, 'sukker'),
@@ -13068,14 +12973,12 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10817, 'stødt nellike'),
   (10817, 'sukker'),
   (10817, 'øko citron'),
-  (10820, 'Kold risengrød'),
   (10820, 'amaretto mandellikør'),
   (10820, 'ark husblas'),
   (10820, 'chokoladekugler'),
   (10820, 'digestive kiks'),
   (10820, 'flormelis'),
   (10820, 'grødris'),
-  (10820, 'kageplast'),
   (10820, 'kirsebærsaft'),
   (10820, 'mandler'),
   (10820, 'naturel flødeost'),
@@ -13118,8 +13021,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10835, 'sukker'),
   (10835, 'vaniljestang'),
   (10835, 'æggehvider'),
-  (10838, 'Kartofler'),
-  (10838, 'Kryddersmør'),
   (10838, 'babykartofler'),
   (10838, 'fennikel'),
   (10838, 'frisk dild'),
@@ -13375,7 +13276,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10892, 'øko citron'),
   (10895, 'agurk'),
   (10895, 'citron'),
-  (10895, 'dråber kulør'),
   (10895, 'hvedemel'),
   (10895, 'kylling'),
   (10895, 'nye kartofler'),
@@ -13384,7 +13284,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10895, 'rabarber'),
   (10895, 'salat'),
   (10895, 'smør'),
-  (10895, 'stegesky fra kyllingen'),
   (10895, 'sukker'),
   (10895, 'tørret dild'),
   (10895, 'vaniljesukker'),
@@ -13395,7 +13294,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10898, 'digestive kiks'),
   (10898, 'flormelis'),
   (10898, 'hasselnødder'),
-  (10898, 'kageplast'),
   (10898, 'mælkechokolade'),
   (10898, 'mørk chokolade'),
   (10898, 'mørk sirup'),
@@ -13451,7 +13349,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10907, 'soltørrede tomater i olie'),
   (10907, 'tørret timian'),
   (10907, 'øko citron'),
-  (10910, 'Rosmarinkartofler'),
   (10910, 'blomkål'),
   (10910, 'dijon sennep'),
   (10910, 'hakket oksekød'),
@@ -13465,7 +13362,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10910, 'tørret rosmarin'),
   (10910, 'æg'),
   (10913, 'citronsaft'),
-  (10913, 'farvepasta'),
   (10913, 'flormelis'),
   (10913, 'lime'),
   (10913, 'mandelmel'),
@@ -13481,7 +13377,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10916, 'flormelis'),
   (10916, 'frisk mynte'),
   (10916, 'hvid chokolade'),
-  (10916, 'kageplast'),
   (10916, 'krymmel'),
   (10916, 'naturel flødeost'),
   (10916, 'passionsfrugt'),
@@ -13560,7 +13455,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10938, 'sukker'),
   (10938, 'æg'),
   (10941, 'cherrytomater'),
-  (10941, 'drys frisk timian'),
   (10941, 'grøntsagsbouillon'),
   (10941, 'hvidløg'),
   (10941, 'hvidvin'),
@@ -13726,7 +13620,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10975, 'æg'),
   (10977, 'bagepulver'),
   (10977, 'brun farin'),
-  (10977, 'farvepasta'),
   (10977, 'flormelis'),
   (10977, 'hokkaido græskar'),
   (10977, 'hvedemel'),
@@ -13745,7 +13638,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10983, 'sesamfrø'),
   (10983, 'solsikkekerner'),
   (10983, 'sød kondenseret mælk'),
-  (10986, 'drys sesamfrø'),
   (10986, 'finvalset havregryn'),
   (10986, 'frisk basilikum'),
   (10986, 'frisk mozzarella'),
@@ -13782,7 +13674,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (10997, 'citron'),
   (10997, 'citronsaft'),
   (10997, 'dijon sennep'),
-  (10997, 'dryp sriracha chilisauce'),
   (10997, 'feta'),
   (10997, 'garam masala'),
   (10997, 'honning'),
@@ -13810,7 +13701,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11003, 'koncentreret tomatpuré'),
   (11003, 'olivenolie'),
   (11003, 'sorte oliven'),
-  (11006, 'dryp olivenolie'),
   (11006, 'durummel'),
   (11006, 'frisk timian'),
   (11006, 'gedeost'),
@@ -13847,7 +13737,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11018, 'skinke'),
   (11018, 'smør'),
   (11018, 'æg'),
-  (11021, 'drys sesamfrø'),
   (11021, 'fuldkornshvedemel'),
   (11021, 'gær'),
   (11021, 'hvedemel'),
@@ -13993,7 +13882,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11065, 'blandet salat'),
   (11065, 'dijon sennep'),
   (11065, 'hvide asparges'),
-  (11065, 'lage fra de råsyltede rabarber'),
   (11065, 'olivenolie'),
   (11065, 'rabarber'),
   (11065, 'rucola'),
@@ -14117,7 +14005,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11099, 'røget paprika'),
   (11099, 'sesamfrø'),
   (11099, 'sød paprika'),
-  (11102, 'Brunet smør'),
   (11102, 'frisk salvie'),
   (11102, 'grøntsagsbouillon'),
   (11102, 'hokkaido græskar'),
@@ -14172,7 +14059,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11111, 'worcestershire sauce'),
   (11114, 'bacon'),
   (11114, 'cherrytomater'),
-  (11114, 'drys frisk timian'),
   (11114, 'forårsløg'),
   (11114, 'grøntsagsbouillon'),
   (11114, 'gulerødder'),
@@ -14265,9 +14151,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11135, 'blommetomater'),
   (11135, 'cheddar'),
   (11135, 'dijon sennep'),
-  (11135, 'dryp tabasco'),
-  (11135, 'dryp worcestershire sauce'),
-  (11135, 'drys sesamfrø'),
   (11135, 'gær'),
   (11135, 'hakket oksekød'),
   (11135, 'honning'),
@@ -14376,7 +14259,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11168, 'sukker'),
   (11168, 'vaniljestang'),
   (11168, 'æg'),
-  (11171, 'stærk kaffe'),
   (11171, 'vaniljeis'),
   (11174, 'ark husblas'),
   (11174, 'piskefløde'),
@@ -14477,7 +14359,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11210, 'brunkager'),
   (11210, 'flormelis'),
   (11210, 'græsk yoghurt 10 %'),
-  (11210, 'kageplast'),
   (11210, 'kirsebærsauce'),
   (11210, 'mandler'),
   (11210, 'naturel flødeost'),
@@ -14718,7 +14599,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11254, 'hvidløg'),
   (11254, 'iceberg'),
   (11254, 'ketchup'),
-  (11254, 'lage fra de syltede cornichoner'),
   (11254, 'løg'),
   (11254, 'mayonnaise'),
   (11254, 'olivenolie'),
@@ -14955,7 +14835,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11295, 'løg'),
   (11295, 'olivenolie'),
   (11295, 'parmesan'),
-  (11295, 'parmesanskorpe - se under ''Tip til opskriften'''),
   (11295, 'pasta'),
   (11295, 'persille'),
   (11295, 'tørret rosmarin'),
@@ -15076,7 +14955,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11316, 'sesamolie'),
   (11316, 'soja'),
   (11319, 'akaciehonning'),
-  (11319, 'grillspyd af træ'),
   (11319, 'hvidløg'),
   (11319, 'kyllingefilet'),
   (11319, 'løgpulver'),
@@ -15089,10 +14967,8 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11319, 'sød paprika'),
   (11319, 'tørret rosmarin'),
   (11319, 'øko lime'),
-  (11322, 'Derudover'),
   (11322, 'aubergine'),
   (11322, 'chorizo'),
-  (11322, 'grillspyd af træ'),
   (11322, 'halloumi'),
   (11322, 'hvidløg'),
   (11322, 'ingefær'),
@@ -15136,7 +15012,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11328, 'tørret timian'),
   (11331, 'blommetomater'),
   (11331, 'frisk mynte'),
-  (11331, 'grillspyd af træ'),
   (11331, 'halloumi'),
   (11331, 'hvidløg'),
   (11331, 'majskolbe'),
@@ -15192,7 +15067,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11343, 'tørret timian'),
   (11346, 'bladselleri'),
   (11346, 'fennikel'),
-  (11346, 'fiskeben'),
   (11346, 'fiskefond'),
   (11346, 'frisk dild'),
   (11346, 'frisk timian'),
@@ -15342,7 +15216,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11382, 'stødt spidskommen'),
   (11382, 'sød paprika'),
   (11382, 'æg'),
-  (11385, 'Til servering'),
   (11385, 'brun farin'),
   (11385, 'chiliflager'),
   (11385, 'five spice'),
@@ -15385,7 +15258,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11397, 'baby spinat'),
   (11397, 'cheddar'),
   (11397, 'cremefraiche 18 %'),
-  (11397, 'dryp sriracha chilisauce'),
   (11397, 'frisk koriander'),
   (11397, 'grøntsagsbouillon'),
   (11397, 'hakkede tomater på dåse'),
@@ -15527,11 +15399,9 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11439, 'rødløg'),
   (11439, 'tørrede abrikoser'),
   (11442, 'cantaloupe melon'),
-  (11442, 'dryp balsamico glace'),
   (11442, 'frisk basilikum'),
   (11442, 'frisk mozzarella'),
   (11442, 'parmaskinke'),
-  (11442, 'træspyd'),
   (11445, 'dijon sennep'),
   (11445, 'feta'),
   (11445, 'hindbæreddike'),
@@ -15573,7 +15443,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11458, 'frisk timian'),
   (11458, 'olivenolie'),
   (11461, 'bacon'),
-  (11461, 'drys muskatnød'),
   (11461, 'kartofler'),
   (11461, 'løg'),
   (11461, 'mælk'),
@@ -16080,7 +15949,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11596, 'burgerboller'),
   (11596, 'cornichoner'),
   (11596, 'dijon sennep'),
-  (11596, 'drys frisk timian'),
   (11596, 'grøn salat'),
   (11596, 'mayonnaise'),
   (11596, 'rødløg'),
@@ -16193,8 +16061,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11645, 'mørk chokolade'),
   (11648, 'agurk'),
   (11648, 'chiliflager'),
-  (11648, 'dryp sriracha chilisauce'),
-  (11648, 'drys sesamfrø'),
   (11648, 'fishsauce'),
   (11648, 'forårsløg'),
   (11648, 'frisk koriander'),
@@ -16314,7 +16180,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11673, 'øko citron'),
   (11676, 'champignon'),
   (11676, 'fishsauce'),
-  (11676, 'forårsrulleplader'),
   (11676, 'fritureolie'),
   (11676, 'glasnudler'),
   (11676, 'gulerødder'),
@@ -16326,7 +16191,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11676, 'sesamolie'),
   (11676, 'soja'),
   (11676, 'sukker'),
-  (11680, 'drys sesamfrø'),
   (11680, 'gær'),
   (11680, 'hvedemel'),
   (11680, 'mælk'),
@@ -16399,7 +16263,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11699, 'æble'),
   (11702, 'akaciehonning'),
   (11702, 'citron'),
-  (11702, 'dråber teriyaki'),
   (11702, 'feta'),
   (11702, 'græskarkerner'),
   (11702, 'gulerødder'),
@@ -16422,7 +16285,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11705, 'sukker'),
   (11705, 'sød paprika'),
   (11705, 'æblecidereddike'),
-  (11708, 'drys muskatnød'),
   (11708, 'frisk basilikum'),
   (11708, 'frisk mozzarella'),
   (11708, 'frisk timian'),
@@ -17134,7 +16996,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11918, 'tør hvidvin'),
   (11921, 'brød'),
   (11921, 'cremefraiche 18 %'),
-  (11921, 'drys frisk timian'),
   (11921, 'flåede tomater'),
   (11921, 'frisk mozzarella'),
   (11921, 'frisk timian'),
@@ -17219,7 +17080,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (11940, 'hvedemel'),
   (11940, 'løg'),
   (11943, 'basmati ris'),
-  (11943, 'drys chili'),
   (11943, 'frisk koriander'),
   (11943, 'græsk yoghurt 10 %'),
   (11943, 'hakkede tomater på dåse'),
@@ -17510,7 +17370,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12027, 'sød paprika'),
   (12027, 'worcestershire sauce'),
   (12027, 'æblecidereddike'),
-  (12030, 'drys muskatnød'),
   (12030, 'frossen spinat'),
   (12030, 'fuldkornshvedemel'),
   (12030, 'hvedemel'),
@@ -17522,7 +17381,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12034, 'bacon'),
   (12034, 'bredbladet persille'),
   (12034, 'champignon'),
-  (12034, 'drys muskatnød'),
   (12034, 'hvedemel'),
   (12034, 'kalvebouillon'),
   (12034, 'kartofler'),
@@ -17778,7 +17636,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12104, 'mælkechokolade'),
   (12104, 'mørk chokolade'),
   (12104, 'piskefløde'),
-  (12107, 'drys muskatnød'),
   (12107, 'frisk basilikum'),
   (12107, 'frisk mozzarella'),
   (12107, 'frossen spinat'),
@@ -18112,7 +17969,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12228, 'olivenolie'),
   (12228, 'roastbeef'),
   (12228, 'smør'),
-  (12232, 'Topping'),
   (12232, 'appelsinjuice'),
   (12232, 'banan'),
   (12232, 'frosne hindbær'),
@@ -18126,12 +17982,10 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12232, 'stængel grønkål'),
   (12232, 'vaniljepulver'),
   (12235, 'appelsinmarmelade'),
-  (12235, 'bomuldssnor'),
   (12235, 'hvidløg'),
   (12235, 'krydderurter'),
   (12235, 'løg'),
   (12235, 'svineslag'),
-  (12239, 'blandede kagerester'),
   (12239, 'hasselnødder'),
   (12239, 'hindbærmarmelade'),
   (12239, 'kokosmel'),
@@ -18364,7 +18218,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12317, 'rosenkål'),
   (12317, 'smør'),
   (12317, 'stødt spidskommen'),
-  (12320, 'drys sesamfrø'),
   (12320, 'grahamsmel'),
   (12320, 'gær'),
   (12320, 'hvedemel'),
@@ -18451,7 +18304,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12354, 'olivenolie'),
   (12354, 'persille'),
   (12354, 'æg'),
-  (12357, 'Pandesmuldr og fedt fra fx frikadeller'),
   (12357, 'grøntsagsbouillon'),
   (12357, 'kulør'),
   (12357, 'piskefløde'),
@@ -18651,7 +18503,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12414, 'aubergine'),
   (12414, 'bladselleri'),
   (12414, 'champignon'),
-  (12414, 'drys muskatnød'),
   (12414, 'frisk basilikum'),
   (12414, 'frisk mozzarella'),
   (12414, 'frossen spinat'),
@@ -18711,7 +18562,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12423, 'sukker'),
   (12423, 'wonton plader'),
   (12425, 'bacon'),
-  (12425, 'dryp olivenolie'),
   (12425, 'hakkede tomater på dåse'),
   (12425, 'hakket oksekød'),
   (12425, 'hvidløg'),
@@ -18984,7 +18834,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12502, 'mørk rom'),
   (12502, 'piskefløde'),
   (12502, 'smør'),
-  (12502, 'stærk kaffe'),
   (12502, 'sukker'),
   (12502, 'valnødder'),
   (12502, 'vaniljestang'),
@@ -19061,7 +18910,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12529, 'hasselnødder'),
   (12529, 'mælkechokolade'),
   (12529, 'smør'),
-  (12529, 'stærk kaffe'),
   (12529, 'sukker'),
   (12529, 'æggeblommer'),
   (12529, 'æggehvider'),
@@ -19154,7 +19002,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (12551, 'tabasco'),
   (12551, 'worcestershire sauce'),
   (12551, 'æblecidereddike'),
-  (12554, 'Til pensling'),
   (12554, 'bagepulver'),
   (12554, 'cheddar'),
   (12554, 'hvedemel'),
@@ -19354,13 +19201,11 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2218, 'sukker'),
   (2218, 'vaniljestang'),
   (2221, 'frosne blåbær'),
-  (2221, 'geleringsmiddel'),
   (2221, 'sukker'),
   (2221, 'vaniljesukker'),
   (2224, 'brun farin'),
   (2224, 'rugbrød'),
   (2227, 'frosne hindbær'),
-  (2227, 'geleringsmiddel'),
   (2227, 'sukker'),
   (2227, 'vaniljesukker'),
   (2230, 'ahornsirup'),
@@ -19525,7 +19370,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2318, 'sukker'),
   (2318, 'usødet kakao'),
   (2318, 'vaniljepulver'),
-  (2324, 'Sukkersirup'),
   (2324, 'cachaca'),
   (2324, 'sukker'),
   (2324, 'sukkersirup'),
@@ -19656,7 +19500,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2385, 'æg'),
   (2388, 'ananas'),
   (2388, 'banan'),
-  (2388, 'drys stødt kardemomme'),
   (2388, 'honning'),
   (2388, 'kokosmælk'),
   (2388, 'lys rom'),
@@ -19707,7 +19550,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2412, 'espresso'),
   (2412, 'sød kondenseret mælk'),
   (2412, 'æggeblommer'),
-  (2415, 'brev kamillete'),
   (2415, 'citron'),
   (2415, 'honning'),
   (2415, 'ingefær'),
@@ -19728,7 +19570,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2427, 'smør'),
   (2427, 'æg'),
   (2432, 'bacon'),
-  (2432, 'drys muskatnød'),
   (2432, 'hvedemel'),
   (2432, 'hørfrø'),
   (2432, 'mælk'),
@@ -19846,7 +19687,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2498, 'mango'),
   (2498, 'mælk'),
   (2498, 'passionsfrugt'),
-  (2501, 'Kyllingeskroget'),
   (2501, 'bladselleri'),
   (2501, 'citron'),
   (2501, 'frisk timian'),
@@ -19896,7 +19736,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2519, 'honning'),
   (2519, 'piskefløde'),
   (2519, 'sødmælk'),
-  (2522, 'dråber rød frugtfarve'),
   (2522, 'mousserende vin'),
   (2522, 'rød grapefrugt'),
   (2522, 'sukker'),
@@ -19963,7 +19802,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2581, 'piskefløde'),
   (2581, 'sukker'),
   (2585, 'bagepulver'),
-  (2585, 'dråber rød frugtfarve'),
   (2585, 'flormelis'),
   (2585, 'hvedemel'),
   (2585, 'mørk chokolade'),
@@ -20067,7 +19905,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (2629, 'serranoskinke'),
   (2629, 'spinat'),
   (2629, 'æg'),
-  (2632, 'Til servering'),
   (2632, 'brød'),
   (2632, 'grønne asparges'),
   (2632, 'grøntsagsbouillon'),
@@ -20110,7 +19947,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (3269, 'soltørrede tomater i olie'),
   (3404, 'isterninger'),
   (3404, 'mælk'),
-  (3404, 'stærk kaffe'),
   (3404, 'sukker'),
   (3489, 'isterninger'),
   (3489, 'jordbær'),
@@ -20169,7 +20005,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (3702, 'honning'),
   (3702, 'hvedemel'),
   (3702, 'solsikkekerner'),
-  (3751, 'Derudover'),
   (3751, 'bladselleri'),
   (3751, 'gulerødder'),
   (3751, 'hakkede tomater på dåse'),
@@ -20298,7 +20133,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (4568, 'usødet kakao'),
   (4568, 'æg'),
   (4580, 'blåbær'),
-  (4580, 'drys morgenfrueblade'),
   (4580, 'mango'),
   (4580, 'nektarin'),
   (4580, 'ribs'),
@@ -20356,7 +20190,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (5089, 'sukker'),
   (5089, 'umoden mango'),
   (5411, 'isterninger'),
-  (5411, 'stærk kaffe'),
   (5411, 'sød kondenseret mælk'),
   (5558, 'bacon'),
   (5558, 'fuldkornshvedemel'),
@@ -20376,8 +20209,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (5589, 'stikkelsbær'),
   (5589, 'æblecidereddike'),
   (5595, 'banan'),
-  (5595, 'drys frisk mynte'),
-  (5595, 'drys rålakridspulver'),
   (5595, 'finvalset havregryn'),
   (5595, 'frosne jordbær'),
   (5595, 'mandler'),
@@ -20386,7 +20217,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (5595, 'stødt kanel'),
   (5595, 'stødt kardemomme'),
   (5595, 'vaniljepulver'),
-  (5657, 'Nougatbunden'),
   (5657, 'akaciehonning'),
   (5657, 'flormelis'),
   (5657, 'glukosesirup'),
@@ -20482,11 +20312,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (6223, 'kokossukker'),
   (6223, 'quinoa'),
   (6223, 'vaniljepulver'),
-  (6237, 'dråber æterisk olie'),
-  (6237, 'flaske'),
-  (6237, 'grilspyd af træ'),
-  (6237, 'mandelolie eller babyolie'),
-  (6269, 'drys flormelis'),
   (6269, 'fritureolie'),
   (6269, 'hvedemel'),
   (6269, 'hyldeblomstskærme'),
@@ -20587,7 +20412,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7063, 'banan'),
   (7063, 'boghvedegryn'),
   (7063, 'boghvedekerner'),
-  (7063, 'drys hampefrø'),
   (7063, 'kokosolie'),
   (7063, 'mandelsmør'),
   (7063, 'mælk'),
@@ -20770,7 +20594,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7336, 'piskefløde'),
   (7336, 'sukker'),
   (7343, 'mørk chokolade'),
-  (7346, 'Isterninger'),
   (7346, 'cointreau'),
   (7346, 'ingefær'),
   (7346, 'kirsebær'),
@@ -20778,7 +20601,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7346, 'mousserende vin'),
   (7346, 'stængel frisk rosmarin'),
   (7349, 'andebryst'),
-  (7349, 'drys frisk timian'),
   (7349, 'frisk basilikum'),
   (7349, 'frisk mozzarella'),
   (7349, 'gær'),
@@ -20858,7 +20680,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7370, 'mandler'),
   (7370, 'mørk chokolade'),
   (7370, 'pinjekerner'),
-  (7370, 'stærk kaffe'),
   (7370, 'sukker'),
   (7370, 'vaniljesukker'),
   (7370, 'æg'),
@@ -20952,7 +20773,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7397, 'vaniljesukker'),
   (7397, 'æg'),
   (7401, 'bagepulver'),
-  (7401, 'farvepasta'),
   (7401, 'flormelis'),
   (7401, 'hvedemel'),
   (7401, 'marcipan'),
@@ -20999,7 +20819,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7413, 'sød kondenseret mælk'),
   (7413, 'vaniljekiks'),
   (7413, 'øko appelsin'),
-  (7416, 'Kransekageringe'),
   (7416, 'flormelis'),
   (7416, 'marcipan'),
   (7416, 'spiseligt guldstøv'),
@@ -21470,7 +21289,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7616, 'ladyfingers'),
   (7616, 'marsala'),
   (7616, 'mascarpone'),
-  (7616, 'stærk kaffe'),
   (7616, 'sukker'),
   (7616, 'usødet kakao'),
   (7616, 'vaniljestang'),
@@ -21614,7 +21432,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7673, 'banan'),
   (7673, 'brun farin'),
   (7673, 'digestive kiks'),
-  (7673, 'drys mørk chokolade'),
   (7673, 'glukosesirup'),
   (7673, 'mørk chokolade'),
   (7673, 'piskefløde'),
@@ -21667,7 +21484,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7702, 'vaniljepulver'),
   (7707, 'brød'),
   (7707, 'dijon sennep'),
-  (7707, 'drys muskatnød'),
   (7707, 'hvedemel'),
   (7707, 'landskinke'),
   (7707, 'mælk'),
@@ -21702,8 +21518,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7716, 'skyr'),
   (7716, 'usødet kakao'),
   (7720, 'citron'),
-  (7720, 'dryp honning'),
-  (7720, 'drys valnødder'),
   (7720, 'grovvalset havregryn'),
   (7720, 'pære'),
   (7720, 'stødt kanel'),
@@ -21796,7 +21610,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7768, 'madeira'),
   (7768, 'sukker'),
   (7768, 'vaniljestang'),
-  (7771, 'engangshandsker'),
   (7771, 'isterninger'),
   (7771, 'koncentereret hindbærsaft'),
   (7774, 'mælk'),
@@ -21818,7 +21631,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7783, 'pasta'),
   (7783, 'purløg'),
   (7783, 'rød spidskål'),
-  (7786, 'Myntedip'),
   (7786, 'blomkål'),
   (7786, 'filodej'),
   (7786, 'frisk koriander'),
@@ -21838,7 +21650,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7789, 'kartofler'),
   (7789, 'olivenolie'),
   (7792, 'ark husblas'),
-  (7792, 'dråbe rød frugtfarve'),
   (7792, 'flormelis'),
   (7792, 'sukker'),
   (7792, 'vaniljestang'),
@@ -21910,7 +21721,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7832, 'rucola'),
   (7832, 'valnødder'),
   (7832, 'vesterhavsost'),
-  (7841, 'drys vaniljepulver'),
   (7841, 'mandler'),
   (7844, 'fersken'),
   (7844, 'prosecco'),
@@ -21944,7 +21754,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7863, 'smør'),
   (7863, 'sukker'),
   (7863, 'vodka'),
-  (7866, 'Til pynt af glas'),
   (7866, 'cointreau'),
   (7866, 'glukosesirup'),
   (7866, 'isterninger'),
@@ -22008,7 +21817,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7893, 'sukker'),
   (7893, 'tequila'),
   (7893, 'øko lime'),
-  (7896, 'Til pensling'),
   (7896, 'bagepulver'),
   (7896, 'hvedemel'),
   (7896, 'kærnemælk'),
@@ -22118,7 +21926,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7932, 'usødet kakao'),
   (7932, 'vaniljesukker'),
   (7932, 'æg'),
-  (7935, 'drys muskatnød'),
   (7935, 'gulerødder'),
   (7935, 'kartofler'),
   (7935, 'kikærter'),
@@ -22270,7 +22077,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (7977, 'olivenolie'),
   (7980, 'ark husblas'),
   (7980, 'cremefraiche 18 %'),
-  (7980, 'drys frisk dild'),
   (7980, 'løg'),
   (7980, 'mayonnaise'),
   (7980, 'rejer'),
@@ -22480,8 +22286,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8047, 'soja'),
   (8047, 'sukker'),
   (8047, 'æg'),
-  (8050, 'Isterninger'),
-  (8050, 'Til servering'),
   (8050, 'cointreau'),
   (8050, 'lime'),
   (8050, 'tranebærjuice'),
@@ -22592,9 +22396,7 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8086, 'solsikkekerner'),
   (8086, 'stødt kanel'),
   (8086, 'vaniljepulver'),
-  (8089, 'Derudover'),
   (8089, 'chokoladekugler'),
-  (8089, 'kageplast'),
   (8089, 'mørk chokolade'),
   (8089, 'spiseligt guldstøv'),
   (8089, 'sukker'),
@@ -22667,7 +22469,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8107, 'sukker'),
   (8107, 'vaniljepulver'),
   (8107, 'æg'),
-  (8110, 'drys mørk chokolade'),
   (8110, 'guldglimmer'),
   (8110, 'kaffe'),
   (8110, 'kahlua'),
@@ -22685,7 +22486,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8113, 'stødt kardemomme'),
   (8113, 'sukker'),
   (8113, 'æg'),
-  (8116, 'blandede kagerester'),
   (8116, 'flormelis'),
   (8116, 'frysetørret hindbær'),
   (8116, 'hasselnødder'),
@@ -23004,7 +22804,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8227, 'mælk'),
   (8227, 'smør'),
   (8227, 'sukker'),
-  (8227, 'tom vaniljestang - brug den fra risfyldet'),
   (8227, 'vaniljestang'),
   (8227, 'æg'),
   (8227, 'æggeblommer'),
@@ -23026,7 +22825,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8231, 'sød paprika'),
   (8231, 'tørret timian'),
   (8231, 'æg'),
-  (8234, 'dryp worcestershire sauce'),
   (8234, 'gulerødder'),
   (8234, 'gær'),
   (8234, 'hakket oksekød'),
@@ -23115,7 +22913,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8258, 'hvedemel'),
   (8258, 'mørk chokolade'),
   (8258, 'smør'),
-  (8258, 'stærk kaffe'),
   (8258, 'sukker'),
   (8258, 'vaniljestang'),
   (8258, 'æg'),
@@ -23144,7 +22941,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8270, 'sesamfrø'),
   (8270, 'smør'),
   (8270, 'tørret timian'),
-  (8273, 'Derudover'),
   (8273, 'fuldkornshvedemel'),
   (8273, 'græskarkerner'),
   (8273, 'gær'),
@@ -23428,7 +23224,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8387, 'vaniljeis'),
   (8387, 'vaniljesukker'),
   (8387, 'æg'),
-  (8390, 'Tilbehør til servering'),
   (8390, 'bacon'),
   (8390, 'bladselleri'),
   (8390, 'burrata'),
@@ -23625,7 +23420,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8435, 'æg'),
   (8439, 'bacon'),
   (8439, 'blandet salat'),
-  (8439, 'drys sesamfrø'),
   (8439, 'gær'),
   (8439, 'hvedemel'),
   (8439, 'kyllingefilet'),
@@ -23730,11 +23524,9 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8472, 'æble'),
   (8472, 'æg'),
   (8472, 'æggehvider'),
-  (8475, 'farvepasta'),
   (8475, 'flormelis'),
   (8475, 'hindbærmarmelade'),
   (8475, 'hvedemel'),
-  (8475, 'kagerester'),
   (8475, 'krymmel'),
   (8475, 'marcipan'),
   (8475, 'mørk chokolade'),
@@ -23796,7 +23588,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8490, 'limoncello'),
   (8490, 'prosecco'),
   (8490, 'øko citron'),
-  (8493, 'farvepasta'),
   (8493, 'flormelis'),
   (8493, 'frysetørret hindbær'),
   (8493, 'hindbær'),
@@ -23903,7 +23694,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8576, 'frosne hindbær'),
   (8576, 'sukker'),
   (8576, 'vaniljestang'),
-  (8592, 'Til pensling'),
   (8592, 'fuldkornshvedemel'),
   (8592, 'gær'),
   (8592, 'hvedemel'),
@@ -23944,7 +23734,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (8609, 'hvedemel'),
   (8609, 'ris'),
   (8612, 'bourbon whisky'),
-  (8612, 'dråber angustura'),
   (8612, 'isterninger'),
   (8612, 'sukkerknald'),
   (8612, 'øko appelsin'),
@@ -24457,7 +24246,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9075, 'mælk'),
   (9075, 'mørk chokolade'),
   (9075, 'piskefløde'),
-  (9075, 'stærk kaffe'),
   (9078, 'bagels'),
   (9078, 'cremefraiche 18 %'),
   (9078, 'dijon sennep'),
@@ -24489,7 +24277,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9084, 'squash'),
   (9084, 'tørret rosmarin'),
   (9084, 'æg'),
-  (9087, 'Til servering'),
   (9087, 'brun farin'),
   (9087, 'brød'),
   (9087, 'cannellini bønner'),
@@ -24768,7 +24555,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9171, 'mandler'),
   (9171, 'rålakridspulver'),
   (9173, 'bagepulver'),
-  (9173, 'dråbe farvepasta'),
   (9173, 'flormelis'),
   (9173, 'hvedemel'),
   (9173, 'krymmel'),
@@ -24831,7 +24617,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9198, 'usødet kakao'),
   (9201, 'bagepulver'),
   (9201, 'brun farin'),
-  (9201, 'en masse dejligt pynt og slik efter eget valg'),
   (9201, 'flormelis'),
   (9201, 'hvedemel'),
   (9201, 'smør'),
@@ -24910,7 +24695,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9223, 'æg'),
   (9223, 'æggeblommer'),
   (9223, 'øko citron'),
-  (9226, 'af den færdige og afkølede risotto'),
   (9226, 'citronsaft'),
   (9226, 'dijon sennep'),
   (9226, 'frisk basilikum'),
@@ -25022,7 +24806,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9260, 'honning'),
   (9260, 'hvedemel'),
   (9260, 'æg'),
-  (9263, 'af den færdige og afkølede risotto'),
   (9263, 'champignon'),
   (9263, 'citronsaft'),
   (9263, 'dijon sennep'),
@@ -25088,7 +24871,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9288, 'æg'),
   (9288, 'øko citron'),
   (9291, 'citron'),
-  (9291, 'drys frisk dild'),
   (9291, 'frisk dild'),
   (9291, 'frossen spinat'),
   (9291, 'grøn salat'),
@@ -25320,7 +25102,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9360, 'øko citron'),
   (9363, 'hasselnødder'),
   (9363, 'kakaonibs'),
-  (9363, 'konfektforme'),
   (9363, 'mælkechokolade'),
   (9363, 'nougat'),
   (9363, 'spiseligt guldstøv'),
@@ -25399,7 +25180,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9396, 'mørk chokolade'),
   (9396, 'nougat'),
   (9396, 'tørrede blomster'),
-  (9399, 'evt. en dråbe gul frugtfarve'),
   (9399, 'flormelis'),
   (9399, 'fritureolie'),
   (9399, 'gær'),
@@ -25449,7 +25229,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9418, 'mandler'),
   (9418, 'mørk chokolade'),
   (9418, 'skumfiduser'),
-  (9421, 'drys muskatnød'),
   (9421, 'glukosesirup'),
   (9421, 'hele nelliker'),
   (9421, 'mælk'),
@@ -25466,7 +25245,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9428, 'grand marnier'),
   (9428, 'smør'),
   (9428, 'spiseligt guldstøv'),
-  (9428, 'stærk kaffe'),
   (9428, 'sukker'),
   (9428, 'usødet kakao'),
   (9431, 'cornflakes'),
@@ -25500,7 +25278,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9456, 'stødt kardemomme'),
   (9456, 'sukker'),
   (9456, 'øko appelsin'),
-  (9460, 'farvepasta'),
   (9460, 'glukosesirup'),
   (9460, 'kokosmel'),
   (9460, 'lakridsrod'),
@@ -26014,7 +25791,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9604, 'soja'),
   (9604, 'sukker'),
   (9604, 'øko lime'),
-  (9607, 'drys frisk dild'),
   (9607, 'frisk dild'),
   (9607, 'grøntsagsbouillon'),
   (9607, 'hvidløg'),
@@ -26155,7 +25931,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9637, 'hvidløg'),
   (9637, 'iceberg'),
   (9637, 'ketchup'),
-  (9637, 'lage fra de syltede cornichoner'),
   (9637, 'mayonnaise'),
   (9637, 'olivenolie'),
   (9637, 'rødløg'),
@@ -26426,7 +26201,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9700, 'olivenolie'),
   (9700, 'rucola'),
   (9700, 'øko citron'),
-  (9703, 'Derudover'),
   (9703, 'cheddar'),
   (9703, 'chiliflager'),
   (9703, 'frisk koriander'),
@@ -26476,7 +26250,6 @@ INSERT INTO teamd_recipe_ingredients (recipe_id, ingredient_name) VALUES
   (9715, 'æblecidereddike'),
   (9718, 'brød'),
   (9718, 'fennikel'),
-  (9718, 'fiskeben'),
   (9718, 'fiskefond'),
   (9718, 'flutes'),
   (9718, 'frisk timian'),
