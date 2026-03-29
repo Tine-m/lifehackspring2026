@@ -25,6 +25,11 @@ public class WordController {
             ctx.status(204);
         });
 
+        app.get("/words-Amount", ctx -> {
+            int amount = wordList.getWordsAmount();
+            ctx.json(amount);
+        });
+
         app.get("/codle", ctx -> {
             String html = Files.readString(Path.of("src/main/resources/templates/teamK/index.html"));
             ctx.html(html);

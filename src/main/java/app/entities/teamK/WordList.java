@@ -11,10 +11,12 @@ public class WordList {
 
     WordMapper wm;
     List<Word> wordList = new ArrayList<>();
+    int wordsAmount;
 
     public WordList (ConnectionPool cp){
         this.wm = new WordMapper(cp);
         generateFullList();
+        wordsAmount = wordList.size();
     }
 
     public void generateFullList(){
@@ -37,5 +39,9 @@ public class WordList {
 
     public List<Word> getWordList() {
         return wordList;
+    }
+
+    public int getWordsAmount() {
+        return wordsAmount;
     }
 }

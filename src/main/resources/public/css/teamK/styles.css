@@ -39,7 +39,7 @@ body {
 
 .game-card {
     height: 80vh;
-    width: 80vw;
+    width: 90vw;
     justify-content: center;
     align-content: center;
     display: grid;
@@ -53,7 +53,6 @@ body {
 }
 
 .card-field {
-    border: #FFB143 1px solid;
     text-align: center;
     min-height: fit-content;
     flex-wrap: wrap;
@@ -71,6 +70,7 @@ body {
 
 #hint {
     grid-area: hint;
+    margin-top: 10px;
 }
 
 #display-screen {
@@ -209,4 +209,26 @@ body {
 .complete-title {
     font-size: 60px;
     color: #FFB143;
+}
+
+#display-screen {
+    margin: 10px 0;
+    width: 90vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(var(--letters), minmax(0,1fr));
+    justify-contentnt: space-evenly;
+    align-items: center;
+    gap: 5px;
+    }
+
+.letter-box {
+    font-size: 3rem;
+    display: flex;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    border: #FFB143 1px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
