@@ -42,7 +42,7 @@ public class Main
         //Philosophers app
         QuoteController.addRoutes(app, connectionPool);
 
-        // Codle app
+        //Codle app
         WordController.addRoutes(app,connectionPool);
 
     }

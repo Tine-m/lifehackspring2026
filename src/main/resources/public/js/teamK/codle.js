@@ -7,7 +7,13 @@ const lettersBox = document.querySelector("#letters");
 const hintBox = document.querySelector("#hint");
 const displayBox = document.querySelector("#display-screen");
 const progressTracker = document.querySelector("#progressTracker");
+const keyboard = document.querySelector("#keyboard");
 
+const keyboardRows = [
+    ["Q","W","E","R","T","Y","U","I","O","P","Del"],
+    ["A","S","D","F","G","H","J","K","L"],
+    ["Z","X","C","V","B","N","M","Enter"]
+];
 
 document.addEventListener("DOMContentLoaded", startGame);
 
@@ -43,6 +49,7 @@ async function startGame(){
     await getWordsAmount();
     updateBoxesInfo();
     createLetterCards();
+    createKeyboard();
 }
 
 //call /word endpoint to get Word
@@ -74,4 +81,21 @@ function createLetterCards(){
 async function getWordsAmount(){
     const response = await fetch("/words-Amount");
     wordsAmount = await response.json();
+}
+
+//create keyboard
+function createKeyboard() {
+    keyboardRows.forEach(row => {
+        const rowDiv = document.createElement("div");
+        rowDiv.classList.add("keyboard-row");
+
+        row.forEach(key => {
+            const btn = document.createElement("button");
+            btn.textContent = key;
+            btn.classList.add("keyboard-key");
+            btn.addEventListener("click", () => keyPress());
+            rowDiv.appendChild(btn);
+        });
+        keyboard.appendChild(rowDiv);
+    });
 }
