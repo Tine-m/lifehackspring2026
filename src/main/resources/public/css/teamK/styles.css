@@ -247,5 +247,9 @@ body {
 }
 
 .keyboard-key:hover {
-    color: #FFB143;
+    border: #FFB143 1px solid;
+}
+
+.keyboard-key:active {
+    border: black 1px solid;
 }
