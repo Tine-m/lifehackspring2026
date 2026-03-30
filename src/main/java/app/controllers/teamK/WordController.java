@@ -35,9 +35,7 @@ public class WordController {
             ctx.json(amountGuessed);
         });
 
-        app.post("increment-guessed-words", ctx -> {
-            wordList.incrementWordsGuessed();
-        });
+        app.post("increment-guessed-words", ctx -> wordList.incrementWordsGuessed());
 
         app.get("/codle", ctx -> {
             String html = Files.readString(Path.of("src/main/resources/templates/teamK/index.html"));

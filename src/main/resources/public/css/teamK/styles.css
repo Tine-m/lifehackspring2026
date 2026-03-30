@@ -221,7 +221,7 @@ body {
     height: 200px;
     display: grid;
     grid-template-columns: repeat(var(--letters), minmax(0,1fr));
-    justify-contentnt: space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5px;
     }
