@@ -13,7 +13,7 @@ import app.entities.teamQ.DatingQuery;
 public class DatingQueryMapper {
 
     public static void addLike(int id, ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "UPDATE dating_query SET like_counter = like_counter + 1 WHERE id = ?";
+        String sql = "UPDATE teamQ_dating_query SET like_counter = like_counter + 1 WHERE id = ?";
 
         try (
                 Connection connection = connectionPool.getConnection();
@@ -27,7 +27,7 @@ public class DatingQueryMapper {
     }
 
     public static DatingQuery getQuery(int id, ConnectionPool connectionPool) throws DatabaseException {
-        String sql = "SELECT * FROM dating_query WHERE id = ?";
+        String sql = "SELECT * FROM teamQ_dating_query WHERE id = ?";
 
         try (
                 Connection connection = connectionPool.getConnection();
