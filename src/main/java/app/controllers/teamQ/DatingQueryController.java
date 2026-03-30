@@ -10,6 +10,7 @@ import io.javalin.http.Context;
 public class DatingQueryController {
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
+        app.get("/teamQ/", ctx -> home(ctx, connectionPool));
         app.get("/teamQ/home", ctx -> home(ctx, connectionPool));
         app.post("/like/{id}", ctx -> addLike(ctx, connectionPool));
     }
