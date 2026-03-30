@@ -18,6 +18,7 @@ const progressTracker = document.querySelector("#progressTracker");
 const keyboard = document.querySelector("#keyboard");
 const popUpWin = document.querySelector("#pop-up-win");
 const popUpLose = document.querySelector("#pop-up-lose");
+const wordAnswer = document.querySelector("#word-answer");
 
 
 const keyboardRows = [
@@ -151,6 +152,13 @@ function keyPress(key) {
         let userGuessArray = userGuess.split("");
         let letterBoxes = document.querySelectorAll(".letter-box");
 
+        keys.forEach(key => {
+            const color = getComputedStyle(key).backgroundColor;
+            if (color === "rgb(0, 128, 0)" || color === "rgb(255, 177, 67)"){
+                key.style.backgroundColor = "whitesmoke";
+            }
+        });
+
         for (let i = 0; i < userGuessArray.length; i++) {
             let letter = userGuessArray[i];
 
@@ -178,6 +186,7 @@ function keyPress(key) {
             popUpWin.classList.add("active");
             await incrementProgress();
         } else if (userTries === totalTries){
+            wordAnswer.textContent = currentWord.word;
             popUpLose.classList.remove("hidden");
             popUpLose.classList.add("active");
         }
