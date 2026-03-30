@@ -43,12 +43,12 @@ body {
     justify-content: center;
     align-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-        "category letters"
-        "hint hint"
-        "display-screen display-screen"
-        "keyboard keyboard";
+        "category last-guess letters"
+        "hint hint hint"
+        "display-screen display-screen display-screen"
+        "keyboard keyboard keyboard";
 
 }
 
@@ -62,6 +62,10 @@ body {
 #category {
     grid-area: category;
     max-width: 45vw;
+}
+
+#last-guess {
+    grid-area: last-guess
 }
 
 #letters {
@@ -234,5 +238,14 @@ body {
 }
 
 .keyboard-key {
-    height: 40px;
+    font-weight: bold;
+    background: whitesmoke;
+    width: 5vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keyboard-key:hover {
+    color: #FFB143;
 }

@@ -12,11 +12,13 @@ public class WordList {
     WordMapper wm;
     List<Word> wordList = new ArrayList<>();
     int wordsAmount;
+    int wordsGuessedAmount;
 
     public WordList (ConnectionPool cp){
         this.wm = new WordMapper(cp);
         generateFullList();
         wordsAmount = wordList.size();
+        wordsGuessedAmount = 0;
     }
 
     public void generateFullList(){
@@ -30,6 +32,13 @@ public class WordList {
 
     public void removeWordFromList(Word word){
         wordList.remove(word);
+        if (wordList.isEmpty()){
+            generateFullList();
+        }
+    }
+
+    public void incrementWordsGuessed(){
+        wordsGuessedAmount++;
     }
 
     public Word getRandomWordFromList(){
@@ -43,5 +52,9 @@ public class WordList {
 
     public int getWordsAmount() {
         return wordsAmount;
+    }
+
+    public int getWordsGuessedAmount() {
+        return wordsGuessedAmount;
     }
 }

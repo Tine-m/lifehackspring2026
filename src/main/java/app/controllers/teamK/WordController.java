@@ -30,6 +30,15 @@ public class WordController {
             ctx.json(amount);
         });
 
+        app.get("/words-Amount-Guessed", ctx -> {
+            int amountGuessed = wordList.getWordsGuessedAmount();
+            ctx.json(amountGuessed);
+        });
+
+        app.post("increment-guessed-words", ctx -> {
+            wordList.incrementWordsGuessed();
+        });
+
         app.get("/codle", ctx -> {
             String html = Files.readString(Path.of("src/main/resources/templates/teamK/index.html"));
             ctx.html(html);
