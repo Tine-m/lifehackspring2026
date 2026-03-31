@@ -3,6 +3,7 @@ package app;
 import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamM.SubscriptionController;
 import app.controllers.teamQ.DatingQueryController;
 import app.controllers.login.UserController;
 import app.controllers.teamD.SiteController;
@@ -50,6 +51,10 @@ public class Main
         //SubStats app - Team - A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+
+        //Trackly app - TeamM
+        SubscriptionController controller = new SubscriptionController(connectionPool);
+        controller.addRoutes(javApp);
 
         //WeeklyDatingQueries - Team - Q
         DatingQueryController.addRoutes(javApp, connectionPool);
