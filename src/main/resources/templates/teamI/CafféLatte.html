@@ -20,6 +20,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{ /teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -48,6 +49,12 @@
 
 </header>
 
+<nav class="navCenter">
+    <div class="menu-popup-container">
+        <div id="popupMessage" class="popup-message"></div>
+    </div>
+</nav>
+
 <nav class="navCentrum">
     <strong class="h1">Caffé Latte</strong>
     <div class="content">
@@ -68,12 +75,17 @@
             <p class="bodyText">Vand: 0,6 dl</p>
             <p class="bodyText">Mælk: 2,4 dl</p>
 
+            <form id="favoritForm" class="favorite-form">
+                <input type="hidden" name="coffeetype" value="Caffe_Latte">
+                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+            </form>
+
         </div>
     </div>
 </nav>
 
 
-
+<script src="/js/teamI/Favorites.js"></script>
 
 </body>
 

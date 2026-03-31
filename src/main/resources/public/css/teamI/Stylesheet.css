@@ -1,3 +1,10 @@
+#display{
+    width:100px;
+    height:40px;
+    border:1px solid black;
+    margin-top:10px;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -29,7 +36,7 @@ body {
 
 /* ________________ text __________________  */
 
-.h1{
+.h1 {
     font-family: "Baskerville Old Face";
     font-weight: 600;
     font-size: 35px;
@@ -77,15 +84,16 @@ body {
     max-width: 1050px;
     text-align: left;
 }
-.bodyTextCenter{
-        text-decoration: none;
-        color: black;
-        font-family: "Baskerville Old Face";
-        font-weight: 500;
-        font-size: 22px;
-        flex: 2;
-        max-width: 1500px;
-        text-align: center;
+
+.bodyTextCenter {
+    text-decoration: none;
+    color: black;
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 22px;
+    flex: 2;
+    max-width: 1500px;
+    text-align: center;
 }
 
 
@@ -146,18 +154,17 @@ body {
     gap: 40px;
 }
 
-.left{
+.left {
     display: flex;
     gap: 30px;
     justify-content: flex-end;
 }
+
 .right {
     display: flex;
     gap: 30px;
     justify-content: flex-start;
 }
-
-
 
 
 .menu a {
@@ -200,7 +207,7 @@ body {
 
 /* ________________ background __________________  */
 body {
-    background-color: #F8F6E6; /* eller hvilken farve du vil */
+    background-color: #F8F6E6;
 }
 
 
@@ -242,7 +249,7 @@ body {
     padding: 0;
 }
 
-.footer a:hover{
+.footer a:hover {
     text-decoration: underline;
 }
 
@@ -308,9 +315,6 @@ button:hover {
     display: flex;
     gap: 200px;
 }
-.foto a{
-    color: black;
-}
 
 .foto a:hover {
     opacity: 0.7;
@@ -348,19 +352,8 @@ button:hover {
 }
 
 
-/*///////////////////////////////////////////////////////*/
+/*-----------brand logo---------------*/
 
-.placing{
-    padding-top: 100px;
-    padding-left: 130px;
-}
-
-.colorPanel{
-    padding: 150px;
-    background-color: blue;
-}
-
-/*///////////////////////////////////////////////////////*/
 
 .brandFoto {
     height: 200px;
@@ -428,3 +421,93 @@ button:hover {
     transform: rotate(45deg);
     margin: 0 12px;
 }
+
+
+
+/*-----------add buttom---------------*/
+
+.favorite-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: "Baskerville Old Face";
+    font-size: 18px;
+    background-color: #543c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-btn:hover {
+    opacity: 0.7;
+}
+
+/*-----------pop_up---------------*/
+
+.menu-popup-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-message {
+    position: absolute;
+    top: 10px;
+    min-width: 250px;
+    max-width: 600px;
+    padding: 15px 25px;
+    background: #6b4f4f;
+    color: #fff;
+    border-radius: 8px;
+    display: none;
+    z-index: 2000;
+    font-family: "Baskerville Old Face";
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+/*-----------tabel favorit---------------*/
+
+.tableWrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tableStyle {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 80%;
+
+    font-family: "Baskerville Old Face";
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+}
+
+
+.tableStyle th,
+.tableStyle td {
+    padding: 15px 35px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+
+.tableStyle thead th {
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+}
+
+
+.tableStyle tbody td {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.tableStyle tbody tr:nth-child(even) {
+    background-color: #f8f6e6;
+}
+

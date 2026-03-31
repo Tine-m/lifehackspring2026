@@ -1,77 +1,91 @@
 package app.persistence.teamI;
-
-
 import app.entities.teamI.Coffee;
+import app.entities.teamI.CoffeeFavorits;
 import app.entities.teamI.Users;
 import app.entities.teamI.ingredients.Milk;
 import app.entities.teamI.ingredients.Water;
 import app.entities.teamI.ingredients.beansType.BeanKaf;
+import app.exceptions.DatabaseException;
 import app.persistence.ConnectionPool;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CoffeeMapper {
 
     private ConnectionPool connectionPool;
+
     public CoffeeMapper(ConnectionPool connectionPool) {
         this.connectionPool = connectionPool;
     }
 
-    /*
-    /this method are under construction, therefore it not activ.
-    public List<Coffee> getExistingCoffee(String beanType, double volume){
-        List<Coffee> existingCoffee = new ArrayList<>();
-        Map<String, Double> ingredient = new HashMap<>();
+    public List<CoffeeFavorits> getFavorit(int user_id) {
+        List<CoffeeFavorits> favoritList = new ArrayList<>();
+        String sql = "SELECT coffeetype, milk, water, bean, brand FROM teami_favorits where user_id = ?";
 
-        String sql =  "SELECT * FROM coffeeTypes where beanBrand = ...." +
-                "from CoffeeTypes";
+        try (Connection connection = connectionPool.getConnection();
+             PreparedStatement ps = connection.prepareStatement(sql)) {
 
-        try (Connection connection = connectionPool.getConnection()) {
-            try (PreparedStatement ps = connection.prepareStatement(sql)) {
+            ps.setInt(1, user_id);
+            ResultSet rs = ps.executeQuery();
 
-                ps.setString(1, beanType);
-                ResultSet rs = ps.executeQuery();
-                if (rs.next()) {
+            while (rs.next()) {
 
-                    String coffeType = rs.getString("coffeeType");
-                    double milk =  rs.getInt("Milk");
-                    double bean =  rs.getInt("Bean");
-                    double water =  rs.getInt("Water");
+                String coffeType = rs.getString("coffeetype");
+                int milk = rs.getInt("milk");
+                int bean = rs.getInt("bean");
+                int water = rs.getInt("water");
+                String brand = rs.getString("brand");
 
-                    ingredient.put("Milk", milk);
-                    ingredient.put("Bean", bean);
-                    ingredient.put("Water", water);
-
-                    Coffee coffee = new Coffee(coffeType, volume, ingredient,null);
-                    existingCoffee.add(coffee);
-                    return existingCoffee;
-
-
-                }
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
+                CoffeeFavorits favoritCoffe = new CoffeeFavorits(coffeType, ""+(milk), ""+(water), ""+(bean), brand);
+                favoritList.add(favoritCoffe);
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            return favoritList;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
-        return null;
     }
-     */
 
-    public Coffee createCoffee(String beanType, int totalVolume, int beanPercentages, int milkPercentages, int waterPercentages){
+    public Coffee createCoffee(String beanType, int totalVolume, int beanPercentages, int milkPercentages, int waterPercentages) {
 
         Coffee coffee = new BeanKaf(23);
-        coffee = new Water(coffee,23);
-        coffee = new Milk(coffee,23);
+        coffee = new Water(coffee, 23);
+        coffee = new Milk(coffee, 23);
 
         return coffee;
     }
 
-    public boolean addToFavorites(Users user_id, Coffee coffename){
+    public boolean addToFavorites(Users user_id, Coffee coffename) {
         return true;
     }
 
-    public List<Coffee> getFavorites(Users user_id){
+    public List<Coffee> getFavorites(Users user_id) {
         return null;
     }
+
+    public boolean addCoffeTypeToFavorit(String coffeetype, int userId) throws DatabaseException {
+        String sql = "INSERT INTO teami_favorits (user_id, coffeetype, milk, water, bean, brand) SELECT ?, " +
+                "coffeetype, milk, water, bean, NULL FROM teami_coffeetypes WHERE coffeetype = ?";
+        System.out.println(sql);
+        try (Connection conn = connectionPool.getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setInt(1, userId);
+            ps.setString(2, coffeetype);
+            int rows = ps.executeUpdate();
+            return rows > 0;
+
+        } catch (SQLException e) {
+            throw new DatabaseException("Kunne ikke kopiere kaffe til favorit.", e.getMessage());
+        }
+    }
+
+
+
+
+
 }

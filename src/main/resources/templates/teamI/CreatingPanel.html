@@ -19,6 +19,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{/teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -47,7 +48,11 @@
 
 </header>
 
+<div class="navCenter">
+    <canvas id="pieCanvas" width="400" height="400"></canvas>
+</div>
 
+<script src="/js/teamI/CreatorPanel.js"></script>
 </body>
 
 <footer>

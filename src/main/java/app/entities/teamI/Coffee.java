@@ -1,5 +1,4 @@
 package app.entities.teamI;
-
 import java.awt.*;
 import java.util.Map;
 

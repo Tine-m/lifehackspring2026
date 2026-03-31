@@ -1,6 +1,5 @@
 package app.entities.teamI.ingredients;
 
-
 import app.entities.teamI.Coffee;
 
 import java.awt.*;

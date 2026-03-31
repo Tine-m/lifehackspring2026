@@ -20,6 +20,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{/teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -47,6 +48,11 @@
     </nav>
 
 </header>
+<nav class="navCenter">
+    <div class="menu-popup-container">
+        <div id="popupMessage" class="popup-message"></div>
+    </div>
+</nav>
 
 <nav class="navCentrum">
     <strong class="h1">Americano</strong>
@@ -55,28 +61,38 @@
             <img src="/images/teamI/coffeeImage/fotoAmericano.png" class="bigFoto" alt="billed af americano" align="right"/>
             <br> En americano er en klassisk kaffedrik, der laves ved at fortynde en espresso med varmt vand,
             hvilket giver en kop kaffe, der minder om filterkaffe i styrke, men stadig bevarer espressoens karakter.
-            <br>Aromaen er typisk let og elegant frem for intens, med ristede og ofte nøddeagtige nuancer  som kan ledsages af subtile noter af             chokolade, karamel eller frugt, afhængigt af kaffebønnerne.
-             <br>Når vandet tilsættes, åbner det duften og gør den mere luftig og nuanceret. Smagen er blød og balanceret, mildere end en ren espresso,
-            men stadig med en tydelig kaffedybde. Der er som regel en let bitterhed, som afrundes af vandet, samt en behagelig syrlighed,
-           <br> især hvis der bruges lysristede bønner. Samlet set giver en americano en mere drikkelig og afrundet kaffeoplevelse,
+            <br>Aromaen er typisk let og elegant frem for intens, med ristede og ofte nøddeagtige nuancer som kan
+            ledsages af subtile noter af chokolade, karamel eller frugt, afhængigt af kaffebønnerne.
+            <br>Når vandet tilsættes, åbner det duften og gør den mere luftig og nuanceret. Smagen er blød og
+            balanceret, mildere end en ren espresso,
+            men stadig med en tydelig kaffedybde. Der er som regel en let bitterhed, som afrundes af vandet, samt en
+            behagelig syrlighed,
+            <br> især hvis der bruges lysristede bønner. Samlet set giver en americano en mere drikkelig og afrundet
+            kaffeoplevelse,
             hvor man stadig får espressoens kompleksitet, men i en mindre intens og mere tilgængelig form.
         </p>
 
 
         <div class="formRecipes">
-            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
+            <p class="bodyText"><strong> Kaffe Guide</strong></p>
             <p class="bodyText">Kaffebønne: 18 g</p>
             <p class="bodyText">Vand: 1,5 dl</p>
             <p class="bodyText">Mælk: 0 dl</p>
 
+            <form id="favoritForm" class="favorite-form">
+                <input type="hidden" name="coffeetype" value="Americano">
+                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+            </form>
+
         </div>
+
     </div>
+
+
 </nav>
 
-
-
+<script src="/js/teamI/Favorites.js"></script>
 </body>
-
 
 
 <footer>

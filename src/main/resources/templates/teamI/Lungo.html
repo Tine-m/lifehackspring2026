@@ -20,6 +20,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{/teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -28,7 +29,7 @@
 
     <ul class="menu">
         <div class="left">
-            <li><a th:href="@{/coffeeType}"> Coffee Type </a></li>
+            <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
             <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
         </div>
 
@@ -48,17 +49,23 @@
 
 </header>
 
+<nav class="navCenter">
+    <div class="menu-popup-container">
+        <div id="popupMessage" class="popup-message"></div>
+    </div>
+</nav>
+
 <nav class="navCentrum">
     <strong class="h1">Lungo</strong>
     <div class="content">
         <p class="bodyText">
             <img src="/images/teamI/coffeeImage/lungo.png" class="bigFoto" alt="billed af lungo" align="right"/>
-        En lungo er en espressovariant, hvor der trækkes mere vand igennem kaffen, hvilket giver en større kop med mildere intensitet.
-        Aromaen er stadig præget af espressoens ristede noter, men bliver mere åben og let, ofte med subtile toner af chokolade,
-        nødder eller let frugtighed, der udvikler sig mere end i en almindelig espresso. Smagen er blødere og mere afrundet end en espresso,
-        med mindre koncentreret bitterhed, men stadig med en markant kaffekarakter og let syrlighed.
-        Mundfornemmelsen er fyldig, men ikke så kraftig som espresso,
-        hvilket gør lungo til en mere drikkelig og tilgængelig kaffeoplevelse, hvor nuancerne fra kaffen træder frem på en mildere måde.
+            En lungo er en espressovariant, hvor der trækkes mere vand igennem kaffen, hvilket giver en større kop med mildere intensitet.
+            Aromaen er stadig præget af espressoens ristede noter, men bliver mere åben og let, ofte med subtile toner af chokolade,
+            nødder eller let frugtighed, der udvikler sig mere end i en almindelig espresso. Smagen er blødere og mere afrundet end en espresso,
+            med mindre koncentreret bitterhed, men stadig med en markant kaffekarakter og let syrlighed.
+            Mundfornemmelsen er fyldig, men ikke så kraftig som espresso,
+            hvilket gør lungo til en mere drikkelig og tilgængelig kaffeoplevelse, hvor nuancerne fra kaffen træder frem på en mildere måde.
         </p>
 
 
@@ -67,10 +74,17 @@
             <p class="bodyText">Kaffebønne: 9 g</p>
             <p class="bodyText">Vand: 0,6 dl</p>
             <p class="bodyText">Mælk: 0 dl</p>
+
+            <form id="favoritForm" class="favorite-form">
+                <input type="hidden" name="coffeetype" value="Lungo">
+                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+            </form>
+
         </div>
     </div>
 </nav>
 
+<script src="/js/teamI/Favorites.js"></script>
 
 </body>
 

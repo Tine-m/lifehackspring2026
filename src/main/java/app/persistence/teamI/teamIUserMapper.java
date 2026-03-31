@@ -8,15 +8,14 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
-public class UserMapper {
+public class teamIUserMapper {
 
     private ConnectionPool connectionPool;
-    public UserMapper(ConnectionPool connectionPool) {
+    public teamIUserMapper(ConnectionPool connectionPool) {
         this.connectionPool = connectionPool;
     }
 
-    public boolean login(String email, String password) {
+    public Integer login(String email, String password) throws DatabaseException {
         String sql = """
                 SELECT u.user_id, u.firstname, u.lastname, u.email, a.password
                 FROM teami_users u
@@ -31,40 +30,45 @@ public class UserMapper {
                 preparedStatement.setString(2, password);
 
                 ResultSet resultSet = preparedStatement.executeQuery();
-                return resultSet.next();
+                if(resultSet.next()){
+                    return resultSet.getInt("user_id");
+                }
+                else{
+                    return null;
+                }
+
             }
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
-            return false;
+            throw new DatabaseException("login fejlede", e.getMessage());
         }
     }
 
     public boolean createUser(String firstname, String lastname, String email, String password) throws DatabaseException {
         String createUser = "INSERT INTO teami_users (firstname, lastname, email) VALUES (?, ?, ?)";
-  String createAccount = "INSERT INTO teami_account (user_id, password) VALUES (?, ?)";
-      
+        String createAccount = "INSERT INTO teami_account (user_id, password) VALUES (?, ?)";
+
         try (Connection connection = connectionPool.getConnection()) {
             connection.setAutoCommit(false);
-          
+
             int userId;
-          
+
             try (PreparedStatement user = connection.prepareStatement(createUser, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 user.setString(1, firstname);
                 user.setString(2, lastname);
                 user.setString(3, email);
 
                 user.executeUpdate();
-              
+
                 ResultSet rs = user.getGeneratedKeys();
                 if (rs.next()) {
                     userId = rs.getInt(1);
-                   
+
                 } else {
                     throw new DatabaseException("Kunne ikke hente user_id");
 
                 }
             }
-          
+
             try (PreparedStatement account = connection.prepareStatement(createAccount)) {
                 account.setInt(1, userId);
                 account.setString(2, password);

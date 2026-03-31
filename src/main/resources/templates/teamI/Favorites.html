@@ -9,7 +9,6 @@
 
 <body>
 
-
 <header>
     <div class="header">
         <div class="logoplace">
@@ -20,6 +19,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{/teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -48,10 +48,38 @@
 
 </header>
 
+
 <nav class="navCenter">
+    <div class="tableWrapper">
+        <table class="tableStyle">
+            <thead>
+            <tr>
+                <th>Kaffe type</th>
+                <th>Mælk</th>
+                <th>Vand</th>
+                <th>Bønner</th>
+                <th>Brand</th>
+            </tr>
+            </thead>
+
+            <tbody class="bodyText">
+            <tr th:each="fav : ${favoritList}">
+                <td th:text="${fav.coffeetype}"></td>
+                <td th:text="${fav.milk}"></td>
+                <td th:text="${fav.water}"></td>
+                <td th:text="${fav.bean}"></td>
+                <td th:text="${fav.brand}"></td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <form action="/teamI/favorit" method="get">
+        <button type="submit">Se dine favoritter</button>
+    </form>
 
 </nav>
-
 
 
 </body>

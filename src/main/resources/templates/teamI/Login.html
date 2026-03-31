@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="da">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<title>Frontpage</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8">
     <title>CoffiiMe_Login</title>
@@ -23,6 +19,9 @@
 
 
         <ul class="account">
+            <div id="getFavoritForm">
+                <li><a th:href="@{/teamI/favoritsite}">Favorit"</a></li>
+            </div>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -72,6 +71,9 @@
     </div>
 </main>
 
+<script src="/js/teamI/accountSession.js"></script>
+
+
 </body>
 
 <footer>
@@ -87,12 +89,3 @@
 </footer>
 
 </html>
-
-
-
-
-
-
-
-
-

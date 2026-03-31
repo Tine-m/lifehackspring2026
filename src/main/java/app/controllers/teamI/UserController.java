@@ -1,13 +1,13 @@
 package app.controllers.teamI;
 
 import app.exceptions.DatabaseException;
+
 import app.persistence.ConnectionPool;
-import app.persistence.teamI.UserMapper;
+import app.persistence.teamI.teamIUserMapper;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
 public class UserController {
-
 
     public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
 
@@ -18,18 +18,17 @@ public class UserController {
         app.get("/teamI/contactUs", ctx -> ctx.render("/teamI/ContactUs.html"));
         app.get("/teamI/createAccount", ctx -> ctx.render("/teamI/CreateAccount.html"));
         app.get("/teamI/creatingPanel", ctx -> ctx.render("/teamI/CreatingPanel.html"));
-        app.get("/teamI/favorites", ctx -> ctx.render("/teamI/Favorites.html"));
-        app.get("/teamI/index", ctx -> ctx.render("teamI/Index.html"));
+        app.get("/teamI/index", ctx -> ctx.render("/teamI/Index.html"));
         app.get("/teamI/login", ctx -> ctx.render("/teamI/Login.html"));
         app.get("/teamI/options", ctx -> ctx.render("/teamI/Options.html"));
-        
+        app.get("/teamI/favoritsite", ctx -> ctx.render("/teamI/Favorites.html"));
+
         //app.post("/index", ctx -> login(ctx, connectionPool));
         app.post("/teamI/createAccount", ctx -> createUser(ctx, connectionPool));
-        app.post("/teamI/login", ctx -> login(ctx,connectionPool));
+        app.post("/teamI/login", ctx -> login(ctx, connectionPool));
 
 
-
-        // coffee types pictures. Links the user to another site that displays the coffeetypes.
+        // coffee types picture link
         app.get("/teamI/americano", ctx -> ctx.render("/teamI/Americano.html"));
         app.get("/teamI/cafeLatte", ctx -> ctx.render("/teamI/CafféLatte.html"));
         app.get("/teamI/cappuccino", ctx -> ctx.render("/teamI/Cappuccino.html"));
@@ -49,14 +48,12 @@ public class UserController {
 
     }
 
-
-
     public static void createUser(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         String firstname = ctx.formParam("firstname");
         String lastname = ctx.formParam("lastname");
         String email = ctx.formParam("email");
         String password = ctx.formParam("password");
-        UserMapper createAccount = new UserMapper(connectionPool);
+        teamIUserMapper createAccount = new teamIUserMapper(connectionPool);
 
         if (createAccount.createUser(firstname, lastname, email, password)) {
             ctx.redirect("/teamI/index");
@@ -68,16 +65,23 @@ public class UserController {
     public static void login(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
         String email = ctx.formParam("email");
         String password = ctx.formParam("password");
-        UserMapper user = new UserMapper(connectionPool);
+        teamIUserMapper user = new teamIUserMapper(connectionPool);
 
-        if (user.login(email, password)) {
+        Integer user_id = user.login(email, password);
+
+        if (user_id != null) {
+            ctx.sessionAttribute("user_id", user_id);
             ctx.redirect("/teamI/index");
+            ctx.result("true");
+
         } else {
             ctx.result("Something went wrong. Check username or password");
         }
     }
 
+
     public static void logout() {
 
     }
 }
+

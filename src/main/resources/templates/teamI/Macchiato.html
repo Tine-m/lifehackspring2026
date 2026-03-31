@@ -20,6 +20,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{/teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -48,17 +49,24 @@
 
 </header>
 
+<nav class="navCenter">
+    <div class="menu-popup-container">
+        <div id="popupMessage" class="popup-message"></div>
+    </div>
+</nav>
+
+
 <nav class="navCentrum">
     <strong class="h1">Macchiato</strong>
     <div class="content">
         <p class="bodyText">
             <img src="/images/teamI/coffeeImage/macchiato.png" class="bigFoto" alt="billed af Macchiato" align="right"/>
-        En macchiato er en lille, koncentreret kaffedrik, der typisk består af en enkelt espresso med et lille “mærke” af mælkeskum på toppen.
-        Aromaen er intens og fyldig, domineret af espressoens ristede noter, ofte med subtile hints af chokolade, karamel eller nødder,
-        hvor mælken kun bløder kanterne en smule. Smagen er skarp og markant med espressoens karakteristiske bitterhed og let syrlighed,
-        mens den lille mængde mælk tilføjer en let cremethed uden at overdøve kaffens dybde. Mundfornemmelsen er koncentreret og tæt,
-        med et tyndt lag skum, der giver en diskret blødhed.
-        Samlet set er en macchiato en intens og direkte kaffeoplevelse, hvor espressoens smagsnuancer står i centrum med kun et strejf af blødhed fra mælken.
+            En macchiato er en lille, koncentreret kaffedrik, der typisk består af en enkelt espresso med et lille “mærke” af mælkeskum på toppen.
+            Aromaen er intens og fyldig, domineret af espressoens ristede noter, ofte med subtile hints af chokolade, karamel eller nødder,
+            hvor mælken kun bløder kanterne en smule. Smagen er skarp og markant med espressoens karakteristiske bitterhed og let syrlighed,
+            mens den lille mængde mælk tilføjer en let cremethed uden at overdøve kaffens dybde. Mundfornemmelsen er koncentreret og tæt,
+            med et tyndt lag skum, der giver en diskret blødhed.
+            Samlet set er en macchiato en intens og direkte kaffeoplevelse, hvor espressoens smagsnuancer står i centrum med kun et strejf af blødhed fra mælken.
         </p>
 
 
@@ -68,11 +76,16 @@
             <p class="bodyText">Vand: 0,3 dl</p>
             <p class="bodyText">Mælk: 0,15 dl</p>
 
+            <form id="favoritForm" class="favorite-form">
+                <input type="hidden" name="coffeetype" value="Macchiato">
+                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+            </form>
+
         </div>
     </div>
 </nav>
 
-
+<script src="/js/teamI/Favorites.js"></script>
 
 </body>
 

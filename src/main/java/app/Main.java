@@ -2,7 +2,6 @@ package app;
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
-import app.controllers.login.UserController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;

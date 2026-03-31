@@ -20,6 +20,7 @@
 
 
         <ul class="account">
+            <li><a th:href="@{/teamI/favoritsite}">Favorit</a></li>
             <li><a th:href="@{/teamI/login}"> Login </a></li>
             <li><a th:href="@{/teamI/createAccount}"> Create Account </a></li>
         </ul>
@@ -48,18 +49,24 @@
 
 </header>
 
+<nav class="navCenter">
+    <div class="menu-popup-container">
+        <div id="popupMessage" class="popup-message"></div>
+    </div>
+</nav>
+
 <nav class="navCentrum">
     <strong class="h1">Latte Macchiato</strong>
     <div class="content">
         <p class="bodyText">
             <img src="/images/teamI/coffeeImage/latteMacchiato.png" class="bigFoto" alt="billed af latte macchiato" align="right"/>
-        En latte macchiato er en visuelt elegant og lagdelt kaffedrik, der laves ved at hælde en espresso forsigtigt over varm, skummet mælk,
-        så espressoen “markerer” mælken. Aromaen er mild og sødlig, præget af mælkens varme og bløde noter,
-        mens espressoens ristede karakter træder frem i baggrunden med subtile hints af chokolade eller karamel.
-        Smagen er blød og afrundet, med mælkens naturlige sødme, der dominerer, og kun et let strejf af kaffens bitterhed,
-        hvilket skaber en let og behagelig oplevelse. Teksturen er cremet og luftig på grund af det høje skumlag, og drikken har en blid,
-        næsten fløjlsagtig mundfornemmelse. Samlet set er en latte macchiato en blød,
-        delikat og visuelt tiltalende kaffeoplevelse, hvor espressoen giver karakter uden at overtage mælken.
+            En latte macchiato er en visuelt elegant og lagdelt kaffedrik, der laves ved at hælde en espresso forsigtigt over varm, skummet mælk,
+            så espressoen “markerer” mælken. Aromaen er mild og sødlig, præget af mælkens varme og bløde noter,
+            mens espressoens ristede karakter træder frem i baggrunden med subtile hints af chokolade eller karamel.
+            Smagen er blød og afrundet, med mælkens naturlige sødme, der dominerer, og kun et let strejf af kaffens bitterhed,
+            hvilket skaber en let og behagelig oplevelse. Teksturen er cremet og luftig på grund af det høje skumlag, og drikken har en blid,
+            næsten fløjlsagtig mundfornemmelse. Samlet set er en latte macchiato en blød,
+            delikat og visuelt tiltalende kaffeoplevelse, hvor espressoen giver karakter uden at overtage mælken.
         </p>
 
 
@@ -68,11 +75,17 @@
             <p class="bodyText">Kaffebønne: 9 g</p>
             <p class="bodyText">Vand: 2,5 dl</p>
             <p class="bodyText">Mælk: 0,3 dl</p>
+
+            <form id="favoritForm" class="favorite-form">
+                <input type="hidden" name="coffeetype" value="Latte_Macchiato">
+                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+            </form>
+
         </div>
     </div>
 </nav>
 
-
+<script src="/js/teamI/Favorites.js"></script>
 
 </body>
 
@@ -83,8 +96,8 @@
 
         <nav class="navbar">
             <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+                <li><a th:href="@{/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/contactUs}"> Contact us </a></li>
             </ul>
         </nav>
     </div>

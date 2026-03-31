@@ -5,17 +5,18 @@ import java.util.Objects;
 public class Users {
     private String firstname;
     private String lastname;
-    private String email;
+    private String user_email;
     private String password;
     private int user_id;
 
     public Users(String firstname, String lastname, String email, String password, int user_id) {
         this.firstname = firstname;
         this.lastname = lastname;
-        this.email = email;
+        this.user_email = email;
         this.password = password;
         this.user_id = user_id;
     }
+
 
     public String getFirstname() {
         return firstname;
@@ -33,12 +34,12 @@ public class Users {
         this.lastname = lastname;
     }
 
-    public String getEmail() {
-        return email;
+    public String getUser_email() {
+        return user_email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUser_email(String user_email) {
+        this.user_email = user_email;
     }
 
     public String getPassword() {
@@ -61,12 +62,12 @@ public class Users {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Users users = (Users) o;
-        return user_id == users.user_id && Objects.equals(firstname, users.firstname) && Objects.equals(lastname, users.lastname) && Objects.equals(email, users.email) && Objects.equals(password, users.password);
+        return user_id == users.user_id && Objects.equals(firstname, users.firstname) && Objects.equals(lastname, users.lastname) && Objects.equals(user_email, users.user_email) && Objects.equals(password, users.password);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstname, lastname, email, password, user_id);
+        return Objects.hash(firstname, lastname, user_email, password, user_id);
     }
 }
 
