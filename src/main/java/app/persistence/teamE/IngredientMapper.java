@@ -17,8 +17,8 @@ public class IngredientMapper {
 
         String sql = """
             SELECT i.ingredient_id, i.ingredient_name, ri.quantity
-            FROM teamE_ingredient i
-            JOIN teamE_recipe_ingredient ri ON i.ingredient_id = ri.ingredient_id
+            FROM teame_ingredient i
+            JOIN teame_recipe_ingredient ri ON i.ingredient_id = ri.ingredient_id
             WHERE ri.recipe_id = ?
         """;
 
