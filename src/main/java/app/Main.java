@@ -3,6 +3,11 @@ package app;
 import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamM.SubscriptionController;
+import app.controllers.teamQ.DatingQueryController;
+import app.controllers.login.UserController;
+import app.controllers.teamD.SiteController;
+import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
@@ -23,27 +28,49 @@ public class Main
 
     private static final ConnectionPool connectionPool = ConnectionPool.getInstance(USER, PASSWORD, URL, DB);
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Initializing Javalin and Jetty webserver
-        Javalin app = Javalin.create(config -> {
+        Javalin javApp = Javalin.create(config -> {
             config.staticFiles.add("/public");
+            config.jetty.modifyServletContextHandler(handler -> handler.setSessionHandler(SessionConfig.sessionConfig()));
             config.fileRenderer(new JavalinThymeleaf(ThymeleafConfig.templateEngine()));
             config.staticFiles.add("/templates");
         }).start(7070);
 
 
         // Routing
-        // Frontpage - you muest register your app here.
-        MainController.addRoutes(app, connectionPool);
+        // Frontpage - you must register your app here
+        MainController.addRoutes(javApp, connectionPool);
+
+        // Team O
+        TeamOController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
-        UserController.addRoutes(app, connectionPool);
+        app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
-        //Philosophers app - teamteachers
-        QuoteController.addRoutes(app, connectionPool);
-        //team b
-        TeamBQuoteController.addRoutes(app, connectionPool);
+        //Philosophers app - team teachers
+        QuoteController.addRoutes(javApp, connectionPool);
+
+        //SubStats app - Team - A
+        app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
+        app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+
+        // Team C
+        QuizController.addRoutes(javApp, connectionPool);
+
+        // teamG:
+        HackController.addRoutes(javApp, connectionPool);
+
+        //Nem Mad app
+        SiteController.addRoutes(javApp, connectionPool);
+
+        // teamI:
+        app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);
+        app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
+
+        // teamB:
+        app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
+
 
     }
 }
