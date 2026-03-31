@@ -19,7 +19,7 @@ const keyboard = document.querySelector("#keyboard");
 const popUpWin = document.querySelector("#pop-up-win");
 const popUpLose = document.querySelector("#pop-up-lose");
 const wordAnswer = document.querySelector("#word-answer");
-
+const attemptsTracker = document.querySelector("#attempts-tracker");
 
 const keyboardRows = [
     ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Del"],
@@ -73,16 +73,7 @@ async function loadWord() {
 }
 
 async function deleteWord() {
-    try {
-        const res = await fetch(`/word/delete/${currentWord.id}`, {method: "DELETE"});
-        if (res.ok) {
-            console.log(currentWord.word + " deleted")
-        } else {
-            console.error("deletion failed")
-        }
-    } catch (err) {
-        console.error("Network failed");
-    }
+    await fetch(`/word/delete/${currentWord.id}`, {method: "DELETE"});
 }
 
 //Update layout info
@@ -91,7 +82,7 @@ function updateBoxesInfo() {
     lettersBox.textContent = currentWord.wordLength + " bogstaver";
     hintBox.textContent = currentWord.hint;
     progressTracker.textContent = wordsGuessed + " / " + wordsAmount + " færdige";
-
+    attemptsTracker.textContent = userTries + " / " + totalTries + " forsøg";
 }
 
 async function incrementProgress() {
@@ -136,15 +127,16 @@ function createKeyboard() {
     });
 }
 
-function keyPress(key) {
+async function keyPress(key) {
     if (key === "Del" && userWordGuess.length > 0) {
         userWordGuess = userWordGuess.slice(0, -1);
         updateLetterCards(userWordGuess);
     } else if (key === "Enter") {
-        userTries++;
+        if (userTries < 3){userTries++}
+        attemptsTracker.textContent = userTries + " / " + totalTries + " forsøg";
         checkLetters(userWordGuess);
         lastGuess.textContent = "Sidste gæt: " + userWordGuess;
-        checkForWin();
+        await checkForWin();
     } else if (userWordGuess.length < currentWord.word.length &&
         key !== "Del" && key !== "Enter") {
         userWordGuess += key;

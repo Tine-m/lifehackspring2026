@@ -5,6 +5,7 @@ import app.persistence.teamK.WordMapper;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Random;
 
 public class WordList {
@@ -23,11 +24,7 @@ public class WordList {
 
     public void generateFullList(){
         List<Word> result = wm.generateWordList();
-        if (result != null){
-            wordList = result;
-        } else {
-            wordList = new ArrayList<>();
-        }
+        wordList = Objects.requireNonNullElseGet(result, ArrayList::new);
     }
 
     public void removeWordFromList(int id){
@@ -44,10 +41,6 @@ public class WordList {
     public Word getRandomWordFromList(){
         Random rand = new Random();
         return wordList.get(rand.nextInt(wordList.size()));
-    }
-
-    public List<Word> getWordList() {
-        return wordList;
     }
 
     public int getWordsAmount() {
