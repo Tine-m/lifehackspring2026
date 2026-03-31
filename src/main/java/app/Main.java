@@ -55,6 +55,7 @@ public class Main
         //Trackly app - TeamM
         SubscriptionController controller = new SubscriptionController(connectionPool);
         controller.addRoutes(javApp);
+
         //WeeklyDatingQueries - Team - Q
         DatingQueryController.addRoutes(javApp, connectionPool);
 
