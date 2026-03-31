@@ -42,6 +42,10 @@ public class MainController {
 
         lifehackSites.add(new LifehackSite("Nem Mad", "Find Opskrifter", "/teamD", "images/teamD/cookbook.png"));
 
+        //teamI CoffiiMe
+        lifehackSites.add(new LifehackSite("CoffiiMe", "Your way to good Coffee","teamI/index","images/teamI/coffiimeLogo.png"));
+
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
     }

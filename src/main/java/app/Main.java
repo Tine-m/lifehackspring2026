@@ -11,6 +11,7 @@ import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
+import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
@@ -67,6 +68,11 @@ public class Main
 
         //Nem Mad app
         SiteController.addRoutes(javApp, connectionPool);
+
+        // teamI:
+        app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);
+        app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
+
 
     }
 }
