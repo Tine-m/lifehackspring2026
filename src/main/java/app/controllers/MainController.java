@@ -18,8 +18,13 @@ public class MainController {
     private static void index(@NotNull Context ctx) {
         List<LifehackSite> lifehackSites = new ArrayList<>();
         //teamteachers
-         lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/teamteachers/philosophers", "images/teamteachers/socrates.jpg"));
+        lifehackSites.add(new LifehackSite("Filosoffernes hjørne", "Få et råd", "/teamteachers/philosophers", "images/teamteachers/socrates.jpg"));
+
+        //teamQ, WeeklyDatingQueries
+        lifehackSites.add(new LifehackSite("Weekly Dating Queries", "See the latest", "/teamQ/home", "images/teamQ/front.png"));
+
         lifehackSites.add(new LifehackSite("Cirkusquizzen", "Tag en quiz", "/teamC", "images/teamC/media/cirkus.jpg"));
+
         //teamA, SubStats
         lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.png"));
 
