@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 0 UI</title>
+    <link rel="stylesheet" href="/css/teamQ/styles.css">
+</head>
+<body>
+
+<!-- Top UI -->
+<div class="container">
+    <!-- Friday Container -->
+    <a href="#popup" class="button inset-frame">?</a>
+    <a href="https://isitfriday.org/" class="center-box inset-frame">
+        Is it Friday?!
+    </a>
+    <!-- Music Button -->
+    <audio id="music" loop>
+        <source src="/images/teamQ/audio/music.wav" type="audio/wav">
+    </audio>
+    <button class="button inset-frame" onclick="toggleMute()" id="muteBtn">🔊</button>
+    <script>
+        const audio = document.getElementById("music");
+        const btn = document.getElementById("muteBtn");
+        let isPlaying = false;
+
+        function toggleMute() {
+            if (!isPlaying || audio.duration - audio.currentTime < 0.10) {
+                audio.currentTime = 0;
+                audio.play(); // starter musikken første gang
+                isPlaying = true;
+                audio.muted = !audio.muted;
+            }
+
+            audio.muted = !audio.muted;
+
+            if (audio.muted) {
+                btn.textContent = "🔇";
+            } else {
+                btn.textContent = "🔊";
+            }
+        }
+    </script>
+    <!-- Popup ? -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>What's this?</h2>
+            <p>Hello there. This is primarily a site that lists a few signs that your boyfriend COULD be into men. Which
+                is all good, but would be nice to know, right?</p>
+            <a href="#" class="close-btn">Close</a>
+        </div>
+    </div>
+    <!-- Like button -->
+    <form id="likeForm" style="display:inline;">
+        <button type="button" id="likeButton" class="button inset-frame like-btn">
+            👍
+            <span id="likeCounter" th:text="${likeCounter}">0</span>
+            <img src="/images/teamQ/signs/butterfly.gif" class="butterfly" alt="Butterfly">
+        </button>
+    </form>
+    <script>
+        document.getElementById('likeButton').addEventListener('click', function () {
+            fetch('/like/1', {method: 'POST'})
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('likeCounter').textContent = data;
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</div>
+<!-- Background + slideshow -->
+<!-- Sun -->
+<div class="sun"></div>
+<!-- Græs område -->
+<div class="grass inset-frame">
+    <div class="slideshow-title">
+        <p style="font-weight: bold">8 Signs your boyfriend might be into men! 😸🙀</p>
+    </div>
+    <div class="soil"></div>
+    <div class="deep_soil"></div>
+    <div class="underground"></div>
+    <div class="slideshow-container">
+        <!-- Caption container -->
+        <div class="slideshow-container inset-frame">
+
+            <img class="slide active" src="/images/teamQ/signs/ChecksOutDudes.png" alt="Slide 1">
+            <img class="slide" src="/images/teamQ/signs/Detatched.png" alt="Slide 2">
+            <img class="slide" src="/images/teamQ/signs/DoesntCheckOutWomen.png" alt="Slide 3">
+            <img class="slide" src="/images/teamQ/signs/TooCloseToFriends.png" alt="Slide 4">
+            <img class="slide" src="/images/teamQ/signs/NoSexInterest.png" alt="Slide 5">
+            <img class="slide" src="/images/teamQ/signs/WatchesGayPorn.png" alt="Slide 6">
+            <img class="slide" src="/images/teamQ/signs/ReguarlyUsesGRINDR.png" alt="Slide 7">
+            <img class="slide" src="/images/teamQ/signs/HasSexWithDudes.png" alt="Slide 8">
+
+            <!-- Caption -->
+            <div class="slide-caption" id="slide-caption"></div>
+
+            <button class="nav prev" onclick="changeSlide(-1)">❮</button>
+            <button class="nav next" onclick="changeSlide(1)">❯</button>
+        </div>
+        <script>
+            let currentSlide = 0;
+            const slides = document.querySelectorAll(".slide");
+            const captions = [
+                "1. Checks Out Dudes",
+                "2. Detached",
+                "3. Doesn't Check Out Women",
+                "4. Too Close to Friends",
+                "5. No Sexual Interest",
+                "6. Watches Gay Content",
+                "7. Regularly Uses GRINDR",
+                "8. Has Sex With Dudes"
+            ];
+            const captionElement = document.getElementById("slide-caption");
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => slide.classList.toggle("active", i === index));
+                captionElement.textContent = captions[index];
+            }
+
+            function changeSlide(direction) {
+                currentSlide += direction;
+                if (currentSlide >= slides.length) currentSlide = 0;
+                if (currentSlide < 0) currentSlide = slides.length - 1;
+                showSlide(currentSlide);
+            }
+
+            showSlide(currentSlide);
+        </script>
+    </div>
+</div>
+</body>
+</html>
