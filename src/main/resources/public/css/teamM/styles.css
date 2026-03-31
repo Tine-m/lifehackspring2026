@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, serif;
+
+    background-image:
+            linear-gradient(rgba(120, 100, 220, 0.4), rgba(120, 100, 220, 0.4)),
+            url("/images/teamM/imagess.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.logo-section {
+    margin-bottom: 1px;
+}
+
+.logo {
+    width: 500px;
+    max-width: 90%;
+    display: block;
+    padding-bottom: 30px;
+}
+
+
+
+.tagline {
+    width: 600px;
+    max-width: 90%;
+    background-color: #b58df3;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 8px 0;
+    box-sizing: border-box;
+}
+
+.tagline h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.main-box {
+    width: 320px;
+    min-height: 420px;
+    background-color: #9f7cf0;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+
+
+.btn {
+    width: 180px;
+    height: 55px;
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: #56e56d;
+}
+
+.remove-btn {
+    background-color: #ff5b66;
+    margin-top: 30px;
+}
+
+.view-btn {
+    background-color: #58e6ff;
+    margin-top: 40px;
+}
+
+
+.main-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.main-box input[type="text"],
+.main-box input[type="date"] {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #a8e3b2;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.main-box br {
+    display: none;
+}
+
+.main-box input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #56e56d;
+    cursor: pointer;
+}
+
+
+
+.remove-box {
+    text-align: center;
+}
+
+.remove-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remove-box label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+#subscriptionName {
+    width: 200px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #ffb3b3;
+    font-size: 18px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.remove-box input[type="submit"] {
+    width: 200px;
+    height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #ff4d4d;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+.view-container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.left-box,
+.center-box,
+.right-box {
+    width: 300px;
+    min-height: 520px;
+    background-color: #9f7cf0;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box-title {
+    width: 85%;
+    margin: 0 auto 40px auto;
+    background-color: #58e6ff;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+
+.box-line {
+    width: 95%;
+    height: 4px;
+    background-color: #e6dfff;
+    position: absolute;
+    left: 50%;
+    bottom: 140px;
+    transform: translateX(-50%);
+}
+
+.bottom-box {
+    width: 85%;
+    height: 70px;
+    background-color: #58e6ff;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 45px;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
