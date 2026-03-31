@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trackly</title>
+    <link rel="stylesheet" href="/css/teamM/styles.css" th:href="@{/css/teamM/styles.css}"/>
+</head>
+<body>
+
+<div class="page">
+
+    <div class="logo-section">
+        <img src="/images/teamM/image.png" th:src="@{/images/teamM/image.png}" class="logo">
+    </div>
+
+    <div class="tagline">
+        <h2>Track smarter. Spend better</h2>
+    </div>
+
+    <div class="view-container">
+
+
+        <div class="left-box">
+            <div class="box-title">All subscriptions</div>
+
+            <ul class="subscription-list">
+                <li th:each="subscription : ${subscriptions}">
+                    <span th:text="${subscription.name}">Netflix</span>
+                    <span th:text="${subscription.price + ' kr.'}">129 kr.</span>
+                </li>
+            </ul>
+
+            <div class="box-line"></div>
+
+            <div class="bottom-box">
+                <span>Total subscriptions: </span>
+                <span th:text="${subscriptions.size()}">0</span>
+            </div>
+        </div>
+
+
+        <div class="center-box">
+            <div class="box-title">Monthly cost</div>
+
+            <div class="cost-list">
+                <p th:each="subscription : ${subscriptions}"
+                   th:text="${subscription.price + ' kr.'}">
+                    129 kr.
+                </p>
+            </div>
+
+            <div class="box-line"></div>
+
+            <div class="bottom-box">
+                <span th:text="${totalMonthly + ' kr.'}">0 kr.</span>
+            </div>
+        </div>
+
+
+        <div class="right-box">
+            <div class="box-title">Yearly cost</div>
+
+            <div class="cost-list">
+                <p th:each="subscription : ${subscriptions}"
+                   th:text="${subscription.price * 12 + ' kr.'}">
+                    1548 kr.
+                </p>
+            </div>
+
+            <div class="box-line"></div>
+
+            <div class="bottom-box">
+                <span th:text="${totalYearly + ' kr.'}">0 kr.</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
