@@ -57,7 +57,6 @@ document.body.addEventListener("click", (e) => {
 async function startGame() {
     await loadWord();
     displayBox.style.setProperty("--letters", currentWord.wordLength);
-    console.log(currentWord); //test kode
     await getWordsAmount();
     await getWordsGuessed();
     updateBoxesInfo();
