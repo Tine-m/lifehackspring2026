@@ -1,12 +1,8 @@
-
-CREATE SEQUENCE users_user_id_seq;
-
-
 CREATE TABLE IF NOT EXISTS public.teami_account
 (
     user_id integer NOT NULL,
     password character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT account_pkey PRIMARY KEY (user_id)
+    CONSTRAINT teami_account_pkey PRIMARY KEY (user_id)
     );
 
 CREATE TABLE IF NOT EXISTS public.teami_coffeetypes
@@ -35,7 +31,7 @@ CREATE TABLE IF NOT EXISTS public.teami_users
     firstname character varying COLLATE pg_catalog."default" NOT NULL,
     lastname character varying COLLATE pg_catalog."default" NOT NULL,
     email character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT users_pkey PRIMARY KEY (user_id),
+    CONSTRAINT teami_users_pkey PRIMARY KEY (user_id),
     CONSTRAINT users_email_key UNIQUE (email)
     );
 
