@@ -55,8 +55,7 @@ body {
 .card-field {
     text-align: center;
     min-height: fit-content;
-    flex-wrap: wrap;
-    overflow: hidden;
+
 }
 
 #category {
@@ -75,11 +74,6 @@ body {
 #hint {
     grid-area: hint;
     margin-top: 10px;
-}
-
-#display-screen {
-    grid-area: display-screen;
-    height: 25vh;
 }
 
 #keyboard {
@@ -216,12 +210,13 @@ body {
 }
 
 #display-screen {
+    grid-area: display-screen;
+    height: 25vh;
     margin: 10px 0;
     width: 90vw;
-    height: 200px;
     display: grid;
-    grid-template-columns: repeat(var(--letters), minmax(0,1fr));
-    justify-content: space-evenly;
+    grid-template-columns: repeat(var(--letters), 7vw);
+    justify-content: center;
     align-items: center;
     gap: 5px;
     }
