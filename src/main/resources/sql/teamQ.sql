@@ -1,6 +1,5 @@
 BEGIN;
 
-
 CREATE TABLE IF NOT EXISTS public.teamq_dating_query
 (
     id bigserial NOT NULL,
