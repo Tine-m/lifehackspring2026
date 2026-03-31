@@ -35,7 +35,7 @@ document.body.addEventListener("click", (e) => {
         window.location.href = "/codle"
     }
 
-    if (e.target.id === "btn-start") {
+    if (e.target.id === "btn-start" || e.target.id === "btn-restart") {
         window.location.href = "/codle/play"
     }
 
@@ -72,6 +72,19 @@ async function loadWord() {
     currentWordArray = currentWord.word.split("");
 }
 
+async function deleteWord() {
+    try {
+        const res = await fetch(`/word/delete/${currentWord.id}`, {method: "DELETE"});
+        if (res.ok) {
+            console.log(currentWord.word + " deleted")
+        } else {
+            console.error("deletion failed")
+        }
+    } catch (err) {
+        console.error("Network failed");
+    }
+}
+
 //Update layout info
 function updateBoxesInfo() {
     categoryBox.textContent = "Kategori: " + currentWord.category;
@@ -81,11 +94,11 @@ function updateBoxesInfo() {
 
 }
 
-async function incrementProgress(){
+async function incrementProgress() {
     await fetch("/increment-guessed-words", {method: "POST"});
 }
 
-async function getWordsGuessed(){
+async function getWordsGuessed() {
     const amount = await fetch("/words-Amount-Guessed");
     wordsGuessed = await amount.text();
 }
@@ -139,55 +152,57 @@ function keyPress(key) {
     }
 }
 
-    function updateLetterCards(word) {
-        const letterBox = document.querySelectorAll(".letter-box");
-        letterBox.forEach((card, index) => {
-            card.textContent = word[index] || "_";
-        });
-    }
+function updateLetterCards(word) {
+    const letterBox = document.querySelectorAll(".letter-box");
+    letterBox.forEach((card, index) => {
+        card.textContent = word[index] || "_";
+    });
+}
 
 
-    function checkLetters(userGuess) {
-        const keys = document.querySelectorAll(".keyboard-key");
-        let userGuessArray = userGuess.split("");
-        let letterBoxes = document.querySelectorAll(".letter-box");
+function checkLetters(userGuess) {
+    const keys = document.querySelectorAll(".keyboard-key");
+    let userGuessArray = userGuess.split("");
+    let letterBoxes = document.querySelectorAll(".letter-box");
 
-        keys.forEach(key => {
-            const color = getComputedStyle(key).backgroundColor;
-            if (color === "rgb(0, 128, 0)" || color === "rgb(255, 177, 67)"){
-                key.style.backgroundColor = "whitesmoke";
-            }
-        });
+    keys.forEach(key => {
+        const color = getComputedStyle(key).backgroundColor;
+        if (color === "rgb(0, 128, 0)" || color === "rgb(255, 177, 67)") {
+            key.style.backgroundColor = "whitesmoke";
+        }
+    });
 
-        for (let i = 0; i < userGuessArray.length; i++) {
-            let letter = userGuessArray[i];
+    for (let i = 0; i < userGuessArray.length; i++) {
+        let letter = userGuessArray[i];
 
-            for (let k = 0; k < keys.length; k++) {
-                if (keys[k].textContent === letter) {
-                    if (letter === currentWordArray[i]) {
-                        keys[k].style.backgroundColor = "green";
-                        letterBoxes[i].style.backgroundColor = "green";
-                    } else if (currentWordArray.includes(letter)) {
-                        keys[k].style.backgroundColor = "#FFB143";
-                        letterBoxes[i].style.backgroundColor = "#FFB143"
-                    } else {
-                        keys[k].style.backgroundColor = "grey";
-                        letterBoxes[i].style.backgroundColor = "grey";
-                    }
-                    break;
+        for (let k = 0; k < keys.length; k++) {
+            if (keys[k].textContent === letter) {
+                if (letter === currentWordArray[i]) {
+                    keys[k].style.backgroundColor = "green";
+                    letterBoxes[i].style.backgroundColor = "green";
+                } else if (currentWordArray.includes(letter)) {
+                    keys[k].style.backgroundColor = "#FFB143";
+                    letterBoxes[i].style.backgroundColor = "#FFB143"
+                } else {
+                    keys[k].style.backgroundColor = "grey";
+                    letterBoxes[i].style.backgroundColor = "grey";
                 }
+                break;
             }
         }
     }
+}
 
-    async function checkForWin() {
-        if (userWordGuess === currentWord.word) {
-            popUpWin.classList.remove("hidden");
-            popUpWin.classList.add("active");
-            await incrementProgress();
-        } else if (userTries === totalTries){
-            wordAnswer.textContent = currentWord.word;
-            popUpLose.classList.remove("hidden");
-            popUpLose.classList.add("active");
-        }
+async function checkForWin() {
+    if (userWordGuess === currentWord.word) {
+        popUpWin.classList.remove("hidden");
+        popUpWin.classList.add("active");
+        await deleteWord();
+        await incrementProgress();
+
+    } else if (userTries === totalTries) {
+        wordAnswer.textContent = currentWord.word;
+        popUpLose.classList.remove("hidden");
+        popUpLose.classList.add("active");
     }
+}

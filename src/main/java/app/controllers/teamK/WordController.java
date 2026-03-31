@@ -19,9 +19,9 @@ public class WordController {
             ctx.json(word);
         });
 
-        app.delete("/word/delete", ctx -> {
-            Word word = ctx.bodyAsClass(Word.class);
-            wordList.removeWordFromList(word);
+        app.delete("/word/delete/{id}", ctx -> {
+            int id = Integer.parseInt(ctx.pathParam("id"));
+            wordList.removeWordFromList(id);
             ctx.status(204);
         });
 

@@ -30,8 +30,8 @@ public class WordList {
         }
     }
 
-    public void removeWordFromList(Word word){
-        wordList.remove(word);
+    public void removeWordFromList(int id){
+        wordList.removeIf(word -> word.getId() == id);
         if (wordList.isEmpty()){
             generateFullList();
         }
