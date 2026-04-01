@@ -3,6 +3,11 @@ package app;
 import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamM.SubscriptionController;
+import app.controllers.teamQ.DatingQueryController;
+import app.controllers.login.UserController;
+import app.controllers.teamD.SiteController;
+import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
@@ -48,11 +53,26 @@ public class Main
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
+        //Trackly app - TeamM
+        SubscriptionController controller = new SubscriptionController(connectionPool);
+        controller.addRoutes(javApp);
+
+        //WeeklyDatingQueries - Team - Q
+        DatingQueryController.addRoutes(javApp, connectionPool);
+
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);
+
+        //Nem Mad app
+        SiteController.addRoutes(javApp, connectionPool);
+
+        // teamI:
+        app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);
+        app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
+
 
     }
 }

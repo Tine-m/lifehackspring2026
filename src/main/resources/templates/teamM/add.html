@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trackly</title>
+    <link rel="stylesheet" href="/css/teamM/styles.css" th:href="@{/css/teamM/styles.css}"/>
+</head>
+<body>
+
+<div class="page">
+    <div class="logo-section">
+        <img src="/images/teamM/image.png" class="logo">
+    </div>
+
+    <div class="tagline">
+        <h2>Add subscription</h2>
+    </div>
+
+    <div class="main-box">
+        <form action="/teamM/add" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="price">Price</label>
+            <input type="text" id="price" name="price">
+
+            <label for="dueDate">Due Date:</label>
+            <input type="date" id="dueDate" name="dueDate">
+
+            <input type="submit" value="Confirm" class="btn add-btn">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
