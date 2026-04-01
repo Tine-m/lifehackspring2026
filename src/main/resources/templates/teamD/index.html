@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="DK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nem Mad - Find Opskrifter</title>
+    <link type="image/png" sizes="96x96" rel="icon" th:href="@{/images/teamD/nemmadFavicon.png}">
+
+    <script th:inline="javascript">const allRecipes = [[${recipes}]];</script>
+    <script th:src="@{/js/teamD/functions.js}" defer></script>
+
+    <link rel="stylesheet" th:href="@{/css/teamD/main.css}">
+    <link rel="stylesheet" th:href="@{/css/teamD/indexStyles.css}">
+    <link rel="stylesheet" th:href="@{/css/teamD/leftColumnStyles.css}">
+    <link rel="stylesheet" th:href="@{/css/teamD/mainColumnStyles.css}">
+</head>
+<body>
+<div class="main-body">
+    <!-- Left Column -->
+    <div class="left-col" style="overflow: scroll; height: 100vh;">
+        <header class="header-block">
+            <div class="head-navigation">
+                <div class="head-nav-left">
+                    <a th:href="@{/}"><img th:src="@{/images/teamD/home.png}" class="navbar-icon" title="Hjem"></a>
+                </div>
+                <div class="head-nav-center">
+                    <h1 class="head-title">Spisekammer</h1>
+                    <div class="head-sub-title"> Du har <span id="ingredient-count">0</span> Ingredienser </div>
+                </div>
+                <div class="head-nav-right">
+                    <a id="fridgeButton"><img th:src="@{/images/teamD/fridge.png}" class="navbar-icon" title="Valgte Ingredienser"></a>
+                </div>
+            </div>
+
+            <form class="head-searchbar" id="searchForm">
+
+                <div class="head-searchbar-input">
+                    <input id="search" type="search" placeholder="Søg efter ingredienser" class="search-input" autocomplete="off">
+                </div>
+
+                <i class="search-icon">
+                    <img th:src="@{/images/teamD/search.png}" class="searchbar-icon">
+                </i>
+
+            </form>
+
+        </header>
+        <section class="content-block">
+            <div class="section-block-wrapper">
+                <div class="section-block"> <!----> </div>
+                <div class="section-block">
+                    <div th:each="entry : ${groupedIngredients}" class="ingredients-category-item">
+
+                        <div class="ingredients-category-title">
+                            <div class="ingredients-category-icon">
+                                <img th:src="@{'/images/teamD/' + ${categoryImages[entry.key]}}" class="ingredients-category-img">
+                            </div>
+
+                            <div class="ingredients-category-name-block">
+                                <h2 class="ingredients-category-name" th:text="${entry.key}">Category</h2>
+                            </div>
+                        </div>
+
+                        <div class="section-divider"></div>
+
+                        <div class="ingredient-category-list">
+                            <span>
+                                <a class="ingredient-item"
+                                   th:each="ingredient : ${entry.value}"
+                                   th:text="${ingredient.name}"
+                                   th:attr="data-name=${ingredient.name}">Ingredient Name</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- Main Column-->
+    <div class="main-col" style="overflow: scroll; height: 100vh;">
+        <header class="header-block">
+            <div class="head-navigation">
+                <div class="head-nav-left"> <!----> </div>
+                <div class="head-nav-center">
+                    <h1 class="head-title">Nem Mad</h1>
+                    <div class="head-sub-title"> Du kan lave <span id="recipe-count">0</span> opskrifter </div>
+                </div>
+                <div class="head-nav-right"> <!----> </div>
+            </div>
+        </header>
+        <section class="content-block">
+            <div class="section-block-wrapper">
+                <div class="section-block">
+                    <!---->
+                </div>
+            <div class="section-head">
+                <h3>Du kan lave <span id="reccipe-count">0</span> Opskrifter</h3>
+            </div>
+
+            <div class="section-block-grid">
+
+            </div>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>

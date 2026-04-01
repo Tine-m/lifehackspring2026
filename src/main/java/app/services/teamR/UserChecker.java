@@ -1,8 +1,6 @@
-package app.services.teamR;
-
+package app.services.teamA;
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class UserChecker {
     static List<String> message = new ArrayList<>();
@@ -47,13 +45,11 @@ public class UserChecker {
         }
     }
 
-
     public static void passwordMustContainNumber(String username, String password) {
         if (!password.chars().anyMatch(Character::isDigit)) {
             message.add("Adgangskode skal indeholde tal");
         }
     }
-
 
     public static void shouldRejectPasswordWithoutSpecialCharacter(String username, String password) {
         if (!password.chars().anyMatch(c -> !Character.isLetterOrDigit(c))) {
