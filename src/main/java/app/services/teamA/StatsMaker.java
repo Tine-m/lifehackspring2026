@@ -1,5 +1,6 @@
 package app.services.teamA;
 import app.entities.teamA.Subscription;
+import app.exceptions.DatabaseException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -79,29 +80,33 @@ public class StatsMaker {
         return (HashMap<String, Double>) byCategory;
     }
 
-    public static HashMap<String, Integer> allUsersSubscriptionCount(ArrayList<Subscription> subscriptions) {
+    public static HashMap<String, Integer> allUsersSubscriptionCount(ArrayList<Subscription> subscriptions) throws DatabaseException {
         HashMap<String, Integer> subscriptionList = new HashMap<>();
 
         List<Subscription> sortedSubscriptions = subscriptions.stream().sorted(Comparator.comparing(Subscription::getUserId)).toList();
 
-        int userId = sortedSubscriptions.getFirst().getUserId();
-        int tempUserId = 0;
-        int subscriptionCount = 0;
-        String userName = sortedSubscriptions.getFirst().getUserName();
+        try {
+            int userId = sortedSubscriptions.getFirst().getUserId();
+            int tempUserId = 0;
+            int subscriptionCount = 0;
+            String userName = sortedSubscriptions.getFirst().getUserName();
 
-        for (Subscription subscription : sortedSubscriptions) {
-            tempUserId = subscription.getUserId();
+            for (Subscription subscription : sortedSubscriptions) {
+                tempUserId = subscription.getUserId();
 
-            if (userId != tempUserId) {
-                subscriptionList.put(userName, subscriptionCount);
-                userId = subscription.getUserId();
-                subscriptionCount = 0;
+                if (userId != tempUserId) {
+                    subscriptionList.put(userName, subscriptionCount);
+                    userId = subscription.getUserId();
+                    subscriptionCount = 0;
+                }
+                userName = subscription.getUserName();
+                subscriptionCount++;
             }
-            userName = subscription.getUserName();
-            subscriptionCount++;
+            subscriptionList.put(userName, subscriptionCount);
+            return subscriptionList;
+        } catch (Exception e) {
+            throw new DatabaseException("No subscription data found", e.getMessage());
         }
-        subscriptionList.put(userName, subscriptionCount);
-        return subscriptionList;
     }
 
 
@@ -113,16 +118,13 @@ public class StatsMaker {
 
         Map<String, Long> sortedSubs2 = sortedSubs.stream().collect(Collectors.groupingBy(Subscription::getSubName, Collectors.counting()));
 
-
         Map<String, Long> top3 = new LinkedHashMap<>();
         sortedSubs2.entrySet().stream()
                 .sorted((a, b) -> Long.compare(b.getValue(), a.getValue()))
                 .limit(3)
                 .forEach(entry -> top3.put(entry.getKey(), entry.getValue()));
 
-
         return top3;
-
     }
 
     public static Map<String, Double> totalPricePerCategory(ArrayList<Subscription> subscriptions){
@@ -132,6 +134,5 @@ public class StatsMaker {
 
         return newMap;
     }
-
 }
 
