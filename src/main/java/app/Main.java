@@ -11,9 +11,7 @@ import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
 import app.controllers.teamC.QuizController;
 import app.controllers.teamO.TeamOController;
-import app.controllers.teamB.TeamBQuoteController;
 import app.controllers.teamteachers.QuoteController;
-import app.controllers.login.UserController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinThymeleaf;
@@ -55,6 +53,13 @@ public class Main
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
 
+        //Trackly app - TeamM
+        SubscriptionController controller = new SubscriptionController(connectionPool);
+        controller.addRoutes(javApp);
+
+        //WeeklyDatingQueries - Team - Q
+        DatingQueryController.addRoutes(javApp, connectionPool);
+
         // Team C
         QuizController.addRoutes(javApp, connectionPool);
 
@@ -67,9 +72,6 @@ public class Main
         // teamI:
         app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);
         app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
-
-        // teamB:
-        app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
 
 
     }
