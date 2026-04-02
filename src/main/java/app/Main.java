@@ -1,4 +1,4 @@
-package app;
+package app;    
 
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
