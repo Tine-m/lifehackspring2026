@@ -6,6 +6,7 @@ public class UserChecker {
     static List<String> message = new ArrayList<>();
 
     public static List<String> validate(String username, String password, String passwordCheck) {
+        validateUser(username, password);
         validatePassword(username, password);
         tooShortUsername(username, password);
         tooShortPassword(username, password);

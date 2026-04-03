@@ -18,7 +18,6 @@ fetch('/teamA/categoryData')
                 }]
             },
             options: {
-
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
@@ -33,7 +32,7 @@ fetch('/teamA/categoryData')
                             padding: 17,
                             textAlign: 'left'
                         }
-                        }
+                    }
                 },
             }
         });

@@ -35,7 +35,6 @@ public class UserController {
         String username = ctx.formParam("username");
         String password = ctx.formParam("password");
         String passwordCheck = ctx.formParam("password-check");
-        System.out.println("hej");
         List<String> messages = UserChecker.validate(username, password, passwordCheck);
         if (messages.isEmpty()){
             try {
@@ -45,7 +44,6 @@ public class UserController {
             } catch (DatabaseException e) {
                 ctx.attribute("msg", e.getMessage());
                 ctx.render("/teamA/create-user.html");
-                System.out.println("1. catch");
             }
         } else {
             String message = "| ";
@@ -56,7 +54,6 @@ public class UserController {
             }
             ctx.attribute("errorMessage", message);
             ctx.render("teamA/create-user.html");
-            System.out.println("2. catch");
         }
     }
 

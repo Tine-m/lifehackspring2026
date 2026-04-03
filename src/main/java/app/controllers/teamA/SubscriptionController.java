@@ -65,7 +65,6 @@ public class SubscriptionController {
         } catch (DatabaseException e) {
             ctx.render("teamA/add-subscription.html");
             throw new DatabaseException("Could not add subscription");
-
         }
     }
 
