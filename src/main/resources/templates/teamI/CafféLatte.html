@@ -48,58 +48,64 @@
     </nav>
 
 </header>
+<main>
 
-<nav class="navCenter">
-    <div class="menu-popup-container">
-        <div id="popupMessage" class="popup-message"></div>
-    </div>
-</nav>
-
-<nav class="navCentrum">
-    <strong class="h1">Caffé Latte</strong>
-    <div class="content">
-        <p class="bodyText">
-            <img src="/images/teamI/coffeeImage/fotoCafeLatte.png" class="bigFoto" alt="billed af cafelatte" align="right"/>
-        En café latte er en mild og cremet kaffedrik, der består af en espresso blandet med en større mængde varm mælk og kun et tyndt lag mælkeskum på toppen.
-        Aromaen er blød og rund med en afdæmpet kaffeduft, hvor de ristede noter fra espressoen smelter sammen med mælkens let sødlige og varme karakter,
-        ofte med diskrete nuancer af karamel eller chokolade. Smagen er meget mild og balanceret, hvor espressoens bitterhed træder i baggrunden og i stedet fremhæves
-        af mælkens naturlige sødme og fylde. Den cremede tekstur gør oplevelsen blød og behagelig, næsten fløjlsagtig, og giver en let og tilgængelig kaffe,
-        som er mindre intens end både espresso og cappuccino.
-        Samlet set er en café latte en rolig og afrundet kaffeoplevelse, der egner sig godt til dem, der foretrækker en blødere og mere mælket kaffestil.
-        </p>
-
-
-        <div class="formRecipes">
-            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
-            <p class="bodyText">Kaffebønne: 18 g</p>
-            <p class="bodyText">Vand: 0,6 dl</p>
-            <p class="bodyText">Mælk: 2,4 dl</p>
-
-            <form id="favoritForm" class="favorite-form">
-                <input type="hidden" name="coffeetype" value="Caffe_Latte">
-                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
-            </form>
-
+    <nav class="navCenter">
+        <div class="menu-popup-container">
+            <div id="popupMessage" class="popup-message"></div>
         </div>
-    </div>
-</nav>
+    </nav>
 
+    <nav class="navCentrum">
+        <strong class="h1">Caffé Latte</strong>
+        <div class="boxDisplayContainer">
+            <div class="boxDisplay">
 
-<script src="/js/teamI/Favorites.js"></script>
+                <img src="/images/teamI/coffeeImage/fotoCafeLatte.png" class="bigFoto" alt="billed af cafelatte"
+                     align="right"/>
+                <p class="bodyText">
+                    En café latte er en mild og cremet kaffedrik, der består af en espresso blandet med en større mængde
+                    varm mælk og kun et tyndt lag mælkeskum på toppen.
+                    Aromaen er blød og rund med en afdæmpet kaffeduft, hvor de ristede noter fra espressoen smelter
+                    sammen med mælkens let sødlige og varme karakter,
+                    ofte med diskrete nuancer af karamel eller chokolade. Smagen er meget mild og balanceret, hvor
+                    espressoens bitterhed træder i baggrunden og i stedet fremhæves
+                    af mælkens naturlige sødme og fylde. Den cremede tekstur gør oplevelsen blød og behagelig, næsten
+                    fløjlsagtig, og giver en let og tilgængelig kaffe,
+                    som er mindre intens end både espresso og cappuccino.
+                    Samlet set er en café latte en rolig og afrundet kaffeoplevelse, der egner sig godt til dem, der
+                    foretrækker en blødere og mere mælket kaffestil.
+                </p>
 
-</body>
+            </div>
+            <div class="boxDisplay formRecipes">
+                <p class="bodyText"><strong> Kaffe Guide</strong></p>
+                <p class="bodyText">Kaffebønne: 18 g</p>
+                <p class="bodyText">Vand: 0,6 dl</p>
+                <p class="bodyText">Mælk: 2,4 dl</p>
+                <p class="top-nav"></p>
+                <form id="favoritForm" class="favorite-form">
+                    <input type="hidden" name="coffeetype" value="Caffe_Latte">
+                    <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+                </form>
 
-<footer>
+            </div>
+        </div>
+    </nav>
+    <p style="padding-top: 3%"></p>
+
+</main>
+
+<footer class="footer">
     <div class="footer-content">
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
 
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
     </div>
 </footer>
-
+<script src="/js/teamI/Favorites.js"></script>
+</body>
 
 </html>

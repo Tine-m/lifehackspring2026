@@ -30,7 +30,7 @@
     <ul class="menu">
         <div class="left">
             <li><a th:href="@{/teamI/coffeeType}"> Coffee Type </a></li>
-            <li><a th:href="@{/teamIcoffeeBrands}"> Coffee Brands </a></li>
+            <li><a th:href="@{/teamI/coffeeBrands}"> Coffee Brands </a></li>
         </div>
 
 
@@ -49,28 +49,23 @@
 
 </header>
 
-
-<nav class = navCentrum>
-    <div style="align-items: center">
-    <canvas id="panel" width="300" height="200"></canvas>
-    <div id="display"></div>
+<main>
+    <div class=navCentrum>
+        <canvas id="panel" width="300" height="200"></canvas>
+        <div id="display" class="navCentrum"></div>
     </div>
-</nav>
 
-
-<script src="/js/teamI/CorlorPanel.js"></script>
-</body>
-
-<footer>
+</main>
+<footer class="footer">
     <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
     </div>
 </footer>
 
+<script src="/js/teamI/CorlorPanel.js"></script>
+
+</body>
 </html>

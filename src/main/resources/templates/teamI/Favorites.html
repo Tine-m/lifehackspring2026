@@ -47,57 +47,54 @@
     </nav>
 
 </header>
+<main>
 
+    <nav class="navCenter">
+        <div class="tableWrapper">
+            <table class="tableStyle">
+                <thead>
+                <tr>
+                    <th>Kaffe type</th>
+                    <th>Mælk</th>
+                    <th>Vand</th>
+                    <th>Bønner</th>
+                    <th>Brand</th>
+                </tr>
+                </thead>
 
-<nav class="navCenter">
-    <div class="tableWrapper">
-        <table class="tableStyle">
-            <thead>
-            <tr>
-                <th>Kaffe type</th>
-                <th>Mælk</th>
-                <th>Vand</th>
-                <th>Bønner</th>
-                <th>Brand</th>
-            </tr>
-            </thead>
+                <tbody class="bodyText">
+                <tr th:each="fav : ${favoritList}">
+                    <td th:text="${fav.coffeetype}"></td>
+                    <td th:text="${fav.milk}"></td>
+                    <td th:text="${fav.water}"></td>
+                    <td th:text="${fav.bean}"></td>
+                    <td th:text="${fav.brand}"></td>
 
-            <tbody class="bodyText">
-            <tr th:each="fav : ${favoritList}">
-                <td th:text="${fav.coffeetype}"></td>
-                <td th:text="${fav.milk}"></td>
-                <td th:text="${fav.water}"></td>
-                <td th:text="${fav.bean}"></td>
-                <td th:text="${fav.brand}"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <form action="/teamI/favorit" method="get">
+            <button type="submit">Se dine favoritter</button>
+        </form>
 
-    <form action="/teamI/favorit" method="get">
-        <button type="submit">Se dine favoritter</button>
-    </form>
+    </nav>
 
-</nav>
+    <p style="padding-top: 3%"></p>
 
+</main>
 
-</body>
-
-
-<footer>
+<footer class="footer">
     <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
     </div>
 </footer>
 
-
+</body>
 </html>
 
 

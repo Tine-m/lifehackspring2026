@@ -49,7 +49,9 @@
 
 </header>
 
-<nav class ="navCenter">
+<main>
+
+<nav class ="navCentrum">
 
     <h1>
         About us
@@ -65,20 +67,17 @@
 
     </div>
 </nav>
+</main>
 
-</body>
 
-<footer>
+<footer class="footer">
     <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a href="teamI/aboutUs"> About us </a></li>
-                <li><a href="teamI/contactUs"> Contact us </a></li>
+            <ul class="footer-links">
+                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
             </ul>
-        </nav>
     </div>
 </footer>
 
-
+</body>
 </html>

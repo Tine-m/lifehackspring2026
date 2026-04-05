@@ -9,7 +9,6 @@
 
 <body>
 
-
 <header>
     <div class="header">
         <div class="logoplace">
@@ -48,59 +47,64 @@
     </nav>
 
 </header>
-
-<nav class="navCenter">
-    <div class="menu-popup-container">
-        <div id="popupMessage" class="popup-message"></div>
-    </div>
-</nav>
-
-<nav class="navCentrum">
-    <strong class="h1">Flat White</strong>
-    <div class="content">
-        <p class="bodyText">
-            <img src="/images/teamI/coffeeImage/flatWhite.png" class="bigFoto" alt="billed af americano" align="right"/>
-            En flat white er en cremet og intens kaffedrik, der laves med en dobbelt espresso og mikroskummet mælk,
-            hvilket giver en fløjlsblød tekstur og en stærk kaffesmagsprofil.
-            Aromaen kombinerer espressoens ristede og fyldige karakter med mælkens varme og let sødlige nuancer, ofte med strejf af karamel eller nødder,
-            hvilket giver en indbydende og afrundet duft. Smagen er kraftigere end en café latte, men blødere end en ren espresso;
-            espressoens bitterhed og dybde træder tydeligt frem, mens mikroskummet gør oplevelsen blød og ensartet i munden.
-            Teksturen er silkeagtig og tæt, uden det tykke skum, man finder på en cappuccino, hvilket giver en harmonisk balance mellem kaffe og mælk.
-            Samlet set er flat white en velafbalanceret, cremet og koncentreret kaffeoplevelse, hvor intensitet og blødhed mødes i perfekt harmoni.
-        </p>
-
-
-        <div class="formRecipes">
-            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
-            <p class="bodyText">Kaffebønne: 18 g</p>
-            <p class="bodyText">Vand: 0,6 dl</p>
-            <p class="bodyText">Mælk: 1,5 dl</p>
-
-            <form id="favoritForm" class="favorite-form">
-                <input type="hidden" name="coffeetype" value="Flat_White">
-                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
-            </form>
-
+<main>
+    <nav class="navCenter">
+        <div class="menu-popup-container">
+            <div id="popupMessage" class="popup-message"></div>
         </div>
-    </div>
-</nav>
+    </nav>
 
+    <nav class="navCentrum">
+        <strong class="h1">Flat White</strong>
+        <div class="boxDisplayContainer">
+            <div class="boxDisplay">
+                <img src="/images/teamI/coffeeImage/flatWhite.png" class="bigFoto" alt="billed af Flat White"
+                     align="right"/>
+                <p class="bodyText">
+                    En flat white er en cremet og intens kaffedrik, der laves med en dobbelt espresso og mikroskummet
+                    mælk,
+                    hvilket giver en fløjlsblød tekstur og en stærk kaffesmagsprofil.
+                    Aromaen kombinerer espressoens ristede og fyldige karakter med mælkens varme og let sødlige nuancer,
+                    ofte med strejf af karamel eller nødder,
+                    hvilket giver en indbydende og afrundet duft. Smagen er kraftigere end en café latte, men blødere
+                    end en ren espresso;
+                    espressoens bitterhed og dybde træder tydeligt frem, mens mikroskummet gør oplevelsen blød og
+                    ensartet i munden.
+                    Teksturen er silkeagtig og tæt, uden det tykke skum, man finder på en cappuccino, hvilket giver en
+                    harmonisk balance mellem kaffe og mælk.
+                    Samlet set er flat white en velafbalanceret, cremet og koncentreret kaffeoplevelse, hvor intensitet
+                    og blødhed mødes i perfekt harmoni.
+                </p>
+
+            </div>
+            <div class="boxDisplay formRecipes">
+                <p class="bodyText"><strong> Kaffe Guide</strong></p>
+                <p class="bodyText">Kaffebønne: 18 g</p>
+                <p class="bodyText">Vand: 0,6 dl</p>
+                <p class="bodyText">Mælk: 1,5 dl</p>
+                <p class="top-nav"></p>
+                <form id="favoritForm" class="favorite-form">
+                    <input type="hidden" name="coffeetype" value="Flat_White">
+                    <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <p style="padding-top: 3%"></p>
+</main>
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
+    </div>
+</footer>
 <script src="/js/teamI/Favorites.js"></script>
 
 </body>
-
-
-
-<footer>
-    <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
-    </div>
-</footer>
-
 </html>
