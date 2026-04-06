@@ -49,42 +49,37 @@
 
 </header>
 
-<p style="padding-top: 70px;"> </p>
+<main>
+    <p style="padding-top: 70px;"></p>
 
-<nav class="navCenter">
-    <div class="brandFoto">
-        <a th:href="@{/teamI/kaf}" class="brandItem">
-            <img src="/images/teamI/kaf.png">
-        </a>
+    <nav class="navCenter">
+        <div class="brandFoto">
+            <a th:href="@{/teamI/kaf}" class="brandItem">
+                <img src="/images/teamI/kaf.png">
+            </a>
 
-        <a th:href="@{/teamI/coffeDoff}" class="brandItem">
-            <img src="/images/teamI/coffeedoff.png">
-        </a>
+            <a th:href="@{/teamI/coffeDoff}" class="brandItem">
+                <img src="/images/teamI/coffeedoff.png">
+            </a>
 
-        <a th:href="@{/teamI/bean}" class="brandItem">
-            <img src="/images/teamI/bean.png">
-        </a>
-    </div>
-</nav>
-
-
-
+            <a th:href="@{/teamI/bean}" class="brandItem">
+                <img src="/images/teamI/bean.png">
+            </a>
+        </div>
+    </nav>
 
 
-</body>
+</main>
 
 
-<footer>
+<footer class="footer">
     <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
     </div>
 </footer>
-
+</body>
 
 </html>

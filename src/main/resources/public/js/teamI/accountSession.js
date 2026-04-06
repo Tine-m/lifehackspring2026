@@ -9,7 +9,7 @@ document.getElementById('').addEventListener('submit', function checkStatus() {
                 if (data === "true") {
                     console.log("DET VIRKERE");
                 } else {
-                    console.log("FUck du fejlede. Magt dit liv")
+                    console.log("fejlede")
                 }
 
             });
