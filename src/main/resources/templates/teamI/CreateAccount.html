@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="da">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-    <meta charset="UTF-8">
     <title>CoffiiMe_Create_Account</title>
 
     <link rel="stylesheet" th:href="@{/css/teamI/Stylesheet.css}">
@@ -84,18 +81,15 @@
     </div>
 </main>
 
-</body>
 
-<footer>
+<footer class="footer">
     <div class="footer-content">
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
     </div>
 </footer>
 
-
+</body>
 </html>

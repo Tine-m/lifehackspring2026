@@ -37,13 +37,16 @@ public class MainController {
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
 
+        //Team E, KitchenChem
+        lifehackSites.add(new LifehackSite("KitchenChem", "Nyttige rengøringshacks!", "teamE/index", "images/teamE/spraybottle.png"));
+
         // Team G
-        lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?","/lifehackseption", "images/teamG/lifehackseption.png"));
+        lifehackSites.add(new LifehackSite("Lifehackseption", "Quick hacks?", "/lifehackseption", "images/teamG/lifehackseption.png"));
 
         lifehackSites.add(new LifehackSite("Nem Mad", "Find Opskrifter", "/teamD", "images/teamD/cookbook.png"));
 
         //teamI CoffiiMe
-        lifehackSites.add(new LifehackSite("CoffiiMe", "Your way to good Coffee","teamI/index","images/teamI/coffiimeLogo.png"));
+        lifehackSites.add(new LifehackSite("CoffiiMe", "Your way to good Coffee", "teamI/index", "images/teamI/coffiimeLogo.png"));
 
 
 

@@ -62,22 +62,4 @@ public class UserMapper
             throw new DatabaseException(msg, e.getMessage());
         }
     }
-
-    public static ArrayList<Integer> getAllUserIds(ConnectionPool connectionPool)throws DatabaseException {
-        String sql = "SELECT teama_user_id FROM teama_users";
-        try (
-                Connection connection = connectionPool.getConnection();
-                PreparedStatement preparedStatement = connection.prepareStatement(sql);
-        ) {
-            ArrayList<Integer> userIds = new ArrayList<>();
-            ResultSet rs = preparedStatement.executeQuery();
-            while (rs.next()) {
-                int userID = rs.getInt("user_id");
-                userIds.add(userID);
-            }
-            return userIds;
-        } catch (SQLException e) {
-            throw new DatabaseException("No subscriptions found attached to you", e.getMessage());
-        }
-    }
 }
