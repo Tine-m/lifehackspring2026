@@ -48,7 +48,9 @@ public class MainController {
         //teamI CoffiiMe
         lifehackSites.add(new LifehackSite("CoffiiMe", "Your way to good Coffee", "teamI/index", "images/teamI/coffiimeLogo.png"));
 
+        //teamB Motivational Quotes
         lifehackSites.add(new LifehackSite("Motivational Quote Generator", "Besøg siden", "/teamB", "images/teamB/img.png"));
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
     }
