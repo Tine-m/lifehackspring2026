@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sub Stats - Frontpage</title>
+    <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
+    <link rel="stylesheet" href="/public/css/teamA/frontpageStyles.css" th:href="@{/css/teamA/frontpageStyles.css}"/>
+</head>
+<body>
+<header>
+    <div id="left"></div>
+    <div th:replace="~{teamA/fragments :: logo}"></div>
+    <div th:replace="~{teamA/fragments :: dayAndNight}"></div>
+</header>
+
+<div class="box-grid">
+    <div th:replace="~{teamA/fragments :: sidebar}"></div>
+
+    <div class="statsGrid">
+        <div class="box" id="box-1" style="grid-area: box-1">Kategorier
+            <canvas id="pieChart"></canvas>
+        </div>
+        <div class="box" id="box-2" style="grid-area: box-2">Månedlig Total</div>
+        <div id="box-2-stat" style="grid-area: box-2" th:text="${totalMonthlyCost}"></div>
+        <div class="box" id="box-3" style="grid-area: box-3">Abonnement pr bruger
+            <canvas id="polarChart"></canvas>
+        </div>
+        <div class="box" id="box-4" style="grid-area: box-4">Daglig Total</div>
+        <div id="box-4-stat" style="grid-area: box-4" th:text="${totalDailyCost}"></div>
+        <div class="box" id="box-5" style="grid-area: box-5">Pris pr. Brug
+            <canvas id="barChart"></canvas>
+            <canvas id="barChart2"></canvas>
+        </div>
+        <div class="box" id="box-6" style="grid-area: box-6">Billigste abb. pr. brug</div>
+        <div id="box-6-stat" style="grid-area: box-6" th:text="${cheapestSub}"></div>
+        <div class="box" id="box-7" style="grid-area: box-7">Dyreste abb. pr. brug</div>
+        <div id="box-7-stat" style="grid-area: box-7" th:text="${mostExpensiveSub}"></div>
+        <div class="box" id="box-8" style="grid-area: box-8">
+            <p class="box-title">Mest populære abonnementer</p>
+            <div class="podium">
+                <div class="podium-place second-place">
+                    <p th:text="${second}"></p>
+                    <div class="podium-block">2</div>
+                </div>
+                <div class="podium-place first-place">
+                    <p th:text="${first}"></p>
+                    <div class="podium-block">1</div>
+                </div>
+                <div class="podium-place third-place">
+                    <p th:text="${third}"></p>
+                    <div class="podium-block">3</div>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="box-9" style="grid-area: box-9">Kategori total pr. bruger
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/js/teamA/pieChart.js"></script>
+<script src="/js/teamA/barChart.js"></script>
+<script src="/js/teamA/polarChart.js"></script>
+<script src="/js/teamA/lineChart.js"></script>
+
+</body>
+
+</html>

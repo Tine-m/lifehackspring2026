@@ -79,8 +79,10 @@ User_controller       ❌
 
 ### Tabeller (snake_case)
 
+Tabelnavne skal skrives med lowercase og have teamnavn som præfix. F.eks.
+
 ```sql
-teamA_quotes
+teama_quotes
 ```
 
 Hvis et team har brug for login funktionalitet, så laver de det selv
@@ -158,13 +160,14 @@ resources/public/images/teamB
 
 ## 7. Database
 
-Alle tabelnavne præfixes med teamnavn. F.eks. teamA_quotes
-
 Sql scripts lægges i sql mappe under resources, f.eks.:
 ```
 resources/sql/teamA
 resources/sql/teamB
 ```
+
+***Jeres egne scripts*** **MÅ IKKE** indeholde noget vedrørede den generelle `users` tabel, der oprettes via `lifehack.sql` i roden af `sql` mappen.
+Hvis I har brug for login på jeres specifikke app mede egne brugere, så opret en tabel til det, f.eks. `teamg_users`;
 ---
 ## 8. Java kodeprincipper
 
@@ -275,14 +278,7 @@ Alle projekter skal:
 
 ## 14. Fælles forside (index.html)
 
-Forsiden linker til alle grupper:
-
-```html
-<ul>
-  <li><a href="/team1">Team 1</a></li>
-  <li><a href="/team2">Team 2</a></li>
-</ul>
-```
+I skal ændre i `MainController`, hvis jeres app skal med på forsiden af web site.
 
 ---
 

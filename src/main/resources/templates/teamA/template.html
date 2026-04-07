@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
+</head>
+
+<body>
+<header>
+    <div th:replace="~{teamA/fragments :: backbutton('/teamA/frontpage')}"></div>
+    <div th:replace="~{teamA/fragments :: logo}"></div>
+    <div th:replace="~{teamA/fragments :: dayAndNight}"></div>
+</header>
+<div class="box-grid">
+    <div th:replace="~{teamA/fragments :: sidebar}"></div>
+</div>
+
+</body>
+
+</html>

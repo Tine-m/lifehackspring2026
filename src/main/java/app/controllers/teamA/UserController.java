@@ -1,0 +1,79 @@
+package app.controllers.teamA;
+import app.entities.teamA.User;
+import app.exceptions.DatabaseException;
+import app.persistence.ConnectionPool;
+import app.persistence.teamA.UserMapper;
+import app.services.teamA.UserChecker;
+import io.javalin.Javalin;
+import io.javalin.http.Context;
+import java.util.List;
+
+public class UserController {
+    public static void addRoutes(Javalin app, ConnectionPool connectionPool) {
+        app.get("/teamA/register", ctx -> ctx.render("teamA/create-user.html"));
+        app.post("/teamA/register", ctx -> createUser(ctx, connectionPool));
+        app.get("/teamA/login", ctx -> ctx.render("teamA/login.html"));
+        app.post("/teamA/login", ctx -> login(ctx, connectionPool));
+        app.get("/teamA/frontpage", ctx -> frontpage(ctx, connectionPool));
+        app.get("/teamA/logout", ctx -> logout(ctx));
+    }
+
+
+    public static void frontpage(Context ctx, ConnectionPool connectionPool) throws DatabaseException {
+        showUsername(ctx);
+        SubscriptionController.getAllStats(ctx, connectionPool);
+        ctx.render("teamA/frontpage.html");
+    }
+
+    public static void showUsername(Context ctx){
+        User currentUser = ctx.sessionAttribute("currentUser");
+        ctx.attribute("profileName", currentUser.getUsername());
+    }
+
+
+    private static void createUser(Context ctx, ConnectionPool connectionPool) {
+        String username = ctx.formParam("username");
+        String password = ctx.formParam("password");
+        String passwordCheck = ctx.formParam("password-check");
+        List<String> messages = UserChecker.validate(username, password, passwordCheck);
+        if (messages.isEmpty()){
+            try {
+                UserMapper.createuser(username, password, connectionPool);
+                login(ctx,connectionPool);
+                ctx.redirect("/teamA/frontpage");
+            } catch (DatabaseException e) {
+                ctx.attribute("msg", e.getMessage());
+                ctx.render("/teamA/create-user.html");
+            }
+        } else {
+            String message = "| ";
+            for (String errorMsg : messages) {
+                if (errorMsg != null && message.length()<95) {
+                    message = message + errorMsg + " | ";
+                }
+            }
+            ctx.attribute("errorMessage", message);
+            ctx.render("teamA/create-user.html");
+        }
+    }
+
+    public static void login(Context ctx, ConnectionPool connectionPool) {
+        String username = ctx.formParam("username");
+        String password = ctx.formParam("password");
+        try {
+            User user = UserMapper.login(username, password, connectionPool);
+            ctx.sessionAttribute("currentUser", user);
+            ctx.redirect("/teamA/frontpage");
+        } catch (DatabaseException e) {
+            ctx.attribute("msg", e.getMessage());
+            ctx.render("teamA/login.html");
+        }
+    }
+
+    public static void logout(Context ctx) {
+        ctx.req().getSession().invalidate();
+        ctx.redirect("/teamA/login");
+    }
+
+
+}

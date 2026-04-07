@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SubStats - Remove subscription</title>
+    <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
+    <link rel="stylesheet" href="/public/css/teamA/removeSubStyles.css" th:href="@{/css/teamA/removeSubStyles.css}"/>
+</head>
+
+<body>
+<header>
+    <div th:replace="~{teamA/fragments :: backbutton('/teamA/frontpage')}"></div>
+    <div th:replace="~{teamA/fragments :: logo}"></div>
+    <div th:replace="~{teamA/fragments :: dayAndNight}"></div>
+</header>
+
+<div class="box-grid">
+    <div th:replace="~{teamA/fragments :: sidebar}"></div>
+
+    <div class="remove-subscription-box">
+        <div class="remove-head-grid">
+            <h1 id="remove-title" style="grid-area: remove-box">Fjern Abonnement</h1>
+            <a id="close-button" style="grid-area: close-box" th:href="@{/teamA/frontpage}">X</a>
+            <hr class="divider">
+        </div>
+
+        <form id="remove-form" th:action="@{/teamA/deleteSubscriptions}" method="post">
+            <div class="remove-subscription-scroller">
+                <div class="remove-label-grid">
+                    <th:block th:each="subscription : ${allSubscriptions}">
+                        <div class="remove-row">
+                            <input type="checkbox" class="remove-checkbox" th:name="subId"
+                                   th:value="${subscription.subId}"/>
+                            <label class="remove-label" th:text="${subscription.subName}"></label>
+                        </div>
+                        <hr class="line-break"/>
+                    </th:block>
+                </div>
+            </div>
+        </form>
+
+        <div class="remove-footer-grid">
+            <hr class="divider">
+            <button id="cancel-button" th:onclick="|window.location.href='@{/teamA/removeSubscriptions}'|"
+                    type="button">Annuller
+            </button>
+            <button id="remove-sub-button" type="submit" form="remove-form">Fjern Valgte</button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

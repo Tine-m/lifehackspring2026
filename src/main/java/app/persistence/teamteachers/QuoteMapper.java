@@ -14,7 +14,9 @@ import java.util.stream.Collectors;
 
 public class QuoteMapper {
 
+
     public static Quote getPhilosophicalAnswer(String input, ConnectionPool connectionPool) {
+        // hardcoded demo data. Should hit the database for real data
         return new Quote("Kierkegaard", "Af alle latterlige ting forekommer det mig at være det allerlatterligste at have travlt", "kierkegaard.png");
     }
 }

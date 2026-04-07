@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SubStats - Add subscription</title>
+    <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
+    <link rel="stylesheet" href="/public/css/teamA/addSubStyles.css" th:href="@{/css/teamA/addSubStyles.css}"/>
+</head>
+
+<body>
+<header>
+    <div th:replace="~{teamA/fragments :: backbutton('/teamA/frontpage')}"></div>
+    <div th:replace="~{teamA/fragments :: logo}"></div>
+    <div th:replace="~{teamA/fragments :: dayAndNight}"></div>
+</header>
+
+<div class="box-grid">
+    <div th:replace="~{teamA/fragments :: sidebar}"></div>
+
+    <div class="add-subscription-box">
+        <div class="add-head-grid">
+            <h1 id="add-title" style="grid-area: add-box">Tilføj Abonnement</h1>
+            <a id="close-button" style="grid-area: close-box" th:href="@{/teamA/frontpage}">X</a>
+            <hr class="divider">
+        </div>
+
+        <form id="add-sub-grid" th:action="@{/teamA/createSubscriptions}" method="post">
+            <p class="text" style="grid-area: sub-text">Navn på Abonnement</p>
+            <input class="input-box" type="text" name="subName" style="grid-area: sub-input" placeholder="fx Netflix, Spotify.....">
+            <p class="text" style="grid-area: month-price">Pris per måned(DKK)</p>
+            <p class="text" style="grid-area: month-usage">Antal brug per måned</p>
+            <input class="input-box" name="subCost" type="text" style="grid-area: price-input" placeholder="99">
+            <input class="input-box" name="subUsage" type="text" style="grid-area: usage-input" placeholder="8">
+
+
+            <label style="grid-area: category-text" for="category">Vælg Kategori:</label>
+            <div style="grid-area: category-label">
+            <select id="category" name="subCategory" class="category">
+                <option value="Streaming">Streaming</option>
+                <option value="Productivity">Produktivitet</option>
+                <option value="Mobile Services">Mobil Abonnement</option>
+                <option value="Fitness">Fitness</option>
+                <option value="Transport">Transport</option>
+                <option value="Other">Andet</option>
+            </select>
+            </div>
+
+        <div class="add-footer-grid" style="grid-area: add-footer">
+            <hr class="divider">
+            <button type="button" th:onclick="|window.location.href='@{/teamA/createSubscriptions}'|" id="cancel-button" style="grid-area: cancel">Annuler</button>
+            <button type="submit" id="add-sub-button" style="grid-area: add">Tilføj Valg</button>
+        </div>
+        </form>
+
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sub Stats - Login</title>
+    <link rel="stylesheet" href="/public/css/teamA/generalStyles.css" th:href="@{/css/teamA/generalStyles.css}"/>
+    <link rel="stylesheet" href="/public/css/teamA/loginStyles.css" th:href="@{/css/teamA/loginStyles.css}"/>
+</head>
+
+<body>
+<header>
+    <div th:replace="~{teamA/fragments :: backbutton('/')}"></div>
+    <div th:replace="~{teamA/fragments :: logo}"></div>
+    <div th:replace="~{teamA/fragments :: dayAndNight}"></div>
+</header>
+
+
+<div class="box-login">
+    <h1 id="welcome-message">Velkommen til SubStats</h1>
+
+    <div id="menu-box-login">
+        <hr class="divider">
+        <button id="login" class="button-box" style="grid-area: login">Log Ind</button>
+        <a th:href="@{/teamA/register}" class="button-box" style="grid-area: register">Opret Bruger</a>
+
+
+    </div>
+    <form id="register-form-login" action="/teamA/login" method="post">
+        <p class="text" style="grid-area: username-text">BRUGERNAVN</p>
+        <input class="input-box" type="text" name="username" style="grid-area: username" placeholder="fx Bruger1234..">
+        <input class="input-box" type="password" name="password" style="grid-area: password" placeholder=" •••••••••••">
+        <p style="grid-area: password-text">ADGANGSKODE</p>
+        <hr class="divider">
+        <button type="submit" style="grid-area: login-button" class="login-box">Log Ind</button>
+    </form>
+
+
+</div>
+</body>
+</html>

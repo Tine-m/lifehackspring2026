@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Nunito", sans-serif;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --text-dark-gray: #4f505a;
+    --text-light-gray: rgba(79, 80, 90, 0.6);
+
+    --background-color: #FBF6F6;
+    --navbar-color: #D96868;
+    --selected-color: #6A7E3F;
+    --icon-color: #4C5C2D;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--selected-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--icon-color);
+}
