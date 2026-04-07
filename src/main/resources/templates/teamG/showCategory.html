@@ -9,12 +9,12 @@
 <h1 th:text="'Kategori: ' + ${kategori}"></h1>
 
 <ul class="hack-list">
-    <li th:each="hack : ${Hacks}" class="hack-item">
+    <li th:each="teamg_hacks : ${Hacks}" class="hack-item">
         <div class="hack-text">
-            <strong th:text="${hack.title}"></strong>
-            <p th:text="${hack.description}"></p>
+            <strong th:text="${teamg_hacks.title}"></strong>
+            <p th:text="${teamg_hacks.description}"></p>
         </div>
-        <a th:href="${hack.videolink}" target="_blank" class="btn">
+        <a th:href="@{'/showHack?id=' + ${teamg_hacks.id}}" class="btn">
             Watch Video
         </a>
     </li>

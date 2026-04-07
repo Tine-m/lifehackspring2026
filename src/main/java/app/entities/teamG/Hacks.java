@@ -6,11 +6,11 @@ public class Hacks {
 
     private int id;
     private String videoLink;
-    private List<String> category;
+    private String category;
     private String title;
     private String description;
 
-    public Hacks(int id, String videoLink, List<String> category, String title, String description) {
+    public Hacks(int id, String videoLink, String category, String title, String description) {
         this.id = id;
         this.videoLink = videoLink;
         this.category = category;
@@ -26,7 +26,7 @@ public class Hacks {
         return videoLink;
     }
 
-    public List<String> getCategory() {
+    public String getCategory() {
         return category;
     }
 

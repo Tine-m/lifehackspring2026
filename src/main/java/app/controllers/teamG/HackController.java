@@ -19,6 +19,8 @@ public class HackController {
         app.get("/chooseCategory", ctx -> ctx.render("teamG/showCategoryLifeHack"));
         app.get("/showCategory", ctx -> ctx.render("teamG/showCategory"));
         app.post("showCategory", ctx -> getHackByCategory(ctx, connectionPool));
+        app.get("showRandomHack", ctx -> getRandomHack(ctx, connectionPool));
+        app.get("showHack", ctx -> getHackById(ctx, connectionPool));
     }
 
     public static void getHackByCategory(Context ctx, ConnectionPool connectionPool) {
@@ -30,9 +32,22 @@ public class HackController {
 
        ctx.render("teamG/showCategory");
 
-
-
-
     }
+
+    public static void getRandomHack(Context ctx, ConnectionPool connectionPool){
+        Hacks randomHack = HackMapper.getRandomHack(connectionPool);
+        ctx.attribute("teamg_hacks", randomHack);
+
+        ctx.render("teamG/showMyLifeHacks");
+    }
+
+    public static void getHackById(Context ctx, ConnectionPool connectionPool){
+        int id = Integer.parseInt(ctx.queryParam("id"));
+        Hacks hack = HackMapper.getHacksById(id, connectionPool);
+
+        ctx.attribute("teamg_hacks", hack);
+        ctx.render("teamG/showMyLifeHacks");
+    }
+
 
 }
