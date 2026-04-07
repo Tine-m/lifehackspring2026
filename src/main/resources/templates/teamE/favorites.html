@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <title>Kitchen - My favorites</title>
+    <link rel="stylesheet" th:href="@{/css/teamE/styles.css}"/>
+</head>
+<body>
+
+<nav>
+    <div class="nav-logo">Kitchen<span>Chem</span></div>
+    <div class="nav-links">
+        <a href="/teamE/index">Home</a>
+        <a href="/teamE/hacks">Hacks</a>
+        <a href="/teamE/favorites" class="active">My favorites</a>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="nav-icon" title="Profile">&#9711;</a>
+        <span class="nav-profile-label">My profile</span>
+    </div>
+</nav>
+
+<div class="page-header">
+    <h1 class="page-title">My favorites</h1>
+    <p class="page-sub">Your saved hacks, organized by category.</p>
+</div>
+
+<div class="fav-layout">
+
+    <aside class="sidebar">
+        <p class="sidebar-label">Categories</p>
+        <div class="sidebar-item active" onclick="filterFavs('all', this)">
+            All saved <span class="sidebar-count" id="count-all">2</span>
+        </div>
+        <div class="sidebar-item" onclick="filterFavs('soft', this)">
+            Soft surfaces <span class="sidebar-count" id="count-soft">2</span>
+        </div>
+        <div class="sidebar-item" onclick="filterFavs('hard', this)">
+            Hard surfaces <span class="sidebar-count" id="count-hard">3</span>
+        </div>
+        <div class="sidebar-item" onclick="filterFavs('jewellery', this)">
+            Jewellery <span class="sidebar-count" id="count-jewellery">0</span>
+        </div>
+        <div class="sidebar-item" onclick="filterFavs('mirror', this)">
+            Mirror &amp; glass <span class="sidebar-count" id="count-mirror">1</span>
+        </div>
+    </aside>
+
+
+<main class="fav-list">
+    <div class="fav-list-header">
+        <h2 class="fav-list-title" id="list-title">All saved hacks (8)</h2>
+        <div class="sort-row">
+            Sort by
+            <select onchange="sortFavs(this.value)">
+                <option value="date">Date saved</option>
+                <option value="cat">Category</option>
+            </select>
+        </div>
+    </div>
+    <div id="fav-items"></div>
+    </main>
+</div>
+
+<script src="/js/teamE/favorites.js"></script>
+</body>
+</html>

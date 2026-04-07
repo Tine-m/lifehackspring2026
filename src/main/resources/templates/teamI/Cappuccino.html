@@ -48,60 +48,64 @@
     </nav>
 
 </header>
-
-<nav class="navCenter">
-    <div class="menu-popup-container">
-        <div id="popupMessage" class="popup-message"></div>
-    </div>
-</nav>
-
-<nav class="navCentrum">
-    <strong class="h1">Cappuccino</strong>
-    <div class="content">
-        <p class="bodyText">
-            <img src="/images/teamI/coffeeImage/cappuccino.png" class="bigFoto" alt="billed af cappuccino" align="right"/>
-
-        En cappuccino er en klassisk kaffedrik, der består af en espresso toppet med varm, cremet mælk og et lag fint mælkeskum,
-        hvilket skaber en harmonisk balance mellem styrke og blødhed. Aromaen er fyldig og indbydende med tydelige noter af espressoens ristede karakter,
-        som smelter sammen med den varme mælks sødme og giver en blød, let cremet duft med strejf af chokolade og nødder. Smagen er rund og velafbalanceret,
-        hvor espressoens lette bitterhed dæmpes af mælken, som tilfører en naturlig sødme og en silkeblød tekstur. Mælkeskummet giver en let luftig fornemmelse
-        i munden, samtidig med at det fremhæver kaffens dybere smagsnuancer.
-        Samlet set giver en cappuccino en cremet og behagelig kaffeoplevelse, hvor intensitet og blødhed går hånd i hånd i en velafstemt helhed.
-
-        </p>
-
-
-        <div class="formRecipes">
-            <p class="bodyText"><strong> Kaffe Guide</strong> </p>
-            <p class="bodyText">Kaffebønne: 9 g</p>
-            <p class="bodyText">Vand: 0,3 dl</p>
-            <p class="bodyText">Mælk: 1,5 dl</p>
-
-            <form id="favoritForm" class="favorite-form">
-                <input type="hidden" name="coffeetype" value="Cappuccino">
-                <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
-            </form>
-
+<main>
+    <nav class="navCenter">
+        <div class="menu-popup-container">
+            <div id="popupMessage" class="popup-message"></div>
         </div>
-    </div>
-</nav>
+    </nav>
 
+    <nav class="navCentrum">
+        <strong class="h1">Cappuccino</strong>
+        <
+        <div class="boxDisplayContainer">
+            <div class="boxDisplay">
 
-<script src="/js/teamI/Favorites.js"></script>
+                <img src="/images/teamI/coffeeImage/cappuccino.png" class="bigFoto" alt="billed af cappuccino"
+                     align="right"/>
+                <p class="bodyText">
+                    En cappuccino er en klassisk kaffedrik, der består af en espresso toppet med varm, cremet mælk og et
+                    lag fint mælkeskum,
+                    hvilket skaber en harmonisk balance mellem styrke og blødhed. Aromaen er fyldig og indbydende med
+                    tydelige noter af espressoens ristede karakter,
+                    som smelter sammen med den varme mælks sødme og giver en blød, let cremet duft med strejf af
+                    chokolade og nødder. Smagen er rund og velafbalanceret,
+                    hvor espressoens lette bitterhed dæmpes af mælken, som tilfører en naturlig sødme og en silkeblød
+                    tekstur. Mælkeskummet giver en let luftig fornemmelse
+                    i munden, samtidig med at det fremhæver kaffens dybere smagsnuancer.
+                    Samlet set giver en cappuccino en cremet og behagelig kaffeoplevelse, hvor intensitet og blødhed går
+                    hånd i hånd i en velafstemt helhed.
 
-</body>
+                </p>
 
+            </div>
+            <div class="boxDisplay formRecipes">
+                <p class="bodyText"><strong> Kaffe Guide</strong></p>
+                <p class="bodyText">Kaffebønne: 9 g</p>
+                <p class="bodyText">Vand: 0,3 dl</p>
+                <p class="bodyText">Mælk: 1,5 dl</p>
+                <p class="top-nav"></p>
+                <form id="favoritForm" class="favorite-form">
+                    <input type="hidden" name="coffeetype" value="Cappuccino">
+                    <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
+                </form>
 
-<footer>
+            </div>
+        </div>
+    </nav>
+    <p style="padding-top: 3%"></p>
+
+</main>
+
+<footer class="footer">
     <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
     </div>
 </footer>
 
+<script src="/js/teamI/Favorites.js"></script>
+</body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <title>CoffiiMe_Creating_Panel</title>
@@ -48,22 +48,23 @@
 
 </header>
 
-<div class="navCenter">
-    <canvas id="pieCanvas" width="400" height="400"></canvas>
-</div>
+<main>
 
-<script src="/js/teamI/CreatorPanel.js"></script>
-</body>
+    <div class="navCenter">
+        <canvas id="pieCanvas" width="400" height="400"></canvas>
+    </div>
 
-<footer>
+</main>
+
+<footer class="footer">
     <div class="footer-content">
-        <nav class="navbar">
-            <ul class="footer">
-                <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
-                <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
-            </ul>
-        </nav>
+        <ul class="footer-links">
+            <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
+            <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
+        </ul>
     </div>
 </footer>
 
+<script src="/js/teamI/CreatorPanel.js"></script>
+</body>
 </html>

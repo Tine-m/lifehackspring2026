@@ -3,6 +3,8 @@ package app;
 import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamE.IngredientController;
+import app.controllers.teamE.RecipeController;
 import app.controllers.teamM.SubscriptionController;
 import app.controllers.teamQ.DatingQueryController;
 import app.controllers.login.UserController;
@@ -68,6 +70,10 @@ public class Main
 
         //Nem Mad app
         SiteController.addRoutes(javApp, connectionPool);
+
+        //KitchenChem - TeamE
+        IngredientController.addRoutes(javApp, connectionPool);
+        RecipeController.addRoutes(javApp, connectionPool);
 
         // teamI:
         app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);

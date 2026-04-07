@@ -49,6 +49,7 @@
     </nav>
 
 </header>
+<main>
 
 <nav class="navCenter">
     <div class="menu-popup-container">
@@ -58,9 +59,10 @@
 
 <nav class="navCentrum">
     <strong class="h1">Espresso</strong>
-    <div class="content">
-        <p class="bodyText">
+    <div class="boxDisplayContainer">
+        <div class="boxDisplay">
             <img src="/images/teamI/coffeeImage/espresso.png" class="bigFoto" alt="billed af espresso" align="right"/>
+        <p class="bodyText">
             En espresso er en koncentreret og intens kaffedrik, lavet ved at presse varmt vand hurtigt gennem fintmalet kaffe,
             hvilket giver en lille, men kraftfuld kop. Aromaen er dyb og kompleks med stærke ristede noter, ofte ledsaget af toner af chokolade,
             karamel eller nødder, og nogle gange med subtile frugtige eller krydrede undertoner afhængigt af bønnetypen. Smagen er markant og fyldig,
@@ -70,12 +72,13 @@
         </p>
 
 
-        <div class="formRecipes">
+    </div>
+    <div class="boxDisplay formRecipes">
             <p class="bodyText"><strong> Kaffe Guide</strong> </p>
             <p class="bodyText">Kaffebønne: 9 g</p>
             <p class="bodyText">Vand: 0,6 dl</p>
             <p class="bodyText">Mælk: 0 dl</p>
-
+        <p class="top-nav"></p>
             <form id="favoritForm" class="favorite-form">
                 <input type="hidden" name="coffeetype" value="Espresso">
                 <button type="submit" class="favorite-btn"> Tilføj til favorit</button>
@@ -86,19 +89,18 @@
 </nav>
 
 
-<script src="/js/teamI/Favorites.js"></script>
-</body>
+<p style="padding-top: 3%"></p>
+</main>
 
-<footer>
+<footer class="footer">
     <div class="footer-content">
-
-        <nav class="navbar">
-            <ul class="footer">
+        <ul class="footer-links">
                 <li><a th:href="@{/teamI/aboutUs}"> About us </a></li>
                 <li><a th:href="@{/teamI/contactUs}"> Contact us </a></li>
             </ul>
-        </nav>
+
     </div>
 </footer>
-
+<script src="/js/teamI/Favorites.js"></script>
+</body>
 </html>

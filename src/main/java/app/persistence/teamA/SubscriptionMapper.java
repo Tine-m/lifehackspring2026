@@ -31,7 +31,6 @@ public class SubscriptionMapper {
         } catch (SQLException e) {
             throw new DatabaseException("No subscriptions found attached to you", e.getMessage());
         }
-
     }
 
     public static void createSubscription(String subName, double subCost, int subUsage, String subCategory, int userId, app.persistence.ConnectionPool connectionPool) throws DatabaseException {

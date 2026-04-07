@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <title>KitchenChem - Hacks</title>
+
+    <link rel="stylesheet" th:href="@{/css/teamE/styles.css}"/>
+</head>
+<body>
+
+<nav>
+    <div class="nav-logo">Kitchen<span>Chem</span></div>
+    <div class="nav-links">
+        <a href="/teamE/index">Home</a>
+        <a href="/teamE/hacks" class="active">Hacks</a>
+        <a href="/teamE/favorites">My favorites</a>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="nav-icon" title="Profile">&#9711;</a>
+    </div>
+</nav>
+
+<div class="filter-bar">
+    <span class="filter-bar-label">Browsing:</span>
+    <select id="cat-select" onchange="onCatChange()">
+        <option value="">Select category...</option>
+        <option value="soft">Soft surfaces</option>
+        <option value="hard">Hard surfaces</option>
+        <option value="jewellery">Jewellery</option>
+        <option value="mirror">Mirror &amp; glass</option>
+    </select>
+    <span class="filter-arrow">></span>
+    <select id="hack-select" onchange="onHackChange()">
+        <option value="">Select hack...</option>
+    </select>
+</div>
+
+<div class="breadcrumb" id="breadcrumb">
+    <a href="/teamE/hacks">Hacks</a>
+</div>
+
+<div class="content">
+    <div id="hack-display">
+        <div class="empty-state">
+            <p>Select a category and a hack to get started.</p>
+        </div>
+    </div>
+</div>
+
+<script src="/js/teamE/hacks.js"></script>
+
+</body>
+</html>
