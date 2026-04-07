@@ -29,7 +29,7 @@ public class MainController {
         lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.png"));
 
         //TeamR
-        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "/start", "images/main-page/GetRich.jpg"));
+        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "teamR", "images/main-page/GetRich.jpg"));
 
         //TeamM, Trackly
         lifehackSites.add(new LifehackSite("Trackly", "Track your subscriptions", "teamM", "images/teamM/image.png"));

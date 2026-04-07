@@ -57,6 +57,7 @@ public class Main
 
         // Team R
         app.controllers.teamR.QuizController.addRoutes(javApp, connectionPool);
+
         //Trackly app - TeamM
         SubscriptionController controller = new SubscriptionController(connectionPool);
         controller.addRoutes(javApp);
