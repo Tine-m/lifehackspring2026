@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Quiz</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0f2b;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-color: #1c1f4a;
+            padding: 20px;
+        }
+        .container {
+            margin-top: 150px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 1.2rem;
+            background-color: #2a2f6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background-color: #3d44a3;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <a style="margin-right: 1050px;"
+    th:href="@{/public}">← Tilbage</a>
+</header>
+
+<div class="container">
+    <h1>Hvem vil være millionær 💰</h1>
+
+    <a href="/easy/1">Start Easy</a>
+    <a href="/advanced/1">Start Advanced</a>
+</div>
+
+</body>
+</html>

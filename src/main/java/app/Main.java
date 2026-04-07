@@ -11,8 +11,6 @@ import app.controllers.login.UserController;
 import app.controllers.teamD.SiteController;
 import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamG.HackController;
-import app.controllers.teamC.QuizController;
-import app.controllers.teamO.TeamOController;
 import app.controllers.teamteachers.QuoteController;
 import app.persistence.ConnectionPool;
 import io.javalin.Javalin;
@@ -42,18 +40,23 @@ public class Main
         // Frontpage - you must register your app here
         MainController.addRoutes(javApp, connectionPool);
 
-        // Team O
-        TeamOController.addRoutes(javApp, connectionPool);
 
         // General Login - only included as example code
         app.controllers.login.UserController.addRoutes(javApp, connectionPool);
 
+        // Philosophers app - teamteachers
         //Philosophers app - team teachers
         QuoteController.addRoutes(javApp, connectionPool);
 
-        //SubStats app - Team - A
+        // SubStats app - Team A
         app.controllers.teamA.UserController.addRoutes(javApp, connectionPool);
         app.controllers.teamA.SubscriptionController.addRoutes(javApp, connectionPool);
+
+        // DIN QUIZ - skal være sidst pga wildcard route!
+
+
+        // Team R
+        app.controllers.teamR.QuizController.addRoutes(javApp, connectionPool);
 
         //Trackly app - TeamM
         SubscriptionController controller = new SubscriptionController(connectionPool);
@@ -63,7 +66,7 @@ public class Main
         DatingQueryController.addRoutes(javApp, connectionPool);
 
         // Team C
-        QuizController.addRoutes(javApp, connectionPool);
+        app.controllers.teamC.QuizController.addRoutes(javApp, connectionPool);
 
         // teamG:
         HackController.addRoutes(javApp, connectionPool);

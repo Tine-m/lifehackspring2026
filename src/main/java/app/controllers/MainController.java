@@ -28,8 +28,8 @@ public class MainController {
         //teamA, SubStats
         lifehackSites.add(new LifehackSite("SubStats", "Få styr på dine abonnementer", "teamA/login", "images/teamA/substats.png"));
 
-        //Team O, RandomMovies
-        lifehackSites.add(new LifehackSite("RandomMovies", "Find en tilfældig film", "teamO/index", "images/teamO/movie.png"));
+        //TeamR
+        lifehackSites.add(new LifehackSite("Be A Millionare - Quiz", "Open me!", "teamR", "images/main-page/GetRich.jpg"));
 
         //TeamM, Trackly
         lifehackSites.add(new LifehackSite("Trackly", "Track your subscriptions", "teamM", "images/teamM/image.png"));
@@ -49,7 +49,11 @@ public class MainController {
         lifehackSites.add(new LifehackSite("CoffiiMe", "Your way to good Coffee", "teamI/index", "images/teamI/coffiimeLogo.png"));
 
 
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
+
+
+
     }
 }
