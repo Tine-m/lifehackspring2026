@@ -87,7 +87,7 @@ public class Main
         app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
 
         //Codle app
-        WordController.addRoutes(app,connectionPool);
+        WordController.addRoutes(javApp,connectionPool);
 
     }
 }
