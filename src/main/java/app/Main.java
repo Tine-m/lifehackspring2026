@@ -1,8 +1,10 @@
-package app;
+package app;    
 
 import app.config.SessionConfig;
 import app.config.ThymeleafConfig;
 import app.controllers.MainController;
+import app.controllers.teamK.WordController;
+import app.controllers.teamteachers.QuoteController;
 import app.controllers.teamE.IngredientController;
 import app.controllers.teamE.RecipeController;
 import app.controllers.teamM.SubscriptionController;
@@ -38,7 +40,9 @@ public class Main
         }).start(7070);
 
 
+
         // Routing
+
         // Frontpage - you must register your app here
         MainController.addRoutes(javApp, connectionPool);
 
@@ -81,6 +85,9 @@ public class Main
 
         // teamB:
         app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
+
+        //Codle app
+        WordController.addRoutes(javApp,connectionPool);
 
     }
 }
