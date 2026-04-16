@@ -81,5 +81,6 @@ public class Main
 
         //teamL
         app.controllers.teamL.UserController.addRouts(javApp);
+
     }
 }
