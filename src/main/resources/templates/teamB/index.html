@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="/css/teamB/style.css">
+</head>
+<body>
+
+<div class="background" th:style="'background-image: url(' + ${bgImage} + ');'"></div>
+
+<div class="app">
+
+    <div class="credit">Motivational Quote Generator</div>
+
+    <div class="quote" th:text="${quote}">
+        You are not behind. You are becoming.
+    </div>
+
+    <form action="/teamB" method="post">
+        <button type="submit">New Quote</button>
+    </form>
+
+</div>
+
+</body>
+</html>

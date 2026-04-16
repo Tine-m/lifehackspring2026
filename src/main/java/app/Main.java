@@ -81,6 +81,8 @@ public class Main
 
         //teamL
         app.controllers.teamL.UserController.addRouts(javApp);
+        // teamB:
+        app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
 
     }
 }

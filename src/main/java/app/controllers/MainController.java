@@ -50,6 +50,8 @@ public class MainController {
 
         //teamL Minecraft editor
         lifehackSites.add(new LifehackSite("Headitor", "Create your own minecraft head!", "/teamL", "images/teamL/HeaditorLogo.png"));
+        //teamB Motivational Quotes
+        lifehackSites.add(new LifehackSite("Motivational Quote Generator", "Besøg siden", "/teamB", "images/teamB/img.png"));
 
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
