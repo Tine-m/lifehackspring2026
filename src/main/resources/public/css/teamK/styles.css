@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1D1E25;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', serif;
+    padding: 16px;
+    color: #eee;
+}
+
+.screen {
+    display: none;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.screen.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-card {
+    height: 80vh;
+    width: 90vw;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "category last-guess letters"
+        "hint hint hint"
+        "display-screen display-screen display-screen"
+        "keyboard keyboard keyboard";
+
+}
+
+.card-field {
+    text-align: center;
+    min-height: fit-content;
+
+}
+
+#category {
+    grid-area: category;
+    max-width: 45vw;
+}
+
+#last-guess {
+    grid-area: last-guess
+}
+
+#letters {
+    grid-area: letters;
+}
+
+#hint {
+    grid-area: hint;
+    margin-top: 10px;
+}
+
+#keyboard {
+    grid-area: keyboard;
+    height: 25vh;
+}
+
+.pop-up {
+    position: absolute;
+    background: #818283;
+    padding: 1rem 1rem 1rem 1rem;
+    opacity: 85%;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    width: 30vw;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#pop-up-win {
+    border: green 3px solid;
+}
+
+#pop-up-lose {
+    border: red 2px solid;
+}
+
+.hidden {
+    display: none;
+}
+
+.home-container {
+    width: 100%;
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.logo {
+    font-family: 'Jacques Francois', serif;
+    font-size: clamp(150px, 14vw, 96px);
+    color: #FFB143;
+    letter-spacing: 6px;
+}
+
+.logo-game {
+    font-family: 'Jacques Francois', serif;
+    font-size: clamp(40px, 7vw, 48px);
+    color: #FFB143;
+    letter-spacing: 6px;
+}
+
+.logo-sub {
+    color: #888;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+}
+
+.rules {
+    padding: 24px 28px;
+}
+
+.tile-correct {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: white;
+    background: white;
+    align-self: center;
+}
+
+.btn-start {
+    background: #FFB143;
+    width: 150px;
+    font-size: large;
+    color: black;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btn-restart {
+    margin-top: 1em;
+}
+
+.btn-start:hover {
+    background: #ac7430;
+    cursor: pointer;
+}
+
+.rules-grid {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    grid-template-areas:
+            "green-point green-text"
+            "yellow-point yellow-text"
+            "grey-point grey-text";
+    text-align: justify;
+}
+
+#green-point {
+    width: 20px;
+    border-radius: 3px;
+    background: #648B56;
+}
+
+#yellow-point {
+    width: 20px;
+    border-radius: 3px;
+    background: #B69F3A;
+}
+
+#grey-point {
+    width: 20px;
+    border-radius: 3px;
+    background: #818283;
+}
+
+#screen-complete {
+    text-align: center;
+}
+
+.complete-title {
+    font-size: 60px;
+    color: #FFB143;
+}
+
+#display-screen {
+    grid-area: display-screen;
+    height: 25vh;
+    margin: 10px 0;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(var(--letters), 7vw);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    }
+
+.letter-box {
+    font-size: 3rem;
+    display: flex;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    border: #FFB143 1px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-key {
+    font-weight: bold;
+    background: whitesmoke;
+    width: 5vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keyboard-key:hover {
+    border: #FFB143 1px solid;
+}
+
+.keyboard-key:active {
+    border: black 1px solid;
+}
