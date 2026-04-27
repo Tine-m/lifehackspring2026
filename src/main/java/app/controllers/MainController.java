@@ -48,6 +48,8 @@ public class MainController {
         //teamI CoffiiMe
         lifehackSites.add(new LifehackSite("CoffiiMe", "Your way to good Coffee", "teamI/index", "images/teamI/coffiimeLogo.png"));
 
+        //teamL Minecraft editor
+        lifehackSites.add(new LifehackSite("Headitor", "Create your own minecraft head!", "/teamL", "images/teamL/HeaditorLogo.png"));
         //teamB Motivational Quotes
         lifehackSites.add(new LifehackSite("Motivational Quote Generator", "Besøg siden", "/teamB", "images/teamB/img.png"));
 

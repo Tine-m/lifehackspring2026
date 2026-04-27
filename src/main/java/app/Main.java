@@ -79,6 +79,8 @@ public class Main
         app.controllers.teamI.UserController.addRoutes(javApp,connectionPool);
         app.controllers.teamI.CoffeController.addRoutes(javApp, connectionPool);
 
+        //teamL
+        app.controllers.teamL.UserController.addRouts(javApp);
         // teamB:
         app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
 
