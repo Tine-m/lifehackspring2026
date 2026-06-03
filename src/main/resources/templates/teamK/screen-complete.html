@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="da" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CODLE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/teamK/styles.css}" href="/css/teamK/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="screen-complete" class="screen active">
+    <div class="complete-container">
+        <h2 class="complete-title">KLARET!</h2>
+        <p class="complete-body">
+            Du har været igennem alle <strong id="complete-total"></strong> ord. <br/>
+            Nu er du klar til din eksamen!
+        </p>
+        <button class="btn-home btn-start">Hjem</button>
+        <button id="btn-restart" class="btn-start">SPIL IGEN!</button>
+    </div>
+</div>
+
+<script src="/js/teamK/codle.js"></script>
+</body>
+</html>
