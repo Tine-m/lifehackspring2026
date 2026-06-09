@@ -26,6 +26,8 @@
     </properties>
 
     <dependencies>
+
+
         <dependency>
             <groupId>io.javalin</groupId>
             <artifactId>javalin</artifactId>

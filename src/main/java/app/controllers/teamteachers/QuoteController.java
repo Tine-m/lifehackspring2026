@@ -14,6 +14,10 @@ public class QuoteController {
         // app.get("/ask", ctx -> ctx.render("answer.html"));
     }
 
+    private static void philosophersHome(@NotNull Context ctx) {
+        ctx.render("teamteachers/quiz.html");
+    }
+
     private static void ask(@NotNull Context ctx, ConnectionPool connectionPool) {
         String input = ctx.formParam("ask");
         Quote philosophicalAnswer = QuoteMapper.getPhilosophicalAnswer(input, connectionPool);
@@ -21,6 +25,10 @@ public class QuoteController {
         ctx.attribute("philosopher", philosophicalAnswer.getPhilosopher());
         ctx.attribute("philosopherImage", philosophicalAnswer.getPicture());
         ctx.render("teamteachers/frontpage.html");
+        ctx.render("teamteachers/quiz.html");
+        /*
+        Her søges og hentes fra quote mapper - indtil da hardcodes et citat.
+        Tænker også at vi kan gemme billednavn i db */
     }
 
     private static void getAnswer(Context ctx, ConnectionPool connectionPool){
