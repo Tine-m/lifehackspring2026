@@ -1,15 +1,11 @@
-package app.entities.teamK;
-
-import java.util.Objects;
+package app.entities.TeamK;
 
 public class Word {
-
     private int id;
     private String word;
     private String hint;
     private String category;
     private int wordLength;
-    private String[] wordArray;
 
     public Word(int id, String word, String hint, String category, int wordLength) {
         this.id = id;
@@ -17,7 +13,6 @@ public class Word {
         this.hint = hint;
         this.category = category;
         this.wordLength = wordLength;
-        this.wordArray = word.split("");
     }
 
     public int getId() {
@@ -58,25 +53,5 @@ public class Word {
 
     public void setWordLength(int wordLength) {
         this.wordLength = wordLength;
-    }
-
-    public String[] getWordArray() {
-        return wordArray;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        Word word1 = (Word) o;
-        return id == word1.id
-                && wordLength == word1.wordLength
-                && Objects.equals(word, word1.word)
-                && Objects.equals(hint, word1.hint)
-                && Objects.equals(category, word1.category);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, word, hint, category, wordLength);
     }
 }
