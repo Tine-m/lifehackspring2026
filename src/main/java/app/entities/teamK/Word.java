@@ -1,5 +1,6 @@
 package app.entities.teamK;
 
+
 public class Word {
     private int id;
     private String word;
