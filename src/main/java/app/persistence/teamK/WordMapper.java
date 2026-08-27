@@ -10,23 +10,23 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class    WordMapper {
+public class WordMapper {
 
     ConnectionPool connectionPool;
 
-    public WordMapper (ConnectionPool connectionPool){
+    public WordMapper(ConnectionPool connectionPool) {
         this.connectionPool = connectionPool;
     }
 
-    public List<Word> generateWordList(){
+    public List<Word> generateWordList() {
         List<Word> wordList = new ArrayList<>();
 
         String sql = "SELECT * from teamk_words";
         try (Connection cp = connectionPool.getConnection();
              PreparedStatement preparedStatement = cp.prepareStatement(sql);
-             ResultSet rs = preparedStatement.executeQuery()){
+             ResultSet rs = preparedStatement.executeQuery()) {
 
-            while (rs.next()){
+            while (rs.next()) {
 
                 int id = rs.getInt("id");
                 String wordName = rs.getString("word");
@@ -39,7 +39,7 @@ public class    WordMapper {
             }
             return wordList;
 
-        } catch (SQLException e){
+        } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
         return null;
