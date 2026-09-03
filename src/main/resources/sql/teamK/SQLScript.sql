@@ -1,12 +1,12 @@
-CREATE TABLE teamK_words (
-                       id          SERIAL PRIMARY KEY,
-                       word        VARCHAR(50)  NOT NULL,
-                       hint        VARCHAR(255) NOT NULL,
-                       category    VARCHAR(20)  NOT NULL,
-                       word_length INT          NOT NULL
+CREATE TABLE teamk_words (
+                             id          SERIAL PRIMARY KEY,
+                             word        VARCHAR(50)  NOT NULL,
+                             hint        VARCHAR(255) NOT NULL,
+                             category    VARCHAR(20)  NOT NULL,
+                             word_length INT          NOT NULL
 );
 
-INSERT INTO teamK_words (word, hint, category, word_length) VALUES
+INSERT INTO teamk_words (word, hint, category, word_length) VALUES
 
 -- OOP / UML
 ('OBJECT',          'En instans af en klasse med egne attributter og metoder',                            'OOP', 6),
