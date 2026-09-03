@@ -51,6 +51,9 @@ public class MainController {
         //teamB Motivational Quotes
         lifehackSites.add(new LifehackSite("Motivational Quote Generator", "Besøg siden", "/teamB", "images/teamB/img.png"));
 
+        //teamK - Codle
+        lifehackSites.add(new LifehackSite("Codle", "Spil", "/codle", "/images/teamK/codle.png"));
+
         ctx.attribute("lifehackSites", lifehackSites);
         ctx.render("index.html");
     }

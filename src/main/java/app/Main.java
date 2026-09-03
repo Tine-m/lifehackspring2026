@@ -5,6 +5,7 @@ import app.config.ThymeleafConfig;
 import app.controllers.MainController;
 import app.controllers.teamE.IngredientController;
 import app.controllers.teamE.RecipeController;
+import app.controllers.teamK.WordController;
 import app.controllers.teamM.SubscriptionController;
 import app.controllers.teamQ.DatingQueryController;
 import app.controllers.login.UserController;
@@ -81,6 +82,9 @@ public class Main
 
         // teamB:
         app.controllers.teamB.TeamBQuoteController.addRoutes(javApp, connectionPool);
+
+        //Codle
+        WordController.addRoutes(javApp, connectionPool);
 
     }
 }
