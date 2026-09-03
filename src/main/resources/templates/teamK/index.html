@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="da" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CODLE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/teamK/styles.css}" href="/css/teamK/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="screen-home" class="screen active">
+    <div class="home-container">
+
+        <h1 class="logo">CODLE</h1>
+        <p class="logo-sub">Gæt et kodebegreb</p>
+
+        <div class="rules">
+            <p class="rules-title">SÅDAN SPILLER DU:</p>
+            <p class="rules-body">
+                Et tilfældigt kodebegreb vil blive vist. Ordet kan være mellem 3-13 bogstaver,
+                og fra en række forskellige emner.
+                Du har <strong>3 forsøg</strong> til at gætte ordet. Et hint vil blive vist
+                for at hjælpe dig med at gætte ordet.
+            </p>
+
+
+            <div class="rules-grid">
+                <div id="green-point"></div>
+                <div id="green-text">Rigtigt bogstav og position</div>
+                <div id="yellow-point"></div>
+                <div id="yellow-text">Rigtigt bogstav, forkert position</div>
+                <div id="grey-point"></div>
+                <div id="grey-text">Bogstavet findes ikke i ordet</div>
+            </div>
+
+        </div>
+
+        <button id="btn-lifehack" class="btn-start">Lifehack</button>
+        <button id="btn-start" class="btn-start">START SPIL</button>
+
+    </div>
+</div>
+
+
+
+<script src="/js/teamK/codle.js"></script>
+</body>
+
+</html>
