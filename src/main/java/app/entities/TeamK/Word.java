@@ -1,4 +1,4 @@
-package app.entities.TeamK;
+package app.entities.teamK;
 
 public class Word {
     private int id;
