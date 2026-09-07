@@ -85,6 +85,5 @@ public class Main
 
         //Codle
         WordController.addRoutes(javApp, connectionPool);
-
     }
 }
